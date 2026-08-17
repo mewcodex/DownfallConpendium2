@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-17T16:10:03.812745Z",
+  "generatedAt": "2026-08-17T16:12:00.868702Z",
   "modVersion": "0.1.13",
   "translationVersion": "2026_08_17_21_01_04_635d8d",
   "baseKeywords": [],
@@ -88,8 +88,8 @@
         {
           "mode": "always",
           "label": {
-            "en": "Exhaust",
-            "zh": "消耗"
+            "en": "Exhaust.",
+            "zh": "消耗。"
           }
         }
       ],
@@ -183,8 +183,8 @@
         {
           "mode": "always",
           "label": {
-            "en": "Exhaust",
-            "zh": "消耗"
+            "en": "Exhaust.",
+            "zh": "消耗。"
           }
         }
       ],
@@ -277,8 +277,8 @@
         {
           "mode": "always",
           "label": {
-            "en": "Innate",
-            "zh": "固有"
+            "en": "Innate.",
+            "zh": "固有。"
           }
         }
       ],
@@ -709,8 +709,8 @@
         {
           "mode": "always",
           "label": {
-            "en": "Exhaust",
-            "zh": "消耗"
+            "en": "Exhaust.",
+            "zh": "消耗。"
           }
         }
       ],
@@ -1970,8 +1970,8 @@
         {
           "mode": "remove",
           "label": {
-            "en": "Exhaust",
-            "zh": "消耗"
+            "en": "Exhaust.",
+            "zh": "消耗。"
           }
         }
       ],
@@ -2591,8 +2591,8 @@
         {
           "mode": "always",
           "label": {
-            "en": "Exhaust",
-            "zh": "消耗"
+            "en": "Exhaust.",
+            "zh": "消耗。"
           }
         }
       ],
@@ -2685,8 +2685,8 @@
         {
           "mode": "always",
           "label": {
-            "en": "Ethereal",
-            "zh": "虚无"
+            "en": "Ethereal.",
+            "zh": "虚无。"
           }
         }
       ],
@@ -2773,8 +2773,8 @@
         {
           "mode": "always",
           "label": {
-            "en": "Exhaust",
-            "zh": "消耗"
+            "en": "Exhaust.",
+            "zh": "消耗。"
           }
         }
       ],
@@ -2968,8 +2968,8 @@
         {
           "mode": "remove",
           "label": {
-            "en": "Exhaust",
-            "zh": "消耗"
+            "en": "Exhaust.",
+            "zh": "消耗。"
           }
         }
       ],
@@ -3060,13 +3060,21 @@
           "upgradeWithParent": false
         }
       ],
-      "descriptionKeywordPrefix": [],
+      "descriptionKeywordPrefix": [
+        {
+          "mode": "add",
+          "label": {
+            "en": "Retain.",
+            "zh": "保留。"
+          }
+        }
+      ],
       "descriptionKeywordSuffix": [
         {
           "mode": "always",
           "label": {
-            "en": "Exhaust",
-            "zh": "消耗"
+            "en": "Exhaust.",
+            "zh": "消耗。"
           }
         }
       ],
@@ -3155,7 +3163,15 @@
         }
       ],
       "attachedCardTips": [],
-      "descriptionKeywordPrefix": [],
+      "descriptionKeywordPrefix": [
+        {
+          "mode": "add",
+          "label": {
+            "en": "Retain.",
+            "zh": "保留。"
+          }
+        }
+      ],
       "descriptionKeywordSuffix": [],
       "dynamicDescriptionLines": []
     },
@@ -3249,8 +3265,8 @@
         {
           "mode": "always",
           "label": {
-            "en": "Exhaust",
-            "zh": "消耗"
+            "en": "Exhaust.",
+            "zh": "消耗。"
           }
         }
       ],
@@ -3523,8 +3539,8 @@
         {
           "mode": "always",
           "label": {
-            "en": "Exhaust",
-            "zh": "消耗"
+            "en": "Exhaust.",
+            "zh": "消耗。"
           }
         }
       ],
@@ -3624,8 +3640,8 @@
         {
           "mode": "always",
           "label": {
-            "en": "Exhaust",
-            "zh": "消耗"
+            "en": "Exhaust.",
+            "zh": "消耗。"
           }
         }
       ],
@@ -3779,8 +3795,8 @@
         {
           "mode": "always",
           "label": {
-            "en": "Exhaust",
-            "zh": "消耗"
+            "en": "Exhaust.",
+            "zh": "消耗。"
           }
         }
       ],
@@ -5218,8 +5234,8 @@
         {
           "mode": "always",
           "label": {
-            "en": "Exhaust",
-            "zh": "消耗"
+            "en": "Exhaust.",
+            "zh": "消耗。"
           }
         }
       ],
@@ -5391,7 +5407,15 @@
         }
       ],
       "attachedCardTips": [],
-      "descriptionKeywordPrefix": [],
+      "descriptionKeywordPrefix": [
+        {
+          "mode": "add",
+          "label": {
+            "en": "Retain.",
+            "zh": "保留。"
+          }
+        }
+      ],
       "descriptionKeywordSuffix": [],
       "dynamicDescriptionLines": []
     },
@@ -5724,8 +5748,8 @@
         {
           "mode": "add",
           "label": {
-            "en": "Innate",
-            "zh": "固有"
+            "en": "Innate.",
+            "zh": "固有。"
           }
         }
       ],
@@ -5895,8 +5919,8 @@
         {
           "mode": "always",
           "label": {
-            "en": "Ethereal",
-            "zh": "虚无"
+            "en": "Ethereal.",
+            "zh": "虚无。"
           }
         }
       ],
@@ -7088,8 +7112,8 @@
         {
           "mode": "remove",
           "label": {
-            "en": "Ethereal",
-            "zh": "虚无"
+            "en": "Ethereal.",
+            "zh": "虚无。"
           }
         }
       ],
@@ -7333,8 +7357,8 @@
         {
           "mode": "always",
           "label": {
-            "en": "Ethereal",
-            "zh": "虚无"
+            "en": "Ethereal.",
+            "zh": "虚无。"
           }
         }
       ],
@@ -7425,8 +7449,8 @@
         {
           "mode": "always",
           "label": {
-            "en": "Exhaust",
-            "zh": "消耗"
+            "en": "Exhaust.",
+            "zh": "消耗。"
           }
         }
       ],
@@ -7613,7 +7637,15 @@
         }
       ],
       "attachedCardTips": [],
-      "descriptionKeywordPrefix": [],
+      "descriptionKeywordPrefix": [
+        {
+          "mode": "always",
+          "label": {
+            "en": "Retain.",
+            "zh": "保留。"
+          }
+        }
+      ],
       "descriptionKeywordSuffix": [],
       "dynamicDescriptionLines": []
     },
@@ -7800,8 +7832,8 @@
         {
           "mode": "add",
           "label": {
-            "en": "Innate",
-            "zh": "固有"
+            "en": "Innate.",
+            "zh": "固有。"
           }
         }
       ],
@@ -7954,8 +7986,8 @@
         {
           "mode": "always",
           "label": {
-            "en": "Exhaust",
-            "zh": "消耗"
+            "en": "Exhaust.",
+            "zh": "消耗。"
           }
         }
       ],
@@ -8123,8 +8155,8 @@
         {
           "mode": "always",
           "label": {
-            "en": "Exhaust",
-            "zh": "消耗"
+            "en": "Exhaust.",
+            "zh": "消耗。"
           }
         }
       ],
@@ -8235,8 +8267,8 @@
         {
           "mode": "always",
           "label": {
-            "en": "Exhaust",
-            "zh": "消耗"
+            "en": "Exhaust.",
+            "zh": "消耗。"
           }
         }
       ],
@@ -8397,8 +8429,8 @@
         {
           "mode": "always",
           "label": {
-            "en": "Exhaust",
-            "zh": "消耗"
+            "en": "Exhaust.",
+            "zh": "消耗。"
           }
         }
       ],
@@ -8951,7 +8983,15 @@
         }
       ],
       "attachedCardTips": [],
-      "descriptionKeywordPrefix": [],
+      "descriptionKeywordPrefix": [
+        {
+          "mode": "always",
+          "label": {
+            "en": "Retain.",
+            "zh": "保留。"
+          }
+        }
+      ],
       "descriptionKeywordSuffix": [],
       "dynamicDescriptionLines": []
     },
@@ -9202,8 +9242,8 @@
         {
           "mode": "always",
           "label": {
-            "en": "Exhaust",
-            "zh": "消耗"
+            "en": "Exhaust.",
+            "zh": "消耗。"
           }
         }
       ],
@@ -9306,8 +9346,8 @@
         {
           "mode": "add",
           "label": {
-            "en": "Innate",
-            "zh": "固有"
+            "en": "Innate.",
+            "zh": "固有。"
           }
         }
       ],
@@ -9529,8 +9569,8 @@
         {
           "mode": "remove",
           "label": {
-            "en": "Exhaust",
-            "zh": "消耗"
+            "en": "Exhaust.",
+            "zh": "消耗。"
           }
         }
       ],
@@ -9707,13 +9747,21 @@
         }
       ],
       "attachedCardTips": [],
-      "descriptionKeywordPrefix": [],
+      "descriptionKeywordPrefix": [
+        {
+          "mode": "always",
+          "label": {
+            "en": "Retain.",
+            "zh": "保留。"
+          }
+        }
+      ],
       "descriptionKeywordSuffix": [
         {
           "mode": "always",
           "label": {
-            "en": "Exhaust",
-            "zh": "消耗"
+            "en": "Exhaust.",
+            "zh": "消耗。"
           }
         }
       ],
@@ -9984,7 +10032,15 @@
         }
       ],
       "attachedCardTips": [],
-      "descriptionKeywordPrefix": [],
+      "descriptionKeywordPrefix": [
+        {
+          "mode": "always",
+          "label": {
+            "en": "Retain.",
+            "zh": "保留。"
+          }
+        }
+      ],
       "descriptionKeywordSuffix": [],
       "dynamicDescriptionLines": []
     },
@@ -10288,8 +10344,8 @@
         {
           "mode": "always",
           "label": {
-            "en": "Exhaust",
-            "zh": "消耗"
+            "en": "Exhaust.",
+            "zh": "消耗。"
           }
         }
       ],
@@ -10365,7 +10421,15 @@
         }
       ],
       "attachedCardTips": [],
-      "descriptionKeywordPrefix": [],
+      "descriptionKeywordPrefix": [
+        {
+          "mode": "always",
+          "label": {
+            "en": "Retain.",
+            "zh": "保留。"
+          }
+        }
+      ],
       "descriptionKeywordSuffix": [],
       "dynamicDescriptionLines": []
     },
@@ -10452,13 +10516,21 @@
         }
       ],
       "attachedCardTips": [],
-      "descriptionKeywordPrefix": [],
+      "descriptionKeywordPrefix": [
+        {
+          "mode": "always",
+          "label": {
+            "en": "Retain.",
+            "zh": "保留。"
+          }
+        }
+      ],
       "descriptionKeywordSuffix": [
         {
           "mode": "always",
           "label": {
-            "en": "Exhaust",
-            "zh": "消耗"
+            "en": "Exhaust.",
+            "zh": "消耗。"
           }
         }
       ],
@@ -10649,13 +10721,21 @@
         }
       ],
       "attachedCardTips": [],
-      "descriptionKeywordPrefix": [],
+      "descriptionKeywordPrefix": [
+        {
+          "mode": "always",
+          "label": {
+            "en": "Retain.",
+            "zh": "保留。"
+          }
+        }
+      ],
       "descriptionKeywordSuffix": [
         {
           "mode": "always",
           "label": {
-            "en": "Exhaust",
-            "zh": "消耗"
+            "en": "Exhaust.",
+            "zh": "消耗。"
           }
         }
       ],
@@ -10791,8 +10871,8 @@
         {
           "mode": "add",
           "label": {
-            "en": "Innate",
-            "zh": "固有"
+            "en": "Innate.",
+            "zh": "固有。"
           }
         }
       ],
@@ -10974,8 +11054,8 @@
         {
           "mode": "always",
           "label": {
-            "en": "Exhaust",
-            "zh": "消耗"
+            "en": "Exhaust.",
+            "zh": "消耗。"
           }
         }
       ],
@@ -11395,8 +11475,8 @@
         {
           "mode": "always",
           "label": {
-            "en": "Exhaust",
-            "zh": "消耗"
+            "en": "Exhaust.",
+            "zh": "消耗。"
           }
         }
       ],
@@ -11692,13 +11772,21 @@
         }
       ],
       "attachedCardTips": [],
-      "descriptionKeywordPrefix": [],
+      "descriptionKeywordPrefix": [
+        {
+          "mode": "always",
+          "label": {
+            "en": "Retain.",
+            "zh": "保留。"
+          }
+        }
+      ],
       "descriptionKeywordSuffix": [
         {
           "mode": "always",
           "label": {
-            "en": "Exhaust",
-            "zh": "消耗"
+            "en": "Exhaust.",
+            "zh": "消耗。"
           }
         }
       ],
@@ -11907,13 +11995,21 @@
         }
       ],
       "attachedCardTips": [],
-      "descriptionKeywordPrefix": [],
+      "descriptionKeywordPrefix": [
+        {
+          "mode": "always",
+          "label": {
+            "en": "Retain.",
+            "zh": "保留。"
+          }
+        }
+      ],
       "descriptionKeywordSuffix": [
         {
           "mode": "always",
           "label": {
-            "en": "Exhaust",
-            "zh": "消耗"
+            "en": "Exhaust.",
+            "zh": "消耗。"
           }
         }
       ],
@@ -12000,8 +12096,8 @@
         {
           "mode": "remove",
           "label": {
-            "en": "Exhaust",
-            "zh": "消耗"
+            "en": "Exhaust.",
+            "zh": "消耗。"
           }
         }
       ],
@@ -12398,8 +12494,8 @@
         {
           "mode": "always",
           "label": {
-            "en": "Exhaust",
-            "zh": "消耗"
+            "en": "Exhaust.",
+            "zh": "消耗。"
           }
         }
       ],
@@ -12704,8 +12800,8 @@
         {
           "mode": "always",
           "label": {
-            "en": "Exhaust",
-            "zh": "消耗"
+            "en": "Exhaust.",
+            "zh": "消耗。"
           }
         }
       ],
@@ -12864,7 +12960,15 @@
         }
       ],
       "attachedCardTips": [],
-      "descriptionKeywordPrefix": [],
+      "descriptionKeywordPrefix": [
+        {
+          "mode": "always",
+          "label": {
+            "en": "Retain.",
+            "zh": "保留。"
+          }
+        }
+      ],
       "descriptionKeywordSuffix": [],
       "dynamicDescriptionLines": []
     },
@@ -13088,7 +13192,15 @@
         }
       ],
       "attachedCardTips": [],
-      "descriptionKeywordPrefix": [],
+      "descriptionKeywordPrefix": [
+        {
+          "mode": "add",
+          "label": {
+            "en": "Retain.",
+            "zh": "保留。"
+          }
+        }
+      ],
       "descriptionKeywordSuffix": [],
       "dynamicDescriptionLines": []
     },
@@ -13664,8 +13776,8 @@
         {
           "mode": "always",
           "label": {
-            "en": "Exhaust",
-            "zh": "消耗"
+            "en": "Exhaust.",
+            "zh": "消耗。"
           }
         }
       ],
@@ -13819,7 +13931,15 @@
         }
       ],
       "attachedCardTips": [],
-      "descriptionKeywordPrefix": [],
+      "descriptionKeywordPrefix": [
+        {
+          "mode": "add",
+          "label": {
+            "en": "Retain.",
+            "zh": "保留。"
+          }
+        }
+      ],
       "descriptionKeywordSuffix": [],
       "dynamicDescriptionLines": []
     },
@@ -14232,13 +14352,21 @@
         }
       ],
       "attachedCardTips": [],
-      "descriptionKeywordPrefix": [],
+      "descriptionKeywordPrefix": [
+        {
+          "mode": "always",
+          "label": {
+            "en": "Retain.",
+            "zh": "保留。"
+          }
+        }
+      ],
       "descriptionKeywordSuffix": [
         {
           "mode": "always",
           "label": {
-            "en": "Exhaust",
-            "zh": "消耗"
+            "en": "Exhaust.",
+            "zh": "消耗。"
           }
         }
       ],
@@ -14402,8 +14530,8 @@
         {
           "mode": "always",
           "label": {
-            "en": "Exhaust",
-            "zh": "消耗"
+            "en": "Exhaust.",
+            "zh": "消耗。"
           }
         }
       ],
@@ -14756,8 +14884,8 @@
         {
           "mode": "always",
           "label": {
-            "en": "Exhaust",
-            "zh": "消耗"
+            "en": "Exhaust.",
+            "zh": "消耗。"
           }
         }
       ],
@@ -15019,8 +15147,8 @@
         {
           "mode": "remove",
           "label": {
-            "en": "Ethereal",
-            "zh": "虚无"
+            "en": "Ethereal.",
+            "zh": "虚无。"
           }
         }
       ],
@@ -15269,8 +15397,8 @@
         {
           "mode": "always",
           "label": {
-            "en": "Exhaust",
-            "zh": "消耗"
+            "en": "Exhaust.",
+            "zh": "消耗。"
           }
         }
       ],
@@ -16042,8 +16170,8 @@
         {
           "mode": "always",
           "label": {
-            "en": "Exhaust",
-            "zh": "消耗"
+            "en": "Exhaust.",
+            "zh": "消耗。"
           }
         }
       ],
@@ -16136,8 +16264,8 @@
         {
           "mode": "always",
           "label": {
-            "en": "Ethereal",
-            "zh": "虚无"
+            "en": "Ethereal.",
+            "zh": "虚无。"
           }
         }
       ],
@@ -16652,8 +16780,8 @@
         {
           "mode": "always",
           "label": {
-            "en": "Exhaust",
-            "zh": "消耗"
+            "en": "Exhaust.",
+            "zh": "消耗。"
           }
         }
       ],
@@ -16804,13 +16932,21 @@
         }
       ],
       "attachedCardTips": [],
-      "descriptionKeywordPrefix": [],
+      "descriptionKeywordPrefix": [
+        {
+          "mode": "always",
+          "label": {
+            "en": "Retain.",
+            "zh": "保留。"
+          }
+        }
+      ],
       "descriptionKeywordSuffix": [
         {
           "mode": "always",
           "label": {
-            "en": "Exhaust",
-            "zh": "消耗"
+            "en": "Exhaust.",
+            "zh": "消耗。"
           }
         }
       ],
@@ -16953,8 +17089,8 @@
         {
           "mode": "always",
           "label": {
-            "en": "Exhaust",
-            "zh": "消耗"
+            "en": "Exhaust.",
+            "zh": "消耗。"
           }
         }
       ],
@@ -17050,8 +17186,8 @@
         {
           "mode": "always",
           "label": {
-            "en": "Exhaust",
-            "zh": "消耗"
+            "en": "Exhaust.",
+            "zh": "消耗。"
           }
         }
       ],
@@ -17238,8 +17374,8 @@
         {
           "mode": "always",
           "label": {
-            "en": "Exhaust",
-            "zh": "消耗"
+            "en": "Exhaust.",
+            "zh": "消耗。"
           }
         }
       ],
@@ -17475,13 +17611,21 @@
         }
       ],
       "attachedCardTips": [],
-      "descriptionKeywordPrefix": [],
+      "descriptionKeywordPrefix": [
+        {
+          "mode": "add",
+          "label": {
+            "en": "Retain.",
+            "zh": "保留。"
+          }
+        }
+      ],
       "descriptionKeywordSuffix": [
         {
           "mode": "always",
           "label": {
-            "en": "Exhaust",
-            "zh": "消耗"
+            "en": "Exhaust.",
+            "zh": "消耗。"
           }
         }
       ],
@@ -18212,8 +18356,8 @@
         {
           "mode": "always",
           "label": {
-            "en": "Exhaust",
-            "zh": "消耗"
+            "en": "Exhaust.",
+            "zh": "消耗。"
           }
         }
       ],
@@ -18702,8 +18846,8 @@
         {
           "mode": "remove",
           "label": {
-            "en": "Ethereal",
-            "zh": "虚无"
+            "en": "Ethereal.",
+            "zh": "虚无。"
           }
         }
       ],
@@ -18800,8 +18944,8 @@
         {
           "mode": "always",
           "label": {
-            "en": "Exhaust",
-            "zh": "消耗"
+            "en": "Exhaust.",
+            "zh": "消耗。"
           }
         }
       ],
@@ -19042,7 +19186,15 @@
         }
       ],
       "attachedCardTips": [],
-      "descriptionKeywordPrefix": [],
+      "descriptionKeywordPrefix": [
+        {
+          "mode": "always",
+          "label": {
+            "en": "Retain.",
+            "zh": "保留。"
+          }
+        }
+      ],
       "descriptionKeywordSuffix": [],
       "dynamicDescriptionLines": []
     },
@@ -19337,7 +19489,15 @@
         }
       ],
       "attachedCardTips": [],
-      "descriptionKeywordPrefix": [],
+      "descriptionKeywordPrefix": [
+        {
+          "mode": "always",
+          "label": {
+            "en": "Retain.",
+            "zh": "保留。"
+          }
+        }
+      ],
       "descriptionKeywordSuffix": [],
       "dynamicDescriptionLines": []
     },
@@ -19424,8 +19584,8 @@
         {
           "mode": "remove",
           "label": {
-            "en": "Ethereal",
-            "zh": "虚无"
+            "en": "Ethereal.",
+            "zh": "虚无。"
           }
         }
       ],
@@ -19433,8 +19593,8 @@
         {
           "mode": "always",
           "label": {
-            "en": "Exhaust",
-            "zh": "消耗"
+            "en": "Exhaust.",
+            "zh": "消耗。"
           }
         }
       ],
@@ -19523,8 +19683,8 @@
         {
           "mode": "remove",
           "label": {
-            "en": "Ethereal",
-            "zh": "虚无"
+            "en": "Ethereal.",
+            "zh": "虚无。"
           }
         }
       ],
@@ -19532,8 +19692,8 @@
         {
           "mode": "always",
           "label": {
-            "en": "Exhaust",
-            "zh": "消耗"
+            "en": "Exhaust.",
+            "zh": "消耗。"
           }
         }
       ],
@@ -19622,8 +19782,8 @@
         {
           "mode": "remove",
           "label": {
-            "en": "Ethereal",
-            "zh": "虚无"
+            "en": "Ethereal.",
+            "zh": "虚无。"
           }
         }
       ],
@@ -19631,8 +19791,8 @@
         {
           "mode": "always",
           "label": {
-            "en": "Exhaust",
-            "zh": "消耗"
+            "en": "Exhaust.",
+            "zh": "消耗。"
           }
         }
       ],
@@ -20597,8 +20757,8 @@
         {
           "mode": "remove",
           "label": {
-            "en": "Ethereal",
-            "zh": "虚无"
+            "en": "Ethereal.",
+            "zh": "虚无。"
           }
         }
       ],
@@ -21336,8 +21496,8 @@
         {
           "mode": "always",
           "label": {
-            "en": "Exhaust",
-            "zh": "消耗"
+            "en": "Exhaust.",
+            "zh": "消耗。"
           }
         }
       ],
@@ -21674,8 +21834,8 @@
         {
           "mode": "remove",
           "label": {
-            "en": "Ethereal",
-            "zh": "虚无"
+            "en": "Ethereal.",
+            "zh": "虚无。"
           }
         }
       ],
@@ -22241,7 +22401,15 @@
         }
       ],
       "attachedCardTips": [],
-      "descriptionKeywordPrefix": [],
+      "descriptionKeywordPrefix": [
+        {
+          "mode": "always",
+          "label": {
+            "en": "Retain.",
+            "zh": "保留。"
+          }
+        }
+      ],
       "descriptionKeywordSuffix": [],
       "dynamicDescriptionLines": []
     },
@@ -22321,7 +22489,15 @@
         }
       ],
       "attachedCardTips": [],
-      "descriptionKeywordPrefix": [],
+      "descriptionKeywordPrefix": [
+        {
+          "mode": "always",
+          "label": {
+            "en": "Retain.",
+            "zh": "保留。"
+          }
+        }
+      ],
       "descriptionKeywordSuffix": [],
       "dynamicDescriptionLines": []
     },
@@ -22999,8 +23175,8 @@
         {
           "mode": "remove",
           "label": {
-            "en": "Exhaust",
-            "zh": "消耗"
+            "en": "Exhaust.",
+            "zh": "消耗。"
           }
         }
       ],
@@ -23245,8 +23421,8 @@
         {
           "mode": "always",
           "label": {
-            "en": "Ethereal",
-            "zh": "虚无"
+            "en": "Ethereal.",
+            "zh": "虚无。"
           }
         }
       ],
@@ -23254,8 +23430,8 @@
         {
           "mode": "always",
           "label": {
-            "en": "Exhaust",
-            "zh": "消耗"
+            "en": "Exhaust.",
+            "zh": "消耗。"
           }
         }
       ],
@@ -23344,7 +23520,15 @@
         }
       ],
       "attachedCardTips": [],
-      "descriptionKeywordPrefix": [],
+      "descriptionKeywordPrefix": [
+        {
+          "mode": "always",
+          "label": {
+            "en": "Retain.",
+            "zh": "保留。"
+          }
+        }
+      ],
       "descriptionKeywordSuffix": [],
       "dynamicDescriptionLines": []
     },
@@ -24917,13 +25101,21 @@
         }
       ],
       "attachedCardTips": [],
-      "descriptionKeywordPrefix": [],
+      "descriptionKeywordPrefix": [
+        {
+          "mode": "always",
+          "label": {
+            "en": "Retain.",
+            "zh": "保留。"
+          }
+        }
+      ],
       "descriptionKeywordSuffix": [
         {
           "mode": "always",
           "label": {
-            "en": "Exhaust",
-            "zh": "消耗"
+            "en": "Exhaust.",
+            "zh": "消耗。"
           }
         }
       ],
@@ -25209,8 +25401,8 @@
         {
           "mode": "remove",
           "label": {
-            "en": "Exhaust",
-            "zh": "消耗"
+            "en": "Exhaust.",
+            "zh": "消耗。"
           }
         }
       ],
@@ -25632,8 +25824,8 @@
         {
           "mode": "always",
           "label": {
-            "en": "Ethereal",
-            "zh": "虚无"
+            "en": "Ethereal.",
+            "zh": "虚无。"
           }
         }
       ],
@@ -25641,8 +25833,8 @@
         {
           "mode": "always",
           "label": {
-            "en": "Exhaust",
-            "zh": "消耗"
+            "en": "Exhaust.",
+            "zh": "消耗。"
           }
         }
       ],
@@ -25986,8 +26178,8 @@
         {
           "mode": "always",
           "label": {
-            "en": "Exhaust",
-            "zh": "消耗"
+            "en": "Exhaust.",
+            "zh": "消耗。"
           }
         }
       ],
@@ -26233,8 +26425,8 @@
         {
           "mode": "always",
           "label": {
-            "en": "Exhaust",
-            "zh": "消耗"
+            "en": "Exhaust.",
+            "zh": "消耗。"
           }
         }
       ],
@@ -26777,8 +26969,8 @@
         {
           "mode": "always",
           "label": {
-            "en": "Exhaust",
-            "zh": "消耗"
+            "en": "Exhaust.",
+            "zh": "消耗。"
           }
         }
       ],
@@ -26865,8 +27057,8 @@
         {
           "mode": "always",
           "label": {
-            "en": "Exhaust",
-            "zh": "消耗"
+            "en": "Exhaust.",
+            "zh": "消耗。"
           }
         }
       ],
@@ -26968,7 +27160,15 @@
         }
       ],
       "attachedCardTips": [],
-      "descriptionKeywordPrefix": [],
+      "descriptionKeywordPrefix": [
+        {
+          "mode": "add",
+          "label": {
+            "en": "Retain.",
+            "zh": "保留。"
+          }
+        }
+      ],
       "descriptionKeywordSuffix": [],
       "dynamicDescriptionLines": []
     },
@@ -27043,8 +27243,8 @@
         {
           "mode": "always",
           "label": {
-            "en": "Exhaust",
-            "zh": "消耗"
+            "en": "Exhaust.",
+            "zh": "消耗。"
           }
         }
       ],
@@ -27402,8 +27602,8 @@
         {
           "mode": "always",
           "label": {
-            "en": "Exhaust",
-            "zh": "消耗"
+            "en": "Exhaust.",
+            "zh": "消耗。"
           }
         }
       ],
@@ -27505,13 +27705,21 @@
         }
       ],
       "attachedCardTips": [],
-      "descriptionKeywordPrefix": [],
+      "descriptionKeywordPrefix": [
+        {
+          "mode": "always",
+          "label": {
+            "en": "Retain.",
+            "zh": "保留。"
+          }
+        }
+      ],
       "descriptionKeywordSuffix": [
         {
           "mode": "always",
           "label": {
-            "en": "Exhaust",
-            "zh": "消耗"
+            "en": "Exhaust.",
+            "zh": "消耗。"
           }
         }
       ],
@@ -27857,8 +28065,8 @@
         {
           "mode": "always",
           "label": {
-            "en": "Exhaust",
-            "zh": "消耗"
+            "en": "Exhaust.",
+            "zh": "消耗。"
           }
         }
       ],
@@ -28096,8 +28304,8 @@
         {
           "mode": "always",
           "label": {
-            "en": "Exhaust",
-            "zh": "消耗"
+            "en": "Exhaust.",
+            "zh": "消耗。"
           }
         }
       ],
@@ -28470,8 +28678,8 @@
         {
           "mode": "always",
           "label": {
-            "en": "Ethereal",
-            "zh": "虚无"
+            "en": "Ethereal.",
+            "zh": "虚无。"
           }
         }
       ],
@@ -28558,8 +28766,8 @@
         {
           "mode": "always",
           "label": {
-            "en": "Ethereal",
-            "zh": "虚无"
+            "en": "Ethereal.",
+            "zh": "虚无。"
           }
         }
       ],
@@ -28906,8 +29114,8 @@
         {
           "mode": "always",
           "label": {
-            "en": "Ethereal",
-            "zh": "虚无"
+            "en": "Ethereal.",
+            "zh": "虚无。"
           }
         }
       ],
@@ -29230,7 +29438,15 @@
         }
       ],
       "attachedCardTips": [],
-      "descriptionKeywordPrefix": [],
+      "descriptionKeywordPrefix": [
+        {
+          "mode": "add",
+          "label": {
+            "en": "Retain.",
+            "zh": "保留。"
+          }
+        }
+      ],
       "descriptionKeywordSuffix": [],
       "dynamicDescriptionLines": []
     },
@@ -30405,8 +30621,8 @@
         {
           "mode": "always",
           "label": {
-            "en": "Exhaust",
-            "zh": "消耗"
+            "en": "Exhaust.",
+            "zh": "消耗。"
           }
         }
       ],
@@ -30883,8 +31099,8 @@
         {
           "mode": "always",
           "label": {
-            "en": "Exhaust",
-            "zh": "消耗"
+            "en": "Exhaust.",
+            "zh": "消耗。"
           }
         }
       ],
@@ -31128,8 +31344,8 @@
         {
           "mode": "always",
           "label": {
-            "en": "Exhaust",
-            "zh": "消耗"
+            "en": "Exhaust.",
+            "zh": "消耗。"
           }
         }
       ],
@@ -31285,8 +31501,8 @@
         {
           "mode": "always",
           "label": {
-            "en": "Exhaust",
-            "zh": "消耗"
+            "en": "Exhaust.",
+            "zh": "消耗。"
           }
         }
       ],
@@ -31763,8 +31979,8 @@
         {
           "mode": "always",
           "label": {
-            "en": "Exhaust",
-            "zh": "消耗"
+            "en": "Exhaust.",
+            "zh": "消耗。"
           }
         }
       ],
@@ -32072,8 +32288,8 @@
         {
           "mode": "always",
           "label": {
-            "en": "Exhaust",
-            "zh": "消耗"
+            "en": "Exhaust.",
+            "zh": "消耗。"
           }
         }
       ],
@@ -32424,8 +32640,8 @@
         {
           "mode": "always",
           "label": {
-            "en": "Exhaust",
-            "zh": "消耗"
+            "en": "Exhaust.",
+            "zh": "消耗。"
           }
         }
       ],
@@ -32596,8 +32812,8 @@
         {
           "mode": "always",
           "label": {
-            "en": "Exhaust",
-            "zh": "消耗"
+            "en": "Exhaust.",
+            "zh": "消耗。"
           }
         }
       ],
@@ -32707,8 +32923,8 @@
         {
           "mode": "always",
           "label": {
-            "en": "Ethereal",
-            "zh": "虚无"
+            "en": "Ethereal.",
+            "zh": "虚无。"
           }
         }
       ],
@@ -32716,8 +32932,8 @@
         {
           "mode": "always",
           "label": {
-            "en": "Exhaust",
-            "zh": "消耗"
+            "en": "Exhaust.",
+            "zh": "消耗。"
           }
         }
       ],
@@ -32834,8 +33050,8 @@
         {
           "mode": "always",
           "label": {
-            "en": "Exhaust",
-            "zh": "消耗"
+            "en": "Exhaust.",
+            "zh": "消耗。"
           }
         }
       ],
@@ -33266,8 +33482,8 @@
         {
           "mode": "add",
           "label": {
-            "en": "Innate",
-            "zh": "固有"
+            "en": "Innate.",
+            "zh": "固有。"
           }
         }
       ],
@@ -33488,8 +33704,8 @@
         {
           "mode": "always",
           "label": {
-            "en": "Exhaust",
-            "zh": "消耗"
+            "en": "Exhaust.",
+            "zh": "消耗。"
           }
         }
       ],
@@ -33630,8 +33846,8 @@
         {
           "mode": "remove",
           "label": {
-            "en": "Exhaust",
-            "zh": "消耗"
+            "en": "Exhaust.",
+            "zh": "消耗。"
           }
         }
       ],
@@ -33708,8 +33924,8 @@
         {
           "mode": "always",
           "label": {
-            "en": "Exhaust",
-            "zh": "消耗"
+            "en": "Exhaust.",
+            "zh": "消耗。"
           }
         }
       ],
@@ -33953,8 +34169,8 @@
         {
           "mode": "always",
           "label": {
-            "en": "Exhaust",
-            "zh": "消耗"
+            "en": "Exhaust.",
+            "zh": "消耗。"
           }
         }
       ],
@@ -34050,8 +34266,8 @@
         {
           "mode": "always",
           "label": {
-            "en": "Exhaust",
-            "zh": "消耗"
+            "en": "Exhaust.",
+            "zh": "消耗。"
           }
         }
       ],
@@ -34151,8 +34367,8 @@
         {
           "mode": "always",
           "label": {
-            "en": "Exhaust",
-            "zh": "消耗"
+            "en": "Exhaust.",
+            "zh": "消耗。"
           }
         }
       ],
@@ -34451,8 +34667,8 @@
         {
           "mode": "always",
           "label": {
-            "en": "Exhaust",
-            "zh": "消耗"
+            "en": "Exhaust.",
+            "zh": "消耗。"
           }
         }
       ],
@@ -34929,8 +35145,8 @@
         {
           "mode": "always",
           "label": {
-            "en": "Exhaust",
-            "zh": "消耗"
+            "en": "Exhaust.",
+            "zh": "消耗。"
           }
         }
       ],
@@ -35180,8 +35396,8 @@
         {
           "mode": "add",
           "label": {
-            "en": "Innate",
-            "zh": "固有"
+            "en": "Innate.",
+            "zh": "固有。"
           }
         }
       ],
@@ -35721,8 +35937,8 @@
         {
           "mode": "always",
           "label": {
-            "en": "Exhaust",
-            "zh": "消耗"
+            "en": "Exhaust.",
+            "zh": "消耗。"
           }
         }
       ],
@@ -35891,8 +36107,8 @@
         {
           "mode": "remove",
           "label": {
-            "en": "Ethereal",
-            "zh": "虚无"
+            "en": "Ethereal.",
+            "zh": "虚无。"
           }
         }
       ],
@@ -36036,8 +36252,8 @@
         {
           "mode": "always",
           "label": {
-            "en": "Exhaust",
-            "zh": "消耗"
+            "en": "Exhaust.",
+            "zh": "消耗。"
           }
         }
       ],
@@ -36120,8 +36336,8 @@
         {
           "mode": "always",
           "label": {
-            "en": "Exhaust",
-            "zh": "消耗"
+            "en": "Exhaust.",
+            "zh": "消耗。"
           }
         }
       ],
@@ -36210,8 +36426,8 @@
         {
           "mode": "always",
           "label": {
-            "en": "Exhaust",
-            "zh": "消耗"
+            "en": "Exhaust.",
+            "zh": "消耗。"
           }
         }
       ],
@@ -36711,8 +36927,8 @@
         {
           "mode": "always",
           "label": {
-            "en": "Exhaust",
-            "zh": "消耗"
+            "en": "Exhaust.",
+            "zh": "消耗。"
           }
         }
       ],
@@ -36981,8 +37197,8 @@
         {
           "mode": "always",
           "label": {
-            "en": "Ethereal",
-            "zh": "虚无"
+            "en": "Ethereal.",
+            "zh": "虚无。"
           }
         }
       ],
@@ -36990,8 +37206,8 @@
         {
           "mode": "always",
           "label": {
-            "en": "Exhaust",
-            "zh": "消耗"
+            "en": "Exhaust.",
+            "zh": "消耗。"
           }
         }
       ],
@@ -37085,8 +37301,8 @@
         {
           "mode": "always",
           "label": {
-            "en": "Exhaust",
-            "zh": "消耗"
+            "en": "Exhaust.",
+            "zh": "消耗。"
           }
         }
       ],
@@ -37621,8 +37837,8 @@
         {
           "mode": "always",
           "label": {
-            "en": "Ethereal",
-            "zh": "虚无"
+            "en": "Ethereal.",
+            "zh": "虚无。"
           }
         }
       ],
@@ -37630,8 +37846,8 @@
         {
           "mode": "always",
           "label": {
-            "en": "Exhaust",
-            "zh": "消耗"
+            "en": "Exhaust.",
+            "zh": "消耗。"
           }
         }
       ],
@@ -37949,7 +38165,15 @@
         }
       ],
       "attachedCardTips": [],
-      "descriptionKeywordPrefix": [],
+      "descriptionKeywordPrefix": [
+        {
+          "mode": "add",
+          "label": {
+            "en": "Retain.",
+            "zh": "保留。"
+          }
+        }
+      ],
       "descriptionKeywordSuffix": [],
       "dynamicDescriptionLines": []
     },
@@ -38385,8 +38609,8 @@
         {
           "mode": "always",
           "label": {
-            "en": "Exhaust",
-            "zh": "消耗"
+            "en": "Exhaust.",
+            "zh": "消耗。"
           }
         }
       ],
@@ -38486,8 +38710,8 @@
         {
           "mode": "always",
           "label": {
-            "en": "Exhaust",
-            "zh": "消耗"
+            "en": "Exhaust.",
+            "zh": "消耗。"
           }
         }
       ],
@@ -38580,8 +38804,8 @@
         {
           "mode": "add",
           "label": {
-            "en": "Innate",
-            "zh": "固有"
+            "en": "Innate.",
+            "zh": "固有。"
           }
         }
       ],
@@ -39330,8 +39554,8 @@
         {
           "mode": "always",
           "label": {
-            "en": "Exhaust",
-            "zh": "消耗"
+            "en": "Exhaust.",
+            "zh": "消耗。"
           }
         }
       ],
@@ -39438,8 +39662,8 @@
         {
           "mode": "always",
           "label": {
-            "en": "Exhaust",
-            "zh": "消耗"
+            "en": "Exhaust.",
+            "zh": "消耗。"
           }
         }
       ],
@@ -39560,8 +39784,8 @@
         {
           "mode": "remove",
           "label": {
-            "en": "Ethereal",
-            "zh": "虚无"
+            "en": "Ethereal.",
+            "zh": "虚无。"
           }
         }
       ],
@@ -39719,8 +39943,8 @@
         {
           "mode": "always",
           "label": {
-            "en": "Exhaust",
-            "zh": "消耗"
+            "en": "Exhaust.",
+            "zh": "消耗。"
           }
         }
       ],
@@ -39801,8 +40025,8 @@
         {
           "mode": "always",
           "label": {
-            "en": "Exhaust",
-            "zh": "消耗"
+            "en": "Exhaust.",
+            "zh": "消耗。"
           }
         }
       ],
@@ -40092,8 +40316,8 @@
         {
           "mode": "always",
           "label": {
-            "en": "Exhaust",
-            "zh": "消耗"
+            "en": "Exhaust.",
+            "zh": "消耗。"
           }
         }
       ],
@@ -40534,8 +40758,8 @@
         {
           "mode": "add",
           "label": {
-            "en": "Innate",
-            "zh": "固有"
+            "en": "Innate.",
+            "zh": "固有。"
           }
         }
       ],
@@ -40625,13 +40849,21 @@
         }
       ],
       "attachedCardTips": [],
-      "descriptionKeywordPrefix": [],
+      "descriptionKeywordPrefix": [
+        {
+          "mode": "always",
+          "label": {
+            "en": "Retain.",
+            "zh": "保留。"
+          }
+        }
+      ],
       "descriptionKeywordSuffix": [
         {
           "mode": "always",
           "label": {
-            "en": "Exhaust",
-            "zh": "消耗"
+            "en": "Exhaust.",
+            "zh": "消耗。"
           }
         }
       ],
@@ -40725,8 +40957,8 @@
         {
           "mode": "always",
           "label": {
-            "en": "Exhaust",
-            "zh": "消耗"
+            "en": "Exhaust.",
+            "zh": "消耗。"
           }
         }
       ],
@@ -41151,8 +41383,8 @@
         {
           "mode": "always",
           "label": {
-            "en": "Exhaust",
-            "zh": "消耗"
+            "en": "Exhaust.",
+            "zh": "消耗。"
           }
         }
       ],
@@ -41768,8 +42000,8 @@
         {
           "mode": "always",
           "label": {
-            "en": "Exhaust",
-            "zh": "消耗"
+            "en": "Exhaust.",
+            "zh": "消耗。"
           }
         }
       ],
@@ -41890,8 +42122,8 @@
         {
           "mode": "remove",
           "label": {
-            "en": "Ethereal",
-            "zh": "虚无"
+            "en": "Ethereal.",
+            "zh": "虚无。"
           }
         }
       ],
@@ -43375,8 +43607,8 @@
         {
           "mode": "remove",
           "label": {
-            "en": "Exhaust",
-            "zh": "消耗"
+            "en": "Exhaust.",
+            "zh": "消耗。"
           }
         }
       ],
@@ -43765,8 +43997,8 @@
         {
           "mode": "always",
           "label": {
-            "en": "Ethereal",
-            "zh": "虚无"
+            "en": "Ethereal.",
+            "zh": "虚无。"
           }
         }
       ],
@@ -43774,8 +44006,8 @@
         {
           "mode": "always",
           "label": {
-            "en": "Exhaust",
-            "zh": "消耗"
+            "en": "Exhaust.",
+            "zh": "消耗。"
           }
         }
       ],
@@ -43875,8 +44107,8 @@
         {
           "mode": "always",
           "label": {
-            "en": "Exhaust",
-            "zh": "消耗"
+            "en": "Exhaust.",
+            "zh": "消耗。"
           }
         }
       ],
@@ -43991,8 +44223,8 @@
         {
           "mode": "always",
           "label": {
-            "en": "Exhaust",
-            "zh": "消耗"
+            "en": "Exhaust.",
+            "zh": "消耗。"
           }
         }
       ],
@@ -44158,8 +44390,8 @@
         {
           "mode": "remove",
           "label": {
-            "en": "Exhaust",
-            "zh": "消耗"
+            "en": "Exhaust.",
+            "zh": "消耗。"
           }
         }
       ],
@@ -44595,8 +44827,8 @@
         {
           "mode": "always",
           "label": {
-            "en": "Exhaust",
-            "zh": "消耗"
+            "en": "Exhaust.",
+            "zh": "消耗。"
           }
         }
       ],
@@ -44791,8 +45023,8 @@
         {
           "mode": "add",
           "label": {
-            "en": "Innate",
-            "zh": "固有"
+            "en": "Innate.",
+            "zh": "固有。"
           }
         }
       ],
@@ -45482,8 +45714,8 @@
         {
           "mode": "always",
           "label": {
-            "en": "Exhaust",
-            "zh": "消耗"
+            "en": "Exhaust.",
+            "zh": "消耗。"
           }
         }
       ],
@@ -45667,8 +45899,8 @@
         {
           "mode": "add",
           "label": {
-            "en": "Innate",
-            "zh": "固有"
+            "en": "Innate.",
+            "zh": "固有。"
           }
         }
       ],
@@ -46158,8 +46390,8 @@
         {
           "mode": "always",
           "label": {
-            "en": "Ethereal",
-            "zh": "虚无"
+            "en": "Ethereal.",
+            "zh": "虚无。"
           }
         }
       ],
@@ -46167,8 +46399,8 @@
         {
           "mode": "always",
           "label": {
-            "en": "Exhaust",
-            "zh": "消耗"
+            "en": "Exhaust.",
+            "zh": "消耗。"
           }
         }
       ],
@@ -46478,7 +46710,15 @@
         }
       ],
       "attachedCardTips": [],
-      "descriptionKeywordPrefix": [],
+      "descriptionKeywordPrefix": [
+        {
+          "mode": "add",
+          "label": {
+            "en": "Retain.",
+            "zh": "保留。"
+          }
+        }
+      ],
       "descriptionKeywordSuffix": [],
       "dynamicDescriptionLines": []
     },
@@ -46903,8 +47143,8 @@
         {
           "mode": "always",
           "label": {
-            "en": "Exhaust",
-            "zh": "消耗"
+            "en": "Exhaust.",
+            "zh": "消耗。"
           }
         }
       ],
@@ -46989,8 +47229,8 @@
         {
           "mode": "always",
           "label": {
-            "en": "Exhaust",
-            "zh": "消耗"
+            "en": "Exhaust.",
+            "zh": "消耗。"
           }
         }
       ],
@@ -47207,8 +47447,8 @@
         {
           "mode": "always",
           "label": {
-            "en": "Exhaust",
-            "zh": "消耗"
+            "en": "Exhaust.",
+            "zh": "消耗。"
           }
         }
       ],
@@ -47520,8 +47760,8 @@
         {
           "mode": "add",
           "label": {
-            "en": "Innate",
-            "zh": "固有"
+            "en": "Innate.",
+            "zh": "固有。"
           }
         }
       ],
@@ -47618,8 +47858,8 @@
         {
           "mode": "always",
           "label": {
-            "en": "Exhaust",
-            "zh": "消耗"
+            "en": "Exhaust.",
+            "zh": "消耗。"
           }
         }
       ],
@@ -47852,8 +48092,8 @@
         {
           "mode": "remove",
           "label": {
-            "en": "Ethereal",
-            "zh": "虚无"
+            "en": "Ethereal.",
+            "zh": "虚无。"
           }
         }
       ],
@@ -47931,8 +48171,8 @@
         {
           "mode": "always",
           "label": {
-            "en": "Exhaust",
-            "zh": "消耗"
+            "en": "Exhaust.",
+            "zh": "消耗。"
           }
         }
       ],
@@ -48100,8 +48340,8 @@
         {
           "mode": "add",
           "label": {
-            "en": "Innate",
-            "zh": "固有"
+            "en": "Innate.",
+            "zh": "固有。"
           }
         }
       ],
@@ -48260,7 +48500,15 @@
         }
       ],
       "attachedCardTips": [],
-      "descriptionKeywordPrefix": [],
+      "descriptionKeywordPrefix": [
+        {
+          "mode": "always",
+          "label": {
+            "en": "Retain.",
+            "zh": "保留。"
+          }
+        }
+      ],
       "descriptionKeywordSuffix": [],
       "dynamicDescriptionLines": []
     },
@@ -48424,8 +48672,8 @@
         {
           "mode": "always",
           "label": {
-            "en": "Exhaust",
-            "zh": "消耗"
+            "en": "Exhaust.",
+            "zh": "消耗。"
           }
         }
       ],
@@ -48590,13 +48838,21 @@
         }
       ],
       "attachedCardTips": [],
-      "descriptionKeywordPrefix": [],
+      "descriptionKeywordPrefix": [
+        {
+          "mode": "add",
+          "label": {
+            "en": "Retain.",
+            "zh": "保留。"
+          }
+        }
+      ],
       "descriptionKeywordSuffix": [
         {
           "mode": "always",
           "label": {
-            "en": "Exhaust",
-            "zh": "消耗"
+            "en": "Exhaust.",
+            "zh": "消耗。"
           }
         }
       ],
@@ -48677,8 +48933,8 @@
         {
           "mode": "always",
           "label": {
-            "en": "Exhaust",
-            "zh": "消耗"
+            "en": "Exhaust.",
+            "zh": "消耗。"
           }
         }
       ],
@@ -48787,8 +49043,8 @@
         {
           "mode": "always",
           "label": {
-            "en": "Exhaust",
-            "zh": "消耗"
+            "en": "Exhaust.",
+            "zh": "消耗。"
           }
         }
       ],
@@ -48968,7 +49224,15 @@
         }
       ],
       "attachedCardTips": [],
-      "descriptionKeywordPrefix": [],
+      "descriptionKeywordPrefix": [
+        {
+          "mode": "add",
+          "label": {
+            "en": "Retain.",
+            "zh": "保留。"
+          }
+        }
+      ],
       "descriptionKeywordSuffix": [],
       "dynamicDescriptionLines": []
     },
@@ -49047,8 +49311,8 @@
         {
           "mode": "always",
           "label": {
-            "en": "Exhaust",
-            "zh": "消耗"
+            "en": "Exhaust.",
+            "zh": "消耗。"
           }
         }
       ],
@@ -49222,8 +49486,8 @@
         {
           "mode": "add",
           "label": {
-            "en": "Innate",
-            "zh": "固有"
+            "en": "Innate.",
+            "zh": "固有。"
           }
         }
       ],
@@ -49383,8 +49647,8 @@
         {
           "mode": "always",
           "label": {
-            "en": "Ethereal",
-            "zh": "虚无"
+            "en": "Ethereal.",
+            "zh": "虚无。"
           }
         }
       ],
@@ -49474,8 +49738,8 @@
         {
           "mode": "always",
           "label": {
-            "en": "Exhaust",
-            "zh": "消耗"
+            "en": "Exhaust.",
+            "zh": "消耗。"
           }
         }
       ],
@@ -50574,7 +50838,15 @@
         }
       ],
       "attachedCardTips": [],
-      "descriptionKeywordPrefix": [],
+      "descriptionKeywordPrefix": [
+        {
+          "mode": "always",
+          "label": {
+            "en": "Retain.",
+            "zh": "保留。"
+          }
+        }
+      ],
       "descriptionKeywordSuffix": [],
       "dynamicDescriptionLines": []
     },
@@ -51025,8 +51297,8 @@
         {
           "mode": "always",
           "label": {
-            "en": "Ethereal",
-            "zh": "虚无"
+            "en": "Ethereal.",
+            "zh": "虚无。"
           }
         }
       ],
@@ -51198,8 +51470,8 @@
         {
           "mode": "always",
           "label": {
-            "en": "Ethereal",
-            "zh": "虚无"
+            "en": "Ethereal.",
+            "zh": "虚无。"
           }
         }
       ],
@@ -51207,8 +51479,8 @@
         {
           "mode": "always",
           "label": {
-            "en": "Exhaust",
-            "zh": "消耗"
+            "en": "Exhaust.",
+            "zh": "消耗。"
           }
         }
       ],
@@ -51492,8 +51764,8 @@
         {
           "mode": "always",
           "label": {
-            "en": "Exhaust",
-            "zh": "消耗"
+            "en": "Exhaust.",
+            "zh": "消耗。"
           }
         }
       ],
@@ -51659,8 +51931,8 @@
         {
           "mode": "always",
           "label": {
-            "en": "Exhaust",
-            "zh": "消耗"
+            "en": "Exhaust.",
+            "zh": "消耗。"
           }
         }
       ],
@@ -51921,8 +52193,8 @@
         {
           "mode": "always",
           "label": {
-            "en": "Exhaust",
-            "zh": "消耗"
+            "en": "Exhaust.",
+            "zh": "消耗。"
           }
         }
       ],
@@ -52283,8 +52555,8 @@
         {
           "mode": "always",
           "label": {
-            "en": "Exhaust",
-            "zh": "消耗"
+            "en": "Exhaust.",
+            "zh": "消耗。"
           }
         }
       ],
@@ -52739,8 +53011,8 @@
         {
           "mode": "always",
           "label": {
-            "en": "Exhaust",
-            "zh": "消耗"
+            "en": "Exhaust.",
+            "zh": "消耗。"
           }
         }
       ],
@@ -53167,7 +53439,15 @@
         }
       ],
       "attachedCardTips": [],
-      "descriptionKeywordPrefix": [],
+      "descriptionKeywordPrefix": [
+        {
+          "mode": "always",
+          "label": {
+            "en": "Retain.",
+            "zh": "保留。"
+          }
+        }
+      ],
       "descriptionKeywordSuffix": [],
       "dynamicDescriptionLines": []
     },
@@ -53550,13 +53830,21 @@
         }
       ],
       "attachedCardTips": [],
-      "descriptionKeywordPrefix": [],
+      "descriptionKeywordPrefix": [
+        {
+          "mode": "add",
+          "label": {
+            "en": "Retain.",
+            "zh": "保留。"
+          }
+        }
+      ],
       "descriptionKeywordSuffix": [
         {
           "mode": "always",
           "label": {
-            "en": "Exhaust",
-            "zh": "消耗"
+            "en": "Exhaust.",
+            "zh": "消耗。"
           }
         }
       ],
@@ -53695,8 +53983,8 @@
         {
           "mode": "always",
           "label": {
-            "en": "Exhaust",
-            "zh": "消耗"
+            "en": "Exhaust.",
+            "zh": "消耗。"
           }
         }
       ],
@@ -53803,8 +54091,8 @@
         {
           "mode": "always",
           "label": {
-            "en": "Exhaust",
-            "zh": "消耗"
+            "en": "Exhaust.",
+            "zh": "消耗。"
           }
         }
       ],
@@ -54268,8 +54556,8 @@
         {
           "mode": "remove",
           "label": {
-            "en": "Exhaust",
-            "zh": "消耗"
+            "en": "Exhaust.",
+            "zh": "消耗。"
           }
         }
       ],
@@ -55079,8 +55367,8 @@
         {
           "mode": "always",
           "label": {
-            "en": "Exhaust",
-            "zh": "消耗"
+            "en": "Exhaust.",
+            "zh": "消耗。"
           }
         }
       ],
@@ -57018,8 +57306,8 @@
         {
           "mode": "always",
           "label": {
-            "en": "Exhaust",
-            "zh": "消耗"
+            "en": "Exhaust.",
+            "zh": "消耗。"
           }
         }
       ],
@@ -57444,8 +57732,8 @@
         {
           "mode": "always",
           "label": {
-            "en": "Exhaust",
-            "zh": "消耗"
+            "en": "Exhaust.",
+            "zh": "消耗。"
           }
         }
       ],
@@ -57551,8 +57839,8 @@
         {
           "mode": "always",
           "label": {
-            "en": "Innate",
-            "zh": "固有"
+            "en": "Innate.",
+            "zh": "固有。"
           }
         }
       ],
@@ -58402,8 +58690,8 @@
         {
           "mode": "always",
           "label": {
-            "en": "Exhaust",
-            "zh": "消耗"
+            "en": "Exhaust.",
+            "zh": "消耗。"
           }
         }
       ],
@@ -58910,8 +59198,8 @@
         {
           "mode": "always",
           "label": {
-            "en": "Exhaust",
-            "zh": "消耗"
+            "en": "Exhaust.",
+            "zh": "消耗。"
           }
         }
       ],
@@ -59376,8 +59664,8 @@
         {
           "mode": "always",
           "label": {
-            "en": "Exhaust",
-            "zh": "消耗"
+            "en": "Exhaust.",
+            "zh": "消耗。"
           }
         }
       ],
@@ -59543,8 +59831,8 @@
         {
           "mode": "remove",
           "label": {
-            "en": "Exhaust",
-            "zh": "消耗"
+            "en": "Exhaust.",
+            "zh": "消耗。"
           }
         }
       ],
@@ -59621,8 +59909,8 @@
         {
           "mode": "always",
           "label": {
-            "en": "Exhaust",
-            "zh": "消耗"
+            "en": "Exhaust.",
+            "zh": "消耗。"
           }
         }
       ],
@@ -59711,13 +59999,21 @@
         }
       ],
       "attachedCardTips": [],
-      "descriptionKeywordPrefix": [],
+      "descriptionKeywordPrefix": [
+        {
+          "mode": "always",
+          "label": {
+            "en": "Retain.",
+            "zh": "保留。"
+          }
+        }
+      ],
       "descriptionKeywordSuffix": [
         {
           "mode": "always",
           "label": {
-            "en": "Exhaust",
-            "zh": "消耗"
+            "en": "Exhaust.",
+            "zh": "消耗。"
           }
         }
       ],
@@ -59806,13 +60102,21 @@
         }
       ],
       "attachedCardTips": [],
-      "descriptionKeywordPrefix": [],
+      "descriptionKeywordPrefix": [
+        {
+          "mode": "always",
+          "label": {
+            "en": "Retain.",
+            "zh": "保留。"
+          }
+        }
+      ],
       "descriptionKeywordSuffix": [
         {
           "mode": "always",
           "label": {
-            "en": "Exhaust",
-            "zh": "消耗"
+            "en": "Exhaust.",
+            "zh": "消耗。"
           }
         }
       ],
@@ -60629,7 +60933,15 @@
         }
       ],
       "attachedCardTips": [],
-      "descriptionKeywordPrefix": [],
+      "descriptionKeywordPrefix": [
+        {
+          "mode": "always",
+          "label": {
+            "en": "Retain.",
+            "zh": "保留。"
+          }
+        }
+      ],
       "descriptionKeywordSuffix": [],
       "dynamicDescriptionLines": []
     },
@@ -60788,13 +61100,21 @@
         }
       ],
       "attachedCardTips": [],
-      "descriptionKeywordPrefix": [],
+      "descriptionKeywordPrefix": [
+        {
+          "mode": "always",
+          "label": {
+            "en": "Retain.",
+            "zh": "保留。"
+          }
+        }
+      ],
       "descriptionKeywordSuffix": [
         {
           "mode": "always",
           "label": {
-            "en": "Exhaust",
-            "zh": "消耗"
+            "en": "Exhaust.",
+            "zh": "消耗。"
           }
         }
       ],
@@ -61000,7 +61320,15 @@
         }
       ],
       "attachedCardTips": [],
-      "descriptionKeywordPrefix": [],
+      "descriptionKeywordPrefix": [
+        {
+          "mode": "always",
+          "label": {
+            "en": "Retain.",
+            "zh": "保留。"
+          }
+        }
+      ],
       "descriptionKeywordSuffix": [],
       "dynamicDescriptionLines": []
     },
@@ -61100,7 +61428,15 @@
         }
       ],
       "attachedCardTips": [],
-      "descriptionKeywordPrefix": [],
+      "descriptionKeywordPrefix": [
+        {
+          "mode": "add",
+          "label": {
+            "en": "Retain.",
+            "zh": "保留。"
+          }
+        }
+      ],
       "descriptionKeywordSuffix": [],
       "dynamicDescriptionLines": []
     },
@@ -61268,8 +61604,8 @@
         {
           "mode": "always",
           "label": {
-            "en": "Exhaust",
-            "zh": "消耗"
+            "en": "Exhaust.",
+            "zh": "消耗。"
           }
         }
       ],
@@ -61626,8 +61962,8 @@
         {
           "mode": "always",
           "label": {
-            "en": "Exhaust",
-            "zh": "消耗"
+            "en": "Exhaust.",
+            "zh": "消耗。"
           }
         }
       ],
@@ -61952,8 +62288,8 @@
         {
           "mode": "always",
           "label": {
-            "en": "Exhaust",
-            "zh": "消耗"
+            "en": "Exhaust.",
+            "zh": "消耗。"
           }
         }
       ],
@@ -62174,8 +62510,8 @@
         {
           "mode": "always",
           "label": {
-            "en": "Exhaust",
-            "zh": "消耗"
+            "en": "Exhaust.",
+            "zh": "消耗。"
           }
         }
       ],
@@ -62273,8 +62609,8 @@
         {
           "mode": "always",
           "label": {
-            "en": "Exhaust",
-            "zh": "消耗"
+            "en": "Exhaust.",
+            "zh": "消耗。"
           }
         }
       ],
@@ -62548,8 +62884,8 @@
         {
           "mode": "always",
           "label": {
-            "en": "Exhaust",
-            "zh": "消耗"
+            "en": "Exhaust.",
+            "zh": "消耗。"
           }
         }
       ],
@@ -62941,8 +63277,8 @@
         {
           "mode": "add",
           "label": {
-            "en": "Innate",
-            "zh": "固有"
+            "en": "Innate.",
+            "zh": "固有。"
           }
         }
       ],
@@ -63401,8 +63737,8 @@
         {
           "mode": "always",
           "label": {
-            "en": "Exhaust",
-            "zh": "消耗"
+            "en": "Exhaust.",
+            "zh": "消耗。"
           }
         }
       ],
@@ -63927,8 +64263,8 @@
         {
           "mode": "always",
           "label": {
-            "en": "Ethereal",
-            "zh": "虚无"
+            "en": "Ethereal.",
+            "zh": "虚无。"
           }
         }
       ],
@@ -63936,8 +64272,8 @@
         {
           "mode": "always",
           "label": {
-            "en": "Exhaust",
-            "zh": "消耗"
+            "en": "Exhaust.",
+            "zh": "消耗。"
           }
         }
       ],
@@ -64131,8 +64467,8 @@
         {
           "mode": "always",
           "label": {
-            "en": "Exhaust",
-            "zh": "消耗"
+            "en": "Exhaust.",
+            "zh": "消耗。"
           }
         }
       ],
@@ -64306,8 +64642,8 @@
         {
           "mode": "always",
           "label": {
-            "en": "Exhaust",
-            "zh": "消耗"
+            "en": "Exhaust.",
+            "zh": "消耗。"
           }
         }
       ],
@@ -64388,8 +64724,8 @@
         {
           "mode": "always",
           "label": {
-            "en": "Exhaust",
-            "zh": "消耗"
+            "en": "Exhaust.",
+            "zh": "消耗。"
           }
         }
       ],
@@ -64500,8 +64836,8 @@
         {
           "mode": "always",
           "label": {
-            "en": "Exhaust",
-            "zh": "消耗"
+            "en": "Exhaust.",
+            "zh": "消耗。"
           }
         }
       ],
@@ -64594,8 +64930,8 @@
         {
           "mode": "add",
           "label": {
-            "en": "Innate",
-            "zh": "固有"
+            "en": "Innate.",
+            "zh": "固有。"
           }
         }
       ],
@@ -64685,8 +65021,8 @@
         {
           "mode": "always",
           "label": {
-            "en": "Exhaust",
-            "zh": "消耗"
+            "en": "Exhaust.",
+            "zh": "消耗。"
           }
         }
       ],
@@ -64842,8 +65178,8 @@
         {
           "mode": "always",
           "label": {
-            "en": "Exhaust",
-            "zh": "消耗"
+            "en": "Exhaust.",
+            "zh": "消耗。"
           }
         }
       ],
@@ -65200,8 +65536,8 @@
         {
           "mode": "always",
           "label": {
-            "en": "Exhaust",
-            "zh": "消耗"
+            "en": "Exhaust.",
+            "zh": "消耗。"
           }
         }
       ],
@@ -65331,8 +65667,8 @@
         {
           "mode": "always",
           "label": {
-            "en": "Exhaust",
-            "zh": "消耗"
+            "en": "Exhaust.",
+            "zh": "消耗。"
           }
         }
       ],
@@ -65555,8 +65891,8 @@
         {
           "mode": "always",
           "label": {
-            "en": "Exhaust",
-            "zh": "消耗"
+            "en": "Exhaust.",
+            "zh": "消耗。"
           }
         }
       ],
@@ -65965,8 +66301,8 @@
         {
           "mode": "add",
           "label": {
-            "en": "Innate",
-            "zh": "固有"
+            "en": "Innate.",
+            "zh": "固有。"
           }
         }
       ],
@@ -66106,8 +66442,8 @@
         {
           "mode": "always",
           "label": {
-            "en": "Exhaust",
-            "zh": "消耗"
+            "en": "Exhaust.",
+            "zh": "消耗。"
           }
         }
       ],
@@ -66188,8 +66524,8 @@
         {
           "mode": "always",
           "label": {
-            "en": "Exhaust",
-            "zh": "消耗"
+            "en": "Exhaust.",
+            "zh": "消耗。"
           }
         }
       ],
@@ -66363,8 +66699,8 @@
         {
           "mode": "always",
           "label": {
-            "en": "Exhaust",
-            "zh": "消耗"
+            "en": "Exhaust.",
+            "zh": "消耗。"
           }
         }
       ],
@@ -66548,8 +66884,8 @@
         {
           "mode": "always",
           "label": {
-            "en": "Exhaust",
-            "zh": "消耗"
+            "en": "Exhaust.",
+            "zh": "消耗。"
           }
         }
       ],
@@ -66655,8 +66991,8 @@
         {
           "mode": "always",
           "label": {
-            "en": "Ethereal",
-            "zh": "虚无"
+            "en": "Ethereal.",
+            "zh": "虚无。"
           }
         }
       ],
@@ -66664,8 +67000,8 @@
         {
           "mode": "always",
           "label": {
-            "en": "Exhaust",
-            "zh": "消耗"
+            "en": "Exhaust.",
+            "zh": "消耗。"
           }
         }
       ],
@@ -66742,8 +67078,8 @@
         {
           "mode": "always",
           "label": {
-            "en": "Exhaust",
-            "zh": "消耗"
+            "en": "Exhaust.",
+            "zh": "消耗。"
           }
         }
       ],
@@ -66836,8 +67172,8 @@
         {
           "mode": "always",
           "label": {
-            "en": "Ethereal",
-            "zh": "虚无"
+            "en": "Ethereal.",
+            "zh": "虚无。"
           }
         }
       ],
@@ -66845,8 +67181,8 @@
         {
           "mode": "always",
           "label": {
-            "en": "Exhaust",
-            "zh": "消耗"
+            "en": "Exhaust.",
+            "zh": "消耗。"
           }
         }
       ],
@@ -67094,8 +67430,8 @@
         {
           "mode": "always",
           "label": {
-            "en": "Exhaust",
-            "zh": "消耗"
+            "en": "Exhaust.",
+            "zh": "消耗。"
           }
         }
       ],
@@ -67540,8 +67876,8 @@
         {
           "mode": "always",
           "label": {
-            "en": "Exhaust",
-            "zh": "消耗"
+            "en": "Exhaust.",
+            "zh": "消耗。"
           }
         }
       ],
@@ -68018,8 +68354,8 @@
         {
           "mode": "remove",
           "label": {
-            "en": "Exhaust",
-            "zh": "消耗"
+            "en": "Exhaust.",
+            "zh": "消耗。"
           }
         }
       ],
@@ -69062,8 +69398,8 @@
         {
           "mode": "always",
           "label": {
-            "en": "Exhaust",
-            "zh": "消耗"
+            "en": "Exhaust.",
+            "zh": "消耗。"
           }
         }
       ],
@@ -69426,8 +69762,8 @@
         {
           "mode": "remove",
           "label": {
-            "en": "Ethereal",
-            "zh": "虚无"
+            "en": "Ethereal.",
+            "zh": "虚无。"
           }
         }
       ],
@@ -69573,8 +69909,8 @@
         {
           "mode": "always",
           "label": {
-            "en": "Exhaust",
-            "zh": "消耗"
+            "en": "Exhaust.",
+            "zh": "消耗。"
           }
         }
       ],
@@ -69682,8 +70018,8 @@
         {
           "mode": "remove",
           "label": {
-            "en": "Ethereal",
-            "zh": "虚无"
+            "en": "Ethereal.",
+            "zh": "虚无。"
           }
         }
       ],
@@ -69777,8 +70113,8 @@
         {
           "mode": "remove",
           "label": {
-            "en": "Ethereal",
-            "zh": "虚无"
+            "en": "Ethereal.",
+            "zh": "虚无。"
           }
         }
       ],
@@ -70292,10 +70628,17 @@
       "attachedCardTips": [],
       "descriptionKeywordPrefix": [
         {
+          "mode": "always",
+          "label": {
+            "en": "Eternal.",
+            "zh": "永恒。"
+          }
+        },
+        {
           "mode": "add",
           "label": {
-            "en": "Ethereal",
-            "zh": "虚无"
+            "en": "Ethereal.",
+            "zh": "虚无。"
           }
         }
       ],
@@ -70687,13 +71030,21 @@
         }
       ],
       "attachedCardTips": [],
-      "descriptionKeywordPrefix": [],
+      "descriptionKeywordPrefix": [
+        {
+          "mode": "always",
+          "label": {
+            "en": "Retain.",
+            "zh": "保留。"
+          }
+        }
+      ],
       "descriptionKeywordSuffix": [
         {
           "mode": "always",
           "label": {
-            "en": "Exhaust",
-            "zh": "消耗"
+            "en": "Exhaust.",
+            "zh": "消耗。"
           }
         }
       ],
@@ -71178,13 +71529,21 @@
         }
       ],
       "attachedCardTips": [],
-      "descriptionKeywordPrefix": [],
+      "descriptionKeywordPrefix": [
+        {
+          "mode": "add",
+          "label": {
+            "en": "Retain.",
+            "zh": "保留。"
+          }
+        }
+      ],
       "descriptionKeywordSuffix": [
         {
           "mode": "always",
           "label": {
-            "en": "Exhaust",
-            "zh": "消耗"
+            "en": "Exhaust.",
+            "zh": "消耗。"
           }
         }
       ],
@@ -71340,8 +71699,8 @@
         {
           "mode": "always",
           "label": {
-            "en": "Exhaust",
-            "zh": "消耗"
+            "en": "Exhaust.",
+            "zh": "消耗。"
           }
         }
       ],
@@ -71923,8 +72282,8 @@
         {
           "mode": "remove",
           "label": {
-            "en": "Ethereal",
-            "zh": "虚无"
+            "en": "Ethereal.",
+            "zh": "虚无。"
           }
         }
       ],
@@ -72140,8 +72499,8 @@
         {
           "mode": "remove",
           "label": {
-            "en": "Ethereal",
-            "zh": "虚无"
+            "en": "Ethereal.",
+            "zh": "虚无。"
           }
         }
       ],
@@ -72301,8 +72660,8 @@
         {
           "mode": "always",
           "label": {
-            "en": "Exhaust",
-            "zh": "消耗"
+            "en": "Exhaust.",
+            "zh": "消耗。"
           }
         }
       ],
@@ -72445,8 +72804,8 @@
         {
           "mode": "always",
           "label": {
-            "en": "Exhaust",
-            "zh": "消耗"
+            "en": "Exhaust.",
+            "zh": "消耗。"
           }
         }
       ],
@@ -72772,8 +73131,8 @@
         {
           "mode": "always",
           "label": {
-            "en": "Ethereal",
-            "zh": "虚无"
+            "en": "Ethereal.",
+            "zh": "虚无。"
           }
         }
       ],
@@ -73018,8 +73377,8 @@
         {
           "mode": "always",
           "label": {
-            "en": "Exhaust",
-            "zh": "消耗"
+            "en": "Exhaust.",
+            "zh": "消耗。"
           }
         }
       ],
@@ -73170,8 +73529,8 @@
         {
           "mode": "always",
           "label": {
-            "en": "Exhaust",
-            "zh": "消耗"
+            "en": "Exhaust.",
+            "zh": "消耗。"
           }
         }
       ],
@@ -73687,8 +74046,8 @@
         {
           "mode": "always",
           "label": {
-            "en": "Exhaust",
-            "zh": "消耗"
+            "en": "Exhaust.",
+            "zh": "消耗。"
           }
         }
       ],
@@ -73773,13 +74132,21 @@
         }
       ],
       "attachedCardTips": [],
-      "descriptionKeywordPrefix": [],
+      "descriptionKeywordPrefix": [
+        {
+          "mode": "always",
+          "label": {
+            "en": "Retain.",
+            "zh": "保留。"
+          }
+        }
+      ],
       "descriptionKeywordSuffix": [
         {
           "mode": "always",
           "label": {
-            "en": "Exhaust",
-            "zh": "消耗"
+            "en": "Exhaust.",
+            "zh": "消耗。"
           }
         }
       ],
@@ -73862,8 +74229,8 @@
         {
           "mode": "always",
           "label": {
-            "en": "Exhaust",
-            "zh": "消耗"
+            "en": "Exhaust.",
+            "zh": "消耗。"
           }
         }
       ],
@@ -73952,13 +74319,21 @@
         }
       ],
       "attachedCardTips": [],
-      "descriptionKeywordPrefix": [],
+      "descriptionKeywordPrefix": [
+        {
+          "mode": "always",
+          "label": {
+            "en": "Retain.",
+            "zh": "保留。"
+          }
+        }
+      ],
       "descriptionKeywordSuffix": [
         {
           "mode": "always",
           "label": {
-            "en": "Exhaust",
-            "zh": "消耗"
+            "en": "Exhaust.",
+            "zh": "消耗。"
           }
         }
       ],
@@ -74125,8 +74500,8 @@
         {
           "mode": "always",
           "label": {
-            "en": "Exhaust",
-            "zh": "消耗"
+            "en": "Exhaust.",
+            "zh": "消耗。"
           }
         }
       ],
@@ -74575,8 +74950,8 @@
         {
           "mode": "remove",
           "label": {
-            "en": "Exhaust",
-            "zh": "消耗"
+            "en": "Exhaust.",
+            "zh": "消耗。"
           }
         }
       ],
@@ -74871,8 +75246,8 @@
         {
           "mode": "add",
           "label": {
-            "en": "Innate",
-            "zh": "固有"
+            "en": "Innate.",
+            "zh": "固有。"
           }
         }
       ],
@@ -74966,8 +75341,8 @@
         {
           "mode": "always",
           "label": {
-            "en": "Ethereal",
-            "zh": "虚无"
+            "en": "Ethereal.",
+            "zh": "虚无。"
           }
         }
       ],
@@ -75273,7 +75648,15 @@
         }
       ],
       "attachedCardTips": [],
-      "descriptionKeywordPrefix": [],
+      "descriptionKeywordPrefix": [
+        {
+          "mode": "always",
+          "label": {
+            "en": "Retain.",
+            "zh": "保留。"
+          }
+        }
+      ],
       "descriptionKeywordSuffix": [],
       "dynamicDescriptionLines": []
     },
