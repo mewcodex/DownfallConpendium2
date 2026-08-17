@@ -1066,9 +1066,9 @@ function showCardAttachmentTooltip(card, anchorRect, langOverride = null) {
 
   const tip = getCardAttachmentTooltip();
   tip.innerHTML = "";
-  tip.classList.toggle("card-only-preview", !textTips.length && cardTips.length > 0);
-  tip.classList.toggle("text-and-preview", textTips.length > 0 && cardTips.length > 0);
-  tip.classList.toggle("text-only", textTips.length > 0 && cardTips.length === 0);
+  tip.classList.toggle("card-only-preview", false);
+  tip.classList.toggle("text-and-preview", false);
+  tip.classList.toggle("text-only", textTips.length > 0);
   const tipsColumn = document.createElement("div");
   tipsColumn.className = "card-attached-tip-column";
   if (textTips.length) tip.appendChild(tipsColumn);
@@ -1089,7 +1089,8 @@ function showCardAttachmentTooltip(card, anchorRect, langOverride = null) {
     `;
     tipsColumn.appendChild(panel);
   });
-  if (cardTips.length) {
+  // Keep card references out of the text-tip pass; their placement will be handled separately.
+  if (false && cardTips.length) {
     const previews = document.createElement("div");
     previews.className = "card-attached-previews";
     cardTips.forEach((entry) => {
@@ -1106,13 +1107,11 @@ function showCardAttachmentTooltip(card, anchorRect, langOverride = null) {
   const margin = 10;
   const rect = anchorRect;
   const textColumn = tip.querySelector(".card-attached-tip-column");
-  const previewsColumn = tip.querySelector(".card-attached-previews");
+  const previewsColumn = null;
   const textWidth = textColumn ? textColumn.getBoundingClientRect().width : 0;
   const previewsWidth = previewsColumn ? previewsColumn.getBoundingClientRect().width : 0;
   const splitGap = 24;
-  const canSplit = Boolean(textColumn && previewsColumn)
-    && rect.left - textWidth - splitGap >= window.scrollX + margin
-    && rect.right + previewsWidth + splitGap <= window.scrollX + window.innerWidth - margin;
+  const canSplit = false;
   tip.classList.toggle("split-sides", canSplit);
   tip.classList.remove("placement-left", "placement-right");
   const tipRect = tip.getBoundingClientRect();
