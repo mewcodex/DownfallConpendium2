@@ -591,9 +591,9 @@ article.card[data-card-id] .card-meta {
 .card-cost-value {
   position: absolute;
   inset: 0;
-  display: flex;
-  align-items: center;
-  justify-content: center;
+  display: grid;
+  align-content: center;
+  justify-items: center;
   font-weight: 800;
   font-size: 1.35rem;
   line-height: 1;
@@ -965,8 +965,11 @@ article.card[data-card-id] .card-face-title {
 
 article.card[data-card-id] .card-face-title h3 {
   font-size: 8.67cqw;
+  font-weight: 400;
+  letter-spacing: 1px;
   line-height: 1;
   max-width: 100%;
+  -webkit-text-stroke: 0.9px #4d4b40;
 }
 
 article.card[data-card-id] .card-face-cost {
@@ -978,6 +981,9 @@ article.card[data-card-id] .card-face-cost {
 
 article.card[data-card-id] .card-face-cost .card-cost-value {
   font-size: 10.67cqw;
+  font-family: "Kreon Game", "Noto Sans SC", serif;
+  font-weight: 700;
+  -webkit-text-stroke: 1px #810000;
   text-shadow:
     -0.45cqw -0.45cqw 0 rgba(0, 0, 0, 0.82),
     0.45cqw -0.45cqw 0 rgba(0, 0, 0, 0.82),
@@ -992,6 +998,7 @@ article.card[data-card-id] .card-face-type {
   min-height: 0;
   padding: 0;
   font-size: 5.33cqw;
+  font-weight: 700;
 }
 
 article.card[data-card-id] .card-body {
@@ -1018,7 +1025,11 @@ article.card[data-card-id] .card-body .card-desc {
   font-family: "Kreon Game", "Noto Sans SC", serif;
   font-size: 7cqw;
   line-height: 1.04;
+  font-weight: 400;
+  letter-spacing: 0;
   text-align: center;
+  white-space: normal;
+  overflow-wrap: anywhere;
   text-shadow: 0.67cqw 0.67cqw 0 rgba(0, 0, 0, 0.25);
 }
 

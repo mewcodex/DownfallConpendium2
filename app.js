@@ -1765,6 +1765,35 @@ function buildCardElement(card, suppressAnimation = false, previewMode = false, 
   return cardEl;
 }
 
+function fitGameCardText(cardEl) {
+  if (!cardEl || !cardEl.matches("[data-card-id]")) return;
+  const fit = (selector, minimum, axis, step = 0.5) => {
+    const node = cardEl.querySelector(selector);
+    if (!node) return;
+    node.style.fontSize = "";
+    let size = parseFloat(getComputedStyle(node).fontSize);
+    if (!Number.isFinite(size)) return;
+    const overflows = () => axis === "width"
+      ? node.scrollWidth > node.clientWidth + 1
+      : node.scrollHeight > node.clientHeight + 3;
+    while (overflows() && size > minimum) {
+      size = Math.max(minimum, size - step);
+      node.style.fontSize = `${size}px`;
+    }
+  };
+  const run = () => {
+    fit(".card-face-title h3", 16, "width");
+    fit(".card-face-type", 10, "width");
+    fit(".card-face-cost .card-cost-value", 22, "width");
+    fit(".card-desc", 12, "height");
+  };
+  if (document.fonts && document.fonts.ready) {
+    document.fonts.ready.then(run);
+  } else {
+    requestAnimationFrame(run);
+  }
+}
+
 function getDisplayCost(card, useUpgrade = state.showUpgrade) {
   if (!useUpgrade) return card.cost;
   if (typeof card.upgradeCost === "number") return card.upgradeCost;
@@ -1973,6 +2002,7 @@ function appendCardElements(slice, suppressAnimation) {
     slice.forEach((card) => {
       const cardEl = buildCardElement(card, suppressAnimation, false);
       elements.grid.appendChild(cardEl);
+      fitGameCardText(cardEl);
     });
     return;
   }
@@ -1982,6 +2012,8 @@ function appendCardElements(slice, suppressAnimation) {
     const zhEl = buildCardElementInLang(card, "zh", suppressAnimation, false);
     elements.grid.appendChild(enEl);
     elements.grid.appendChild(zhEl);
+    fitGameCardText(enEl);
+    fitGameCardText(zhEl);
   });
 }
 
