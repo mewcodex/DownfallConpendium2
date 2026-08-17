@@ -1066,9 +1066,9 @@ function showCardAttachmentTooltip(card, anchorRect, langOverride = null) {
 
   const tip = getCardAttachmentTooltip();
   tip.innerHTML = "";
-  tip.classList.toggle("card-only-preview", false);
-  tip.classList.toggle("text-and-preview", false);
-  tip.classList.toggle("text-only", textTips.length > 0);
+  tip.classList.toggle("card-only-preview", !textTips.length && cardTips.length > 0);
+  tip.classList.toggle("text-and-preview", textTips.length > 0 && cardTips.length > 0);
+  tip.classList.toggle("text-only", textTips.length > 0 && cardTips.length === 0);
   const tipsColumn = document.createElement("div");
   tipsColumn.className = "card-attached-tip-column";
   if (textTips.length) tip.appendChild(tipsColumn);
@@ -1089,8 +1089,7 @@ function showCardAttachmentTooltip(card, anchorRect, langOverride = null) {
     `;
     tipsColumn.appendChild(panel);
   });
-  // Keep card references out of the text-tip pass; their placement will be handled separately.
-  if (false && cardTips.length) {
+  if (cardTips.length) {
     const previews = document.createElement("div");
     previews.className = "card-attached-previews";
     cardTips.forEach((entry) => {
@@ -1113,7 +1112,7 @@ function showCardAttachmentTooltip(card, anchorRect, langOverride = null) {
   const splitGap = 24;
   const canSplit = false;
   tip.classList.toggle("split-sides", canSplit);
-  tip.classList.remove("placement-left", "placement-right");
+  tip.classList.remove("placement-left", "placement-right", "placement-below");
   const tipRect = tip.getBoundingClientRect();
   const sideGap = 24;
   const viewportLeft = window.scrollX + margin;
@@ -1124,6 +1123,7 @@ function showCardAttachmentTooltip(card, anchorRect, langOverride = null) {
   const fitsLeft = leftLeft >= viewportLeft;
   let left = rightLeft;
   let top = rect.top + window.scrollY;
+  let placementBelow = false;
   if (canSplit) {
     tip.classList.add("placement-split");
     left = rect.left + window.scrollX - textWidth - splitGap;
@@ -1132,10 +1132,22 @@ function showCardAttachmentTooltip(card, anchorRect, langOverride = null) {
     tip.classList.add("placement-left");
     left = leftLeft;
   } else if (!canSplit) {
-    tip.classList.add("placement-right");
-    left = fitsRight ? rightLeft : Math.max(viewportLeft, Math.min(rightLeft, viewportRight - tipRect.width));
+    if (fitsRight) {
+      tip.classList.add("placement-right");
+      left = rightLeft;
+    } else if (fitsLeft) {
+      tip.classList.add("placement-left");
+      left = leftLeft;
+    } else {
+      tip.classList.add("placement-below");
+      left = Math.max(viewportLeft, Math.min(rect.left + window.scrollX, viewportRight - tipRect.width));
+      top = rect.bottom + window.scrollY + sideGap;
+      placementBelow = true;
+    }
   }
-  top = Math.min(top, window.scrollY + window.innerHeight - tipRect.height - margin);
+  if (!placementBelow) {
+    top = Math.min(top, window.scrollY + window.innerHeight - tipRect.height - margin);
+  }
   tip.style.left = `${Math.max(window.scrollX + margin, left)}px`;
   tip.style.top = `${Math.max(window.scrollY + margin, top)}px`;
 }
