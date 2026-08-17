@@ -1691,16 +1691,15 @@ function buildCardInnerHtml(card, descriptionHtml, options = {}) {
       ${costIcon}
       <span class="${costClass}">${cost}</span>
     </div>`;
-  const img = card.img
-    ? `<div class="card-visual card-visual-${String(card.type || "skill").toLowerCase()}">
-        <img class="card-portrait" src="${card.img}" alt="${name}" loading="lazy">
-        <span class="card-portrait-border" aria-hidden="true"></span>
-        <span class="card-frame" aria-hidden="true"></span>
-        <span class="card-banner" aria-hidden="true"></span>
-        ${cardHeadingHtml}
-        <span class="card-face-type">${localizeType(card.type)}</span>
-      </div>`
-    : `<div class="card-visual card-visual-missing"><div class="placeholder"></div></div>`;
+  const portraitSource = card.img || "assets/card-ui/todo.png";
+  const img = `<div class="card-visual card-visual-${String(card.type || "skill").toLowerCase()}${card.img ? "" : " card-visual-todo"}">
+      <img class="card-portrait" src="${portraitSource}" alt="${name}" loading="lazy">
+      <span class="card-portrait-border" aria-hidden="true"></span>
+      <span class="card-frame" aria-hidden="true"></span>
+      <span class="card-banner" aria-hidden="true"></span>
+      ${cardHeadingHtml}
+      <span class="card-face-type">${localizeType(card.type)}</span>
+    </div>`;
   const typeTagHtml = card.type
     ? `<span class="${getTypeTagClass(card.type)}"><span class="tag-label">${localizeType(card.type)}</span></span>`
     : "";
