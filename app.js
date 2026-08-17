@@ -321,6 +321,21 @@ function fillNumericTokens(text, card, useUpgrade = state.showUpgrade) {
   });
 }
 
+function fillSts2DynamicTokens(text, card, useUpgrade = state.showUpgrade) {
+  const baseValues = (card && card.dynamicValues) || {};
+  const values = useUpgrade ? ((card && card.upgradeDynamicValues) || baseValues) : baseValues;
+  const wrapFilledValue = (value, changed) => (changed ? `__TVG__${value}__` : `__TV__${value}__`);
+
+  return (text || "").replace(/\{([A-Za-z_]\w*):diff\(\)\}/g, (full, name) => {
+    const key = Object.keys(values).find((candidate) => candidate.toLowerCase() === name.toLowerCase());
+    const baseKey = Object.keys(baseValues).find((candidate) => candidate.toLowerCase() === name.toLowerCase());
+    const value = key ? values[key] : null;
+    const baseValue = baseKey ? baseValues[baseKey] : value;
+    if (typeof value !== "number") return full;
+    return wrapFilledValue(value, useUpgrade && typeof baseValue === "number" && value !== baseValue);
+  });
+}
+
 function finalizeFilledTokenSpacing(text) {
   if (!text) return "";
   if (state.lang === "zh") {
@@ -806,6 +821,7 @@ function formatTooltipDescriptionText(rawText, cardContext) {
   let text = normalizeDescriptionSpacing(rawText || "");
   if (cardContext) {
     text = fillNumericTokens(text, cardContext, state.showUpgrade);
+    text = fillSts2DynamicTokens(text, cardContext, state.showUpgrade);
     text = finalizeFilledTokenSpacing(text);
   }
   text = escapeHtml(text).replace(/NL/g, "<br>");
@@ -1413,6 +1429,7 @@ function renderDescription(card, options = {}) {
   let text = resolveCardBaseDescription(card, useUpgrade);
   text = normalizeDescriptionSpacing(text);
   text = fillNumericTokens(text, card, useUpgrade);
+  text = fillSts2DynamicTokens(text, card, useUpgrade);
   text = finalizeFilledTokenSpacing(text);
   text = preserveLegacyColorMarkers(text);
   text = escapeHtml(text).replace(/NL/g, "<br>");
@@ -1441,6 +1458,7 @@ function renderDescriptionForPreview(card, options = {}) {
   }
   text = normalizeDescriptionSpacing(text);
   text = fillNumericTokens(text, card, useUpgrade);
+  text = fillSts2DynamicTokens(text, card, useUpgrade);
   text = finalizeFilledTokenSpacing(text);
   text = preserveLegacyColorMarkers(text);
   text = escapeHtml(text).replace(/NL/g, "<br>");
