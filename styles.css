@@ -1025,7 +1025,7 @@ article.card[data-card-id] .card-frame {
 }
 
 article.card[data-card-id] .card-banner {
-  inset: 1.42% auto auto -4.33%;
+  inset: 2.2% auto auto -4.33%;
   width: 109%;
   height: 19.67%;
   background-image: var(--rarity-banner-image);
@@ -1034,7 +1034,7 @@ article.card[data-card-id] .card-banner {
 }
 
 article.card[data-card-id] .card-face-title {
-  inset: 1.42% 15% auto;
+  inset: 2.2% 15% auto;
   height: 9.48%;
   display: block;
   padding: 0;
