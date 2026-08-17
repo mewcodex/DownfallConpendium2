@@ -91,7 +91,7 @@ const rarityLabelMap = {
     BOSS: "首领",
     STARTER: "初始",
     SPECIAL: "特殊",
-    ANCIENT: "远古",
+    ANCIENT: "先古",
     DEPRECATED: "弃用",
   },
 };
@@ -152,6 +152,7 @@ function renderSts2Markup(text) {
   const colorClasses = { gold: "kw-mark-yellow", blue: "kw-mark-blue", red: "kw-mark-red", purple: "kw-mark-purple", green: "kw-mark-green", aqua: "kw-mark-aqua" };
   let rendered = text.replace(/\[(gold|blue|red|purple|green|aqua)\]([\s\S]*?)\[\/\1\]/gi, (_full, color, content) => `<span class="${colorClasses[color.toLowerCase()]}">${content}</span>`);
   rendered = rendered.replace(/\{(?:energyPrefix|Energy):energyIcons\((\d*)\)\}/gi, (_full, amount) => "[E]".repeat(Math.max(1, Number(amount || 1))));
+  rendered = rendered.replace(/\{InCombat:cond:\s*[\s\S]*?\|\}/gi, "");
   rendered = rendered.replace(/\{[A-Za-z_]\w*:cond:\s*([\s\S]*?)\|\}/g, (_full, content) => content.trim().replace(/^[（(]\s*/, "").replace(/\s*[）)]+$/, ""));
   rendered = rendered.replace(/\{(?:[A-Za-z_][\w]*)(?::(?:diff\(\)|plural:[^}]*|cond:[\s\S]*?))?\}/g, (token) => token.slice(1, -1).split(":", 1)[0].replace(/Power$/, "").replace(/([a-z])([A-Z])/g, "$1 $2"));
   return rendered

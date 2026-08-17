@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-17T13:39:08.829477Z",
+  "generatedAt": "2026-08-17T13:53:31.095718Z",
   "modVersion": "0.1.13",
   "translationVersion": "2026_08_17_21_01_04_635d8d",
   "baseKeywords": [],
@@ -335,7 +335,7 @@
       "rarity": "RARE",
       "color": "AWAKENED",
       "colorName": {
-        "en": "The Awakened One",
+        "en": "The Awakened",
         "zh": "觉醒者"
       },
       "colorPillBg": null,
@@ -383,7 +383,7 @@
       "rarity": "RARE",
       "color": "AWAKENED",
       "colorName": {
-        "en": "The Awakened One",
+        "en": "The Awakened",
         "zh": "觉醒者"
       },
       "colorPillBg": null,
@@ -407,7 +407,7 @@
       "rarity": "RARE",
       "color": "AWAKENED",
       "colorName": {
-        "en": "The Awakened One",
+        "en": "The Awakened",
         "zh": "觉醒者"
       },
       "colorPillBg": null,
@@ -431,7 +431,7 @@
       "rarity": "SHOP",
       "color": "AWAKENED",
       "colorName": {
-        "en": "The Awakened One",
+        "en": "The Awakened",
         "zh": "觉醒者"
       },
       "colorPillBg": null,
@@ -455,7 +455,7 @@
       "rarity": "UNCOMMON",
       "color": "AWAKENED",
       "colorName": {
-        "en": "The Awakened One",
+        "en": "The Awakened",
         "zh": "觉醒者"
       },
       "colorPillBg": null,
@@ -479,7 +479,7 @@
       "rarity": "STARTER",
       "color": "AWAKENED",
       "colorName": {
-        "en": "The Awakened One",
+        "en": "The Awakened",
         "zh": "觉醒者"
       },
       "colorPillBg": null,
@@ -503,7 +503,7 @@
       "rarity": "STARTER",
       "color": "AWAKENED",
       "colorName": {
-        "en": "The Awakened One",
+        "en": "The Awakened",
         "zh": "觉醒者"
       },
       "colorPillBg": null,
@@ -527,7 +527,7 @@
       "rarity": "COMMON",
       "color": "AWAKENED",
       "colorName": {
-        "en": "The Awakened One",
+        "en": "The Awakened",
         "zh": "觉醒者"
       },
       "colorPillBg": null,
@@ -575,7 +575,7 @@
       "rarity": "RARE",
       "color": "AWAKENED",
       "colorName": {
-        "en": "The Awakened One",
+        "en": "The Awakened",
         "zh": "觉醒者"
       },
       "colorPillBg": null,
@@ -599,7 +599,7 @@
       "rarity": "UNCOMMON",
       "color": "AWAKENED",
       "colorName": {
-        "en": "The Awakened One",
+        "en": "The Awakened",
         "zh": "觉醒者"
       },
       "colorPillBg": null,
@@ -1176,7 +1176,7 @@
       "color": "GREMLIN",
       "colorName": {
         "en": "The Gremlins",
-        "zh": "地精小队"
+        "zh": "The Gremlins"
       },
       "colorPillBg": null,
       "colorPillFg": null,
@@ -1224,7 +1224,7 @@
       "color": "GREMLIN",
       "colorName": {
         "en": "The Gremlins",
-        "zh": "地精小队"
+        "zh": "The Gremlins"
       },
       "colorPillBg": null,
       "colorPillFg": null,
@@ -1248,7 +1248,7 @@
       "color": "GREMLIN",
       "colorName": {
         "en": "The Gremlins",
-        "zh": "地精小队"
+        "zh": "The Gremlins"
       },
       "colorPillBg": null,
       "colorPillFg": null,
@@ -1272,7 +1272,7 @@
       "color": "GREMLIN",
       "colorName": {
         "en": "The Gremlins",
-        "zh": "地精小队"
+        "zh": "The Gremlins"
       },
       "colorPillBg": null,
       "colorPillFg": null,
@@ -1296,7 +1296,7 @@
       "color": "GREMLIN",
       "colorName": {
         "en": "The Gremlins",
-        "zh": "地精小队"
+        "zh": "The Gremlins"
       },
       "colorPillBg": null,
       "colorPillFg": null,
@@ -1320,7 +1320,7 @@
       "color": "GREMLIN",
       "colorName": {
         "en": "The Gremlins",
-        "zh": "地精小队"
+        "zh": "The Gremlins"
       },
       "colorPillBg": null,
       "colorPillFg": null,
@@ -1392,7 +1392,7 @@
       "color": "GREMLIN",
       "colorName": {
         "en": "The Gremlins",
-        "zh": "地精小队"
+        "zh": "The Gremlins"
       },
       "colorPillBg": null,
       "colorPillFg": null,
@@ -1416,7 +1416,7 @@
       "color": "GREMLIN",
       "colorName": {
         "en": "The Gremlins",
-        "zh": "地精小队"
+        "zh": "The Gremlins"
       },
       "colorPillBg": null,
       "colorPillFg": null,
@@ -1440,7 +1440,7 @@
       "color": "GREMLIN",
       "colorName": {
         "en": "The Gremlins",
-        "zh": "地精小队"
+        "zh": "The Gremlins"
       },
       "colorPillBg": null,
       "colorPillFg": null,
@@ -1464,7 +1464,7 @@
       "color": "GREMLIN",
       "colorName": {
         "en": "The Gremlins",
-        "zh": "地精小队"
+        "zh": "The Gremlins"
       },
       "colorPillBg": null,
       "colorPillFg": null,
@@ -1488,7 +1488,7 @@
       "color": "GUARDIAN",
       "colorName": {
         "en": "The Guardian",
-        "zh": "守卫者"
+        "zh": "守护者"
       },
       "colorPillBg": null,
       "colorPillFg": null,
@@ -1512,7 +1512,7 @@
       "color": "GUARDIAN",
       "colorName": {
         "en": "The Guardian",
-        "zh": "守卫者"
+        "zh": "守护者"
       },
       "colorPillBg": null,
       "colorPillFg": null,
@@ -1536,7 +1536,7 @@
       "color": "GUARDIAN",
       "colorName": {
         "en": "The Guardian",
-        "zh": "守卫者"
+        "zh": "守护者"
       },
       "colorPillBg": null,
       "colorPillFg": null,
@@ -1560,7 +1560,7 @@
       "color": "GUARDIAN",
       "colorName": {
         "en": "The Guardian",
-        "zh": "守卫者"
+        "zh": "守护者"
       },
       "colorPillBg": null,
       "colorPillFg": null,
@@ -1656,7 +1656,7 @@
       "color": "GUARDIAN",
       "colorName": {
         "en": "The Guardian",
-        "zh": "守卫者"
+        "zh": "守护者"
       },
       "colorPillBg": null,
       "colorPillFg": null,
@@ -1728,7 +1728,7 @@
       "color": "GUARDIAN",
       "colorName": {
         "en": "The Guardian",
-        "zh": "守卫者"
+        "zh": "守护者"
       },
       "colorPillBg": null,
       "colorPillFg": null,
@@ -1739,7 +1739,7 @@
     },
     {
       "id": "HERMIT-BLACK_POWDER",
-      "codeName": "",
+      "codeName": "BlackPowder",
       "name": {
         "en": "Black Powder",
         "zh": "黑火药"
@@ -1748,22 +1748,22 @@
         "en": "Whenever you trigger a [gold]Dead On[/gold] effect, deal [blue]{Damage}[/blue] damage to ALL enemies.",
         "zh": "每当你触发[gold]精准[/gold]效果时，对所有敌人造成[blue]{Damage}[/blue]点伤害。"
       },
-      "rarity": "SPECIAL",
-      "color": "DOWNFALL",
+      "rarity": "COMMON",
+      "color": "HERMIT",
       "colorName": {
-        "en": "Downfall",
-        "zh": "崩坠"
+        "en": "The Hermit",
+        "zh": "亡命之徒"
       },
       "colorPillBg": null,
       "colorPillFg": null,
-      "energyIcon": null,
-      "img": null,
+      "energyIcon": "assets/energy-icons/hermit.png",
+      "img": "assets/relics/blackpowder.png",
       "imageResource": "",
       "deprecated": false
     },
     {
       "id": "HERMIT-BRASS_TACKS",
-      "codeName": "",
+      "codeName": "BrassTacks",
       "name": {
         "en": "Brass Tacks",
         "zh": "黄铜图钉"
@@ -1772,22 +1772,22 @@
         "en": "At the end of your turn, gain [blue]{Block}[/blue] [gold]Block[/gold].",
         "zh": "在你的回合结束时，获得[blue]{Block}[/blue]点[gold]格挡[/gold]。"
       },
-      "rarity": "SPECIAL",
-      "color": "DOWNFALL",
+      "rarity": "COMMON",
+      "color": "HERMIT",
       "colorName": {
-        "en": "Downfall",
-        "zh": "崩坠"
+        "en": "The Hermit",
+        "zh": "亡命之徒"
       },
       "colorPillBg": null,
       "colorPillFg": null,
-      "energyIcon": null,
-      "img": null,
+      "energyIcon": "assets/energy-icons/hermit.png",
+      "img": "assets/relics/brasstacks.png",
       "imageResource": "",
       "deprecated": false
     },
     {
       "id": "HERMIT-BROKEN_TOOTH",
-      "codeName": "",
+      "codeName": "BrokenTooth",
       "name": {
         "en": "Broken Tooth",
         "zh": "兽牙战利品"
@@ -1796,22 +1796,22 @@
         "en": "Whenever you defeat an Elite encounter, heal [blue]{Heal}[/blue] HP and gain [blue]{Gold}[/blue] gold.",
         "zh": "每当你击败精英敌人时，回复[blue]{Heal}[/blue]点生命并获得[blue]{Gold}[/blue]金币。"
       },
-      "rarity": "SPECIAL",
-      "color": "DOWNFALL",
+      "rarity": "RARE",
+      "color": "HERMIT",
       "colorName": {
-        "en": "Downfall",
-        "zh": "崩坠"
+        "en": "The Hermit",
+        "zh": "亡命之徒"
       },
       "colorPillBg": null,
       "colorPillFg": null,
-      "energyIcon": null,
-      "img": null,
+      "energyIcon": "assets/energy-icons/hermit.png",
+      "img": "assets/relics/brokentooth.png",
       "imageResource": "",
       "deprecated": false
     },
     {
       "id": "HERMIT-CHARRED_GLOVE",
-      "codeName": "",
+      "codeName": "CharredGlove",
       "name": {
         "en": "Charred Glove",
         "zh": "烧焦手套"
@@ -1820,22 +1820,22 @@
         "en": "Whenever you draw or create a [red]Curse[/red], gain [blue]{VigorPower}[/blue] [gold]Vigor[/gold].",
         "zh": "每当你抽到或生成[red]诅咒[/red]时，获得[blue]{VigorPower}[/blue]点[gold]活力[/gold]。"
       },
-      "rarity": "SPECIAL",
-      "color": "DOWNFALL",
+      "rarity": "RARE",
+      "color": "HERMIT",
       "colorName": {
-        "en": "Downfall",
-        "zh": "崩坠"
+        "en": "The Hermit",
+        "zh": "亡命之徒"
       },
       "colorPillBg": null,
       "colorPillFg": null,
-      "energyIcon": null,
-      "img": null,
+      "energyIcon": "assets/energy-icons/hermit.png",
+      "img": "assets/relics/charredglove.png",
       "imageResource": "",
       "deprecated": false
     },
     {
       "id": "HERMIT-CLASPED_LOCKET",
-      "codeName": "",
+      "codeName": "ClaspedLocket",
       "name": {
         "en": "Clasped Locket",
         "zh": "被封死的小盒"
@@ -1844,22 +1844,22 @@
         "en": "The first time you draw a [red]Curse[/red] each turn, [gold]Exhaust[/gold] it and draw [blue]{Cards}[/blue] cards.\nUpon pickup, obtain [blue]{Curses}[/blue] [red]Injuries[/red].",
         "zh": "每回合你首次抽到[red]诅咒[/red]时，将其[gold]消耗[/gold]并抽[blue]{Cards}[/blue]张牌。\n拾起时，获得[blue]{Curses}[/blue]张[red]受伤[/red]。"
       },
-      "rarity": "SPECIAL",
-      "color": "DOWNFALL",
+      "rarity": "STARTER",
+      "color": "HERMIT",
       "colorName": {
-        "en": "Downfall",
-        "zh": "崩坠"
+        "en": "The Hermit",
+        "zh": "亡命之徒"
       },
       "colorPillBg": null,
       "colorPillFg": null,
-      "energyIcon": null,
-      "img": null,
+      "energyIcon": "assets/energy-icons/hermit.png",
+      "img": "assets/relics/claspedlocket.png",
       "imageResource": "",
       "deprecated": false
     },
     {
       "id": "HERMIT-DENTED_PLATE",
-      "codeName": "",
+      "codeName": "DentedPlate",
       "name": {
         "en": "Dented Plate",
         "zh": "凹陷铁盘"
@@ -1868,22 +1868,22 @@
         "en": "While your HP is at or below [blue]50%[/blue], gain {Energy:energyIcons()} and draw [blue]{Cards}[/blue] card at the start of your turn.",
         "zh": "当你的生命值不高于[blue]50%[/blue]时，在你的回合开始时获得{Energy:energyIcons()}并抽[blue]{Cards}[/blue]张牌。"
       },
-      "rarity": "SPECIAL",
-      "color": "DOWNFALL",
+      "rarity": "RARE",
+      "color": "HERMIT",
       "colorName": {
-        "en": "Downfall",
-        "zh": "崩坠"
+        "en": "The Hermit",
+        "zh": "亡命之徒"
       },
       "colorPillBg": null,
       "colorPillFg": null,
-      "energyIcon": null,
-      "img": null,
+      "energyIcon": "assets/energy-icons/hermit.png",
+      "img": "assets/relics/dentedplate.png",
       "imageResource": "",
       "deprecated": false
     },
     {
       "id": "HERMIT-HORSESHOE",
-      "codeName": "",
+      "codeName": "Horseshoe",
       "name": {
         "en": "Horseshoe",
         "zh": "马蹄铁"
@@ -1892,22 +1892,22 @@
         "en": "Whenever you gain [gold]Weak[/gold], [gold]Frail[/gold] or [gold]Vulnerable[/gold], gain [blue]1[/blue] less.",
         "zh": "每当你获得[gold]虚弱[/gold]、[gold]脆弱[/gold]或[gold]易伤[/gold]时，获得的层数减[blue]1[/blue]。"
       },
-      "rarity": "SPECIAL",
-      "color": "DOWNFALL",
+      "rarity": "COMMON",
+      "color": "HERMIT",
       "colorName": {
-        "en": "Downfall",
-        "zh": "崩坠"
+        "en": "The Hermit",
+        "zh": "亡命之徒"
       },
       "colorPillBg": null,
       "colorPillFg": null,
-      "energyIcon": null,
-      "img": null,
+      "energyIcon": "assets/energy-icons/hermit.png",
+      "img": "assets/relics/horseshoe.png",
       "imageResource": "",
       "deprecated": false
     },
     {
       "id": "HERMIT-OLD_LOCKET",
-      "codeName": "",
+      "codeName": "OldLocket",
       "name": {
         "en": "Old Locket",
         "zh": "老旧小盒"
@@ -1916,16 +1916,16 @@
         "en": "At the start of each combat, add a [gold]Memento[/gold] into your [gold]Hand[/gold].",
         "zh": "在每场战斗开始时，将一张[gold]纪念品[/gold]加入你的[gold]手牌[/gold]。"
       },
-      "rarity": "SPECIAL",
-      "color": "DOWNFALL",
+      "rarity": "STARTER",
+      "color": "HERMIT",
       "colorName": {
-        "en": "Downfall",
-        "zh": "崩坠"
+        "en": "The Hermit",
+        "zh": "亡命之徒"
       },
       "colorPillBg": null,
       "colorPillFg": null,
-      "energyIcon": null,
-      "img": null,
+      "energyIcon": "assets/energy-icons/hermit.png",
+      "img": "assets/relics/oldlocket.png",
       "imageResource": "",
       "deprecated": false
     },
@@ -1955,7 +1955,7 @@
     },
     {
       "id": "HERMIT-RED_SCARF",
-      "codeName": "",
+      "codeName": "RedScarf",
       "name": {
         "en": "Red Scarf",
         "zh": "红围巾"
@@ -1964,22 +1964,22 @@
         "en": "Whenever you apply a new debuff to an enemy, gain [blue]{Block}[/blue] [gold]Block[/gold].",
         "zh": "每当你给予敌人一种新的负面状态时，获得[blue]{Block}[/blue]点[gold]格挡[/gold]。"
       },
-      "rarity": "SPECIAL",
-      "color": "DOWNFALL",
+      "rarity": "RARE",
+      "color": "HERMIT",
       "colorName": {
-        "en": "Downfall",
-        "zh": "崩坠"
+        "en": "The Hermit",
+        "zh": "亡命之徒"
       },
       "colorPillBg": null,
       "colorPillFg": null,
-      "energyIcon": null,
-      "img": null,
+      "energyIcon": "assets/energy-icons/hermit.png",
+      "img": "assets/relics/redscarf.png",
       "imageResource": "",
       "deprecated": false
     },
     {
       "id": "HERMIT-RYE_STALK",
-      "codeName": "",
+      "codeName": "RyeStalk",
       "name": {
         "en": "Rye Stalk",
         "zh": "黑麦茎"
@@ -1988,22 +1988,22 @@
         "en": "At the start of turn [blue]{Turn}[/blue], gain [blue]{RuggedPower:diff()}[/blue] [gold]Rugged[/gold].",
         "zh": "在第[blue]{Turn}[/blue]回合开始时，获得[blue]{RuggedPower:diff()}[/blue]层[gold]坚固[/gold]。"
       },
-      "rarity": "SPECIAL",
-      "color": "DOWNFALL",
+      "rarity": "RARE",
+      "color": "HERMIT",
       "colorName": {
-        "en": "Downfall",
-        "zh": "崩坠"
+        "en": "The Hermit",
+        "zh": "亡命之徒"
       },
       "colorPillBg": null,
       "colorPillFg": null,
-      "energyIcon": null,
-      "img": null,
+      "energyIcon": "assets/energy-icons/hermit.png",
+      "img": "assets/relics/ryestalk.png",
       "imageResource": "",
       "deprecated": false
     },
     {
       "id": "HERMIT-SHOTGLASS",
-      "codeName": "",
+      "codeName": "Shotglass",
       "name": {
         "en": "Shotglass",
         "zh": "小酒杯"
@@ -2012,22 +2012,22 @@
         "en": "The first {Limit:plural:time|[blue]{}[/blue] times} you use a potion each combat, procure a random potion. You can only use [blue]{Limit} [/blue]{Limit:plural:potion|potions} each combat.",
         "zh": "每场战斗你最多能使用[blue]{Limit}[/blue]瓶药水。你在战斗中使用药水时，获取[blue]1[/blue]瓶随机药水。"
       },
-      "rarity": "SPECIAL",
-      "color": "DOWNFALL",
+      "rarity": "SHOP",
+      "color": "HERMIT",
       "colorName": {
-        "en": "Downfall",
-        "zh": "崩坠"
+        "en": "The Hermit",
+        "zh": "亡命之徒"
       },
       "colorPillBg": null,
       "colorPillFg": null,
-      "energyIcon": null,
-      "img": null,
+      "energyIcon": "assets/energy-icons/hermit.png",
+      "img": "assets/relics/shotglass.png",
       "imageResource": "",
       "deprecated": false
     },
     {
       "id": "HERMIT-SPYGLASS",
-      "codeName": "",
+      "codeName": "Spyglass",
       "name": {
         "en": "Spyglass",
         "zh": "望远镜"
@@ -2036,22 +2036,22 @@
         "en": "The [blue]4th[/blue] card you play each turn triggers its [gold]Dead On[/gold] effect regardless of position.",
         "zh": "你在每回合打出的第[blue]4[/blue]张牌必定触发[gold]精准[/gold]。"
       },
-      "rarity": "SPECIAL",
-      "color": "DOWNFALL",
+      "rarity": "UNCOMMON",
+      "color": "HERMIT",
       "colorName": {
-        "en": "Downfall",
-        "zh": "崩坠"
+        "en": "The Hermit",
+        "zh": "亡命之徒"
       },
       "colorPillBg": null,
       "colorPillFg": null,
-      "energyIcon": null,
-      "img": null,
+      "energyIcon": "assets/energy-icons/hermit.png",
+      "img": "assets/relics/spyglass.png",
       "imageResource": "",
       "deprecated": false
     },
     {
       "id": "HERMIT-STRAIGHT_RAZOR",
-      "codeName": "",
+      "codeName": "StraightRazor",
       "name": {
         "en": "Straight Razor",
         "zh": "刮胡刀"
@@ -2060,16 +2060,16 @@
         "en": "Whenever you remove or [gold]Transform[/gold] a card from your [gold]Deck[/gold], heal [blue]{Heal}[/blue] HP.",
         "zh": "每当你从[gold]牌组[/gold]中移除或[gold]变化[/gold]一张牌时，回复[blue]{Heal}[/blue]点生命。"
       },
-      "rarity": "SPECIAL",
-      "color": "DOWNFALL",
+      "rarity": "UNCOMMON",
+      "color": "HERMIT",
       "colorName": {
-        "en": "Downfall",
-        "zh": "崩坠"
+        "en": "The Hermit",
+        "zh": "亡命之徒"
       },
       "colorPillBg": null,
       "colorPillFg": null,
-      "energyIcon": null,
-      "img": null,
+      "energyIcon": "assets/energy-icons/hermit.png",
+      "img": "assets/relics/straightrazor.png",
       "imageResource": "",
       "deprecated": false
     },
@@ -2088,7 +2088,7 @@
       "color": "HEXAGHOST",
       "colorName": {
         "en": "The Hexaghost",
-        "zh": "六幽灵"
+        "zh": "六火亡魂"
       },
       "colorPillBg": null,
       "colorPillFg": null,
@@ -2184,7 +2184,7 @@
       "color": "HEXAGHOST",
       "colorName": {
         "en": "The Hexaghost",
-        "zh": "六幽灵"
+        "zh": "六火亡魂"
       },
       "colorPillBg": null,
       "colorPillFg": null,
@@ -2208,7 +2208,7 @@
       "color": "HEXAGHOST",
       "colorName": {
         "en": "The Hexaghost",
-        "zh": "六幽灵"
+        "zh": "六火亡魂"
       },
       "colorPillBg": null,
       "colorPillFg": null,
@@ -2232,7 +2232,7 @@
       "color": "HEXAGHOST",
       "colorName": {
         "en": "The Hexaghost",
-        "zh": "六幽灵"
+        "zh": "六火亡魂"
       },
       "colorPillBg": null,
       "colorPillFg": null,
@@ -2280,7 +2280,7 @@
       "color": "HEXAGHOST",
       "colorName": {
         "en": "The Hexaghost",
-        "zh": "六幽灵"
+        "zh": "六火亡魂"
       },
       "colorPillBg": null,
       "colorPillFg": null,
@@ -2544,7 +2544,7 @@
       "color": "SLIMEBOUND",
       "colorName": {
         "en": "The Slime Boss",
-        "zh": "史莱姆首领"
+        "zh": "史莱姆老大"
       },
       "colorPillBg": null,
       "colorPillFg": null,
@@ -2616,7 +2616,7 @@
       "color": "SLIMEBOUND",
       "colorName": {
         "en": "The Slime Boss",
-        "zh": "史莱姆首领"
+        "zh": "史莱姆老大"
       },
       "colorPillBg": null,
       "colorPillFg": null,
@@ -2664,7 +2664,7 @@
       "color": "SLIMEBOUND",
       "colorName": {
         "en": "The Slime Boss",
-        "zh": "史莱姆首领"
+        "zh": "史莱姆老大"
       },
       "colorPillBg": null,
       "colorPillFg": null,
@@ -2712,7 +2712,7 @@
       "color": "SLIMEBOUND",
       "colorName": {
         "en": "The Slime Boss",
-        "zh": "史莱姆首领"
+        "zh": "史莱姆老大"
       },
       "colorPillBg": null,
       "colorPillFg": null,
@@ -2736,7 +2736,7 @@
       "color": "SLIMEBOUND",
       "colorName": {
         "en": "The Slime Boss",
-        "zh": "史莱姆首领"
+        "zh": "史莱姆老大"
       },
       "colorPillBg": null,
       "colorPillFg": null,
@@ -2760,7 +2760,7 @@
       "color": "SLIMEBOUND",
       "colorName": {
         "en": "The Slime Boss",
-        "zh": "史莱姆首领"
+        "zh": "史莱姆老大"
       },
       "colorPillBg": null,
       "colorPillFg": null,
@@ -2784,7 +2784,7 @@
       "color": "SLIMEBOUND",
       "colorName": {
         "en": "The Slime Boss",
-        "zh": "史莱姆首领"
+        "zh": "史莱姆老大"
       },
       "colorPillBg": null,
       "colorPillFg": null,
@@ -2808,7 +2808,7 @@
       "color": "SNECKO",
       "colorName": {
         "en": "The Snecko",
-        "zh": "蛇花"
+        "zh": "异蛇"
       },
       "colorPillBg": null,
       "colorPillFg": null,
@@ -2819,7 +2819,7 @@
     },
     {
       "id": "SNECKO-LUCKY_HORSESHOE",
-      "codeName": "",
+      "codeName": "Horseshoe",
       "name": {
         "en": "Lucky Horseshoe",
         "zh": "幸运马蹄"
@@ -2828,16 +2828,16 @@
         "en": "Upon pickup, choose [blue]1[/blue] of [blue]3[/blue] Characters. Obtain [blue]3[/blue] [gold]Upgraded[/gold] [gold]Uncommon[/gold] cards and [blue]2[/blue] [gold]Rare[/gold] cards. All combats drop an additional card reward of the chosen character's cards.",
         "zh": "拾起时，从[blue]3[/blue]个角色中选择[blue]1[/blue]个，获得来自该角色的[blue]3[/blue]组已[gold]升级[/gold]的[gold]罕见[/gold]牌奖励和[blue]2[/blue]组[gold]稀有[/gold]牌奖励。每次战斗结束后，额外掉落一组该角色的卡牌奖励。"
       },
-      "rarity": "SPECIAL",
-      "color": "DOWNFALL",
+      "rarity": "COMMON",
+      "color": "HERMIT",
       "colorName": {
-        "en": "Downfall",
-        "zh": "崩坠"
+        "en": "The Hermit",
+        "zh": "亡命之徒"
       },
       "colorPillBg": null,
       "colorPillFg": null,
-      "energyIcon": null,
-      "img": null,
+      "energyIcon": "assets/energy-icons/hermit.png",
+      "img": "assets/relics/horseshoe.png",
       "imageResource": "",
       "deprecated": false
     },
@@ -2904,7 +2904,7 @@
       "color": "SNECKO",
       "colorName": {
         "en": "The Snecko",
-        "zh": "蛇花"
+        "zh": "异蛇"
       },
       "colorPillBg": null,
       "colorPillFg": null,
@@ -2952,7 +2952,7 @@
       "color": "SNECKO",
       "colorName": {
         "en": "The Snecko",
-        "zh": "蛇花"
+        "zh": "异蛇"
       },
       "colorPillBg": null,
       "colorPillFg": null,
@@ -2976,7 +2976,7 @@
       "color": "SNECKO",
       "colorName": {
         "en": "The Snecko",
-        "zh": "蛇花"
+        "zh": "异蛇"
       },
       "colorPillBg": null,
       "colorPillFg": null,
@@ -3000,7 +3000,7 @@
       "color": "SNECKO",
       "colorName": {
         "en": "The Snecko",
-        "zh": "蛇花"
+        "zh": "异蛇"
       },
       "colorPillBg": null,
       "colorPillFg": null,
@@ -3024,7 +3024,7 @@
       "color": "SNECKO",
       "colorName": {
         "en": "The Snecko",
-        "zh": "蛇花"
+        "zh": "异蛇"
       },
       "colorPillBg": null,
       "colorPillFg": null,
@@ -3048,7 +3048,7 @@
       "color": "SNECKO",
       "colorName": {
         "en": "The Snecko",
-        "zh": "蛇花"
+        "zh": "异蛇"
       },
       "colorPillBg": null,
       "colorPillFg": null,

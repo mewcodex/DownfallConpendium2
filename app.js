@@ -213,7 +213,7 @@ function localizeColor(cardOrColor) {
   }
   if (!color) return "";
   const colorMap = {
-    ANCIENT: { en: "Ancient", zh: "远古" },
+    ANCIENT: { en: "Ancient", zh: "先古" },
     BOSS: { en: "Boss", zh: "首领" },
     COLLECTIBLE: { en: "Collectible", zh: "藏品" },
     COLORLESS: { en: "Colorless", zh: "无色" },
@@ -256,7 +256,7 @@ function localizeRarity(rarity) {
     UNCOMMON: { en: "Uncommon", zh: "罕见" },
     RARE: { en: "Rare", zh: "稀有" },
     SPECIAL: { en: "Special", zh: "特殊" },
-    ANCIENT: { en: "Ancient", zh: "远古" },
+    ANCIENT: { en: "Ancient", zh: "先古" },
     CURSE: { en: "Curse", zh: "诅咒" },
   };
   const mapped = rarityMap[rarity];
@@ -325,10 +325,11 @@ function fillSts2DynamicTokens(text, card, useUpgrade = state.showUpgrade) {
   const baseValues = (card && card.dynamicValues) || {};
   const values = useUpgrade ? ((card && card.upgradeDynamicValues) || baseValues) : baseValues;
   const wrapFilledValue = (value, changed) => (changed ? `__TVG__${value}__` : `__TV__${value}__`);
+  const normalizedName = (name) => name.toLowerCase().replace(/power$/, "");
 
   return (text || "").replace(/\{([A-Za-z_]\w*):diff\(\)\}/g, (full, name) => {
-    const key = Object.keys(values).find((candidate) => candidate.toLowerCase() === name.toLowerCase());
-    const baseKey = Object.keys(baseValues).find((candidate) => candidate.toLowerCase() === name.toLowerCase());
+    const key = Object.keys(values).find((candidate) => normalizedName(candidate) === normalizedName(name));
+    const baseKey = Object.keys(baseValues).find((candidate) => normalizedName(candidate) === normalizedName(name));
     const value = key ? values[key] : null;
     const baseValue = baseKey ? baseValues[baseKey] : value;
     if (typeof value !== "number") return full;
@@ -439,6 +440,7 @@ function renderSts2Markup(text) {
     const count = Number(amount || 1);
     return "[E]".repeat(Number.isFinite(count) && count > 0 ? count : 1);
   });
+  rendered = rendered.replace(/\{InCombat:cond:\s*[\s\S]*?\|\}/gi, "");
   rendered = rendered.replace(/\{[A-Za-z_]\w*:cond:\s*([\s\S]*?)\|\}/g, (_full, content) => {
     return content.trim().replace(/^[（(]\s*/, "").replace(/\s*[）)]+$/, "");
   });
