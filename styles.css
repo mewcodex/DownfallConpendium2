@@ -903,7 +903,7 @@ html[lang^="zh"] .card-desc {
   max-width: none;
   min-height: 118px;
   box-sizing: border-box;
-  padding: 16px 22px 28px;
+  padding: 6px 10px 12px;
   border: 0;
   border-width: 43px 91px 32px 55px;
   border-style: solid;
@@ -1025,7 +1025,7 @@ article.card[data-card-id] .card-frame {
 }
 
 article.card[data-card-id] .card-banner {
-  inset: 0.95% auto auto -4.33%;
+  inset: 1.42% auto auto -4.33%;
   width: 109%;
   height: 19.67%;
   background-image: var(--rarity-banner-image);
@@ -1033,7 +1033,7 @@ article.card[data-card-id] .card-banner {
 }
 
 article.card[data-card-id] .card-face-title {
-  inset: 0.95% 15% auto;
+  inset: 1.42% 15% auto;
   height: 9.48%;
   display: block;
   padding: 0;
@@ -1121,9 +1121,9 @@ article.card[data-card-id] .card-body .card-desc {
   color: #fdf4e0;
   font-family: "Noto Sans Mono CJK SC UI", "PingFang SC", "Microsoft YaHei", sans-serif;
   font-size: 7cqw;
-  line-height: 1.25;
+  line-height: 1.3;
   font-weight: 400;
-  letter-spacing: 0;
+  letter-spacing: 0.02em;
   text-align: center;
   white-space: normal;
   overflow-wrap: anywhere;
