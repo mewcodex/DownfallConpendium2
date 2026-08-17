@@ -900,12 +900,27 @@ html[lang^="zh"] .card-desc {
 
 .card-attached-tip {
   max-width: 320px;
-  padding: 10px 12px;
-  border: 1px solid rgba(44, 111, 124, 0.25);
-  border-radius: 8px;
-  background: #fffdf8;
-  color: #1f1b16;
-  box-shadow: 0 14px 34px rgba(27, 26, 24, 0.2);
+  padding: 12px 14px;
+  border: 2px solid #526873;
+  border-radius: 6px;
+  background: linear-gradient(180deg, #26343b 0%, #1d2a30 100%);
+  color: #fdf4e0;
+  box-shadow: 0 4px 0 rgba(0, 0, 0, 0.5), 0 10px 20px rgba(0, 0, 0, 0.28);
+}
+
+.card-attached-tip .kw-tip-name {
+  margin-bottom: 6px;
+  color: #efc851;
+  font-family: "Noto Sans Mono CJK SC UI", "PingFang SC", "Microsoft YaHei", sans-serif;
+  font-size: 1rem;
+  font-weight: 400;
+}
+
+.card-attached-tip .kw-tip-desc {
+  color: #fdf4e0;
+  font-family: "Noto Sans Mono CJK SC UI", "PingFang SC", "Microsoft YaHei", sans-serif;
+  font-size: 0.92rem;
+  line-height: 1.2;
 }
 
 .card-attached-previews {
@@ -916,10 +931,10 @@ html[lang^="zh"] .card-desc {
 }
 
 .card-attached-previews .card.mini-cloned-card {
-  width: 240px;
-  min-height: 320px;
+  width: 180px;
+  min-height: 0;
   margin: 0;
-  box-shadow: 0 5px 8px rgba(27, 26, 24, 0.1);
+  box-shadow: 0 5px 12px rgba(0, 0, 0, 0.45);
 }
 
 .card-attached-previews .card.mini-cloned-card .card-body {

@@ -1088,9 +1088,11 @@ function showCardAttachmentTooltip(card, anchorRect, langOverride = null) {
     const previews = document.createElement("div");
     previews.className = "card-attached-previews";
     cardTips.forEach((entry) => {
-      previews.appendChild(langOverride
+      const preview = langOverride
         ? buildCardElementInLang(entry.card, language, true, true, { forceUpgrade: entry.upgraded })
-        : buildCardElement(entry.card, true, true, { forceUpgrade: entry.upgraded }));
+        : buildCardElement(entry.card, true, true, { forceUpgrade: entry.upgraded });
+      previews.appendChild(preview);
+      fitGameCardText(preview);
     });
     tip.appendChild(previews);
   }
