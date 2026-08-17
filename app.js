@@ -1113,18 +1113,25 @@ function showCardAttachmentTooltip(card, anchorRect, langOverride = null) {
   tip.classList.toggle("split-sides", canSplit);
   tip.classList.remove("placement-left", "placement-right");
   const tipRect = tip.getBoundingClientRect();
-  let left = rect.right + window.scrollX + 10;
+  const sideGap = 24;
+  const viewportLeft = window.scrollX + margin;
+  const viewportRight = window.scrollX + window.innerWidth - margin;
+  const rightLeft = rect.right + window.scrollX + sideGap;
+  const leftLeft = rect.left + window.scrollX - tipRect.width - sideGap;
+  const fitsRight = rightLeft + tipRect.width <= viewportRight;
+  const fitsLeft = leftLeft >= viewportLeft;
+  let left = rightLeft;
   let top = rect.top + window.scrollY;
   if (canSplit) {
     tip.classList.add("placement-split");
     left = rect.left + window.scrollX - textWidth - splitGap;
     tip.style.setProperty("--hover-split-gap", `${splitGap}px`);
-  }
-  if (left + tipRect.width > window.scrollX + window.innerWidth - margin) {
+  } else if (!fitsRight && fitsLeft) {
     tip.classList.add("placement-left");
-    left = rect.left + window.scrollX - tipRect.width - 24;
+    left = leftLeft;
   } else if (!canSplit) {
     tip.classList.add("placement-right");
+    left = fitsRight ? rightLeft : Math.max(viewportLeft, Math.min(rightLeft, viewportRight - tipRect.width));
   }
   top = Math.min(top, window.scrollY + window.innerHeight - tipRect.height - margin);
   tip.style.left = `${Math.max(window.scrollX + margin, left)}px`;
