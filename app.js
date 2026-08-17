@@ -415,19 +415,25 @@ function renderSts2Markup(text) {
     red: "kw-mark-red",
     purple: "kw-mark-purple",
     green: "kw-mark-green",
+    aqua: "kw-mark-aqua",
   };
-  let rendered = text.replace(/\[(gold|blue|red|purple|green)\]([\s\S]*?)\[\/\1\]/gi, (_full, color, content) => {
+  let rendered = text.replace(/\[(gold|blue|red|purple|green|aqua)\]([\s\S]*?)\[\/\1\]/gi, (_full, color, content) => {
     return `<span class="${colorClasses[color.toLowerCase()]}">${content}</span>`;
   });
-  rendered = rendered.replace(/\{(?:energyPrefix:)?energyIcons\((\d*)\)\}/gi, (_full, amount) => {
+  rendered = rendered.replace(/\{(?:energyPrefix|Energy):energyIcons\((\d*)\)\}/gi, (_full, amount) => {
     const count = Number(amount || 1);
     return "[E]".repeat(Number.isFinite(count) && count > 0 ? count : 1);
+  });
+  rendered = rendered.replace(/\{[A-Za-z_]\w*:cond:\s*([\s\S]*?)\|\}/g, (_full, content) => {
+    return content.trim().replace(/^[（(]\s*/, "").replace(/\s*[）)]+$/, "");
   });
   rendered = rendered.replace(/\{(?:[A-Za-z_][\w]*)(?::(?:diff\(\)|plural:[^}]*|cond:[\s\S]*?))?\}/g, (token) => {
     const name = token.slice(1, -1).split(":", 1)[0].replace(/Power$/, "").replace(/([a-z])([A-Z])/g, "$1 $2");
     return name || token;
   });
-  return rendered.replace(/\[\/?(?:sine|jitter|fly_in|shake)\]/gi, "");
+  return rendered
+    .replace(/\{[A-Za-z_]\w*:[^{}]*\}/g, "")
+    .replace(/\[\/?(?:sine|jitter|fly_in|shake)\]/gi, "");
 }
 
 function attachAfterlifeHover(text) {
@@ -481,8 +487,9 @@ function stripRemoveSpaceMarkers(htmlText) {
 function renderEnergyToken(text, card) {
   if (!text) return "";
   const icon = card && card.energyIcon;
-  if (!icon) return text;
-  const iconHtml = `<span class="energy-token"><img src="${icon}" alt="E" loading="lazy"></span>`;
+  const iconHtml = icon
+    ? `<span class="energy-token"><img src="${icon}" alt="E" loading="lazy"></span>`
+    : '<span class="energy-token energy-token-fallback" aria-label="Energy">E</span>';
   return text.replace(/\[E\]/g, iconHtml);
 }
 
@@ -1405,7 +1412,6 @@ function renderDescription(card, options = {}) {
   const useUpgrade = options.forceUpgrade ?? state.showUpgrade;
   let text = resolveCardBaseDescription(card, useUpgrade);
   text = normalizeDescriptionSpacing(text);
-  text = renderSts2Markup(text);
   text = fillNumericTokens(text, card, useUpgrade);
   text = finalizeFilledTokenSpacing(text);
   text = preserveLegacyColorMarkers(text);

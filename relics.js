@@ -149,11 +149,14 @@ function humanizeCode(value) {
 
 function renderSts2Markup(text) {
   if (!text) return "";
-  const colorClasses = { gold: "kw-mark-yellow", blue: "kw-mark-blue", red: "kw-mark-red", purple: "kw-mark-purple", green: "kw-mark-green" };
-  let rendered = text.replace(/\[(gold|blue|red|purple|green)\]([\s\S]*?)\[\/\1\]/gi, (_full, color, content) => `<span class="${colorClasses[color.toLowerCase()]}">${content}</span>`);
-  rendered = rendered.replace(/\{(?:energyPrefix:)?energyIcons\((\d*)\)\}/gi, (_full, amount) => "[E]".repeat(Math.max(1, Number(amount || 1))));
+  const colorClasses = { gold: "kw-mark-yellow", blue: "kw-mark-blue", red: "kw-mark-red", purple: "kw-mark-purple", green: "kw-mark-green", aqua: "kw-mark-aqua" };
+  let rendered = text.replace(/\[(gold|blue|red|purple|green|aqua)\]([\s\S]*?)\[\/\1\]/gi, (_full, color, content) => `<span class="${colorClasses[color.toLowerCase()]}">${content}</span>`);
+  rendered = rendered.replace(/\{(?:energyPrefix|Energy):energyIcons\((\d*)\)\}/gi, (_full, amount) => "[E]".repeat(Math.max(1, Number(amount || 1))));
+  rendered = rendered.replace(/\{[A-Za-z_]\w*:cond:\s*([\s\S]*?)\|\}/g, (_full, content) => content.trim().replace(/^[（(]\s*/, "").replace(/\s*[）)]+$/, ""));
   rendered = rendered.replace(/\{(?:[A-Za-z_][\w]*)(?::(?:diff\(\)|plural:[^}]*|cond:[\s\S]*?))?\}/g, (token) => token.slice(1, -1).split(":", 1)[0].replace(/Power$/, "").replace(/([a-z])([A-Z])/g, "$1 $2"));
-  return rendered.replace(/\[\/?(?:sine|jitter|fly_in|shake)\]/gi, "");
+  return rendered
+    .replace(/\{[A-Za-z_]\w*:[^{}]*\}/g, "")
+    .replace(/\[\/?(?:sine|jitter|fly_in|shake)\]/gi, "");
 }
 
 function applyI18nText() {
@@ -278,8 +281,9 @@ function renderLegacyBlueMarkers(text) {
 
 function renderEnergyToken(text, energyIcon) {
   if (!text) return "";
-  if (!energyIcon) return text;
-  const iconHtml = `<span class="energy-token"><img src="${escapeHtml(energyIcon)}" alt="E" loading="lazy"></span>`;
+  const iconHtml = energyIcon
+    ? `<span class="energy-token"><img src="${escapeHtml(energyIcon)}" alt="E" loading="lazy"></span>`
+    : '<span class="energy-token energy-token-fallback" aria-label="Energy">E</span>';
   return text.replace(/\[E\]/g, iconHtml);
 }
 
