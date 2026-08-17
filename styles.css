@@ -903,7 +903,7 @@ html[lang^="zh"] .card-desc {
   max-width: none;
   min-height: 118px;
   box-sizing: border-box;
-  padding: 6px 10px 12px;
+  padding: 0;
   border: 0;
   border-width: 43px 91px 32px 55px;
   border-style: solid;
@@ -1031,6 +1031,8 @@ article.card[data-card-id] .card-frame {
   inset: 0;
   width: 100%;
   height: 100%;
+  background-image: var(--frame-image);
+  filter: none;
 }
 
 article.card[data-card-id] .card-banner {
@@ -1058,11 +1060,11 @@ article.card[data-card-id] .card-face-title h3 {
   line-height: 1.54;
   max-width: 100%;
   color: #fff6e2;
-  -webkit-text-stroke: 2.5px var(--title-outline);
+  -webkit-text-stroke: 2px var(--title-outline);
   paint-order: stroke fill;
   text-shadow:
-    0 0 3px rgba(0, 0, 0, 0.34),
-    1px 1px 6px rgba(0, 0, 0, 0.55);
+    0 0 2px rgba(0, 0, 0, 0.34),
+    0 0 4px rgba(0, 0, 0, 0.45);
 }
 
 article.card[data-card-id] .card-face-cost {
@@ -1098,10 +1100,6 @@ article.card[data-card-id] .card-face-type {
   font-family: "Noto Sans Mono CJK SC UI", "PingFang SC", "Microsoft YaHei", sans-serif;
   font-weight: 700;
   filter: none;
-}
-
-article.card[data-card-id].card-color-automaton .card-frame {
-  filter: hue-rotate(120deg) saturate(0.65) brightness(1.08);
 }
 
 article.card[data-card-id] .card-body {
