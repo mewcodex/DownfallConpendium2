@@ -781,32 +781,32 @@ html[lang^="zh"] .card-desc {
 
 .kw-mark-yellow {
   color: #efc851;
-  font-weight: 200;
+  font-weight: inherit;
 }
 
 .kw-mark-blue {
   color: #87ceeb;
-  font-weight: 200;
+  font-weight: inherit;
 }
 
 .kw-mark-red {
   color: #e25e5e;
-  font-weight: 200;
+  font-weight: inherit;
 }
 
 .kw-mark-purple {
   color: #d19cea;
-  font-weight: 200;
+  font-weight: inherit;
 }
 
 .kw-mark-green {
   color: #52c41a;
-  font-weight: 200;
+  font-weight: inherit;
 }
 
 .kw-mark-aqua {
   color: #147d8b;
-  font-weight: 200;
+  font-weight: inherit;
 }
 
 .card-mini-preview {
