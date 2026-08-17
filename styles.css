@@ -780,27 +780,27 @@ html[lang^="zh"] .card-desc {
 }
 
 .kw-mark-yellow {
-  color: #9b6d00;
+  color: #efc851;
   font-weight: 700;
 }
 
 .kw-mark-blue {
-  color: #1f5db5;
+  color: #87ceeb;
   font-weight: 700;
 }
 
 .kw-mark-red {
-  color: #b43a2f;
+  color: #e25e5e;
   font-weight: 700;
 }
 
 .kw-mark-purple {
-  color: #7b4dc9;
+  color: #d19cea;
   font-weight: 700;
 }
 
 .kw-mark-green {
-  color: #287a45;
+  color: #52c41a;
   font-weight: 700;
 }
 
@@ -1084,15 +1084,15 @@ article.card[data-card-id] .card-body .card-desc {
   inset: 58.77% auto auto 9.33%;
   width: 81%;
   height: 32.23%;
-  display: grid;
-  align-content: center;
-  justify-items: center;
-  padding: 0 1%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 2% 2.67%;
   overflow: hidden;
   color: #fdf4e0;
   font-family: "Noto Sans Mono CJK SC UI", "PingFang SC", "Microsoft YaHei", sans-serif;
   font-size: 7cqw;
-  line-height: 1.04;
+  line-height: 1.2;
   font-weight: 400;
   letter-spacing: 0;
   text-align: center;
@@ -1105,7 +1105,7 @@ article.card[data-card-id] .card-desc-content {
   width: 100%;
   max-width: 100%;
   text-align: center;
-  white-space: normal;
+  white-space: pre-wrap;
   overflow-wrap: anywhere;
 }
 
