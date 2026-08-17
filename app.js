@@ -326,15 +326,18 @@ function fillSts2DynamicTokens(text, card, useUpgrade = state.showUpgrade) {
   const values = useUpgrade ? ((card && card.upgradeDynamicValues) || baseValues) : baseValues;
   const wrapFilledValue = (value, changed) => (changed ? `__TVG__${value}__` : `__TV__${value}__`);
   const normalizedName = (name) => name.toLowerCase().replace(/power$/, "");
-
-  return (text || "").replace(/\{([A-Za-z_]\w*):diff\(\)\}/g, (full, name) => {
+  const fillValue = (full, name) => {
     const key = Object.keys(values).find((candidate) => normalizedName(candidate) === normalizedName(name));
     const baseKey = Object.keys(baseValues).find((candidate) => normalizedName(candidate) === normalizedName(name));
     const value = key ? values[key] : null;
     const baseValue = baseKey ? baseValues[baseKey] : value;
     if (typeof value !== "number") return full;
     return wrapFilledValue(value, useUpgrade && typeof baseValue === "number" && value !== baseValue);
-  });
+  };
+
+  return (text || "")
+    .replace(/\{([A-Za-z_]\w*):diff\(\)\}/g, fillValue)
+    .replace(/\{([A-Za-z_]\w*)\}/g, fillValue);
 }
 
 function finalizeFilledTokenSpacing(text) {
@@ -469,6 +472,7 @@ function renderSts2Markup(text, useUpgrade = state.showUpgrade, card = null) {
   ));
   rendered = rendered.replace(/\{IfUpgraded:plus\(\)\}/g, useUpgrade ? "+" : "");
   rendered = rendered.replace(/\[(gold|blue|red|purple|green|aqua)\]([\s\S]*?)\[\/\1\]/gi, (_full, color, content) => {
+    if (/^__TVG?__-?\d+__$/.test(content)) return content;
     return `<span class="${colorClasses[color.toLowerCase()]}">${content}</span>`;
   });
   rendered = rendered.replace(/\{(?:energyPrefix|Energy):energyIcons\((\d*)\)\}/gi, (_full, amount) => {
@@ -1063,11 +1067,15 @@ function showCardAttachmentTooltip(card, anchorRect, langOverride = null) {
   const tip = getCardAttachmentTooltip();
   tip.innerHTML = "";
   textTips.forEach((entry) => {
+    const tipContext = Object.assign({}, card, {
+      dynamicValues: Object.assign({}, card.dynamicValues || {}, entry.dynamicValues || {}),
+      upgradeDynamicValues: Object.assign({}, card.upgradeDynamicValues || {}, entry.dynamicValues || {}),
+    });
     const panel = document.createElement("section");
     panel.className = "card-attached-tip";
     panel.innerHTML = `
       <div class="kw-tip-name">${withTempLang(language, () => hideZhSpacesAfterFormatting(escapeHtml(entry.name[language])))}</div>
-      <div class="kw-tip-desc">${withTempLang(language, () => formatTooltipDescriptionText(entry.description[language], card))}</div>
+      <div class="kw-tip-desc">${withTempLang(language, () => formatTooltipDescriptionText(entry.description[language], tipContext))}</div>
     `;
     tip.appendChild(panel);
   });
@@ -1564,17 +1572,20 @@ function colorizeAfterlifeExtended(text) {
 
 function resolveCardBaseDescription(card, useUpgrade = state.showUpgrade) {
   const base = getDisplayDescriptionByMode(card, useUpgrade);
+  const finisherSuffix = card && card.isFinisher && card.finisherLabel && card.finisherLabel[state.lang]
+    ? `\n${card.finisherLabel[state.lang]}`
+    : "";
 
   if (!shouldRenderAfterlifeExtended(card, base)) {
-    return base;
+    return `${base}${finisherSuffix}`;
   }
 
   const extList = ((card.extendedDescription || {})[state.lang] || []);
   if (!extList.length || !extList[0]) {
-    return base;
+    return `${base}${finisherSuffix}`;
   }
 
-  return `${base}${colorizeAfterlifeExtended(extList[0])}`;
+  return `${base}${colorizeAfterlifeExtended(extList[0])}${finisherSuffix}`;
 }
 
 function renderDescription(card, options = {}) {

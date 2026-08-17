@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-17T15:04:12.676623Z",
+  "generatedAt": "2026-08-17T15:27:40.903261Z",
   "modVersion": "0.1.13",
   "translationVersion": "2026_08_17_21_01_04_635d8d",
   "baseKeywords": [],
@@ -134,7 +134,8 @@
           "description": {
             "en": "Place this card into your [gold]Sequence[/gold].\nWhen it holds [blue]3[/blue] cards, their effects above this keyword are merged into a Function that costs [blue]1[/blue].",
             "zh": "将此牌置入[gold]编码序列[/gold]。\n当[gold]编码序列[/gold]中拥有[blue]3[/blue]张牌时，它们在该关键词之上的效果将被合并为一个耗能为[blue]1[/blue]的[gold]方法[/gold]牌并加入[gold]手牌[/gold]。"
-          }
+          },
+          "dynamicValues": {}
         }
       ],
       "attachedCardTips": []
@@ -260,7 +261,8 @@
           "description": {
             "en": "Place a card inside of your [gold]Stash Pile[/gold], up to a maximum of [blue]5[/blue]. You draw the oldest card from it at the start of each turn.",
             "zh": "将一张牌放入[gold]暂存区[/gold]（最多[blue]5[/blue]张）。\n在每个回合开始时，你会从[gold]暂存区[/gold]顶部抽一张牌。"
-          }
+          },
+          "dynamicValues": {}
         }
       ],
       "attachedCardTips": []
@@ -329,7 +331,8 @@
           "description": {
             "en": "Place a card inside of your [gold]Stash Pile[/gold], up to a maximum of [blue]5[/blue]. You draw the oldest card from it at the start of each turn.",
             "zh": "将一张牌放入[gold]暂存区[/gold]（最多[blue]5[/blue]张）。\n在每个回合开始时，你会从[gold]暂存区[/gold]顶部抽一张牌。"
-          }
+          },
+          "dynamicValues": {}
         }
       ],
       "attachedCardTips": []
@@ -516,7 +519,8 @@
           "description": {
             "en": "Place this card into your [gold]Sequence[/gold].\nWhen it holds [blue]3[/blue] cards, their effects above this keyword are merged into a Function that costs [blue]1[/blue].",
             "zh": "将此牌置入[gold]编码序列[/gold]。\n当[gold]编码序列[/gold]中拥有[blue]3[/blue]张牌时，它们在该关键词之上的效果将被合并为一个耗能为[blue]1[/blue]的[gold]方法[/gold]牌并加入[gold]手牌[/gold]。"
-          }
+          },
+          "dynamicValues": {}
         }
       ],
       "attachedCardTips": []
@@ -817,7 +821,8 @@
           "description": {
             "en": "Place a card inside of your [gold]Stash Pile[/gold], up to a maximum of [blue]5[/blue]. You draw the oldest card from it at the start of each turn.",
             "zh": "将一张牌放入[gold]暂存区[/gold]（最多[blue]5[/blue]张）。\n在每个回合开始时，你会从[gold]暂存区[/gold]顶部抽一张牌。"
-          }
+          },
+          "dynamicValues": {}
         }
       ],
       "attachedCardTips": []
@@ -1008,7 +1013,8 @@
           "description": {
             "en": "Place a card inside of your [gold]Stash Pile[/gold], up to a maximum of [blue]5[/blue]. You draw the oldest card from it at the start of each turn.",
             "zh": "将一张牌放入[gold]暂存区[/gold]（最多[blue]5[/blue]张）。\n在每个回合开始时，你会从[gold]暂存区[/gold]顶部抽一张牌。"
-          }
+          },
+          "dynamicValues": {}
         }
       ],
       "attachedCardTips": []
@@ -1191,7 +1197,8 @@
           "description": {
             "en": "Place a card inside of your [gold]Stash Pile[/gold], up to a maximum of [blue]5[/blue]. You draw the oldest card from it at the start of each turn.",
             "zh": "将一张牌放入[gold]暂存区[/gold]（最多[blue]5[/blue]张）。\n在每个回合开始时，你会从[gold]暂存区[/gold]顶部抽一张牌。"
-          }
+          },
+          "dynamicValues": {}
         }
       ],
       "attachedCardTips": []
@@ -1675,7 +1682,8 @@
           "description": {
             "en": "Place a card inside of your [gold]Stash Pile[/gold], up to a maximum of [blue]5[/blue]. You draw the oldest card from it at the start of each turn.",
             "zh": "将一张牌放入[gold]暂存区[/gold]（最多[blue]5[/blue]张）。\n在每个回合开始时，你会从[gold]暂存区[/gold]顶部抽一张牌。"
-          }
+          },
+          "dynamicValues": {}
         }
       ],
       "attachedCardTips": []
@@ -1923,7 +1931,8 @@
           "description": {
             "en": "Place this card into your [gold]Sequence[/gold].\nWhen it holds [blue]3[/blue] cards, their effects above this keyword are merged into a Function that costs [blue]1[/blue].",
             "zh": "将此牌置入[gold]编码序列[/gold]。\n当[gold]编码序列[/gold]中拥有[blue]3[/blue]张牌时，它们在该关键词之上的效果将被合并为一个耗能为[blue]1[/blue]的[gold]方法[/gold]牌并加入[gold]手牌[/gold]。"
-          }
+          },
+          "dynamicValues": {}
         }
       ],
       "attachedCardTips": []
@@ -2273,7 +2282,8 @@
           "description": {
             "en": "Place a card inside of your [gold]Stash Pile[/gold], up to a maximum of [blue]5[/blue]. You draw the oldest card from it at the start of each turn.",
             "zh": "将一张牌放入[gold]暂存区[/gold]（最多[blue]5[/blue]张）。\n在每个回合开始时，你会从[gold]暂存区[/gold]顶部抽一张牌。"
-          }
+          },
+          "dynamicValues": {}
         }
       ],
       "attachedCardTips": []
@@ -2641,7 +2651,8 @@
           "description": {
             "en": "Place this card into your [gold]Sequence[/gold].\nWhen it holds [blue]3[/blue] cards, their effects above this keyword are merged into a Function that costs [blue]1[/blue].",
             "zh": "将此牌置入[gold]编码序列[/gold]。\n当[gold]编码序列[/gold]中拥有[blue]3[/blue]张牌时，它们在该关键词之上的效果将被合并为一个耗能为[blue]1[/blue]的[gold]方法[/gold]牌并加入[gold]手牌[/gold]。"
-          }
+          },
+          "dynamicValues": {}
         }
       ],
       "attachedCardTips": [
@@ -2773,7 +2784,8 @@
           "description": {
             "en": "Place this card into your [gold]Sequence[/gold].\nWhen it holds [blue]3[/blue] cards, their effects above this keyword are merged into a Function that costs [blue]1[/blue].",
             "zh": "将此牌置入[gold]编码序列[/gold]。\n当[gold]编码序列[/gold]中拥有[blue]3[/blue]张牌时，它们在该关键词之上的效果将被合并为一个耗能为[blue]1[/blue]的[gold]方法[/gold]牌并加入[gold]手牌[/gold]。"
-          }
+          },
+          "dynamicValues": {}
         }
       ],
       "attachedCardTips": []
@@ -3348,7 +3360,8 @@
           "description": {
             "en": "Place a card inside of your [gold]Stash Pile[/gold], up to a maximum of [blue]5[/blue]. You draw the oldest card from it at the start of each turn.",
             "zh": "将一张牌放入[gold]暂存区[/gold]（最多[blue]5[/blue]张）。\n在每个回合开始时，你会从[gold]暂存区[/gold]顶部抽一张牌。"
-          }
+          },
+          "dynamicValues": {}
         }
       ],
       "attachedCardTips": []
@@ -3596,7 +3609,8 @@
           "description": {
             "en": "Place a card inside of your [gold]Stash Pile[/gold], up to a maximum of [blue]5[/blue]. You draw the oldest card from it at the start of each turn.",
             "zh": "将一张牌放入[gold]暂存区[/gold]（最多[blue]5[/blue]张）。\n在每个回合开始时，你会从[gold]暂存区[/gold]顶部抽一张牌。"
-          }
+          },
+          "dynamicValues": {}
         }
       ],
       "attachedCardTips": []
@@ -3722,7 +3736,8 @@
           "description": {
             "en": "Place this card into your [gold]Sequence[/gold].\nWhen it holds [blue]3[/blue] cards, their effects above this keyword are merged into a Function that costs [blue]1[/blue].",
             "zh": "将此牌置入[gold]编码序列[/gold]。\n当[gold]编码序列[/gold]中拥有[blue]3[/blue]张牌时，它们在该关键词之上的效果将被合并为一个耗能为[blue]1[/blue]的[gold]方法[/gold]牌并加入[gold]手牌[/gold]。"
-          }
+          },
+          "dynamicValues": {}
         }
       ],
       "attachedCardTips": []
@@ -3793,7 +3808,8 @@
           "description": {
             "en": "Place a card inside of your [gold]Stash Pile[/gold], up to a maximum of [blue]5[/blue]. You draw the oldest card from it at the start of each turn.",
             "zh": "将一张牌放入[gold]暂存区[/gold]（最多[blue]5[/blue]张）。\n在每个回合开始时，你会从[gold]暂存区[/gold]顶部抽一张牌。"
-          }
+          },
+          "dynamicValues": {}
         }
       ],
       "attachedCardTips": []
@@ -4098,7 +4114,8 @@
           "description": {
             "en": "Place a card inside of your [gold]Stash Pile[/gold], up to a maximum of [blue]5[/blue]. You draw the oldest card from it at the start of each turn.",
             "zh": "将一张牌放入[gold]暂存区[/gold]（最多[blue]5[/blue]张）。\n在每个回合开始时，你会从[gold]暂存区[/gold]顶部抽一张牌。"
-          }
+          },
+          "dynamicValues": {}
         }
       ],
       "attachedCardTips": []
@@ -4167,7 +4184,8 @@
           "description": {
             "en": "Place a card inside of your [gold]Stash Pile[/gold], up to a maximum of [blue]5[/blue]. You draw the oldest card from it at the start of each turn.",
             "zh": "将一张牌放入[gold]暂存区[/gold]（最多[blue]5[/blue]张）。\n在每个回合开始时，你会从[gold]暂存区[/gold]顶部抽一张牌。"
-          }
+          },
+          "dynamicValues": {}
         }
       ],
       "attachedCardTips": []
@@ -4710,7 +4728,8 @@
           "description": {
             "en": "Place this card into your [gold]Sequence[/gold].\nWhen it holds [blue]3[/blue] cards, their effects above this keyword are merged into a Function that costs [blue]1[/blue].",
             "zh": "将此牌置入[gold]编码序列[/gold]。\n当[gold]编码序列[/gold]中拥有[blue]3[/blue]张牌时，它们在该关键词之上的效果将被合并为一个耗能为[blue]1[/blue]的[gold]方法[/gold]牌并加入[gold]手牌[/gold]。"
-          }
+          },
+          "dynamicValues": {}
         }
       ],
       "attachedCardTips": [
@@ -5477,7 +5496,8 @@
           "description": {
             "en": "Place this card into your [gold]Sequence[/gold].\nWhen it holds [blue]3[/blue] cards, their effects above this keyword are merged into a Function that costs [blue]1[/blue].",
             "zh": "将此牌置入[gold]编码序列[/gold]。\n当[gold]编码序列[/gold]中拥有[blue]3[/blue]张牌时，它们在该关键词之上的效果将被合并为一个耗能为[blue]1[/blue]的[gold]方法[/gold]牌并加入[gold]手牌[/gold]。"
-          }
+          },
+          "dynamicValues": {}
         }
       ],
       "attachedCardTips": []
@@ -5719,7 +5739,8 @@
           "description": {
             "en": "Place a card inside of your [gold]Stash Pile[/gold], up to a maximum of [blue]5[/blue]. You draw the oldest card from it at the start of each turn.",
             "zh": "将一张牌放入[gold]暂存区[/gold]（最多[blue]5[/blue]张）。\n在每个回合开始时，你会从[gold]暂存区[/gold]顶部抽一张牌。"
-          }
+          },
+          "dynamicValues": {}
         }
       ],
       "attachedCardTips": []
@@ -6083,7 +6104,8 @@
           "description": {
             "en": "Place a card inside of your [gold]Stash Pile[/gold], up to a maximum of [blue]5[/blue]. You draw the oldest card from it at the start of each turn.",
             "zh": "将一张牌放入[gold]暂存区[/gold]（最多[blue]5[/blue]张）。\n在每个回合开始时，你会从[gold]暂存区[/gold]顶部抽一张牌。"
-          }
+          },
+          "dynamicValues": {}
         }
       ],
       "attachedCardTips": []
@@ -6215,7 +6237,8 @@
           "description": {
             "en": "Place a card inside of your [gold]Stash Pile[/gold], up to a maximum of [blue]5[/blue]. You draw the oldest card from it at the start of each turn.",
             "zh": "将一张牌放入[gold]暂存区[/gold]（最多[blue]5[/blue]张）。\n在每个回合开始时，你会从[gold]暂存区[/gold]顶部抽一张牌。"
-          }
+          },
+          "dynamicValues": {}
         }
       ],
       "attachedCardTips": []
@@ -6682,7 +6705,8 @@
           "description": {
             "en": "If you play [blue]7[/blue] Power cards in the combat, [gold]Awaken[/gold].\nWhile you are [gold]Awakened[/gold], [gold]Upgrade[/gold] ALL [gold]Conjured[/gold] Spell cards for the rest of the combat.",
             "zh": "如果你在一场战斗中打出了[blue]7[/blue]张能力牌，则会[gold]觉醒[/gold]。\n当你[gold]觉醒[/gold]时，所有[gold]念咒[/gold]得到的法术牌会被[gold]升级[/gold]。"
-          }
+          },
+          "dynamicValues": {}
         }
       ],
       "attachedCardTips": []
@@ -7449,7 +7473,8 @@
           "description": {
             "en": "Any effect that caused you to lose {Energy:energyIcons()}, even if you had none to lose.\n(Does not include {Energy:energyIcons()} spent playing cards.)",
             "zh": "除打出卡牌外，任何令你失去{Energy:energyIcons()}的效果视为力竭。能量为0{Energy:energyIcons()}时仍能触发。\n"
-          }
+          },
+          "dynamicValues": {}
         }
       ],
       "attachedCardTips": []
@@ -7866,7 +7891,8 @@
           "description": {
             "en": "Any effect that caused you to lose {Energy:energyIcons()}, even if you had none to lose.\n(Does not include {Energy:energyIcons()} spent playing cards.)",
             "zh": "除打出卡牌外，任何令你失去{Energy:energyIcons()}的效果视为力竭。能量为0{Energy:energyIcons()}时仍能触发。\n"
-          }
+          },
+          "dynamicValues": {}
         }
       ],
       "attachedCardTips": []
@@ -8226,7 +8252,8 @@
           "description": {
             "en": "If you play [blue]7[/blue] Power cards in the combat, [gold]Awaken[/gold].\nWhile you are [gold]Awakened[/gold], [gold]Upgrade[/gold] ALL [gold]Conjured[/gold] Spell cards for the rest of the combat.",
             "zh": "如果你在一场战斗中打出了[blue]7[/blue]张能力牌，则会[gold]觉醒[/gold]。\n当你[gold]觉醒[/gold]时，所有[gold]念咒[/gold]得到的法术牌会被[gold]升级[/gold]。"
-          }
+          },
+          "dynamicValues": {}
         }
       ],
       "attachedCardTips": []
@@ -9388,7 +9415,8 @@
           "description": {
             "en": "Any effect that caused you to lose {Energy:energyIcons()}, even if you had none to lose.\n(Does not include {Energy:energyIcons()} spent playing cards.)",
             "zh": "除打出卡牌外，任何令你失去{Energy:energyIcons()}的效果视为力竭。能量为0{Energy:energyIcons()}时仍能触发。\n"
-          }
+          },
+          "dynamicValues": {}
         }
       ],
       "attachedCardTips": []
@@ -9736,7 +9764,8 @@
           "description": {
             "en": "Create the next card from you Spellbook in your [gold]Hand[/gold].",
             "zh": "从法术书中将下一张法术牌加入你的[gold]手牌[/gold]。"
-          }
+          },
+          "dynamicValues": {}
         }
       ],
       "attachedCardTips": []
@@ -9805,7 +9834,8 @@
           "description": {
             "en": "Create the next card from you Spellbook in your [gold]Hand[/gold].",
             "zh": "从法术书中将下一张法术牌加入你的[gold]手牌[/gold]。"
-          }
+          },
+          "dynamicValues": {}
         }
       ],
       "attachedCardTips": []
@@ -10967,7 +10997,8 @@
           "description": {
             "en": "If you play [blue]7[/blue] Power cards in the combat, [gold]Awaken[/gold].\nWhile you are [gold]Awakened[/gold], [gold]Upgrade[/gold] ALL [gold]Conjured[/gold] Spell cards for the rest of the combat.",
             "zh": "如果你在一场战斗中打出了[blue]7[/blue]张能力牌，则会[gold]觉醒[/gold]。\n当你[gold]觉醒[/gold]时，所有[gold]念咒[/gold]得到的法术牌会被[gold]升级[/gold]。"
-          }
+          },
+          "dynamicValues": {}
         }
       ],
       "attachedCardTips": []
@@ -11791,7 +11822,8 @@
           "description": {
             "en": "Any effect that caused you to lose {Energy:energyIcons()}, even if you had none to lose.\n(Does not include {Energy:energyIcons()} spent playing cards.)",
             "zh": "除打出卡牌外，任何令你失去{Energy:energyIcons()}的效果视为力竭。能量为0{Energy:energyIcons()}时仍能触发。\n"
-          }
+          },
+          "dynamicValues": {}
         }
       ],
       "attachedCardTips": []
@@ -12735,7 +12767,20 @@
           "description": {
             "en": "You may have only one Stance at a time.",
             "zh": "你同一时间只能拥有一个姿态。"
-          }
+          },
+          "dynamicValues": {}
+        },
+        {
+          "id": "CHAMP-FINISHER",
+          "name": {
+            "en": "Finisher",
+            "zh": "终结技"
+          },
+          "description": {
+            "en": "Requires a [gold]Stance[/gold].\nAfter playing a Finisher, exit your [gold]Stance[/gold] and trigger its Finisher bonus.",
+            "zh": "处于[gold]姿态[/gold]时才能打出。\n打出终结技后，退出当前[gold]姿态[/gold]并触发终结技效果。"
+          },
+          "dynamicValues": {}
         }
       ],
       "attachedCardTips": []
@@ -12806,6 +12851,37 @@
           "description": {
             "en": "Requires a [gold]Stance[/gold].\nAfter playing a Finisher, exit your [gold]Stance[/gold] and trigger its Finisher bonus.",
             "zh": "处于[gold]姿态[/gold]时才能打出。\n打出终结技后，退出当前[gold]姿态[/gold]并触发终结技效果。"
+          },
+          "dynamicValues": {}
+        },
+        {
+          "id": "CHAMP-CHAMP_BERSERKER_STANCE",
+          "name": {
+            "en": "Berserker Stance",
+            "zh": "战狂姿态"
+          },
+          "description": {
+            "en": "[gold]Skill Bonus[/gold]: Gain [blue]{BerserkerSkill}[/blue] [gold]Vigor[/gold].\n[gold]Finisher[/gold]: Gain [blue]{BerserkerFinisher}[/blue] [gold]Strength[/gold].",
+            "zh": "[gold]技术奖励[/gold]：获得[blue]{BerserkerSkill}[/blue]点[gold]活力[/gold]。\n[gold]终结技[/gold]：获得[blue]{BerserkerFinisher}[/blue]点[gold]力量[/gold]。"
+          },
+          "dynamicValues": {
+            "BerserkerSkill": 2,
+            "BerserkerFinisher": 1
+          }
+        },
+        {
+          "id": "CHAMP-CHAMP_DEFENSIVE_STANCE",
+          "name": {
+            "en": "Defensive Stance",
+            "zh": "防守姿态"
+          },
+          "description": {
+            "en": "[gold]Skill Bonus[/gold]: Gain [blue]{DefensiveSkill}[/blue] [gold]Counter[/gold].\n[gold]Finisher[/gold]: Gain [blue]{DefensiveFinisher}[/blue] [gold]Block[/gold].",
+            "zh": "[gold]技术奖励[/gold]：获得[blue]{DefensiveSkill}[/blue]层[gold]反击[/gold]。\n[gold]终结技[/gold]：获得[blue]{DefensiveFinisher}[/blue]点[gold]格挡[/gold]。"
+          },
+          "dynamicValues": {
+            "DefensiveSkill": 2,
+            "DefensiveFinisher": 6
           }
         }
       ],
@@ -12983,7 +13059,23 @@
       "energyIcon": "assets/energy-icons/champ.png",
       "deprecated": false,
       "notInPool": false,
-      "attachedTips": [],
+      "attachedTips": [
+        {
+          "id": "CHAMP-CHAMP_DEFENSIVE_STANCE",
+          "name": {
+            "en": "Defensive Stance",
+            "zh": "防守姿态"
+          },
+          "description": {
+            "en": "[gold]Skill Bonus[/gold]: Gain [blue]{DefensiveSkill}[/blue] [gold]Counter[/gold].\n[gold]Finisher[/gold]: Gain [blue]{DefensiveFinisher}[/blue] [gold]Block[/gold].",
+            "zh": "[gold]技术奖励[/gold]：获得[blue]{DefensiveSkill}[/blue]层[gold]反击[/gold]。\n[gold]终结技[/gold]：获得[blue]{DefensiveFinisher}[/blue]点[gold]格挡[/gold]。"
+          },
+          "dynamicValues": {
+            "DefensiveSkill": 2,
+            "DefensiveFinisher": 6
+          }
+        }
+      ],
       "attachedCardTips": []
     },
     {
@@ -13040,7 +13132,23 @@
       "energyIcon": "assets/energy-icons/champ.png",
       "deprecated": false,
       "notInPool": false,
-      "attachedTips": [],
+      "attachedTips": [
+        {
+          "id": "CHAMP-CHAMP_BERSERKER_STANCE",
+          "name": {
+            "en": "Berserker Stance",
+            "zh": "战狂姿态"
+          },
+          "description": {
+            "en": "[gold]Skill Bonus[/gold]: Gain [blue]{BerserkerSkill}[/blue] [gold]Vigor[/gold].\n[gold]Finisher[/gold]: Gain [blue]{BerserkerFinisher}[/blue] [gold]Strength[/gold].",
+            "zh": "[gold]技术奖励[/gold]：获得[blue]{BerserkerSkill}[/blue]点[gold]活力[/gold]。\n[gold]终结技[/gold]：获得[blue]{BerserkerFinisher}[/blue]点[gold]力量[/gold]。"
+          },
+          "dynamicValues": {
+            "BerserkerSkill": 2,
+            "BerserkerFinisher": 1
+          }
+        }
+      ],
       "attachedCardTips": []
     },
     {
@@ -13099,7 +13207,23 @@
       "energyIcon": "assets/energy-icons/champ.png",
       "deprecated": false,
       "notInPool": false,
-      "attachedTips": [],
+      "attachedTips": [
+        {
+          "id": "CHAMP-CHAMP_BERSERKER_STANCE",
+          "name": {
+            "en": "Berserker Stance",
+            "zh": "战狂姿态"
+          },
+          "description": {
+            "en": "[gold]Skill Bonus[/gold]: Gain [blue]{BerserkerSkill}[/blue] [gold]Vigor[/gold].\n[gold]Finisher[/gold]: Gain [blue]{BerserkerFinisher}[/blue] [gold]Strength[/gold].",
+            "zh": "[gold]技术奖励[/gold]：获得[blue]{BerserkerSkill}[/blue]点[gold]活力[/gold]。\n[gold]终结技[/gold]：获得[blue]{BerserkerFinisher}[/blue]点[gold]力量[/gold]。"
+          },
+          "dynamicValues": {
+            "BerserkerSkill": 2,
+            "BerserkerFinisher": 1
+          }
+        }
+      ],
       "attachedCardTips": []
     },
     {
@@ -13162,7 +13286,20 @@
         "en": "Finisher",
         "zh": "终结技"
       },
-      "attachedTips": [],
+      "attachedTips": [
+        {
+          "id": "CHAMP-FINISHER",
+          "name": {
+            "en": "Finisher",
+            "zh": "终结技"
+          },
+          "description": {
+            "en": "Requires a [gold]Stance[/gold].\nAfter playing a Finisher, exit your [gold]Stance[/gold] and trigger its Finisher bonus.",
+            "zh": "处于[gold]姿态[/gold]时才能打出。\n打出终结技后，退出当前[gold]姿态[/gold]并触发终结技效果。"
+          },
+          "dynamicValues": {}
+        }
+      ],
       "attachedCardTips": []
     },
     {
@@ -13231,7 +13368,8 @@
           "description": {
             "en": "Whenever you play a [gold]Skill[/gold] while in a [gold]Stance[/gold], trigger that Stance's bonus effect, up to [blue]3[/blue] times.\nSkill Bonuses triggered by card effects do not count towards this limit.",
             "zh": "处于[gold]姿态[/gold]时，打出[gold]技能牌[/gold]可获得[gold]姿态[/gold]的技术奖励，最多[blue]3[/blue]次。\n卡牌效果触发的技术奖励不受此限制。"
-          }
+          },
+          "dynamicValues": {}
         }
       ],
       "attachedCardTips": []
@@ -13460,7 +13598,23 @@
       "energyIcon": "assets/energy-icons/champ.png",
       "deprecated": false,
       "notInPool": false,
-      "attachedTips": [],
+      "attachedTips": [
+        {
+          "id": "CHAMP-CHAMP_DEFENSIVE_STANCE",
+          "name": {
+            "en": "Defensive Stance",
+            "zh": "防守姿态"
+          },
+          "description": {
+            "en": "[gold]Skill Bonus[/gold]: Gain [blue]{DefensiveSkill}[/blue] [gold]Counter[/gold].\n[gold]Finisher[/gold]: Gain [blue]{DefensiveFinisher}[/blue] [gold]Block[/gold].",
+            "zh": "[gold]技术奖励[/gold]：获得[blue]{DefensiveSkill}[/blue]层[gold]反击[/gold]。\n[gold]终结技[/gold]：获得[blue]{DefensiveFinisher}[/blue]点[gold]格挡[/gold]。"
+          },
+          "dynamicValues": {
+            "DefensiveSkill": 2,
+            "DefensiveFinisher": 6
+          }
+        }
+      ],
       "attachedCardTips": []
     },
     {
@@ -13580,7 +13734,20 @@
         "en": "Finisher",
         "zh": "终结技"
       },
-      "attachedTips": [],
+      "attachedTips": [
+        {
+          "id": "CHAMP-FINISHER",
+          "name": {
+            "en": "Finisher",
+            "zh": "终结技"
+          },
+          "description": {
+            "en": "Requires a [gold]Stance[/gold].\nAfter playing a Finisher, exit your [gold]Stance[/gold] and trigger its Finisher bonus.",
+            "zh": "处于[gold]姿态[/gold]时才能打出。\n打出终结技后，退出当前[gold]姿态[/gold]并触发终结技效果。"
+          },
+          "dynamicValues": {}
+        }
+      ],
       "attachedCardTips": []
     },
     {
@@ -13765,7 +13932,8 @@
           "description": {
             "en": "Requires a [gold]Stance[/gold].\nAfter playing a Finisher, exit your [gold]Stance[/gold] and trigger its Finisher bonus.",
             "zh": "处于[gold]姿态[/gold]时才能打出。\n打出终结技后，退出当前[gold]姿态[/gold]并触发终结技效果。"
-          }
+          },
+          "dynamicValues": {}
         }
       ],
       "attachedCardTips": []
@@ -13940,7 +14108,23 @@
       "energyIcon": "assets/energy-icons/champ.png",
       "deprecated": false,
       "notInPool": false,
-      "attachedTips": [],
+      "attachedTips": [
+        {
+          "id": "CHAMP-CHAMP_DEFENSIVE_STANCE",
+          "name": {
+            "en": "Defensive Stance",
+            "zh": "防守姿态"
+          },
+          "description": {
+            "en": "[gold]Skill Bonus[/gold]: Gain [blue]{DefensiveSkill}[/blue] [gold]Counter[/gold].\n[gold]Finisher[/gold]: Gain [blue]{DefensiveFinisher}[/blue] [gold]Block[/gold].",
+            "zh": "[gold]技术奖励[/gold]：获得[blue]{DefensiveSkill}[/blue]层[gold]反击[/gold]。\n[gold]终结技[/gold]：获得[blue]{DefensiveFinisher}[/blue]点[gold]格挡[/gold]。"
+          },
+          "dynamicValues": {
+            "DefensiveSkill": 2,
+            "DefensiveFinisher": 6
+          }
+        }
+      ],
       "attachedCardTips": []
     },
     {
@@ -14068,7 +14252,8 @@
           "description": {
             "en": "Requires a [gold]Stance[/gold].\nAfter playing a Finisher, exit your [gold]Stance[/gold] and trigger its Finisher bonus.",
             "zh": "处于[gold]姿态[/gold]时才能打出。\n打出终结技后，退出当前[gold]姿态[/gold]并触发终结技效果。"
-          }
+          },
+          "dynamicValues": {}
         }
       ],
       "attachedCardTips": []
@@ -14139,7 +14324,8 @@
           "description": {
             "en": "Whenever you play a [gold]Skill[/gold] while in a [gold]Stance[/gold], trigger that Stance's bonus effect, up to [blue]3[/blue] times.\nSkill Bonuses triggered by card effects do not count towards this limit.",
             "zh": "处于[gold]姿态[/gold]时，打出[gold]技能牌[/gold]可获得[gold]姿态[/gold]的技术奖励，最多[blue]3[/blue]次。\n卡牌效果触发的技术奖励不受此限制。"
-          }
+          },
+          "dynamicValues": {}
         }
       ],
       "attachedCardTips": []
@@ -14202,7 +14388,20 @@
         "en": "Finisher",
         "zh": "终结技"
       },
-      "attachedTips": [],
+      "attachedTips": [
+        {
+          "id": "CHAMP-FINISHER",
+          "name": {
+            "en": "Finisher",
+            "zh": "终结技"
+          },
+          "description": {
+            "en": "Requires a [gold]Stance[/gold].\nAfter playing a Finisher, exit your [gold]Stance[/gold] and trigger its Finisher bonus.",
+            "zh": "处于[gold]姿态[/gold]时才能打出。\n打出终结技后，退出当前[gold]姿态[/gold]并触发终结技效果。"
+          },
+          "dynamicValues": {}
+        }
+      ],
       "attachedCardTips": []
     },
     {
@@ -14420,7 +14619,25 @@
       "energyIcon": "assets/energy-icons/champ.png",
       "deprecated": false,
       "notInPool": false,
-      "attachedTips": [],
+      "attachedTips": [
+        {
+          "id": "CHAMP-CHAMP_ULTIMATE_STANCE",
+          "name": {
+            "en": "Ultimate Stance",
+            "zh": "终极姿态"
+          },
+          "description": {
+            "en": "[gold]Skill Bonus[/gold]: Gain [blue]{BerserkerSkill}[/blue] [gold]Vigor[/gold] and [blue]{DefensiveSkill}[/blue] [gold]Counter[/gold].\n[gold]Finisher[/gold]: Gain [blue]{BerserkerFinisher}[/blue] [gold]Strength[/gold] and [blue]{DefensiveFinisher}[/blue] [gold]Block[/gold].",
+            "zh": "[gold]技术奖励[/gold]：获得[blue]{BerserkerSkill}[/blue]点[gold]活力[/gold]和[blue]{DefensiveSkill}[/blue]层[gold]反击[/gold]。\n[gold]终结技[/gold]：获得[blue]{BerserkerFinisher}[/blue]点[gold]力量[/gold]和[blue]{DefensiveFinisher}[/blue]点[gold]格挡[/gold]。"
+          },
+          "dynamicValues": {
+            "BerserkerSkill": 2,
+            "DefensiveSkill": 2,
+            "BerserkerFinisher": 1,
+            "DefensiveFinisher": 6
+          }
+        }
+      ],
       "attachedCardTips": []
     },
     {
@@ -14479,7 +14696,23 @@
       "energyIcon": "assets/energy-icons/champ.png",
       "deprecated": false,
       "notInPool": false,
-      "attachedTips": [],
+      "attachedTips": [
+        {
+          "id": "CHAMP-CHAMP_DEFENSIVE_STANCE",
+          "name": {
+            "en": "Defensive Stance",
+            "zh": "防守姿态"
+          },
+          "description": {
+            "en": "[gold]Skill Bonus[/gold]: Gain [blue]{DefensiveSkill}[/blue] [gold]Counter[/gold].\n[gold]Finisher[/gold]: Gain [blue]{DefensiveFinisher}[/blue] [gold]Block[/gold].",
+            "zh": "[gold]技术奖励[/gold]：获得[blue]{DefensiveSkill}[/blue]层[gold]反击[/gold]。\n[gold]终结技[/gold]：获得[blue]{DefensiveFinisher}[/blue]点[gold]格挡[/gold]。"
+          },
+          "dynamicValues": {
+            "DefensiveSkill": 2,
+            "DefensiveFinisher": 6
+          }
+        }
+      ],
       "attachedCardTips": []
     },
     {
@@ -14660,7 +14893,20 @@
         "en": "Finisher",
         "zh": "终结技"
       },
-      "attachedTips": [],
+      "attachedTips": [
+        {
+          "id": "CHAMP-FINISHER",
+          "name": {
+            "en": "Finisher",
+            "zh": "终结技"
+          },
+          "description": {
+            "en": "Requires a [gold]Stance[/gold].\nAfter playing a Finisher, exit your [gold]Stance[/gold] and trigger its Finisher bonus.",
+            "zh": "处于[gold]姿态[/gold]时才能打出。\n打出终结技后，退出当前[gold]姿态[/gold]并触发终结技效果。"
+          },
+          "dynamicValues": {}
+        }
+      ],
       "attachedCardTips": []
     },
     {
@@ -14733,7 +14979,20 @@
           "description": {
             "en": "You may have only one Stance at a time.",
             "zh": "你同一时间只能拥有一个姿态。"
-          }
+          },
+          "dynamicValues": {}
+        },
+        {
+          "id": "CHAMP-FINISHER",
+          "name": {
+            "en": "Finisher",
+            "zh": "终结技"
+          },
+          "description": {
+            "en": "Requires a [gold]Stance[/gold].\nAfter playing a Finisher, exit your [gold]Stance[/gold] and trigger its Finisher bonus.",
+            "zh": "处于[gold]姿态[/gold]时才能打出。\n打出终结技后，退出当前[gold]姿态[/gold]并触发终结技效果。"
+          },
+          "dynamicValues": {}
         }
       ],
       "attachedCardTips": []
@@ -14861,7 +15120,8 @@
           "description": {
             "en": "You may have only one Stance at a time.",
             "zh": "你同一时间只能拥有一个姿态。"
-          }
+          },
+          "dynamicValues": {}
         },
         {
           "id": "CHAMP-FINISHER",
@@ -14872,7 +15132,8 @@
           "description": {
             "en": "Requires a [gold]Stance[/gold].\nAfter playing a Finisher, exit your [gold]Stance[/gold] and trigger its Finisher bonus.",
             "zh": "处于[gold]姿态[/gold]时才能打出。\n打出终结技后，退出当前[gold]姿态[/gold]并触发终结技效果。"
-          }
+          },
+          "dynamicValues": {}
         }
       ],
       "attachedCardTips": []
@@ -15059,7 +15320,8 @@
           "description": {
             "en": "You may have only one Stance at a time.",
             "zh": "你同一时间只能拥有一个姿态。"
-          }
+          },
+          "dynamicValues": {}
         }
       ],
       "attachedCardTips": []
@@ -15238,7 +15500,20 @@
         "en": "Finisher",
         "zh": "终结技"
       },
-      "attachedTips": [],
+      "attachedTips": [
+        {
+          "id": "CHAMP-FINISHER",
+          "name": {
+            "en": "Finisher",
+            "zh": "终结技"
+          },
+          "description": {
+            "en": "Requires a [gold]Stance[/gold].\nAfter playing a Finisher, exit your [gold]Stance[/gold] and trigger its Finisher bonus.",
+            "zh": "处于[gold]姿态[/gold]时才能打出。\n打出终结技后，退出当前[gold]姿态[/gold]并触发终结技效果。"
+          },
+          "dynamicValues": {}
+        }
+      ],
       "attachedCardTips": []
     },
     {
@@ -15295,7 +15570,25 @@
       "energyIcon": "assets/energy-icons/champ.png",
       "deprecated": false,
       "notInPool": false,
-      "attachedTips": [],
+      "attachedTips": [
+        {
+          "id": "CHAMP-CHAMP_ULTIMATE_STANCE",
+          "name": {
+            "en": "Ultimate Stance",
+            "zh": "终极姿态"
+          },
+          "description": {
+            "en": "[gold]Skill Bonus[/gold]: Gain [blue]{BerserkerSkill}[/blue] [gold]Vigor[/gold] and [blue]{DefensiveSkill}[/blue] [gold]Counter[/gold].\n[gold]Finisher[/gold]: Gain [blue]{BerserkerFinisher}[/blue] [gold]Strength[/gold] and [blue]{DefensiveFinisher}[/blue] [gold]Block[/gold].",
+            "zh": "[gold]技术奖励[/gold]：获得[blue]{BerserkerSkill}[/blue]点[gold]活力[/gold]和[blue]{DefensiveSkill}[/blue]层[gold]反击[/gold]。\n[gold]终结技[/gold]：获得[blue]{BerserkerFinisher}[/blue]点[gold]力量[/gold]和[blue]{DefensiveFinisher}[/blue]点[gold]格挡[/gold]。"
+          },
+          "dynamicValues": {
+            "BerserkerSkill": 2,
+            "DefensiveSkill": 2,
+            "BerserkerFinisher": 1,
+            "DefensiveFinisher": 6
+          }
+        }
+      ],
       "attachedCardTips": []
     },
     {
@@ -15354,7 +15647,25 @@
       "energyIcon": "assets/energy-icons/champ.png",
       "deprecated": false,
       "notInPool": false,
-      "attachedTips": [],
+      "attachedTips": [
+        {
+          "id": "CHAMP-CHAMP_ULTIMATE_STANCE",
+          "name": {
+            "en": "Ultimate Stance",
+            "zh": "终极姿态"
+          },
+          "description": {
+            "en": "[gold]Skill Bonus[/gold]: Gain [blue]{BerserkerSkill}[/blue] [gold]Vigor[/gold] and [blue]{DefensiveSkill}[/blue] [gold]Counter[/gold].\n[gold]Finisher[/gold]: Gain [blue]{BerserkerFinisher}[/blue] [gold]Strength[/gold] and [blue]{DefensiveFinisher}[/blue] [gold]Block[/gold].",
+            "zh": "[gold]技术奖励[/gold]：获得[blue]{BerserkerSkill}[/blue]点[gold]活力[/gold]和[blue]{DefensiveSkill}[/blue]层[gold]反击[/gold]。\n[gold]终结技[/gold]：获得[blue]{BerserkerFinisher}[/blue]点[gold]力量[/gold]和[blue]{DefensiveFinisher}[/blue]点[gold]格挡[/gold]。"
+          },
+          "dynamicValues": {
+            "BerserkerSkill": 2,
+            "DefensiveSkill": 2,
+            "BerserkerFinisher": 1,
+            "DefensiveFinisher": 6
+          }
+        }
+      ],
       "attachedCardTips": []
     },
     {
@@ -15647,7 +15958,20 @@
         "en": "Finisher",
         "zh": "终结技"
       },
-      "attachedTips": [],
+      "attachedTips": [
+        {
+          "id": "CHAMP-FINISHER",
+          "name": {
+            "en": "Finisher",
+            "zh": "终结技"
+          },
+          "description": {
+            "en": "Requires a [gold]Stance[/gold].\nAfter playing a Finisher, exit your [gold]Stance[/gold] and trigger its Finisher bonus.",
+            "zh": "处于[gold]姿态[/gold]时才能打出。\n打出终结技后，退出当前[gold]姿态[/gold]并触发终结技效果。"
+          },
+          "dynamicValues": {}
+        }
+      ],
       "attachedCardTips": []
     },
     {
@@ -15714,7 +16038,8 @@
           "description": {
             "en": "You may have only one Stance at a time.",
             "zh": "你同一时间只能拥有一个姿态。"
-          }
+          },
+          "dynamicValues": {}
         },
         {
           "id": "CHAMP-TRIGGER_SKILL_BONUS",
@@ -15725,7 +16050,8 @@
           "description": {
             "en": "Whenever you play a [gold]Skill[/gold] while in a [gold]Stance[/gold], trigger that Stance's bonus effect, up to [blue]3[/blue] times.\nSkill Bonuses triggered by card effects do not count towards this limit.",
             "zh": "处于[gold]姿态[/gold]时，打出[gold]技能牌[/gold]可获得[gold]姿态[/gold]的技术奖励，最多[blue]3[/blue]次。\n卡牌效果触发的技术奖励不受此限制。"
-          }
+          },
+          "dynamicValues": {}
         }
       ],
       "attachedCardTips": []
@@ -15968,7 +16294,8 @@
           "description": {
             "en": "Whenever you play a [gold]Skill[/gold] while in a [gold]Stance[/gold], trigger that Stance's bonus effect, up to [blue]3[/blue] times.\nSkill Bonuses triggered by card effects do not count towards this limit.",
             "zh": "处于[gold]姿态[/gold]时，打出[gold]技能牌[/gold]可获得[gold]姿态[/gold]的技术奖励，最多[blue]3[/blue]次。\n卡牌效果触发的技术奖励不受此限制。"
-          }
+          },
+          "dynamicValues": {}
         },
         {
           "id": "CHAMP-STANCE",
@@ -15979,7 +16306,8 @@
           "description": {
             "en": "You may have only one Stance at a time.",
             "zh": "你同一时间只能拥有一个姿态。"
-          }
+          },
+          "dynamicValues": {}
         }
       ],
       "attachedCardTips": []
@@ -16048,7 +16376,8 @@
           "description": {
             "en": "Whenever you play a [gold]Skill[/gold] while in a [gold]Stance[/gold], trigger that Stance's bonus effect, up to [blue]3[/blue] times.\nSkill Bonuses triggered by card effects do not count towards this limit.",
             "zh": "处于[gold]姿态[/gold]时，打出[gold]技能牌[/gold]可获得[gold]姿态[/gold]的技术奖励，最多[blue]3[/blue]次。\n卡牌效果触发的技术奖励不受此限制。"
-          }
+          },
+          "dynamicValues": {}
         }
       ],
       "attachedCardTips": []
@@ -16164,7 +16493,25 @@
       "energyIcon": "assets/energy-icons/champ.png",
       "deprecated": false,
       "notInPool": false,
-      "attachedTips": [],
+      "attachedTips": [
+        {
+          "id": "CHAMP-CHAMP_ULTIMATE_STANCE",
+          "name": {
+            "en": "Ultimate Stance",
+            "zh": "终极姿态"
+          },
+          "description": {
+            "en": "[gold]Skill Bonus[/gold]: Gain [blue]{BerserkerSkill}[/blue] [gold]Vigor[/gold] and [blue]{DefensiveSkill}[/blue] [gold]Counter[/gold].\n[gold]Finisher[/gold]: Gain [blue]{BerserkerFinisher}[/blue] [gold]Strength[/gold] and [blue]{DefensiveFinisher}[/blue] [gold]Block[/gold].",
+            "zh": "[gold]技术奖励[/gold]：获得[blue]{BerserkerSkill}[/blue]点[gold]活力[/gold]和[blue]{DefensiveSkill}[/blue]层[gold]反击[/gold]。\n[gold]终结技[/gold]：获得[blue]{BerserkerFinisher}[/blue]点[gold]力量[/gold]和[blue]{DefensiveFinisher}[/blue]点[gold]格挡[/gold]。"
+          },
+          "dynamicValues": {
+            "BerserkerSkill": 2,
+            "DefensiveSkill": 2,
+            "BerserkerFinisher": 1,
+            "DefensiveFinisher": 6
+          }
+        }
+      ],
       "attachedCardTips": []
     },
     {
@@ -16282,7 +16629,20 @@
         "en": "Finisher",
         "zh": "终结技"
       },
-      "attachedTips": [],
+      "attachedTips": [
+        {
+          "id": "CHAMP-FINISHER",
+          "name": {
+            "en": "Finisher",
+            "zh": "终结技"
+          },
+          "description": {
+            "en": "Requires a [gold]Stance[/gold].\nAfter playing a Finisher, exit your [gold]Stance[/gold] and trigger its Finisher bonus.",
+            "zh": "处于[gold]姿态[/gold]时才能打出。\n打出终结技后，退出当前[gold]姿态[/gold]并触发终结技效果。"
+          },
+          "dynamicValues": {}
+        }
+      ],
       "attachedCardTips": []
     },
     {
@@ -16530,7 +16890,20 @@
         "en": "Finisher",
         "zh": "终结技"
       },
-      "attachedTips": [],
+      "attachedTips": [
+        {
+          "id": "CHAMP-FINISHER",
+          "name": {
+            "en": "Finisher",
+            "zh": "终结技"
+          },
+          "description": {
+            "en": "Requires a [gold]Stance[/gold].\nAfter playing a Finisher, exit your [gold]Stance[/gold] and trigger its Finisher bonus.",
+            "zh": "处于[gold]姿态[/gold]时才能打出。\n打出终结技后，退出当前[gold]姿态[/gold]并触发终结技效果。"
+          },
+          "dynamicValues": {}
+        }
+      ],
       "attachedCardTips": []
     },
     {
@@ -16648,7 +17021,23 @@
       "energyIcon": "assets/energy-icons/champ.png",
       "deprecated": false,
       "notInPool": false,
-      "attachedTips": [],
+      "attachedTips": [
+        {
+          "id": "CHAMP-CHAMP_DEFENSIVE_STANCE",
+          "name": {
+            "en": "Defensive Stance",
+            "zh": "防守姿态"
+          },
+          "description": {
+            "en": "[gold]Skill Bonus[/gold]: Gain [blue]{DefensiveSkill}[/blue] [gold]Counter[/gold].\n[gold]Finisher[/gold]: Gain [blue]{DefensiveFinisher}[/blue] [gold]Block[/gold].",
+            "zh": "[gold]技术奖励[/gold]：获得[blue]{DefensiveSkill}[/blue]层[gold]反击[/gold]。\n[gold]终结技[/gold]：获得[blue]{DefensiveFinisher}[/blue]点[gold]格挡[/gold]。"
+          },
+          "dynamicValues": {
+            "DefensiveSkill": 2,
+            "DefensiveFinisher": 6
+          }
+        }
+      ],
       "attachedCardTips": []
     },
     {
@@ -16715,7 +17104,8 @@
           "description": {
             "en": "You may have only one Stance at a time.",
             "zh": "你同一时间只能拥有一个姿态。"
-          }
+          },
+          "dynamicValues": {}
         }
       ],
       "attachedCardTips": []
@@ -16833,7 +17223,23 @@
       "energyIcon": "assets/energy-icons/champ.png",
       "deprecated": false,
       "notInPool": false,
-      "attachedTips": [],
+      "attachedTips": [
+        {
+          "id": "CHAMP-CHAMP_BERSERKER_STANCE",
+          "name": {
+            "en": "Berserker Stance",
+            "zh": "战狂姿态"
+          },
+          "description": {
+            "en": "[gold]Skill Bonus[/gold]: Gain [blue]{BerserkerSkill}[/blue] [gold]Vigor[/gold].\n[gold]Finisher[/gold]: Gain [blue]{BerserkerFinisher}[/blue] [gold]Strength[/gold].",
+            "zh": "[gold]技术奖励[/gold]：获得[blue]{BerserkerSkill}[/blue]点[gold]活力[/gold]。\n[gold]终结技[/gold]：获得[blue]{BerserkerFinisher}[/blue]点[gold]力量[/gold]。"
+          },
+          "dynamicValues": {
+            "BerserkerSkill": 2,
+            "BerserkerFinisher": 1
+          }
+        }
+      ],
       "attachedCardTips": []
     },
     {
@@ -17075,7 +17481,8 @@
           "description": {
             "en": "Requires a [gold]Stance[/gold].\nAfter playing a Finisher, exit your [gold]Stance[/gold] and trigger its Finisher bonus.",
             "zh": "处于[gold]姿态[/gold]时才能打出。\n打出终结技后，退出当前[gold]姿态[/gold]并触发终结技效果。"
-          }
+          },
+          "dynamicValues": {}
         }
       ],
       "attachedCardTips": []
@@ -17142,7 +17549,20 @@
         "en": "Finisher",
         "zh": "终结技"
       },
-      "attachedTips": [],
+      "attachedTips": [
+        {
+          "id": "CHAMP-FINISHER",
+          "name": {
+            "en": "Finisher",
+            "zh": "终结技"
+          },
+          "description": {
+            "en": "Requires a [gold]Stance[/gold].\nAfter playing a Finisher, exit your [gold]Stance[/gold] and trigger its Finisher bonus.",
+            "zh": "处于[gold]姿态[/gold]时才能打出。\n打出终结技后，退出当前[gold]姿态[/gold]并触发终结技效果。"
+          },
+          "dynamicValues": {}
+        }
+      ],
       "attachedCardTips": []
     },
     {
@@ -17272,7 +17692,8 @@
           "description": {
             "en": "You may have only one Stance at a time.",
             "zh": "你同一时间只能拥有一个姿态。"
-          }
+          },
+          "dynamicValues": {}
         },
         {
           "id": "CHAMP-COMBO",
@@ -17283,7 +17704,8 @@
           "description": {
             "en": "Extra effect when played in the listed [gold]Stance[/gold].",
             "zh": "处于特定[gold]姿态[/gold]触发额外效果。"
-          }
+          },
+          "dynamicValues": {}
         }
       ],
       "attachedCardTips": []
@@ -17348,7 +17770,23 @@
       "energyIcon": "assets/energy-icons/champ.png",
       "deprecated": false,
       "notInPool": false,
-      "attachedTips": [],
+      "attachedTips": [
+        {
+          "id": "CHAMP-CHAMP_DEFENSIVE_STANCE",
+          "name": {
+            "en": "Defensive Stance",
+            "zh": "防守姿态"
+          },
+          "description": {
+            "en": "[gold]Skill Bonus[/gold]: Gain [blue]{DefensiveSkill}[/blue] [gold]Counter[/gold].\n[gold]Finisher[/gold]: Gain [blue]{DefensiveFinisher}[/blue] [gold]Block[/gold].",
+            "zh": "[gold]技术奖励[/gold]：获得[blue]{DefensiveSkill}[/blue]层[gold]反击[/gold]。\n[gold]终结技[/gold]：获得[blue]{DefensiveFinisher}[/blue]点[gold]格挡[/gold]。"
+          },
+          "dynamicValues": {
+            "DefensiveSkill": 2,
+            "DefensiveFinisher": 6
+          }
+        }
+      ],
       "attachedCardTips": []
     },
     {
@@ -17415,7 +17853,8 @@
           "description": {
             "en": "Whenever you play a [gold]Skill[/gold] while in a [gold]Stance[/gold], trigger that Stance's bonus effect, up to [blue]3[/blue] times.\nSkill Bonuses triggered by card effects do not count towards this limit.",
             "zh": "处于[gold]姿态[/gold]时，打出[gold]技能牌[/gold]可获得[gold]姿态[/gold]的技术奖励，最多[blue]3[/blue]次。\n卡牌效果触发的技术奖励不受此限制。"
-          }
+          },
+          "dynamicValues": {}
         },
         {
           "id": "CHAMP-STANCE",
@@ -17426,7 +17865,8 @@
           "description": {
             "en": "You may have only one Stance at a time.",
             "zh": "你同一时间只能拥有一个姿态。"
-          }
+          },
+          "dynamicValues": {}
         }
       ],
       "attachedCardTips": []
@@ -17495,7 +17935,8 @@
           "description": {
             "en": "Whenever you play a [gold]Skill[/gold] while in a [gold]Stance[/gold], trigger that Stance's bonus effect, up to [blue]3[/blue] times.\nSkill Bonuses triggered by card effects do not count towards this limit.",
             "zh": "处于[gold]姿态[/gold]时，打出[gold]技能牌[/gold]可获得[gold]姿态[/gold]的技术奖励，最多[blue]3[/blue]次。\n卡牌效果触发的技术奖励不受此限制。"
-          }
+          },
+          "dynamicValues": {}
         },
         {
           "id": "CHAMP-STANCE",
@@ -17506,7 +17947,8 @@
           "description": {
             "en": "You may have only one Stance at a time.",
             "zh": "你同一时间只能拥有一个姿态。"
-          }
+          },
+          "dynamicValues": {}
         }
       ],
       "attachedCardTips": []
@@ -17636,7 +18078,8 @@
           "description": {
             "en": "Whenever you play a [gold]Skill[/gold] while in a [gold]Stance[/gold], trigger that Stance's bonus effect, up to [blue]3[/blue] times.\nSkill Bonuses triggered by card effects do not count towards this limit.",
             "zh": "处于[gold]姿态[/gold]时，打出[gold]技能牌[/gold]可获得[gold]姿态[/gold]的技术奖励，最多[blue]3[/blue]次。\n卡牌效果触发的技术奖励不受此限制。"
-          }
+          },
+          "dynamicValues": {}
         },
         {
           "id": "CHAMP-STANCE",
@@ -17647,7 +18090,8 @@
           "description": {
             "en": "You may have only one Stance at a time.",
             "zh": "你同一时间只能拥有一个姿态。"
-          }
+          },
+          "dynamicValues": {}
         }
       ],
       "attachedCardTips": []
@@ -17814,7 +18258,20 @@
         "en": "Finisher",
         "zh": "终结技"
       },
-      "attachedTips": [],
+      "attachedTips": [
+        {
+          "id": "CHAMP-FINISHER",
+          "name": {
+            "en": "Finisher",
+            "zh": "终结技"
+          },
+          "description": {
+            "en": "Requires a [gold]Stance[/gold].\nAfter playing a Finisher, exit your [gold]Stance[/gold] and trigger its Finisher bonus.",
+            "zh": "处于[gold]姿态[/gold]时才能打出。\n打出终结技后，退出当前[gold]姿态[/gold]并触发终结技效果。"
+          },
+          "dynamicValues": {}
+        }
+      ],
       "attachedCardTips": []
     },
     {
@@ -17934,7 +18391,8 @@
           "description": {
             "en": "Echoes are copies of cards with [gold]Ethereal[/gold] and [gold]Exhaust[/gold].\nEchoes cannot be Echoed.",
             "zh": "回响是具有[gold]虚无[/gold]和[gold]消耗[/gold]的卡牌复制品。\n回响无法被再次回响。"
-          }
+          },
+          "dynamicValues": {}
         }
       ],
       "attachedCardTips": []
@@ -17997,7 +18455,23 @@
       "energyIcon": "assets/energy-icons/champ.png",
       "deprecated": false,
       "notInPool": false,
-      "attachedTips": [],
+      "attachedTips": [
+        {
+          "id": "CHAMP-CHAMP_BERSERKER_STANCE",
+          "name": {
+            "en": "Berserker Stance",
+            "zh": "战狂姿态"
+          },
+          "description": {
+            "en": "[gold]Skill Bonus[/gold]: Gain [blue]{BerserkerSkill}[/blue] [gold]Vigor[/gold].\n[gold]Finisher[/gold]: Gain [blue]{BerserkerFinisher}[/blue] [gold]Strength[/gold].",
+            "zh": "[gold]技术奖励[/gold]：获得[blue]{BerserkerSkill}[/blue]点[gold]活力[/gold]。\n[gold]终结技[/gold]：获得[blue]{BerserkerFinisher}[/blue]点[gold]力量[/gold]。"
+          },
+          "dynamicValues": {
+            "BerserkerSkill": 2,
+            "BerserkerFinisher": 1
+          }
+        }
+      ],
       "attachedCardTips": []
     },
     {
@@ -18123,7 +18597,8 @@
           "description": {
             "en": "You may have only one Stance at a time.",
             "zh": "你同一时间只能拥有一个姿态。"
-          }
+          },
+          "dynamicValues": {}
         }
       ],
       "attachedCardTips": []
@@ -18259,7 +18734,8 @@
           "description": {
             "en": "Echoes are copies of cards with [gold]Ethereal[/gold] and [gold]Exhaust[/gold].\nEchoes cannot be Echoed.",
             "zh": "回响是具有[gold]虚无[/gold]和[gold]消耗[/gold]的卡牌复制品。\n回响无法被再次回响。"
-          }
+          },
+          "dynamicValues": {}
         },
         {
           "id": "CHAMP-TRIGGER_SKILL_BONUS",
@@ -18270,7 +18746,8 @@
           "description": {
             "en": "Whenever you play a [gold]Skill[/gold] while in a [gold]Stance[/gold], trigger that Stance's bonus effect, up to [blue]3[/blue] times.\nSkill Bonuses triggered by card effects do not count towards this limit.",
             "zh": "处于[gold]姿态[/gold]时，打出[gold]技能牌[/gold]可获得[gold]姿态[/gold]的技术奖励，最多[blue]3[/blue]次。\n卡牌效果触发的技术奖励不受此限制。"
-          }
+          },
+          "dynamicValues": {}
         }
       ],
       "attachedCardTips": []
@@ -18329,7 +18806,25 @@
       "energyIcon": "assets/energy-icons/champ.png",
       "deprecated": false,
       "notInPool": false,
-      "attachedTips": [],
+      "attachedTips": [
+        {
+          "id": "CHAMP-CHAMP_ULTIMATE_STANCE",
+          "name": {
+            "en": "Ultimate Stance",
+            "zh": "终极姿态"
+          },
+          "description": {
+            "en": "[gold]Skill Bonus[/gold]: Gain [blue]{BerserkerSkill}[/blue] [gold]Vigor[/gold] and [blue]{DefensiveSkill}[/blue] [gold]Counter[/gold].\n[gold]Finisher[/gold]: Gain [blue]{BerserkerFinisher}[/blue] [gold]Strength[/gold] and [blue]{DefensiveFinisher}[/blue] [gold]Block[/gold].",
+            "zh": "[gold]技术奖励[/gold]：获得[blue]{BerserkerSkill}[/blue]点[gold]活力[/gold]和[blue]{DefensiveSkill}[/blue]层[gold]反击[/gold]。\n[gold]终结技[/gold]：获得[blue]{BerserkerFinisher}[/blue]点[gold]力量[/gold]和[blue]{DefensiveFinisher}[/blue]点[gold]格挡[/gold]。"
+          },
+          "dynamicValues": {
+            "BerserkerSkill": 2,
+            "DefensiveSkill": 2,
+            "BerserkerFinisher": 1,
+            "DefensiveFinisher": 6
+          }
+        }
+      ],
       "attachedCardTips": []
     },
     {
@@ -18398,7 +18893,8 @@
           "description": {
             "en": "Whenever you play a [gold]Skill[/gold] while in a [gold]Stance[/gold], trigger that Stance's bonus effect, up to [blue]3[/blue] times.\nSkill Bonuses triggered by card effects do not count towards this limit.",
             "zh": "处于[gold]姿态[/gold]时，打出[gold]技能牌[/gold]可获得[gold]姿态[/gold]的技术奖励，最多[blue]3[/blue]次。\n卡牌效果触发的技术奖励不受此限制。"
-          }
+          },
+          "dynamicValues": {}
         }
       ],
       "attachedCardTips": []
@@ -18459,7 +18955,25 @@
       "energyIcon": "assets/energy-icons/champ.png",
       "deprecated": false,
       "notInPool": false,
-      "attachedTips": [],
+      "attachedTips": [
+        {
+          "id": "CHAMP-CHAMP_ULTIMATE_STANCE",
+          "name": {
+            "en": "Ultimate Stance",
+            "zh": "终极姿态"
+          },
+          "description": {
+            "en": "[gold]Skill Bonus[/gold]: Gain [blue]{BerserkerSkill}[/blue] [gold]Vigor[/gold] and [blue]{DefensiveSkill}[/blue] [gold]Counter[/gold].\n[gold]Finisher[/gold]: Gain [blue]{BerserkerFinisher}[/blue] [gold]Strength[/gold] and [blue]{DefensiveFinisher}[/blue] [gold]Block[/gold].",
+            "zh": "[gold]技术奖励[/gold]：获得[blue]{BerserkerSkill}[/blue]点[gold]活力[/gold]和[blue]{DefensiveSkill}[/blue]层[gold]反击[/gold]。\n[gold]终结技[/gold]：获得[blue]{BerserkerFinisher}[/blue]点[gold]力量[/gold]和[blue]{DefensiveFinisher}[/blue]点[gold]格挡[/gold]。"
+          },
+          "dynamicValues": {
+            "BerserkerSkill": 2,
+            "DefensiveSkill": 2,
+            "BerserkerFinisher": 1,
+            "DefensiveFinisher": 6
+          }
+        }
+      ],
       "attachedCardTips": []
     },
     {
@@ -18522,7 +19036,8 @@
           "description": {
             "en": "You may have only one Stance at a time.",
             "zh": "你同一时间只能拥有一个姿态。"
-          }
+          },
+          "dynamicValues": {}
         },
         {
           "id": "CHAMP-FINISHER",
@@ -18533,7 +19048,8 @@
           "description": {
             "en": "Requires a [gold]Stance[/gold].\nAfter playing a Finisher, exit your [gold]Stance[/gold] and trigger its Finisher bonus.",
             "zh": "处于[gold]姿态[/gold]时才能打出。\n打出终结技后，退出当前[gold]姿态[/gold]并触发终结技效果。"
-          }
+          },
+          "dynamicValues": {}
         }
       ],
       "attachedCardTips": []
@@ -18594,7 +19110,25 @@
       "energyIcon": "assets/energy-icons/champ.png",
       "deprecated": false,
       "notInPool": false,
-      "attachedTips": [],
+      "attachedTips": [
+        {
+          "id": "CHAMP-CHAMP_ULTIMATE_STANCE",
+          "name": {
+            "en": "Ultimate Stance",
+            "zh": "终极姿态"
+          },
+          "description": {
+            "en": "[gold]Skill Bonus[/gold]: Gain [blue]{BerserkerSkill}[/blue] [gold]Vigor[/gold] and [blue]{DefensiveSkill}[/blue] [gold]Counter[/gold].\n[gold]Finisher[/gold]: Gain [blue]{BerserkerFinisher}[/blue] [gold]Strength[/gold] and [blue]{DefensiveFinisher}[/blue] [gold]Block[/gold].",
+            "zh": "[gold]技术奖励[/gold]：获得[blue]{BerserkerSkill}[/blue]点[gold]活力[/gold]和[blue]{DefensiveSkill}[/blue]层[gold]反击[/gold]。\n[gold]终结技[/gold]：获得[blue]{BerserkerFinisher}[/blue]点[gold]力量[/gold]和[blue]{DefensiveFinisher}[/blue]点[gold]格挡[/gold]。"
+          },
+          "dynamicValues": {
+            "BerserkerSkill": 2,
+            "DefensiveSkill": 2,
+            "BerserkerFinisher": 1,
+            "DefensiveFinisher": 6
+          }
+        }
+      ],
       "attachedCardTips": []
     },
     {
@@ -18958,7 +19492,8 @@
           "description": {
             "en": "Summon a [gold]Torchhead[/gold]. If one is already summoned, increase its Max HP for this combat.",
             "zh": "召唤[gold]火炬头[/gold]。如果已被召唤，则改为在本场战斗中为其增加最大生命值。"
-          }
+          },
+          "dynamicValues": {}
         }
       ],
       "attachedCardTips": []
@@ -19206,7 +19741,8 @@
           "description": {
             "en": "Requires exhausting a card in [gold]Hand[/gold] in addition to paying its energy cost.",
             "zh": "需额外[gold]消耗[/gold]一张[gold]手牌[/gold]才能打出。"
-          }
+          },
+          "dynamicValues": {}
         }
       ],
       "attachedCardTips": []
@@ -20139,7 +20675,8 @@
           "description": {
             "en": "Requires exhausting a card in [gold]Hand[/gold] in addition to paying its energy cost.",
             "zh": "需额外[gold]消耗[/gold]一张[gold]手牌[/gold]才能打出。"
-          }
+          },
+          "dynamicValues": {}
         }
       ],
       "attachedCardTips": []
@@ -20554,7 +21091,8 @@
           "description": {
             "en": "Requires exhausting a card in [gold]Hand[/gold] in addition to paying its energy cost.",
             "zh": "需额外[gold]消耗[/gold]一张[gold]手牌[/gold]才能打出。"
-          }
+          },
+          "dynamicValues": {}
         }
       ],
       "attachedCardTips": []
@@ -20619,7 +21157,8 @@
           "description": {
             "en": "Requires exhausting a card in [gold]Hand[/gold] in addition to paying its energy cost.",
             "zh": "需额外[gold]消耗[/gold]一张[gold]手牌[/gold]才能打出。"
-          }
+          },
+          "dynamicValues": {}
         }
       ],
       "attachedCardTips": []
@@ -20690,7 +21229,8 @@
           "description": {
             "en": "Requires exhausting a card in [gold]Hand[/gold] in addition to paying its energy cost.",
             "zh": "需额外[gold]消耗[/gold]一张[gold]手牌[/gold]才能打出。"
-          }
+          },
+          "dynamicValues": {}
         }
       ],
       "attachedCardTips": []
@@ -20818,7 +21358,8 @@
           "description": {
             "en": "Requires exhausting a card in [gold]Hand[/gold] in addition to paying its energy cost.",
             "zh": "需额外[gold]消耗[/gold]一张[gold]手牌[/gold]才能打出。"
-          }
+          },
+          "dynamicValues": {}
         }
       ],
       "attachedCardTips": []
@@ -21168,7 +21709,8 @@
           "description": {
             "en": "Requires exhausting a card in [gold]Hand[/gold] in addition to paying its energy cost.",
             "zh": "需额外[gold]消耗[/gold]一张[gold]手牌[/gold]才能打出。"
-          }
+          },
+          "dynamicValues": {}
         }
       ],
       "attachedCardTips": []
@@ -21660,7 +22202,8 @@
           "description": {
             "en": "Requires exhausting a card in [gold]Hand[/gold] in addition to paying its energy cost.",
             "zh": "需额外[gold]消耗[/gold]一张[gold]手牌[/gold]才能打出。"
-          }
+          },
+          "dynamicValues": {}
         }
       ],
       "attachedCardTips": []
@@ -21790,7 +22333,8 @@
           "description": {
             "en": "Requires exhausting a card in [gold]Hand[/gold] in addition to paying its energy cost.",
             "zh": "需额外[gold]消耗[/gold]一张[gold]手牌[/gold]才能打出。"
-          }
+          },
+          "dynamicValues": {}
         }
       ],
       "attachedCardTips": []
@@ -21920,7 +22464,8 @@
           "description": {
             "en": "Requires exhausting a card in [gold]Hand[/gold] in addition to paying its energy cost.",
             "zh": "需额外[gold]消耗[/gold]一张[gold]手牌[/gold]才能打出。"
-          }
+          },
+          "dynamicValues": {}
         }
       ],
       "attachedCardTips": []
@@ -22225,7 +22770,8 @@
           "description": {
             "en": "Summon a [gold]Torchhead[/gold]. If one is already summoned, increase its Max HP for this combat.",
             "zh": "召唤[gold]火炬头[/gold]。如果已被召唤，则改为在本场战斗中为其增加最大生命值。"
-          }
+          },
+          "dynamicValues": {}
         }
       ],
       "attachedCardTips": []
@@ -22294,7 +22840,8 @@
           "description": {
             "en": "Requires exhausting a card in [gold]Hand[/gold] in addition to paying its energy cost.",
             "zh": "需额外[gold]消耗[/gold]一张[gold]手牌[/gold]才能打出。"
-          }
+          },
+          "dynamicValues": {}
         }
       ],
       "attachedCardTips": []
@@ -22367,7 +22914,8 @@
           "description": {
             "en": "Summon a [gold]Torchhead[/gold]. If one is already summoned, increase its Max HP for this combat.",
             "zh": "召唤[gold]火炬头[/gold]。如果已被召唤，则改为在本场战斗中为其增加最大生命值。"
-          }
+          },
+          "dynamicValues": {}
         }
       ],
       "attachedCardTips": []
@@ -22436,7 +22984,8 @@
           "description": {
             "en": "Requires exhausting a card in [gold]Hand[/gold] in addition to paying its energy cost.",
             "zh": "需额外[gold]消耗[/gold]一张[gold]手牌[/gold]才能打出。"
-          }
+          },
+          "dynamicValues": {}
         }
       ],
       "attachedCardTips": []
@@ -22505,7 +23054,8 @@
           "description": {
             "en": "Requires exhausting a card in [gold]Hand[/gold] in addition to paying its energy cost.",
             "zh": "需额外[gold]消耗[/gold]一张[gold]手牌[/gold]才能打出。"
-          }
+          },
+          "dynamicValues": {}
         }
       ],
       "attachedCardTips": []
@@ -22932,7 +23482,8 @@
           "description": {
             "en": "Requires exhausting a card in [gold]Hand[/gold] in addition to paying its energy cost.",
             "zh": "需额外[gold]消耗[/gold]一张[gold]手牌[/gold]才能打出。"
-          }
+          },
+          "dynamicValues": {}
         }
       ],
       "attachedCardTips": []
@@ -23467,7 +24018,8 @@
           "description": {
             "en": "Summon a [gold]Torchhead[/gold]. If one is already summoned, increase its Max HP for this combat.",
             "zh": "召唤[gold]火炬头[/gold]。如果已被召唤，则改为在本场战斗中为其增加最大生命值。"
-          }
+          },
+          "dynamicValues": {}
         }
       ],
       "attachedCardTips": []
@@ -23713,7 +24265,8 @@
           "description": {
             "en": "Summon a [gold]Torchhead[/gold]. If one is already summoned, increase its Max HP for this combat.",
             "zh": "召唤[gold]火炬头[/gold]。如果已被召唤，则改为在本场战斗中为其增加最大生命值。"
-          }
+          },
+          "dynamicValues": {}
         }
       ],
       "attachedCardTips": []
@@ -28791,7 +29344,8 @@
           "description": {
             "en": "Reduce the HP loss required to trigger [gold]Mode Shift[/gold].",
             "zh": "降低进入[gold]防御模式[/gold]所需的计数。"
-          }
+          },
+          "dynamicValues": {}
         }
       ],
       "attachedCardTips": []
@@ -29173,7 +29727,8 @@
           "description": {
             "en": "A card in [gold]Stasis[/gold] stays for turns equal to its cost +[blue]1[/blue]. When it exits, it returns to your [gold]Hand[/gold] and is free until played.",
             "zh": "将牌挂起并从其耗能+[blue]1[/blue]开始倒计时。\n在你的回合开始时，所有凝滞卡牌的计时减[blue]1[/blue]。\n计时归零时，将其返回手牌且下次打出前耗能变为[blue]0[/blue]。"
-          }
+          },
+          "dynamicValues": {}
         }
       ],
       "attachedCardTips": []
@@ -29242,7 +29797,8 @@
           "description": {
             "en": "A card in [gold]Stasis[/gold] stays for turns equal to its cost +[blue]1[/blue]. When it exits, it returns to your [gold]Hand[/gold] and is free until played.",
             "zh": "将牌挂起并从其耗能+[blue]1[/blue]开始倒计时。\n在你的回合开始时，所有凝滞卡牌的计时减[blue]1[/blue]。\n计时归零时，将其返回手牌且下次打出前耗能变为[blue]0[/blue]。"
-          }
+          },
+          "dynamicValues": {}
         },
         {
           "id": "GUARDIAN-PACKAGE",
@@ -29253,7 +29809,8 @@
           "description": {
             "en": "A package has three cards inspired by a chosen Construct of the Spire.",
             "zh": "一个组件包含三张卡牌，灵感来自于尖塔造物。"
-          }
+          },
+          "dynamicValues": {}
         }
       ],
       "attachedCardTips": []
@@ -29383,7 +29940,8 @@
           "description": {
             "en": "Gems can be placed into [gold]Sockets[/gold] in cards at a Rest Site.",
             "zh": "宝石能在休息处被镶嵌至有[gold]孔位[/gold]的卡牌上。"
-          }
+          },
+          "dynamicValues": {}
         }
       ],
       "attachedCardTips": []
@@ -29566,7 +30124,8 @@
           "description": {
             "en": "A card in [gold]Stasis[/gold] stays for turns equal to its cost +[blue]1[/blue]. When it exits, it returns to your [gold]Hand[/gold] and is free until played.",
             "zh": "将牌挂起并从其耗能+[blue]1[/blue]开始倒计时。\n在你的回合开始时，所有凝滞卡牌的计时减[blue]1[/blue]。\n计时归零时，将其返回手牌且下次打出前耗能变为[blue]0[/blue]。"
-          }
+          },
+          "dynamicValues": {}
         }
       ],
       "attachedCardTips": []
@@ -29751,7 +30310,8 @@
           "description": {
             "en": "A card in [gold]Stasis[/gold] stays for turns equal to its cost +[blue]1[/blue]. When it exits, it returns to your [gold]Hand[/gold] and is free until played.",
             "zh": "将牌挂起并从其耗能+[blue]1[/blue]开始倒计时。\n在你的回合开始时，所有凝滞卡牌的计时减[blue]1[/blue]。\n计时归零时，将其返回手牌且下次打出前耗能变为[blue]0[/blue]。"
-          }
+          },
+          "dynamicValues": {}
         }
       ],
       "attachedCardTips": []
@@ -29822,7 +30382,8 @@
           "description": {
             "en": "Reduce your [gold]Weak[/gold], [gold]Frail[/gold], and [gold]Vulnerable[/gold] by X each.\nConvert X stacks of temporary buffs into permanent buffs.",
             "zh": "移除你的[gold]虚弱[/gold]、[gold]脆弱[/gold]和[gold]易伤[/gold]各X层。\n将X层临时增益转化为永久增益。"
-          }
+          },
+          "dynamicValues": {}
         },
         {
           "id": "GUARDIAN-DEFENSIVE_MODE",
@@ -29833,7 +30394,8 @@
           "description": {
             "en": "[gold]Stance[/gold].\nWhile in Defensive Mode you have [blue]3[/blue] [gold]Thorns[/gold] and your [gold]Block[/gold] does not expire.",
             "zh": "[gold]姿态[/gold]。\n处于防御模式时，你拥有[blue]3[/blue]点[gold]荆棘[/gold]，且你的[gold]格挡[/gold]不会消失。"
-          }
+          },
+          "dynamicValues": {}
         }
       ],
       "attachedCardTips": []
@@ -29971,7 +30533,8 @@
           "description": {
             "en": "A card in [gold]Stasis[/gold] stays for turns equal to its cost +[blue]1[/blue]. When it exits, it returns to your [gold]Hand[/gold] and is free until played.",
             "zh": "将牌挂起并从其耗能+[blue]1[/blue]开始倒计时。\n在你的回合开始时，所有凝滞卡牌的计时减[blue]1[/blue]。\n计时归零时，将其返回手牌且下次打出前耗能变为[blue]0[/blue]。"
-          }
+          },
+          "dynamicValues": {}
         },
         {
           "id": "GUARDIAN-TICK",
@@ -29982,7 +30545,8 @@
           "description": {
             "en": "Tick effects activate whenever this card's [gold]Stasis[/gold] counter is reduced.",
             "zh": "被[gold]凝滞[/gold]的牌计时减少时，触发该效果。"
-          }
+          },
+          "dynamicValues": {}
         }
       ],
       "attachedCardTips": []
@@ -30108,7 +30672,8 @@
           "description": {
             "en": "A card in [gold]Stasis[/gold] stays for turns equal to its cost +[blue]1[/blue]. When it exits, it returns to your [gold]Hand[/gold] and is free until played.",
             "zh": "将牌挂起并从其耗能+[blue]1[/blue]开始倒计时。\n在你的回合开始时，所有凝滞卡牌的计时减[blue]1[/blue]。\n计时归零时，将其返回手牌且下次打出前耗能变为[blue]0[/blue]。"
-          }
+          },
+          "dynamicValues": {}
         }
       ],
       "attachedCardTips": []
@@ -30234,7 +30799,8 @@
           "description": {
             "en": "Gems can be placed into [gold]Sockets[/gold] in cards at a Rest Site.",
             "zh": "宝石能在休息处被镶嵌至有[gold]孔位[/gold]的卡牌上。"
-          }
+          },
+          "dynamicValues": {}
         }
       ],
       "attachedCardTips": []
@@ -30303,7 +30869,8 @@
           "description": {
             "en": "Gems can be placed into [gold]Sockets[/gold] in cards at a Rest Site.",
             "zh": "宝石能在休息处被镶嵌至有[gold]孔位[/gold]的卡牌上。"
-          }
+          },
+          "dynamicValues": {}
         },
         {
           "id": "GUARDIAN-BRACE",
@@ -30314,7 +30881,8 @@
           "description": {
             "en": "Reduce the HP loss required to trigger [gold]Mode Shift[/gold].",
             "zh": "降低进入[gold]防御模式[/gold]所需的计数。"
-          }
+          },
+          "dynamicValues": {}
         }
       ],
       "attachedCardTips": []
@@ -30564,7 +31132,8 @@
           "description": {
             "en": "A card in [gold]Stasis[/gold] stays for turns equal to its cost +[blue]1[/blue]. When it exits, it returns to your [gold]Hand[/gold] and is free until played.",
             "zh": "将牌挂起并从其耗能+[blue]1[/blue]开始倒计时。\n在你的回合开始时，所有凝滞卡牌的计时减[blue]1[/blue]。\n计时归零时，将其返回手牌且下次打出前耗能变为[blue]0[/blue]。"
-          }
+          },
+          "dynamicValues": {}
         }
       ],
       "attachedCardTips": []
@@ -30698,7 +31267,8 @@
           "description": {
             "en": "A card in [gold]Stasis[/gold] stays for turns equal to its cost +[blue]1[/blue]. When it exits, it returns to your [gold]Hand[/gold] and is free until played.",
             "zh": "将牌挂起并从其耗能+[blue]1[/blue]开始倒计时。\n在你的回合开始时，所有凝滞卡牌的计时减[blue]1[/blue]。\n计时归零时，将其返回手牌且下次打出前耗能变为[blue]0[/blue]。"
-          }
+          },
+          "dynamicValues": {}
         },
         {
           "id": "GUARDIAN-TICK",
@@ -30709,7 +31279,8 @@
           "description": {
             "en": "Tick effects activate whenever this card's [gold]Stasis[/gold] counter is reduced.",
             "zh": "被[gold]凝滞[/gold]的牌计时减少时，触发该效果。"
-          }
+          },
+          "dynamicValues": {}
         }
       ],
       "attachedCardTips": []
@@ -30778,7 +31349,8 @@
           "description": {
             "en": "A card in [gold]Stasis[/gold] stays for turns equal to its cost +[blue]1[/blue]. When it exits, it returns to your [gold]Hand[/gold] and is free until played.",
             "zh": "将牌挂起并从其耗能+[blue]1[/blue]开始倒计时。\n在你的回合开始时，所有凝滞卡牌的计时减[blue]1[/blue]。\n计时归零时，将其返回手牌且下次打出前耗能变为[blue]0[/blue]。"
-          }
+          },
+          "dynamicValues": {}
         }
       ],
       "attachedCardTips": []
@@ -30853,7 +31425,8 @@
           "description": {
             "en": "Tick effects activate whenever this card's [gold]Stasis[/gold] counter is reduced.",
             "zh": "被[gold]凝滞[/gold]的牌计时减少时，触发该效果。"
-          }
+          },
+          "dynamicValues": {}
         },
         {
           "id": "GUARDIAN-STASIS",
@@ -30864,7 +31437,8 @@
           "description": {
             "en": "A card in [gold]Stasis[/gold] stays for turns equal to its cost +[blue]1[/blue]. When it exits, it returns to your [gold]Hand[/gold] and is free until played.",
             "zh": "将牌挂起并从其耗能+[blue]1[/blue]开始倒计时。\n在你的回合开始时，所有凝滞卡牌的计时减[blue]1[/blue]。\n计时归零时，将其返回手牌且下次打出前耗能变为[blue]0[/blue]。"
-          }
+          },
+          "dynamicValues": {}
         }
       ],
       "attachedCardTips": []
@@ -30990,7 +31564,8 @@
           "description": {
             "en": "When this card leaves [gold]Stasis[/gold], it [gold]Exhausts[/gold].",
             "zh": "结束[gold]凝滞[/gold]时会被[gold]消耗[/gold]。"
-          }
+          },
+          "dynamicValues": {}
         },
         {
           "id": "GUARDIAN-TICK",
@@ -31001,7 +31576,8 @@
           "description": {
             "en": "Tick effects activate whenever this card's [gold]Stasis[/gold] counter is reduced.",
             "zh": "被[gold]凝滞[/gold]的牌计时减少时，触发该效果。"
-          }
+          },
+          "dynamicValues": {}
         }
       ],
       "attachedCardTips": []
@@ -31070,7 +31646,8 @@
           "description": {
             "en": "Reduce the HP loss required to trigger [gold]Mode Shift[/gold].",
             "zh": "降低进入[gold]防御模式[/gold]所需的计数。"
-          }
+          },
+          "dynamicValues": {}
         }
       ],
       "attachedCardTips": []
@@ -31141,7 +31718,8 @@
           "description": {
             "en": "[gold]Stance[/gold].\nWhile in Defensive Mode you have [blue]3[/blue] [gold]Thorns[/gold] and your [gold]Block[/gold] does not expire.",
             "zh": "[gold]姿态[/gold]。\n处于防御模式时，你拥有[blue]3[/blue]点[gold]荆棘[/gold]，且你的[gold]格挡[/gold]不会消失。"
-          }
+          },
+          "dynamicValues": {}
         }
       ],
       "attachedCardTips": []
@@ -31765,7 +32343,8 @@
           "description": {
             "en": "A card in [gold]Stasis[/gold] stays for turns equal to its cost +[blue]1[/blue]. When it exits, it returns to your [gold]Hand[/gold] and is free until played.",
             "zh": "将牌挂起并从其耗能+[blue]1[/blue]开始倒计时。\n在你的回合开始时，所有凝滞卡牌的计时减[blue]1[/blue]。\n计时归零时，将其返回手牌且下次打出前耗能变为[blue]0[/blue]。"
-          }
+          },
+          "dynamicValues": {}
         }
       ],
       "attachedCardTips": []
@@ -31907,7 +32486,8 @@
           "description": {
             "en": "Gems can be placed into [gold]Sockets[/gold] in cards at a Rest Site.",
             "zh": "宝石能在休息处被镶嵌至有[gold]孔位[/gold]的卡牌上。"
-          }
+          },
+          "dynamicValues": {}
         }
       ],
       "attachedCardTips": []
@@ -31984,7 +32564,8 @@
           "description": {
             "en": "Gems can be placed into [gold]Sockets[/gold] in cards at a Rest Site.",
             "zh": "宝石能在休息处被镶嵌至有[gold]孔位[/gold]的卡牌上。"
-          }
+          },
+          "dynamicValues": {}
         }
       ],
       "attachedCardTips": []
@@ -32114,7 +32695,8 @@
           "description": {
             "en": "A card in [gold]Stasis[/gold] stays for turns equal to its cost +[blue]1[/blue]. When it exits, it returns to your [gold]Hand[/gold] and is free until played.",
             "zh": "将牌挂起并从其耗能+[blue]1[/blue]开始倒计时。\n在你的回合开始时，所有凝滞卡牌的计时减[blue]1[/blue]。\n计时归零时，将其返回手牌且下次打出前耗能变为[blue]0[/blue]。"
-          }
+          },
+          "dynamicValues": {}
         }
       ],
       "attachedCardTips": []
@@ -32191,7 +32773,8 @@
           "description": {
             "en": "Gems can be placed into [gold]Sockets[/gold] in cards at a Rest Site.",
             "zh": "宝石能在休息处被镶嵌至有[gold]孔位[/gold]的卡牌上。"
-          }
+          },
+          "dynamicValues": {}
         },
         {
           "id": "GUARDIAN-SOCKET",
@@ -32202,7 +32785,8 @@
           "description": {
             "en": "[gold]Gems[/gold] can be placed into this Socket at a Rest Site.",
             "zh": "[gold]宝石[/gold]能够被镶嵌至有槽位的牌上。"
-          }
+          },
+          "dynamicValues": {}
         }
       ],
       "attachedCardTips": []
@@ -32277,7 +32861,8 @@
           "description": {
             "en": "Gems can be placed into [gold]Sockets[/gold] in cards at a Rest Site.",
             "zh": "宝石能在休息处被镶嵌至有[gold]孔位[/gold]的卡牌上。"
-          }
+          },
+          "dynamicValues": {}
         }
       ],
       "attachedCardTips": []
@@ -32411,7 +32996,8 @@
           "description": {
             "en": "A card in [gold]Stasis[/gold] stays for turns equal to its cost +[blue]1[/blue]. When it exits, it returns to your [gold]Hand[/gold] and is free until played.",
             "zh": "将牌挂起并从其耗能+[blue]1[/blue]开始倒计时。\n在你的回合开始时，所有凝滞卡牌的计时减[blue]1[/blue]。\n计时归零时，将其返回手牌且下次打出前耗能变为[blue]0[/blue]。"
-          }
+          },
+          "dynamicValues": {}
         }
       ],
       "attachedCardTips": []
@@ -32541,7 +33127,8 @@
           "description": {
             "en": "[gold]Stance[/gold].\nWhile in Defensive Mode you have [blue]3[/blue] [gold]Thorns[/gold] and your [gold]Block[/gold] does not expire.",
             "zh": "[gold]姿态[/gold]。\n处于防御模式时，你拥有[blue]3[/blue]点[gold]荆棘[/gold]，且你的[gold]格挡[/gold]不会消失。"
-          }
+          },
+          "dynamicValues": {}
         },
         {
           "id": "GUARDIAN-BRACE",
@@ -32552,7 +33139,8 @@
           "description": {
             "en": "Reduce the HP loss required to trigger [gold]Mode Shift[/gold].",
             "zh": "降低进入[gold]防御模式[/gold]所需的计数。"
-          }
+          },
+          "dynamicValues": {}
         }
       ],
       "attachedCardTips": []
@@ -32627,7 +33215,8 @@
           "description": {
             "en": "Gems can be placed into [gold]Sockets[/gold] in cards at a Rest Site.",
             "zh": "宝石能在休息处被镶嵌至有[gold]孔位[/gold]的卡牌上。"
-          }
+          },
+          "dynamicValues": {}
         }
       ],
       "attachedCardTips": []
@@ -32704,7 +33293,8 @@
           "description": {
             "en": "[gold]Stance[/gold].\nWhile in Defensive Mode you have [blue]3[/blue] [gold]Thorns[/gold] and your [gold]Block[/gold] does not expire.",
             "zh": "[gold]姿态[/gold]。\n处于防御模式时，你拥有[blue]3[/blue]点[gold]荆棘[/gold]，且你的[gold]格挡[/gold]不会消失。"
-          }
+          },
+          "dynamicValues": {}
         }
       ],
       "attachedCardTips": []
@@ -32836,7 +33426,8 @@
           "description": {
             "en": "A card in [gold]Stasis[/gold] stays for turns equal to its cost +[blue]1[/blue]. When it exits, it returns to your [gold]Hand[/gold] and is free until played.",
             "zh": "将牌挂起并从其耗能+[blue]1[/blue]开始倒计时。\n在你的回合开始时，所有凝滞卡牌的计时减[blue]1[/blue]。\n计时归零时，将其返回手牌且下次打出前耗能变为[blue]0[/blue]。"
-          }
+          },
+          "dynamicValues": {}
         }
       ],
       "attachedCardTips": [
@@ -32913,7 +33504,8 @@
           "description": {
             "en": "A card in [gold]Stasis[/gold] stays for turns equal to its cost +[blue]1[/blue]. When it exits, it returns to your [gold]Hand[/gold] and is free until played.",
             "zh": "将牌挂起并从其耗能+[blue]1[/blue]开始倒计时。\n在你的回合开始时，所有凝滞卡牌的计时减[blue]1[/blue]。\n计时归零时，将其返回手牌且下次打出前耗能变为[blue]0[/blue]。"
-          }
+          },
+          "dynamicValues": {}
         }
       ],
       "attachedCardTips": [
@@ -33043,7 +33635,8 @@
           "description": {
             "en": "A card in [gold]Stasis[/gold] stays for turns equal to its cost +[blue]1[/blue]. When it exits, it returns to your [gold]Hand[/gold] and is free until played.",
             "zh": "将牌挂起并从其耗能+[blue]1[/blue]开始倒计时。\n在你的回合开始时，所有凝滞卡牌的计时减[blue]1[/blue]。\n计时归零时，将其返回手牌且下次打出前耗能变为[blue]0[/blue]。"
-          }
+          },
+          "dynamicValues": {}
         }
       ],
       "attachedCardTips": []
@@ -33173,7 +33766,8 @@
           "description": {
             "en": "When this card leaves [gold]Stasis[/gold], it [gold]Exhausts[/gold].",
             "zh": "结束[gold]凝滞[/gold]时会被[gold]消耗[/gold]。"
-          }
+          },
+          "dynamicValues": {}
         },
         {
           "id": "GUARDIAN-STASIS",
@@ -33184,7 +33778,8 @@
           "description": {
             "en": "A card in [gold]Stasis[/gold] stays for turns equal to its cost +[blue]1[/blue]. When it exits, it returns to your [gold]Hand[/gold] and is free until played.",
             "zh": "将牌挂起并从其耗能+[blue]1[/blue]开始倒计时。\n在你的回合开始时，所有凝滞卡牌的计时减[blue]1[/blue]。\n计时归零时，将其返回手牌且下次打出前耗能变为[blue]0[/blue]。"
-          }
+          },
+          "dynamicValues": {}
         },
         {
           "id": "GUARDIAN-TICK",
@@ -33195,7 +33790,8 @@
           "description": {
             "en": "Tick effects activate whenever this card's [gold]Stasis[/gold] counter is reduced.",
             "zh": "被[gold]凝滞[/gold]的牌计时减少时，触发该效果。"
-          }
+          },
+          "dynamicValues": {}
         }
       ],
       "attachedCardTips": []
@@ -33268,7 +33864,8 @@
           "description": {
             "en": "[gold]Stance[/gold].\nWhile in Defensive Mode you have [blue]3[/blue] [gold]Thorns[/gold] and your [gold]Block[/gold] does not expire.",
             "zh": "[gold]姿态[/gold]。\n处于防御模式时，你拥有[blue]3[/blue]点[gold]荆棘[/gold]，且你的[gold]格挡[/gold]不会消失。"
-          }
+          },
+          "dynamicValues": {}
         }
       ],
       "attachedCardTips": []
@@ -33453,7 +34050,8 @@
           "description": {
             "en": "[gold]Stance[/gold].\nWhile in Defensive Mode you have [blue]3[/blue] [gold]Thorns[/gold] and your [gold]Block[/gold] does not expire.",
             "zh": "[gold]姿态[/gold]。\n处于防御模式时，你拥有[blue]3[/blue]点[gold]荆棘[/gold]，且你的[gold]格挡[/gold]不会消失。"
-          }
+          },
+          "dynamicValues": {}
         }
       ],
       "attachedCardTips": []
@@ -33579,7 +34177,8 @@
           "description": {
             "en": "A card in [gold]Stasis[/gold] stays for turns equal to its cost +[blue]1[/blue]. When it exits, it returns to your [gold]Hand[/gold] and is free until played.",
             "zh": "将牌挂起并从其耗能+[blue]1[/blue]开始倒计时。\n在你的回合开始时，所有凝滞卡牌的计时减[blue]1[/blue]。\n计时归零时，将其返回手牌且下次打出前耗能变为[blue]0[/blue]。"
-          }
+          },
+          "dynamicValues": {}
         }
       ],
       "attachedCardTips": []
@@ -33654,7 +34253,8 @@
           "description": {
             "en": "A card in [gold]Stasis[/gold] stays for turns equal to its cost +[blue]1[/blue]. When it exits, it returns to your [gold]Hand[/gold] and is free until played.",
             "zh": "将牌挂起并从其耗能+[blue]1[/blue]开始倒计时。\n在你的回合开始时，所有凝滞卡牌的计时减[blue]1[/blue]。\n计时归零时，将其返回手牌且下次打出前耗能变为[blue]0[/blue]。"
-          }
+          },
+          "dynamicValues": {}
         }
       ],
       "attachedCardTips": []
@@ -33851,7 +34451,8 @@
           "description": {
             "en": "A card in [gold]Stasis[/gold] stays for turns equal to its cost +[blue]1[/blue]. When it exits, it returns to your [gold]Hand[/gold] and is free until played.",
             "zh": "将牌挂起并从其耗能+[blue]1[/blue]开始倒计时。\n在你的回合开始时，所有凝滞卡牌的计时减[blue]1[/blue]。\n计时归零时，将其返回手牌且下次打出前耗能变为[blue]0[/blue]。"
-          }
+          },
+          "dynamicValues": {}
         }
       ],
       "attachedCardTips": []
@@ -33920,7 +34521,8 @@
           "description": {
             "en": "Gems can be placed into [gold]Sockets[/gold] in cards at a Rest Site.",
             "zh": "宝石能在休息处被镶嵌至有[gold]孔位[/gold]的卡牌上。"
-          }
+          },
+          "dynamicValues": {}
         }
       ],
       "attachedCardTips": []
@@ -34056,7 +34658,8 @@
           "description": {
             "en": "A card in [gold]Stasis[/gold] stays for turns equal to its cost +[blue]1[/blue]. When it exits, it returns to your [gold]Hand[/gold] and is free until played.",
             "zh": "将牌挂起并从其耗能+[blue]1[/blue]开始倒计时。\n在你的回合开始时，所有凝滞卡牌的计时减[blue]1[/blue]。\n计时归零时，将其返回手牌且下次打出前耗能变为[blue]0[/blue]。"
-          }
+          },
+          "dynamicValues": {}
         }
       ],
       "attachedCardTips": []
@@ -34127,7 +34730,8 @@
           "description": {
             "en": "A card in [gold]Stasis[/gold] stays for turns equal to its cost +[blue]1[/blue]. When it exits, it returns to your [gold]Hand[/gold] and is free until played.",
             "zh": "将牌挂起并从其耗能+[blue]1[/blue]开始倒计时。\n在你的回合开始时，所有凝滞卡牌的计时减[blue]1[/blue]。\n计时归零时，将其返回手牌且下次打出前耗能变为[blue]0[/blue]。"
-          }
+          },
+          "dynamicValues": {}
         }
       ],
       "attachedCardTips": []
@@ -34200,7 +34804,8 @@
           "description": {
             "en": "A card in [gold]Stasis[/gold] stays for turns equal to its cost +[blue]1[/blue]. When it exits, it returns to your [gold]Hand[/gold] and is free until played.",
             "zh": "将牌挂起并从其耗能+[blue]1[/blue]开始倒计时。\n在你的回合开始时，所有凝滞卡牌的计时减[blue]1[/blue]。\n计时归零时，将其返回手牌且下次打出前耗能变为[blue]0[/blue]。"
-          }
+          },
+          "dynamicValues": {}
         }
       ],
       "attachedCardTips": []
@@ -34269,7 +34874,8 @@
           "description": {
             "en": "Reduce the turn counter of the right-most card in [gold]Stasis[/gold].",
             "zh": "减少[gold]凝滞[/gold]栏位中最右端的牌的计数。"
-          }
+          },
+          "dynamicValues": {}
         }
       ],
       "attachedCardTips": []
@@ -40055,7 +40661,8 @@
           "description": {
             "en": "Move to the next Ghostflame. Moving onto a Ghostflame [gold]Extinguishes[/gold] it.",
             "zh": "移动至下枚鬼火。移动至一枚鬼火会导致其[gold]熄灭[/gold]。"
-          }
+          },
+          "dynamicValues": {}
         }
       ],
       "attachedCardTips": []
@@ -40183,7 +40790,8 @@
           "description": {
             "en": "Move to the previous Ghostflame. Moving onto a Ghostflame [gold]Extinguishes[/gold] it.",
             "zh": "移动至上枚鬼火。移动至一枚鬼火会导致其[gold]熄灭[/gold]。"
-          }
+          },
+          "dynamicValues": {}
         }
       ],
       "attachedCardTips": []
@@ -40775,7 +41383,8 @@
           "description": {
             "en": "Triggers the Ignition effect described on a Ghostflame.",
             "zh": "触发当前鬼火的点燃效果"
-          }
+          },
+          "dynamicValues": {}
         }
       ],
       "attachedCardTips": []
@@ -40901,7 +41510,8 @@
           "description": {
             "en": "Triggers the Ignition effect described on a Ghostflame.",
             "zh": "触发当前鬼火的点燃效果"
-          }
+          },
+          "dynamicValues": {}
         }
       ],
       "attachedCardTips": []
@@ -41084,7 +41694,8 @@
           "description": {
             "en": "Move to the next Ghostflame. Moving onto a Ghostflame [gold]Extinguishes[/gold] it.",
             "zh": "移动至下枚鬼火。移动至一枚鬼火会导致其[gold]熄灭[/gold]。"
-          }
+          },
+          "dynamicValues": {}
         },
         {
           "id": "HEXAGHOST-RETRACT",
@@ -41095,7 +41706,8 @@
           "description": {
             "en": "Move to the previous Ghostflame. Moving onto a Ghostflame [gold]Extinguishes[/gold] it.",
             "zh": "移动至上枚鬼火。移动至一枚鬼火会导致其[gold]熄灭[/gold]。"
-          }
+          },
+          "dynamicValues": {}
         }
       ],
       "attachedCardTips": []
@@ -41164,7 +41776,8 @@
           "description": {
             "en": "Move to the previous Ghostflame. Moving onto a Ghostflame [gold]Extinguishes[/gold] it.",
             "zh": "移动至上枚鬼火。移动至一枚鬼火会导致其[gold]熄灭[/gold]。"
-          }
+          },
+          "dynamicValues": {}
         },
         {
           "id": "HEXAGHOST-IGNITE",
@@ -41175,7 +41788,8 @@
           "description": {
             "en": "Triggers the Ignition effect described on a Ghostflame.",
             "zh": "触发当前鬼火的点燃效果"
-          }
+          },
+          "dynamicValues": {}
         }
       ],
       "attachedCardTips": []
@@ -41305,7 +41919,8 @@
           "description": {
             "en": "Triggers the Ignition effect described on a Ghostflame.",
             "zh": "触发当前鬼火的点燃效果"
-          }
+          },
+          "dynamicValues": {}
         }
       ],
       "attachedCardTips": []
@@ -41374,7 +41989,8 @@
           "description": {
             "en": "Triggers the Ignition effect described on a Ghostflame.",
             "zh": "触发当前鬼火的点燃效果"
-          }
+          },
+          "dynamicValues": {}
         }
       ],
       "attachedCardTips": []
@@ -41439,7 +42055,8 @@
           "description": {
             "en": "The green effect will also trigger when this card is [gold]Exhausted[/gold].",
             "zh": "本牌被[gold]消耗[/gold]时触发绿色效果。"
-          }
+          },
+          "dynamicValues": {}
         }
       ],
       "attachedCardTips": []
@@ -41681,7 +42298,8 @@
           "description": {
             "en": "Move to the next Ghostflame. Moving onto a Ghostflame [gold]Extinguishes[/gold] it.",
             "zh": "移动至下枚鬼火。移动至一枚鬼火会导致其[gold]熄灭[/gold]。"
-          }
+          },
+          "dynamicValues": {}
         }
       ],
       "attachedCardTips": []
@@ -41866,7 +42484,8 @@
           "description": {
             "en": "Move to the next Ghostflame. Moving onto a Ghostflame [gold]Extinguishes[/gold] it.",
             "zh": "移动至下枚鬼火。移动至一枚鬼火会导致其[gold]熄灭[/gold]。"
-          }
+          },
+          "dynamicValues": {}
         },
         {
           "id": "HEXAGHOST-IGNITE",
@@ -41877,7 +42496,8 @@
           "description": {
             "en": "Triggers the Ignition effect described on a Ghostflame.",
             "zh": "触发当前鬼火的点燃效果"
-          }
+          },
+          "dynamicValues": {}
         }
       ],
       "attachedCardTips": []
@@ -42003,7 +42623,8 @@
           "description": {
             "en": "Triggers the Ignition effect described on a Ghostflame.",
             "zh": "触发当前鬼火的点燃效果"
-          }
+          },
+          "dynamicValues": {}
         }
       ],
       "attachedCardTips": []
@@ -42068,7 +42689,8 @@
           "description": {
             "en": "Triggers the Ignition effect described on a Ghostflame.",
             "zh": "触发当前鬼火的点燃效果"
-          }
+          },
+          "dynamicValues": {}
         }
       ],
       "attachedCardTips": []
@@ -42137,7 +42759,8 @@
           "description": {
             "en": "Move to the next Ghostflame. Moving onto a Ghostflame [gold]Extinguishes[/gold] it.",
             "zh": "移动至下枚鬼火。移动至一枚鬼火会导致其[gold]熄灭[/gold]。"
-          }
+          },
+          "dynamicValues": {}
         },
         {
           "id": "HEXAGHOST-RETRACT",
@@ -42148,7 +42771,8 @@
           "description": {
             "en": "Move to the previous Ghostflame. Moving onto a Ghostflame [gold]Extinguishes[/gold] it.",
             "zh": "移动至上枚鬼火。移动至一枚鬼火会导致其[gold]熄灭[/gold]。"
-          }
+          },
+          "dynamicValues": {}
         }
       ],
       "attachedCardTips": []
@@ -42382,7 +43006,8 @@
           "description": {
             "en": "Triggers the Ignition effect described on a Ghostflame.",
             "zh": "触发当前鬼火的点燃效果"
-          }
+          },
+          "dynamicValues": {}
         }
       ],
       "attachedCardTips": []
@@ -42628,7 +43253,8 @@
           "description": {
             "en": "The green effect will also trigger when this card is [gold]Exhausted[/gold].",
             "zh": "本牌被[gold]消耗[/gold]时触发绿色效果。"
-          }
+          },
+          "dynamicValues": {}
         }
       ],
       "attachedCardTips": []
@@ -42754,7 +43380,8 @@
           "description": {
             "en": "Triggers the Ignition effect described on a Ghostflame.",
             "zh": "触发当前鬼火的点燃效果"
-          }
+          },
+          "dynamicValues": {}
         }
       ],
       "attachedCardTips": []
@@ -43297,7 +43924,8 @@
           "description": {
             "en": "Move to the previous Ghostflame. Moving onto a Ghostflame [gold]Extinguishes[/gold] it.",
             "zh": "移动至上枚鬼火。移动至一枚鬼火会导致其[gold]熄灭[/gold]。"
-          }
+          },
+          "dynamicValues": {}
         }
       ],
       "attachedCardTips": []
@@ -43423,7 +44051,8 @@
           "description": {
             "en": "Move to the previous Ghostflame. Moving onto a Ghostflame [gold]Extinguishes[/gold] it.",
             "zh": "移动至上枚鬼火。移动至一枚鬼火会导致其[gold]熄灭[/gold]。"
-          }
+          },
+          "dynamicValues": {}
         }
       ],
       "attachedCardTips": []
@@ -43492,7 +44121,8 @@
           "description": {
             "en": "Triggers the Ignition effect described on a Ghostflame.",
             "zh": "触发当前鬼火的点燃效果"
-          }
+          },
+          "dynamicValues": {}
         }
       ],
       "attachedCardTips": []
@@ -43618,7 +44248,8 @@
           "description": {
             "en": "Move to the previous Ghostflame. Moving onto a Ghostflame [gold]Extinguishes[/gold] it.",
             "zh": "移动至上枚鬼火。移动至一枚鬼火会导致其[gold]熄灭[/gold]。"
-          }
+          },
+          "dynamicValues": {}
         }
       ],
       "attachedCardTips": []
@@ -43746,7 +44377,8 @@
           "description": {
             "en": "Move to the previous Ghostflame. Moving onto a Ghostflame [gold]Extinguishes[/gold] it.",
             "zh": "移动至上枚鬼火。移动至一枚鬼火会导致其[gold]熄灭[/gold]。"
-          }
+          },
+          "dynamicValues": {}
         },
         {
           "id": "HEXAGHOST-IGNITE",
@@ -43757,7 +44389,8 @@
           "description": {
             "en": "Triggers the Ignition effect described on a Ghostflame.",
             "zh": "触发当前鬼火的点燃效果"
-          }
+          },
+          "dynamicValues": {}
         }
       ],
       "attachedCardTips": []
@@ -44009,7 +44642,8 @@
           "description": {
             "en": "Move to the previous Ghostflame. Moving onto a Ghostflame [gold]Extinguishes[/gold] it.",
             "zh": "移动至上枚鬼火。移动至一枚鬼火会导致其[gold]熄灭[/gold]。"
-          }
+          },
+          "dynamicValues": {}
         }
       ],
       "attachedCardTips": []
@@ -44253,7 +44887,8 @@
           "description": {
             "en": "Move to the next Ghostflame. Moving onto a Ghostflame [gold]Extinguishes[/gold] it.",
             "zh": "移动至下枚鬼火。移动至一枚鬼火会导致其[gold]熄灭[/gold]。"
-          }
+          },
+          "dynamicValues": {}
         },
         {
           "id": "HEXAGHOST-RETRACT",
@@ -44264,7 +44899,8 @@
           "description": {
             "en": "Move to the previous Ghostflame. Moving onto a Ghostflame [gold]Extinguishes[/gold] it.",
             "zh": "移动至上枚鬼火。移动至一枚鬼火会导致其[gold]熄灭[/gold]。"
-          }
+          },
+          "dynamicValues": {}
         }
       ],
       "attachedCardTips": []
@@ -44500,7 +45136,8 @@
           "description": {
             "en": "Triggers the Ignition effect described on a Ghostflame.",
             "zh": "触发当前鬼火的点燃效果"
-          }
+          },
+          "dynamicValues": {}
         }
       ],
       "attachedCardTips": []
@@ -44689,7 +45326,8 @@
           "description": {
             "en": "Triggers the Ignition effect described on a Ghostflame.",
             "zh": "触发当前鬼火的点燃效果"
-          }
+          },
+          "dynamicValues": {}
         }
       ],
       "attachedCardTips": []
@@ -44758,7 +45396,8 @@
           "description": {
             "en": "Move to the previous Ghostflame. Moving onto a Ghostflame [gold]Extinguishes[/gold] it.",
             "zh": "移动至上枚鬼火。移动至一枚鬼火会导致其[gold]熄灭[/gold]。"
-          }
+          },
+          "dynamicValues": {}
         }
       ],
       "attachedCardTips": []
@@ -45449,7 +46088,8 @@
           "description": {
             "en": "Triggers the Ignition effect described on a Ghostflame.",
             "zh": "触发当前鬼火的点燃效果"
-          }
+          },
+          "dynamicValues": {}
         }
       ],
       "attachedCardTips": []
@@ -45518,7 +46158,8 @@
           "description": {
             "en": "Triggers the Ignition effect described on a Ghostflame.",
             "zh": "触发当前鬼火的点燃效果"
-          }
+          },
+          "dynamicValues": {}
         }
       ],
       "attachedCardTips": []
@@ -45705,7 +46346,8 @@
           "description": {
             "en": "Move to the next Ghostflame. Moving onto a Ghostflame [gold]Extinguishes[/gold] it.",
             "zh": "移动至下枚鬼火。移动至一枚鬼火会导致其[gold]熄灭[/gold]。"
-          }
+          },
+          "dynamicValues": {}
         }
       ],
       "attachedCardTips": []
@@ -45886,7 +46528,8 @@
           "description": {
             "en": "Move to the next Ghostflame. Moving onto a Ghostflame [gold]Extinguishes[/gold] it.",
             "zh": "移动至下枚鬼火。移动至一枚鬼火会导致其[gold]熄灭[/gold]。"
-          }
+          },
+          "dynamicValues": {}
         },
         {
           "id": "HEXAGHOST-RETRACT",
@@ -45897,7 +46540,8 @@
           "description": {
             "en": "Move to the previous Ghostflame. Moving onto a Ghostflame [gold]Extinguishes[/gold] it.",
             "zh": "移动至上枚鬼火。移动至一枚鬼火会导致其[gold]熄灭[/gold]。"
-          }
+          },
+          "dynamicValues": {}
         }
       ],
       "attachedCardTips": []
@@ -46027,7 +46671,8 @@
           "description": {
             "en": "Triggers the Ignition effect described on a Ghostflame.",
             "zh": "触发当前鬼火的点燃效果"
-          }
+          },
+          "dynamicValues": {}
         }
       ],
       "attachedCardTips": []
@@ -46155,7 +46800,8 @@
           "description": {
             "en": "Triggers the Ignition effect described on a Ghostflame.",
             "zh": "触发当前鬼火的点燃效果"
-          }
+          },
+          "dynamicValues": {}
         }
       ],
       "attachedCardTips": []
@@ -46224,7 +46870,8 @@
           "description": {
             "en": "Triggers the Ignition effect described on a Ghostflame.",
             "zh": "触发当前鬼火的点燃效果"
-          }
+          },
+          "dynamicValues": {}
         }
       ],
       "attachedCardTips": []
@@ -47113,7 +47760,8 @@
           "description": {
             "en": "Bonus effect which activates when an Attack is used on an enemy who has [gold]Goop[/gold].",
             "zh": "当攻击拥有[gold]黏液[/gold]的敌人时，触发额外效果。"
-          }
+          },
+          "dynamicValues": {}
         }
       ],
       "attachedCardTips": []
@@ -47422,7 +48070,8 @@
           "description": {
             "en": "Bonus effect which activates when an Attack is used on an enemy who has [gold]Goop[/gold].",
             "zh": "当攻击拥有[gold]黏液[/gold]的敌人时，触发额外效果。"
-          }
+          },
+          "dynamicValues": {}
         }
       ],
       "attachedCardTips": []
@@ -47491,7 +48140,8 @@
           "description": {
             "en": "Bonus effect which activates when an Attack is used on an enemy who has [gold]Goop[/gold].",
             "zh": "当攻击拥有[gold]黏液[/gold]的敌人时，触发额外效果。"
-          }
+          },
+          "dynamicValues": {}
         }
       ],
       "attachedCardTips": []
@@ -47686,7 +48336,8 @@
           "description": {
             "en": "Bonus effect which activates when an Attack is used on an enemy who has [gold]Goop[/gold].",
             "zh": "当攻击拥有[gold]黏液[/gold]的敌人时，触发额外效果。"
-          }
+          },
+          "dynamicValues": {}
         }
       ],
       "attachedCardTips": []
@@ -47877,7 +48528,8 @@
           "description": {
             "en": "Bonus effect which activates when an Attack is used on an enemy who has [gold]Goop[/gold].",
             "zh": "当攻击拥有[gold]黏液[/gold]的敌人时，触发额外效果。"
-          }
+          },
+          "dynamicValues": {}
         }
       ],
       "attachedCardTips": [
@@ -48068,7 +48720,8 @@
           "description": {
             "en": "Bonus effect which activates when an Attack is used on an enemy who has [gold]Goop[/gold].",
             "zh": "当攻击拥有[gold]黏液[/gold]的敌人时，触发额外效果。"
-          }
+          },
+          "dynamicValues": {}
         }
       ],
       "attachedCardTips": []
@@ -48141,7 +48794,8 @@
           "description": {
             "en": "Bonus effect which activates when an Attack is used on an enemy who has [gold]Goop[/gold].",
             "zh": "当攻击拥有[gold]黏液[/gold]的敌人时，触发额外效果。"
-          }
+          },
+          "dynamicValues": {}
         }
       ],
       "attachedCardTips": []
@@ -48324,7 +48978,8 @@
           "description": {
             "en": "This card gets [gold]Slurped[/gold] last.",
             "zh": "此牌被[gold]汲取[/gold]的优先级最低。"
-          }
+          },
+          "dynamicValues": {}
         },
         {
           "id": "SLIMEBOSS-SLURP",
@@ -48335,7 +48990,8 @@
           "description": {
             "en": "Add random card ending with “Lick” from your [gold]Exhaust Pile[/gold] into your [gold]Hand[/gold].",
             "zh": "随机将你[gold]消耗牌堆[/gold]中的一张名字中有“舔舐”的牌加入[gold]手牌[/gold]。"
-          }
+          },
+          "dynamicValues": {}
         }
       ],
       "attachedCardTips": []
@@ -48878,7 +49534,8 @@
           "description": {
             "en": "Bonus effect which activates when an Attack is used on an enemy who has [gold]Goop[/gold].",
             "zh": "当攻击拥有[gold]黏液[/gold]的敌人时，触发额外效果。"
-          }
+          },
+          "dynamicValues": {}
         }
       ],
       "attachedCardTips": []
@@ -49606,7 +50263,8 @@
           "description": {
             "en": "Add random card ending with “Lick” from your [gold]Exhaust Pile[/gold] into your [gold]Hand[/gold].",
             "zh": "随机将你[gold]消耗牌堆[/gold]中的一张名字中有“舔舐”的牌加入[gold]手牌[/gold]。"
-          }
+          },
+          "dynamicValues": {}
         }
       ],
       "attachedCardTips": []
@@ -51478,7 +52136,8 @@
           "description": {
             "en": "A card that doesn't belong to your character's card pool.",
             "zh": "不属于你当前角色卡池的牌。"
-          }
+          },
+          "dynamicValues": {}
         }
       ],
       "attachedCardTips": []
@@ -51787,7 +52446,8 @@
           "description": {
             "en": "A card that doesn't belong to your character's card pool.",
             "zh": "不属于你当前角色卡池的牌。"
-          }
+          },
+          "dynamicValues": {}
         }
       ],
       "attachedCardTips": []
@@ -51917,7 +52577,8 @@
           "description": {
             "en": "A card that doesn't belong to your character's card pool.",
             "zh": "不属于你当前角色卡池的牌。"
-          }
+          },
+          "dynamicValues": {}
         }
       ],
       "attachedCardTips": []
@@ -52051,7 +52712,8 @@
           "description": {
             "en": "A card that doesn't belong to your character's card pool.",
             "zh": "不属于你当前角色卡池的牌。"
-          }
+          },
+          "dynamicValues": {}
         }
       ],
       "attachedCardTips": []
@@ -52179,7 +52841,8 @@
           "description": {
             "en": "A card that doesn't belong to your character's card pool.",
             "zh": "不属于你当前角色卡池的牌。"
-          }
+          },
+          "dynamicValues": {}
         }
       ],
       "attachedCardTips": []
@@ -53904,7 +54567,8 @@
           "description": {
             "en": "A card that doesn't belong to your character's card pool.",
             "zh": "不属于你当前角色卡池的牌。"
-          }
+          },
+          "dynamicValues": {}
         }
       ],
       "attachedCardTips": []
@@ -54201,7 +54865,8 @@
           "description": {
             "en": "A card that doesn't belong to your character's card pool.",
             "zh": "不属于你当前角色卡池的牌。"
-          }
+          },
+          "dynamicValues": {}
         }
       ],
       "attachedCardTips": []
@@ -54270,7 +54935,8 @@
           "description": {
             "en": "A card that doesn't belong to your character's card pool.",
             "zh": "不属于你当前角色卡池的牌。"
-          }
+          },
+          "dynamicValues": {}
         }
       ],
       "attachedCardTips": []
@@ -55102,7 +55768,8 @@
           "description": {
             "en": "A card that doesn't belong to your character's card pool.",
             "zh": "不属于你当前角色卡池的牌。"
-          }
+          },
+          "dynamicValues": {}
         }
       ],
       "attachedCardTips": []
@@ -55167,7 +55834,8 @@
           "description": {
             "en": "A card that doesn't belong to your character's card pool.",
             "zh": "不属于你当前角色卡池的牌。"
-          }
+          },
+          "dynamicValues": {}
         }
       ],
       "attachedCardTips": []
@@ -55352,7 +56020,8 @@
           "description": {
             "en": "A card that doesn't belong to your character's card pool.",
             "zh": "不属于你当前角色卡池的牌。"
-          }
+          },
+          "dynamicValues": {}
         }
       ],
       "attachedCardTips": []
@@ -55421,7 +56090,8 @@
           "description": {
             "en": "A card that doesn't belong to your character's card pool.",
             "zh": "不属于你当前角色卡池的牌。"
-          }
+          },
+          "dynamicValues": {}
         }
       ],
       "attachedCardTips": []
@@ -55667,7 +56337,8 @@
           "description": {
             "en": "A card that doesn't belong to your character's card pool.",
             "zh": "不属于你当前角色卡池的牌。"
-          }
+          },
+          "dynamicValues": {}
         }
       ],
       "attachedCardTips": []
@@ -55956,7 +56627,8 @@
           "description": {
             "en": "A card that doesn't belong to your character's card pool.",
             "zh": "不属于你当前角色卡池的牌。"
-          }
+          },
+          "dynamicValues": {}
         }
       ],
       "attachedCardTips": []
@@ -56139,7 +56811,8 @@
           "description": {
             "en": "A card that doesn't belong to your character's card pool.",
             "zh": "不属于你当前角色卡池的牌。"
-          }
+          },
+          "dynamicValues": {}
         }
       ],
       "attachedCardTips": []
@@ -56495,7 +57168,8 @@
           "description": {
             "en": "Echoes are copies of cards with [gold]Ethereal[/gold] and [gold]Exhaust[/gold].\nEchoes cannot be Echoed.",
             "zh": "回响是具有[gold]虚无[/gold]和[gold]消耗[/gold]的卡牌复制品。\n回响无法被再次回响。"
-          }
+          },
+          "dynamicValues": {}
         },
         {
           "id": "DOWNFALL-OFFCLASS",
@@ -56506,7 +57180,8 @@
           "description": {
             "en": "A card that doesn't belong to your character's card pool.",
             "zh": "不属于你当前角色卡池的牌。"
-          }
+          },
+          "dynamicValues": {}
         }
       ],
       "attachedCardTips": []
@@ -56868,7 +57543,8 @@
           "description": {
             "en": "A card that doesn't belong to your character's card pool.",
             "zh": "不属于你当前角色卡池的牌。"
-          }
+          },
+          "dynamicValues": {}
         }
       ],
       "attachedCardTips": []
