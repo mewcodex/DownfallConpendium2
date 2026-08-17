@@ -1577,17 +1577,34 @@ function resolveCardBaseDescription(card, useUpgrade = state.showUpgrade) {
   const finisherSuffix = card && card.isFinisher && card.finisherLabel && card.finisherLabel[state.lang]
     ? `\n${card.finisherLabel[state.lang]}`
     : "";
+  const keywordIsActive = (entry) => entry && (
+    entry.mode === "always"
+    || (entry.mode === "add" && useUpgrade)
+    || (entry.mode === "remove" && !useUpgrade)
+  );
+  const formatKeywords = (entries) => (entries || [])
+    .filter(keywordIsActive)
+    .map((entry) => `[gold]${(entry.label || {})[state.lang] || ""}[/gold]`)
+    .filter(Boolean);
+  const prefix = formatKeywords(card.descriptionKeywordPrefix).join("\n");
+  const suffix = formatKeywords(card.descriptionKeywordSuffix);
+  const dynamicLines = (card.dynamicDescriptionLines || [])
+    .map((entry) => entry && entry[state.lang])
+    .filter(Boolean);
+  const decorate = (description) => [prefix, description, ...dynamicLines, ...suffix, finisherSuffix.trim()]
+    .filter(Boolean)
+    .join("\n");
 
   if (!shouldRenderAfterlifeExtended(card, base)) {
-    return `${base}${finisherSuffix}`;
+    return decorate(base);
   }
 
   const extList = ((card.extendedDescription || {})[state.lang] || []);
   if (!extList.length || !extList[0]) {
-    return `${base}${finisherSuffix}`;
+    return decorate(base);
   }
 
-  return `${base}${colorizeAfterlifeExtended(extList[0])}${finisherSuffix}`;
+  return decorate(`${base}${colorizeAfterlifeExtended(extList[0])}`);
 }
 
 function renderDescription(card, options = {}) {
