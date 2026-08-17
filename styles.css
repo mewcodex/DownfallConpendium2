@@ -781,32 +781,32 @@ html[lang^="zh"] .card-desc {
 
 .kw-mark-yellow {
   color: #efc851;
-  font-weight: 700;
+  font-weight: 200;
 }
 
 .kw-mark-blue {
   color: #87ceeb;
-  font-weight: 700;
+  font-weight: 200;
 }
 
 .kw-mark-red {
   color: #e25e5e;
-  font-weight: 700;
+  font-weight: 200;
 }
 
 .kw-mark-purple {
   color: #d19cea;
-  font-weight: 700;
+  font-weight: 200;
 }
 
 .kw-mark-green {
   color: #52c41a;
-  font-weight: 700;
+  font-weight: 200;
 }
 
 .kw-mark-aqua {
   color: #147d8b;
-  font-weight: 700;
+  font-weight: 200;
 }
 
 .card-mini-preview {
@@ -1003,20 +1003,19 @@ article.card[data-card-id].card-rarity-event .card-banner {
 }
 
 article.card[data-card-id] .card-face-title {
-  inset: 1.66% 15% auto;
-  height: 12.8%;
-  display: grid;
-  place-items: center;
-  padding: 0 2%;
+  inset: 0.95% 15% auto;
+  height: 9.48%;
+  display: block;
+  padding: 0;
   bottom: auto;
-  line-height: 1;
+  line-height: 1.54;
 }
 
 article.card[data-card-id] .card-face-title h3 {
   font-size: 8.67cqw;
   font-weight: 400;
   letter-spacing: 1px;
-  line-height: 1;
+  line-height: 1.54;
   max-width: 100%;
   color: #fff6e2;
   -webkit-text-stroke: 0;
