@@ -1718,7 +1718,7 @@ function buildCardInnerHtml(card, descriptionHtml, options = {}) {
   const cost = formatCost(getDisplayCost(card, useUpgrade));
   const costClass = isCostUpgraded(card, useUpgrade) ? "card-cost-value upgraded" : "card-cost-value";
   const energyIcon = card.type === "CURSE"
-    ? "assets/energy-icons/curse_card_colorless_orb.png"
+    ? "assets/card-ui/energy-colorless-gen2.png"
     : card.color === "AUTOMATON" ? "assets/card-ui/energy-automaton.png" : card.energyIcon;
   const costIcon = energyIcon
     ? `<img class="card-cost-icon" src="${energyIcon}" alt="cost orb" loading="lazy">`
