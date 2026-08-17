@@ -331,7 +331,17 @@ select {
 }
 
 .card-ancient .card-body {
-  background: transparent;
+  background: rgba(25, 18, 13, 0.94);
+  color: #f4ecdd;
+}
+
+.card-ancient .card-id,
+.card-ancient .card-desc {
+  color: #f4ecdd;
+}
+
+.card-ancient .card-meta .tag {
+  color: #f4ecdd;
 }
 
 .card > img {
