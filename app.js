@@ -423,7 +423,7 @@ function renderBracketColorSyntax(text) {
   return out;
 }
 
-function renderSts2Markup(text) {
+function renderSts2Markup(text, useUpgrade = state.showUpgrade) {
   if (!text) return "";
   const colorClasses = {
     gold: "kw-mark-yellow",
@@ -433,7 +433,9 @@ function renderSts2Markup(text) {
     green: "kw-mark-green",
     aqua: "kw-mark-aqua",
   };
-  let rendered = text.replace(/\[(gold|blue|red|purple|green|aqua)\]([\s\S]*?)\[\/\1\]/gi, (_full, color, content) => {
+  let rendered = text.replace(/\{IfUpgraded:show:([^{}|]*)\|([^{}]*)\}/g, (_full, upgraded, base) => (useUpgrade ? upgraded : base));
+  rendered = rendered.replace(/\{IfUpgraded:plus\(\)\}/g, useUpgrade ? "+" : "");
+  rendered = rendered.replace(/\[(gold|blue|red|purple|green|aqua)\]([\s\S]*?)\[\/\1\]/gi, (_full, color, content) => {
     return `<span class="${colorClasses[color.toLowerCase()]}">${content}</span>`;
   });
   rendered = rendered.replace(/\{(?:energyPrefix|Energy):energyIcons\((\d*)\)\}/gi, (_full, amount) => {
@@ -1262,13 +1264,27 @@ function hasAnyNumericStatChange(card) {
   });
 }
 
+function hasAnyDynamicValueChange(card) {
+  const base = card.dynamicValues || {};
+  const upgraded = card.upgradeDynamicValues || base;
+  return Object.keys(base).some((key) => (
+    typeof base[key] === "number"
+    && typeof upgraded[key] === "number"
+    && base[key] !== upgraded[key]
+  ));
+}
+
 function hasCardUpgradeableVariant(card) {
   if (!card) return false;
   if (card.canUpgrade === false) return false;
+  if (card.canUpgrade === true) return true;
   if (typeof card.cost === "number" && typeof card.upgradeCost === "number" && card.cost !== card.upgradeCost) {
     return true;
   }
   if (hasAnyNumericStatChange(card)) {
+    return true;
+  }
+  if (hasAnyDynamicValueChange(card)) {
     return true;
   }
   const baseDesc = ((card.description || {})[state.lang] || "").trim();
@@ -1435,7 +1451,7 @@ function renderDescription(card, options = {}) {
   text = finalizeFilledTokenSpacing(text);
   text = preserveLegacyColorMarkers(text);
   text = escapeHtml(text).replace(/NL/g, "<br>");
-  text = renderSts2Markup(text);
+  text = renderSts2Markup(text, useUpgrade);
   text = renderEnergyToken(text, card);
   text = highlightCardReferencesNoHover(text);
   text = stripResidualStarPrefixes(text);
@@ -1464,7 +1480,7 @@ function renderDescriptionForPreview(card, options = {}) {
   text = finalizeFilledTokenSpacing(text);
   text = preserveLegacyColorMarkers(text);
   text = escapeHtml(text).replace(/NL/g, "<br>");
-  text = renderSts2Markup(text);
+  text = renderSts2Markup(text, useUpgrade);
   text = renderEnergyToken(text, card);
   text = highlightCardReferencesNoHover(text);
   text = stripResidualStarPrefixes(text);

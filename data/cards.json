@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-17T13:53:31.095718Z",
+  "generatedAt": "2026-08-17T14:01:26.174345Z",
   "modVersion": "0.1.13",
   "translationVersion": "2026_08_17_21_01_04_635d8d",
   "baseKeywords": [],
@@ -36,7 +36,8 @@
         "zh": "铜制机械人偶"
       },
       "cost": 1,
-      "upgradeCost": null,
+      "upgradeCost": 0,
+      "canUpgrade": true,
       "img": "assets/cards/allocate.png",
       "stats": {
         "damage": null,
@@ -93,6 +94,7 @@
       },
       "cost": 1,
       "upgradeCost": null,
+      "canUpgrade": true,
       "img": "assets/cards/assembly.png",
       "stats": {
         "damage": null,
@@ -145,6 +147,7 @@
       },
       "cost": 0,
       "upgradeCost": null,
+      "canUpgrade": true,
       "img": "assets/cards/backtrace.png",
       "stats": {
         "damage": 7,
@@ -197,6 +200,7 @@
       },
       "cost": 0,
       "upgradeCost": null,
+      "canUpgrade": true,
       "img": "assets/cards/bitshift.png",
       "stats": {
         "damage": null,
@@ -249,6 +253,7 @@
       },
       "cost": 0,
       "upgradeCost": null,
+      "canUpgrade": true,
       "img": "assets/cards/blockchain.png",
       "stats": {
         "damage": null,
@@ -301,6 +306,7 @@
       },
       "cost": 1,
       "upgradeCost": null,
+      "canUpgrade": true,
       "img": null,
       "stats": {
         "damage": null,
@@ -353,6 +359,7 @@
       },
       "cost": 2,
       "upgradeCost": null,
+      "canUpgrade": true,
       "img": "assets/cards/boost.png",
       "stats": {
         "damage": null,
@@ -407,6 +414,7 @@
       },
       "cost": 1,
       "upgradeCost": null,
+      "canUpgrade": true,
       "img": "assets/cards/branch.png",
       "stats": {
         "damage": 7,
@@ -461,6 +469,7 @@
       },
       "cost": 1,
       "upgradeCost": null,
+      "canUpgrade": true,
       "img": "assets/cards/branchattack.png",
       "stats": {
         "damage": 7,
@@ -513,6 +522,7 @@
       },
       "cost": 1,
       "upgradeCost": null,
+      "canUpgrade": true,
       "img": "assets/cards/branchblock.png",
       "stats": {
         "damage": null,
@@ -565,6 +575,7 @@
       },
       "cost": 1,
       "upgradeCost": null,
+      "canUpgrade": true,
       "img": "assets/cards/break.png",
       "stats": {
         "damage": 20,
@@ -617,6 +628,7 @@
       },
       "cost": 1,
       "upgradeCost": null,
+      "canUpgrade": true,
       "img": "assets/cards/bronzearmor.png",
       "stats": {
         "damage": null,
@@ -671,6 +683,7 @@
       },
       "cost": 0,
       "upgradeCost": null,
+      "canUpgrade": true,
       "img": "assets/cards/bronzeorb.png",
       "stats": {
         "damage": 5,
@@ -724,7 +737,8 @@
         "zh": "铜制机械人偶"
       },
       "cost": 1,
-      "upgradeCost": null,
+      "upgradeCost": 0,
+      "canUpgrade": true,
       "img": "assets/cards/buggymess.png",
       "stats": {
         "damage": null,
@@ -783,6 +797,7 @@
       },
       "cost": 1,
       "upgradeCost": null,
+      "canUpgrade": true,
       "img": "assets/cards/bugbarrage.png",
       "stats": {
         "damage": 5,
@@ -837,6 +852,7 @@
       },
       "cost": 2,
       "upgradeCost": null,
+      "canUpgrade": true,
       "img": "assets/cards/burnout.png",
       "stats": {
         "damage": null,
@@ -889,6 +905,7 @@
       },
       "cost": 0,
       "upgradeCost": null,
+      "canUpgrade": true,
       "img": null,
       "stats": {
         "damage": 14,
@@ -941,6 +958,7 @@
       },
       "cost": 1,
       "upgradeCost": null,
+      "canUpgrade": true,
       "img": "assets/cards/classdefault.png",
       "stats": {
         "damage": null,
@@ -993,6 +1011,7 @@
       },
       "cost": 1,
       "upgradeCost": null,
+      "canUpgrade": true,
       "img": "assets/cards/cleancode.png",
       "stats": {
         "damage": null,
@@ -1045,6 +1064,7 @@
       },
       "cost": 1,
       "upgradeCost": null,
+      "canUpgrade": true,
       "img": "assets/cards/cleanup.png",
       "stats": {
         "damage": 5,
@@ -1099,6 +1119,7 @@
       },
       "cost": 1,
       "upgradeCost": null,
+      "canUpgrade": true,
       "img": "assets/cards/commit.png",
       "stats": {
         "damage": 6,
@@ -1153,6 +1174,7 @@
       },
       "cost": 1,
       "upgradeCost": null,
+      "canUpgrade": true,
       "img": "assets/cards/constructor.png",
       "stats": {
         "damage": null,
@@ -1209,6 +1231,7 @@
       },
       "cost": 1,
       "upgradeCost": null,
+      "canUpgrade": true,
       "img": null,
       "stats": {
         "damage": 9,
@@ -1261,6 +1284,7 @@
       },
       "cost": 1,
       "upgradeCost": null,
+      "canUpgrade": true,
       "img": "assets/cards/copypaste.png",
       "stats": {
         "damage": null,
@@ -1313,6 +1337,7 @@
       },
       "cost": 1,
       "upgradeCost": null,
+      "canUpgrade": true,
       "img": "assets/cards/crashout.png",
       "stats": {
         "damage": null,
@@ -1365,6 +1390,7 @@
       },
       "cost": 2,
       "upgradeCost": null,
+      "canUpgrade": true,
       "img": "assets/cards/cultiststrike.png",
       "stats": {
         "damage": 6,
@@ -1423,6 +1449,7 @@
       },
       "cost": 1,
       "upgradeCost": null,
+      "canUpgrade": true,
       "img": "assets/cards/cutthrough.png",
       "stats": {
         "damage": 6,
@@ -1477,6 +1504,7 @@
       },
       "cost": 2,
       "upgradeCost": null,
+      "canUpgrade": true,
       "img": "assets/cards/dazingpulse.png",
       "stats": {
         "damage": 7,
@@ -1533,6 +1561,7 @@
       },
       "cost": 1,
       "upgradeCost": null,
+      "canUpgrade": true,
       "img": "assets/cards/defendautomaton.png",
       "stats": {
         "damage": null,
@@ -1585,6 +1614,7 @@
       },
       "cost": 0,
       "upgradeCost": null,
+      "canUpgrade": true,
       "img": "assets/cards/deprecate.png",
       "stats": {
         "damage": null,
@@ -1636,7 +1666,8 @@
         "zh": "铜制机械人偶"
       },
       "cost": 1,
-      "upgradeCost": null,
+      "upgradeCost": 0,
+      "canUpgrade": true,
       "img": "assets/cards/devtools.png",
       "stats": {
         "damage": null,
@@ -1693,6 +1724,7 @@
       },
       "cost": 2,
       "upgradeCost": null,
+      "canUpgrade": true,
       "img": "assets/cards/digitalcarnage.png",
       "stats": {
         "damage": 20,
@@ -1745,6 +1777,7 @@
       },
       "cost": 1,
       "upgradeCost": null,
+      "canUpgrade": false,
       "img": "assets/cards/error.png",
       "stats": {
         "damage": null,
@@ -1793,6 +1826,7 @@
       },
       "cost": 1,
       "upgradeCost": null,
+      "canUpgrade": true,
       "img": "assets/cards/explode.png",
       "stats": {
         "damage": null,
@@ -1847,6 +1881,7 @@
       },
       "cost": 1,
       "upgradeCost": null,
+      "canUpgrade": true,
       "img": null,
       "stats": {
         "damage": null,
@@ -1901,6 +1936,7 @@
       },
       "cost": 0,
       "upgradeCost": null,
+      "canUpgrade": true,
       "img": "assets/cards/findandreplace.png",
       "stats": {
         "damage": null,
@@ -1949,6 +1985,7 @@
       },
       "cost": 0,
       "upgradeCost": null,
+      "canUpgrade": true,
       "img": "assets/cards/finetuning.png",
       "stats": {
         "damage": null,
@@ -2001,6 +2038,7 @@
       },
       "cost": 2,
       "upgradeCost": null,
+      "canUpgrade": true,
       "img": "assets/cards/flail.png",
       "stats": {
         "damage": 6,
@@ -2055,6 +2093,7 @@
       },
       "cost": 0,
       "upgradeCost": null,
+      "canUpgrade": true,
       "img": null,
       "stats": {
         "damage": null,
@@ -2103,6 +2142,7 @@
       },
       "cost": 2,
       "upgradeCost": null,
+      "canUpgrade": true,
       "img": "assets/cards/forcepush.png",
       "stats": {
         "damage": 14,
@@ -2157,6 +2197,7 @@
       },
       "cost": 4,
       "upgradeCost": null,
+      "canUpgrade": true,
       "img": "assets/cards/forceshield.png",
       "stats": {
         "damage": null,
@@ -2210,7 +2251,8 @@
         "zh": "铜制机械人偶"
       },
       "cost": 1,
-      "upgradeCost": null,
+      "upgradeCost": 0,
+      "canUpgrade": true,
       "img": "assets/cards/fork.png",
       "stats": {
         "damage": null,
@@ -2259,6 +2301,7 @@
       },
       "cost": 0,
       "upgradeCost": null,
+      "canUpgrade": true,
       "img": "assets/cards/format.png",
       "stats": {
         "damage": null,
@@ -2311,6 +2354,7 @@
       },
       "cost": 2,
       "upgradeCost": null,
+      "canUpgrade": true,
       "img": "assets/cards/fortify.png",
       "stats": {
         "damage": 8,
@@ -2367,6 +2411,7 @@
       },
       "cost": 0,
       "upgradeCost": null,
+      "canUpgrade": true,
       "img": "assets/cards/forloop.png",
       "stats": {
         "damage": null,
@@ -2415,6 +2460,7 @@
       },
       "cost": 1,
       "upgradeCost": null,
+      "canUpgrade": true,
       "img": "assets/cards/fragment.png",
       "stats": {
         "damage": 3,
@@ -2469,6 +2515,7 @@
       },
       "cost": 2,
       "upgradeCost": null,
+      "canUpgrade": true,
       "img": "assets/cards/frontload.png",
       "stats": {
         "damage": null,
@@ -2520,7 +2567,8 @@
         "zh": "铜制机械人偶"
       },
       "cost": 2,
-      "upgradeCost": null,
+      "upgradeCost": 1,
+      "canUpgrade": true,
       "img": "assets/cards/fullrelease.png",
       "stats": {
         "damage": null,
@@ -2573,6 +2621,7 @@
       },
       "cost": null,
       "upgradeCost": null,
+      "canUpgrade": false,
       "img": null,
       "stats": {
         "damage": null,
@@ -2595,7 +2644,7 @@
     },
     {
       "id": "AUTOMATON-FUNCTION_CARD",
-      "codeName": "",
+      "codeName": "FunctionCard",
       "name": {
         "en": "function()",
         "zh": "函数()"
@@ -2613,15 +2662,16 @@
         "zh": []
       },
       "type": "SKILL",
-      "rarity": "SPECIAL",
-      "color": "DOWNFALL",
+      "rarity": "TOKEN",
+      "color": "AUTOMATON",
       "colorName": {
-        "en": "Downfall",
-        "zh": "崩坠"
+        "en": "The Automaton",
+        "zh": "铜制机械人偶"
       },
-      "cost": null,
+      "cost": 1,
       "upgradeCost": null,
-      "img": null,
+      "canUpgrade": false,
+      "img": "assets/cards/functioncard.png",
       "stats": {
         "damage": null,
         "block": null,
@@ -2637,7 +2687,7 @@
       },
       "dynamicValues": {},
       "upgradeDynamicValues": {},
-      "energyIcon": null,
+      "energyIcon": "assets/energy-icons/automaton.png",
       "deprecated": false,
       "notInPool": false
     },
@@ -2669,6 +2719,7 @@
       },
       "cost": null,
       "upgradeCost": null,
+      "canUpgrade": false,
       "img": null,
       "stats": {
         "damage": null,
@@ -2717,6 +2768,7 @@
       },
       "cost": null,
       "upgradeCost": null,
+      "canUpgrade": false,
       "img": null,
       "stats": {
         "damage": null,
@@ -2765,6 +2817,7 @@
       },
       "cost": 2,
       "upgradeCost": null,
+      "canUpgrade": true,
       "img": "assets/cards/goto.png",
       "stats": {
         "damage": null,
@@ -2821,6 +2874,7 @@
       },
       "cost": 0,
       "upgradeCost": null,
+      "canUpgrade": true,
       "img": null,
       "stats": {
         "damage": null,
@@ -2875,6 +2929,7 @@
       },
       "cost": 0,
       "upgradeCost": null,
+      "canUpgrade": true,
       "img": "assets/cards/hyperbeamautomaton.png",
       "stats": {
         "damage": 18,
@@ -2930,7 +2985,8 @@
         "zh": "铜制机械人偶"
       },
       "cost": 2,
-      "upgradeCost": null,
+      "upgradeCost": 1,
+      "canUpgrade": true,
       "img": "assets/cards/infinitebeams.png",
       "stats": {
         "damage": null,
@@ -2983,6 +3039,7 @@
       },
       "cost": 1,
       "upgradeCost": null,
+      "canUpgrade": true,
       "img": "assets/cards/infiniteloop.png",
       "stats": {
         "damage": 6,
@@ -3041,6 +3098,7 @@
       },
       "cost": 0,
       "upgradeCost": null,
+      "canUpgrade": true,
       "img": "assets/cards/invalidate.png",
       "stats": {
         "damage": null,
@@ -3093,6 +3151,7 @@
       },
       "cost": 1,
       "upgradeCost": null,
+      "canUpgrade": true,
       "img": "assets/cards/iterate.png",
       "stats": {
         "damage": 4,
@@ -3147,6 +3206,7 @@
       },
       "cost": 1,
       "upgradeCost": null,
+      "canUpgrade": true,
       "img": "assets/cards/itsafeature.png",
       "stats": {
         "damage": null,
@@ -3198,7 +3258,8 @@
         "zh": "铜制机械人偶"
       },
       "cost": 3,
-      "upgradeCost": null,
+      "upgradeCost": 2,
+      "canUpgrade": true,
       "img": "assets/cards/library.png",
       "stats": {
         "damage": null,
@@ -3251,6 +3312,7 @@
       },
       "cost": 0,
       "upgradeCost": null,
+      "canUpgrade": true,
       "img": "assets/cards/maxoutput.png",
       "stats": {
         "damage": null,
@@ -3305,6 +3367,7 @@
       },
       "cost": 2,
       "upgradeCost": null,
+      "canUpgrade": true,
       "img": "assets/cards/mergeconflict.png",
       "stats": {
         "damage": 5,
@@ -3359,6 +3422,7 @@
       },
       "cost": 0,
       "upgradeCost": null,
+      "canUpgrade": true,
       "img": "assets/cards/minorbeam.png",
       "stats": {
         "damage": 6,
@@ -3411,6 +3475,7 @@
       },
       "cost": 1,
       "upgradeCost": null,
+      "canUpgrade": true,
       "img": "assets/cards/mutator.png",
       "stats": {
         "damage": null,
@@ -3463,6 +3528,7 @@
       },
       "cost": 1,
       "upgradeCost": null,
+      "canUpgrade": true,
       "img": "assets/cards/nullpointer.png",
       "stats": {
         "damage": 12,
@@ -3519,6 +3585,7 @@
       },
       "cost": 1,
       "upgradeCost": null,
+      "canUpgrade": true,
       "img": "assets/cards/oilspill.png",
       "stats": {
         "damage": 4,
@@ -3573,6 +3640,7 @@
       },
       "cost": 1,
       "upgradeCost": null,
+      "canUpgrade": true,
       "img": "assets/cards/optimize.png",
       "stats": {
         "damage": null,
@@ -3625,6 +3693,7 @@
       },
       "cost": 2,
       "upgradeCost": null,
+      "canUpgrade": true,
       "img": "assets/cards/overheat.png",
       "stats": {
         "damage": 11,
@@ -3679,6 +3748,7 @@
       },
       "cost": 1,
       "upgradeCost": null,
+      "canUpgrade": true,
       "img": "assets/cards/philosophize.png",
       "stats": {
         "damage": null,
@@ -3731,6 +3801,7 @@
       },
       "cost": 1,
       "upgradeCost": null,
+      "canUpgrade": true,
       "img": "assets/cards/piercingshot.png",
       "stats": {
         "damage": 8,
@@ -3785,6 +3856,7 @@
       },
       "cost": 2,
       "upgradeCost": null,
+      "canUpgrade": true,
       "img": "assets/cards/postpone.png",
       "stats": {
         "damage": null,
@@ -3839,6 +3911,7 @@
       },
       "cost": 2,
       "upgradeCost": null,
+      "canUpgrade": true,
       "img": "assets/cards/protobeam.png",
       "stats": {
         "damage": 5,
@@ -3897,6 +3970,7 @@
       },
       "cost": 1,
       "upgradeCost": null,
+      "canUpgrade": true,
       "img": "assets/cards/protoshield.png",
       "stats": {
         "damage": null,
@@ -3953,6 +4027,7 @@
       },
       "cost": 0,
       "upgradeCost": null,
+      "canUpgrade": true,
       "img": null,
       "stats": {
         "damage": 6,
@@ -4006,7 +4081,8 @@
         "zh": "铜制机械人偶"
       },
       "cost": 2,
-      "upgradeCost": null,
+      "upgradeCost": 1,
+      "canUpgrade": true,
       "img": "assets/cards/recreate.png",
       "stats": {
         "damage": null,
@@ -4059,6 +4135,7 @@
       },
       "cost": 2,
       "upgradeCost": null,
+      "canUpgrade": true,
       "img": "assets/cards/recursivestrike.png",
       "stats": {
         "damage": 6,
@@ -4111,6 +4188,7 @@
       },
       "cost": 1,
       "upgradeCost": null,
+      "canUpgrade": true,
       "img": "assets/cards/recyclebin.png",
       "stats": {
         "damage": null,
@@ -4163,6 +4241,7 @@
       },
       "cost": 1,
       "upgradeCost": null,
+      "canUpgrade": true,
       "img": "assets/cards/refactor.png",
       "stats": {
         "damage": null,
@@ -4217,6 +4296,7 @@
       },
       "cost": 1,
       "upgradeCost": null,
+      "canUpgrade": true,
       "img": "assets/cards/repair.png",
       "stats": {
         "damage": null,
@@ -4269,6 +4349,7 @@
       },
       "cost": 0,
       "upgradeCost": null,
+      "canUpgrade": true,
       "img": "assets/cards/replicate.png",
       "stats": {
         "damage": 6,
@@ -4321,6 +4402,7 @@
       },
       "cost": 2,
       "upgradeCost": null,
+      "canUpgrade": true,
       "img": "assets/cards/repulsor.png",
       "stats": {
         "damage": null,
@@ -4373,6 +4455,7 @@
       },
       "cost": 1,
       "upgradeCost": null,
+      "canUpgrade": true,
       "img": "assets/cards/return.png",
       "stats": {
         "damage": null,
@@ -4425,6 +4508,7 @@
       },
       "cost": 1,
       "upgradeCost": null,
+      "canUpgrade": true,
       "img": "assets/cards/robochop.png",
       "stats": {
         "damage": 8,
@@ -4481,6 +4565,7 @@
       },
       "cost": 0,
       "upgradeCost": null,
+      "canUpgrade": true,
       "img": "assets/cards/safeguard.png",
       "stats": {
         "damage": null,
@@ -4533,6 +4618,7 @@
       },
       "cost": 3,
       "upgradeCost": null,
+      "canUpgrade": true,
       "img": "assets/cards/sentientform.png",
       "stats": {
         "damage": null,
@@ -4585,6 +4671,7 @@
       },
       "cost": 1,
       "upgradeCost": null,
+      "canUpgrade": true,
       "img": "assets/cards/separator.png",
       "stats": {
         "damage": 6,
@@ -4641,6 +4728,7 @@
       },
       "cost": 1,
       "upgradeCost": null,
+      "canUpgrade": true,
       "img": null,
       "stats": {
         "damage": null,
@@ -4693,6 +4781,7 @@
       },
       "cost": 1,
       "upgradeCost": null,
+      "canUpgrade": true,
       "img": "assets/cards/shipit.png",
       "stats": {
         "damage": 10,
@@ -4746,7 +4835,8 @@
         "zh": "铜制机械人偶"
       },
       "cost": 2,
-      "upgradeCost": null,
+      "upgradeCost": 1,
+      "canUpgrade": true,
       "img": "assets/cards/spaghetticode.png",
       "stats": {
         "damage": null,
@@ -4795,6 +4885,7 @@
       },
       "cost": 2,
       "upgradeCost": null,
+      "canUpgrade": true,
       "img": "assets/cards/spike.png",
       "stats": {
         "damage": 7,
@@ -4849,6 +4940,7 @@
       },
       "cost": 1,
       "upgradeCost": null,
+      "canUpgrade": true,
       "img": "assets/cards/stickyshield.png",
       "stats": {
         "damage": null,
@@ -4901,6 +4993,7 @@
       },
       "cost": 1,
       "upgradeCost": null,
+      "canUpgrade": true,
       "img": "assets/cards/strikeautomaton.png",
       "stats": {
         "damage": 6,
@@ -4953,6 +5046,7 @@
       },
       "cost": 1,
       "upgradeCost": null,
+      "canUpgrade": true,
       "img": "assets/cards/summonorb.png",
       "stats": {
         "damage": null,
@@ -5004,7 +5098,8 @@
         "zh": "铜制机械人偶"
       },
       "cost": 1,
-      "upgradeCost": null,
+      "upgradeCost": 0,
+      "canUpgrade": true,
       "img": "assets/cards/terminator.png",
       "stats": {
         "damage": null,
@@ -5053,6 +5148,7 @@
       },
       "cost": 3,
       "upgradeCost": null,
+      "canUpgrade": true,
       "img": "assets/cards/thunderwave.png",
       "stats": {
         "damage": 18,
@@ -5107,6 +5203,7 @@
       },
       "cost": 0,
       "upgradeCost": null,
+      "canUpgrade": true,
       "img": "assets/cards/turbo.png",
       "stats": {
         "damage": null,
@@ -5159,6 +5256,7 @@
       },
       "cost": 1,
       "upgradeCost": null,
+      "canUpgrade": true,
       "img": "assets/cards/undervolt.png",
       "stats": {
         "damage": null,
@@ -5219,6 +5317,7 @@
       },
       "cost": 1,
       "upgradeCost": null,
+      "canUpgrade": true,
       "img": null,
       "stats": {
         "damage": null,
@@ -5275,6 +5374,7 @@
       },
       "cost": 1,
       "upgradeCost": null,
+      "canUpgrade": true,
       "img": null,
       "stats": {
         "damage": null,
@@ -5327,6 +5427,7 @@
       },
       "cost": 2,
       "upgradeCost": null,
+      "canUpgrade": true,
       "img": "assets/cards/virus.png",
       "stats": {
         "damage": 6,
@@ -5379,6 +5480,7 @@
       },
       "cost": 1,
       "upgradeCost": null,
+      "canUpgrade": true,
       "img": "assets/cards/wildstrike.png",
       "stats": {
         "damage": 14,
@@ -5431,6 +5533,7 @@
       },
       "cost": 1,
       "upgradeCost": null,
+      "canUpgrade": true,
       "img": "assets/cards/altar.png",
       "stats": {
         "damage": null,
@@ -5483,6 +5586,7 @@
       },
       "cost": 2,
       "upgradeCost": null,
+      "canUpgrade": true,
       "img": "assets/cards/ancestralgrounds.png",
       "stats": {
         "damage": null,
@@ -5541,6 +5645,7 @@
       },
       "cost": 0,
       "upgradeCost": null,
+      "canUpgrade": true,
       "img": "assets/cards/aphoticfount.png",
       "stats": {
         "damage": null,
@@ -5593,6 +5698,7 @@
       },
       "cost": -1,
       "upgradeCost": null,
+      "canUpgrade": true,
       "img": "assets/cards/arcanenesting.png",
       "stats": {
         "damage": null,
@@ -5644,7 +5750,8 @@
         "zh": "觉醒者"
       },
       "cost": 3,
-      "upgradeCost": null,
+      "upgradeCost": 2,
+      "canUpgrade": true,
       "img": "assets/cards/archmagus.png",
       "stats": {
         "damage": null,
@@ -5693,6 +5800,7 @@
       },
       "cost": 2,
       "upgradeCost": null,
+      "canUpgrade": true,
       "img": "assets/cards/artifice.png",
       "stats": {
         "damage": null,
@@ -5745,6 +5853,7 @@
       },
       "cost": null,
       "upgradeCost": null,
+      "canUpgrade": false,
       "img": null,
       "stats": {
         "damage": null,
@@ -5793,6 +5902,7 @@
       },
       "cost": 3,
       "upgradeCost": null,
+      "canUpgrade": true,
       "img": "assets/cards/awakenedform.png",
       "stats": {
         "damage": null,
@@ -5847,6 +5957,7 @@
       },
       "cost": 0,
       "upgradeCost": null,
+      "canUpgrade": true,
       "img": null,
       "stats": {
         "damage": null,
@@ -5901,6 +6012,7 @@
       },
       "cost": 2,
       "upgradeCost": null,
+      "canUpgrade": true,
       "img": "assets/cards/bloodiedpreening.png",
       "stats": {
         "damage": null,
@@ -5957,6 +6069,7 @@
       },
       "cost": 2,
       "upgradeCost": null,
+      "canUpgrade": true,
       "img": "assets/cards/bloodthirst.png",
       "stats": {
         "damage": 20,
@@ -6009,6 +6122,7 @@
       },
       "cost": 1,
       "upgradeCost": null,
+      "canUpgrade": true,
       "img": "assets/cards/bloodrite.png",
       "stats": {
         "damage": 8,
@@ -6061,6 +6175,7 @@
       },
       "cost": 1,
       "upgradeCost": null,
+      "canUpgrade": true,
       "img": "assets/cards/bookofsecrets.png",
       "stats": {
         "damage": null,
@@ -6113,6 +6228,7 @@
       },
       "cost": 1,
       "upgradeCost": null,
+      "canUpgrade": true,
       "img": "assets/cards/brainshock.png",
       "stats": {
         "damage": 12,
@@ -6165,6 +6281,7 @@
       },
       "cost": 1,
       "upgradeCost": null,
+      "canUpgrade": true,
       "img": "assets/cards/burningstudy.png",
       "stats": {
         "damage": null,
@@ -6219,6 +6336,7 @@
       },
       "cost": 0,
       "upgradeCost": null,
+      "canUpgrade": true,
       "img": "assets/cards/byrdseye.png",
       "stats": {
         "damage": null,
@@ -6267,6 +6385,7 @@
       },
       "cost": 2,
       "upgradeCost": null,
+      "canUpgrade": true,
       "img": "assets/cards/carrionmaker.png",
       "stats": {
         "damage": 9,
@@ -6319,6 +6438,7 @@
       },
       "cost": 0,
       "upgradeCost": null,
+      "canUpgrade": true,
       "img": "assets/cards/caw.png",
       "stats": {
         "damage": 4,
@@ -6377,6 +6497,7 @@
       },
       "cost": 0,
       "upgradeCost": null,
+      "canUpgrade": true,
       "img": "assets/cards/ceremony.png",
       "stats": {
         "damage": null,
@@ -6429,6 +6550,7 @@
       },
       "cost": 1,
       "upgradeCost": null,
+      "canUpgrade": true,
       "img": "assets/cards/chosenverse.png",
       "stats": {
         "damage": null,
@@ -6481,6 +6603,7 @@
       },
       "cost": 1,
       "upgradeCost": null,
+      "canUpgrade": true,
       "img": "assets/cards/clarioncall.png",
       "stats": {
         "damage": 8,
@@ -6537,6 +6660,7 @@
       },
       "cost": 1,
       "upgradeCost": null,
+      "canUpgrade": true,
       "img": "assets/cards/clutch.png",
       "stats": {
         "damage": 8,
@@ -6589,6 +6713,7 @@
       },
       "cost": 1,
       "upgradeCost": null,
+      "canUpgrade": true,
       "img": null,
       "stats": {
         "damage": null,
@@ -6641,6 +6766,7 @@
       },
       "cost": 5,
       "upgradeCost": null,
+      "canUpgrade": true,
       "img": "assets/cards/crusher.png",
       "stats": {
         "damage": 25,
@@ -6693,6 +6819,7 @@
       },
       "cost": 1,
       "upgradeCost": null,
+      "canUpgrade": true,
       "img": "assets/cards/cryostasis.png",
       "stats": {
         "damage": null,
@@ -6745,6 +6872,7 @@
       },
       "cost": 2,
       "upgradeCost": null,
+      "canUpgrade": true,
       "img": "assets/cards/daggerstorm.png",
       "stats": {
         "damage": null,
@@ -6797,6 +6925,7 @@
       },
       "cost": 1,
       "upgradeCost": null,
+      "canUpgrade": true,
       "img": "assets/cards/darkleech.png",
       "stats": {
         "damage": null,
@@ -6851,6 +6980,7 @@
       },
       "cost": 1,
       "upgradeCost": null,
+      "canUpgrade": true,
       "img": "assets/cards/darknessfalls.png",
       "stats": {
         "damage": null,
@@ -6906,7 +7036,8 @@
         "zh": "觉醒者"
       },
       "cost": 2,
-      "upgradeCost": null,
+      "upgradeCost": 1,
+      "canUpgrade": true,
       "img": "assets/cards/darkecho.png",
       "stats": {
         "damage": null,
@@ -6959,6 +7090,7 @@
       },
       "cost": 3,
       "upgradeCost": null,
+      "canUpgrade": true,
       "img": "assets/cards/darkincantation.png",
       "stats": {
         "damage": null,
@@ -7011,6 +7143,7 @@
       },
       "cost": 0,
       "upgradeCost": null,
+      "canUpgrade": true,
       "img": "assets/cards/deathcoil.png",
       "stats": {
         "damage": null,
@@ -7065,6 +7198,7 @@
       },
       "cost": 1,
       "upgradeCost": null,
+      "canUpgrade": true,
       "img": "assets/cards/defendawakened.png",
       "stats": {
         "damage": null,
@@ -7117,6 +7251,7 @@
       },
       "cost": 1,
       "upgradeCost": null,
+      "canUpgrade": true,
       "img": "assets/cards/dejection.png",
       "stats": {
         "damage": 7,
@@ -7169,6 +7304,7 @@
       },
       "cost": 1,
       "upgradeCost": null,
+      "canUpgrade": true,
       "img": "assets/cards/demonglyph.png",
       "stats": {
         "damage": null,
@@ -7225,6 +7361,7 @@
       },
       "cost": 1,
       "upgradeCost": null,
+      "canUpgrade": true,
       "img": "assets/cards/desperateprayer.png",
       "stats": {
         "damage": null,
@@ -7276,7 +7413,8 @@
         "zh": "觉醒者"
       },
       "cost": 2,
-      "upgradeCost": null,
+      "upgradeCost": 1,
+      "canUpgrade": true,
       "img": "assets/cards/eclipseembrace.png",
       "stats": {
         "damage": null,
@@ -7329,6 +7467,7 @@
       },
       "cost": 2,
       "upgradeCost": null,
+      "canUpgrade": true,
       "img": "assets/cards/ensorcelate.png",
       "stats": {
         "damage": null,
@@ -7381,6 +7520,7 @@
       },
       "cost": 0,
       "upgradeCost": null,
+      "canUpgrade": true,
       "img": "assets/cards/envision.png",
       "stats": {
         "damage": null,
@@ -7433,6 +7573,7 @@
       },
       "cost": 0,
       "upgradeCost": null,
+      "canUpgrade": true,
       "img": "assets/cards/esp.png",
       "stats": {
         "damage": null,
@@ -7485,6 +7626,7 @@
       },
       "cost": 1,
       "upgradeCost": null,
+      "canUpgrade": true,
       "img": "assets/cards/eventide.png",
       "stats": {
         "damage": 8,
@@ -7537,6 +7679,7 @@
       },
       "cost": 1,
       "upgradeCost": null,
+      "canUpgrade": true,
       "img": "assets/cards/extension.png",
       "stats": {
         "damage": 11,
@@ -7589,6 +7732,7 @@
       },
       "cost": 0,
       "upgradeCost": null,
+      "canUpgrade": true,
       "img": "assets/cards/esp.png",
       "stats": {
         "damage": null,
@@ -7641,6 +7785,7 @@
       },
       "cost": 1,
       "upgradeCost": null,
+      "canUpgrade": true,
       "img": null,
       "stats": {
         "damage": null,
@@ -7693,6 +7838,7 @@
       },
       "cost": 0,
       "upgradeCost": null,
+      "canUpgrade": true,
       "img": "assets/cards/featherflare.png",
       "stats": {
         "damage": 4,
@@ -7747,6 +7893,7 @@
       },
       "cost": 0,
       "upgradeCost": null,
+      "canUpgrade": true,
       "img": "assets/cards/featherveil.png",
       "stats": {
         "damage": null,
@@ -7801,6 +7948,7 @@
       },
       "cost": 1,
       "upgradeCost": null,
+      "canUpgrade": true,
       "img": "assets/cards/featherwhirl.png",
       "stats": {
         "damage": null,
@@ -7848,7 +7996,8 @@
         "zh": "觉醒者"
       },
       "cost": 1,
-      "upgradeCost": null,
+      "upgradeCost": 0,
+      "canUpgrade": true,
       "img": "assets/cards/ferventworship.png",
       "stats": {
         "damage": null,
@@ -7902,7 +8051,8 @@
         "zh": "觉醒者"
       },
       "cost": 1,
-      "upgradeCost": null,
+      "upgradeCost": 0,
+      "canUpgrade": true,
       "img": "assets/cards/fourthdimension.png",
       "stats": {
         "damage": null,
@@ -7955,6 +8105,7 @@
       },
       "cost": 2,
       "upgradeCost": null,
+      "canUpgrade": true,
       "img": null,
       "stats": {
         "damage": null,
@@ -8011,6 +8162,7 @@
       },
       "cost": 1,
       "upgradeCost": null,
+      "canUpgrade": true,
       "img": "assets/cards/gather.png",
       "stats": {
         "damage": null,
@@ -8063,6 +8215,7 @@
       },
       "cost": 1,
       "upgradeCost": null,
+      "canUpgrade": true,
       "img": "assets/cards/gloomguard.png",
       "stats": {
         "damage": null,
@@ -8115,6 +8268,7 @@
       },
       "cost": 1,
       "upgradeCost": null,
+      "canUpgrade": true,
       "img": "assets/cards/greathex.png",
       "stats": {
         "damage": null,
@@ -8167,6 +8321,7 @@
       },
       "cost": 0,
       "upgradeCost": null,
+      "canUpgrade": true,
       "img": "assets/cards/hymn.png",
       "stats": {
         "damage": null,
@@ -8221,6 +8376,7 @@
       },
       "cost": 3,
       "upgradeCost": null,
+      "canUpgrade": true,
       "img": "assets/cards/immolation.png",
       "stats": {
         "damage": null,
@@ -8275,6 +8431,7 @@
       },
       "cost": 2,
       "upgradeCost": null,
+      "canUpgrade": true,
       "img": "assets/cards/initiation.png",
       "stats": {
         "damage": null,
@@ -8327,6 +8484,7 @@
       },
       "cost": 0,
       "upgradeCost": null,
+      "canUpgrade": true,
       "img": "assets/cards/inscribe.png",
       "stats": {
         "damage": null,
@@ -8375,6 +8533,7 @@
       },
       "cost": 1,
       "upgradeCost": null,
+      "canUpgrade": true,
       "img": "assets/cards/intensify.png",
       "stats": {
         "damage": null,
@@ -8429,6 +8588,7 @@
       },
       "cost": 0,
       "upgradeCost": null,
+      "canUpgrade": true,
       "img": "assets/cards/knifesedge.png",
       "stats": {
         "damage": null,
@@ -8481,6 +8641,7 @@
       },
       "cost": 0,
       "upgradeCost": null,
+      "canUpgrade": true,
       "img": "assets/cards/magicianism.png",
       "stats": {
         "damage": null,
@@ -8529,6 +8690,7 @@
       },
       "cost": 2,
       "upgradeCost": null,
+      "canUpgrade": true,
       "img": "assets/cards/manastorm.png",
       "stats": {
         "damage": 14,
@@ -8581,6 +8743,7 @@
       },
       "cost": 2,
       "upgradeCost": null,
+      "canUpgrade": true,
       "img": "assets/cards/manashield.png",
       "stats": {
         "damage": null,
@@ -8633,6 +8796,7 @@
       },
       "cost": 1,
       "upgradeCost": null,
+      "canUpgrade": true,
       "img": "assets/cards/mantis.png",
       "stats": {
         "damage": null,
@@ -8685,6 +8849,7 @@
       },
       "cost": 0,
       "upgradeCost": null,
+      "canUpgrade": true,
       "img": "assets/cards/middenheap.png",
       "stats": {
         "damage": null,
@@ -8739,6 +8904,7 @@
       },
       "cost": 2,
       "upgradeCost": null,
+      "canUpgrade": true,
       "img": "assets/cards/minniegun.png",
       "stats": {
         "damage": 2,
@@ -8793,6 +8959,7 @@
       },
       "cost": 0,
       "upgradeCost": null,
+      "canUpgrade": true,
       "img": "assets/cards/mirepit.png",
       "stats": {
         "damage": null,
@@ -8846,7 +9013,8 @@
         "zh": "觉醒者"
       },
       "cost": 2,
-      "upgradeCost": null,
+      "upgradeCost": 1,
+      "canUpgrade": true,
       "img": "assets/cards/moonlitvision.png",
       "stats": {
         "damage": null,
@@ -8901,6 +9069,7 @@
       },
       "cost": 1,
       "upgradeCost": null,
+      "canUpgrade": true,
       "img": "assets/cards/murder.png",
       "stats": {
         "damage": 4,
@@ -8955,6 +9124,7 @@
       },
       "cost": 1,
       "upgradeCost": null,
+      "canUpgrade": true,
       "img": "assets/cards/mysticorder.png",
       "stats": {
         "damage": null,
@@ -9007,6 +9177,7 @@
       },
       "cost": 2,
       "upgradeCost": null,
+      "canUpgrade": true,
       "img": "assets/cards/nihil.png",
       "stats": {
         "damage": null,
@@ -9059,6 +9230,7 @@
       },
       "cost": 1,
       "upgradeCost": null,
+      "canUpgrade": true,
       "img": "assets/cards/peck.png",
       "stats": {
         "damage": 1,
@@ -9115,6 +9287,7 @@
       },
       "cost": 0,
       "upgradeCost": null,
+      "canUpgrade": true,
       "img": "assets/cards/planeswalk.png",
       "stats": {
         "damage": null,
@@ -9167,6 +9340,7 @@
       },
       "cost": 1,
       "upgradeCost": null,
+      "canUpgrade": true,
       "img": "assets/cards/pluck.png",
       "stats": {
         "damage": 2,
@@ -9219,6 +9393,7 @@
       },
       "cost": 0,
       "upgradeCost": null,
+      "canUpgrade": true,
       "img": "assets/cards/plumejab.png",
       "stats": {
         "damage": 2,
@@ -9273,6 +9448,7 @@
       },
       "cost": 1,
       "upgradeCost": null,
+      "canUpgrade": true,
       "img": "assets/cards/primacy.png",
       "stats": {
         "damage": null,
@@ -9324,7 +9500,8 @@
         "zh": "觉醒者"
       },
       "cost": 1,
-      "upgradeCost": null,
+      "upgradeCost": 0,
+      "canUpgrade": true,
       "img": "assets/cards/procession.png",
       "stats": {
         "damage": null,
@@ -9373,6 +9550,7 @@
       },
       "cost": 1,
       "upgradeCost": null,
+      "canUpgrade": true,
       "img": "assets/cards/profanestrike.png",
       "stats": {
         "damage": 11,
@@ -9425,6 +9603,7 @@
       },
       "cost": 2,
       "upgradeCost": null,
+      "canUpgrade": true,
       "img": "assets/cards/psalm.png",
       "stats": {
         "damage": 10,
@@ -9479,6 +9658,7 @@
       },
       "cost": 2,
       "upgradeCost": null,
+      "canUpgrade": true,
       "img": "assets/cards/ravenstrike.png",
       "stats": {
         "damage": 15,
@@ -9531,6 +9711,7 @@
       },
       "cost": 1,
       "upgradeCost": null,
+      "canUpgrade": true,
       "img": "assets/cards/razorsharp.png",
       "stats": {
         "damage": null,
@@ -9583,6 +9764,7 @@
       },
       "cost": 0,
       "upgradeCost": null,
+      "canUpgrade": true,
       "img": "assets/cards/realityrift.png",
       "stats": {
         "damage": null,
@@ -9631,6 +9813,7 @@
       },
       "cost": 1,
       "upgradeCost": null,
+      "canUpgrade": true,
       "img": "assets/cards/rebirth.png",
       "stats": {
         "damage": null,
@@ -9683,6 +9866,7 @@
       },
       "cost": 1,
       "upgradeCost": null,
+      "canUpgrade": true,
       "img": "assets/cards/recitation.png",
       "stats": {
         "damage": 6,
@@ -9735,6 +9919,7 @@
       },
       "cost": 2,
       "upgradeCost": null,
+      "canUpgrade": true,
       "img": "assets/cards/risingchorus.png",
       "stats": {
         "damage": null,
@@ -9783,6 +9968,7 @@
       },
       "cost": 1,
       "upgradeCost": null,
+      "canUpgrade": true,
       "img": "assets/cards/scheme.png",
       "stats": {
         "damage": null,
@@ -9835,6 +10021,7 @@
       },
       "cost": 1,
       "upgradeCost": null,
+      "canUpgrade": true,
       "img": "assets/cards/scour.png",
       "stats": {
         "damage": 7,
@@ -9889,6 +10076,7 @@
       },
       "cost": 0,
       "upgradeCost": null,
+      "canUpgrade": true,
       "img": "assets/cards/signinblood.png",
       "stats": {
         "damage": null,
@@ -9945,6 +10133,7 @@
       },
       "cost": 1,
       "upgradeCost": null,
+      "canUpgrade": true,
       "img": "assets/cards/singularityshield.png",
       "stats": {
         "damage": null,
@@ -10001,6 +10190,7 @@
       },
       "cost": 1,
       "upgradeCost": null,
+      "canUpgrade": true,
       "img": "assets/cards/siphon.png",
       "stats": {
         "damage": 9,
@@ -10055,6 +10245,7 @@
       },
       "cost": 7,
       "upgradeCost": null,
+      "canUpgrade": true,
       "img": "assets/cards/skyward.png",
       "stats": {
         "damage": null,
@@ -10109,6 +10300,7 @@
       },
       "cost": 0,
       "upgradeCost": null,
+      "canUpgrade": true,
       "img": "assets/cards/sludgebomb.png",
       "stats": {
         "damage": 18,
@@ -10161,6 +10353,7 @@
       },
       "cost": 1,
       "upgradeCost": null,
+      "canUpgrade": true,
       "img": "assets/cards/songofsorrow.png",
       "stats": {
         "damage": null,
@@ -10213,6 +10406,7 @@
       },
       "cost": 3,
       "upgradeCost": null,
+      "canUpgrade": true,
       "img": "assets/cards/soulstrike.png",
       "stats": {
         "damage": 4,
@@ -10266,7 +10460,8 @@
         "zh": "觉醒者"
       },
       "cost": 1,
-      "upgradeCost": null,
+      "upgradeCost": 0,
+      "canUpgrade": true,
       "img": "assets/cards/spellbinder.png",
       "stats": {
         "damage": null,
@@ -10319,6 +10514,7 @@
       },
       "cost": 2,
       "upgradeCost": null,
+      "canUpgrade": true,
       "img": "assets/cards/spellshield.png",
       "stats": {
         "damage": null,
@@ -10371,6 +10567,7 @@
       },
       "cost": 1,
       "upgradeCost": null,
+      "canUpgrade": true,
       "img": "assets/cards/spew.png",
       "stats": {
         "damage": 6,
@@ -10425,6 +10622,7 @@
       },
       "cost": 1,
       "upgradeCost": null,
+      "canUpgrade": true,
       "img": "assets/cards/splitwide.png",
       "stats": {
         "damage": 5,
@@ -10479,6 +10677,7 @@
       },
       "cost": 0,
       "upgradeCost": null,
+      "canUpgrade": true,
       "img": "assets/cards/spreadingspores.png",
       "stats": {
         "damage": null,
@@ -10531,6 +10730,7 @@
       },
       "cost": 1,
       "upgradeCost": null,
+      "canUpgrade": true,
       "img": "assets/cards/stormruler.png",
       "stats": {
         "damage": null,
@@ -10583,6 +10783,7 @@
       },
       "cost": 1,
       "upgradeCost": null,
+      "canUpgrade": true,
       "img": "assets/cards/strikeawakened.png",
       "stats": {
         "damage": 6,
@@ -10635,6 +10836,7 @@
       },
       "cost": 2,
       "upgradeCost": null,
+      "canUpgrade": true,
       "img": "assets/cards/takeflight.png",
       "stats": {
         "damage": null,
@@ -10689,6 +10891,7 @@
       },
       "cost": 2,
       "upgradeCost": null,
+      "canUpgrade": true,
       "img": "assets/cards/talonrake.png",
       "stats": {
         "damage": 5,
@@ -10741,6 +10944,7 @@
       },
       "cost": 1,
       "upgradeCost": null,
+      "canUpgrade": true,
       "img": "assets/cards/talonrend.png",
       "stats": {
         "damage": 5,
@@ -10795,6 +10999,7 @@
       },
       "cost": 1,
       "upgradeCost": null,
+      "canUpgrade": true,
       "img": "assets/cards/thaumaturgy.png",
       "stats": {
         "damage": null,
@@ -10849,6 +11054,7 @@
       },
       "cost": 2,
       "upgradeCost": null,
+      "canUpgrade": true,
       "img": "assets/cards/theencyclopedia.png",
       "stats": {
         "damage": null,
@@ -10901,6 +11107,7 @@
       },
       "cost": 2,
       "upgradeCost": null,
+      "canUpgrade": true,
       "img": "assets/cards/thetower.png",
       "stats": {
         "damage": null,
@@ -10955,6 +11162,7 @@
       },
       "cost": 1,
       "upgradeCost": null,
+      "canUpgrade": true,
       "img": "assets/cards/thunderbolt.png",
       "stats": {
         "damage": 12,
@@ -11007,6 +11215,7 @@
       },
       "cost": 1,
       "upgradeCost": null,
+      "canUpgrade": true,
       "img": "assets/cards/unleash.png",
       "stats": {
         "damage": null,
@@ -11026,7 +11235,7 @@
         "ExtraDamage": 1
       },
       "upgradeDynamicValues": {
-        "CalculatedDamage": 7,
+        "CalculatedDamage": 8,
         "ExtraDamage": 1
       },
       "energyIcon": "assets/energy-icons/awakened.png",
@@ -11061,6 +11270,7 @@
       },
       "cost": 0,
       "upgradeCost": null,
+      "canUpgrade": true,
       "img": "assets/cards/victuals.png",
       "stats": {
         "damage": null,
@@ -11113,6 +11323,7 @@
       },
       "cost": 2,
       "upgradeCost": null,
+      "canUpgrade": true,
       "img": "assets/cards/waveofmiasma.png",
       "stats": {
         "damage": null,
@@ -11167,6 +11378,7 @@
       },
       "cost": 1,
       "upgradeCost": null,
+      "canUpgrade": true,
       "img": "assets/cards/adrenalarmor.png",
       "stats": {
         "damage": null,
@@ -11221,6 +11433,7 @@
       },
       "cost": 1,
       "upgradeCost": null,
+      "canUpgrade": true,
       "img": "assets/cards/allout.png",
       "stats": {
         "damage": null,
@@ -11273,6 +11486,7 @@
       },
       "cost": 1,
       "upgradeCost": null,
+      "canUpgrade": true,
       "img": null,
       "stats": {
         "damage": null,
@@ -11327,6 +11541,7 @@
       },
       "cost": 1,
       "upgradeCost": null,
+      "canUpgrade": true,
       "img": "assets/cards/arenapreparation.png",
       "stats": {
         "damage": null,
@@ -11379,6 +11594,7 @@
       },
       "cost": 1,
       "upgradeCost": null,
+      "canUpgrade": true,
       "img": "assets/cards/backstep.png",
       "stats": {
         "damage": null,
@@ -11398,7 +11614,7 @@
         "CalculationExtra": 3
       },
       "upgradeDynamicValues": {
-        "CalculatedBlock": 6,
+        "CalculatedBlock": 9,
         "CalculationExtra": 3
       },
       "energyIcon": "assets/energy-icons/champ.png",
@@ -11433,6 +11649,7 @@
       },
       "cost": 0,
       "upgradeCost": null,
+      "canUpgrade": true,
       "img": "assets/cards/battleplan.png",
       "stats": {
         "damage": null,
@@ -11487,6 +11704,7 @@
       },
       "cost": 0,
       "upgradeCost": null,
+      "canUpgrade": true,
       "img": "assets/cards/berserkersshout.png",
       "stats": {
         "damage": null,
@@ -11539,6 +11757,7 @@
       },
       "cost": 1,
       "upgradeCost": null,
+      "canUpgrade": true,
       "img": "assets/cards/bobandweave.png",
       "stats": {
         "damage": null,
@@ -11593,6 +11812,7 @@
       },
       "cost": 1,
       "upgradeCost": null,
+      "canUpgrade": true,
       "img": "assets/cards/bringiton.png",
       "stats": {
         "damage": null,
@@ -11647,6 +11867,7 @@
       },
       "cost": 0,
       "upgradeCost": null,
+      "canUpgrade": true,
       "img": "assets/cards/chainlash.png",
       "stats": {
         "damage": 3,
@@ -11701,6 +11922,7 @@
       },
       "cost": 2,
       "upgradeCost": null,
+      "canUpgrade": true,
       "img": "assets/cards/challenge.png",
       "stats": {
         "damage": 8,
@@ -11755,6 +11977,7 @@
       },
       "cost": null,
       "upgradeCost": null,
+      "canUpgrade": false,
       "img": null,
       "stats": {
         "damage": null,
@@ -11802,7 +12025,8 @@
         "zh": "第一勇士"
       },
       "cost": 2,
-      "upgradeCost": null,
+      "upgradeCost": 1,
+      "canUpgrade": true,
       "img": "assets/cards/cheapshot.png",
       "stats": {
         "damage": 5,
@@ -11855,6 +12079,7 @@
       },
       "cost": 1,
       "upgradeCost": null,
+      "canUpgrade": true,
       "img": "assets/cards/circumvent.png",
       "stats": {
         "damage": null,
@@ -11909,6 +12134,7 @@
       },
       "cost": 1,
       "upgradeCost": null,
+      "canUpgrade": true,
       "img": "assets/cards/clobberstrike.png",
       "stats": {
         "damage": 6,
@@ -11963,6 +12189,7 @@
       },
       "cost": 1,
       "upgradeCost": null,
+      "canUpgrade": true,
       "img": "assets/cards/crookedstrike.png",
       "stats": {
         "damage": 6,
@@ -12015,6 +12242,7 @@
       },
       "cost": 1,
       "upgradeCost": null,
+      "canUpgrade": true,
       "img": null,
       "stats": {
         "damage": null,
@@ -12067,6 +12295,7 @@
       },
       "cost": 1,
       "upgradeCost": null,
+      "canUpgrade": true,
       "img": "assets/cards/crownarang.png",
       "stats": {
         "damage": 8,
@@ -12121,6 +12350,7 @@
       },
       "cost": 2,
       "upgradeCost": null,
+      "canUpgrade": true,
       "img": "assets/cards/dancingmaster.png",
       "stats": {
         "damage": null,
@@ -12175,6 +12405,7 @@
       },
       "cost": 2,
       "upgradeCost": null,
+      "canUpgrade": true,
       "img": "assets/cards/deathblow.png",
       "stats": {
         "damage": 12,
@@ -12229,6 +12460,7 @@
       },
       "cost": 1,
       "upgradeCost": null,
+      "canUpgrade": true,
       "img": "assets/cards/defendchamp.png",
       "stats": {
         "damage": null,
@@ -12281,6 +12513,7 @@
       },
       "cost": 0,
       "upgradeCost": null,
+      "canUpgrade": true,
       "img": "assets/cards/defensiveshout.png",
       "stats": {
         "damage": null,
@@ -12332,7 +12565,8 @@
         "zh": "第一勇士"
       },
       "cost": 1,
-      "upgradeCost": null,
+      "upgradeCost": 0,
+      "canUpgrade": true,
       "img": null,
       "stats": {
         "damage": null,
@@ -12387,6 +12621,7 @@
       },
       "cost": 5,
       "upgradeCost": null,
+      "canUpgrade": true,
       "img": "assets/cards/devastate.png",
       "stats": {
         "damage": 6,
@@ -12441,6 +12676,7 @@
       },
       "cost": 2,
       "upgradeCost": null,
+      "canUpgrade": true,
       "img": "assets/cards/doublestyle.png",
       "stats": {
         "damage": null,
@@ -12495,6 +12731,7 @@
       },
       "cost": 2,
       "upgradeCost": null,
+      "canUpgrade": true,
       "img": null,
       "stats": {
         "damage": null,
@@ -12547,6 +12784,7 @@
       },
       "cost": 2,
       "upgradeCost": null,
+      "canUpgrade": true,
       "img": "assets/cards/enchantcrown.png",
       "stats": {
         "damage": null,
@@ -12595,6 +12833,7 @@
       },
       "cost": 2,
       "upgradeCost": null,
+      "canUpgrade": true,
       "img": "assets/cards/enchantshield.png",
       "stats": {
         "damage": null,
@@ -12643,6 +12882,7 @@
       },
       "cost": 2,
       "upgradeCost": null,
+      "canUpgrade": true,
       "img": "assets/cards/enchantsword.png",
       "stats": {
         "damage": null,
@@ -12691,6 +12931,7 @@
       },
       "cost": 1,
       "upgradeCost": null,
+      "canUpgrade": true,
       "img": "assets/cards/encircle.png",
       "stats": {
         "damage": 8,
@@ -12745,6 +12986,7 @@
       },
       "cost": 1,
       "upgradeCost": null,
+      "canUpgrade": true,
       "img": "assets/cards/endure.png",
       "stats": {
         "damage": null,
@@ -12799,6 +13041,7 @@
       },
       "cost": 1,
       "upgradeCost": null,
+      "canUpgrade": true,
       "img": "assets/cards/enragedbash.png",
       "stats": {
         "damage": 7,
@@ -12853,6 +13096,7 @@
       },
       "cost": 1,
       "upgradeCost": null,
+      "canUpgrade": true,
       "img": "assets/cards/engarde.png",
       "stats": {
         "damage": null,
@@ -12907,6 +13151,7 @@
       },
       "cost": 2,
       "upgradeCost": null,
+      "canUpgrade": true,
       "img": "assets/cards/execute.png",
       "stats": {
         "damage": 6,
@@ -12961,6 +13206,7 @@
       },
       "cost": 2,
       "upgradeCost": null,
+      "canUpgrade": true,
       "img": "assets/cards/execution.png",
       "stats": {
         "damage": 6,
@@ -13015,6 +13261,7 @@
       },
       "cost": 1,
       "upgradeCost": null,
+      "canUpgrade": true,
       "img": "assets/cards/faceslap.png",
       "stats": {
         "damage": 8,
@@ -13069,6 +13316,7 @@
       },
       "cost": 0,
       "upgradeCost": null,
+      "canUpgrade": true,
       "img": "assets/cards/fancyfootwork.png",
       "stats": {
         "damage": null,
@@ -13121,6 +13369,7 @@
       },
       "cost": 1,
       "upgradeCost": null,
+      "canUpgrade": true,
       "img": "assets/cards/fanofknives.png",
       "stats": {
         "damage": 4,
@@ -13173,6 +13422,7 @@
       },
       "cost": 1,
       "upgradeCost": null,
+      "canUpgrade": true,
       "img": "assets/cards/flashstrike.png",
       "stats": {
         "damage": 6,
@@ -13229,6 +13479,7 @@
       },
       "cost": 0,
       "upgradeCost": null,
+      "canUpgrade": true,
       "img": "assets/cards/flurryofstrikes.png",
       "stats": {
         "damage": 6,
@@ -13281,6 +13532,7 @@
       },
       "cost": 3,
       "upgradeCost": null,
+      "canUpgrade": true,
       "img": "assets/cards/gladiatorform.png",
       "stats": {
         "damage": null,
@@ -13333,6 +13585,7 @@
       },
       "cost": 1,
       "upgradeCost": null,
+      "canUpgrade": true,
       "img": "assets/cards/goodcleanfight.png",
       "stats": {
         "damage": null,
@@ -13387,6 +13640,7 @@
       },
       "cost": 1,
       "upgradeCost": null,
+      "canUpgrade": true,
       "img": null,
       "stats": {
         "damage": null,
@@ -13439,6 +13693,7 @@
       },
       "cost": 1,
       "upgradeCost": null,
+      "canUpgrade": true,
       "img": "assets/cards/gutsandglory.png",
       "stats": {
         "damage": null,
@@ -13491,6 +13746,7 @@
       },
       "cost": 1,
       "upgradeCost": null,
+      "canUpgrade": true,
       "img": "assets/cards/gutpunch.png",
       "stats": {
         "damage": 10,
@@ -13545,6 +13801,7 @@
       },
       "cost": 1,
       "upgradeCost": null,
+      "canUpgrade": true,
       "img": "assets/cards/headbutt.png",
       "stats": {
         "damage": 9,
@@ -13597,6 +13854,7 @@
       },
       "cost": 2,
       "upgradeCost": null,
+      "canUpgrade": true,
       "img": "assets/cards/holdfirm.png",
       "stats": {
         "damage": null,
@@ -13653,6 +13911,7 @@
       },
       "cost": 1,
       "upgradeCost": null,
+      "canUpgrade": true,
       "img": "assets/cards/honeblade.png",
       "stats": {
         "damage": null,
@@ -13705,6 +13964,7 @@
       },
       "cost": 1,
       "upgradeCost": null,
+      "canUpgrade": true,
       "img": null,
       "stats": {
         "damage": null,
@@ -13756,7 +14016,8 @@
         "zh": "第一勇士"
       },
       "cost": 3,
-      "upgradeCost": null,
+      "upgradeCost": 2,
+      "canUpgrade": true,
       "img": "assets/cards/ignorepain.png",
       "stats": {
         "damage": null,
@@ -13809,6 +14070,7 @@
       },
       "cost": 1,
       "upgradeCost": null,
+      "canUpgrade": true,
       "img": "assets/cards/improvising.png",
       "stats": {
         "damage": null,
@@ -13861,6 +14123,7 @@
       },
       "cost": null,
       "upgradeCost": null,
+      "canUpgrade": false,
       "img": null,
       "stats": {
         "damage": null,
@@ -13909,6 +14172,7 @@
       },
       "cost": 1,
       "upgradeCost": null,
+      "canUpgrade": true,
       "img": null,
       "stats": {
         "damage": null,
@@ -13961,6 +14225,7 @@
       },
       "cost": 2,
       "upgradeCost": null,
+      "canUpgrade": true,
       "img": "assets/cards/ironfortress.png",
       "stats": {
         "damage": null,
@@ -14015,6 +14280,7 @@
       },
       "cost": 2,
       "upgradeCost": null,
+      "canUpgrade": true,
       "img": null,
       "stats": {
         "damage": null,
@@ -14073,6 +14339,7 @@
       },
       "cost": 0,
       "upgradeCost": null,
+      "canUpgrade": true,
       "img": "assets/cards/lariat.png",
       "stats": {
         "damage": null,
@@ -14124,7 +14391,8 @@
         "zh": "第一勇士"
       },
       "cost": 1,
-      "upgradeCost": null,
+      "upgradeCost": 0,
+      "canUpgrade": true,
       "img": "assets/cards/laststand.png",
       "stats": {
         "damage": null,
@@ -14177,6 +14445,7 @@
       },
       "cost": 1,
       "upgradeCost": null,
+      "canUpgrade": true,
       "img": "assets/cards/magnificence.png",
       "stats": {
         "damage": null,
@@ -14229,6 +14498,7 @@
       },
       "cost": 2,
       "upgradeCost": null,
+      "canUpgrade": true,
       "img": "assets/cards/masterfulslash.png",
       "stats": {
         "damage": 9,
@@ -14281,6 +14551,7 @@
       },
       "cost": 0,
       "upgradeCost": null,
+      "canUpgrade": true,
       "img": "assets/cards/momentoftruth.png",
       "stats": {
         "damage": null,
@@ -14333,6 +14604,7 @@
       },
       "cost": 2,
       "upgradeCost": null,
+      "canUpgrade": true,
       "img": "assets/cards/murderstrike.png",
       "stats": {
         "damage": 6,
@@ -14391,6 +14663,7 @@
       },
       "cost": 2,
       "upgradeCost": null,
+      "canUpgrade": true,
       "img": "assets/cards/parry.png",
       "stats": {
         "damage": null,
@@ -14447,6 +14720,7 @@
       },
       "cost": 2,
       "upgradeCost": null,
+      "canUpgrade": true,
       "img": "assets/cards/perfecterstrike.png",
       "stats": {
         "damage": null,
@@ -14466,7 +14740,7 @@
         "ExtraDamage": 1
       },
       "upgradeDynamicValues": {
-        "CalculatedDamage": 10,
+        "CalculatedDamage": 9,
         "ExtraDamage": 1
       },
       "energyIcon": "assets/energy-icons/champ.png",
@@ -14501,6 +14775,7 @@
       },
       "cost": 2,
       "upgradeCost": null,
+      "canUpgrade": true,
       "img": "assets/cards/piledriver.png",
       "stats": {
         "damage": 8,
@@ -14557,6 +14832,7 @@
       },
       "cost": 1,
       "upgradeCost": null,
+      "canUpgrade": true,
       "img": "assets/cards/precisethrust.png",
       "stats": {
         "damage": 5,
@@ -14610,7 +14886,8 @@
         "zh": "第一勇士"
       },
       "cost": 1,
-      "upgradeCost": null,
+      "upgradeCost": 0,
+      "canUpgrade": true,
       "img": "assets/cards/preemptivestrike.png",
       "stats": {
         "damage": null,
@@ -14665,6 +14942,7 @@
       },
       "cost": 1,
       "upgradeCost": null,
+      "canUpgrade": true,
       "img": "assets/cards/protectiveaura.png",
       "stats": {
         "damage": null,
@@ -14717,6 +14995,7 @@
       },
       "cost": 1,
       "upgradeCost": null,
+      "canUpgrade": true,
       "img": "assets/cards/rapidstrikes.png",
       "stats": {
         "damage": 4,
@@ -14769,6 +15048,7 @@
       },
       "cost": 1,
       "upgradeCost": null,
+      "canUpgrade": true,
       "img": "assets/cards/recklessstrike.png",
       "stats": {
         "damage": 6,
@@ -14823,6 +15103,7 @@
       },
       "cost": 1,
       "upgradeCost": null,
+      "canUpgrade": true,
       "img": null,
       "stats": {
         "damage": null,
@@ -14877,6 +15158,7 @@
       },
       "cost": 1,
       "upgradeCost": null,
+      "canUpgrade": true,
       "img": "assets/cards/refreshment.png",
       "stats": {
         "damage": null,
@@ -14931,6 +15213,7 @@
       },
       "cost": 0,
       "upgradeCost": null,
+      "canUpgrade": false,
       "img": "assets/cards/ripostestrike.png",
       "stats": {
         "damage": 0,
@@ -14983,6 +15266,7 @@
       },
       "cost": 1,
       "upgradeCost": null,
+      "canUpgrade": true,
       "img": "assets/cards/risingstrike.png",
       "stats": {
         "damage": 8,
@@ -15035,6 +15319,7 @@
       },
       "cost": 2,
       "upgradeCost": null,
+      "canUpgrade": true,
       "img": "assets/cards/ropeadope.png",
       "stats": {
         "damage": null,
@@ -15091,6 +15376,7 @@
       },
       "cost": 1,
       "upgradeCost": null,
+      "canUpgrade": true,
       "img": "assets/cards/setatrap.png",
       "stats": {
         "damage": null,
@@ -15145,6 +15431,7 @@
       },
       "cost": 2,
       "upgradeCost": null,
+      "canUpgrade": true,
       "img": "assets/cards/shatter.png",
       "stats": {
         "damage": 14,
@@ -15200,7 +15487,8 @@
         "zh": "第一勇士"
       },
       "cost": 2,
-      "upgradeCost": null,
+      "upgradeCost": 1,
+      "canUpgrade": true,
       "img": "assets/cards/shieldthrow.png",
       "stats": {
         "damage": null,
@@ -15259,6 +15547,7 @@
       },
       "cost": 1,
       "upgradeCost": null,
+      "canUpgrade": true,
       "img": "assets/cards/showoff.png",
       "stats": {
         "damage": null,
@@ -15311,6 +15600,7 @@
       },
       "cost": 1,
       "upgradeCost": null,
+      "canUpgrade": true,
       "img": "assets/cards/sigilofvictory.png",
       "stats": {
         "damage": null,
@@ -15363,6 +15653,7 @@
       },
       "cost": 1,
       "upgradeCost": null,
+      "canUpgrade": true,
       "img": "assets/cards/skillfuldodge.png",
       "stats": {
         "damage": null,
@@ -15423,6 +15714,7 @@
       },
       "cost": 0,
       "upgradeCost": null,
+      "canUpgrade": true,
       "img": "assets/cards/stancedance.png",
       "stats": {
         "damage": null,
@@ -15471,6 +15763,7 @@
       },
       "cost": null,
       "upgradeCost": null,
+      "canUpgrade": false,
       "img": null,
       "stats": {
         "damage": null,
@@ -15519,6 +15812,7 @@
       },
       "cost": null,
       "upgradeCost": null,
+      "canUpgrade": false,
       "img": null,
       "stats": {
         "damage": null,
@@ -15567,6 +15861,7 @@
       },
       "cost": 0,
       "upgradeCost": null,
+      "canUpgrade": true,
       "img": "assets/cards/steeledge.png",
       "stats": {
         "damage": 6,
@@ -15619,6 +15914,7 @@
       },
       "cost": 1,
       "upgradeCost": null,
+      "canUpgrade": true,
       "img": "assets/cards/strikechamp.png",
       "stats": {
         "damage": 6,
@@ -15671,6 +15967,7 @@
       },
       "cost": 2,
       "upgradeCost": null,
+      "canUpgrade": true,
       "img": "assets/cards/strikeofgenius.png",
       "stats": {
         "damage": null,
@@ -15719,6 +16016,7 @@
       },
       "cost": 1,
       "upgradeCost": null,
+      "canUpgrade": true,
       "img": "assets/cards/swordthrow.png",
       "stats": {
         "damage": 9,
@@ -15775,6 +16073,7 @@
       },
       "cost": 0,
       "upgradeCost": null,
+      "canUpgrade": true,
       "img": "assets/cards/taunt.png",
       "stats": {
         "damage": null,
@@ -15829,6 +16128,7 @@
       },
       "cost": 1,
       "upgradeCost": null,
+      "canUpgrade": true,
       "img": "assets/cards/technicaljig.png",
       "stats": {
         "damage": null,
@@ -15881,6 +16181,7 @@
       },
       "cost": 2,
       "upgradeCost": null,
+      "canUpgrade": true,
       "img": "assets/cards/tornadopunch.png",
       "stats": {
         "damage": 12,
@@ -15941,6 +16242,7 @@
       },
       "cost": 2,
       "upgradeCost": null,
+      "canUpgrade": true,
       "img": "assets/cards/triplestrike.png",
       "stats": {
         "damage": 6,
@@ -15994,7 +16296,8 @@
         "zh": "第一勇士"
       },
       "cost": 1,
-      "upgradeCost": null,
+      "upgradeCost": 0,
+      "canUpgrade": true,
       "img": "assets/cards/ultimatestance.png",
       "stats": {
         "damage": null,
@@ -16047,6 +16350,7 @@
       },
       "cost": 1,
       "upgradeCost": null,
+      "canUpgrade": true,
       "img": "assets/cards/viciousmockery.png",
       "stats": {
         "damage": null,
@@ -16101,6 +16405,7 @@
       },
       "cost": 0,
       "upgradeCost": null,
+      "canUpgrade": true,
       "img": null,
       "stats": {
         "damage": null,
@@ -16155,6 +16460,7 @@
       },
       "cost": 0,
       "upgradeCost": null,
+      "canUpgrade": true,
       "img": "assets/cards/windup.png",
       "stats": {
         "damage": null,
@@ -16203,6 +16509,7 @@
       },
       "cost": 1,
       "upgradeCost": null,
+      "canUpgrade": true,
       "img": null,
       "stats": {
         "damage": null,
@@ -16257,6 +16564,7 @@
       },
       "cost": 1,
       "upgradeCost": null,
+      "canUpgrade": true,
       "img": null,
       "stats": {
         "damage": null,
@@ -16311,6 +16619,7 @@
       },
       "cost": 1,
       "upgradeCost": null,
+      "canUpgrade": true,
       "img": "assets/cards/arrogance.png",
       "stats": {
         "damage": null,
@@ -16365,6 +16674,7 @@
       },
       "cost": 1,
       "upgradeCost": null,
+      "canUpgrade": true,
       "img": "assets/cards/ashenstrike.png",
       "stats": {
         "damage": 10,
@@ -16416,7 +16726,8 @@
         "zh": "收藏家"
       },
       "cost": 1,
-      "upgradeCost": null,
+      "upgradeCost": 0,
+      "canUpgrade": true,
       "img": "assets/cards/bellowcollector.png",
       "stats": {
         "damage": null,
@@ -16473,6 +16784,7 @@
       },
       "cost": 3,
       "upgradeCost": null,
+      "canUpgrade": true,
       "img": "assets/cards/billow.png",
       "stats": {
         "damage": null,
@@ -16525,6 +16837,7 @@
       },
       "cost": 2,
       "upgradeCost": null,
+      "canUpgrade": true,
       "img": "assets/cards/bindingcall.png",
       "stats": {
         "damage": null,
@@ -16581,6 +16894,7 @@
       },
       "cost": 1,
       "upgradeCost": null,
+      "canUpgrade": true,
       "img": "assets/cards/blackbindings.png",
       "stats": {
         "damage": null,
@@ -16635,6 +16949,7 @@
       },
       "cost": 0,
       "upgradeCost": null,
+      "canUpgrade": true,
       "img": "assets/cards/blightning.png",
       "stats": {
         "damage": 6,
@@ -16691,6 +17006,7 @@
       },
       "cost": 0,
       "upgradeCost": null,
+      "canUpgrade": true,
       "img": "assets/cards/blind.png",
       "stats": {
         "damage": null,
@@ -16743,6 +17059,7 @@
       },
       "cost": 2,
       "upgradeCost": null,
+      "canUpgrade": true,
       "img": "assets/cards/bonfire.png",
       "stats": {
         "damage": null,
@@ -16797,6 +17114,7 @@
       },
       "cost": 0,
       "upgradeCost": null,
+      "canUpgrade": true,
       "img": "assets/cards/braindrain.png",
       "stats": {
         "damage": 6,
@@ -16851,6 +17169,7 @@
       },
       "cost": -1,
       "upgradeCost": null,
+      "canUpgrade": true,
       "img": "assets/cards/bramblesparkindling.png",
       "stats": {
         "damage": null,
@@ -16899,6 +17218,7 @@
       },
       "cost": 1,
       "upgradeCost": null,
+      "canUpgrade": true,
       "img": "assets/cards/burningstrike.png",
       "stats": {
         "damage": 14,
@@ -16953,6 +17273,7 @@
       },
       "cost": 2,
       "upgradeCost": null,
+      "canUpgrade": true,
       "img": "assets/cards/canttouchthis.png",
       "stats": {
         "damage": null,
@@ -17007,6 +17328,7 @@
       },
       "cost": 0,
       "upgradeCost": null,
+      "canUpgrade": true,
       "img": "assets/cards/coffinnail.png",
       "stats": {
         "damage": 6,
@@ -17067,6 +17389,7 @@
       },
       "cost": null,
       "upgradeCost": null,
+      "canUpgrade": false,
       "img": null,
       "stats": {
         "damage": null,
@@ -17115,6 +17438,7 @@
       },
       "cost": 1,
       "upgradeCost": null,
+      "canUpgrade": true,
       "img": "assets/cards/condemn.png",
       "stats": {
         "damage": null,
@@ -17169,6 +17493,7 @@
       },
       "cost": 2,
       "upgradeCost": null,
+      "canUpgrade": true,
       "img": "assets/cards/cursedwail.png",
       "stats": {
         "damage": null,
@@ -17223,6 +17548,7 @@
       },
       "cost": 2,
       "upgradeCost": null,
+      "canUpgrade": true,
       "img": "assets/cards/darkstorm.png",
       "stats": {
         "damage": null,
@@ -17275,6 +17601,7 @@
       },
       "cost": -1,
       "upgradeCost": null,
+      "canUpgrade": true,
       "img": "assets/cards/darkwillowkindling.png",
       "stats": {
         "damage": null,
@@ -17327,6 +17654,7 @@
       },
       "cost": 1,
       "upgradeCost": null,
+      "canUpgrade": false,
       "img": "assets/cards/darkapotheosis.png",
       "stats": {
         "damage": null,
@@ -17375,6 +17703,7 @@
       },
       "cost": 4,
       "upgradeCost": null,
+      "canUpgrade": true,
       "img": "assets/cards/darklordform.png",
       "stats": {
         "damage": null,
@@ -17423,6 +17752,7 @@
       },
       "cost": 2,
       "upgradeCost": null,
+      "canUpgrade": true,
       "img": "assets/cards/deathmark.png",
       "stats": {
         "damage": 7,
@@ -17475,6 +17805,7 @@
       },
       "cost": 1,
       "upgradeCost": null,
+      "canUpgrade": true,
       "img": "assets/cards/defendcollector.png",
       "stats": {
         "damage": null,
@@ -17527,6 +17858,7 @@
       },
       "cost": 1,
       "upgradeCost": null,
+      "canUpgrade": true,
       "img": "assets/cards/doubletrouble.png",
       "stats": {
         "damage": null,
@@ -17581,6 +17913,7 @@
       },
       "cost": 0,
       "upgradeCost": null,
+      "canUpgrade": true,
       "img": "assets/cards/dragonstrove.png",
       "stats": {
         "damage": null,
@@ -17639,6 +17972,7 @@
       },
       "cost": 1,
       "upgradeCost": null,
+      "canUpgrade": true,
       "img": "assets/cards/ember.png",
       "stats": {
         "damage": null,
@@ -17691,6 +18025,7 @@
       },
       "cost": 1,
       "upgradeCost": null,
+      "canUpgrade": true,
       "img": "assets/cards/empower.png",
       "stats": {
         "damage": null,
@@ -17745,6 +18080,7 @@
       },
       "cost": 1,
       "upgradeCost": null,
+      "canUpgrade": true,
       "img": "assets/cards/feelmypain.png",
       "stats": {
         "damage": null,
@@ -17797,6 +18133,7 @@
       },
       "cost": 2,
       "upgradeCost": null,
+      "canUpgrade": true,
       "img": "assets/cards/fiendfire.png",
       "stats": {
         "damage": 7,
@@ -17849,6 +18186,7 @@
       },
       "cost": 4,
       "upgradeCost": null,
+      "canUpgrade": true,
       "img": "assets/cards/finalize.png",
       "stats": {
         "damage": null,
@@ -17903,6 +18241,7 @@
       },
       "cost": 4,
       "upgradeCost": null,
+      "canUpgrade": true,
       "img": "assets/cards/fingerofdeath.png",
       "stats": {
         "damage": null,
@@ -17955,6 +18294,7 @@
       },
       "cost": 1,
       "upgradeCost": null,
+      "canUpgrade": true,
       "img": "assets/cards/flamelash.png",
       "stats": {
         "damage": 8,
@@ -18007,6 +18347,7 @@
       },
       "cost": 1,
       "upgradeCost": null,
+      "canUpgrade": true,
       "img": "assets/cards/flash.png",
       "stats": {
         "damage": null,
@@ -18055,6 +18396,7 @@
       },
       "cost": 1,
       "upgradeCost": null,
+      "canUpgrade": true,
       "img": "assets/cards/fleetingembers.png",
       "stats": {
         "damage": null,
@@ -18109,6 +18451,7 @@
       },
       "cost": 1,
       "upgradeCost": null,
+      "canUpgrade": true,
       "img": "assets/cards/forgery.png",
       "stats": {
         "damage": 8,
@@ -18163,6 +18506,7 @@
       },
       "cost": 1,
       "upgradeCost": null,
+      "canUpgrade": true,
       "img": "assets/cards/fuelthefire.png",
       "stats": {
         "damage": null,
@@ -18214,7 +18558,8 @@
         "zh": "收藏家"
       },
       "cost": 2,
-      "upgradeCost": null,
+      "upgradeCost": 1,
+      "canUpgrade": true,
       "img": "assets/cards/goodbye.png",
       "stats": {
         "damage": null,
@@ -18263,6 +18608,7 @@
       },
       "cost": 2,
       "upgradeCost": null,
+      "canUpgrade": true,
       "img": "assets/cards/greaterhurting.png",
       "stats": {
         "damage": 20,
@@ -18315,6 +18661,7 @@
       },
       "cost": 3,
       "upgradeCost": null,
+      "canUpgrade": true,
       "img": "assets/cards/greatesthurting.png",
       "stats": {
         "damage": 30,
@@ -18367,6 +18714,7 @@
       },
       "cost": 1,
       "upgradeCost": null,
+      "canUpgrade": true,
       "img": "assets/cards/greenpyrelocus.png",
       "stats": {
         "damage": null,
@@ -18419,6 +18767,7 @@
       },
       "cost": 0,
       "upgradeCost": null,
+      "canUpgrade": true,
       "img": "assets/cards/heatwave.png",
       "stats": {
         "damage": 5,
@@ -18471,6 +18820,7 @@
       },
       "cost": 1,
       "upgradeCost": null,
+      "canUpgrade": true,
       "img": "assets/cards/hoard.png",
       "stats": {
         "damage": null,
@@ -18523,6 +18873,7 @@
       },
       "cost": 2,
       "upgradeCost": null,
+      "canUpgrade": true,
       "img": "assets/cards/hoardersstrike.png",
       "stats": {
         "damage": 16,
@@ -18575,6 +18926,7 @@
       },
       "cost": 1,
       "upgradeCost": null,
+      "canUpgrade": true,
       "img": "assets/cards/hurting.png",
       "stats": {
         "damage": 10,
@@ -18627,6 +18979,7 @@
       },
       "cost": 1,
       "upgradeCost": null,
+      "canUpgrade": true,
       "img": "assets/cards/illtakethat.png",
       "stats": {
         "damage": 10,
@@ -18685,6 +19038,7 @@
       },
       "cost": 1,
       "upgradeCost": null,
+      "canUpgrade": true,
       "img": "assets/cards/inevitabledemise.png",
       "stats": {
         "damage": 9,
@@ -18739,6 +19093,7 @@
       },
       "cost": 2,
       "upgradeCost": null,
+      "canUpgrade": true,
       "img": "assets/cards/inflictagony.png",
       "stats": {
         "damage": 12,
@@ -18795,6 +19150,7 @@
       },
       "cost": -1,
       "upgradeCost": null,
+      "canUpgrade": true,
       "img": "assets/cards/ironbarkkindling.png",
       "stats": {
         "damage": null,
@@ -18847,6 +19203,7 @@
       },
       "cost": 2,
       "upgradeCost": null,
+      "canUpgrade": true,
       "img": "assets/cards/itmattersnot.png",
       "stats": {
         "damage": null,
@@ -18905,6 +19262,7 @@
       },
       "cost": 3,
       "upgradeCost": null,
+      "canUpgrade": true,
       "img": "assets/cards/jadedjabs.png",
       "stats": {
         "damage": 15,
@@ -18963,6 +19321,7 @@
       },
       "cost": 1,
       "upgradeCost": null,
+      "canUpgrade": true,
       "img": "assets/cards/karma.png",
       "stats": {
         "damage": null,
@@ -19017,6 +19376,7 @@
       },
       "cost": 2,
       "upgradeCost": null,
+      "canUpgrade": true,
       "img": "assets/cards/lanternflare.png",
       "stats": {
         "damage": null,
@@ -19071,6 +19431,7 @@
       },
       "cost": 0,
       "upgradeCost": null,
+      "canUpgrade": true,
       "img": "assets/cards/luckywick.png",
       "stats": {
         "damage": 3,
@@ -19125,6 +19486,7 @@
       },
       "cost": 0,
       "upgradeCost": null,
+      "canUpgrade": true,
       "img": "assets/cards/minicurse.png",
       "stats": {
         "damage": null,
@@ -19179,6 +19541,7 @@
       },
       "cost": 0,
       "upgradeCost": null,
+      "canUpgrade": true,
       "img": "assets/cards/misdirect.png",
       "stats": {
         "damage": null,
@@ -19233,6 +19596,7 @@
       },
       "cost": 0,
       "upgradeCost": null,
+      "canUpgrade": true,
       "img": "assets/cards/mysteryweaving.png",
       "stats": {
         "damage": null,
@@ -19287,6 +19651,7 @@
       },
       "cost": 1,
       "upgradeCost": null,
+      "canUpgrade": true,
       "img": "assets/cards/oakbrimkindling.png",
       "stats": {
         "damage": null,
@@ -19338,7 +19703,8 @@
         "zh": "收藏家"
       },
       "cost": 2,
-      "upgradeCost": null,
+      "upgradeCost": 1,
+      "canUpgrade": true,
       "img": "assets/cards/omen.png",
       "stats": {
         "damage": null,
@@ -19391,6 +19757,7 @@
       },
       "cost": 2,
       "upgradeCost": null,
+      "canUpgrade": true,
       "img": "assets/cards/protectingcall.png",
       "stats": {
         "damage": null,
@@ -19446,7 +19813,8 @@
         "zh": "收藏家"
       },
       "cost": 2,
-      "upgradeCost": null,
+      "upgradeCost": 1,
+      "canUpgrade": true,
       "img": "assets/cards/pyromancy.png",
       "stats": {
         "damage": null,
@@ -19499,6 +19867,7 @@
       },
       "cost": 2,
       "upgradeCost": null,
+      "canUpgrade": true,
       "img": "assets/cards/ragingcall.png",
       "stats": {
         "damage": null,
@@ -19555,6 +19924,7 @@
       },
       "cost": 0,
       "upgradeCost": null,
+      "canUpgrade": true,
       "img": "assets/cards/receivetribute.png",
       "stats": {
         "damage": null,
@@ -19607,6 +19977,7 @@
       },
       "cost": 0,
       "upgradeCost": null,
+      "canUpgrade": true,
       "img": "assets/cards/roast.png",
       "stats": {
         "damage": 4,
@@ -19659,6 +20030,7 @@
       },
       "cost": 1,
       "upgradeCost": null,
+      "canUpgrade": true,
       "img": "assets/cards/rotwoodkindling.png",
       "stats": {
         "damage": null,
@@ -19713,6 +20085,7 @@
       },
       "cost": 0,
       "upgradeCost": null,
+      "canUpgrade": true,
       "img": "assets/cards/scorchingray.png",
       "stats": {
         "damage": 8,
@@ -19765,6 +20138,7 @@
       },
       "cost": 0,
       "upgradeCost": null,
+      "canUpgrade": true,
       "img": "assets/cards/seedofdoubt.png",
       "stats": {
         "damage": null,
@@ -19823,6 +20197,7 @@
       },
       "cost": 2,
       "upgradeCost": null,
+      "canUpgrade": true,
       "img": "assets/cards/seversoul.png",
       "stats": {
         "damage": 16,
@@ -19875,6 +20250,7 @@
       },
       "cost": 1,
       "upgradeCost": null,
+      "canUpgrade": true,
       "img": "assets/cards/shadowdaggers.png",
       "stats": {
         "damage": 3,
@@ -19932,7 +20308,8 @@
         "zh": "收藏家"
       },
       "cost": 3,
-      "upgradeCost": null,
+      "upgradeCost": 2,
+      "canUpgrade": true,
       "img": "assets/cards/shootingstar.png",
       "stats": {
         "damage": null,
@@ -19985,6 +20362,7 @@
       },
       "cost": 1,
       "upgradeCost": null,
+      "canUpgrade": true,
       "img": "assets/cards/sombershield.png",
       "stats": {
         "damage": null,
@@ -20039,6 +20417,7 @@
       },
       "cost": 1,
       "upgradeCost": null,
+      "canUpgrade": true,
       "img": "assets/cards/soulforge.png",
       "stats": {
         "damage": null,
@@ -20091,6 +20470,7 @@
       },
       "cost": 2,
       "upgradeCost": null,
+      "canUpgrade": true,
       "img": "assets/cards/spiritleech.png",
       "stats": {
         "damage": 13,
@@ -20145,6 +20525,7 @@
       },
       "cost": 0,
       "upgradeCost": null,
+      "canUpgrade": true,
       "img": "assets/cards/stashaway.png",
       "stats": {
         "damage": null,
@@ -20197,6 +20578,7 @@
       },
       "cost": 1,
       "upgradeCost": null,
+      "canUpgrade": true,
       "img": "assets/cards/strikecollector.png",
       "stats": {
         "damage": 6,
@@ -20249,6 +20631,7 @@
       },
       "cost": 1,
       "upgradeCost": null,
+      "canUpgrade": true,
       "img": "assets/cards/suckerpunch.png",
       "stats": {
         "damage": 7,
@@ -20303,6 +20686,7 @@
       },
       "cost": 1,
       "upgradeCost": null,
+      "canUpgrade": true,
       "img": "assets/cards/suffering.png",
       "stats": {
         "damage": null,
@@ -20355,6 +20739,7 @@
       },
       "cost": -1,
       "upgradeCost": null,
+      "canUpgrade": true,
       "img": "assets/cards/sunbloomkindling.png",
       "stats": {
         "damage": null,
@@ -20409,6 +20794,7 @@
       },
       "cost": 1,
       "upgradeCost": null,
+      "canUpgrade": true,
       "img": "assets/cards/thornwhip.png",
       "stats": {
         "damage": 6,
@@ -20463,6 +20849,7 @@
       },
       "cost": 2,
       "upgradeCost": null,
+      "canUpgrade": true,
       "img": "assets/cards/torchbearer.png",
       "stats": {
         "damage": null,
@@ -20517,6 +20904,7 @@
       },
       "cost": 0,
       "upgradeCost": null,
+      "canUpgrade": true,
       "img": "assets/cards/trip.png",
       "stats": {
         "damage": null,
@@ -20569,6 +20957,7 @@
       },
       "cost": 1,
       "upgradeCost": null,
+      "canUpgrade": true,
       "img": "assets/cards/voidarmor.png",
       "stats": {
         "damage": null,
@@ -20623,6 +21012,7 @@
       },
       "cost": 2,
       "upgradeCost": null,
+      "canUpgrade": true,
       "img": "assets/cards/whirlingflame.png",
       "stats": {
         "damage": 15,
@@ -20675,6 +21065,7 @@
       },
       "cost": 2,
       "upgradeCost": null,
+      "canUpgrade": true,
       "img": "assets/cards/whomp.png",
       "stats": {
         "damage": 12,
@@ -20731,6 +21122,7 @@
       },
       "cost": 1,
       "upgradeCost": null,
+      "canUpgrade": true,
       "img": "assets/cards/wildfire.png",
       "stats": {
         "damage": null,
@@ -20785,6 +21177,7 @@
       },
       "cost": 2,
       "upgradeCost": null,
+      "canUpgrade": true,
       "img": "assets/cards/youaremine.png",
       "stats": {
         "damage": null,
@@ -20841,6 +21234,7 @@
       },
       "cost": 1,
       "upgradeCost": null,
+      "canUpgrade": true,
       "img": "assets/cards/aggressivedefense.png",
       "stats": {
         "damage": 8,
@@ -20895,6 +21289,7 @@
       },
       "cost": 2,
       "upgradeCost": null,
+      "canUpgrade": true,
       "img": "assets/cards/armstheft.png",
       "stats": {
         "damage": null,
@@ -20949,6 +21344,7 @@
       },
       "cost": 0,
       "upgradeCost": null,
+      "canUpgrade": true,
       "img": "assets/cards/astound.png",
       "stats": {
         "damage": null,
@@ -21003,6 +21399,7 @@
       },
       "cost": 0,
       "upgradeCost": null,
+      "canUpgrade": true,
       "img": "assets/cards/bang.png",
       "stats": {
         "damage": 0,
@@ -21057,6 +21454,7 @@
       },
       "cost": 0,
       "upgradeCost": null,
+      "canUpgrade": false,
       "img": "assets/cards/bellow.png",
       "stats": {
         "damage": null,
@@ -21113,6 +21511,7 @@
       },
       "cost": 2,
       "upgradeCost": null,
+      "canUpgrade": true,
       "img": "assets/cards/brokenshin.png",
       "stats": {
         "damage": null,
@@ -21174,7 +21573,8 @@
         "zh": "The Gremlins"
       },
       "cost": 1,
-      "upgradeCost": null,
+      "upgradeCost": 0,
+      "canUpgrade": true,
       "img": "assets/cards/bubblebarrier.png",
       "stats": {
         "damage": null,
@@ -21227,6 +21627,7 @@
       },
       "cost": 1,
       "upgradeCost": null,
+      "canUpgrade": true,
       "img": "assets/cards/bulkup.png",
       "stats": {
         "damage": null,
@@ -21279,6 +21680,7 @@
       },
       "cost": 2,
       "upgradeCost": null,
+      "canUpgrade": true,
       "img": "assets/cards/burlyblow.png",
       "stats": {
         "damage": 4,
@@ -21337,6 +21739,7 @@
       },
       "cost": 1,
       "upgradeCost": null,
+      "canUpgrade": true,
       "img": "assets/cards/catscratch.png",
       "stats": {
         "damage": 2,
@@ -21391,6 +21794,7 @@
       },
       "cost": 1,
       "upgradeCost": null,
+      "canUpgrade": true,
       "img": "assets/cards/changeo.png",
       "stats": {
         "damage": null,
@@ -21445,6 +21849,7 @@
       },
       "cost": 2,
       "upgradeCost": null,
+      "canUpgrade": true,
       "img": "assets/cards/congaline.png",
       "stats": {
         "damage": null,
@@ -21497,6 +21902,7 @@
       },
       "cost": 1,
       "upgradeCost": null,
+      "canUpgrade": true,
       "img": "assets/cards/counterstrike.png",
       "stats": {
         "damage": 8,
@@ -21551,6 +21957,7 @@
       },
       "cost": 1,
       "upgradeCost": null,
+      "canUpgrade": true,
       "img": "assets/cards/daggerdance.png",
       "stats": {
         "damage": 3,
@@ -21605,6 +22012,7 @@
       },
       "cost": 1,
       "upgradeCost": null,
+      "canUpgrade": true,
       "img": "assets/cards/dazzle.png",
       "stats": {
         "damage": 9,
@@ -21659,6 +22067,7 @@
       },
       "cost": 1,
       "upgradeCost": null,
+      "canUpgrade": true,
       "img": "assets/cards/defendgremlins.png",
       "stats": {
         "damage": null,
@@ -21711,6 +22120,7 @@
       },
       "cost": 2,
       "upgradeCost": null,
+      "canUpgrade": true,
       "img": "assets/cards/duplicate.png",
       "stats": {
         "damage": null,
@@ -21762,7 +22172,8 @@
         "zh": "The Gremlins"
       },
       "cost": 1,
-      "upgradeCost": null,
+      "upgradeCost": 0,
+      "canUpgrade": true,
       "img": "assets/cards/ediblearmor.png",
       "stats": {
         "damage": null,
@@ -21811,6 +22222,7 @@
       },
       "cost": 1,
       "upgradeCost": null,
+      "canUpgrade": true,
       "img": "assets/cards/encore.png",
       "stats": {
         "damage": null,
@@ -21864,7 +22276,8 @@
         "zh": "The Gremlins"
       },
       "cost": 2,
-      "upgradeCost": null,
+      "upgradeCost": 1,
+      "canUpgrade": true,
       "img": "assets/cards/enthusiasm.png",
       "stats": {
         "damage": null,
@@ -21917,6 +22330,7 @@
       },
       "cost": 1,
       "upgradeCost": null,
+      "canUpgrade": true,
       "img": "assets/cards/erupt.png",
       "stats": {
         "damage": null,
@@ -21968,7 +22382,8 @@
         "zh": "The Gremlins"
       },
       "cost": 2,
-      "upgradeCost": null,
+      "upgradeCost": 1,
+      "canUpgrade": true,
       "img": "assets/cards/exacerbate.png",
       "stats": {
         "damage": 8,
@@ -22022,7 +22437,8 @@
         "zh": "The Gremlins"
       },
       "cost": 1,
-      "upgradeCost": null,
+      "upgradeCost": 0,
+      "canUpgrade": true,
       "img": "assets/cards/fairydust.png",
       "stats": {
         "damage": null,
@@ -22075,6 +22491,7 @@
       },
       "cost": 1,
       "upgradeCost": null,
+      "canUpgrade": true,
       "img": "assets/cards/feeltheaudience.png",
       "stats": {
         "damage": 8,
@@ -22129,6 +22546,7 @@
       },
       "cost": 0,
       "upgradeCost": null,
+      "canUpgrade": true,
       "img": "assets/cards/flex.png",
       "stats": {
         "damage": null,
@@ -22181,6 +22599,7 @@
       },
       "cost": 1,
       "upgradeCost": null,
+      "canUpgrade": true,
       "img": "assets/cards/flipout.png",
       "stats": {
         "damage": 11,
@@ -22234,7 +22653,8 @@
         "zh": "The Gremlins"
       },
       "cost": 1,
-      "upgradeCost": null,
+      "upgradeCost": 0,
+      "canUpgrade": true,
       "img": "assets/cards/flurry.png",
       "stats": {
         "damage": 3,
@@ -22293,6 +22713,7 @@
       },
       "cost": 1,
       "upgradeCost": null,
+      "canUpgrade": true,
       "img": "assets/cards/fortheleader.png",
       "stats": {
         "damage": 8,
@@ -22347,6 +22768,7 @@
       },
       "cost": 3,
       "upgradeCost": null,
+      "canUpgrade": true,
       "img": "assets/cards/fury.png",
       "stats": {
         "damage": 5,
@@ -22405,6 +22827,7 @@
       },
       "cost": 1,
       "upgradeCost": null,
+      "canUpgrade": true,
       "img": "assets/cards/glimmer.png",
       "stats": {
         "damage": 2,
@@ -22459,6 +22882,7 @@
       },
       "cost": 1,
       "upgradeCost": null,
+      "canUpgrade": true,
       "img": "assets/cards/glitterguard.png",
       "stats": {
         "damage": null,
@@ -22485,7 +22909,7 @@
     },
     {
       "id": "GREMLINS-GREMLIN_ARMS",
-      "codeName": "",
+      "codeName": "GremlinArms",
       "name": {
         "en": "Gremlin Arms",
         "zh": "地精武器"
@@ -22503,15 +22927,16 @@
         "zh": []
       },
       "type": "SKILL",
-      "rarity": "SPECIAL",
-      "color": "DOWNFALL",
+      "rarity": "COMMON",
+      "color": "GREMLIN",
       "colorName": {
-        "en": "Downfall",
-        "zh": "崩坠"
+        "en": "The Gremlins",
+        "zh": "The Gremlins"
       },
-      "cost": null,
+      "cost": 0,
       "upgradeCost": null,
-      "img": null,
+      "canUpgrade": true,
+      "img": "assets/cards/gremlinarms.png",
       "stats": {
         "damage": null,
         "block": null,
@@ -22527,7 +22952,7 @@
       },
       "dynamicValues": {},
       "upgradeDynamicValues": {},
-      "energyIcon": null,
+      "energyIcon": "assets/energy-icons/gremlin.png",
       "deprecated": false,
       "notInPool": false
     },
@@ -22559,6 +22984,7 @@
       },
       "cost": 1,
       "upgradeCost": null,
+      "canUpgrade": true,
       "img": "assets/cards/gremlindance.png",
       "stats": {
         "damage": 6,
@@ -22615,6 +23041,7 @@
       },
       "cost": 1,
       "upgradeCost": null,
+      "canUpgrade": true,
       "img": "assets/cards/gremlinoffensive.png",
       "stats": {
         "damage": 7,
@@ -22666,7 +23093,8 @@
         "zh": "The Gremlins"
       },
       "cost": 1,
-      "upgradeCost": null,
+      "upgradeCost": 0,
+      "canUpgrade": true,
       "img": "assets/cards/gremlintoss.png",
       "stats": {
         "damage": null,
@@ -22722,7 +23150,8 @@
         "zh": "The Gremlins"
       },
       "cost": 2,
-      "upgradeCost": null,
+      "upgradeCost": 1,
+      "canUpgrade": true,
       "img": "assets/cards/heckle.png",
       "stats": {
         "damage": null,
@@ -22775,6 +23204,7 @@
       },
       "cost": 1,
       "upgradeCost": null,
+      "canUpgrade": true,
       "img": "assets/cards/infiniteblocks.png",
       "stats": {
         "damage": null,
@@ -22827,6 +23257,7 @@
       },
       "cost": 1,
       "upgradeCost": null,
+      "canUpgrade": true,
       "img": "assets/cards/irksomeblow.png",
       "stats": {
         "damage": 5,
@@ -22885,6 +23316,7 @@
       },
       "cost": 1,
       "upgradeCost": null,
+      "canUpgrade": true,
       "img": "assets/cards/irritability.png",
       "stats": {
         "damage": null,
@@ -22939,6 +23371,7 @@
       },
       "cost": 1,
       "upgradeCost": null,
+      "canUpgrade": true,
       "img": "assets/cards/jeer.png",
       "stats": {
         "damage": 7,
@@ -22993,6 +23426,7 @@
       },
       "cost": 2,
       "upgradeCost": null,
+      "canUpgrade": true,
       "img": "assets/cards/kablamo.png",
       "stats": {
         "damage": 4,
@@ -23047,6 +23481,7 @@
       },
       "cost": 1,
       "upgradeCost": null,
+      "canUpgrade": true,
       "img": "assets/cards/makeshiftarmor.png",
       "stats": {
         "damage": null,
@@ -23101,6 +23536,7 @@
       },
       "cost": 1,
       "upgradeCost": null,
+      "canUpgrade": true,
       "img": "assets/cards/mockery.png",
       "stats": {
         "damage": null,
@@ -23155,6 +23591,7 @@
       },
       "cost": 1,
       "upgradeCost": null,
+      "canUpgrade": true,
       "img": "assets/cards/necromancy.png",
       "stats": {
         "damage": null,
@@ -23207,6 +23644,7 @@
       },
       "cost": 4,
       "upgradeCost": null,
+      "canUpgrade": true,
       "img": "assets/cards/nob.png",
       "stats": {
         "damage": null,
@@ -23261,6 +23699,7 @@
       },
       "cost": 1,
       "upgradeCost": null,
+      "canUpgrade": true,
       "img": "assets/cards/partystick.png",
       "stats": {
         "damage": null,
@@ -23313,6 +23752,7 @@
       },
       "cost": 0,
       "upgradeCost": null,
+      "canUpgrade": true,
       "img": "assets/cards/patsy.png",
       "stats": {
         "damage": null,
@@ -23365,6 +23805,7 @@
       },
       "cost": 2,
       "upgradeCost": null,
+      "canUpgrade": true,
       "img": "assets/cards/pickpocket.png",
       "stats": {
         "damage": 10,
@@ -23419,6 +23860,7 @@
       },
       "cost": 0,
       "upgradeCost": null,
+      "canUpgrade": true,
       "img": "assets/cards/pinprick.png",
       "stats": {
         "damage": 1,
@@ -23473,6 +23915,7 @@
       },
       "cost": 1,
       "upgradeCost": null,
+      "canUpgrade": true,
       "img": "assets/cards/pinneedle.png",
       "stats": {
         "damage": 8,
@@ -23527,6 +23970,7 @@
       },
       "cost": 1,
       "upgradeCost": null,
+      "canUpgrade": true,
       "img": "assets/cards/polish.png",
       "stats": {
         "damage": null,
@@ -23581,6 +24025,7 @@
       },
       "cost": 1,
       "upgradeCost": null,
+      "canUpgrade": true,
       "img": "assets/cards/poursalt.png",
       "stats": {
         "damage": 4,
@@ -23635,6 +24080,7 @@
       },
       "cost": 1,
       "upgradeCost": null,
+      "canUpgrade": true,
       "img": "assets/cards/presto.png",
       "stats": {
         "damage": 9,
@@ -23689,6 +24135,7 @@
       },
       "cost": 1,
       "upgradeCost": null,
+      "canUpgrade": true,
       "img": "assets/cards/pretaliation.png",
       "stats": {
         "damage": 6,
@@ -23745,6 +24192,7 @@
       },
       "cost": 2,
       "upgradeCost": null,
+      "canUpgrade": true,
       "img": "assets/cards/propertools.png",
       "stats": {
         "damage": 5,
@@ -23799,6 +24247,7 @@
       },
       "cost": 2,
       "upgradeCost": null,
+      "canUpgrade": true,
       "img": "assets/cards/ragebreak.png",
       "stats": {
         "damage": null,
@@ -23851,6 +24300,7 @@
       },
       "cost": 1,
       "upgradeCost": null,
+      "canUpgrade": true,
       "img": "assets/cards/raid.png",
       "stats": {
         "damage": null,
@@ -23902,7 +24352,8 @@
         "zh": "The Gremlins"
       },
       "cost": 3,
-      "upgradeCost": null,
+      "upgradeCost": 2,
+      "canUpgrade": true,
       "img": "assets/cards/revel.png",
       "stats": {
         "damage": null,
@@ -23954,7 +24405,8 @@
         "zh": "The Gremlins"
       },
       "cost": 1,
-      "upgradeCost": null,
+      "upgradeCost": 0,
+      "canUpgrade": true,
       "img": "assets/cards/rhythm.png",
       "stats": {
         "damage": null,
@@ -24003,6 +24455,7 @@
       },
       "cost": 1,
       "upgradeCost": null,
+      "canUpgrade": true,
       "img": "assets/cards/rush.png",
       "stats": {
         "damage": 14,
@@ -24054,7 +24507,8 @@
         "zh": "The Gremlins"
       },
       "cost": 2,
-      "upgradeCost": null,
+      "upgradeCost": 1,
+      "canUpgrade": true,
       "img": "assets/cards/scatter.png",
       "stats": {
         "damage": null,
@@ -24107,6 +24561,7 @@
       },
       "cost": 2,
       "upgradeCost": null,
+      "canUpgrade": true,
       "img": "assets/cards/secondvolley.png",
       "stats": {
         "damage": 4,
@@ -24164,7 +24619,8 @@
         "zh": "The Gremlins"
       },
       "cost": 3,
-      "upgradeCost": null,
+      "upgradeCost": 2,
+      "canUpgrade": true,
       "img": "assets/cards/shadowshiv.png",
       "stats": {
         "damage": null,
@@ -24217,6 +24673,7 @@
       },
       "cost": -1,
       "upgradeCost": null,
+      "canUpgrade": true,
       "img": "assets/cards/shankstone.png",
       "stats": {
         "damage": null,
@@ -24269,6 +24726,7 @@
       },
       "cost": 2,
       "upgradeCost": null,
+      "canUpgrade": true,
       "img": "assets/cards/sharpenblades.png",
       "stats": {
         "damage": null,
@@ -24321,6 +24779,7 @@
       },
       "cost": 1,
       "upgradeCost": null,
+      "canUpgrade": true,
       "img": "assets/cards/showofhands.png",
       "stats": {
         "damage": null,
@@ -24377,6 +24836,7 @@
       },
       "cost": 0,
       "upgradeCost": null,
+      "canUpgrade": true,
       "img": "assets/cards/showstopper.png",
       "stats": {
         "damage": 3,
@@ -24431,6 +24891,7 @@
       },
       "cost": 1,
       "upgradeCost": null,
+      "canUpgrade": true,
       "img": "assets/cards/skullbash.png",
       "stats": {
         "damage": 6,
@@ -24485,6 +24946,7 @@
       },
       "cost": 1,
       "upgradeCost": null,
+      "canUpgrade": true,
       "img": "assets/cards/sleeveofaces.png",
       "stats": {
         "damage": 4,
@@ -24537,6 +24999,7 @@
       },
       "cost": 1,
       "upgradeCost": null,
+      "canUpgrade": true,
       "img": "assets/cards/strikegremlins.png",
       "stats": {
         "damage": 6,
@@ -24589,6 +25052,7 @@
       },
       "cost": 1,
       "upgradeCost": null,
+      "canUpgrade": true,
       "img": "assets/cards/stupend.png",
       "stats": {
         "damage": 7,
@@ -24645,6 +25109,7 @@
       },
       "cost": 0,
       "upgradeCost": null,
+      "canUpgrade": true,
       "img": "assets/cards/tadah.png",
       "stats": {
         "damage": null,
@@ -24693,6 +25158,7 @@
       },
       "cost": 0,
       "upgradeCost": null,
+      "canUpgrade": true,
       "img": "assets/cards/tagteam.png",
       "stats": {
         "damage": null,
@@ -24741,6 +25207,7 @@
       },
       "cost": 1,
       "upgradeCost": null,
+      "canUpgrade": true,
       "img": "assets/cards/targetwounds.png",
       "stats": {
         "damage": null,
@@ -24793,6 +25260,7 @@
       },
       "cost": 1,
       "upgradeCost": null,
+      "canUpgrade": true,
       "img": "assets/cards/toestub.png",
       "stats": {
         "damage": 5,
@@ -24847,6 +25315,7 @@
       },
       "cost": 1,
       "upgradeCost": null,
+      "canUpgrade": true,
       "img": "assets/cards/tricksy.png",
       "stats": {
         "damage": null,
@@ -24899,6 +25368,7 @@
       },
       "cost": 1,
       "upgradeCost": null,
+      "canUpgrade": true,
       "img": "assets/cards/twisttheknife.png",
       "stats": {
         "damage": 5,
@@ -24950,7 +25420,8 @@
         "zh": "The Gremlins"
       },
       "cost": 3,
-      "upgradeCost": null,
+      "upgradeCost": 2,
+      "canUpgrade": true,
       "img": "assets/cards/unforgiving.png",
       "stats": {
         "damage": null,
@@ -25003,6 +25474,7 @@
       },
       "cost": 0,
       "upgradeCost": null,
+      "canUpgrade": true,
       "img": "assets/cards/ward.png",
       "stats": {
         "damage": null,
@@ -25055,6 +25527,7 @@
       },
       "cost": 1,
       "upgradeCost": null,
+      "canUpgrade": true,
       "img": "assets/cards/whiz.png",
       "stats": {
         "damage": null,
@@ -25107,6 +25580,7 @@
       },
       "cost": 1,
       "upgradeCost": null,
+      "canUpgrade": true,
       "img": "assets/cards/wizardry.png",
       "stats": {
         "damage": null,
@@ -25158,7 +25632,8 @@
         "zh": "守护者"
       },
       "cost": 3,
-      "upgradeCost": null,
+      "upgradeCost": 2,
+      "canUpgrade": true,
       "img": "assets/cards/ancientconstruct.png",
       "stats": {
         "damage": null,
@@ -25213,6 +25688,7 @@
       },
       "cost": 1,
       "upgradeCost": null,
+      "canUpgrade": true,
       "img": "assets/cards/ancientpower.png",
       "stats": {
         "damage": null,
@@ -25267,6 +25743,7 @@
       },
       "cost": 2,
       "upgradeCost": null,
+      "canUpgrade": true,
       "img": null,
       "stats": {
         "damage": null,
@@ -25319,6 +25796,7 @@
       },
       "cost": 1,
       "upgradeCost": null,
+      "canUpgrade": true,
       "img": "assets/cards/baubleburst.png",
       "stats": {
         "damage": 7,
@@ -25373,6 +25851,7 @@
       },
       "cost": 2,
       "upgradeCost": null,
+      "canUpgrade": true,
       "img": "assets/cards/bodycrash.png",
       "stats": {
         "damage": null,
@@ -25430,7 +25909,8 @@
         "zh": "守护者"
       },
       "cost": 2,
-      "upgradeCost": null,
+      "upgradeCost": 1,
+      "canUpgrade": true,
       "img": "assets/cards/brilliantscales.png",
       "stats": {
         "damage": null,
@@ -25482,7 +25962,8 @@
         "zh": "守护者"
       },
       "cost": 3,
-      "upgradeCost": null,
+      "upgradeCost": 2,
+      "canUpgrade": true,
       "img": "assets/cards/bronzebrambles.png",
       "stats": {
         "damage": null,
@@ -25535,6 +26016,7 @@
       },
       "cost": 1,
       "upgradeCost": null,
+      "canUpgrade": true,
       "img": "assets/cards/chargeup.png",
       "stats": {
         "damage": null,
@@ -25589,6 +26071,7 @@
       },
       "cost": 1,
       "upgradeCost": null,
+      "canUpgrade": true,
       "img": "assets/cards/clone.png",
       "stats": {
         "damage": null,
@@ -25641,6 +26124,7 @@
       },
       "cost": 0,
       "upgradeCost": null,
+      "canUpgrade": true,
       "img": "assets/cards/compilepackage.png",
       "stats": {
         "damage": null,
@@ -25693,6 +26177,7 @@
       },
       "cost": 3,
       "upgradeCost": null,
+      "canUpgrade": true,
       "img": "assets/cards/constructionform.png",
       "stats": {
         "damage": null,
@@ -25747,6 +26232,7 @@
       },
       "cost": 2,
       "upgradeCost": null,
+      "canUpgrade": true,
       "img": "assets/cards/crystalray.png",
       "stats": {
         "damage": null,
@@ -25801,6 +26287,7 @@
       },
       "cost": 0,
       "upgradeCost": null,
+      "canUpgrade": true,
       "img": "assets/cards/crystalshiv.png",
       "stats": {
         "damage": 3,
@@ -25853,6 +26340,7 @@
       },
       "cost": 0,
       "upgradeCost": null,
+      "canUpgrade": true,
       "img": "assets/cards/crystalward.png",
       "stats": {
         "damage": null,
@@ -25905,6 +26393,7 @@
       },
       "cost": 1,
       "upgradeCost": null,
+      "canUpgrade": true,
       "img": "assets/cards/curlup.png",
       "stats": {
         "damage": null,
@@ -25957,6 +26446,7 @@
       },
       "cost": 1,
       "upgradeCost": null,
+      "canUpgrade": true,
       "img": "assets/cards/defendguardian.png",
       "stats": {
         "damage": null,
@@ -26009,6 +26499,7 @@
       },
       "cost": 2,
       "upgradeCost": null,
+      "canUpgrade": true,
       "img": "assets/cards/delayfield.png",
       "stats": {
         "damage": null,
@@ -26063,6 +26554,7 @@
       },
       "cost": 0,
       "upgradeCost": null,
+      "canUpgrade": true,
       "img": "assets/cards/emergency.png",
       "stats": {
         "damage": null,
@@ -26115,6 +26607,7 @@
       },
       "cost": 1,
       "upgradeCost": null,
+      "canUpgrade": true,
       "img": "assets/cards/evasiveprotocol.png",
       "stats": {
         "damage": null,
@@ -26169,6 +26662,7 @@
       },
       "cost": 0,
       "upgradeCost": null,
+      "canUpgrade": true,
       "img": "assets/cards/exploitgems.png",
       "stats": {
         "damage": null,
@@ -26221,6 +26715,7 @@
       },
       "cost": 2,
       "upgradeCost": null,
+      "canUpgrade": true,
       "img": "assets/cards/fiercebash.png",
       "stats": {
         "damage": 18,
@@ -26279,6 +26774,7 @@
       },
       "cost": 1,
       "upgradeCost": null,
+      "canUpgrade": true,
       "img": "assets/cards/floatingorbs.png",
       "stats": {
         "damage": null,
@@ -26331,6 +26827,7 @@
       },
       "cost": 1,
       "upgradeCost": null,
+      "canUpgrade": true,
       "img": "assets/cards/futureplans.png",
       "stats": {
         "damage": null,
@@ -26383,6 +26880,7 @@
       },
       "cost": 1,
       "upgradeCost": null,
+      "canUpgrade": true,
       "img": "assets/cards/gearup.png",
       "stats": {
         "damage": null,
@@ -26435,6 +26933,7 @@
       },
       "cost": 3,
       "upgradeCost": null,
+      "canUpgrade": true,
       "img": "assets/cards/gemcannon.png",
       "stats": {
         "damage": 24,
@@ -26487,6 +26986,7 @@
       },
       "cost": 0,
       "upgradeCost": null,
+      "canUpgrade": true,
       "img": "assets/cards/gemfinder.png",
       "stats": {
         "damage": null,
@@ -26539,6 +27039,7 @@
       },
       "cost": 3,
       "upgradeCost": null,
+      "canUpgrade": true,
       "img": "assets/cards/gigabeam.png",
       "stats": {
         "damage": 36,
@@ -26599,6 +27100,7 @@
       },
       "cost": 2,
       "upgradeCost": null,
+      "canUpgrade": true,
       "img": "assets/cards/guardianwhirl.png",
       "stats": {
         "damage": 4,
@@ -26657,6 +27159,7 @@
       },
       "cost": 1,
       "upgradeCost": null,
+      "canUpgrade": true,
       "img": "assets/cards/harden.png",
       "stats": {
         "damage": null,
@@ -26708,7 +27211,8 @@
         "zh": "守护者"
       },
       "cost": 3,
-      "upgradeCost": null,
+      "upgradeCost": 2,
+      "canUpgrade": true,
       "img": "assets/cards/highfrequency.png",
       "stats": {
         "damage": null,
@@ -26757,6 +27261,7 @@
       },
       "cost": 1,
       "upgradeCost": null,
+      "canUpgrade": true,
       "img": "assets/cards/incinerate.png",
       "stats": {
         "damage": 8,
@@ -26811,6 +27316,7 @@
       },
       "cost": 1,
       "upgradeCost": null,
+      "canUpgrade": true,
       "img": "assets/cards/laserturret.png",
       "stats": {
         "damage": 5,
@@ -26862,7 +27368,8 @@
         "zh": "守护者"
       },
       "cost": 2,
-      "upgradeCost": null,
+      "upgradeCost": 1,
+      "canUpgrade": true,
       "img": "assets/cards/maximumoverdrive.png",
       "stats": {
         "damage": null,
@@ -26915,6 +27422,7 @@
       },
       "cost": 1,
       "upgradeCost": null,
+      "canUpgrade": true,
       "img": "assets/cards/multibeam.png",
       "stats": {
         "damage": 3,
@@ -26973,6 +27481,7 @@
       },
       "cost": 1,
       "upgradeCost": null,
+      "canUpgrade": true,
       "img": null,
       "stats": {
         "damage": null,
@@ -27025,6 +27534,7 @@
       },
       "cost": 2,
       "upgradeCost": null,
+      "canUpgrade": true,
       "img": "assets/cards/orbwalk.png",
       "stats": {
         "damage": null,
@@ -27077,6 +27587,7 @@
       },
       "cost": 2,
       "upgradeCost": null,
+      "canUpgrade": true,
       "img": "assets/cards/orbsupport.png",
       "stats": {
         "damage": 9,
@@ -27129,6 +27640,7 @@
       },
       "cost": 3,
       "upgradeCost": null,
+      "canUpgrade": true,
       "img": null,
       "stats": {
         "damage": null,
@@ -27183,6 +27695,7 @@
       },
       "cost": 1,
       "upgradeCost": null,
+      "canUpgrade": true,
       "img": "assets/cards/overload.png",
       "stats": {
         "damage": null,
@@ -27237,6 +27750,7 @@
       },
       "cost": null,
       "upgradeCost": null,
+      "canUpgrade": false,
       "img": null,
       "stats": {
         "damage": null,
@@ -27285,6 +27799,7 @@
       },
       "cost": null,
       "upgradeCost": null,
+      "canUpgrade": false,
       "img": null,
       "stats": {
         "damage": null,
@@ -27333,6 +27848,7 @@
       },
       "cost": null,
       "upgradeCost": null,
+      "canUpgrade": false,
       "img": null,
       "stats": {
         "damage": null,
@@ -27381,6 +27897,7 @@
       },
       "cost": null,
       "upgradeCost": null,
+      "canUpgrade": false,
       "img": null,
       "stats": {
         "damage": null,
@@ -27429,6 +27946,7 @@
       },
       "cost": null,
       "upgradeCost": null,
+      "canUpgrade": false,
       "img": null,
       "stats": {
         "damage": null,
@@ -27477,6 +27995,7 @@
       },
       "cost": null,
       "upgradeCost": null,
+      "canUpgrade": false,
       "img": null,
       "stats": {
         "damage": null,
@@ -27525,6 +28044,7 @@
       },
       "cost": null,
       "upgradeCost": null,
+      "canUpgrade": false,
       "img": null,
       "stats": {
         "damage": null,
@@ -27573,6 +28093,7 @@
       },
       "cost": 1,
       "upgradeCost": null,
+      "canUpgrade": true,
       "img": "assets/cards/piercinghide.png",
       "stats": {
         "damage": null,
@@ -27629,6 +28150,7 @@
       },
       "cost": 1,
       "upgradeCost": null,
+      "canUpgrade": true,
       "img": "assets/cards/polybeam.png",
       "stats": {
         "damage": 2,
@@ -27683,6 +28205,7 @@
       },
       "cost": 1,
       "upgradeCost": null,
+      "canUpgrade": true,
       "img": "assets/cards/preprogram.png",
       "stats": {
         "damage": null,
@@ -27735,6 +28258,7 @@
       },
       "cost": 1,
       "upgradeCost": null,
+      "canUpgrade": true,
       "img": "assets/cards/primingshot.png",
       "stats": {
         "damage": 8,
@@ -27789,6 +28313,7 @@
       },
       "cost": 1,
       "upgradeCost": null,
+      "canUpgrade": true,
       "img": "assets/cards/prismaticbarrier.png",
       "stats": {
         "damage": null,
@@ -27843,6 +28368,7 @@
       },
       "cost": 1,
       "upgradeCost": null,
+      "canUpgrade": true,
       "img": "assets/cards/prismaticspray.png",
       "stats": {
         "damage": null,
@@ -27897,6 +28423,7 @@
       },
       "cost": 1,
       "upgradeCost": null,
+      "canUpgrade": true,
       "img": "assets/cards/recharge.png",
       "stats": {
         "damage": null,
@@ -27951,6 +28478,7 @@
       },
       "cost": 1,
       "upgradeCost": null,
+      "canUpgrade": true,
       "img": "assets/cards/recover.png",
       "stats": {
         "damage": null,
@@ -28005,6 +28533,7 @@
       },
       "cost": 2,
       "upgradeCost": null,
+      "canUpgrade": true,
       "img": "assets/cards/refractedbeam.png",
       "stats": {
         "damage": 3,
@@ -28059,6 +28588,7 @@
       },
       "cost": 1,
       "upgradeCost": null,
+      "canUpgrade": true,
       "img": null,
       "stats": {
         "damage": 9,
@@ -28110,7 +28640,8 @@
         "zh": "守护者"
       },
       "cost": 1,
-      "upgradeCost": null,
+      "upgradeCost": 0,
+      "canUpgrade": true,
       "img": "assets/cards/repulsorguardian.png",
       "stats": {
         "damage": null,
@@ -28163,6 +28694,7 @@
       },
       "cost": 1,
       "upgradeCost": null,
+      "canUpgrade": true,
       "img": "assets/cards/reroute.png",
       "stats": {
         "damage": 9,
@@ -28217,6 +28749,7 @@
       },
       "cost": 1,
       "upgradeCost": null,
+      "canUpgrade": true,
       "img": "assets/cards/resilientplate.png",
       "stats": {
         "damage": null,
@@ -28271,6 +28804,7 @@
       },
       "cost": 2,
       "upgradeCost": null,
+      "canUpgrade": true,
       "img": "assets/cards/revengeprotocol.png",
       "stats": {
         "damage": null,
@@ -28325,6 +28859,7 @@
       },
       "cost": 3,
       "upgradeCost": null,
+      "canUpgrade": true,
       "img": "assets/cards/rockslide.png",
       "stats": {
         "damage": 30,
@@ -28377,6 +28912,7 @@
       },
       "cost": 2,
       "upgradeCost": null,
+      "canUpgrade": true,
       "img": "assets/cards/rollattack.png",
       "stats": {
         "damage": 16,
@@ -28431,6 +28967,7 @@
       },
       "cost": 1,
       "upgradeCost": null,
+      "canUpgrade": true,
       "img": "assets/cards/secondslam.png",
       "stats": {
         "damage": 7,
@@ -28483,6 +29020,7 @@
       },
       "cost": 0,
       "upgradeCost": null,
+      "canUpgrade": true,
       "img": "assets/cards/sentryblast.png",
       "stats": {
         "damage": 5,
@@ -28535,6 +29073,7 @@
       },
       "cost": 0,
       "upgradeCost": null,
+      "canUpgrade": true,
       "img": "assets/cards/sentrywave.png",
       "stats": {
         "damage": null,
@@ -28589,6 +29128,7 @@
       },
       "cost": 2,
       "upgradeCost": null,
+      "canUpgrade": true,
       "img": "assets/cards/serrate.png",
       "stats": {
         "damage": null,
@@ -28643,6 +29183,7 @@
       },
       "cost": 0,
       "upgradeCost": null,
+      "canUpgrade": true,
       "img": null,
       "stats": {
         "damage": null,
@@ -28691,6 +29232,7 @@
       },
       "cost": 1,
       "upgradeCost": null,
+      "canUpgrade": true,
       "img": "assets/cards/sharphide.png",
       "stats": {
         "damage": null,
@@ -28745,6 +29287,7 @@
       },
       "cost": 2,
       "upgradeCost": null,
+      "canUpgrade": true,
       "img": "assets/cards/shieldcharger.png",
       "stats": {
         "damage": null,
@@ -28799,6 +29342,7 @@
       },
       "cost": 2,
       "upgradeCost": null,
+      "canUpgrade": true,
       "img": "assets/cards/shieldspikes.png",
       "stats": {
         "damage": null,
@@ -28854,7 +29398,8 @@
         "zh": "守护者"
       },
       "cost": 1,
-      "upgradeCost": null,
+      "upgradeCost": 0,
+      "canUpgrade": true,
       "img": "assets/cards/speedboost.png",
       "stats": {
         "damage": null,
@@ -28906,7 +29451,8 @@
         "zh": "守护者"
       },
       "cost": 4,
-      "upgradeCost": null,
+      "upgradeCost": 3,
+      "canUpgrade": true,
       "img": "assets/cards/sphericshield.png",
       "stats": {
         "damage": null,
@@ -28959,6 +29505,7 @@
       },
       "cost": 1,
       "upgradeCost": null,
+      "canUpgrade": true,
       "img": "assets/cards/spikerprotocol.png",
       "stats": {
         "damage": null,
@@ -29013,6 +29560,7 @@
       },
       "cost": 1,
       "upgradeCost": null,
+      "canUpgrade": true,
       "img": "assets/cards/stasisengine.png",
       "stats": {
         "damage": null,
@@ -29065,6 +29613,7 @@
       },
       "cost": 1,
       "upgradeCost": null,
+      "canUpgrade": true,
       "img": "assets/cards/stasisfield.png",
       "stats": {
         "damage": null,
@@ -29117,6 +29666,7 @@
       },
       "cost": 2,
       "upgradeCost": null,
+      "canUpgrade": true,
       "img": "assets/cards/stasisstrike.png",
       "stats": {
         "damage": 16,
@@ -29175,6 +29725,7 @@
       },
       "cost": 1,
       "upgradeCost": null,
+      "canUpgrade": true,
       "img": "assets/cards/strikeforstrike.png",
       "stats": {
         "damage": 13,
@@ -29229,6 +29780,7 @@
       },
       "cost": 1,
       "upgradeCost": null,
+      "canUpgrade": true,
       "img": "assets/cards/strikeguardian.png",
       "stats": {
         "damage": 6,
@@ -29281,6 +29833,7 @@
       },
       "cost": 1,
       "upgradeCost": null,
+      "canUpgrade": true,
       "img": "assets/cards/suspension.png",
       "stats": {
         "damage": null,
@@ -29332,7 +29885,8 @@
         "zh": "守护者"
       },
       "cost": 2,
-      "upgradeCost": null,
+      "upgradeCost": 1,
+      "canUpgrade": true,
       "img": "assets/cards/temporalrefraction.png",
       "stats": {
         "damage": null,
@@ -29385,6 +29939,7 @@
       },
       "cost": 1,
       "upgradeCost": null,
+      "canUpgrade": true,
       "img": "assets/cards/temporalshield.png",
       "stats": {
         "damage": null,
@@ -29439,6 +29994,7 @@
       },
       "cost": 1,
       "upgradeCost": null,
+      "canUpgrade": true,
       "img": "assets/cards/temporalstrike.png",
       "stats": {
         "damage": 7,
@@ -29493,6 +30049,7 @@
       },
       "cost": 2,
       "upgradeCost": null,
+      "canUpgrade": true,
       "img": "assets/cards/timebomb.png",
       "stats": {
         "damage": 14,
@@ -29546,7 +30103,8 @@
         "zh": "守护者"
       },
       "cost": 1,
-      "upgradeCost": null,
+      "upgradeCost": 0,
+      "canUpgrade": true,
       "img": "assets/cards/timecapacitor.png",
       "stats": {
         "damage": null,
@@ -29603,6 +30161,7 @@
       },
       "cost": 1,
       "upgradeCost": null,
+      "canUpgrade": true,
       "img": "assets/cards/timesifter.png",
       "stats": {
         "damage": null,
@@ -29655,6 +30214,7 @@
       },
       "cost": 1,
       "upgradeCost": null,
+      "canUpgrade": true,
       "img": "assets/cards/twinslam.png",
       "stats": {
         "damage": 7,
@@ -29707,6 +30267,7 @@
       },
       "cost": 1,
       "upgradeCost": null,
+      "canUpgrade": true,
       "img": "assets/cards/ventsteam.png",
       "stats": {
         "damage": null,
@@ -29759,6 +30320,7 @@
       },
       "cost": 3,
       "upgradeCost": null,
+      "canUpgrade": true,
       "img": "assets/cards/walkerclaw.png",
       "stats": {
         "damage": 26,
@@ -29810,7 +30372,8 @@
         "zh": "亡命之徒"
       },
       "cost": 3,
-      "upgradeCost": null,
+      "upgradeCost": 2,
+      "canUpgrade": true,
       "img": "assets/cards/adapt.png",
       "stats": {
         "damage": null,
@@ -29863,6 +30426,7 @@
       },
       "cost": 2,
       "upgradeCost": null,
+      "canUpgrade": true,
       "img": null,
       "stats": {
         "damage": null,
@@ -29916,7 +30480,8 @@
         "zh": "亡命之徒"
       },
       "cost": 2,
-      "upgradeCost": null,
+      "upgradeCost": 1,
+      "canUpgrade": true,
       "img": "assets/cards/blackwind.png",
       "stats": {
         "damage": null,
@@ -29971,6 +30536,7 @@
       },
       "cost": 1,
       "upgradeCost": null,
+      "canUpgrade": true,
       "img": "assets/cards/bodyarmor.png",
       "stats": {
         "damage": null,
@@ -30023,6 +30589,7 @@
       },
       "cost": 2,
       "upgradeCost": null,
+      "canUpgrade": true,
       "img": "assets/cards/brawl.png",
       "stats": {
         "damage": null,
@@ -30075,6 +30642,7 @@
       },
       "cost": 1,
       "upgradeCost": null,
+      "canUpgrade": true,
       "img": null,
       "stats": {
         "damage": null,
@@ -30127,6 +30695,7 @@
       },
       "cost": 0,
       "upgradeCost": null,
+      "canUpgrade": true,
       "img": "assets/cards/calledshot.png",
       "stats": {
         "damage": 5,
@@ -30179,6 +30748,7 @@
       },
       "cost": 1,
       "upgradeCost": null,
+      "canUpgrade": true,
       "img": "assets/cards/cheat.png",
       "stats": {
         "damage": null,
@@ -30231,6 +30801,7 @@
       },
       "cost": 1,
       "upgradeCost": null,
+      "canUpgrade": true,
       "img": "assets/cards/coalescence.png",
       "stats": {
         "damage": null,
@@ -30285,6 +30856,7 @@
       },
       "cost": 1,
       "upgradeCost": null,
+      "canUpgrade": true,
       "img": "assets/cards/combo.png",
       "stats": {
         "damage": null,
@@ -30337,6 +30909,7 @@
       },
       "cost": 0,
       "upgradeCost": null,
+      "canUpgrade": true,
       "img": "assets/cards/covet.png",
       "stats": {
         "damage": null,
@@ -30395,6 +30968,7 @@
       },
       "cost": 1,
       "upgradeCost": null,
+      "canUpgrade": true,
       "img": null,
       "stats": {
         "damage": 8,
@@ -30446,7 +31020,8 @@
         "zh": "亡命之徒"
       },
       "cost": 2,
-      "upgradeCost": null,
+      "upgradeCost": 1,
+      "canUpgrade": true,
       "img": "assets/cards/cursedskull.png",
       "stats": {
         "damage": null,
@@ -30494,7 +31069,8 @@
         "zh": "亡命之徒"
       },
       "cost": 1,
-      "upgradeCost": null,
+      "upgradeCost": 0,
+      "canUpgrade": true,
       "img": "assets/cards/cursedweapon.png",
       "stats": {
         "damage": 10,
@@ -30551,6 +31127,7 @@
       },
       "cost": 1,
       "upgradeCost": null,
+      "canUpgrade": true,
       "img": "assets/cards/deadeye.png",
       "stats": {
         "damage": 5,
@@ -30604,7 +31181,8 @@
         "zh": "亡命之徒"
       },
       "cost": 1,
-      "upgradeCost": null,
+      "upgradeCost": 0,
+      "canUpgrade": true,
       "img": "assets/cards/deadmanshand.png",
       "stats": {
         "damage": null,
@@ -30657,6 +31235,7 @@
       },
       "cost": 1,
       "upgradeCost": null,
+      "canUpgrade": true,
       "img": "assets/cards/deadoralive.png",
       "stats": {
         "damage": 8,
@@ -30709,6 +31288,7 @@
       },
       "cost": 1,
       "upgradeCost": null,
+      "canUpgrade": true,
       "img": null,
       "stats": {
         "damage": null,
@@ -30761,6 +31341,7 @@
       },
       "cost": 1,
       "upgradeCost": null,
+      "canUpgrade": true,
       "img": "assets/cards/defendhermit.png",
       "stats": {
         "damage": null,
@@ -30813,6 +31394,7 @@
       },
       "cost": 1,
       "upgradeCost": null,
+      "canUpgrade": true,
       "img": "assets/cards/desperado.png",
       "stats": {
         "damage": 10,
@@ -30877,6 +31459,7 @@
       },
       "cost": 1,
       "upgradeCost": null,
+      "canUpgrade": true,
       "img": "assets/cards/determination.png",
       "stats": {
         "damage": null,
@@ -30929,6 +31512,7 @@
       },
       "cost": 2,
       "upgradeCost": null,
+      "canUpgrade": true,
       "img": "assets/cards/dissolve.png",
       "stats": {
         "damage": null,
@@ -30983,6 +31567,7 @@
       },
       "cost": 1,
       "upgradeCost": null,
+      "canUpgrade": true,
       "img": "assets/cards/dive.png",
       "stats": {
         "damage": null,
@@ -31037,6 +31622,7 @@
       },
       "cost": 1,
       "upgradeCost": null,
+      "canUpgrade": true,
       "img": "assets/cards/enervate.png",
       "stats": {
         "damage": 7,
@@ -31093,6 +31679,7 @@
       },
       "cost": 3,
       "upgradeCost": null,
+      "canUpgrade": true,
       "img": "assets/cards/eternalform.png",
       "stats": {
         "damage": null,
@@ -31144,7 +31731,8 @@
         "zh": "亡命之徒"
       },
       "cost": 1,
-      "upgradeCost": null,
+      "upgradeCost": 0,
+      "canUpgrade": true,
       "img": "assets/cards/eyeofthestorm.png",
       "stats": {
         "damage": null,
@@ -31193,6 +31781,7 @@
       },
       "cost": 0,
       "upgradeCost": null,
+      "canUpgrade": true,
       "img": null,
       "stats": {
         "damage": null,
@@ -31245,6 +31834,7 @@
       },
       "cost": 0,
       "upgradeCost": null,
+      "canUpgrade": true,
       "img": "assets/cards/fataldesire.png",
       "stats": {
         "damage": null,
@@ -31299,6 +31889,7 @@
       },
       "cost": 0,
       "upgradeCost": null,
+      "canUpgrade": true,
       "img": "assets/cards/feint.png",
       "stats": {
         "damage": null,
@@ -31353,6 +31944,7 @@
       },
       "cost": 1,
       "upgradeCost": null,
+      "canUpgrade": true,
       "img": "assets/cards/finalcanter.png",
       "stats": {
         "damage": 10,
@@ -31410,7 +32002,8 @@
         "zh": "亡命之徒"
       },
       "cost": 9,
-      "upgradeCost": null,
+      "upgradeCost": 7,
+      "canUpgrade": true,
       "img": null,
       "stats": {
         "damage": 3,
@@ -31467,6 +32060,7 @@
       },
       "cost": 1,
       "upgradeCost": null,
+      "canUpgrade": true,
       "img": "assets/cards/flashpowder.png",
       "stats": {
         "damage": null,
@@ -31527,6 +32121,7 @@
       },
       "cost": 1,
       "upgradeCost": null,
+      "canUpgrade": true,
       "img": "assets/cards/frombeyond.png",
       "stats": {
         "damage": null,
@@ -31585,6 +32180,7 @@
       },
       "cost": 0,
       "upgradeCost": null,
+      "canUpgrade": true,
       "img": "assets/cards/fullyloaded.png",
       "stats": {
         "damage": null,
@@ -31633,6 +32229,7 @@
       },
       "cost": 1,
       "upgradeCost": null,
+      "canUpgrade": true,
       "img": "assets/cards/gambit.png",
       "stats": {
         "damage": null,
@@ -31685,6 +32282,7 @@
       },
       "cost": 2,
       "upgradeCost": null,
+      "canUpgrade": true,
       "img": "assets/cards/gestalt.png",
       "stats": {
         "damage": null,
@@ -31739,6 +32337,7 @@
       },
       "cost": 1,
       "upgradeCost": null,
+      "canUpgrade": true,
       "img": "assets/cards/ghostlypresence.png",
       "stats": {
         "damage": null,
@@ -31793,6 +32392,7 @@
       },
       "cost": 0,
       "upgradeCost": null,
+      "canUpgrade": true,
       "img": "assets/cards/glare.png",
       "stats": {
         "damage": null,
@@ -31847,6 +32447,7 @@
       },
       "cost": 3,
       "upgradeCost": null,
+      "canUpgrade": true,
       "img": "assets/cards/goldenbullet.png",
       "stats": {
         "damage": 18,
@@ -31899,6 +32500,7 @@
       },
       "cost": 1,
       "upgradeCost": null,
+      "canUpgrade": true,
       "img": "assets/cards/grudge.png",
       "stats": {
         "damage": null,
@@ -31953,6 +32555,7 @@
       },
       "cost": 2,
       "upgradeCost": null,
+      "canUpgrade": true,
       "img": null,
       "stats": {
         "damage": null,
@@ -32005,6 +32608,7 @@
       },
       "cost": 1,
       "upgradeCost": null,
+      "canUpgrade": true,
       "img": "assets/cards/headshot.png",
       "stats": {
         "damage": 7,
@@ -32057,6 +32661,7 @@
       },
       "cost": 1,
       "upgradeCost": null,
+      "canUpgrade": true,
       "img": "assets/cards/heroicbravado.png",
       "stats": {
         "damage": null,
@@ -32115,6 +32720,7 @@
       },
       "cost": 1,
       "upgradeCost": null,
+      "canUpgrade": true,
       "img": "assets/cards/highcaliber.png",
       "stats": {
         "damage": 6,
@@ -32167,6 +32773,7 @@
       },
       "cost": 2,
       "upgradeCost": null,
+      "canUpgrade": true,
       "img": "assets/cards/highnoon.png",
       "stats": {
         "damage": null,
@@ -32221,6 +32828,7 @@
       },
       "cost": 1,
       "upgradeCost": null,
+      "canUpgrade": true,
       "img": "assets/cards/holeup.png",
       "stats": {
         "damage": null,
@@ -32275,6 +32883,7 @@
       },
       "cost": 1,
       "upgradeCost": null,
+      "canUpgrade": true,
       "img": "assets/cards/horror.png",
       "stats": {
         "damage": null,
@@ -32329,6 +32938,7 @@
       },
       "cost": -2,
       "upgradeCost": null,
+      "canUpgrade": false,
       "img": "assets/cards/impendingdoom.png",
       "stats": {
         "damage": 13,
@@ -32381,6 +32991,7 @@
       },
       "cost": 1,
       "upgradeCost": null,
+      "canUpgrade": true,
       "img": "assets/cards/itchytrigger.png",
       "stats": {
         "damage": 8,
@@ -32439,6 +33050,7 @@
       },
       "cost": 1,
       "upgradeCost": null,
+      "canUpgrade": true,
       "img": null,
       "stats": {
         "damage": 7,
@@ -32492,7 +33104,8 @@
         "zh": "亡命之徒"
       },
       "cost": 1,
-      "upgradeCost": null,
+      "upgradeCost": 0,
+      "canUpgrade": true,
       "img": "assets/cards/lonewolf.png",
       "stats": {
         "damage": null,
@@ -32541,6 +33154,7 @@
       },
       "cost": 1,
       "upgradeCost": null,
+      "canUpgrade": true,
       "img": "assets/cards/lowprofile.png",
       "stats": {
         "damage": null,
@@ -32595,6 +33209,7 @@
       },
       "cost": 1,
       "upgradeCost": null,
+      "canUpgrade": true,
       "img": "assets/cards/luckofthedraw.png",
       "stats": {
         "damage": null,
@@ -32651,6 +33266,7 @@
       },
       "cost": 2,
       "upgradeCost": null,
+      "canUpgrade": true,
       "img": "assets/cards/magazine.png",
       "stats": {
         "damage": null,
@@ -32703,6 +33319,7 @@
       },
       "cost": 1,
       "upgradeCost": null,
+      "canUpgrade": true,
       "img": "assets/cards/magnum.png",
       "stats": {
         "damage": 6,
@@ -32757,6 +33374,7 @@
       },
       "cost": 1,
       "upgradeCost": null,
+      "canUpgrade": true,
       "img": "assets/cards/maintenance.png",
       "stats": {
         "damage": null,
@@ -32811,6 +33429,7 @@
       },
       "cost": 2,
       "upgradeCost": null,
+      "canUpgrade": true,
       "img": "assets/cards/malice.png",
       "stats": {
         "damage": 20,
@@ -32863,6 +33482,7 @@
       },
       "cost": 2,
       "upgradeCost": null,
+      "canUpgrade": true,
       "img": "assets/cards/manifest.png",
       "stats": {
         "damage": null,
@@ -32915,6 +33535,7 @@
       },
       "cost": 0,
       "upgradeCost": null,
+      "canUpgrade": false,
       "img": "assets/cards/mementocard.png",
       "stats": {
         "damage": null,
@@ -32967,6 +33588,7 @@
       },
       "cost": 1,
       "upgradeCost": null,
+      "canUpgrade": true,
       "img": "assets/cards/midnight.png",
       "stats": {
         "damage": null,
@@ -33019,6 +33641,7 @@
       },
       "cost": 1,
       "upgradeCost": null,
+      "canUpgrade": true,
       "img": "assets/cards/misfire.png",
       "stats": {
         "damage": 13,
@@ -33071,6 +33694,7 @@
       },
       "cost": 2,
       "upgradeCost": null,
+      "canUpgrade": true,
       "img": "assets/cards/noholdsbarred.png",
       "stats": {
         "damage": 19,
@@ -33129,6 +33753,7 @@
       },
       "cost": 1,
       "upgradeCost": null,
+      "canUpgrade": true,
       "img": "assets/cards/overwhelmingpower.png",
       "stats": {
         "damage": null,
@@ -33185,6 +33810,7 @@
       },
       "cost": 1,
       "upgradeCost": null,
+      "canUpgrade": true,
       "img": "assets/cards/pistolwhip.png",
       "stats": {
         "damage": 6,
@@ -33239,6 +33865,7 @@
       },
       "cost": 3,
       "upgradeCost": null,
+      "canUpgrade": true,
       "img": "assets/cards/purgatory.png",
       "stats": {
         "damage": 28,
@@ -33291,6 +33918,7 @@
       },
       "cost": 1,
       "upgradeCost": null,
+      "canUpgrade": true,
       "img": "assets/cards/quickdraw.png",
       "stats": {
         "damage": 9,
@@ -33347,6 +33975,7 @@
       },
       "cost": 2,
       "upgradeCost": null,
+      "canUpgrade": true,
       "img": "assets/cards/reprieve.png",
       "stats": {
         "damage": null,
@@ -33399,6 +34028,7 @@
       },
       "cost": 1,
       "upgradeCost": null,
+      "canUpgrade": true,
       "img": "assets/cards/ricochet.png",
       "stats": {
         "damage": 8,
@@ -33457,6 +34087,7 @@
       },
       "cost": 3,
       "upgradeCost": null,
+      "canUpgrade": true,
       "img": "assets/cards/roughhouse.png",
       "stats": {
         "damage": 24,
@@ -33511,6 +34142,7 @@
       },
       "cost": 2,
       "upgradeCost": null,
+      "canUpgrade": true,
       "img": "assets/cards/roulette.png",
       "stats": {
         "damage": 16,
@@ -33563,6 +34195,7 @@
       },
       "cost": 2,
       "upgradeCost": null,
+      "canUpgrade": true,
       "img": "assets/cards/roundhousekick.png",
       "stats": {
         "damage": 13,
@@ -33617,6 +34250,7 @@
       },
       "cost": 1,
       "upgradeCost": null,
+      "canUpgrade": true,
       "img": null,
       "stats": {
         "damage": 7,
@@ -33675,6 +34309,7 @@
       },
       "cost": 1,
       "upgradeCost": null,
+      "canUpgrade": true,
       "img": "assets/cards/scavenge.png",
       "stats": {
         "damage": null,
@@ -33733,6 +34368,7 @@
       },
       "cost": 1,
       "upgradeCost": null,
+      "canUpgrade": true,
       "img": null,
       "stats": {
         "damage": null,
@@ -33787,6 +34423,7 @@
       },
       "cost": 1,
       "upgradeCost": null,
+      "canUpgrade": true,
       "img": "assets/cards/shadowcloak.png",
       "stats": {
         "damage": null,
@@ -33839,6 +34476,7 @@
       },
       "cost": 2,
       "upgradeCost": null,
+      "canUpgrade": true,
       "img": null,
       "stats": {
         "damage": null,
@@ -33895,6 +34533,7 @@
       },
       "cost": 3,
       "upgradeCost": null,
+      "canUpgrade": true,
       "img": "assets/cards/shortfuse.png",
       "stats": {
         "damage": 13,
@@ -33947,6 +34586,7 @@
       },
       "cost": 1,
       "upgradeCost": null,
+      "canUpgrade": true,
       "img": "assets/cards/showdown.png",
       "stats": {
         "damage": 9,
@@ -33999,6 +34639,7 @@
       },
       "cost": 1,
       "upgradeCost": null,
+      "canUpgrade": true,
       "img": "assets/cards/smokingbarrel.png",
       "stats": {
         "damage": null,
@@ -34051,6 +34692,7 @@
       },
       "cost": 1,
       "upgradeCost": null,
+      "canUpgrade": true,
       "img": "assets/cards/snapshot.png",
       "stats": {
         "damage": 5,
@@ -34103,6 +34745,7 @@
       },
       "cost": 0,
       "upgradeCost": null,
+      "canUpgrade": true,
       "img": "assets/cards/snipe.png",
       "stats": {
         "damage": null,
@@ -34155,6 +34798,7 @@
       },
       "cost": 0,
       "upgradeCost": null,
+      "canUpgrade": true,
       "img": "assets/cards/spectre.png",
       "stats": {
         "damage": null,
@@ -34207,6 +34851,7 @@
       },
       "cost": 2,
       "upgradeCost": null,
+      "canUpgrade": true,
       "img": "assets/cards/spite.png",
       "stats": {
         "damage": null,
@@ -34261,6 +34906,7 @@
       },
       "cost": 1,
       "upgradeCost": null,
+      "canUpgrade": true,
       "img": "assets/cards/spraypray.png",
       "stats": {
         "damage": 5,
@@ -34315,6 +34961,7 @@
       },
       "cost": 1,
       "upgradeCost": null,
+      "canUpgrade": true,
       "img": "assets/cards/strikehermit.png",
       "stats": {
         "damage": 6,
@@ -34367,6 +35014,7 @@
       },
       "cost": 1,
       "upgradeCost": null,
+      "canUpgrade": true,
       "img": "assets/cards/takeaim.png",
       "stats": {
         "damage": null,
@@ -34419,6 +35067,7 @@
       },
       "cost": 0,
       "upgradeCost": null,
+      "canUpgrade": true,
       "img": "assets/cards/takecover.png",
       "stats": {
         "damage": null,
@@ -34467,6 +35116,7 @@
       },
       "cost": 1,
       "upgradeCost": null,
+      "canUpgrade": true,
       "img": null,
       "stats": {
         "damage": null,
@@ -34519,6 +35169,7 @@
       },
       "cost": 0,
       "upgradeCost": null,
+      "canUpgrade": true,
       "img": null,
       "stats": {
         "damage": null,
@@ -34571,6 +35222,7 @@
       },
       "cost": 1,
       "upgradeCost": null,
+      "canUpgrade": true,
       "img": "assets/cards/trackingshot.png",
       "stats": {
         "damage": 4,
@@ -34625,6 +35277,7 @@
       },
       "cost": 1,
       "upgradeCost": null,
+      "canUpgrade": true,
       "img": null,
       "stats": {
         "damage": null,
@@ -34679,6 +35332,7 @@
       },
       "cost": 1,
       "upgradeCost": null,
+      "canUpgrade": true,
       "img": "assets/cards/vantage.png",
       "stats": {
         "damage": null,
@@ -34733,6 +35387,7 @@
       },
       "cost": 0,
       "upgradeCost": null,
+      "canUpgrade": true,
       "img": "assets/cards/virtue.png",
       "stats": {
         "damage": null,
@@ -34789,6 +35444,7 @@
       },
       "cost": 1,
       "upgradeCost": null,
+      "canUpgrade": true,
       "img": "assets/cards/wideopen.png",
       "stats": {
         "damage": 6,
@@ -34843,6 +35499,7 @@
       },
       "cost": 1,
       "upgradeCost": null,
+      "canUpgrade": true,
       "img": "assets/cards/advancingguard.png",
       "stats": {
         "damage": null,
@@ -34895,6 +35552,7 @@
       },
       "cost": 1,
       "upgradeCost": null,
+      "canUpgrade": true,
       "img": "assets/cards/apocryphra.png",
       "stats": {
         "damage": 5,
@@ -34949,6 +35607,7 @@
       },
       "cost": 1,
       "upgradeCost": null,
+      "canUpgrade": true,
       "img": "assets/cards/backtracksmack.png",
       "stats": {
         "damage": 6,
@@ -35001,6 +35660,7 @@
       },
       "cost": 0,
       "upgradeCost": null,
+      "canUpgrade": true,
       "img": "assets/cards/badomen.png",
       "stats": {
         "damage": null,
@@ -35049,6 +35709,7 @@
       },
       "cost": -1,
       "upgradeCost": null,
+      "canUpgrade": false,
       "img": null,
       "stats": {
         "damage": null,
@@ -35096,7 +35757,8 @@
         "zh": "六火亡魂"
       },
       "cost": 1,
-      "upgradeCost": null,
+      "upgradeCost": 0,
+      "canUpgrade": true,
       "img": "assets/cards/brightritual.png",
       "stats": {
         "damage": null,
@@ -35151,6 +35813,7 @@
       },
       "cost": 1,
       "upgradeCost": null,
+      "canUpgrade": true,
       "img": "assets/cards/broilingflames.png",
       "stats": {
         "damage": null,
@@ -35203,6 +35866,7 @@
       },
       "cost": 3,
       "upgradeCost": null,
+      "canUpgrade": true,
       "img": "assets/cards/burningquestion.png",
       "stats": {
         "damage": null,
@@ -35259,6 +35923,7 @@
       },
       "cost": -1,
       "upgradeCost": null,
+      "canUpgrade": true,
       "img": null,
       "stats": {
         "damage": null,
@@ -35315,6 +35980,7 @@
       },
       "cost": -1,
       "upgradeCost": null,
+      "canUpgrade": true,
       "img": null,
       "stats": {
         "damage": null,
@@ -35369,6 +36035,7 @@
       },
       "cost": -1,
       "upgradeCost": null,
+      "canUpgrade": true,
       "img": null,
       "stats": {
         "damage": null,
@@ -35421,6 +36088,7 @@
       },
       "cost": 1,
       "upgradeCost": null,
+      "canUpgrade": true,
       "img": "assets/cards/burningtouch.png",
       "stats": {
         "damage": null,
@@ -35475,6 +36143,7 @@
       },
       "cost": 1,
       "upgradeCost": null,
+      "canUpgrade": true,
       "img": "assets/cards/catchup.png",
       "stats": {
         "damage": null,
@@ -35531,6 +36200,7 @@
       },
       "cost": 0,
       "upgradeCost": null,
+      "canUpgrade": true,
       "img": "assets/cards/cauterize.png",
       "stats": {
         "damage": 7,
@@ -35583,6 +36253,7 @@
       },
       "cost": 1,
       "upgradeCost": null,
+      "canUpgrade": true,
       "img": "assets/cards/chargedbarrage.png",
       "stats": {
         "damage": null,
@@ -35635,6 +36306,7 @@
       },
       "cost": 1,
       "upgradeCost": null,
+      "canUpgrade": true,
       "img": null,
       "stats": {
         "damage": null,
@@ -35687,6 +36359,7 @@
       },
       "cost": 1,
       "upgradeCost": null,
+      "canUpgrade": true,
       "img": "assets/cards/defendhexaghost.png",
       "stats": {
         "damage": null,
@@ -35739,6 +36412,7 @@
       },
       "cost": 1,
       "upgradeCost": null,
+      "canUpgrade": true,
       "img": "assets/cards/devilsdance.png",
       "stats": {
         "damage": null,
@@ -35791,6 +36465,7 @@
       },
       "cost": 0,
       "upgradeCost": null,
+      "canUpgrade": true,
       "img": "assets/cards/devourflame.png",
       "stats": {
         "damage": null,
@@ -35843,6 +36518,7 @@
       },
       "cost": 1,
       "upgradeCost": null,
+      "canUpgrade": true,
       "img": "assets/cards/displace.png",
       "stats": {
         "damage": 6,
@@ -35899,6 +36575,7 @@
       },
       "cost": 1,
       "upgradeCost": null,
+      "canUpgrade": true,
       "img": "assets/cards/divider.png",
       "stats": {
         "damage": 3,
@@ -35950,7 +36627,8 @@
         "zh": "六火亡魂"
       },
       "cost": 1,
-      "upgradeCost": null,
+      "upgradeCost": 0,
+      "canUpgrade": true,
       "img": "assets/cards/doomsday.png",
       "stats": {
         "damage": null,
@@ -36002,7 +36680,8 @@
         "zh": "六火亡魂"
       },
       "cost": 2,
-      "upgradeCost": null,
+      "upgradeCost": 1,
+      "canUpgrade": true,
       "img": "assets/cards/eerieexpedition.png",
       "stats": {
         "damage": null,
@@ -36051,6 +36730,7 @@
       },
       "cost": 1,
       "upgradeCost": null,
+      "canUpgrade": true,
       "img": "assets/cards/empoweredflame.png",
       "stats": {
         "damage": null,
@@ -36103,6 +36783,7 @@
       },
       "cost": 1,
       "upgradeCost": null,
+      "canUpgrade": true,
       "img": "assets/cards/etherstep.png",
       "stats": {
         "damage": 10,
@@ -36157,6 +36838,7 @@
       },
       "cost": 1,
       "upgradeCost": null,
+      "canUpgrade": true,
       "img": "assets/cards/extracrispy.png",
       "stats": {
         "damage": null,
@@ -36209,6 +36891,7 @@
       },
       "cost": 1,
       "upgradeCost": null,
+      "canUpgrade": true,
       "img": "assets/cards/fastforward.png",
       "stats": {
         "damage": null,
@@ -36261,6 +36944,7 @@
       },
       "cost": 1,
       "upgradeCost": null,
+      "canUpgrade": true,
       "img": "assets/cards/firestarter.png",
       "stats": {
         "damage": 5,
@@ -36315,6 +36999,7 @@
       },
       "cost": 2,
       "upgradeCost": null,
+      "canUpgrade": true,
       "img": "assets/cards/flamesfrombeyond.png",
       "stats": {
         "damage": null,
@@ -36367,6 +37052,7 @@
       },
       "cost": 2,
       "upgradeCost": null,
+      "canUpgrade": true,
       "img": "assets/cards/flareflick.png",
       "stats": {
         "damage": 10,
@@ -36419,6 +37105,7 @@
       },
       "cost": -1,
       "upgradeCost": null,
+      "canUpgrade": false,
       "img": null,
       "stats": {
         "damage": null,
@@ -36467,6 +37154,7 @@
       },
       "cost": 1,
       "upgradeCost": null,
+      "canUpgrade": true,
       "img": "assets/cards/flashbang.png",
       "stats": {
         "damage": 6,
@@ -36522,7 +37210,8 @@
         "zh": "六火亡魂"
       },
       "cost": 1,
-      "upgradeCost": null,
+      "upgradeCost": 0,
+      "canUpgrade": true,
       "img": "assets/cards/fleetingflare.png",
       "stats": {
         "damage": null,
@@ -36571,6 +37260,7 @@
       },
       "cost": 0,
       "upgradeCost": null,
+      "canUpgrade": true,
       "img": "assets/cards/float.png",
       "stats": {
         "damage": null,
@@ -36623,6 +37313,7 @@
       },
       "cost": 1,
       "upgradeCost": null,
+      "canUpgrade": true,
       "img": "assets/cards/floatwork.png",
       "stats": {
         "damage": null,
@@ -36677,6 +37368,7 @@
       },
       "cost": -1,
       "upgradeCost": null,
+      "canUpgrade": false,
       "img": null,
       "stats": {
         "damage": null,
@@ -36725,6 +37417,7 @@
       },
       "cost": -1,
       "upgradeCost": null,
+      "canUpgrade": false,
       "img": null,
       "stats": {
         "damage": null,
@@ -36773,6 +37466,7 @@
       },
       "cost": 1,
       "upgradeCost": null,
+      "canUpgrade": true,
       "img": "assets/cards/forkedflame.png",
       "stats": {
         "damage": 4,
@@ -36825,6 +37519,7 @@
       },
       "cost": 2,
       "upgradeCost": null,
+      "canUpgrade": true,
       "img": "assets/cards/ghostflamebarrier.png",
       "stats": {
         "damage": null,
@@ -36879,6 +37574,7 @@
       },
       "cost": 1,
       "upgradeCost": null,
+      "canUpgrade": true,
       "img": "assets/cards/ghostlash.png",
       "stats": {
         "damage": null,
@@ -36933,6 +37629,7 @@
       },
       "cost": 1,
       "upgradeCost": null,
+      "canUpgrade": true,
       "img": "assets/cards/ghostshield.png",
       "stats": {
         "damage": null,
@@ -36986,7 +37683,8 @@
         "zh": "六火亡魂"
       },
       "cost": 3,
-      "upgradeCost": null,
+      "upgradeCost": 2,
+      "canUpgrade": true,
       "img": "assets/cards/giftsfrombeyond.png",
       "stats": {
         "damage": null,
@@ -37039,6 +37737,7 @@
       },
       "cost": 1,
       "upgradeCost": null,
+      "canUpgrade": true,
       "img": "assets/cards/hauntedhand.png",
       "stats": {
         "damage": null,
@@ -37091,6 +37790,7 @@
       },
       "cost": 1,
       "upgradeCost": null,
+      "canUpgrade": true,
       "img": "assets/cards/hauntingecho.png",
       "stats": {
         "damage": 7,
@@ -37143,6 +37843,7 @@
       },
       "cost": 2,
       "upgradeCost": null,
+      "canUpgrade": true,
       "img": "assets/cards/heating.png",
       "stats": {
         "damage": null,
@@ -37195,6 +37896,7 @@
       },
       "cost": 2,
       "upgradeCost": null,
+      "canUpgrade": false,
       "img": "assets/cards/heatcrush.png",
       "stats": {
         "damage": null,
@@ -37249,6 +37951,7 @@
       },
       "cost": 1,
       "upgradeCost": null,
+      "canUpgrade": true,
       "img": "assets/cards/heatmetal.png",
       "stats": {
         "damage": 4,
@@ -37304,7 +38007,8 @@
         "zh": "六火亡魂"
       },
       "cost": 2,
-      "upgradeCost": null,
+      "upgradeCost": 1,
+      "canUpgrade": true,
       "img": "assets/cards/heatshield.png",
       "stats": {
         "damage": null,
@@ -37358,7 +38062,8 @@
         "zh": "六火亡魂"
       },
       "cost": 2,
-      "upgradeCost": null,
+      "upgradeCost": 1,
+      "canUpgrade": true,
       "img": "assets/cards/hereandnow.png",
       "stats": {
         "damage": null,
@@ -37413,6 +38118,7 @@
       },
       "cost": 1,
       "upgradeCost": null,
+      "canUpgrade": true,
       "img": "assets/cards/hexaguard.png",
       "stats": {
         "damage": null,
@@ -37467,6 +38173,7 @@
       },
       "cost": 1,
       "upgradeCost": null,
+      "canUpgrade": true,
       "img": "assets/cards/hotstreak.png",
       "stats": {
         "damage": null,
@@ -37519,6 +38226,7 @@
       },
       "cost": 2,
       "upgradeCost": null,
+      "canUpgrade": true,
       "img": "assets/cards/incineration.png",
       "stats": {
         "damage": 4,
@@ -37575,6 +38283,7 @@
       },
       "cost": 0,
       "upgradeCost": null,
+      "canUpgrade": true,
       "img": "assets/cards/incorporeal.png",
       "stats": {
         "damage": null,
@@ -37629,6 +38338,7 @@
       },
       "cost": 3,
       "upgradeCost": null,
+      "canUpgrade": true,
       "img": "assets/cards/infernalform.png",
       "stats": {
         "damage": null,
@@ -37680,7 +38390,8 @@
         "zh": "六火亡魂"
       },
       "cost": 3,
-      "upgradeCost": null,
+      "upgradeCost": 2,
+      "canUpgrade": true,
       "img": "assets/cards/intoshadow.png",
       "stats": {
         "damage": null,
@@ -37733,6 +38444,7 @@
       },
       "cost": 1,
       "upgradeCost": null,
+      "canUpgrade": true,
       "img": "assets/cards/kindle.png",
       "stats": {
         "damage": null,
@@ -37785,6 +38497,7 @@
       },
       "cost": 1,
       "upgradeCost": null,
+      "canUpgrade": true,
       "img": "assets/cards/levitate.png",
       "stats": {
         "damage": null,
@@ -37837,6 +38550,7 @@
       },
       "cost": 1,
       "upgradeCost": null,
+      "canUpgrade": true,
       "img": "assets/cards/lingeringshades.png",
       "stats": {
         "damage": null,
@@ -37889,6 +38603,7 @@
       },
       "cost": 1,
       "upgradeCost": null,
+      "canUpgrade": true,
       "img": "assets/cards/livingbomb.png",
       "stats": {
         "damage": null,
@@ -37943,6 +38658,7 @@
       },
       "cost": 0,
       "upgradeCost": null,
+      "canUpgrade": true,
       "img": "assets/cards/naughtyspirit.png",
       "stats": {
         "damage": null,
@@ -37995,6 +38711,7 @@
       },
       "cost": 1,
       "upgradeCost": null,
+      "canUpgrade": true,
       "img": "assets/cards/nightmareguise.png",
       "stats": {
         "damage": null,
@@ -38047,6 +38764,7 @@
       },
       "cost": 1,
       "upgradeCost": null,
+      "canUpgrade": true,
       "img": "assets/cards/nightmarestrike.png",
       "stats": {
         "damage": 4,
@@ -38099,6 +38817,7 @@
       },
       "cost": 1,
       "upgradeCost": null,
+      "canUpgrade": true,
       "img": "assets/cards/nightmarevision.png",
       "stats": {
         "damage": null,
@@ -38151,6 +38870,7 @@
       },
       "cost": 0,
       "upgradeCost": null,
+      "canUpgrade": true,
       "img": "assets/cards/opposingaction.png",
       "stats": {
         "damage": null,
@@ -38203,6 +38923,7 @@
       },
       "cost": 1,
       "upgradeCost": null,
+      "canUpgrade": true,
       "img": "assets/cards/outflare.png",
       "stats": {
         "damage": null,
@@ -38257,6 +38978,7 @@
       },
       "cost": 0,
       "upgradeCost": null,
+      "canUpgrade": true,
       "img": "assets/cards/phantomfireball.png",
       "stats": {
         "damage": 4,
@@ -38309,6 +39031,7 @@
       },
       "cost": 1,
       "upgradeCost": null,
+      "canUpgrade": true,
       "img": "assets/cards/phase.png",
       "stats": {
         "damage": null,
@@ -38363,6 +39086,7 @@
       },
       "cost": 1,
       "upgradeCost": null,
+      "canUpgrade": true,
       "img": "assets/cards/poltergeist.png",
       "stats": {
         "damage": null,
@@ -38415,6 +39139,7 @@
       },
       "cost": 1,
       "upgradeCost": null,
+      "canUpgrade": true,
       "img": "assets/cards/powerfrombeyond.png",
       "stats": {
         "damage": null,
@@ -38470,7 +39195,8 @@
         "zh": "六火亡魂"
       },
       "cost": 1,
-      "upgradeCost": null,
+      "upgradeCost": 0,
+      "canUpgrade": true,
       "img": "assets/cards/premonition.png",
       "stats": {
         "damage": null,
@@ -38519,6 +39245,7 @@
       },
       "cost": -1,
       "upgradeCost": null,
+      "canUpgrade": false,
       "img": null,
       "stats": {
         "damage": null,
@@ -38567,6 +39294,7 @@
       },
       "cost": 2,
       "upgradeCost": null,
+      "canUpgrade": true,
       "img": "assets/cards/radiantflame.png",
       "stats": {
         "damage": null,
@@ -38619,6 +39347,7 @@
       },
       "cost": 2,
       "upgradeCost": null,
+      "canUpgrade": true,
       "img": "assets/cards/radiantreverb.png",
       "stats": {
         "damage": 14,
@@ -38673,6 +39402,7 @@
       },
       "cost": 0,
       "upgradeCost": null,
+      "canUpgrade": true,
       "img": "assets/cards/rainofembers.png",
       "stats": {
         "damage": 6,
@@ -38727,6 +39457,7 @@
       },
       "cost": 1,
       "upgradeCost": null,
+      "canUpgrade": true,
       "img": "assets/cards/reversal.png",
       "stats": {
         "damage": 5,
@@ -38781,6 +39512,7 @@
       },
       "cost": 0,
       "upgradeCost": null,
+      "canUpgrade": true,
       "img": "assets/cards/rewind.png",
       "stats": {
         "damage": null,
@@ -38833,6 +39565,7 @@
       },
       "cost": 1,
       "upgradeCost": null,
+      "canUpgrade": true,
       "img": "assets/cards/sear.png",
       "stats": {
         "damage": 5,
@@ -38887,6 +39620,7 @@
       },
       "cost": 1,
       "upgradeCost": null,
+      "canUpgrade": true,
       "img": "assets/cards/searingwound.png",
       "stats": {
         "damage": null,
@@ -38934,7 +39668,8 @@
         "zh": "六火亡魂"
       },
       "cost": 1,
-      "upgradeCost": null,
+      "upgradeCost": 0,
+      "canUpgrade": true,
       "img": "assets/cards/seventheye.png",
       "stats": {
         "damage": null,
@@ -38983,6 +39718,7 @@
       },
       "cost": 0,
       "upgradeCost": null,
+      "canUpgrade": true,
       "img": "assets/cards/shadowguise.png",
       "stats": {
         "damage": null,
@@ -39035,6 +39771,7 @@
       },
       "cost": 0,
       "upgradeCost": null,
+      "canUpgrade": true,
       "img": "assets/cards/shadowstrike.png",
       "stats": {
         "damage": 4,
@@ -39087,6 +39824,7 @@
       },
       "cost": 2,
       "upgradeCost": null,
+      "canUpgrade": true,
       "img": "assets/cards/shieldofnight.png",
       "stats": {
         "damage": null,
@@ -39141,6 +39879,7 @@
       },
       "cost": 2,
       "upgradeCost": null,
+      "canUpgrade": true,
       "img": "assets/cards/sizzle.png",
       "stats": {
         "damage": null,
@@ -39195,6 +39934,7 @@
       },
       "cost": null,
       "upgradeCost": null,
+      "canUpgrade": false,
       "img": null,
       "stats": {
         "damage": null,
@@ -39243,6 +39983,7 @@
       },
       "cost": 1,
       "upgradeCost": null,
+      "canUpgrade": true,
       "img": "assets/cards/specterswail.png",
       "stats": {
         "damage": 4,
@@ -39295,6 +40036,7 @@
       },
       "cost": 1,
       "upgradeCost": null,
+      "canUpgrade": true,
       "img": "assets/cards/spectralgrace.png",
       "stats": {
         "damage": 12,
@@ -39349,6 +40091,7 @@
       },
       "cost": 0,
       "upgradeCost": null,
+      "canUpgrade": true,
       "img": "assets/cards/spook.png",
       "stats": {
         "damage": null,
@@ -39401,6 +40144,7 @@
       },
       "cost": 1,
       "upgradeCost": null,
+      "canUpgrade": true,
       "img": "assets/cards/stepthrough.png",
       "stats": {
         "damage": 7,
@@ -39453,6 +40197,7 @@
       },
       "cost": 1,
       "upgradeCost": null,
+      "canUpgrade": true,
       "img": "assets/cards/stokethefire.png",
       "stats": {
         "damage": null,
@@ -39505,6 +40250,7 @@
       },
       "cost": 1,
       "upgradeCost": null,
+      "canUpgrade": true,
       "img": "assets/cards/strikehexaghost.png",
       "stats": {
         "damage": 6,
@@ -39557,6 +40303,7 @@
       },
       "cost": 2,
       "upgradeCost": null,
+      "canUpgrade": true,
       "img": "assets/cards/swordofnight.png",
       "stats": {
         "damage": 15,
@@ -39611,6 +40358,7 @@
       },
       "cost": 1,
       "upgradeCost": null,
+      "canUpgrade": true,
       "img": "assets/cards/temporalleap.png",
       "stats": {
         "damage": null,
@@ -39665,6 +40413,7 @@
       },
       "cost": 1,
       "upgradeCost": null,
+      "canUpgrade": true,
       "img": "assets/cards/thermaltransfer.png",
       "stats": {
         "damage": 7,
@@ -39719,6 +40468,7 @@
       },
       "cost": 0,
       "upgradeCost": null,
+      "canUpgrade": true,
       "img": "assets/cards/timeofneed.png",
       "stats": {
         "damage": null,
@@ -39767,6 +40517,7 @@
       },
       "cost": 0,
       "upgradeCost": null,
+      "canUpgrade": true,
       "img": "assets/cards/timewarp.png",
       "stats": {
         "damage": 4,
@@ -39819,6 +40570,7 @@
       },
       "cost": 0,
       "upgradeCost": null,
+      "canUpgrade": true,
       "img": "assets/cards/turnitup.png",
       "stats": {
         "damage": null,
@@ -39875,6 +40627,7 @@
       },
       "cost": 3,
       "upgradeCost": null,
+      "canUpgrade": true,
       "img": "assets/cards/unfetteredform.png",
       "stats": {
         "damage": null,
@@ -39927,6 +40680,7 @@
       },
       "cost": 2,
       "upgradeCost": null,
+      "canUpgrade": true,
       "img": "assets/cards/unleashspirits.png",
       "stats": {
         "damage": 10,
@@ -39984,7 +40738,8 @@
         "zh": "六火亡魂"
       },
       "cost": 4,
-      "upgradeCost": null,
+      "upgradeCost": 3,
+      "canUpgrade": true,
       "img": "assets/cards/unlimitedpower.png",
       "stats": {
         "damage": null,
@@ -40033,6 +40788,7 @@
       },
       "cost": 1,
       "upgradeCost": null,
+      "canUpgrade": true,
       "img": "assets/cards/volcanovisage.png",
       "stats": {
         "damage": null,
@@ -40085,6 +40841,7 @@
       },
       "cost": 2,
       "upgradeCost": null,
+      "canUpgrade": true,
       "img": "assets/cards/whisperfrombeyond.png",
       "stats": {
         "damage": 12,
@@ -40139,6 +40896,7 @@
       },
       "cost": 1,
       "upgradeCost": null,
+      "canUpgrade": true,
       "img": "assets/cards/wildfirehexaghost.png",
       "stats": {
         "damage": null,
@@ -40191,6 +40949,7 @@
       },
       "cost": 0,
       "upgradeCost": null,
+      "canUpgrade": true,
       "img": "assets/cards/worthysacrifice.png",
       "stats": {
         "damage": null,
@@ -40243,6 +41002,7 @@
       },
       "cost": 1,
       "upgradeCost": null,
+      "canUpgrade": false,
       "img": null,
       "stats": {
         "damage": null,
@@ -40295,6 +41055,7 @@
       },
       "cost": 0,
       "upgradeCost": null,
+      "canUpgrade": false,
       "img": null,
       "stats": {
         "damage": null,
@@ -40347,6 +41108,7 @@
       },
       "cost": 1,
       "upgradeCost": null,
+      "canUpgrade": true,
       "img": "assets/cards/chomp.png",
       "stats": {
         "damage": 8,
@@ -40399,6 +41161,7 @@
       },
       "cost": 2,
       "upgradeCost": null,
+      "canUpgrade": true,
       "img": "assets/cards/combotackle.png",
       "stats": {
         "damage": 12,
@@ -40452,7 +41215,8 @@
         "zh": "史莱姆老大"
       },
       "cost": 2,
-      "upgradeCost": null,
+      "upgradeCost": 1,
+      "canUpgrade": true,
       "img": "assets/cards/consultplaybook.png",
       "stats": {
         "damage": null,
@@ -40506,7 +41270,8 @@
         "zh": "史莱姆老大"
       },
       "cost": 1,
-      "upgradeCost": null,
+      "upgradeCost": 0,
+      "canUpgrade": true,
       "img": "assets/cards/corrosivespit.png",
       "stats": {
         "damage": null,
@@ -40559,6 +41324,7 @@
       },
       "cost": 1,
       "upgradeCost": null,
+      "canUpgrade": true,
       "img": "assets/cards/defendslimeboss.png",
       "stats": {
         "damage": null,
@@ -40611,6 +41377,7 @@
       },
       "cost": 1,
       "upgradeCost": null,
+      "canUpgrade": true,
       "img": "assets/cards/divideconquer.png",
       "stats": {
         "damage": 10,
@@ -40669,6 +41436,7 @@
       },
       "cost": 0,
       "upgradeCost": null,
+      "canUpgrade": true,
       "img": "assets/cards/doublelick.png",
       "stats": {
         "damage": null,
@@ -40724,7 +41492,8 @@
         "zh": "史莱姆老大"
       },
       "cost": 3,
-      "upgradeCost": null,
+      "upgradeCost": 2,
+      "canUpgrade": true,
       "img": "assets/cards/douseinslime.png",
       "stats": {
         "damage": null,
@@ -40779,6 +41548,7 @@
       },
       "cost": 3,
       "upgradeCost": null,
+      "canUpgrade": true,
       "img": "assets/cards/duplicatedform.png",
       "stats": {
         "damage": null,
@@ -40833,6 +41603,7 @@
       },
       "cost": 2,
       "upgradeCost": null,
+      "canUpgrade": true,
       "img": "assets/cards/equalize.png",
       "stats": {
         "damage": 8,
@@ -40887,6 +41658,7 @@
       },
       "cost": 2,
       "upgradeCost": null,
+      "canUpgrade": true,
       "img": "assets/cards/flametackle.png",
       "stats": {
         "damage": 18,
@@ -40943,6 +41715,7 @@
       },
       "cost": 2,
       "upgradeCost": null,
+      "canUpgrade": true,
       "img": "assets/cards/formofwall.png",
       "stats": {
         "damage": null,
@@ -40997,6 +41770,7 @@
       },
       "cost": 2,
       "upgradeCost": null,
+      "canUpgrade": true,
       "img": "assets/cards/forwardtackle.png",
       "stats": {
         "damage": 18,
@@ -41053,6 +41827,7 @@
       },
       "cost": 2,
       "upgradeCost": null,
+      "canUpgrade": true,
       "img": "assets/cards/glopchop.png",
       "stats": {
         "damage": 12,
@@ -41107,6 +41882,7 @@
       },
       "cost": 1,
       "upgradeCost": null,
+      "canUpgrade": true,
       "img": "assets/cards/gluttony.png",
       "stats": {
         "damage": null,
@@ -41159,6 +41935,7 @@
       },
       "cost": 1,
       "upgradeCost": null,
+      "canUpgrade": true,
       "img": "assets/cards/gooparmor.png",
       "stats": {
         "damage": null,
@@ -41211,6 +41988,7 @@
       },
       "cost": 1,
       "upgradeCost": null,
+      "canUpgrade": true,
       "img": "assets/cards/goopspray.png",
       "stats": {
         "damage": null,
@@ -41264,7 +42042,8 @@
         "zh": "史莱姆老大"
       },
       "cost": 2,
-      "upgradeCost": null,
+      "upgradeCost": 1,
+      "canUpgrade": true,
       "img": "assets/cards/grow.png",
       "stats": {
         "damage": null,
@@ -41319,6 +42098,7 @@
       },
       "cost": 1,
       "upgradeCost": null,
+      "canUpgrade": true,
       "img": "assets/cards/growthpunch.png",
       "stats": {
         "damage": 4,
@@ -41379,6 +42159,7 @@
       },
       "cost": 0,
       "upgradeCost": null,
+      "canUpgrade": true,
       "img": "assets/cards/hauntinglick.png",
       "stats": {
         "damage": null,
@@ -41435,6 +42216,7 @@
       },
       "cost": 1,
       "upgradeCost": null,
+      "canUpgrade": true,
       "img": "assets/cards/hungrytackle.png",
       "stats": {
         "damage": 18,
@@ -41491,6 +42273,7 @@
       },
       "cost": 1,
       "upgradeCost": null,
+      "canUpgrade": true,
       "img": "assets/cards/itlookstasty.png",
       "stats": {
         "damage": 8,
@@ -41543,6 +42326,7 @@
       },
       "cost": 1,
       "upgradeCost": null,
+      "canUpgrade": true,
       "img": "assets/cards/justdesserts.png",
       "stats": {
         "damage": 5,
@@ -41597,6 +42381,7 @@
       },
       "cost": 1,
       "upgradeCost": null,
+      "canUpgrade": true,
       "img": "assets/cards/leadbyexample.png",
       "stats": {
         "damage": null,
@@ -41649,6 +42434,7 @@
       },
       "cost": 1,
       "upgradeCost": null,
+      "canUpgrade": true,
       "img": "assets/cards/leechingstrike.png",
       "stats": {
         "damage": 5,
@@ -41701,6 +42487,7 @@
       },
       "cost": 1,
       "upgradeCost": null,
+      "canUpgrade": true,
       "img": "assets/cards/leechenergy.png",
       "stats": {
         "damage": 5,
@@ -41757,6 +42544,7 @@
       },
       "cost": 2,
       "upgradeCost": null,
+      "canUpgrade": true,
       "img": "assets/cards/leechlife.png",
       "stats": {
         "damage": 8,
@@ -41809,6 +42597,7 @@
       },
       "cost": 1,
       "upgradeCost": null,
+      "canUpgrade": true,
       "img": "assets/cards/levelup.png",
       "stats": {
         "damage": null,
@@ -41861,6 +42650,7 @@
       },
       "cost": 0,
       "upgradeCost": null,
+      "canUpgrade": true,
       "img": "assets/cards/lick.png",
       "stats": {
         "damage": null,
@@ -41913,6 +42703,7 @@
       },
       "cost": 0,
       "upgradeCost": null,
+      "canUpgrade": true,
       "img": "assets/cards/liquidate.png",
       "stats": {
         "damage": null,
@@ -41967,6 +42758,7 @@
       },
       "cost": 2,
       "upgradeCost": null,
+      "canUpgrade": true,
       "img": "assets/cards/massfeed.png",
       "stats": {
         "damage": 10,
@@ -42023,6 +42815,7 @@
       },
       "cost": 0,
       "upgradeCost": null,
+      "canUpgrade": true,
       "img": "assets/cards/massrepurpose.png",
       "stats": {
         "damage": null,
@@ -42075,6 +42868,7 @@
       },
       "cost": 0,
       "upgradeCost": null,
+      "canUpgrade": true,
       "img": "assets/cards/megalick.png",
       "stats": {
         "damage": null,
@@ -42131,6 +42925,7 @@
       },
       "cost": 1,
       "upgradeCost": null,
+      "canUpgrade": true,
       "img": "assets/cards/minionmaster.png",
       "stats": {
         "damage": null,
@@ -42183,6 +42978,7 @@
       },
       "cost": 0,
       "upgradeCost": null,
+      "canUpgrade": true,
       "img": "assets/cards/nibbleandlick.png",
       "stats": {
         "damage": 4,
@@ -42237,6 +43033,7 @@
       },
       "cost": 0,
       "upgradeCost": null,
+      "canUpgrade": true,
       "img": "assets/cards/onetwocombo.png",
       "stats": {
         "damage": 4,
@@ -42291,6 +43088,7 @@
       },
       "cost": 1,
       "upgradeCost": null,
+      "canUpgrade": true,
       "img": "assets/cards/oozebath.png",
       "stats": {
         "damage": null,
@@ -42343,6 +43141,7 @@
       },
       "cost": 1,
       "upgradeCost": null,
+      "canUpgrade": true,
       "img": "assets/cards/openingtackle.png",
       "stats": {
         "damage": 12,
@@ -42399,6 +43198,7 @@
       },
       "cost": 1,
       "upgradeCost": null,
+      "canUpgrade": true,
       "img": "assets/cards/overexert.png",
       "stats": {
         "damage": null,
@@ -42455,6 +43255,7 @@
       },
       "cost": 2,
       "upgradeCost": null,
+      "canUpgrade": true,
       "img": "assets/cards/pileon.png",
       "stats": {
         "damage": 8,
@@ -42509,6 +43310,7 @@
       },
       "cost": 2,
       "upgradeCost": null,
+      "canUpgrade": true,
       "img": "assets/cards/prepare.png",
       "stats": {
         "damage": null,
@@ -42567,6 +43369,7 @@
       },
       "cost": 2,
       "upgradeCost": null,
+      "canUpgrade": true,
       "img": "assets/cards/preparecrush.png",
       "stats": {
         "damage": null,
@@ -42623,6 +43426,7 @@
       },
       "cost": 1,
       "upgradeCost": null,
+      "canUpgrade": true,
       "img": "assets/cards/presstheattack.png",
       "stats": {
         "damage": 9,
@@ -42676,7 +43480,8 @@
         "zh": "史莱姆老大"
       },
       "cost": 1,
-      "upgradeCost": null,
+      "upgradeCost": 0,
+      "canUpgrade": true,
       "img": "assets/cards/protecttheboss.png",
       "stats": {
         "damage": null,
@@ -42729,6 +43534,7 @@
       },
       "cost": 0,
       "upgradeCost": null,
+      "canUpgrade": true,
       "img": "assets/cards/quicksnack.png",
       "stats": {
         "damage": null,
@@ -42781,6 +43587,7 @@
       },
       "cost": 1,
       "upgradeCost": null,
+      "canUpgrade": true,
       "img": "assets/cards/rainofgoop.png",
       "stats": {
         "damage": null,
@@ -42835,6 +43642,7 @@
       },
       "cost": 1,
       "upgradeCost": null,
+      "canUpgrade": true,
       "img": "assets/cards/rallythetroops.png",
       "stats": {
         "damage": 7,
@@ -42889,6 +43697,7 @@
       },
       "cost": 1,
       "upgradeCost": null,
+      "canUpgrade": true,
       "img": "assets/cards/recklessness.png",
       "stats": {
         "damage": null,
@@ -42943,6 +43752,7 @@
       },
       "cost": 1,
       "upgradeCost": null,
+      "canUpgrade": true,
       "img": "assets/cards/recollect.png",
       "stats": {
         "damage": null,
@@ -42997,6 +43807,7 @@
       },
       "cost": 1,
       "upgradeCost": null,
+      "canUpgrade": true,
       "img": "assets/cards/recycling.png",
       "stats": {
         "damage": null,
@@ -43049,6 +43860,7 @@
       },
       "cost": 1,
       "upgradeCost": null,
+      "canUpgrade": true,
       "img": "assets/cards/reformation.png",
       "stats": {
         "damage": null,
@@ -43102,7 +43914,8 @@
         "zh": "史莱姆老大"
       },
       "cost": 1,
-      "upgradeCost": null,
+      "upgradeCost": 0,
+      "canUpgrade": true,
       "img": "assets/cards/replication.png",
       "stats": {
         "damage": null,
@@ -43151,6 +43964,7 @@
       },
       "cost": 0,
       "upgradeCost": null,
+      "canUpgrade": true,
       "img": "assets/cards/repurpose.png",
       "stats": {
         "damage": null,
@@ -43203,6 +44017,7 @@
       },
       "cost": 1,
       "upgradeCost": null,
+      "canUpgrade": true,
       "img": "assets/cards/rollthrough.png",
       "stats": {
         "damage": 6,
@@ -43257,6 +44072,7 @@
       },
       "cost": 0,
       "upgradeCost": null,
+      "canUpgrade": true,
       "img": "assets/cards/samplinglick.png",
       "stats": {
         "damage": null,
@@ -43313,6 +44129,7 @@
       },
       "cost": 1,
       "upgradeCost": null,
+      "canUpgrade": true,
       "img": "assets/cards/schlurp.png",
       "stats": {
         "damage": null,
@@ -43367,6 +44184,7 @@
       },
       "cost": 1,
       "upgradeCost": null,
+      "canUpgrade": true,
       "img": "assets/cards/serveprotect.png",
       "stats": {
         "damage": null,
@@ -43426,7 +44244,8 @@
         "zh": "史莱姆老大"
       },
       "cost": 2,
-      "upgradeCost": null,
+      "upgradeCost": 1,
+      "canUpgrade": true,
       "img": "assets/cards/shapeofpuddle.png",
       "stats": {
         "damage": null,
@@ -43478,7 +44297,8 @@
         "zh": "史莱姆老大"
       },
       "cost": 3,
-      "upgradeCost": null,
+      "upgradeCost": 2,
+      "canUpgrade": true,
       "img": "assets/cards/slimebrawl.png",
       "stats": {
         "damage": null,
@@ -43527,6 +44347,7 @@
       },
       "cost": 4,
       "upgradeCost": null,
+      "canUpgrade": true,
       "img": "assets/cards/slimecrush.png",
       "stats": {
         "damage": 35,
@@ -43578,7 +44399,8 @@
         "zh": "史莱姆老大"
       },
       "cost": 2,
-      "upgradeCost": null,
+      "upgradeCost": 1,
+      "canUpgrade": true,
       "img": "assets/cards/slimeslap.png",
       "stats": {
         "damage": 8,
@@ -43633,6 +44455,7 @@
       },
       "cost": 1,
       "upgradeCost": null,
+      "canUpgrade": true,
       "img": "assets/cards/slimespikes.png",
       "stats": {
         "damage": null,
@@ -43687,6 +44510,7 @@
       },
       "cost": 0,
       "upgradeCost": null,
+      "canUpgrade": true,
       "img": "assets/cards/slimetap.png",
       "stats": {
         "damage": null,
@@ -43741,6 +44565,7 @@
       },
       "cost": 1,
       "upgradeCost": null,
+      "canUpgrade": true,
       "img": "assets/cards/speartackle.png",
       "stats": {
         "damage": 11,
@@ -43796,7 +44621,8 @@
         "zh": "史莱姆老大"
       },
       "cost": 1,
-      "upgradeCost": null,
+      "upgradeCost": 0,
+      "canUpgrade": true,
       "img": "assets/cards/split.png",
       "stats": {
         "damage": null,
@@ -43849,6 +44675,7 @@
       },
       "cost": 1,
       "upgradeCost": null,
+      "canUpgrade": true,
       "img": "assets/cards/splitbruiser.png",
       "stats": {
         "damage": null,
@@ -43901,6 +44728,7 @@
       },
       "cost": 1,
       "upgradeCost": null,
+      "canUpgrade": true,
       "img": "assets/cards/splitguerilla.png",
       "stats": {
         "damage": null,
@@ -43953,6 +44781,7 @@
       },
       "cost": 1,
       "upgradeCost": null,
+      "canUpgrade": true,
       "img": "assets/cards/splitleeching.png",
       "stats": {
         "damage": null,
@@ -44005,6 +44834,7 @@
       },
       "cost": 1,
       "upgradeCost": null,
+      "canUpgrade": true,
       "img": "assets/cards/splitmire.png",
       "stats": {
         "damage": null,
@@ -44057,6 +44887,7 @@
       },
       "cost": 1,
       "upgradeCost": null,
+      "canUpgrade": true,
       "img": "assets/cards/splitspecialist.png",
       "stats": {
         "damage": null,
@@ -44109,6 +44940,7 @@
       },
       "cost": 2,
       "upgradeCost": null,
+      "canUpgrade": true,
       "img": "assets/cards/spreadingslime.png",
       "stats": {
         "damage": null,
@@ -44161,6 +44993,7 @@
       },
       "cost": 1,
       "upgradeCost": null,
+      "canUpgrade": true,
       "img": "assets/cards/strikeslimeboss.png",
       "stats": {
         "damage": 6,
@@ -44213,6 +45046,7 @@
       },
       "cost": 1,
       "upgradeCost": null,
+      "canUpgrade": true,
       "img": "assets/cards/tackle.png",
       "stats": {
         "damage": 13,
@@ -44267,6 +45101,7 @@
       },
       "cost": 1,
       "upgradeCost": null,
+      "canUpgrade": true,
       "img": "assets/cards/teamwork.png",
       "stats": {
         "damage": null,
@@ -44321,6 +45156,7 @@
       },
       "cost": 1,
       "upgradeCost": null,
+      "canUpgrade": true,
       "img": "assets/cards/tonguelash.png",
       "stats": {
         "damage": null,
@@ -44375,6 +45211,7 @@
       },
       "cost": 2,
       "upgradeCost": null,
+      "canUpgrade": true,
       "img": "assets/cards/vicioustackle.png",
       "stats": {
         "damage": 17,
@@ -44429,6 +45266,7 @@
       },
       "cost": 2,
       "upgradeCost": null,
+      "canUpgrade": true,
       "img": "assets/cards/wastenot.png",
       "stats": {
         "damage": null,
@@ -44481,6 +45319,7 @@
       },
       "cost": 0,
       "upgradeCost": null,
+      "canUpgrade": true,
       "img": null,
       "stats": {
         "damage": 6,
@@ -44533,6 +45372,7 @@
       },
       "cost": 3,
       "upgradeCost": null,
+      "canUpgrade": false,
       "img": "assets/cards/amass.png",
       "stats": {
         "damage": null,
@@ -44587,6 +45427,7 @@
       },
       "cost": 1,
       "upgradeCost": null,
+      "canUpgrade": true,
       "img": "assets/cards/behold.png",
       "stats": {
         "damage": 6,
@@ -44641,6 +45482,7 @@
       },
       "cost": 1,
       "upgradeCost": null,
+      "canUpgrade": true,
       "img": "assets/cards/belittle.png",
       "stats": {
         "damage": null,
@@ -44695,6 +45537,7 @@
       },
       "cost": 1,
       "upgradeCost": null,
+      "canUpgrade": true,
       "img": "assets/cards/beyondarmor.png",
       "stats": {
         "damage": null,
@@ -44749,6 +45592,7 @@
       },
       "cost": 1,
       "upgradeCost": null,
+      "canUpgrade": true,
       "img": "assets/cards/blunderbus.png",
       "stats": {
         "damage": 8,
@@ -44803,6 +45647,7 @@
       },
       "cost": 0,
       "upgradeCost": null,
+      "canUpgrade": true,
       "img": "assets/cards/blunderguard.png",
       "stats": {
         "damage": null,
@@ -44857,6 +45702,7 @@
       },
       "cost": 1,
       "upgradeCost": null,
+      "canUpgrade": true,
       "img": "assets/cards/cheapstock.png",
       "stats": {
         "damage": null,
@@ -44909,6 +45755,7 @@
       },
       "cost": 4,
       "upgradeCost": null,
+      "canUpgrade": true,
       "img": "assets/cards/cobracoil.png",
       "stats": {
         "damage": 20,
@@ -44963,6 +45810,7 @@
       },
       "cost": 1,
       "upgradeCost": null,
+      "canUpgrade": true,
       "img": "assets/cards/combostring.png",
       "stats": {
         "damage": 7,
@@ -45021,6 +45869,7 @@
       },
       "cost": 2,
       "upgradeCost": null,
+      "canUpgrade": true,
       "img": "assets/cards/cower.png",
       "stats": {
         "damage": null,
@@ -45075,6 +45924,7 @@
       },
       "cost": 1,
       "upgradeCost": null,
+      "canUpgrade": true,
       "img": "assets/cards/crystalboomerang.png",
       "stats": {
         "damage": null,
@@ -45129,6 +45979,7 @@
       },
       "cost": 1,
       "upgradeCost": null,
+      "canUpgrade": true,
       "img": "assets/cards/dangernoodle.png",
       "stats": {
         "damage": 14,
@@ -45183,6 +46034,7 @@
       },
       "cost": 2,
       "upgradeCost": null,
+      "canUpgrade": true,
       "img": "assets/cards/deception.png",
       "stats": {
         "damage": null,
@@ -45241,6 +46093,7 @@
       },
       "cost": 1,
       "upgradeCost": null,
+      "canUpgrade": true,
       "img": "assets/cards/defendsnecko.png",
       "stats": {
         "damage": null,
@@ -45293,6 +46146,7 @@
       },
       "cost": 1,
       "upgradeCost": null,
+      "canUpgrade": true,
       "img": "assets/cards/defensiveflair.png",
       "stats": {
         "damage": null,
@@ -45347,6 +46201,7 @@
       },
       "cost": 1,
       "upgradeCost": null,
+      "canUpgrade": true,
       "img": "assets/cards/diceblock.png",
       "stats": {
         "damage": null,
@@ -45399,6 +46254,7 @@
       },
       "cost": 0,
       "upgradeCost": null,
+      "canUpgrade": true,
       "img": "assets/cards/diceboulder.png",
       "stats": {
         "damage": null,
@@ -45459,6 +46315,7 @@
       },
       "cost": 3,
       "upgradeCost": null,
+      "canUpgrade": true,
       "img": null,
       "stats": {
         "damage": null,
@@ -45511,6 +46368,7 @@
       },
       "cost": 2,
       "upgradeCost": null,
+      "canUpgrade": true,
       "img": "assets/cards/dicecrush.png",
       "stats": {
         "damage": 18,
@@ -45565,6 +46423,7 @@
       },
       "cost": 0,
       "upgradeCost": null,
+      "canUpgrade": true,
       "img": "assets/cards/discountsale.png",
       "stats": {
         "damage": null,
@@ -45619,6 +46478,7 @@
       },
       "cost": 3,
       "upgradeCost": null,
+      "canUpgrade": true,
       "img": "assets/cards/dragonshoard.png",
       "stats": {
         "damage": null,
@@ -45673,6 +46533,7 @@
       },
       "cost": 3,
       "upgradeCost": null,
+      "canUpgrade": true,
       "img": "assets/cards/exoticform.png",
       "stats": {
         "damage": null,
@@ -45725,6 +46586,7 @@
       },
       "cost": 1,
       "upgradeCost": null,
+      "canUpgrade": true,
       "img": "assets/cards/finalstrike.png",
       "stats": {
         "damage": 6,
@@ -45783,6 +46645,7 @@
       },
       "cost": 2,
       "upgradeCost": null,
+      "canUpgrade": true,
       "img": "assets/cards/flashinthepan.png",
       "stats": {
         "damage": null,
@@ -45835,6 +46698,7 @@
       },
       "cost": 2,
       "upgradeCost": null,
+      "canUpgrade": true,
       "img": "assets/cards/flurry.png",
       "stats": {
         "damage": 13,
@@ -45888,7 +46752,8 @@
         "zh": "异蛇"
       },
       "cost": 3,
-      "upgradeCost": null,
+      "upgradeCost": 2,
+      "canUpgrade": true,
       "img": null,
       "stats": {
         "damage": null,
@@ -45941,6 +46806,7 @@
       },
       "cost": 1,
       "upgradeCost": null,
+      "canUpgrade": true,
       "img": "assets/cards/fountain.png",
       "stats": {
         "damage": null,
@@ -45993,6 +46859,7 @@
       },
       "cost": 1,
       "upgradeCost": null,
+      "canUpgrade": true,
       "img": "assets/cards/gildedshield.png",
       "stats": {
         "damage": null,
@@ -46045,6 +46912,7 @@
       },
       "cost": -1,
       "upgradeCost": null,
+      "canUpgrade": true,
       "img": "assets/cards/glitteringgambit.png",
       "stats": {
         "damage": null,
@@ -46097,6 +46965,7 @@
       },
       "cost": 2,
       "upgradeCost": null,
+      "canUpgrade": true,
       "img": null,
       "stats": {
         "damage": 12,
@@ -46159,6 +47028,7 @@
       },
       "cost": 1,
       "upgradeCost": null,
+      "canUpgrade": true,
       "img": "assets/cards/holeup.png",
       "stats": {
         "damage": null,
@@ -46213,6 +47083,7 @@
       },
       "cost": 0,
       "upgradeCost": null,
+      "canUpgrade": true,
       "img": "assets/cards/inertblade.png",
       "stats": {
         "damage": 10,
@@ -46271,6 +47142,7 @@
       },
       "cost": 1,
       "upgradeCost": null,
+      "canUpgrade": true,
       "img": "assets/cards/ironfang.png",
       "stats": {
         "damage": 6,
@@ -46325,6 +47197,7 @@
       },
       "cost": 3,
       "upgradeCost": null,
+      "canUpgrade": true,
       "img": "assets/cards/jackpot.png",
       "stats": {
         "damage": null,
@@ -46377,6 +47250,7 @@
       },
       "cost": 2,
       "upgradeCost": null,
+      "canUpgrade": true,
       "img": "assets/cards/lacerate.png",
       "stats": {
         "damage": null,
@@ -46429,6 +47303,7 @@
       },
       "cost": 3,
       "upgradeCost": null,
+      "canUpgrade": true,
       "img": "assets/cards/lasereyes.png",
       "stats": {
         "damage": 15,
@@ -46483,6 +47358,7 @@
       },
       "cost": 1,
       "upgradeCost": null,
+      "canUpgrade": true,
       "img": "assets/cards/latchon.png",
       "stats": {
         "damage": 7,
@@ -46535,6 +47411,7 @@
       },
       "cost": 1,
       "upgradeCost": null,
+      "canUpgrade": true,
       "img": "assets/cards/lilguardian.png",
       "stats": {
         "damage": null,
@@ -46589,6 +47466,7 @@
       },
       "cost": 1,
       "upgradeCost": null,
+      "canUpgrade": true,
       "img": "assets/cards/luckybreak.png",
       "stats": {
         "damage": null,
@@ -46645,6 +47523,7 @@
       },
       "cost": 1,
       "upgradeCost": null,
+      "canUpgrade": true,
       "img": "assets/cards/makeshiftblade.png",
       "stats": {
         "damage": 9,
@@ -46705,6 +47584,7 @@
       },
       "cost": 0,
       "upgradeCost": null,
+      "canUpgrade": true,
       "img": "assets/cards/markedcard.png",
       "stats": {
         "damage": null,
@@ -46757,6 +47637,7 @@
       },
       "cost": 1,
       "upgradeCost": null,
+      "canUpgrade": true,
       "img": "assets/cards/medusa.png",
       "stats": {
         "damage": 6,
@@ -46809,6 +47690,7 @@
       },
       "cost": 1,
       "upgradeCost": null,
+      "canUpgrade": true,
       "img": "assets/cards/mesmerize.png",
       "stats": {
         "damage": null,
@@ -46863,6 +47745,7 @@
       },
       "cost": 1,
       "upgradeCost": null,
+      "canUpgrade": true,
       "img": null,
       "stats": {
         "damage": null,
@@ -46915,6 +47798,7 @@
       },
       "cost": 1,
       "upgradeCost": null,
+      "canUpgrade": true,
       "img": "assets/cards/mintcondition.png",
       "stats": {
         "damage": null,
@@ -46967,6 +47851,7 @@
       },
       "cost": 1,
       "upgradeCost": null,
+      "canUpgrade": true,
       "img": "assets/cards/mudshield.png",
       "stats": {
         "damage": null,
@@ -47019,6 +47904,7 @@
       },
       "cost": 1,
       "upgradeCost": null,
+      "canUpgrade": true,
       "img": null,
       "stats": {
         "damage": null,
@@ -47071,6 +47957,7 @@
       },
       "cost": 1,
       "upgradeCost": null,
+      "canUpgrade": true,
       "img": "assets/cards/nope.png",
       "stats": {
         "damage": null,
@@ -47123,6 +48010,7 @@
       },
       "cost": 1,
       "upgradeCost": null,
+      "canUpgrade": true,
       "img": "assets/cards/otherworldlyslash.png",
       "stats": {
         "damage": 7,
@@ -47175,6 +48063,7 @@
       },
       "cost": 1,
       "upgradeCost": null,
+      "canUpgrade": true,
       "img": "assets/cards/overwhelming.png",
       "stats": {
         "damage": null,
@@ -47227,6 +48116,7 @@
       },
       "cost": 2,
       "upgradeCost": null,
+      "canUpgrade": true,
       "img": "assets/cards/perpetualserpent.png",
       "stats": {
         "damage": 20,
@@ -47281,6 +48171,7 @@
       },
       "cost": 0,
       "upgradeCost": null,
+      "canUpgrade": true,
       "img": "assets/cards/powershot.png",
       "stats": {
         "damage": 5,
@@ -47333,6 +48224,7 @@
       },
       "cost": 3,
       "upgradeCost": null,
+      "canUpgrade": true,
       "img": "assets/cards/queenofpentacles.png",
       "stats": {
         "damage": null,
@@ -47385,6 +48277,7 @@
       },
       "cost": 1,
       "upgradeCost": null,
+      "canUpgrade": true,
       "img": "assets/cards/quickmove.png",
       "stats": {
         "damage": null,
@@ -47439,6 +48332,7 @@
       },
       "cost": 1,
       "upgradeCost": null,
+      "canUpgrade": true,
       "img": "assets/cards/rainofdice.png",
       "stats": {
         "damage": 6,
@@ -47493,6 +48387,7 @@
       },
       "cost": 1,
       "upgradeCost": null,
+      "canUpgrade": true,
       "img": null,
       "stats": {
         "damage": null,
@@ -47546,7 +48441,8 @@
         "zh": "异蛇"
       },
       "cost": 1,
-      "upgradeCost": null,
+      "upgradeCost": 0,
+      "canUpgrade": true,
       "img": "assets/cards/restock.png",
       "stats": {
         "damage": null,
@@ -47599,6 +48495,7 @@
       },
       "cost": 1,
       "upgradeCost": null,
+      "canUpgrade": true,
       "img": "assets/cards/riskysword.png",
       "stats": {
         "damage": 8,
@@ -47657,6 +48554,7 @@
       },
       "cost": 1,
       "upgradeCost": null,
+      "canUpgrade": true,
       "img": "assets/cards/roundaboutswing.png",
       "stats": {
         "damage": 8,
@@ -47711,6 +48609,7 @@
       },
       "cost": 1,
       "upgradeCost": null,
+      "canUpgrade": true,
       "img": "assets/cards/saveforlater.png",
       "stats": {
         "damage": 8,
@@ -47765,6 +48664,7 @@
       },
       "cost": 4,
       "upgradeCost": null,
+      "canUpgrade": true,
       "img": "assets/cards/serpentinesleuth.png",
       "stats": {
         "damage": null,
@@ -47819,6 +48719,7 @@
       },
       "cost": 1,
       "upgradeCost": null,
+      "canUpgrade": true,
       "img": "assets/cards/serpentscale.png",
       "stats": {
         "damage": 9,
@@ -47873,6 +48774,7 @@
       },
       "cost": 1,
       "upgradeCost": null,
+      "canUpgrade": true,
       "img": "assets/cards/serpentsnest.png",
       "stats": {
         "damage": null,
@@ -47924,7 +48826,8 @@
         "zh": "异蛇"
       },
       "cost": 1,
-      "upgradeCost": null,
+      "upgradeCost": 0,
+      "canUpgrade": true,
       "img": "assets/cards/serpentidol.png",
       "stats": {
         "damage": null,
@@ -47977,6 +48880,7 @@
       },
       "cost": 2,
       "upgradeCost": null,
+      "canUpgrade": true,
       "img": null,
       "stats": {
         "damage": null,
@@ -48025,6 +48929,7 @@
       },
       "cost": 1,
       "upgradeCost": null,
+      "canUpgrade": true,
       "img": null,
       "stats": {
         "damage": null,
@@ -48077,6 +48982,7 @@
       },
       "cost": 1,
       "upgradeCost": null,
+      "canUpgrade": true,
       "img": "assets/cards/shift.png",
       "stats": {
         "damage": null,
@@ -48129,6 +49035,7 @@
       },
       "cost": 2,
       "upgradeCost": null,
+      "canUpgrade": true,
       "img": "assets/cards/slitherthrough.png",
       "stats": {
         "damage": 14,
@@ -48183,6 +49090,7 @@
       },
       "cost": 1,
       "upgradeCost": null,
+      "canUpgrade": true,
       "img": "assets/cards/snakeeyes.png",
       "stats": {
         "damage": null,
@@ -48235,6 +49143,7 @@
       },
       "cost": 1,
       "upgradeCost": null,
+      "canUpgrade": true,
       "img": "assets/cards/snakerake.png",
       "stats": {
         "damage": 7,
@@ -48289,6 +49198,7 @@
       },
       "cost": 1,
       "upgradeCost": null,
+      "canUpgrade": true,
       "img": null,
       "stats": {
         "damage": null,
@@ -48343,6 +49253,7 @@
       },
       "cost": 1,
       "upgradeCost": null,
+      "canUpgrade": true,
       "img": "assets/cards/snekbite.png",
       "stats": {
         "damage": 8,
@@ -48396,7 +49307,8 @@
         "zh": "异蛇"
       },
       "cost": 1,
-      "upgradeCost": null,
+      "upgradeCost": 0,
+      "canUpgrade": true,
       "img": "assets/cards/souldraw.png",
       "stats": {
         "damage": null,
@@ -48448,7 +49360,8 @@
         "zh": "异蛇"
       },
       "cost": 1,
-      "upgradeCost": null,
+      "upgradeCost": 0,
+      "canUpgrade": true,
       "img": "assets/cards/soulexchange.png",
       "stats": {
         "damage": null,
@@ -48496,7 +49409,8 @@
         "zh": "异蛇"
       },
       "cost": 1,
-      "upgradeCost": null,
+      "upgradeCost": 0,
+      "canUpgrade": true,
       "img": null,
       "stats": {
         "damage": null,
@@ -48545,6 +49459,7 @@
       },
       "cost": 0,
       "upgradeCost": null,
+      "canUpgrade": true,
       "img": "assets/cards/soulroll.png",
       "stats": {
         "damage": null,
@@ -48597,6 +49512,7 @@
       },
       "cost": 0,
       "upgradeCost": null,
+      "canUpgrade": true,
       "img": null,
       "stats": {
         "damage": null,
@@ -48649,6 +49565,7 @@
       },
       "cost": 1,
       "upgradeCost": null,
+      "canUpgrade": true,
       "img": null,
       "stats": {
         "damage": null,
@@ -48701,6 +49618,7 @@
       },
       "cost": 1,
       "upgradeCost": null,
+      "canUpgrade": true,
       "img": "assets/cards/strikesnecko.png",
       "stats": {
         "damage": 6,
@@ -48753,6 +49671,7 @@
       },
       "cost": 2,
       "upgradeCost": null,
+      "canUpgrade": true,
       "img": "assets/cards/tailwhip.png",
       "stats": {
         "damage": 10,
@@ -48809,6 +49728,7 @@
       },
       "cost": 1,
       "upgradeCost": null,
+      "canUpgrade": true,
       "img": "assets/cards/throwingcards.png",
       "stats": {
         "damage": null,
@@ -48857,6 +49777,7 @@
       },
       "cost": 1,
       "upgradeCost": null,
+      "canUpgrade": true,
       "img": "assets/cards/toothandclaw.png",
       "stats": {
         "damage": 4,
@@ -48908,7 +49829,8 @@
         "zh": "异蛇"
       },
       "cost": 1,
-      "upgradeCost": null,
+      "upgradeCost": 0,
+      "canUpgrade": true,
       "img": "assets/cards/trashcan.png",
       "stats": {
         "damage": null,
@@ -48961,6 +49883,7 @@
       },
       "cost": 1,
       "upgradeCost": null,
+      "canUpgrade": true,
       "img": "assets/cards/trashtotreasure.png",
       "stats": {
         "damage": null,
@@ -49013,6 +49936,7 @@
       },
       "cost": 1,
       "upgradeCost": null,
+      "canUpgrade": true,
       "img": "assets/cards/tsunami.png",
       "stats": {
         "damage": null,
@@ -49065,6 +49989,7 @@
       },
       "cost": 1,
       "upgradeCost": null,
+      "canUpgrade": true,
       "img": "assets/cards/typhoonfang.png",
       "stats": {
         "damage": 12,
@@ -49119,6 +50044,7 @@
       },
       "cost": 2,
       "upgradeCost": null,
+      "canUpgrade": true,
       "img": "assets/cards/unendingsupply.png",
       "stats": {
         "damage": null,
@@ -49171,6 +50097,7 @@
       },
       "cost": 0,
       "upgradeCost": null,
+      "canUpgrade": true,
       "img": "assets/cards/viperessence.png",
       "stats": {
         "damage": null,
@@ -49222,7 +50149,8 @@
         "zh": "异蛇"
       },
       "cost": 1,
-      "upgradeCost": null,
+      "upgradeCost": 0,
+      "canUpgrade": true,
       "img": null,
       "stats": {
         "damage": null,
@@ -49275,6 +50203,7 @@
       },
       "cost": 2,
       "upgradeCost": null,
+      "canUpgrade": true,
       "img": "assets/cards/whack.png",
       "stats": {
         "damage": 8,
@@ -49329,6 +50258,7 @@
       },
       "cost": 2,
       "upgradeCost": null,
+      "canUpgrade": true,
       "img": null,
       "stats": {
         "damage": 12,
@@ -49387,6 +50317,7 @@
       },
       "cost": 3,
       "upgradeCost": null,
+      "canUpgrade": true,
       "img": "assets/cards/wideangle.png",
       "stats": {
         "damage": 18,
@@ -49439,6 +50370,7 @@
       },
       "cost": 1,
       "upgradeCost": null,
+      "canUpgrade": true,
       "img": "assets/cards/widesting.png",
       "stats": {
         "damage": 7,
