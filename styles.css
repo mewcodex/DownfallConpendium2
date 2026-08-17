@@ -291,14 +291,15 @@ select {
 .card {
   --rarity-frame: var(--border);
   --rarity-glow: transparent;
-  background: #efede7;
-  border-radius: 18px;
-  border: 5px solid var(--rarity-frame);
+  background: #171311;
+  border-radius: 10px;
+  border: 2px solid var(--rarity-frame);
   box-shadow: var(--shadow), 0 0 14px 1px var(--rarity-glow);
   overflow: hidden;
   display: flex;
   flex-direction: column;
-  min-height: 320px;
+  aspect-ratio: 598 / 844;
+  min-height: 0;
   position: relative;
   animation: riseIn 0.45s ease both;
 }
@@ -345,15 +346,112 @@ select {
   color: #f4ecdd;
 }
 
-.card > img {
+.card-visual {
+  position: relative;
+  min-height: 0;
+  flex: 0 0 52%;
+  overflow: hidden;
+  background: #211a17;
+}
+
+.card-portrait,
+.card-portrait-border,
+.card-frame,
+.card-banner {
+  position: absolute;
+  inset: 0;
+  display: block;
   width: 100%;
-  height: 200px;
+  height: 100%;
+  pointer-events: none;
+}
+
+.card-portrait {
+  width: 100%;
+  height: 100%;
   object-fit: cover;
-  background: #f0ede6;
+  object-position: center 32%;
+  filter: saturate(0.95) contrast(1.04);
+  z-index: 1;
+}
+
+.card-frame {
+  z-index: 4;
+  background: url("assets/card-ui/frame-skill.png") center / 100% 100% no-repeat;
+}
+
+.card-visual-attack .card-frame {
+  background-image: url("assets/card-ui/frame-attack.png");
+}
+
+.card-visual-power .card-frame {
+  background-image: url("assets/card-ui/frame-power.png");
+}
+
+.card-portrait-border {
+  z-index: 3;
+  background: url("assets/card-ui/portrait-border.png") center / 100% 100% no-repeat;
+  opacity: 0.92;
+}
+
+.card-banner {
+  z-index: 5;
+  inset: auto 8% 3% 8%;
+  height: 19%;
+  background: url("assets/card-ui/banner.png") center / 100% 100% no-repeat;
+  opacity: 0.9;
+}
+
+.card-face-title {
+  position: absolute;
+  z-index: 6;
+  left: 14%;
+  right: 14%;
+  bottom: 7%;
+  text-align: center;
+  color: #f7efe0;
+  text-shadow: 0 2px 2px #21130d, 0 0 4px #21130d;
+}
+
+.card-face-title h3 {
+  margin: 0;
+  font-family: "Fraunces", "Times New Roman", serif;
+  font-size: clamp(0.9rem, 1.8vw, 1.28rem);
+  line-height: 1.05;
+}
+
+.card-face-title .card-id {
+  display: none;
+}
+
+.card-face-cost {
+  position: absolute;
+  z-index: 7;
+  top: 4%;
+  left: 5%;
+  width: 18%;
+  aspect-ratio: 1;
+  display: grid;
+  place-items: center;
+}
+
+.card-face-cost .card-cost-icon,
+.card-face-cost .card-cost-fallback-orb {
+  position: absolute;
+  inset: 0;
+}
+
+.card-face-cost .card-cost-value {
+  position: relative;
+  font-size: clamp(1rem, 2.4vw, 1.6rem);
+}
+
+.card-visual-missing {
+  background: #2b2521;
 }
 
 .placeholder {
-  height: 200px;
+  height: 100%;
   background: repeating-linear-gradient(
     -45deg,
     rgba(44, 111, 124, 0.08),
@@ -364,11 +462,25 @@ select {
 }
 
 .card-body {
+  flex: 1 1 auto;
+  min-height: 0;
+  background: linear-gradient(180deg, #eee4d2 0%, #dfd0b9 100%);
+  color: #211b17;
   padding: 14px 16px 18px;
   display: grid;
   gap: 8px;
   position: relative;
   padding-bottom: 40px;
+}
+
+.card-body .card-id,
+.card-body .card-desc {
+  color: #302820;
+}
+
+.card-body .card-title h3 {
+  color: #1d1713;
+  text-shadow: 0 1px rgba(255, 255, 255, 0.28);
 }
 
 .card-flag-not-in-pool {
