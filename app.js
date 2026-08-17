@@ -1739,6 +1739,7 @@ function buildCardElement(card, suppressAnimation = false, previewMode = false, 
   if (card.deprecated) classes.push("card-deprecated");
   if (card.rarity === "ANCIENT" && card.img) classes.push("card-ancient");
   if (card.color) classes.push(`card-color-${String(card.color).toLowerCase()}`);
+  if (card.rarity) classes.push(`card-rarity-${String(card.rarity).toLowerCase()}`);
   cardEl.className = classes.join(" ");
   const frameByRarity = {
     UNCOMMON: "rgba(108, 176, 232, 0.32)",
