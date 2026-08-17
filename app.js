@@ -1671,8 +1671,9 @@ function buildCardInnerHtml(card, descriptionHtml, options = {}) {
   const cardId = escapeHtml(card.id || "");
   const cost = formatCost(getDisplayCost(card, useUpgrade));
   const costClass = isCostUpgraded(card, useUpgrade) ? "card-cost-value upgraded" : "card-cost-value";
-  const costIcon = card.energyIcon
-    ? `<img class="card-cost-icon" src="${card.energyIcon}" alt="cost orb" loading="lazy">`
+  const energyIcon = card.color === "AUTOMATON" ? "assets/card-ui/energy-automaton.png" : card.energyIcon;
+  const costIcon = energyIcon
+    ? `<img class="card-cost-icon" src="${energyIcon}" alt="cost orb" loading="lazy">`
     : `<span class="card-cost-fallback-orb" aria-hidden="true"></span>`;
   const cardHeadingHtml = `
     <div class="card-face-title">
@@ -1690,6 +1691,7 @@ function buildCardInnerHtml(card, descriptionHtml, options = {}) {
         <span class="card-frame" aria-hidden="true"></span>
         <span class="card-banner" aria-hidden="true"></span>
         ${cardHeadingHtml}
+        <span class="card-face-type">${localizeType(card.type)}</span>
       </div>`
     : `<div class="card-visual card-visual-missing"><div class="placeholder"></div></div>`;
   const typeTagHtml = card.type
@@ -1708,9 +1710,8 @@ function buildCardInnerHtml(card, descriptionHtml, options = {}) {
     ? `<span class="tag tag-feature">${gemSlots} ${escapeHtml(card.gemSlotLabel[state.lang])}</span>`
     : "";
   const metaTagsHtml = card.type === "CURSE"
-    ? typeTagHtml
-    : `${typeTagHtml}
-        ${card.rarity ? `<span class="${getRarityTagClass(card.rarity)}">${localizeRarity(card.rarity)}</span>` : ""}
+    ? ""
+    : `${card.rarity ? `<span class="${getRarityTagClass(card.rarity)}">${localizeRarity(card.rarity)}</span>` : ""}
         ${card.color ? `<span class="tag tag-color"${colorTagStyle}>${localizeColor(card)}</span>` : ""}
         ${finisherTagHtml}
         ${gemSlotsTagHtml}`;
