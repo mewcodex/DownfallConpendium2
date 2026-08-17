@@ -1750,8 +1750,20 @@ function buildCardElement(card, suppressAnimation = false, previewMode = false, 
   cardEl.className = classes.join(" ");
   const rarityKey = { BASIC: "common", COMMON: "common", TOKEN: "common", UNCOMMON: "uncommon", RARE: "rare", CURSE: "curse", STATUS: "status", QUEST: "quest", EVENT: "event", ANCIENT: "ancient" }[card.rarity] || "common";
   const borderType = card.type === "ATTACK" ? "attack" : card.type === "POWER" ? "power" : "skill";
-  if (card.color === "AUTOMATON") {
-    cardEl.style.setProperty("--frame-image", `url("assets/card-ui/rarity/automaton-frame-${borderType}.png")`);
+  const frameColor = {
+    AUTOMATON: "automaton",
+    AWAKENED: "awakened",
+    CHAMP: "champ",
+    COLLECTOR: "collector",
+    GREMLIN: "gremlin",
+    GUARDIAN: "guardian",
+    HERMIT: "hermit",
+    HEXAGHOST: "hexaghost",
+    SLIMEBOUND: "slimebound",
+    SNECKO: "snecko",
+  }[card.color];
+  if (frameColor) {
+    cardEl.style.setProperty("--frame-image", `url("assets/card-ui/rarity/${frameColor}-frame-${borderType}.png")`);
   }
   cardEl.style.setProperty("--rarity-banner-image", `url("assets/card-ui/rarity/${rarityKey}-banner.png")`);
   cardEl.style.setProperty("--rarity-plaque-image", `url("assets/card-ui/rarity/${rarityKey}-type-plaque.png")`);
