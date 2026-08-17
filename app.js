@@ -1717,7 +1717,7 @@ function buildCardInnerHtml(card, descriptionHtml, options = {}) {
   const cardId = escapeHtml(card.id || "");
   const cost = formatCost(getDisplayCost(card, useUpgrade));
   const costClass = isCostUpgraded(card, useUpgrade) ? "card-cost-value upgraded" : "card-cost-value";
-  const energyIcon = card.type === "CURSE"
+  const energyIcon = card.type === "CURSE" || card.color === "DOWNFALL" || card.color === "COLORLESS"
     ? "assets/card-ui/energy-colorless-gen2.png"
     : card.color === "AUTOMATON" ? "assets/card-ui/energy-automaton.png" : card.energyIcon;
   const costIcon = energyIcon
@@ -1804,7 +1804,7 @@ function buildCardElement(card, suppressAnimation = false, previewMode = false, 
   }[card.color];
   const frameSource = card.type === "CURSE"
     ? "curse"
-    : card.color === "COLORLESS" ? "colorless" : frameColor;
+    : card.color === "COLORLESS" || card.color === "DOWNFALL" ? "colorless" : frameColor;
   if (frameSource) {
     cardEl.style.setProperty("--frame-image", `url("assets/card-ui/rarity/${frameSource}-frame-${borderType}.png")`);
   }
