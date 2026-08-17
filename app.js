@@ -797,12 +797,12 @@ function getKeywordTooltip() {
 
 function formatTooltipDescriptionText(rawText, cardContext) {
   let text = normalizeDescriptionSpacing(rawText || "");
-  text = renderSts2Markup(text);
   if (cardContext) {
     text = fillNumericTokens(text, cardContext, state.showUpgrade);
     text = finalizeFilledTokenSpacing(text);
   }
   text = escapeHtml(text).replace(/NL/g, "<br>");
+  text = renderSts2Markup(text);
   text = renderEnergyToken(text, cardContext || null);
   text = highlightCardReferencesNoHover(text);
   text = stripResidualStarPrefixes(text);
@@ -1410,6 +1410,7 @@ function renderDescription(card, options = {}) {
   text = finalizeFilledTokenSpacing(text);
   text = preserveLegacyColorMarkers(text);
   text = escapeHtml(text).replace(/NL/g, "<br>");
+  text = renderSts2Markup(text);
   text = renderEnergyToken(text, card);
   text = highlightCardReferencesNoHover(text);
   text = stripResidualStarPrefixes(text);
@@ -1437,6 +1438,7 @@ function renderDescriptionForPreview(card, options = {}) {
   text = finalizeFilledTokenSpacing(text);
   text = preserveLegacyColorMarkers(text);
   text = escapeHtml(text).replace(/NL/g, "<br>");
+  text = renderSts2Markup(text);
   text = renderEnergyToken(text, card);
   text = highlightCardReferencesNoHover(text);
   text = stripResidualStarPrefixes(text);

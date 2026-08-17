@@ -235,7 +235,7 @@ function splitLeadingNumberToken(token) {
 }
 
 function normalizeDescText(text) {
-  const normalized = renderSts2Markup(text || "")
+  const normalized = (text || "")
     .replace(/\s*\[REMOVE_SPACE\]\s*/g, "")
     .replace(/#b\s*([^\s]+)/g, (_full, token) => {
       const split = splitLeadingNumberToken(token);
@@ -613,6 +613,7 @@ function renderRelicDescription(relic) {
   if (!raw) return `<span class="muted">${escapeHtml(t("noDescription"))}</span>`;
 
   let text = escapeHtml(raw).replace(/NL/g, "<br>");
+  text = renderSts2Markup(text);
   text = renderEnergyToken(text, relic && relic.energyIcon);
   text = highlightPrefixedKeywords(text);
   text = highlightBaseKeywords(text);
@@ -637,6 +638,7 @@ function renderCardPreviewDescription(card, lang) {
   state.lang = lang;
   const raw = normalizeDescText(fillCardTokens(base, card));
   let text = escapeHtml(raw).replace(/NL/g, "<br>");
+  text = renderSts2Markup(text);
   text = renderEnergyToken(text, card && card.energyIcon);
   text = highlightPrefixedKeywords(text);
   text = highlightBaseKeywords(text);
@@ -766,6 +768,7 @@ function showKeywordTooltip(entry, anchorRect, langOverride = null, energyIcon =
   const name = escapeHtml(normalizeDescText(entry.name || ""));
   const descRaw = normalizeDescText(entry.description || "");
   let desc = escapeHtml(descRaw).replace(/NL/g, "<br>");
+  desc = renderSts2Markup(desc);
   desc = renderEnergyToken(desc, energyIcon);
   desc = highlightCardRefs(desc);
   desc = renderLegacyBlueMarkers(desc);
