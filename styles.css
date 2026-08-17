@@ -905,7 +905,7 @@ html[lang^="zh"] .card-desc {
   box-sizing: border-box;
   padding: 0;
   border: 0;
-  border-width: 8px;
+  border-width: 16px;
   border-style: solid;
   border-image: url("assets/hover-ui/hover-tip.png") 43 91 32 55 fill stretch;
   border-radius: 0;
