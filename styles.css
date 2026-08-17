@@ -575,7 +575,7 @@ article.card[data-card-id] .card-meta {
   color: var(--muted);
   opacity: 0.9;
   letter-spacing: 0.01em;
-  line-height: 1.2;
+  line-height: 1.25;
   word-break: break-all;
 }
 
@@ -1092,7 +1092,7 @@ article.card[data-card-id] .card-body .card-desc {
   color: #fdf4e0;
   font-family: "Noto Sans Mono CJK SC UI", "PingFang SC", "Microsoft YaHei", sans-serif;
   font-size: 7cqw;
-  line-height: 1.2;
+  line-height: 1.25;
   font-weight: 400;
   letter-spacing: 0;
   text-align: center;
