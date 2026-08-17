@@ -921,6 +921,16 @@ html[lang^="zh"] .card-desc {
   width: max-content;
 }
 
+.card-hover-attachments.text-and-preview {
+  grid-template-columns: 220px 180px;
+  width: max-content;
+  gap: 24px;
+}
+
+.card-hover-attachments.text-and-preview .card-attached-tip-column {
+  width: 220px;
+}
+
 .card-attached-tip {
   width: 220px;
   max-width: none;
