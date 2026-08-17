@@ -1561,6 +1561,7 @@ function buildCardElement(card, suppressAnimation = false, previewMode = false, 
   if (suppressAnimation) classes.push("no-enter");
   if (previewMode) classes.push("mini-cloned-card");
   if (card.deprecated) classes.push("card-deprecated");
+  if (card.rarity === "ANCIENT" && card.img) classes.push("card-ancient");
   cardEl.className = classes.join(" ");
   const frameByRarity = {
     UNCOMMON: "rgba(108, 176, 232, 0.32)",
@@ -1580,6 +1581,9 @@ function buildCardElement(card, suppressAnimation = false, previewMode = false, 
   }
   cardEl.dataset.cardId = card.id;
   cardEl.dataset.renderLang = state.lang;
+  if (card.rarity === "ANCIENT" && card.img) {
+    cardEl.style.setProperty("--ancient-card-art", `url("${card.img}")`);
+  }
   const desc = previewMode ? renderDescriptionForPreview(card, options) : renderDescription(card, options);
   cardEl.innerHTML = buildCardInnerHtml(card, desc, options);
   return cardEl;
