@@ -20,6 +20,20 @@
 }
 
 @font-face {
+  font-family: "Source Han Game";
+  src: url("assets/fonts/source-han-serif-sc-medium.otf") format("opentype");
+  font-weight: 400;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Source Han Game";
+  src: url("assets/fonts/source-han-serif-sc-bold.otf") format("opentype");
+  font-weight: 700;
+  font-display: swap;
+}
+
+@font-face {
   font-family: "Kreon Game";
   src: url("assets/fonts/kreon-bold.ttf") format("truetype");
   font-weight: 700;
@@ -425,12 +439,12 @@ select {
   text-align: center;
   color: #f7efe0;
   text-shadow: 0 2px 2px #21130d, 0 0 4px #21130d;
-  font-family: "Kreon Game", "Noto Sans SC", serif;
+  font-family: "Kreon Game", "Source Han Game", serif;
 }
 
 .card-face-title h3 {
   margin: 0;
-  font-family: "Kreon Game", "Noto Sans SC", serif;
+  font-family: "Kreon Game", "Source Han Game", serif;
   font-size: clamp(0.9rem, 1.8vw, 1.28rem);
   line-height: 1.05;
 }
@@ -450,7 +464,7 @@ select {
   border-radius: 2px;
   box-shadow: 0 2px 3px rgba(0, 0, 0, 0.55);
   color: rgba(0, 0, 0, 0.76);
-  font: 700 clamp(0.55rem, 1.3vw, 0.9rem)/1 "Kreon Game", "Noto Sans SC", serif;
+  font: 700 clamp(0.55rem, 1.3vw, 0.9rem)/1 "Kreon Game", "Source Han Game", serif;
   white-space: nowrap;
 }
 
@@ -960,6 +974,7 @@ article.card[data-card-id] .card-banner {
   inset: 0.95% auto auto -4.33%;
   width: 109%;
   height: 19.67%;
+  filter: grayscale(1) brightness(0.85);
 }
 
 article.card[data-card-id] .card-face-title {
@@ -990,7 +1005,7 @@ article.card[data-card-id] .card-face-cost {
 
 article.card[data-card-id] .card-face-cost .card-cost-value {
   font-size: 10.67cqw;
-  font-family: "Kreon Game", "Noto Sans SC", serif;
+  font-family: "Kreon Game", "Source Han Game", serif;
   font-weight: 700;
   -webkit-text-stroke: 1px #810000;
   text-shadow:
@@ -1010,7 +1025,13 @@ article.card[data-card-id] .card-face-type {
   border: 0;
   border-radius: 0;
   font-size: 5.33cqw;
+  font-family: "Kreon Game", "Source Han Game", serif;
   font-weight: 700;
+  filter: grayscale(1) brightness(0.85);
+}
+
+article.card[data-card-id].card-color-automaton .card-frame {
+  filter: hue-rotate(120deg) saturate(0.65) brightness(1.08);
 }
 
 article.card[data-card-id] .card-body {
@@ -1029,13 +1050,13 @@ article.card[data-card-id] .card-body .card-desc {
   inset: 58.77% auto auto 9.33%;
   width: 81%;
   height: 32.23%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
+  display: grid;
+  align-content: center;
+  justify-items: center;
   padding: 0 1%;
   overflow: hidden;
   color: #fff5e2;
-  font-family: "Kreon Game", "Noto Sans SC", serif;
+  font-family: "Kreon Game", "Source Han Game", serif;
   font-size: 7cqw;
   line-height: 1.04;
   font-weight: 400;
@@ -1044,6 +1065,14 @@ article.card[data-card-id] .card-body .card-desc {
   white-space: normal;
   overflow-wrap: anywhere;
   text-shadow: 0.67cqw 0.67cqw 0 rgba(0, 0, 0, 0.25);
+}
+
+article.card[data-card-id] .card-desc-content {
+  width: 100%;
+  max-width: 100%;
+  text-align: center;
+  white-space: normal;
+  overflow-wrap: anywhere;
 }
 
 .pager {

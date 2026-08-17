@@ -1725,7 +1725,7 @@ function buildCardInnerHtml(card, descriptionHtml, options = {}) {
       <div class="card-meta">
         ${metaTagsHtml}
       </div>
-      <div class="card-desc">${descriptionHtml}</div>
+      <div class="card-desc"><div class="card-desc-content">${descriptionHtml}</div></div>
       ${notInPoolBadge}
     </div>
   `;
@@ -1738,6 +1738,7 @@ function buildCardElement(card, suppressAnimation = false, previewMode = false, 
   if (previewMode) classes.push("mini-cloned-card");
   if (card.deprecated) classes.push("card-deprecated");
   if (card.rarity === "ANCIENT" && card.img) classes.push("card-ancient");
+  if (card.color) classes.push(`card-color-${String(card.color).toLowerCase()}`);
   cardEl.className = classes.join(" ");
   const frameByRarity = {
     UNCOMMON: "rgba(108, 176, 232, 0.32)",
