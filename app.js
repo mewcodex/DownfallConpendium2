@@ -479,6 +479,7 @@ function renderSts2Markup(text, useUpgrade = state.showUpgrade, card = null) {
     card && card.target === target ? content : ""
   ));
   rendered = stripSts2Blocks(rendered, "InCombat");
+  rendered = stripSts2Blocks(rendered, "IsTargeting");
   rendered = rendered.replace(/\{([A-Za-z_]\w*):plural:([^{}|]*)\|([^{}]*)\}/g, (_full, name, singular, plural) => {
     const valueToken = new RegExp(`__(?:TV|TVG)__(-?\\d+)__`).exec(`${singular}${plural}`);
     const values = useUpgrade ? ((card && card.upgradeDynamicValues) || {}) : ((card && card.dynamicValues) || {});
@@ -878,7 +879,7 @@ function formatTooltipDescriptionText(rawText, cardContext) {
     text = finalizeFilledTokenSpacing(text);
   }
   text = escapeHtml(text).replace(/\\n|\r?\n|NL/g, "<br>");
-  text = renderSts2Markup(text);
+  text = renderSts2Markup(text, state.showUpgrade, cardContext);
   text = renderEnergyToken(text, cardContext || null);
   text = highlightCardReferencesNoHover(text);
   text = stripResidualStarPrefixes(text);
@@ -1032,6 +1033,91 @@ function hideCardPreviewTooltip() {
   tip.classList.remove("refs-panel");
   tip.classList.remove("preview-left", "preview-right");
   tip.classList.remove("show");
+}
+
+function getCardAttachmentTooltip() {
+  let tip = document.querySelector(".card-hover-attachments");
+  if (tip) return tip;
+  tip = document.createElement("div");
+  tip.className = "card-hover-attachments";
+  document.body.appendChild(tip);
+  return tip;
+}
+
+function showCardAttachmentTooltip(card, anchorRect, langOverride = null) {
+  if (!card) return;
+  const language = langOverride || state.lang;
+  const textTips = (card.attachedTips || []).filter((tip) => tip && tip.name && tip.description && tip.name[language] && tip.description[language]);
+  const parentUpgraded = state.showUpgrade && hasCardUpgradeableVariant(card);
+  const cardTips = (card.attachedCardTips || [])
+    .map((entry) => ({
+      card: state.cardById.get(entry.id || ""),
+      upgraded: Boolean(entry.upgraded || (entry.upgradeWithParent && parentUpgraded)),
+    }))
+    .filter((entry) => entry.card);
+  if (!textTips.length && !cardTips.length) {
+    hideCardAttachmentTooltip();
+    return;
+  }
+
+  const tip = getCardAttachmentTooltip();
+  tip.innerHTML = "";
+  textTips.forEach((entry) => {
+    const panel = document.createElement("section");
+    panel.className = "card-attached-tip";
+    panel.innerHTML = `
+      <div class="kw-tip-name">${withTempLang(language, () => hideZhSpacesAfterFormatting(escapeHtml(entry.name[language])))}</div>
+      <div class="kw-tip-desc">${withTempLang(language, () => formatTooltipDescriptionText(entry.description[language], card))}</div>
+    `;
+    tip.appendChild(panel);
+  });
+  if (cardTips.length) {
+    const previews = document.createElement("div");
+    previews.className = "card-attached-previews";
+    cardTips.forEach((entry) => {
+      previews.appendChild(langOverride
+        ? buildCardElementInLang(entry.card, language, true, true, { forceUpgrade: entry.upgraded })
+        : buildCardElement(entry.card, true, true, { forceUpgrade: entry.upgraded }));
+    });
+    tip.appendChild(previews);
+  }
+
+  tip.classList.add("show");
+  const margin = 10;
+  const rect = anchorRect;
+  const tipRect = tip.getBoundingClientRect();
+  let left = rect.right + window.scrollX + 10;
+  let top = rect.top + window.scrollY;
+  if (left + tipRect.width > window.scrollX + window.innerWidth - margin) {
+    left = rect.left + window.scrollX - tipRect.width - 10;
+  }
+  top = Math.min(top, window.scrollY + window.innerHeight - tipRect.height - margin);
+  tip.style.left = `${Math.max(window.scrollX + margin, left)}px`;
+  tip.style.top = `${Math.max(window.scrollY + margin, top)}px`;
+}
+
+function hideCardAttachmentTooltip() {
+  const tip = document.querySelector(".card-hover-attachments");
+  if (tip) tip.classList.remove("show");
+}
+
+function bindAttachedHoverEvents() {
+  elements.grid.addEventListener("mouseover", (event) => {
+    const cardNode = event.target.closest("article.card[data-card-id]");
+    if (!cardNode || !elements.grid.contains(cardNode)) return;
+    const card = state.cardById.get(cardNode.dataset.cardId || "");
+    if (!card) return;
+    showCardAttachmentTooltip(card, cardNode.getBoundingClientRect(), getCardRenderLang(cardNode));
+  });
+
+  elements.grid.addEventListener("mouseout", (event) => {
+    const cardNode = event.target.closest("article.card[data-card-id]");
+    if (!cardNode || !elements.grid.contains(cardNode)) return;
+    if (event.relatedTarget && cardNode.contains(event.relatedTarget)) return;
+    hideCardAttachmentTooltip();
+  });
+
+  window.addEventListener("scroll", hideCardAttachmentTooltip, { passive: true });
 }
 
 function bindKeywordTooltipEvents() {
@@ -2033,8 +2119,7 @@ function bindEvents() {
     renderCards();
   });
 
-  bindKeywordTooltipEvents();
-  bindCardReferencePreviewEvents();
+  bindAttachedHoverEvents();
 
   window.addEventListener("popstate", () => {
     readStateFromUrl();
