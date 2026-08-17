@@ -332,7 +332,7 @@ select {
 
 .card-ancient .card-body {
   flex: 1;
-  background: rgba(25, 18, 13, 0.82);
+  background: rgba(25, 18, 13, 0.7);
   color: #f4ecdd;
 }
 
