@@ -40,8 +40,8 @@ const state = {
 
 const uiText = {
   en: {
-    eyebrow: "Downfall Mod Card Showcase",
-    title: "Slay the Spire: Downfall Card Conpendium",
+    eyebrow: "",
+    title: "Slay the Spire: Downfall 2 Card Conpendium",
     subtitle: "WIP",
     toggleUpgrade: "Show Upgraded",
     toggleBase: "Show Base",
@@ -74,7 +74,7 @@ const uiText = {
   },
   zh: {
     eyebrow: "崩坠 Mod 卡牌展示",
-    title: "杀戮尖塔：崩坠 卡牌图鉴",
+    title: "杀戮尖塔：崩坠2 卡牌图鉴",
     subtitle: "正在施工中",
     toggleUpgrade: "显示升级",
     toggleBase: "显示未升级",

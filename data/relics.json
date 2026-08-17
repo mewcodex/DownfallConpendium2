@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-17T16:03:10.955963Z",
+  "generatedAt": "2026-08-17T16:10:03.812745Z",
   "modVersion": "0.1.13",
   "translationVersion": "2026_08_17_21_01_04_635d8d",
   "baseKeywords": [],
@@ -31,7 +31,24 @@
       "energyIcon": "assets/energy-icons/automaton.png",
       "img": "assets/relics/bottledcode.png",
       "imageResource": "",
-      "deprecated": false
+      "deprecated": false,
+      "dynamicValues": {},
+      "upgradeDynamicValues": {},
+      "attachedTips": [
+        {
+          "id": "AUTOMATON-ENCODE",
+          "name": {
+            "en": "Encode",
+            "zh": "编码"
+          },
+          "description": {
+            "en": "Place this card into your [gold]Sequence[/gold].\nWhen it holds [blue]3[/blue] cards, their effects above this keyword are merged into a Function that costs [blue]1[/blue].",
+            "zh": "将此牌置入[gold]编码序列[/gold]。\n当[gold]编码序列[/gold]中拥有[blue]3[/blue]张牌时，它们在该关键词之上的效果将被合并为一个耗能为[blue]1[/blue]的[gold]方法[/gold]牌并加入[gold]手牌[/gold]。"
+          },
+          "sourceValueKey": null
+        }
+      ],
+      "attachedCardTips": []
     },
     {
       "id": "AUTOMATON-BRONZE_CORE",
@@ -55,7 +72,33 @@
       "energyIcon": "assets/energy-icons/automaton.png",
       "img": "assets/relics/bronzecore.png",
       "imageResource": "",
-      "deprecated": false
+      "deprecated": false,
+      "dynamicValues": {},
+      "upgradeDynamicValues": {},
+      "attachedTips": [
+        {
+          "id": "AUTOMATON-ENCODE",
+          "name": {
+            "en": "Encode",
+            "zh": "编码"
+          },
+          "description": {
+            "en": "Place this card into your [gold]Sequence[/gold].\nWhen it holds [blue]3[/blue] cards, their effects above this keyword are merged into a Function that costs [blue]1[/blue].",
+            "zh": "将此牌置入[gold]编码序列[/gold]。\n当[gold]编码序列[/gold]中拥有[blue]3[/blue]张牌时，它们在该关键词之上的效果将被合并为一个耗能为[blue]1[/blue]的[gold]方法[/gold]牌并加入[gold]手牌[/gold]。"
+          },
+          "sourceValueKey": null
+        }
+      ],
+      "attachedCardTips": [
+        {
+          "id": "AUTOMATON-STRIKE_AUTOMATON",
+          "upgraded": false
+        },
+        {
+          "id": "AUTOMATON-DEFEND_AUTOMATON",
+          "upgraded": false
+        }
+      ]
     },
     {
       "id": "AUTOMATON-CABLE_SPOOL",
@@ -79,7 +122,28 @@
       "energyIcon": "assets/energy-icons/automaton.png",
       "img": "assets/relics/cablespool.png",
       "imageResource": "",
-      "deprecated": false
+      "deprecated": false,
+      "dynamicValues": {
+        "Cards": 2
+      },
+      "upgradeDynamicValues": {
+        "Cards": 2
+      },
+      "attachedTips": [
+        {
+          "id": "AUTOMATON-ENCODE",
+          "name": {
+            "en": "Encode",
+            "zh": "编码"
+          },
+          "description": {
+            "en": "Place this card into your [gold]Sequence[/gold].\nWhen it holds [blue]3[/blue] cards, their effects above this keyword are merged into a Function that costs [blue]1[/blue].",
+            "zh": "将此牌置入[gold]编码序列[/gold]。\n当[gold]编码序列[/gold]中拥有[blue]3[/blue]张牌时，它们在该关键词之上的效果将被合并为一个耗能为[blue]1[/blue]的[gold]方法[/gold]牌并加入[gold]手牌[/gold]。"
+          },
+          "sourceValueKey": null
+        }
+      ],
+      "attachedCardTips": []
     },
     {
       "id": "AUTOMATON-DONUS_WASHERS",
@@ -103,7 +167,11 @@
       "energyIcon": null,
       "img": null,
       "imageResource": "",
-      "deprecated": false
+      "deprecated": false,
+      "dynamicValues": {},
+      "upgradeDynamicValues": {},
+      "attachedTips": [],
+      "attachedCardTips": []
     },
     {
       "id": "AUTOMATON-ELECTROMAGNETIC_COIL",
@@ -127,7 +195,11 @@
       "energyIcon": null,
       "img": null,
       "imageResource": "",
-      "deprecated": false
+      "deprecated": false,
+      "dynamicValues": {},
+      "upgradeDynamicValues": {},
+      "attachedTips": [],
+      "attachedCardTips": []
     },
     {
       "id": "AUTOMATON-FROST_PRIMER",
@@ -151,7 +223,24 @@
       "energyIcon": "assets/energy-icons/automaton.png",
       "img": "assets/relics/frostprimer.png",
       "imageResource": "",
-      "deprecated": false
+      "deprecated": false,
+      "dynamicValues": {},
+      "upgradeDynamicValues": {},
+      "attachedTips": [
+        {
+          "id": "UNSTEADY",
+          "name": {
+            "en": "Unsteady",
+            "zh": "脚下不稳"
+          },
+          "description": {
+            "en": "When Flail Knight falls below [blue]50%[/blue] HP, becomes [gold]Stunned[/gold].",
+            "zh": "当连枷骑士的生命值下降到[blue]50%[/blue]以下时，会被[gold]击晕[/gold]。"
+          },
+          "sourceValueKey": "Steady"
+        }
+      ],
+      "attachedCardTips": []
     },
     {
       "id": "AUTOMATON-MAKESHIFT_BATTERY",
@@ -175,7 +264,11 @@
       "energyIcon": null,
       "img": null,
       "imageResource": "",
-      "deprecated": false
+      "deprecated": false,
+      "dynamicValues": {},
+      "upgradeDynamicValues": {},
+      "attachedTips": [],
+      "attachedCardTips": []
     },
     {
       "id": "AUTOMATON-MALLET",
@@ -199,7 +292,24 @@
       "energyIcon": "assets/energy-icons/automaton.png",
       "img": "assets/relics/mallet.png",
       "imageResource": "",
-      "deprecated": false
+      "deprecated": false,
+      "dynamicValues": {},
+      "upgradeDynamicValues": {},
+      "attachedTips": [
+        {
+          "id": "AUTOMATON-STASH",
+          "name": {
+            "en": "Stash",
+            "zh": "暂存"
+          },
+          "description": {
+            "en": "Place a card inside of your [gold]Stash Pile[/gold], up to a maximum of [blue]5[/blue]. You draw the oldest card from it at the start of each turn.",
+            "zh": "将一张牌放入[gold]暂存区[/gold]（最多[blue]5[/blue]张）。\n在每个回合开始时，你会从[gold]暂存区[/gold]顶部抽一张牌。"
+          },
+          "sourceValueKey": null
+        }
+      ],
+      "attachedCardTips": []
     },
     {
       "id": "AUTOMATON-PLATINUM_CORE",
@@ -223,7 +333,33 @@
       "energyIcon": "assets/energy-icons/automaton.png",
       "img": "assets/relics/platinumcore.png",
       "imageResource": "",
-      "deprecated": false
+      "deprecated": false,
+      "dynamicValues": {},
+      "upgradeDynamicValues": {},
+      "attachedTips": [
+        {
+          "id": "AUTOMATON-ENCODE",
+          "name": {
+            "en": "Encode",
+            "zh": "编码"
+          },
+          "description": {
+            "en": "Place this card into your [gold]Sequence[/gold].\nWhen it holds [blue]3[/blue] cards, their effects above this keyword are merged into a Function that costs [blue]1[/blue].",
+            "zh": "将此牌置入[gold]编码序列[/gold]。\n当[gold]编码序列[/gold]中拥有[blue]3[/blue]张牌时，它们在该关键词之上的效果将被合并为一个耗能为[blue]1[/blue]的[gold]方法[/gold]牌并加入[gold]手牌[/gold]。"
+          },
+          "sourceValueKey": null
+        }
+      ],
+      "attachedCardTips": [
+        {
+          "id": "AUTOMATON-STRIKE_AUTOMATON",
+          "upgraded": false
+        },
+        {
+          "id": "AUTOMATON-DEFEND_AUTOMATON",
+          "upgraded": false
+        }
+      ]
     },
     {
       "id": "AUTOMATON-PROTECTIVE_GOGGLES",
@@ -247,7 +383,28 @@
       "energyIcon": "assets/energy-icons/automaton.png",
       "img": "assets/relics/protectivegoggles.png",
       "imageResource": "",
-      "deprecated": false
+      "deprecated": false,
+      "dynamicValues": {
+        "Block": 4
+      },
+      "upgradeDynamicValues": {
+        "Block": 4
+      },
+      "attachedTips": [
+        {
+          "id": "AUTOMATON-ENCODE",
+          "name": {
+            "en": "Encode",
+            "zh": "编码"
+          },
+          "description": {
+            "en": "Place this card into your [gold]Sequence[/gold].\nWhen it holds [blue]3[/blue] cards, their effects above this keyword are merged into a Function that costs [blue]1[/blue].",
+            "zh": "将此牌置入[gold]编码序列[/gold]。\n当[gold]编码序列[/gold]中拥有[blue]3[/blue]张牌时，它们在该关键词之上的效果将被合并为一个耗能为[blue]1[/blue]的[gold]方法[/gold]牌并加入[gold]手牌[/gold]。"
+          },
+          "sourceValueKey": null
+        }
+      ],
+      "attachedCardTips": []
     },
     {
       "id": "AUTOMATON-SILVER_BULLET",
@@ -271,7 +428,15 @@
       "energyIcon": "assets/energy-icons/automaton.png",
       "img": "assets/relics/silverbullet.png",
       "imageResource": "",
-      "deprecated": false
+      "deprecated": false,
+      "dynamicValues": {
+        "Damage": 2
+      },
+      "upgradeDynamicValues": {
+        "Damage": 2
+      },
+      "attachedTips": [],
+      "attachedCardTips": []
     },
     {
       "id": "AWAKENED-ABYSS_BLADE",
@@ -295,7 +460,11 @@
       "energyIcon": null,
       "img": null,
       "imageResource": "",
-      "deprecated": false
+      "deprecated": false,
+      "dynamicValues": {},
+      "upgradeDynamicValues": {},
+      "attachedTips": [],
+      "attachedCardTips": []
     },
     {
       "id": "AWAKENED-BIRD_FACED_VASE",
@@ -319,7 +488,11 @@
       "energyIcon": null,
       "img": null,
       "imageResource": "",
-      "deprecated": false
+      "deprecated": false,
+      "dynamicValues": {},
+      "upgradeDynamicValues": {},
+      "attachedTips": [],
+      "attachedCardTips": []
     },
     {
       "id": "AWAKENED-CRESCENT_TALISMAN",
@@ -343,7 +516,24 @@
       "energyIcon": "assets/energy-icons/awakened.png",
       "img": "assets/relics/crescenttalisman.png",
       "imageResource": "",
-      "deprecated": false
+      "deprecated": false,
+      "dynamicValues": {},
+      "upgradeDynamicValues": {},
+      "attachedTips": [
+        {
+          "id": "AWAKENED-CONJURE",
+          "name": {
+            "en": "Conjure",
+            "zh": "念咒"
+          },
+          "description": {
+            "en": "Create the next card from you Spellbook in your [gold]Hand[/gold].",
+            "zh": "从法术书中将下一张法术牌加入你的[gold]手牌[/gold]。"
+          },
+          "sourceValueKey": null
+        }
+      ],
+      "attachedCardTips": []
     },
     {
       "id": "AWAKENED-DESSICATED_HAND",
@@ -367,7 +557,11 @@
       "energyIcon": null,
       "img": null,
       "imageResource": "",
-      "deprecated": false
+      "deprecated": false,
+      "dynamicValues": {},
+      "upgradeDynamicValues": {},
+      "attachedTips": [],
+      "attachedCardTips": []
     },
     {
       "id": "AWAKENED-EYE_OF_THE_OCCULT",
@@ -391,7 +585,20 @@
       "energyIcon": "assets/energy-icons/awakened.png",
       "img": "assets/relics/eyeoftheoccult.png",
       "imageResource": "",
-      "deprecated": false
+      "deprecated": false,
+      "dynamicValues": {},
+      "upgradeDynamicValues": {},
+      "attachedTips": [],
+      "attachedCardTips": [
+        {
+          "id": "AWAKENED-THUNDERBOLT",
+          "upgraded": false
+        },
+        {
+          "id": "AWAKENED-DARKLEECH",
+          "upgraded": false
+        }
+      ]
     },
     {
       "id": "AWAKENED-FINAL_RITES",
@@ -415,7 +622,40 @@
       "energyIcon": "assets/energy-icons/awakened.png",
       "img": "assets/relics/finalrites.png",
       "imageResource": "",
-      "deprecated": false
+      "deprecated": false,
+      "dynamicValues": {
+        "RitualPower": 1
+      },
+      "upgradeDynamicValues": {
+        "RitualPower": 1
+      },
+      "attachedTips": [
+        {
+          "id": "AWAKENED-CHANT",
+          "name": {
+            "en": "Chant",
+            "zh": "吟唱"
+          },
+          "description": {
+            "en": "Cards with Chant effects become more powerful for the rest of combat if the last played card in combat was a Power card.",
+            "zh": "带有该关键词的牌被打出时，如果打出的上一张牌是能力牌，则会在本场战斗中激活吟唱效果。"
+          },
+          "sourceValueKey": null
+        },
+        {
+          "id": "RITUAL_POWER",
+          "name": {
+            "en": "Ritual",
+            "zh": "仪式"
+          },
+          "description": {
+            "en": "Gain [gold]Strength[/gold] at the end of your turn.",
+            "zh": "在你的回合结束时获得[gold]力量[/gold]。"
+          },
+          "sourceValueKey": "RitualPower"
+        }
+      ],
+      "attachedCardTips": []
     },
     {
       "id": "AWAKENED-MANABOMB",
@@ -439,7 +679,24 @@
       "energyIcon": "assets/energy-icons/awakened.png",
       "img": "assets/relics/manabomb.png",
       "imageResource": "",
-      "deprecated": false
+      "deprecated": false,
+      "dynamicValues": {},
+      "upgradeDynamicValues": {},
+      "attachedTips": [
+        {
+          "id": "AWAKENED-MANABURN_POWER",
+          "name": {
+            "en": "Manaburn",
+            "zh": "魔力灼烧"
+          },
+          "description": {
+            "en": "Whenever you are [gold]Drained[/gold], this enemy loses HP.",
+            "zh": "每当你[gold]力竭[/gold]时，此敌人失去生命。"
+          },
+          "sourceValueKey": "ManaburnPower"
+        }
+      ],
+      "attachedCardTips": []
     },
     {
       "id": "AWAKENED-PAPER_CROW",
@@ -463,7 +720,24 @@
       "energyIcon": "assets/energy-icons/awakened.png",
       "img": "assets/relics/papercrow.png",
       "imageResource": "",
-      "deprecated": false
+      "deprecated": false,
+      "dynamicValues": {},
+      "upgradeDynamicValues": {},
+      "attachedTips": [
+        {
+          "id": "AWAKENED-MANABURN_POWER",
+          "name": {
+            "en": "Manaburn",
+            "zh": "魔力灼烧"
+          },
+          "description": {
+            "en": "Whenever you are [gold]Drained[/gold], this enemy loses HP.",
+            "zh": "每当你[gold]力竭[/gold]时，此敌人失去生命。"
+          },
+          "sourceValueKey": "ManaburnPower"
+        }
+      ],
+      "attachedCardTips": []
     },
     {
       "id": "AWAKENED-RIPPED_DOLL",
@@ -487,7 +761,24 @@
       "energyIcon": "assets/energy-icons/awakened.png",
       "img": "assets/relics/rippeddoll.png",
       "imageResource": "",
-      "deprecated": false
+      "deprecated": false,
+      "dynamicValues": {},
+      "upgradeDynamicValues": {},
+      "attachedTips": [
+        {
+          "id": "AWAKENED-CONJURE",
+          "name": {
+            "en": "Conjure",
+            "zh": "念咒"
+          },
+          "description": {
+            "en": "Create the next card from you Spellbook in your [gold]Hand[/gold].",
+            "zh": "从法术书中将下一张法术牌加入你的[gold]手牌[/gold]。"
+          },
+          "sourceValueKey": null
+        }
+      ],
+      "attachedCardTips": []
     },
     {
       "id": "AWAKENED-SHREDDED_DOLL",
@@ -511,7 +802,40 @@
       "energyIcon": "assets/energy-icons/awakened.png",
       "img": "assets/relics/shreddeddoll.png",
       "imageResource": "",
-      "deprecated": false
+      "deprecated": false,
+      "dynamicValues": {
+        "RitualPower": 1
+      },
+      "upgradeDynamicValues": {
+        "RitualPower": 1
+      },
+      "attachedTips": [
+        {
+          "id": "AWAKENED-CONJURE",
+          "name": {
+            "en": "Conjure",
+            "zh": "念咒"
+          },
+          "description": {
+            "en": "Create the next card from you Spellbook in your [gold]Hand[/gold].",
+            "zh": "从法术书中将下一张法术牌加入你的[gold]手牌[/gold]。"
+          },
+          "sourceValueKey": null
+        },
+        {
+          "id": "RITUAL_POWER",
+          "name": {
+            "en": "Ritual",
+            "zh": "仪式"
+          },
+          "description": {
+            "en": "Gain [gold]Strength[/gold] at the end of your turn.",
+            "zh": "在你的回合结束时获得[gold]力量[/gold]。"
+          },
+          "sourceValueKey": "RitualPower"
+        }
+      ],
+      "attachedCardTips": []
     },
     {
       "id": "AWAKENED-TOME_OF_PORTALMANCY",
@@ -535,7 +859,28 @@
       "energyIcon": "assets/energy-icons/awakened.png",
       "img": "assets/relics/tomeofportalmancy.png",
       "imageResource": "",
-      "deprecated": false
+      "deprecated": false,
+      "dynamicValues": {
+        "ManaburnPower": 2
+      },
+      "upgradeDynamicValues": {
+        "ManaburnPower": 2
+      },
+      "attachedTips": [
+        {
+          "id": "AWAKENED-MANABURN_POWER",
+          "name": {
+            "en": "Manaburn",
+            "zh": "魔力灼烧"
+          },
+          "description": {
+            "en": "Whenever you are [gold]Drained[/gold], this enemy loses HP.",
+            "zh": "每当你[gold]力竭[/gold]时，此敌人失去生命。"
+          },
+          "sourceValueKey": "ManaburnPower"
+        }
+      ],
+      "attachedCardTips": []
     },
     {
       "id": "AWAKENED-WHITE_RIBBON",
@@ -559,7 +904,11 @@
       "energyIcon": null,
       "img": null,
       "imageResource": "",
-      "deprecated": false
+      "deprecated": false,
+      "dynamicValues": {},
+      "upgradeDynamicValues": {},
+      "attachedTips": [],
+      "attachedCardTips": []
     },
     {
       "id": "AWAKENED-ZENER_DECK",
@@ -583,7 +932,16 @@
       "energyIcon": "assets/energy-icons/awakened.png",
       "img": "assets/relics/zenerdeck.png",
       "imageResource": "",
-      "deprecated": false
+      "deprecated": false,
+      "dynamicValues": {},
+      "upgradeDynamicValues": {},
+      "attachedTips": [],
+      "attachedCardTips": [
+        {
+          "id": "AWAKENED-ESP",
+          "upgraded": false
+        }
+      ]
     },
     {
       "id": "AWAKENED-ZETSUMEI",
@@ -607,7 +965,15 @@
       "energyIcon": "assets/energy-icons/awakened.png",
       "img": "assets/relics/zetsumei.png",
       "imageResource": "",
-      "deprecated": false
+      "deprecated": false,
+      "dynamicValues": {
+        "Cards": 4
+      },
+      "upgradeDynamicValues": {
+        "Cards": 4
+      },
+      "attachedTips": [],
+      "attachedCardTips": []
     },
     {
       "id": "CHAMP-AMULET_OF_UNYIELDING",
@@ -631,7 +997,42 @@
       "energyIcon": "assets/energy-icons/champ.png",
       "img": "assets/relics/amuletofunyielding.png",
       "imageResource": "",
-      "deprecated": false
+      "deprecated": false,
+      "dynamicValues": {
+        "StrengthPower": 1,
+        "VigorPower": 12
+      },
+      "upgradeDynamicValues": {
+        "StrengthPower": 1,
+        "VigorPower": 12
+      },
+      "attachedTips": [
+        {
+          "id": "POSSESS_STRENGTH_POWER",
+          "name": {
+            "en": "Possess Strength",
+            "zh": "抢夺力量"
+          },
+          "description": {
+            "en": "When killed, return all stolen [gold]Strength[/gold] to the player.",
+            "zh": "被击杀时，将偷窃的所有[gold]力量[/gold]返还给玩家。"
+          },
+          "sourceValueKey": "StrengthPower"
+        },
+        {
+          "id": "VIGOR_POWER",
+          "name": {
+            "en": "Vigor",
+            "zh": "活力"
+          },
+          "description": {
+            "en": "Your next Attack deals additional damage.",
+            "zh": "你的下一张攻击牌伤害增加。"
+          },
+          "sourceValueKey": "VigorPower"
+        }
+      ],
+      "attachedCardTips": []
     },
     {
       "id": "CHAMP-BERSERKERS_GUIDE",
@@ -655,7 +1056,11 @@
       "energyIcon": null,
       "img": null,
       "imageResource": "",
-      "deprecated": false
+      "deprecated": false,
+      "dynamicValues": {},
+      "upgradeDynamicValues": {},
+      "attachedTips": [],
+      "attachedCardTips": []
     },
     {
       "id": "CHAMP-BLACK_KNIGHTS_HELM",
@@ -679,7 +1084,11 @@
       "energyIcon": null,
       "img": null,
       "imageResource": "",
-      "deprecated": false
+      "deprecated": false,
+      "dynamicValues": {},
+      "upgradeDynamicValues": {},
+      "attachedTips": [],
+      "attachedCardTips": []
     },
     {
       "id": "CHAMP-CHAMPIONS_CROWN",
@@ -703,7 +1112,11 @@
       "energyIcon": null,
       "img": null,
       "imageResource": "",
-      "deprecated": false
+      "deprecated": false,
+      "dynamicValues": {},
+      "upgradeDynamicValues": {},
+      "attachedTips": [],
+      "attachedCardTips": []
     },
     {
       "id": "CHAMP-DEFENSIVE_THESIS",
@@ -727,7 +1140,24 @@
       "energyIcon": "assets/energy-icons/champ.png",
       "img": "assets/relics/defensivethesis.png",
       "imageResource": "",
-      "deprecated": false
+      "deprecated": false,
+      "dynamicValues": {},
+      "upgradeDynamicValues": {},
+      "attachedTips": [
+        {
+          "id": "CHAMP-FINISHER",
+          "name": {
+            "en": "Finisher",
+            "zh": "终结技"
+          },
+          "description": {
+            "en": "Requires a [gold]Stance[/gold].\nAfter playing a Finisher, exit your [gold]Stance[/gold] and trigger its Finisher bonus.",
+            "zh": "处于[gold]姿态[/gold]时才能打出。\n打出终结技后，退出当前[gold]姿态[/gold]并触发终结技效果。"
+          },
+          "sourceValueKey": null
+        }
+      ],
+      "attachedCardTips": []
     },
     {
       "id": "CHAMP-DOLPHINS_STYLE_GUIDE",
@@ -751,7 +1181,24 @@
       "energyIcon": "assets/energy-icons/champ.png",
       "img": "assets/relics/dolphinsstyleguide.png",
       "imageResource": "",
-      "deprecated": false
+      "deprecated": false,
+      "dynamicValues": {},
+      "upgradeDynamicValues": {},
+      "attachedTips": [
+        {
+          "id": "CHAMP-STANCE",
+          "name": {
+            "en": "Stance",
+            "zh": "姿态"
+          },
+          "description": {
+            "en": "You may have only one Stance at a time.",
+            "zh": "你同一时间只能拥有一个姿态。"
+          },
+          "sourceValueKey": null
+        }
+      ],
+      "attachedCardTips": []
     },
     {
       "id": "CHAMP-GLADIATORS_MANUAL",
@@ -775,7 +1222,11 @@
       "energyIcon": null,
       "img": null,
       "imageResource": "",
-      "deprecated": false
+      "deprecated": false,
+      "dynamicValues": {},
+      "upgradeDynamicValues": {},
+      "attachedTips": [],
+      "attachedCardTips": []
     },
     {
       "id": "CHAMP-INNER_STRENGTH",
@@ -799,7 +1250,11 @@
       "energyIcon": null,
       "img": null,
       "imageResource": "",
-      "deprecated": false
+      "deprecated": false,
+      "dynamicValues": {},
+      "upgradeDynamicValues": {},
+      "attachedTips": [],
+      "attachedCardTips": []
     },
     {
       "id": "CHAMP-POWER_ARMOR",
@@ -823,7 +1278,48 @@
       "energyIcon": "assets/energy-icons/champ.png",
       "img": "assets/relics/powerarmor.png",
       "imageResource": "",
-      "deprecated": false
+      "deprecated": false,
+      "dynamicValues": {},
+      "upgradeDynamicValues": {},
+      "attachedTips": [
+        {
+          "id": "POSSESS_STRENGTH_POWER",
+          "name": {
+            "en": "Possess Strength",
+            "zh": "抢夺力量"
+          },
+          "description": {
+            "en": "When killed, return all stolen [gold]Strength[/gold] to the player.",
+            "zh": "被击杀时，将偷窃的所有[gold]力量[/gold]返还给玩家。"
+          },
+          "sourceValueKey": "StrengthPower"
+        },
+        {
+          "id": "VIGOR_POWER",
+          "name": {
+            "en": "Vigor",
+            "zh": "活力"
+          },
+          "description": {
+            "en": "Your next Attack deals additional damage.",
+            "zh": "你的下一张攻击牌伤害增加。"
+          },
+          "sourceValueKey": "VigorPower"
+        },
+        {
+          "id": "CHAMP-COUNTER_POWER",
+          "name": {
+            "en": "Counter",
+            "zh": "反击"
+          },
+          "description": {
+            "en": "The next time you take Attack damage, gain [gold]Riposte Strike[/gold] that deals damage equal to this amount.",
+            "zh": "下次你受到攻击伤害时，获得一张[gold]还击打击[/gold]，其伤害等同于你的反击层数。"
+          },
+          "sourceValueKey": "CounterPower"
+        }
+      ],
+      "attachedCardTips": []
     },
     {
       "id": "CHAMP-SIGNATURE_FINISHER",
@@ -847,7 +1343,24 @@
       "energyIcon": "assets/energy-icons/champ.png",
       "img": "assets/relics/signaturefinisher.png",
       "imageResource": "",
-      "deprecated": false
+      "deprecated": false,
+      "dynamicValues": {},
+      "upgradeDynamicValues": {},
+      "attachedTips": [
+        {
+          "id": "CHAMP-FINISHER",
+          "name": {
+            "en": "Finisher",
+            "zh": "终结技"
+          },
+          "description": {
+            "en": "Requires a [gold]Stance[/gold].\nAfter playing a Finisher, exit your [gold]Stance[/gold] and trigger its Finisher bonus.",
+            "zh": "处于[gold]姿态[/gold]时才能打出。\n打出终结技后，退出当前[gold]姿态[/gold]并触发终结技效果。"
+          },
+          "sourceValueKey": null
+        }
+      ],
+      "attachedCardTips": []
     },
     {
       "id": "CHAMP-SPECTRES_HAND",
@@ -871,7 +1384,36 @@
       "energyIcon": "assets/energy-icons/champ.png",
       "img": "assets/relics/spectreshand.png",
       "imageResource": "",
-      "deprecated": false
+      "deprecated": false,
+      "dynamicValues": {},
+      "upgradeDynamicValues": {},
+      "attachedTips": [
+        {
+          "id": "CHAMP-STANCE",
+          "name": {
+            "en": "Stance",
+            "zh": "姿态"
+          },
+          "description": {
+            "en": "You may have only one Stance at a time.",
+            "zh": "你同一时间只能拥有一个姿态。"
+          },
+          "sourceValueKey": null
+        },
+        {
+          "id": "DOWNFALL-ECHO",
+          "name": {
+            "en": "Echo",
+            "zh": "回响"
+          },
+          "description": {
+            "en": "Echoes are copies of cards with [gold]Ethereal[/gold] and [gold]Exhaust[/gold].\nEchoes cannot be Echoed.",
+            "zh": "回响是具有[gold]虚无[/gold]和[gold]消耗[/gold]的卡牌复制品。\n回响无法被再次回响。"
+          },
+          "sourceValueKey": null
+        }
+      ],
+      "attachedCardTips": []
     },
     {
       "id": "CHAMP-VICTORIOUS_CROWN",
@@ -895,7 +1437,11 @@
       "energyIcon": null,
       "img": null,
       "imageResource": "",
-      "deprecated": false
+      "deprecated": false,
+      "dynamicValues": {},
+      "upgradeDynamicValues": {},
+      "attachedTips": [],
+      "attachedCardTips": []
     },
     {
       "id": "COLLECTOR-BAG_OF_TRICKS",
@@ -919,7 +1465,11 @@
       "energyIcon": null,
       "img": null,
       "imageResource": "",
-      "deprecated": false
+      "deprecated": false,
+      "dynamicValues": {},
+      "upgradeDynamicValues": {},
+      "attachedTips": [],
+      "attachedCardTips": []
     },
     {
       "id": "COLLECTOR-BLOCKED_CHAKRA",
@@ -943,7 +1493,15 @@
       "energyIcon": "assets/energy-icons/collector.png",
       "img": "assets/relics/blockedchakra.png",
       "imageResource": "",
-      "deprecated": false
+      "deprecated": false,
+      "dynamicValues": {
+        "Energy": 1
+      },
+      "upgradeDynamicValues": {
+        "Energy": 1
+      },
+      "attachedTips": [],
+      "attachedCardTips": []
     },
     {
       "id": "COLLECTOR-BOTTLED_BRAIN",
@@ -967,7 +1525,11 @@
       "energyIcon": null,
       "img": null,
       "imageResource": "",
-      "deprecated": false
+      "deprecated": false,
+      "dynamicValues": {},
+      "upgradeDynamicValues": {},
+      "attachedTips": [],
+      "attachedCardTips": []
     },
     {
       "id": "COLLECTOR-EMERALD_TORCH",
@@ -991,7 +1553,11 @@
       "energyIcon": null,
       "img": null,
       "imageResource": "",
-      "deprecated": false
+      "deprecated": false,
+      "dynamicValues": {},
+      "upgradeDynamicValues": {},
+      "attachedTips": [],
+      "attachedCardTips": []
     },
     {
       "id": "COLLECTOR-JADE_RING",
@@ -1015,7 +1581,11 @@
       "energyIcon": null,
       "img": null,
       "imageResource": "",
-      "deprecated": false
+      "deprecated": false,
+      "dynamicValues": {},
+      "upgradeDynamicValues": {},
+      "attachedTips": [],
+      "attachedCardTips": []
     },
     {
       "id": "COLLECTOR-KRAMPIAN_COAL",
@@ -1039,7 +1609,16 @@
       "energyIcon": "assets/energy-icons/collector.png",
       "img": "assets/relics/krampiancoal.png",
       "imageResource": "",
-      "deprecated": false
+      "deprecated": false,
+      "dynamicValues": {},
+      "upgradeDynamicValues": {},
+      "attachedTips": [],
+      "attachedCardTips": [
+        {
+          "id": "COLLECTOR-LUCKY_WICK",
+          "upgraded": false
+        }
+      ]
     },
     {
       "id": "COLLECTOR-PRISMATIC_TORCH",
@@ -1063,7 +1642,16 @@
       "energyIcon": "assets/energy-icons/collector.png",
       "img": "assets/relics/prismatictorch.png",
       "imageResource": "",
-      "deprecated": false
+      "deprecated": false,
+      "dynamicValues": {},
+      "upgradeDynamicValues": {},
+      "attachedTips": [],
+      "attachedCardTips": [
+        {
+          "id": "COLLECTOR-EMBER",
+          "upgraded": false
+        }
+      ]
     },
     {
       "id": "COLLECTOR-SOUL_LIT_LAMP",
@@ -1087,7 +1675,16 @@
       "energyIcon": "assets/energy-icons/collector.png",
       "img": "assets/relics/soullitlamp.png",
       "imageResource": "",
-      "deprecated": false
+      "deprecated": false,
+      "dynamicValues": {},
+      "upgradeDynamicValues": {},
+      "attachedTips": [],
+      "attachedCardTips": [
+        {
+          "id": "COLLECTOR-EMBER",
+          "upgraded": false
+        }
+      ]
     },
     {
       "id": "COLLECTOR-THE_CONTRACT",
@@ -1111,7 +1708,11 @@
       "energyIcon": null,
       "img": null,
       "imageResource": "",
-      "deprecated": false
+      "deprecated": false,
+      "dynamicValues": {},
+      "upgradeDynamicValues": {},
+      "attachedTips": [],
+      "attachedCardTips": []
     },
     {
       "id": "COLLECTOR-THIMBLE_HELM",
@@ -1135,7 +1736,24 @@
       "energyIcon": "assets/energy-icons/collector.png",
       "img": "assets/relics/thimblehelm.png",
       "imageResource": "",
-      "deprecated": false
+      "deprecated": false,
+      "dynamicValues": {},
+      "upgradeDynamicValues": {},
+      "attachedTips": [
+        {
+          "id": "COLLECTOR-KINDLE",
+          "name": {
+            "en": "Kindle",
+            "zh": "点燃"
+          },
+          "description": {
+            "en": "Summon a [gold]Torchhead[/gold]. If one is already summoned, increase its Max HP for this combat.",
+            "zh": "召唤[gold]火炬头[/gold]。如果已被召唤，则改为在本场战斗中为其增加最大生命值。"
+          },
+          "sourceValueKey": null
+        }
+      ],
+      "attachedCardTips": []
     },
     {
       "id": "GREMLINS-FRAGMENTATION_GRENADE",
@@ -1159,7 +1777,11 @@
       "energyIcon": null,
       "img": null,
       "imageResource": "",
-      "deprecated": false
+      "deprecated": false,
+      "dynamicValues": {},
+      "upgradeDynamicValues": {},
+      "attachedTips": [],
+      "attachedCardTips": []
     },
     {
       "id": "GREMLINS-GREMLIN_BOMB",
@@ -1183,7 +1805,15 @@
       "energyIcon": "assets/energy-icons/gremlin.png",
       "img": "assets/relics/gremlinbomb.png",
       "imageResource": "",
-      "deprecated": false
+      "deprecated": false,
+      "dynamicValues": {
+        "Damage": 30
+      },
+      "upgradeDynamicValues": {
+        "Damage": 30
+      },
+      "attachedTips": [],
+      "attachedCardTips": []
     },
     {
       "id": "GREMLINS-GREMLIN_GRAVESTONE",
@@ -1207,7 +1837,11 @@
       "energyIcon": null,
       "img": null,
       "imageResource": "",
-      "deprecated": false
+      "deprecated": false,
+      "dynamicValues": {},
+      "upgradeDynamicValues": {},
+      "attachedTips": [],
+      "attachedCardTips": []
     },
     {
       "id": "GREMLINS-GREMLIN_LEADERS_VOUCHER",
@@ -1231,7 +1865,15 @@
       "energyIcon": "assets/energy-icons/gremlin.png",
       "img": "assets/relics/gremlinleadersvoucher.png",
       "imageResource": "",
-      "deprecated": false
+      "deprecated": false,
+      "dynamicValues": {
+        "Energy": 1
+      },
+      "upgradeDynamicValues": {
+        "Energy": 1
+      },
+      "attachedTips": [],
+      "attachedCardTips": []
     },
     {
       "id": "GREMLINS-IMPECCABLE_PECS",
@@ -1255,7 +1897,28 @@
       "energyIcon": "assets/energy-icons/gremlin.png",
       "img": "assets/relics/impeccablepecs.png",
       "imageResource": "",
-      "deprecated": false
+      "deprecated": false,
+      "dynamicValues": {
+        "StrengthPower": 1
+      },
+      "upgradeDynamicValues": {
+        "StrengthPower": 1
+      },
+      "attachedTips": [
+        {
+          "id": "POSSESS_STRENGTH_POWER",
+          "name": {
+            "en": "Possess Strength",
+            "zh": "抢夺力量"
+          },
+          "description": {
+            "en": "When killed, return all stolen [gold]Strength[/gold] to the player.",
+            "zh": "被击杀时，将偷窃的所有[gold]力量[/gold]返还给玩家。"
+          },
+          "sourceValueKey": "StrengthPower"
+        }
+      ],
+      "attachedCardTips": []
     },
     {
       "id": "GREMLINS-MAGIC_MALLET",
@@ -1279,7 +1942,46 @@
       "energyIcon": "assets/energy-icons/gremlin.png",
       "img": "assets/relics/magicmallet.png",
       "imageResource": "",
-      "deprecated": false
+      "deprecated": false,
+      "dynamicValues": {
+        "MaxUses": 3,
+        "WizPower": 1,
+        "MaxUsesBase": 3,
+        "MaxUsesExtra": 1
+      },
+      "upgradeDynamicValues": {
+        "MaxUses": 3,
+        "WizPower": 1,
+        "MaxUsesBase": 3,
+        "MaxUsesExtra": 1
+      },
+      "attachedTips": [
+        {
+          "id": "WEAK_POWER",
+          "name": {
+            "en": "Weak",
+            "zh": "虚弱"
+          },
+          "description": {
+            "en": "Weakened creatures deal [blue]25%[/blue] less damage with Attacks.",
+            "zh": "虚弱的生物造成的攻击伤害减少[blue]25%[/blue]。"
+          },
+          "sourceValueKey": "WeakPower"
+        },
+        {
+          "id": "GREMLINS-WIZ_POWER",
+          "name": {
+            "en": "Wiz",
+            "zh": "法力"
+          },
+          "description": {
+            "en": "When you have at least [blue]3[/blue] [gold]Wiz[/gold], your next Attack deals [blue]7[/blue] additional damage. ",
+            "zh": "当你拥有至少[blue]3[/blue]点[gold]法力[/gold]时，你的下一次攻击造成[blue]7[/blue]点额外伤害。"
+          },
+          "sourceValueKey": "WizPower"
+        }
+      ],
+      "attachedCardTips": []
     },
     {
       "id": "GREMLINS-MOB_LEADERS_CROWN",
@@ -1303,7 +2005,17 @@
       "energyIcon": "assets/energy-icons/gremlin.png",
       "img": "assets/relics/mobleaderscrown.png",
       "imageResource": "",
-      "deprecated": false
+      "deprecated": false,
+      "dynamicValues": {
+        "Energy": 1,
+        "Cards": 1
+      },
+      "upgradeDynamicValues": {
+        "Energy": 1,
+        "Cards": 1
+      },
+      "attachedTips": [],
+      "attachedCardTips": []
     },
     {
       "id": "GREMLINS-MOB_LEADERS_STAFF",
@@ -1327,7 +2039,17 @@
       "energyIcon": "assets/energy-icons/gremlin.png",
       "img": "assets/relics/mobleadersstaff.png",
       "imageResource": "",
-      "deprecated": false
+      "deprecated": false,
+      "dynamicValues": {
+        "Energy": 1,
+        "Cards": 1
+      },
+      "upgradeDynamicValues": {
+        "Energy": 1,
+        "Cards": 1
+      },
+      "attachedTips": [],
+      "attachedCardTips": []
     },
     {
       "id": "GREMLINS-SHORT_STATUE",
@@ -1351,7 +2073,11 @@
       "energyIcon": null,
       "img": null,
       "imageResource": "",
-      "deprecated": false
+      "deprecated": false,
+      "dynamicValues": {},
+      "upgradeDynamicValues": {},
+      "attachedTips": [],
+      "attachedCardTips": []
     },
     {
       "id": "GREMLINS-STOLEN_MERCHANDISE",
@@ -1375,7 +2101,11 @@
       "energyIcon": null,
       "img": null,
       "imageResource": "",
-      "deprecated": false
+      "deprecated": false,
+      "dynamicValues": {},
+      "upgradeDynamicValues": {},
+      "attachedTips": [],
+      "attachedCardTips": []
     },
     {
       "id": "GREMLINS-TAG_TEAMWORK",
@@ -1399,7 +2129,16 @@
       "energyIcon": "assets/energy-icons/gremlin.png",
       "img": "assets/relics/tagteamwork.png",
       "imageResource": "",
-      "deprecated": false
+      "deprecated": false,
+      "dynamicValues": {},
+      "upgradeDynamicValues": {},
+      "attachedTips": [],
+      "attachedCardTips": [
+        {
+          "id": "GREMLINS-TAG_TEAM",
+          "upgraded": false
+        }
+      ]
     },
     {
       "id": "GREMLINS-WIZARD_HAT",
@@ -1423,7 +2162,24 @@
       "energyIcon": "assets/energy-icons/gremlin.png",
       "img": "assets/relics/wizardhat.png",
       "imageResource": "",
-      "deprecated": false
+      "deprecated": false,
+      "dynamicValues": {},
+      "upgradeDynamicValues": {},
+      "attachedTips": [
+        {
+          "id": "GREMLINS-WIZ_POWER",
+          "name": {
+            "en": "Wiz",
+            "zh": "法力"
+          },
+          "description": {
+            "en": "When you have at least [blue]3[/blue] [gold]Wiz[/gold], your next Attack deals [blue]7[/blue] additional damage. ",
+            "zh": "当你拥有至少[blue]3[/blue]点[gold]法力[/gold]时，你的下一次攻击造成[blue]7[/blue]点额外伤害。"
+          },
+          "sourceValueKey": "WizPower"
+        }
+      ],
+      "attachedCardTips": []
     },
     {
       "id": "GREMLINS-WIZARD_STAFF",
@@ -1447,7 +2203,28 @@
       "energyIcon": "assets/energy-icons/gremlin.png",
       "img": "assets/relics/wizardstaff.png",
       "imageResource": "",
-      "deprecated": false
+      "deprecated": false,
+      "dynamicValues": {
+        "Damage": 7
+      },
+      "upgradeDynamicValues": {
+        "Damage": 7
+      },
+      "attachedTips": [
+        {
+          "id": "GREMLINS-WIZ_POWER",
+          "name": {
+            "en": "Wiz",
+            "zh": "法力"
+          },
+          "description": {
+            "en": "When you have at least [blue]3[/blue] [gold]Wiz[/gold], your next Attack deals [blue]7[/blue] additional damage. ",
+            "zh": "当你拥有至少[blue]3[/blue]点[gold]法力[/gold]时，你的下一次攻击造成[blue]7[/blue]点额外伤害。"
+          },
+          "sourceValueKey": "WizPower"
+        }
+      ],
+      "attachedCardTips": []
     },
     {
       "id": "GREMLINS-WOUND_POKER",
@@ -1471,7 +2248,28 @@
       "energyIcon": "assets/energy-icons/gremlin.png",
       "img": "assets/relics/woundpoker.png",
       "imageResource": "",
-      "deprecated": false
+      "deprecated": false,
+      "dynamicValues": {
+        "Damage": 4
+      },
+      "upgradeDynamicValues": {
+        "Damage": 4
+      },
+      "attachedTips": [
+        {
+          "id": "WEAK_POWER",
+          "name": {
+            "en": "Weak",
+            "zh": "虚弱"
+          },
+          "description": {
+            "en": "Weakened creatures deal [blue]25%[/blue] less damage with Attacks.",
+            "zh": "虚弱的生物造成的攻击伤害减少[blue]25%[/blue]。"
+          },
+          "sourceValueKey": "WeakPower"
+        }
+      ],
+      "attachedCardTips": []
     },
     {
       "id": "GUARDIAN-BAALORS_LORDLY_PLATE",
@@ -1495,7 +2293,28 @@
       "energyIcon": "assets/energy-icons/guardian.png",
       "img": "assets/relics/baalorslordlyplate.png",
       "imageResource": "",
-      "deprecated": false
+      "deprecated": false,
+      "dynamicValues": {
+        "Brace": 1
+      },
+      "upgradeDynamicValues": {
+        "Brace": 1
+      },
+      "attachedTips": [
+        {
+          "id": "GUARDIAN-BRACE",
+          "name": {
+            "en": "Brace",
+            "zh": "提防"
+          },
+          "description": {
+            "en": "Reduce the HP loss required to trigger [gold]Mode Shift[/gold].",
+            "zh": "降低进入[gold]防御模式[/gold]所需的计数。"
+          },
+          "sourceValueKey": null
+        }
+      ],
+      "attachedCardTips": []
     },
     {
       "id": "GUARDIAN-BOTTLED_BLACK_HOLE",
@@ -1519,7 +2338,24 @@
       "energyIcon": "assets/energy-icons/guardian.png",
       "img": "assets/relics/bottledblackhole.png",
       "imageResource": "",
-      "deprecated": false
+      "deprecated": false,
+      "dynamicValues": {},
+      "upgradeDynamicValues": {},
+      "attachedTips": [
+        {
+          "id": "GUARDIAN-STASIS",
+          "name": {
+            "en": "Stasis",
+            "zh": "凝滞"
+          },
+          "description": {
+            "en": "A card in [gold]Stasis[/gold] stays for turns equal to its cost +[blue]1[/blue]. When it exits, it returns to your [gold]Hand[/gold] and is free until played.",
+            "zh": "将牌挂起并从其耗能+[blue]1[/blue]开始倒计时。\n在你的回合开始时，所有凝滞卡牌的计时减[blue]1[/blue]。\n计时归零时，将其返回手牌且下次打出前耗能变为[blue]0[/blue]。"
+          },
+          "sourceValueKey": null
+        }
+      ],
+      "attachedCardTips": []
     },
     {
       "id": "GUARDIAN-BRONZE_GEAR",
@@ -1543,7 +2379,29 @@
       "energyIcon": "assets/energy-icons/guardian.png",
       "img": "assets/relics/bronzegear.png",
       "imageResource": "",
-      "deprecated": false
+      "deprecated": false,
+      "dynamicValues": {},
+      "upgradeDynamicValues": {},
+      "attachedTips": [
+        {
+          "id": "GUARDIAN-GEM",
+          "name": {
+            "en": "Gem",
+            "zh": "宝石"
+          },
+          "description": {
+            "en": "Gems can be placed into [gold]Sockets[/gold] in cards at a Rest Site.",
+            "zh": "宝石能在休息处被镶嵌至有[gold]孔位[/gold]的卡牌上。"
+          },
+          "sourceValueKey": null
+        }
+      ],
+      "attachedCardTips": [
+        {
+          "id": "GUARDIAN-GEAR_UP",
+          "upgraded": false
+        }
+      ]
     },
     {
       "id": "GUARDIAN-CRYO_CHAMBER",
@@ -1567,7 +2425,24 @@
       "energyIcon": "assets/energy-icons/guardian.png",
       "img": "assets/relics/cryochamber.png",
       "imageResource": "",
-      "deprecated": false
+      "deprecated": false,
+      "dynamicValues": {},
+      "upgradeDynamicValues": {},
+      "attachedTips": [
+        {
+          "id": "GUARDIAN-STASIS",
+          "name": {
+            "en": "Stasis",
+            "zh": "凝滞"
+          },
+          "description": {
+            "en": "A card in [gold]Stasis[/gold] stays for turns equal to its cost +[blue]1[/blue]. When it exits, it returns to your [gold]Hand[/gold] and is free until played.",
+            "zh": "将牌挂起并从其耗能+[blue]1[/blue]开始倒计时。\n在你的回合开始时，所有凝滞卡牌的计时减[blue]1[/blue]。\n计时归零时，将其返回手牌且下次打出前耗能变为[blue]0[/blue]。"
+          },
+          "sourceValueKey": null
+        }
+      ],
+      "attachedCardTips": []
     },
     {
       "id": "GUARDIAN-GUARDIAN_GEAR",
@@ -1591,7 +2466,11 @@
       "energyIcon": null,
       "img": null,
       "imageResource": "",
-      "deprecated": false
+      "deprecated": false,
+      "dynamicValues": {},
+      "upgradeDynamicValues": {},
+      "attachedTips": [],
+      "attachedCardTips": []
     },
     {
       "id": "GUARDIAN-OBSIDIAN_SCALES",
@@ -1615,7 +2494,11 @@
       "energyIcon": null,
       "img": null,
       "imageResource": "",
-      "deprecated": false
+      "deprecated": false,
+      "dynamicValues": {},
+      "upgradeDynamicValues": {},
+      "attachedTips": [],
+      "attachedCardTips": []
     },
     {
       "id": "GUARDIAN-PICK_OF_RHAPSODY",
@@ -1639,7 +2522,11 @@
       "energyIcon": null,
       "img": null,
       "imageResource": "",
-      "deprecated": false
+      "deprecated": false,
+      "dynamicValues": {},
+      "upgradeDynamicValues": {},
+      "attachedTips": [],
+      "attachedCardTips": []
     },
     {
       "id": "GUARDIAN-PILOTS_CODEX",
@@ -1663,7 +2550,24 @@
       "energyIcon": "assets/energy-icons/guardian.png",
       "img": "assets/relics/pilotscodex.png",
       "imageResource": "",
-      "deprecated": false
+      "deprecated": false,
+      "dynamicValues": {},
+      "upgradeDynamicValues": {},
+      "attachedTips": [
+        {
+          "id": "GUARDIAN-STASIS",
+          "name": {
+            "en": "Stasis",
+            "zh": "凝滞"
+          },
+          "description": {
+            "en": "A card in [gold]Stasis[/gold] stays for turns equal to its cost +[blue]1[/blue]. When it exits, it returns to your [gold]Hand[/gold] and is free until played.",
+            "zh": "将牌挂起并从其耗能+[blue]1[/blue]开始倒计时。\n在你的回合开始时，所有凝滞卡牌的计时减[blue]1[/blue]。\n计时归零时，将其返回手牌且下次打出前耗能变为[blue]0[/blue]。"
+          },
+          "sourceValueKey": null
+        }
+      ],
+      "attachedCardTips": []
     },
     {
       "id": "GUARDIAN-QUANTUM_CHAMBER",
@@ -1687,7 +2591,11 @@
       "energyIcon": null,
       "img": null,
       "imageResource": "",
-      "deprecated": false
+      "deprecated": false,
+      "dynamicValues": {},
+      "upgradeDynamicValues": {},
+      "attachedTips": [],
+      "attachedCardTips": []
     },
     {
       "id": "GUARDIAN-SACK_OF_GEMS",
@@ -1711,7 +2619,11 @@
       "energyIcon": null,
       "img": null,
       "imageResource": "",
-      "deprecated": false
+      "deprecated": false,
+      "dynamicValues": {},
+      "upgradeDynamicValues": {},
+      "attachedTips": [],
+      "attachedCardTips": []
     },
     {
       "id": "GUARDIAN-WANDER_BOTS",
@@ -1735,7 +2647,15 @@
       "energyIcon": "assets/energy-icons/guardian.png",
       "img": "assets/relics/wanderbots.png",
       "imageResource": "",
-      "deprecated": false
+      "deprecated": false,
+      "dynamicValues": {
+        "Energy": 1
+      },
+      "upgradeDynamicValues": {
+        "Energy": 1
+      },
+      "attachedTips": [],
+      "attachedCardTips": []
     },
     {
       "id": "HERMIT-BLACK_POWDER",
@@ -1759,7 +2679,15 @@
       "energyIcon": "assets/energy-icons/hermit.png",
       "img": "assets/relics/blackpowder.png",
       "imageResource": "",
-      "deprecated": false
+      "deprecated": false,
+      "dynamicValues": {
+        "Damage": 2
+      },
+      "upgradeDynamicValues": {
+        "Damage": 2
+      },
+      "attachedTips": [],
+      "attachedCardTips": []
     },
     {
       "id": "HERMIT-BRASS_TACKS",
@@ -1783,7 +2711,15 @@
       "energyIcon": "assets/energy-icons/hermit.png",
       "img": "assets/relics/brasstacks.png",
       "imageResource": "",
-      "deprecated": false
+      "deprecated": false,
+      "dynamicValues": {
+        "Block": 2
+      },
+      "upgradeDynamicValues": {
+        "Block": 2
+      },
+      "attachedTips": [],
+      "attachedCardTips": []
     },
     {
       "id": "HERMIT-BROKEN_TOOTH",
@@ -1807,7 +2743,17 @@
       "energyIcon": "assets/energy-icons/hermit.png",
       "img": "assets/relics/brokentooth.png",
       "imageResource": "",
-      "deprecated": false
+      "deprecated": false,
+      "dynamicValues": {
+        "Heal": 7,
+        "Gold": 35
+      },
+      "upgradeDynamicValues": {
+        "Heal": 7,
+        "Gold": 35
+      },
+      "attachedTips": [],
+      "attachedCardTips": []
     },
     {
       "id": "HERMIT-CHARRED_GLOVE",
@@ -1831,7 +2777,28 @@
       "energyIcon": "assets/energy-icons/hermit.png",
       "img": "assets/relics/charredglove.png",
       "imageResource": "",
-      "deprecated": false
+      "deprecated": false,
+      "dynamicValues": {
+        "VigorPower": 4
+      },
+      "upgradeDynamicValues": {
+        "VigorPower": 4
+      },
+      "attachedTips": [
+        {
+          "id": "VIGOR_POWER",
+          "name": {
+            "en": "Vigor",
+            "zh": "活力"
+          },
+          "description": {
+            "en": "Your next Attack deals additional damage.",
+            "zh": "你的下一张攻击牌伤害增加。"
+          },
+          "sourceValueKey": "VigorPower"
+        }
+      ],
+      "attachedCardTips": []
     },
     {
       "id": "HERMIT-CLASPED_LOCKET",
@@ -1855,7 +2822,21 @@
       "energyIcon": "assets/energy-icons/hermit.png",
       "img": "assets/relics/claspedlocket.png",
       "imageResource": "",
-      "deprecated": false
+      "deprecated": false,
+      "dynamicValues": {
+        "Curses": 2,
+        "Cards": 3,
+        "CursesBase": 2,
+        "CursesExtra": 1
+      },
+      "upgradeDynamicValues": {
+        "Curses": 2,
+        "Cards": 3,
+        "CursesBase": 2,
+        "CursesExtra": 1
+      },
+      "attachedTips": [],
+      "attachedCardTips": []
     },
     {
       "id": "HERMIT-DENTED_PLATE",
@@ -1879,7 +2860,17 @@
       "energyIcon": "assets/energy-icons/hermit.png",
       "img": "assets/relics/dentedplate.png",
       "imageResource": "",
-      "deprecated": false
+      "deprecated": false,
+      "dynamicValues": {
+        "Energy": 1,
+        "Cards": 1
+      },
+      "upgradeDynamicValues": {
+        "Energy": 1,
+        "Cards": 1
+      },
+      "attachedTips": [],
+      "attachedCardTips": []
     },
     {
       "id": "HERMIT-HORSESHOE",
@@ -1903,7 +2894,48 @@
       "energyIcon": "assets/energy-icons/hermit.png",
       "img": "assets/relics/horseshoe.png",
       "imageResource": "",
-      "deprecated": false
+      "deprecated": false,
+      "dynamicValues": {},
+      "upgradeDynamicValues": {},
+      "attachedTips": [
+        {
+          "id": "WEAK_POWER",
+          "name": {
+            "en": "Weak",
+            "zh": "虚弱"
+          },
+          "description": {
+            "en": "Weakened creatures deal [blue]25%[/blue] less damage with Attacks.",
+            "zh": "虚弱的生物造成的攻击伤害减少[blue]25%[/blue]。"
+          },
+          "sourceValueKey": "WeakPower"
+        },
+        {
+          "id": "FRAIL_POWER",
+          "name": {
+            "en": "Frail",
+            "zh": "脆弱"
+          },
+          "description": {
+            "en": "While Frail, gain [blue]25%[/blue] less [gold]Block[/gold] from cards.",
+            "zh": "脆弱时，从卡牌中获得的[gold]格挡[/gold]值减少[blue]25%[/blue]。"
+          },
+          "sourceValueKey": "FrailPower"
+        },
+        {
+          "id": "VULNERABLE_POWER",
+          "name": {
+            "en": "Vulnerable",
+            "zh": "易伤"
+          },
+          "description": {
+            "en": "Vulnerable creatures take [blue]50%[/blue] more damage from Attacks.",
+            "zh": "易伤的生物从攻击中受到的伤害增加[blue]50%[/blue]。"
+          },
+          "sourceValueKey": "VulnerablePower"
+        }
+      ],
+      "attachedCardTips": []
     },
     {
       "id": "HERMIT-OLD_LOCKET",
@@ -1927,7 +2959,16 @@
       "energyIcon": "assets/energy-icons/hermit.png",
       "img": "assets/relics/oldlocket.png",
       "imageResource": "",
-      "deprecated": false
+      "deprecated": false,
+      "dynamicValues": {},
+      "upgradeDynamicValues": {},
+      "attachedTips": [],
+      "attachedCardTips": [
+        {
+          "id": "HERMIT-MEMENTO_CARD",
+          "upgraded": false
+        }
+      ]
     },
     {
       "id": "HERMIT-PET_GHOST",
@@ -1951,7 +2992,11 @@
       "energyIcon": null,
       "img": null,
       "imageResource": "",
-      "deprecated": false
+      "deprecated": false,
+      "dynamicValues": {},
+      "upgradeDynamicValues": {},
+      "attachedTips": [],
+      "attachedCardTips": []
     },
     {
       "id": "HERMIT-RED_SCARF",
@@ -1975,7 +3020,15 @@
       "energyIcon": "assets/energy-icons/hermit.png",
       "img": "assets/relics/redscarf.png",
       "imageResource": "",
-      "deprecated": false
+      "deprecated": false,
+      "dynamicValues": {
+        "Block": 3
+      },
+      "upgradeDynamicValues": {
+        "Block": 3
+      },
+      "attachedTips": [],
+      "attachedCardTips": []
     },
     {
       "id": "HERMIT-RYE_STALK",
@@ -1999,7 +3052,34 @@
       "energyIcon": "assets/energy-icons/hermit.png",
       "img": "assets/relics/ryestalk.png",
       "imageResource": "",
-      "deprecated": false
+      "deprecated": false,
+      "dynamicValues": {
+        "Turn": 4,
+        "RuggedPower": 1,
+        "TurnBase": 4,
+        "TurnExtra": 1
+      },
+      "upgradeDynamicValues": {
+        "Turn": 4,
+        "RuggedPower": 1,
+        "TurnBase": 4,
+        "TurnExtra": 1
+      },
+      "attachedTips": [
+        {
+          "id": "HERMIT-RUGGED_POWER",
+          "name": {
+            "en": "Rugged",
+            "zh": "坚固"
+          },
+          "description": {
+            "en": "When you would take unblocked attack damage, reduce it to [blue]2[/blue].",
+            "zh": "下一次你受到未被格挡的攻击伤害时，将其降低至[blue]2[/blue]点。"
+          },
+          "sourceValueKey": "RuggedPower"
+        }
+      ],
+      "attachedCardTips": []
     },
     {
       "id": "HERMIT-SHOTGLASS",
@@ -2023,7 +3103,19 @@
       "energyIcon": "assets/energy-icons/hermit.png",
       "img": "assets/relics/shotglass.png",
       "imageResource": "",
-      "deprecated": false
+      "deprecated": false,
+      "dynamicValues": {
+        "Limit": 1,
+        "LimitBase": 1,
+        "LimitExtra": 1
+      },
+      "upgradeDynamicValues": {
+        "Limit": 1,
+        "LimitBase": 1,
+        "LimitExtra": 1
+      },
+      "attachedTips": [],
+      "attachedCardTips": []
     },
     {
       "id": "HERMIT-SPYGLASS",
@@ -2047,7 +3139,11 @@
       "energyIcon": "assets/energy-icons/hermit.png",
       "img": "assets/relics/spyglass.png",
       "imageResource": "",
-      "deprecated": false
+      "deprecated": false,
+      "dynamicValues": {},
+      "upgradeDynamicValues": {},
+      "attachedTips": [],
+      "attachedCardTips": []
     },
     {
       "id": "HERMIT-STRAIGHT_RAZOR",
@@ -2071,7 +3167,15 @@
       "energyIcon": "assets/energy-icons/hermit.png",
       "img": "assets/relics/straightrazor.png",
       "imageResource": "",
-      "deprecated": false
+      "deprecated": false,
+      "dynamicValues": {
+        "Heal": 15
+      },
+      "upgradeDynamicValues": {
+        "Heal": 15
+      },
+      "attachedTips": [],
+      "attachedCardTips": []
     },
     {
       "id": "HEXAGHOST-JAR_OF_TOBSCO",
@@ -2095,7 +3199,24 @@
       "energyIcon": "assets/energy-icons/hexaghost.png",
       "img": "assets/relics/jaroftobsco.png",
       "imageResource": "",
-      "deprecated": false
+      "deprecated": false,
+      "dynamicValues": {},
+      "upgradeDynamicValues": {},
+      "attachedTips": [
+        {
+          "id": "HEXAGHOST-INTENSITY_POWER",
+          "name": {
+            "en": "Intensity",
+            "zh": "热烈"
+          },
+          "description": {
+            "en": "Increase the amount of damage, [gold]Block[/gold] and [gold]Soulburn[/gold] from [gold]Ghostflames[/gold] by [blue]1[/blue].",
+            "zh": "使[gold]鬼火[/gold]的伤害、[gold]格挡[/gold]和[gold]灼魂[/gold]数值增加[blue]1[/blue]。"
+          },
+          "sourceValueKey": "IntensityPower"
+        }
+      ],
+      "attachedCardTips": []
     },
     {
       "id": "HEXAGHOST-LIBRA",
@@ -2119,7 +3240,11 @@
       "energyIcon": null,
       "img": null,
       "imageResource": "",
-      "deprecated": false
+      "deprecated": false,
+      "dynamicValues": {},
+      "upgradeDynamicValues": {},
+      "attachedTips": [],
+      "attachedCardTips": []
     },
     {
       "id": "HEXAGHOST-MARK_OF_THE_ETHER",
@@ -2143,7 +3268,11 @@
       "energyIcon": null,
       "img": null,
       "imageResource": "",
-      "deprecated": false
+      "deprecated": false,
+      "dynamicValues": {},
+      "upgradeDynamicValues": {},
+      "attachedTips": [],
+      "attachedCardTips": []
     },
     {
       "id": "HEXAGHOST-OLEXAS_SHIELD",
@@ -2167,7 +3296,11 @@
       "energyIcon": null,
       "img": null,
       "imageResource": "",
-      "deprecated": false
+      "deprecated": false,
+      "dynamicValues": {},
+      "upgradeDynamicValues": {},
+      "attachedTips": [],
+      "attachedCardTips": []
     },
     {
       "id": "HEXAGHOST-RECYCLER",
@@ -2191,7 +3324,36 @@
       "energyIcon": "assets/energy-icons/hexaghost.png",
       "img": "assets/relics/recycler.png",
       "imageResource": "",
-      "deprecated": false
+      "deprecated": false,
+      "dynamicValues": {},
+      "upgradeDynamicValues": {},
+      "attachedTips": [
+        {
+          "id": "Ethereal",
+          "name": {
+            "en": "Ethereal",
+            "zh": "虚无"
+          },
+          "description": {
+            "en": "If this card is in your [gold]Hand[/gold] at the end of this turn, it is [gold]Exhausted[/gold].",
+            "zh": "如果这张牌在这个回合结束时留在你的[gold]手牌[/gold]中，则将其[gold]消耗[/gold]。"
+          },
+          "sourceValueKey": null
+        },
+        {
+          "id": "Exhaust",
+          "name": {
+            "en": "Exhaust",
+            "zh": "消耗"
+          },
+          "description": {
+            "en": "Removed until the end of combat.",
+            "zh": "在战斗结束前移除。"
+          },
+          "sourceValueKey": null
+        }
+      ],
+      "attachedCardTips": []
     },
     {
       "id": "HEXAGHOST-RED_CANDLE",
@@ -2215,7 +3377,24 @@
       "energyIcon": "assets/energy-icons/hexaghost.png",
       "img": "assets/relics/redcandle.png",
       "imageResource": "",
-      "deprecated": false
+      "deprecated": false,
+      "dynamicValues": {},
+      "upgradeDynamicValues": {},
+      "attachedTips": [
+        {
+          "id": "DOWNFALL-SOUL_BURN_POWER",
+          "name": {
+            "en": "Soulburn",
+            "zh": "灼魂"
+          },
+          "description": {
+            "en": "In [blue]3[/blue] turns, this enemy loses HP at the start of their turn, then [gold]Soulburn[/gold] is removed.",
+            "zh": "在你的[blue]3[/blue]个回合后，该敌人在它们的回合开始时失去生命值，然后移除所有[gold]灼魂[/gold]层数。"
+          },
+          "sourceValueKey": "SoulBurnPower"
+        }
+      ],
+      "attachedCardTips": []
     },
     {
       "id": "HEXAGHOST-SNEAKY_TEAKWOOD_MATCH",
@@ -2239,7 +3418,36 @@
       "energyIcon": "assets/energy-icons/hexaghost.png",
       "img": "assets/relics/sneakyteakwoodmatch.png",
       "imageResource": "",
-      "deprecated": false
+      "deprecated": false,
+      "dynamicValues": {},
+      "upgradeDynamicValues": {},
+      "attachedTips": [
+        {
+          "id": "HEXAGHOST-ADVANCE",
+          "name": {
+            "en": "Advance",
+            "zh": "步进"
+          },
+          "description": {
+            "en": "Move to the next Ghostflame. Moving onto a Ghostflame [gold]Extinguishes[/gold] it.",
+            "zh": "移动至下枚鬼火。移动至一枚鬼火会导致其[gold]熄灭[/gold]。"
+          },
+          "sourceValueKey": null
+        },
+        {
+          "id": "HEXAGHOST-RETRACT",
+          "name": {
+            "en": "Retract",
+            "zh": "回退"
+          },
+          "description": {
+            "en": "Move to the previous Ghostflame. Moving onto a Ghostflame [gold]Extinguishes[/gold] it.",
+            "zh": "移动至上枚鬼火。移动至一枚鬼火会导致其[gold]熄灭[/gold]。"
+          },
+          "sourceValueKey": null
+        }
+      ],
+      "attachedCardTips": []
     },
     {
       "id": "HEXAGHOST-SOUL_STONE",
@@ -2263,7 +3471,11 @@
       "energyIcon": null,
       "img": null,
       "imageResource": "",
-      "deprecated": false
+      "deprecated": false,
+      "dynamicValues": {},
+      "upgradeDynamicValues": {},
+      "attachedTips": [],
+      "attachedCardTips": []
     },
     {
       "id": "HEXAGHOST-SPIRIT_BRAND",
@@ -2287,7 +3499,24 @@
       "energyIcon": "assets/energy-icons/hexaghost.png",
       "img": "assets/relics/spiritbrand.png",
       "imageResource": "",
-      "deprecated": false
+      "deprecated": false,
+      "dynamicValues": {},
+      "upgradeDynamicValues": {},
+      "attachedTips": [
+        {
+          "id": "HEXAGHOST-IGNITE",
+          "name": {
+            "en": "Ignite",
+            "zh": "点燃"
+          },
+          "description": {
+            "en": "Triggers the Ignition effect described on a Ghostflame.",
+            "zh": "触发当前鬼火的点燃效果"
+          },
+          "sourceValueKey": null
+        }
+      ],
+      "attachedCardTips": []
     },
     {
       "id": "HEXAGHOST-THE_BROKEN_SEAL",
@@ -2311,7 +3540,11 @@
       "energyIcon": null,
       "img": null,
       "imageResource": "",
-      "deprecated": false
+      "deprecated": false,
+      "dynamicValues": {},
+      "upgradeDynamicValues": {},
+      "attachedTips": [],
+      "attachedCardTips": []
     },
     {
       "id": "SEA_GLASS.AUTOMATON-AUTOMATON",
@@ -2335,7 +3568,11 @@
       "energyIcon": null,
       "img": null,
       "imageResource": "",
-      "deprecated": false
+      "deprecated": false,
+      "dynamicValues": {},
+      "upgradeDynamicValues": {},
+      "attachedTips": [],
+      "attachedCardTips": []
     },
     {
       "id": "SEA_GLASS.AWAKENED-AWAKENED",
@@ -2359,7 +3596,11 @@
       "energyIcon": null,
       "img": null,
       "imageResource": "",
-      "deprecated": false
+      "deprecated": false,
+      "dynamicValues": {},
+      "upgradeDynamicValues": {},
+      "attachedTips": [],
+      "attachedCardTips": []
     },
     {
       "id": "SEA_GLASS.CHAMP-CHAMP",
@@ -2383,7 +3624,11 @@
       "energyIcon": null,
       "img": null,
       "imageResource": "",
-      "deprecated": false
+      "deprecated": false,
+      "dynamicValues": {},
+      "upgradeDynamicValues": {},
+      "attachedTips": [],
+      "attachedCardTips": []
     },
     {
       "id": "SEA_GLASS.COLLECTOR-COLLECTOR",
@@ -2407,7 +3652,11 @@
       "energyIcon": null,
       "img": null,
       "imageResource": "",
-      "deprecated": false
+      "deprecated": false,
+      "dynamicValues": {},
+      "upgradeDynamicValues": {},
+      "attachedTips": [],
+      "attachedCardTips": []
     },
     {
       "id": "SEA_GLASS.GUARDIAN-GUARDIAN",
@@ -2431,7 +3680,11 @@
       "energyIcon": null,
       "img": null,
       "imageResource": "",
-      "deprecated": false
+      "deprecated": false,
+      "dynamicValues": {},
+      "upgradeDynamicValues": {},
+      "attachedTips": [],
+      "attachedCardTips": []
     },
     {
       "id": "SEA_GLASS.HERMIT-HERMIT",
@@ -2455,7 +3708,11 @@
       "energyIcon": null,
       "img": null,
       "imageResource": "",
-      "deprecated": false
+      "deprecated": false,
+      "dynamicValues": {},
+      "upgradeDynamicValues": {},
+      "attachedTips": [],
+      "attachedCardTips": []
     },
     {
       "id": "SEA_GLASS.HEXAGHOST-HEXAGHOST",
@@ -2479,7 +3736,11 @@
       "energyIcon": null,
       "img": null,
       "imageResource": "",
-      "deprecated": false
+      "deprecated": false,
+      "dynamicValues": {},
+      "upgradeDynamicValues": {},
+      "attachedTips": [],
+      "attachedCardTips": []
     },
     {
       "id": "SEA_GLASS.SLIMEBOSS-SLIME_BOSS",
@@ -2503,7 +3764,11 @@
       "energyIcon": null,
       "img": null,
       "imageResource": "",
-      "deprecated": false
+      "deprecated": false,
+      "dynamicValues": {},
+      "upgradeDynamicValues": {},
+      "attachedTips": [],
+      "attachedCardTips": []
     },
     {
       "id": "SEA_GLASS.SNECKO-SNECKO",
@@ -2527,7 +3792,11 @@
       "energyIcon": null,
       "img": null,
       "imageResource": "",
-      "deprecated": false
+      "deprecated": false,
+      "dynamicValues": {},
+      "upgradeDynamicValues": {},
+      "attachedTips": [],
+      "attachedCardTips": []
     },
     {
       "id": "SLIMEBOSS-BLACK_HEART_OF_GOO",
@@ -2551,7 +3820,27 @@
       "energyIcon": "assets/energy-icons/slimebound.png",
       "img": "assets/relics/blackheartofgoo.png",
       "imageResource": "",
-      "deprecated": false
+      "deprecated": false,
+      "dynamicValues": {
+        "Heal": 3,
+        "UsesLeft": 15,
+        "MaxUses": 15,
+        "UsesLeftBase": 15,
+        "UsesLeftExtra": 1,
+        "MaxUsesBase": 15,
+        "MaxUsesExtra": 1
+      },
+      "upgradeDynamicValues": {
+        "Heal": 3,
+        "UsesLeft": 15,
+        "MaxUses": 15,
+        "UsesLeftBase": 15,
+        "UsesLeftExtra": 1,
+        "MaxUsesBase": 15,
+        "MaxUsesExtra": 1
+      },
+      "attachedTips": [],
+      "attachedCardTips": []
     },
     {
       "id": "SLIMEBOSS-GOOP_DWELLER",
@@ -2575,7 +3864,11 @@
       "energyIcon": null,
       "img": null,
       "imageResource": "",
-      "deprecated": false
+      "deprecated": false,
+      "dynamicValues": {},
+      "upgradeDynamicValues": {},
+      "attachedTips": [],
+      "attachedCardTips": []
     },
     {
       "id": "SLIMEBOSS-GREED_OOZE",
@@ -2599,7 +3892,11 @@
       "energyIcon": null,
       "img": null,
       "imageResource": "",
-      "deprecated": false
+      "deprecated": false,
+      "dynamicValues": {},
+      "upgradeDynamicValues": {},
+      "attachedTips": [],
+      "attachedCardTips": []
     },
     {
       "id": "SLIMEBOSS-HEART_OF_GOO",
@@ -2623,7 +3920,27 @@
       "energyIcon": "assets/energy-icons/slimebound.png",
       "img": "assets/relics/heartofgoo.png",
       "imageResource": "",
-      "deprecated": false
+      "deprecated": false,
+      "dynamicValues": {
+        "Heal": 2,
+        "UsesLeft": 8,
+        "MaxUses": 8,
+        "UsesLeftBase": 8,
+        "UsesLeftExtra": 1,
+        "MaxUsesBase": 8,
+        "MaxUsesExtra": 1
+      },
+      "upgradeDynamicValues": {
+        "Heal": 2,
+        "UsesLeft": 8,
+        "MaxUses": 8,
+        "UsesLeftBase": 8,
+        "UsesLeftExtra": 1,
+        "MaxUsesBase": 8,
+        "MaxUsesExtra": 1
+      },
+      "attachedTips": [],
+      "attachedCardTips": []
     },
     {
       "id": "SLIMEBOSS-JEREMIAHS_BANNER",
@@ -2647,7 +3964,11 @@
       "energyIcon": null,
       "img": null,
       "imageResource": "",
-      "deprecated": false
+      "deprecated": false,
+      "dynamicValues": {},
+      "upgradeDynamicValues": {},
+      "attachedTips": [],
+      "attachedCardTips": []
     },
     {
       "id": "SLIMEBOSS-PROTECTIVE_GEAR",
@@ -2671,7 +3992,19 @@
       "energyIcon": "assets/energy-icons/slimebound.png",
       "img": "assets/relics/protectivegear.png",
       "imageResource": "",
-      "deprecated": false
+      "deprecated": false,
+      "dynamicValues": {
+        "TackleReduce": 3,
+        "TackleReduceBase": 3,
+        "TackleReduceExtra": 1
+      },
+      "upgradeDynamicValues": {
+        "TackleReduce": 3,
+        "TackleReduceBase": 3,
+        "TackleReduceExtra": 1
+      },
+      "attachedTips": [],
+      "attachedCardTips": []
     },
     {
       "id": "SLIMEBOSS-SCRAP_OOZE",
@@ -2695,7 +4028,11 @@
       "energyIcon": null,
       "img": null,
       "imageResource": "",
-      "deprecated": false
+      "deprecated": false,
+      "dynamicValues": {},
+      "upgradeDynamicValues": {},
+      "attachedTips": [],
+      "attachedCardTips": []
     },
     {
       "id": "SLIMEBOSS-SLIMED_TAIL",
@@ -2719,7 +4056,15 @@
       "energyIcon": "assets/energy-icons/slimebound.png",
       "img": "assets/relics/slimedtail.png",
       "imageResource": "",
-      "deprecated": false
+      "deprecated": false,
+      "dynamicValues": {
+        "Block": 3
+      },
+      "upgradeDynamicValues": {
+        "Block": 3
+      },
+      "attachedTips": [],
+      "attachedCardTips": []
     },
     {
       "id": "SLIMEBOSS-SLIMY_SKULL",
@@ -2743,7 +4088,32 @@
       "energyIcon": "assets/energy-icons/slimebound.png",
       "img": "assets/relics/slimyskull.png",
       "imageResource": "",
-      "deprecated": false
+      "deprecated": false,
+      "dynamicValues": {
+        "GoopIncrease": 1,
+        "GoopIncreaseBase": 1,
+        "GoopIncreaseExtra": 1
+      },
+      "upgradeDynamicValues": {
+        "GoopIncrease": 1,
+        "GoopIncreaseBase": 1,
+        "GoopIncreaseExtra": 1
+      },
+      "attachedTips": [
+        {
+          "id": "SLIMEBOSS-GOOP_POWER",
+          "name": {
+            "en": "Goop",
+            "zh": "黏液"
+          },
+          "description": {
+            "en": "Your next attack deals additional damage and triggers [gold]Consume[/gold] effects.",
+            "zh": "你的下一次攻击造成额外伤害，并触发[gold]吞食[/gold]效果。"
+          },
+          "sourceValueKey": "GoopPower"
+        }
+      ],
+      "attachedCardTips": []
     },
     {
       "id": "SLIMEBOSS-STONE_OF_NOMAKK",
@@ -2767,7 +4137,28 @@
       "energyIcon": "assets/energy-icons/slimebound.png",
       "img": "assets/relics/stoneofnomakk.png",
       "imageResource": "",
-      "deprecated": false
+      "deprecated": false,
+      "dynamicValues": {
+        "PotencyPower": 1
+      },
+      "upgradeDynamicValues": {
+        "PotencyPower": 1
+      },
+      "attachedTips": [
+        {
+          "id": "SLIMEBOSS-POTENCY_POWER",
+          "name": {
+            "en": "Potency",
+            "zh": "潜能"
+          },
+          "description": {
+            "en": "Increases the damage of ALL your Spawned Slimes.\nSecondary effects increase by [blue]1[/blue] for every [blue]2[/blue] Potency (rounding up).",
+            "zh": "提升你所有史莱姆的伤害。\n每[blue]2[/blue]点潜能可使次要效果提升[blue]1[/blue]点（向上取整）。"
+          },
+          "sourceValueKey": "PotencyPower"
+        }
+      ],
+      "attachedCardTips": []
     },
     {
       "id": "SLIMEBOSS-TARR_BLOB",
@@ -2791,7 +4182,21 @@
       "energyIcon": "assets/energy-icons/slimebound.png",
       "img": "assets/relics/tarrblob.png",
       "imageResource": "",
-      "deprecated": false
+      "deprecated": false,
+      "dynamicValues": {
+        "Energy": 1,
+        "Decrease": 1,
+        "DecreaseBase": 1,
+        "DecreaseExtra": 1
+      },
+      "upgradeDynamicValues": {
+        "Energy": 1,
+        "Decrease": 1,
+        "DecreaseBase": 1,
+        "DecreaseExtra": 1
+      },
+      "attachedTips": [],
+      "attachedCardTips": []
     },
     {
       "id": "SNECKO-LOADED_DIE",
@@ -2815,7 +4220,15 @@
       "energyIcon": "assets/energy-icons/snecko.png",
       "img": "assets/relics/loadeddie.png",
       "imageResource": "",
-      "deprecated": false
+      "deprecated": false,
+      "dynamicValues": {
+        "Block": 1
+      },
+      "upgradeDynamicValues": {
+        "Block": 1
+      },
+      "attachedTips": [],
+      "attachedCardTips": []
     },
     {
       "id": "SNECKO-LUCKY_HORSESHOE",
@@ -2839,7 +4252,48 @@
       "energyIcon": "assets/energy-icons/hermit.png",
       "img": "assets/relics/horseshoe.png",
       "imageResource": "",
-      "deprecated": false
+      "deprecated": false,
+      "dynamicValues": {},
+      "upgradeDynamicValues": {},
+      "attachedTips": [
+        {
+          "id": "WEAK_POWER",
+          "name": {
+            "en": "Weak",
+            "zh": "虚弱"
+          },
+          "description": {
+            "en": "Weakened creatures deal [blue]25%[/blue] less damage with Attacks.",
+            "zh": "虚弱的生物造成的攻击伤害减少[blue]25%[/blue]。"
+          },
+          "sourceValueKey": "WeakPower"
+        },
+        {
+          "id": "FRAIL_POWER",
+          "name": {
+            "en": "Frail",
+            "zh": "脆弱"
+          },
+          "description": {
+            "en": "While Frail, gain [blue]25%[/blue] less [gold]Block[/gold] from cards.",
+            "zh": "脆弱时，从卡牌中获得的[gold]格挡[/gold]值减少[blue]25%[/blue]。"
+          },
+          "sourceValueKey": "FrailPower"
+        },
+        {
+          "id": "VULNERABLE_POWER",
+          "name": {
+            "en": "Vulnerable",
+            "zh": "易伤"
+          },
+          "description": {
+            "en": "Vulnerable creatures take [blue]50%[/blue] more damage from Attacks.",
+            "zh": "易伤的生物从攻击中受到的伤害增加[blue]50%[/blue]。"
+          },
+          "sourceValueKey": "VulnerablePower"
+        }
+      ],
+      "attachedCardTips": []
     },
     {
       "id": "SNECKO-MYSTICAL_OCTAHEDRON",
@@ -2863,7 +4317,11 @@
       "energyIcon": null,
       "img": null,
       "imageResource": "",
-      "deprecated": false
+      "deprecated": false,
+      "dynamicValues": {},
+      "upgradeDynamicValues": {},
+      "attachedTips": [],
+      "attachedCardTips": []
     },
     {
       "id": "SNECKO-RARE_BOOSTER_BOX",
@@ -2887,7 +4345,11 @@
       "energyIcon": null,
       "img": null,
       "imageResource": "",
-      "deprecated": false
+      "deprecated": false,
+      "dynamicValues": {},
+      "upgradeDynamicValues": {},
+      "attachedTips": [],
+      "attachedCardTips": []
     },
     {
       "id": "SNECKO-RING_OF_THE_SNEK",
@@ -2911,7 +4373,15 @@
       "energyIcon": "assets/energy-icons/snecko.png",
       "img": "assets/relics/ringofthesnek.png",
       "imageResource": "",
-      "deprecated": false
+      "deprecated": false,
+      "dynamicValues": {
+        "Cards": 3
+      },
+      "upgradeDynamicValues": {
+        "Cards": 3
+      },
+      "attachedTips": [],
+      "attachedCardTips": []
     },
     {
       "id": "SNECKO-SEAL_OF_APPROVAL",
@@ -2935,7 +4405,11 @@
       "energyIcon": null,
       "img": null,
       "imageResource": "",
-      "deprecated": false
+      "deprecated": false,
+      "dynamicValues": {},
+      "upgradeDynamicValues": {},
+      "attachedTips": [],
+      "attachedCardTips": []
     },
     {
       "id": "SNECKO-SLEEVED_ACE",
@@ -2959,7 +4433,11 @@
       "energyIcon": "assets/energy-icons/snecko.png",
       "img": "assets/relics/sleevedace.png",
       "imageResource": "",
-      "deprecated": false
+      "deprecated": false,
+      "dynamicValues": {},
+      "upgradeDynamicValues": {},
+      "attachedTips": [],
+      "attachedCardTips": []
     },
     {
       "id": "SNECKO-SNAKE_CHARMERS_FLUTE",
@@ -2983,7 +4461,11 @@
       "energyIcon": "assets/energy-icons/snecko.png",
       "img": "assets/relics/snakecharmersflute.png",
       "imageResource": "",
-      "deprecated": false
+      "deprecated": false,
+      "dynamicValues": {},
+      "upgradeDynamicValues": {},
+      "attachedTips": [],
+      "attachedCardTips": []
     },
     {
       "id": "SNECKO-SNECKO_SOUL",
@@ -3007,7 +4489,16 @@
       "energyIcon": "assets/energy-icons/snecko.png",
       "img": "assets/relics/sneckosoul.png",
       "imageResource": "",
-      "deprecated": false
+      "deprecated": false,
+      "dynamicValues": {},
+      "upgradeDynamicValues": {},
+      "attachedTips": [],
+      "attachedCardTips": [
+        {
+          "id": "SNECKO-SOUL_ROLL",
+          "upgraded": false
+        }
+      ]
     },
     {
       "id": "SNECKO-SUPER_SNECKO_SOUL",
@@ -3031,7 +4522,15 @@
       "energyIcon": "assets/energy-icons/snecko.png",
       "img": "assets/relics/supersneckosoul.png",
       "imageResource": "",
-      "deprecated": false
+      "deprecated": false,
+      "dynamicValues": {
+        "Cards": 1
+      },
+      "upgradeDynamicValues": {
+        "Cards": 1
+      },
+      "attachedTips": [],
+      "attachedCardTips": []
     },
     {
       "id": "SNECKO-UNIDENTIFIED_EGG",
@@ -3055,7 +4554,15 @@
       "energyIcon": "assets/energy-icons/snecko.png",
       "img": "assets/relics/unidentifiedegg.png",
       "imageResource": "",
-      "deprecated": false
+      "deprecated": false,
+      "dynamicValues": {
+        "Cards": 2
+      },
+      "upgradeDynamicValues": {
+        "Cards": 2
+      },
+      "attachedTips": [],
+      "attachedCardTips": []
     }
   ]
 }

@@ -16,8 +16,8 @@ const state = {
 
 const uiText = {
   en: {
-    eyebrow: "Downfall Mod Relic Showcase",
-    title: "Downfall Relic Conpendium",
+    eyebrow: "",
+    title: "Slay the Spire: Downfall 2 Relic Conpendium",
     subtitle: "Browse relics by character and rarity with keyword tooltip and card reference preview.",
     rarityLabel: "Rarity",
     colorLabel: "Color",
@@ -43,8 +43,8 @@ const uiText = {
     navCards: "Cards",
   },
   zh: {
-    eyebrow: "Downfall Mod 遗物图鉴",
-    title: "Downfall 遗物图鉴",
+    eyebrow: "",
+    title: "杀戮尖塔：崩坠2 遗物图鉴",
     subtitle: "按角色和稀有度浏览遗物，并支持关键词悬浮与引用卡牌预览。",
     rarityLabel: "稀有度",
     colorLabel: "颜色",
@@ -158,6 +158,35 @@ function renderSts2Markup(text) {
   return rendered
     .replace(/\{[A-Za-z_]\w*:[^{}]*\}/g, "")
     .replace(/\[\/?(?:sine|jitter|fly_in|shake)\]/gi, "");
+}
+
+function fillSts2DynamicTokens(text, relic) {
+  const values = (relic && relic.dynamicValues) || {};
+  const wrapValue = (value) => `__TV__${value}__`;
+  const findValue = (name) => {
+    const normalized = name.toLowerCase().replace(/power$/, "");
+    const key = Object.keys(values).find((candidate) => candidate.toLowerCase().replace(/power$/, "") === normalized);
+    return key && typeof values[key] === "number" ? values[key] : null;
+  };
+
+  return (text || "")
+    .replace(/\{([A-Za-z_]\w*):plural:([^|{}]*)\|([^{}]*)\}/g, (full, name, singular, plural) => {
+      const value = findValue(name);
+      if (typeof value !== "number") return full;
+      return (value === 1 ? singular : plural).replace(/\{\}/g, wrapValue(value));
+    })
+    .replace(/\{([A-Za-z_]\w*):diff\(\)\}/g, (full, name) => {
+      const value = findValue(name);
+      return typeof value === "number" ? wrapValue(value) : full;
+    })
+    .replace(/\{([A-Za-z_]\w*)\}/g, (full, name) => {
+      const value = findValue(name);
+      return typeof value === "number" ? wrapValue(value) : full;
+    });
+}
+
+function renderNumericMarkers(text) {
+  return (text || "").replace(/__TV__(-?\d+)__/g, '<span class="kw-mark-blue">$1</span>');
 }
 
 function applyI18nText() {
@@ -614,7 +643,7 @@ function highlightCardRefs(text, explicitRefSet = null) {
 function renderRelicDescription(relic) {
   const sourceDesc = ((relic.description || {})[state.lang] || "");
   const explicitRefSet = extractExplicitCardRefNames(sourceDesc);
-  const raw = normalizeDescText(sourceDesc);
+  const raw = normalizeDescText(fillSts2DynamicTokens(sourceDesc, relic));
   if (!raw) return `<span class="muted">${escapeHtml(t("noDescription"))}</span>`;
 
   let text = escapeHtml(raw).replace(/NL/g, "<br>");
@@ -625,6 +654,7 @@ function renderRelicDescription(relic) {
   text = highlightCardRefs(text, explicitRefSet);
   text = renderLegacyBlueMarkers(text);
   text = renderBracketColorSyntax(text);
+  text = renderNumericMarkers(text);
   return finalizeZhHtmlSpacing(text);
 }
 
@@ -813,6 +843,94 @@ function hideCardPreviewTooltip() {
   if (!tip) return;
   tip.classList.remove("show", "preview-left", "preview-right");
   tip.innerHTML = "";
+}
+
+function getRelicAttachmentTooltip() {
+  let tip = document.querySelector(".card-hover-attachments");
+  if (tip) return tip;
+  tip = document.createElement("div");
+  tip.className = "card-hover-attachments";
+  document.body.appendChild(tip);
+  return tip;
+}
+
+function hideRelicAttachmentTooltip() {
+  const tip = document.querySelector(".card-hover-attachments");
+  if (tip) tip.classList.remove("show");
+}
+
+function renderRelicAttachmentDescription(description, relic, language) {
+  const previousLanguage = state.lang;
+  state.lang = language;
+  try {
+    let text = escapeHtml(normalizeDescText(fillSts2DynamicTokens(description, relic))).replace(/NL/g, "<br>");
+    text = renderSts2Markup(text);
+    text = renderEnergyToken(text, relic && relic.energyIcon);
+    text = renderLegacyBlueMarkers(text);
+    text = renderBracketColorSyntax(text);
+    text = renderNumericMarkers(text);
+    return finalizeZhHtmlSpacing(text);
+  } finally {
+    state.lang = previousLanguage;
+  }
+}
+
+function showRelicAttachmentTooltip(relic, anchorRect, language) {
+  const textTips = (relic.attachedTips || []).filter((tip) => tip && tip.name && tip.description && tip.name[language] && tip.description[language]);
+  const cardTips = (relic.attachedCardTips || [])
+    .map((entry) => ({ card: state.cardById.get(entry.id || ""), upgraded: Boolean(entry.upgraded) }))
+    .filter((entry) => entry.card);
+  if (!textTips.length && !cardTips.length) {
+    hideRelicAttachmentTooltip();
+    return;
+  }
+
+  const tip = getRelicAttachmentTooltip();
+  tip.innerHTML = "";
+  textTips.forEach((entry) => {
+    const sourceValue = entry.sourceValueKey && relic.dynamicValues ? relic.dynamicValues[entry.sourceValueKey] : null;
+    const tipRelic = Object.assign({}, relic, {
+      dynamicValues: Object.assign({}, relic.dynamicValues || {}, typeof sourceValue === "number" ? { Amount: sourceValue } : {}),
+    });
+    const panel = document.createElement("section");
+    panel.className = "card-attached-tip";
+    panel.innerHTML = `<div class="kw-tip-name">${escapeHtml(entry.name[language])}</div><div class="kw-tip-desc">${renderRelicAttachmentDescription(entry.description[language], tipRelic, language)}</div>`;
+    tip.appendChild(panel);
+  });
+  if (cardTips.length) {
+    const previews = document.createElement("div");
+    previews.className = "card-attached-previews";
+    cardTips.forEach((entry) => previews.appendChild(buildCardMiniElement(entry.card, language)));
+    tip.appendChild(previews);
+  }
+
+  tip.classList.add("show");
+  const margin = 10;
+  const tipRect = tip.getBoundingClientRect();
+  let left = anchorRect.right + window.scrollX + 10;
+  if (left + tipRect.width > window.scrollX + window.innerWidth - margin) {
+    left = anchorRect.left + window.scrollX - tipRect.width - 10;
+  }
+  const top = Math.min(anchorRect.top + window.scrollY, window.scrollY + window.innerHeight - tipRect.height - margin);
+  tip.style.left = `${Math.max(window.scrollX + margin, left)}px`;
+  tip.style.top = `${Math.max(window.scrollY + margin, top)}px`;
+}
+
+function bindRelicAttachmentHoverEvents() {
+  elements.grid.addEventListener("mouseover", (event) => {
+    if (event.target.closest(".kw, .card-ref")) return;
+    const relicNode = event.target.closest("article.card[data-relic-id]");
+    if (!relicNode || !elements.grid.contains(relicNode)) return;
+    const relic = state.relics.find((entry) => entry.id === relicNode.dataset.relicId);
+    if (!relic) return;
+    showRelicAttachmentTooltip(relic, relicNode.getBoundingClientRect(), relicNode.dataset.renderLang || state.lang);
+  });
+  elements.grid.addEventListener("mouseout", (event) => {
+    const relicNode = event.target.closest("article.card[data-relic-id]");
+    if (!relicNode || !elements.grid.contains(relicNode) || relicNode.contains(event.relatedTarget)) return;
+    hideRelicAttachmentTooltip();
+  });
+  window.addEventListener("scroll", hideRelicAttachmentTooltip, { passive: true });
 }
 
 function showCardPreviewTooltip(card, anchorRect, langOverride = null) {
@@ -1159,6 +1277,7 @@ async function init() {
   buildOptions();
   bindControls();
   bindTooltipEvents();
+  bindRelicAttachmentHoverEvents();
   updateTranslatorEntryLink();
   updateCrossPageLinks();
 
