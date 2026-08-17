@@ -1102,9 +1102,22 @@ function showCardAttachmentTooltip(card, anchorRect, langOverride = null) {
   tip.classList.add("show");
   const margin = 10;
   const rect = anchorRect;
+  const textColumn = tip.querySelector(".card-attached-tip-column");
+  const previewsColumn = tip.querySelector(".card-attached-previews");
+  const textWidth = textColumn ? textColumn.getBoundingClientRect().width : 0;
+  const previewsWidth = previewsColumn ? previewsColumn.getBoundingClientRect().width : 0;
+  const splitGap = 24;
+  const canSplit = Boolean(textColumn && previewsColumn)
+    && rect.left - textWidth - splitGap >= window.scrollX + margin
+    && rect.right + previewsWidth + splitGap <= window.scrollX + window.innerWidth - margin;
+  tip.classList.toggle("split-sides", canSplit);
   const tipRect = tip.getBoundingClientRect();
   let left = rect.right + window.scrollX + 10;
   let top = rect.top + window.scrollY;
+  if (canSplit) {
+    left = rect.left + window.scrollX - textWidth - splitGap;
+    tip.style.setProperty("--hover-split-gap", `${splitGap}px`);
+  }
   if (left + tipRect.width > window.scrollX + window.innerWidth - margin) {
     left = rect.left + window.scrollX - tipRect.width - 10;
   }

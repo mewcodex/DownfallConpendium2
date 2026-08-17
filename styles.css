@@ -884,7 +884,7 @@ html[lang^="zh"] .card-desc {
   display: none;
   grid-template-columns: minmax(260px, 320px) auto;
   align-items: start;
-  gap: 10px;
+  gap: 18px;
   pointer-events: none;
 }
 
@@ -894,28 +894,35 @@ html[lang^="zh"] .card-desc {
 
 .card-attached-tip-column {
   display: grid;
-  gap: 8px;
+  gap: 14px;
   width: min(320px, 40vw);
 }
 
+.card-hover-attachments.split-sides {
+  grid-template-columns: minmax(220px, 320px) auto;
+  gap: var(--hover-split-gap, 24px);
+}
+
 .card-attached-tip {
-  width: 400px;
+  width: 220px;
   max-width: none;
-  min-height: 118px;
+  min-height: 0px;
   box-sizing: border-box;
   padding: 0;
   border: 0;
-  border-width: 43px 91px 32px 55px;
+  border-width: 7.5px 15px 11.25px;
   border-style: solid;
-  border-image: url("assets/hover-ui/hover-tip.png") 43 91 32 55 fill stretch;
+  border-image: url("assets/hover-ui/hover-tip.png") 10 20 15 fill stretch;
+  border-image-outset: 5px;
   border-radius: 0;
-  background: transparent;
+  background: #242e32;
   color: #fdf4e0;
   box-shadow: none;
 }
 
 .card-attached-tip-debuff {
   border-image-source: url("assets/hover-ui/hover-tip-debuff.png");
+  background: #36201e;
 }
 
 .card-attached-tip .kw-tip-name {
@@ -947,7 +954,7 @@ html[lang^="zh"] .card-desc {
   display: flex;
   align-items: flex-start;
   flex-wrap: wrap;
-  gap: 6px;
+  gap: 12px;
 }
 
 .card-attached-previews .card.mini-cloned-card {
