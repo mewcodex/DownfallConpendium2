@@ -353,7 +353,7 @@ function finalizeFilledTokenSpacing(text) {
 function renderNumericMarkers(text) {
   if (!text) return "";
   return text
-    .replace(/__TVG__(-?\d+)__/g, '<span class="kw-mark-blue">$1</span>')
+    .replace(/__TVG__(-?\d+)__/g, '<span class="kw-mark-green">$1</span>')
     .replace(/__TV__(-?\d+)__/g, '<span class="kw-mark-blue">$1</span>');
 }
 
@@ -423,7 +423,7 @@ function renderBracketColorSyntax(text) {
   return out;
 }
 
-function renderSts2Markup(text, useUpgrade = state.showUpgrade) {
+function renderSts2Markup(text, useUpgrade = state.showUpgrade, card = null) {
   if (!text) return "";
   const colorClasses = {
     gold: "kw-mark-yellow",
@@ -433,7 +433,9 @@ function renderSts2Markup(text, useUpgrade = state.showUpgrade) {
     green: "kw-mark-green",
     aqua: "kw-mark-aqua",
   };
-  let rendered = text.replace(/\{IfUpgraded:show:([^{}|]*)\|([^{}]*)\}/g, (_full, upgraded, base) => (useUpgrade ? upgraded : base));
+  let rendered = text.replace(/\{IfUpgraded:show:([^{}|]*)\|([^{}]*)\}/g, (_full, upgraded, base) => (
+    useUpgrade ? upgraded.replace(/-?\d+/g, (value) => `__TVG__${value}__`) : base
+  ));
   rendered = rendered.replace(/\{IfUpgraded:plus\(\)\}/g, useUpgrade ? "+" : "");
   rendered = rendered.replace(/\[(gold|blue|red|purple|green|aqua)\]([\s\S]*?)\[\/\1\]/gi, (_full, color, content) => {
     return `<span class="${colorClasses[color.toLowerCase()]}">${content}</span>`;
@@ -442,6 +444,9 @@ function renderSts2Markup(text, useUpgrade = state.showUpgrade) {
     const count = Number(amount || 1);
     return "[E]".repeat(Number.isFinite(count) && count > 0 ? count : 1);
   });
+  rendered = rendered.replace(/\{TargetType:choose\((\w+)\):([\s\S]*?)\|\}/g, (_full, target, content) => (
+    card && card.target === target ? content : ""
+  ));
   rendered = rendered.replace(/\{InCombat:cond:\s*[\s\S]*?\|\}/gi, "");
   rendered = rendered.replace(/\{[A-Za-z_]\w*:cond:\s*([\s\S]*?)\|\}/g, (_full, content) => {
     return content.trim().replace(/^[（(]\s*/, "").replace(/\s*[）)]+$/, "");
@@ -452,7 +457,7 @@ function renderSts2Markup(text, useUpgrade = state.showUpgrade) {
   });
   return rendered
     .replace(/\{[A-Za-z_]\w*:[^{}]*\}/g, "")
-    .replace(/\[\/?(?:sine|jitter|fly_in|shake)\]/gi, "");
+    .replace(/\[\/?(?:sine|jitter|fly_in|shake|fade_in|afterlife)\]/gi, "");
 }
 
 function attachAfterlifeHover(text) {
@@ -1451,7 +1456,7 @@ function renderDescription(card, options = {}) {
   text = finalizeFilledTokenSpacing(text);
   text = preserveLegacyColorMarkers(text);
   text = escapeHtml(text).replace(/NL/g, "<br>");
-  text = renderSts2Markup(text, useUpgrade);
+  text = renderSts2Markup(text, useUpgrade, card);
   text = renderEnergyToken(text, card);
   text = highlightCardReferencesNoHover(text);
   text = stripResidualStarPrefixes(text);
@@ -1480,7 +1485,7 @@ function renderDescriptionForPreview(card, options = {}) {
   text = finalizeFilledTokenSpacing(text);
   text = preserveLegacyColorMarkers(text);
   text = escapeHtml(text).replace(/NL/g, "<br>");
-  text = renderSts2Markup(text, useUpgrade);
+  text = renderSts2Markup(text, useUpgrade, card);
   text = renderEnergyToken(text, card);
   text = highlightCardReferencesNoHover(text);
   text = stripResidualStarPrefixes(text);
