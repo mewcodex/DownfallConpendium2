@@ -899,13 +899,13 @@ html[lang^="zh"] .card-desc {
 }
 
 .card-attached-tip {
-  width: 360px;
+  width: 400px;
   max-width: none;
   min-height: 118px;
   box-sizing: border-box;
   padding: 0;
   border: 0;
-  border-width: 16px;
+  border-width: 43px 91px 32px 55px;
   border-style: solid;
   border-image: url("assets/hover-ui/hover-tip.png") 43 91 32 55 fill stretch;
   border-radius: 0;
