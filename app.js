@@ -1067,9 +1067,11 @@ function showCardAttachmentTooltip(card, anchorRect, langOverride = null) {
   const tip = getCardAttachmentTooltip();
   tip.innerHTML = "";
   textTips.forEach((entry) => {
+    const sourceValue = entry.sourceValueKey && card.dynamicValues ? card.dynamicValues[entry.sourceValueKey] : null;
+    const sourceUpgradeValue = entry.sourceValueKey && card.upgradeDynamicValues ? card.upgradeDynamicValues[entry.sourceValueKey] : sourceValue;
     const tipContext = Object.assign({}, card, {
-      dynamicValues: Object.assign({}, card.dynamicValues || {}, entry.dynamicValues || {}),
-      upgradeDynamicValues: Object.assign({}, card.upgradeDynamicValues || {}, entry.dynamicValues || {}),
+      dynamicValues: Object.assign({}, card.dynamicValues || {}, entry.dynamicValues || {}, typeof sourceValue === "number" ? { Amount: sourceValue } : {}),
+      upgradeDynamicValues: Object.assign({}, card.upgradeDynamicValues || {}, entry.dynamicValues || {}, typeof sourceUpgradeValue === "number" ? { Amount: sourceUpgradeValue } : {}),
     });
     const panel = document.createElement("section");
     panel.className = "card-attached-tip";
