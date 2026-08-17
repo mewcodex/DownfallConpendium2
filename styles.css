@@ -1058,7 +1058,7 @@ article.card[data-card-id] .card-face-title h3 {
   line-height: 1.54;
   max-width: 100%;
   color: #fff6e2;
-  -webkit-text-stroke: 1.35px var(--title-outline);
+  -webkit-text-stroke: 2.5px var(--title-outline);
   paint-order: stroke fill;
   text-shadow:
     0 0 3px rgba(0, 0, 0, 0.34),
