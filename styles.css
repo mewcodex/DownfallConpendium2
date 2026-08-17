@@ -316,6 +316,13 @@ select {
   gap: 18px;
 }
 
+#cardGrid {
+  grid-template-columns: repeat(auto-fill, minmax(184px, 208px));
+  justify-content: center;
+  column-gap: 28px;
+  row-gap: 34px;
+}
+
 .card {
   --rarity-frame: var(--border);
   --rarity-glow: transparent;
