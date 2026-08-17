@@ -904,6 +904,124 @@ html[lang^="zh"] .card-desc {
   font-size: 0.82rem;
 }
 
+/* The game card scene is authored at 300x422 around a centered origin. Keep
+   the web card in that same coordinate system instead of laying it out as a
+   portrait followed by a document-flow body. */
+article.card[data-card-id] {
+  container-type: inline-size;
+  display: block;
+  aspect-ratio: 300 / 422;
+  border: 0;
+  border-radius: 0;
+  overflow: visible;
+  background: #171311;
+}
+
+article.card[data-card-id] .card-visual {
+  position: absolute;
+  inset: 0;
+  display: block;
+  overflow: visible;
+  width: 100%;
+  height: 100%;
+  background: transparent;
+}
+
+article.card[data-card-id] .card-portrait {
+  inset: 10.19% auto auto 8.33%;
+  width: 83.33%;
+  height: 45.02%;
+  object-fit: cover;
+  object-position: center;
+}
+
+article.card[data-card-id] .card-portrait-border {
+  inset: 11.14% auto auto 4.17%;
+  width: 91.67%;
+  height: 49.76%;
+}
+
+article.card[data-card-id] .card-frame {
+  inset: 0;
+  width: 100%;
+  height: 100%;
+}
+
+article.card[data-card-id] .card-banner {
+  inset: 0.95% auto auto -4.33%;
+  width: 109%;
+  height: 19.67%;
+}
+
+article.card[data-card-id] .card-face-title {
+  inset: 1.66% 15% auto;
+  height: 12.8%;
+  display: grid;
+  place-items: center;
+  padding: 0 2%;
+  bottom: auto;
+  line-height: 1;
+}
+
+article.card[data-card-id] .card-face-title h3 {
+  font-size: 8.67cqw;
+  line-height: 1;
+  max-width: 100%;
+}
+
+article.card[data-card-id] .card-face-cost {
+  inset: -3.79% auto auto -5.33%;
+  width: 21.33%;
+  height: 15.17%;
+  aspect-ratio: auto;
+}
+
+article.card[data-card-id] .card-face-cost .card-cost-value {
+  font-size: 10.67cqw;
+  text-shadow:
+    -0.45cqw -0.45cqw 0 rgba(0, 0, 0, 0.82),
+    0.45cqw -0.45cqw 0 rgba(0, 0, 0, 0.82),
+    -0.45cqw 0.45cqw 0 rgba(0, 0, 0, 0.82),
+    0.45cqw 0.45cqw 0 rgba(0, 0, 0, 0.82);
+}
+
+article.card[data-card-id] .card-face-type {
+  inset: 50.24% auto auto 39.83%;
+  width: 20.33%;
+  height: 8.77%;
+  min-height: 0;
+  padding: 0;
+  font-size: 5.33cqw;
+}
+
+article.card[data-card-id] .card-body {
+  position: absolute;
+  inset: 0;
+  display: block;
+  padding: 0;
+  background: transparent;
+  color: #fff5e2;
+  pointer-events: none;
+}
+
+article.card[data-card-id] .card-body .card-desc {
+  position: absolute;
+  inset: 58.77% auto auto 9.33%;
+  width: 81%;
+  height: 32.23%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0 1%;
+  overflow: hidden;
+  color: #fff5e2;
+  font-family: "Kreon Game", "Noto Sans SC", serif;
+  font-size: 7cqw;
+  line-height: 1.04;
+  text-align: center;
+  text-shadow: 0.67cqw 0.67cqw 0 rgba(0, 0, 0, 0.25);
+}
+
 .pager {
   margin-top: 26px;
   display: flex;
