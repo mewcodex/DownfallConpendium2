@@ -1109,6 +1109,10 @@ article.card[data-card-id] .card-face-cost {
   aspect-ratio: auto;
 }
 
+article.card[data-card-id] .card-face-cost-hidden {
+  display: none;
+}
+
 article.card[data-card-id] .card-face-cost .card-cost-value {
   font-size: 10.67cqw;
   font-family: "Noto Sans Mono CJK SC UI", "PingFang SC", "Microsoft YaHei", sans-serif;

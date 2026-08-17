@@ -1717,7 +1717,9 @@ function buildCardInnerHtml(card, descriptionHtml, options = {}) {
   const cardId = escapeHtml(card.id || "");
   const cost = formatCost(getDisplayCost(card, useUpgrade));
   const costClass = isCostUpgraded(card, useUpgrade) ? "card-cost-value upgraded" : "card-cost-value";
-  const energyIcon = card.color === "AUTOMATON" ? "assets/card-ui/energy-automaton.png" : card.energyIcon;
+  const energyIcon = card.type === "CURSE"
+    ? "assets/energy-icons/curse_card_colorless_orb.png"
+    : card.color === "AUTOMATON" ? "assets/card-ui/energy-automaton.png" : card.energyIcon;
   const costIcon = energyIcon
     ? `<img class="card-cost-icon" src="${energyIcon}" alt="cost orb" loading="lazy">`
     : `<span class="card-cost-fallback-orb" aria-hidden="true"></span>`;
@@ -1726,7 +1728,7 @@ function buildCardInnerHtml(card, descriptionHtml, options = {}) {
       <h3>${name}</h3>
       <div class="card-id">${cardId}</div>
     </div>
-    <div class="card-face-cost" title="${i18n("costLabel")}">
+    <div class="card-face-cost${getDisplayCost(card, useUpgrade) === -2 ? " card-face-cost-hidden" : ""}" title="${i18n("costLabel")}">
       ${costIcon}
       <span class="${costClass}">${cost}</span>
     </div>`;
@@ -1800,8 +1802,11 @@ function buildCardElement(card, suppressAnimation = false, previewMode = false, 
     SLIMEBOUND: "slimebound",
     SNECKO: "snecko",
   }[card.color];
-  if (frameColor) {
-    cardEl.style.setProperty("--frame-image", `url("assets/card-ui/rarity/${frameColor}-frame-${borderType}.png")`);
+  const frameSource = card.type === "CURSE"
+    ? "curse"
+    : card.color === "COLORLESS" ? "colorless" : frameColor;
+  if (frameSource) {
+    cardEl.style.setProperty("--frame-image", `url("assets/card-ui/rarity/${frameSource}-frame-${borderType}.png")`);
   }
   cardEl.style.setProperty("--rarity-banner-image", `url("assets/card-ui/rarity/${rarityKey}-banner.png")`);
   cardEl.style.setProperty("--rarity-plaque-image", `url("assets/card-ui/rarity/${rarityKey}-type-plaque.png")`);
