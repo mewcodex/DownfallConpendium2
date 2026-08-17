@@ -881,12 +881,21 @@ html[lang^="zh"] .card-desc {
   display: none;
   width: max-content;
   max-width: min(78vw, 760px);
-  gap: 8px;
+  display: none;
+  grid-template-columns: minmax(260px, 320px) auto;
+  align-items: start;
+  gap: 10px;
   pointer-events: none;
 }
 
 .card-hover-attachments.show {
   display: grid;
+}
+
+.card-attached-tip-column {
+  display: grid;
+  gap: 8px;
+  width: min(320px, 40vw);
 }
 
 .card-attached-tip {
@@ -901,6 +910,7 @@ html[lang^="zh"] .card-desc {
 
 .card-attached-previews {
   display: flex;
+  align-items: flex-start;
   flex-wrap: wrap;
   gap: 6px;
 }

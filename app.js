@@ -1066,6 +1066,9 @@ function showCardAttachmentTooltip(card, anchorRect, langOverride = null) {
 
   const tip = getCardAttachmentTooltip();
   tip.innerHTML = "";
+  const tipsColumn = document.createElement("div");
+  tipsColumn.className = "card-attached-tip-column";
+  if (textTips.length) tip.appendChild(tipsColumn);
   textTips.forEach((entry) => {
     const sourceValue = entry.sourceValueKey && card.dynamicValues ? card.dynamicValues[entry.sourceValueKey] : null;
     const sourceUpgradeValue = entry.sourceValueKey && card.upgradeDynamicValues ? card.upgradeDynamicValues[entry.sourceValueKey] : sourceValue;
@@ -1079,7 +1082,7 @@ function showCardAttachmentTooltip(card, anchorRect, langOverride = null) {
       <div class="kw-tip-name">${withTempLang(language, () => hideZhSpacesAfterFormatting(escapeHtml(entry.name[language])))}</div>
       <div class="kw-tip-desc">${withTempLang(language, () => formatTooltipDescriptionText(entry.description[language], tipContext))}</div>
     `;
-    tip.appendChild(panel);
+    tipsColumn.appendChild(panel);
   });
   if (cardTips.length) {
     const previews = document.createElement("div");
@@ -2011,6 +2014,7 @@ function appendCardElements(slice, suppressAnimation) {
       elements.grid.appendChild(cardEl);
       fitGameCardText(cardEl);
     });
+    syncTranslatorGridLayout();
     return;
   }
 
@@ -2022,6 +2026,22 @@ function appendCardElements(slice, suppressAnimation) {
     fitGameCardText(enEl);
     fitGameCardText(zhEl);
   });
+  syncTranslatorGridLayout();
+}
+
+function syncTranslatorGridLayout() {
+  if (!elements.grid) return;
+  if (!state.translatorMode) {
+    elements.grid.style.removeProperty("grid-template-columns");
+    return;
+  }
+  const minCardWidth = 184;
+  const columnGap = 28;
+  let columns = Math.floor((elements.grid.clientWidth + columnGap) / (minCardWidth + columnGap));
+  if (columns > 1 && columns % 2 !== 0) columns -= 1;
+  columns = Math.max(1, columns);
+  elements.grid.style.gridTemplateColumns = `repeat(${columns}, minmax(0, 208px))`;
+  elements.grid.style.justifyContent = "center";
 }
 
 function renderCards() {
@@ -2195,6 +2215,7 @@ function bindEvents() {
   });
 
   bindAttachedHoverEvents();
+  window.addEventListener("resize", syncTranslatorGridLayout);
 
   window.addEventListener("popstate", () => {
     readStateFromUrl();
