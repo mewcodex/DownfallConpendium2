@@ -439,12 +439,12 @@ select {
   text-align: center;
   color: #f7efe0;
   text-shadow: 0 2px 2px #21130d, 0 0 4px #21130d;
-  font-family: "Kreon Game", "Source Han Game", serif;
+  font-family: "Noto Sans Mono CJK SC UI", "PingFang SC", "Microsoft YaHei", sans-serif;
 }
 
 .card-face-title h3 {
   margin: 0;
-  font-family: "Kreon Game", "Source Han Game", serif;
+  font-family: "Noto Sans Mono CJK SC UI", "PingFang SC", "Microsoft YaHei", sans-serif;
   font-size: clamp(0.9rem, 1.8vw, 1.28rem);
   line-height: 1.05;
 }
@@ -464,7 +464,7 @@ select {
   border-radius: 2px;
   box-shadow: 0 2px 3px rgba(0, 0, 0, 0.55);
   color: rgba(0, 0, 0, 0.76);
-  font: 700 clamp(0.55rem, 1.3vw, 0.9rem)/1 "Kreon Game", "Source Han Game", serif;
+  font: 700 clamp(0.55rem, 1.3vw, 0.9rem)/1 "Noto Sans Mono CJK SC UI", "PingFang SC", "Microsoft YaHei", sans-serif;
   white-space: nowrap;
 }
 
@@ -953,6 +953,7 @@ article.card[data-card-id] .card-portrait-border {
   inset: 11.14% auto auto 4.17%;
   width: 91.67%;
   height: 49.76%;
+  z-index: 5;
   background-image: url("assets/card-ui/portrait-border-skill.png");
 }
 
@@ -1005,7 +1006,7 @@ article.card[data-card-id] .card-face-cost {
 
 article.card[data-card-id] .card-face-cost .card-cost-value {
   font-size: 10.67cqw;
-  font-family: "Kreon Game", "Source Han Game", serif;
+  font-family: "Noto Sans Mono CJK SC UI", "PingFang SC", "Microsoft YaHei", sans-serif;
   font-weight: 700;
   -webkit-text-stroke: 1px #810000;
   text-shadow:
@@ -1025,7 +1026,7 @@ article.card[data-card-id] .card-face-type {
   border: 0;
   border-radius: 0;
   font-size: 5.33cqw;
-  font-family: "Kreon Game", "Source Han Game", serif;
+  font-family: "Noto Sans Mono CJK SC UI", "PingFang SC", "Microsoft YaHei", sans-serif;
   font-weight: 700;
   filter: grayscale(1) brightness(0.85);
 }
@@ -1056,7 +1057,7 @@ article.card[data-card-id] .card-body .card-desc {
   padding: 0 1%;
   overflow: hidden;
   color: #fff5e2;
-  font-family: "Kreon Game", "Source Han Game", serif;
+  font-family: "Noto Sans Mono CJK SC UI", "PingFang SC", "Microsoft YaHei", sans-serif;
   font-size: 7cqw;
   line-height: 1.04;
   font-weight: 400;
