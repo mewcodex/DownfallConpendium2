@@ -423,6 +423,37 @@ function renderBracketColorSyntax(text) {
   return out;
 }
 
+function stripSts2Blocks(text, blockName) {
+  const marker = `{${blockName}:`.toLowerCase();
+  let output = "";
+  let cursor = 0;
+
+  while (cursor < text.length) {
+    const start = text.toLowerCase().indexOf(marker, cursor);
+    if (start < 0) {
+      output += text.slice(cursor);
+      break;
+    }
+
+    output += text.slice(cursor, start);
+    let depth = 0;
+    let end = start;
+    for (; end < text.length; end += 1) {
+      if (text[end] === "{") depth += 1;
+      if (text[end] === "}") {
+        depth -= 1;
+        if (depth === 0) {
+          end += 1;
+          break;
+        }
+      }
+    }
+    cursor = depth === 0 ? end : start + marker.length;
+  }
+
+  return output;
+}
+
 function renderSts2Markup(text, useUpgrade = state.showUpgrade, card = null) {
   if (!text) return "";
   const colorClasses = {
@@ -447,7 +478,20 @@ function renderSts2Markup(text, useUpgrade = state.showUpgrade, card = null) {
   rendered = rendered.replace(/\{TargetType:choose\((\w+)\):([\s\S]*?)\|\}/g, (_full, target, content) => (
     card && card.target === target ? content : ""
   ));
-  rendered = rendered.replace(/\{InCombat:cond:\s*[\s\S]*?\|\}/gi, "");
+  rendered = stripSts2Blocks(rendered, "InCombat");
+  rendered = rendered.replace(/\{([A-Za-z_]\w*):plural:([^{}|]*)\|([^{}]*)\}/g, (_full, name, singular, plural) => {
+    const valueToken = new RegExp(`__(?:TV|TVG)__(-?\\d+)__`).exec(`${singular}${plural}`);
+    const values = useUpgrade ? ((card && card.upgradeDynamicValues) || {}) : ((card && card.dynamicValues) || {});
+    const key = Object.keys(values).find((candidate) => candidate.toLowerCase().replace(/power$/, "") === name.toLowerCase().replace(/power$/, ""));
+    const value = valueToken ? Number(valueToken[1]) : values[key];
+    return value === 1 ? singular : plural;
+  });
+  rendered = rendered.replace(/\{UpgradeAmount\}/g, () => {
+    const values = useUpgrade ? ((card && card.upgradeDynamicValues) || {}) : ((card && card.dynamicValues) || {});
+    const value = values.UpgradeAmount;
+    return typeof value === "number" && value > 0 ? `+${value}` : "";
+  });
+  rendered = rendered.replace(/\{Ghostflame\}/g, state.lang === "zh" ? "鬼火" : "Ghostflame");
   rendered = rendered.replace(/\{[A-Za-z_]\w*:cond:\s*([\s\S]*?)\|\}/g, (_full, content) => {
     return content.trim().replace(/^[（(]\s*/, "").replace(/\s*[）)]+$/, "");
   });
@@ -833,7 +877,7 @@ function formatTooltipDescriptionText(rawText, cardContext) {
     text = fillSts2DynamicTokens(text, cardContext, state.showUpgrade);
     text = finalizeFilledTokenSpacing(text);
   }
-  text = escapeHtml(text).replace(/NL/g, "<br>");
+  text = escapeHtml(text).replace(/\\n|\r?\n|NL/g, "<br>");
   text = renderSts2Markup(text);
   text = renderEnergyToken(text, cardContext || null);
   text = highlightCardReferencesNoHover(text);
@@ -1455,7 +1499,7 @@ function renderDescription(card, options = {}) {
   text = fillSts2DynamicTokens(text, card, useUpgrade);
   text = finalizeFilledTokenSpacing(text);
   text = preserveLegacyColorMarkers(text);
-  text = escapeHtml(text).replace(/NL/g, "<br>");
+  text = escapeHtml(text).replace(/\\n|\r?\n|NL/g, "<br>");
   text = renderSts2Markup(text, useUpgrade, card);
   text = renderEnergyToken(text, card);
   text = highlightCardReferencesNoHover(text);
@@ -1484,7 +1528,7 @@ function renderDescriptionForPreview(card, options = {}) {
   text = fillSts2DynamicTokens(text, card, useUpgrade);
   text = finalizeFilledTokenSpacing(text);
   text = preserveLegacyColorMarkers(text);
-  text = escapeHtml(text).replace(/NL/g, "<br>");
+  text = escapeHtml(text).replace(/\\n|\r?\n|NL/g, "<br>");
   text = renderSts2Markup(text, useUpgrade, card);
   text = renderEnergyToken(text, card);
   text = highlightCardReferencesNoHover(text);
@@ -1524,11 +1568,21 @@ function buildCardInnerHtml(card, descriptionHtml, options = {}) {
   if (card.colorPillBg) colorTagStyleVars.push(`--pill-bg:${card.colorPillBg}`);
   if (card.colorPillFg) colorTagStyleVars.push(`--pill-fg:${card.colorPillFg}`);
   const colorTagStyle = colorTagStyleVars.length ? ` style="${colorTagStyleVars.join(";")}"` : "";
+  const dynamicValues = useUpgrade ? (card.upgradeDynamicValues || {}) : (card.dynamicValues || {});
+  const gemSlots = dynamicValues.GemSlots;
+  const finisherTagHtml = card.isFinisher && card.finisherLabel && card.finisherLabel[state.lang]
+    ? `<span class="tag tag-feature">${escapeHtml(card.finisherLabel[state.lang])}</span>`
+    : "";
+  const gemSlotsTagHtml = typeof gemSlots === "number" && gemSlots > 0 && card.gemSlotLabel && card.gemSlotLabel[state.lang]
+    ? `<span class="tag tag-feature">${gemSlots} ${escapeHtml(card.gemSlotLabel[state.lang])}</span>`
+    : "";
   const metaTagsHtml = card.type === "CURSE"
     ? typeTagHtml
     : `${typeTagHtml}
         ${card.rarity ? `<span class="${getRarityTagClass(card.rarity)}">${localizeRarity(card.rarity)}</span>` : ""}
-        ${card.color ? `<span class="tag tag-color"${colorTagStyle}>${localizeColor(card)}</span>` : ""}`;
+        ${card.color ? `<span class="tag tag-color"${colorTagStyle}>${localizeColor(card)}</span>` : ""}
+        ${finisherTagHtml}
+        ${gemSlotsTagHtml}`;
   const notInPoolBadge = isNotInPoolCard(card)
     ? `<span class="card-flag-not-in-pool">${getNotInPoolBadgeText(card)}</span>`
     : "";
