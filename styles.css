@@ -939,6 +939,15 @@ article.card[data-card-id] .card-portrait-border {
   inset: 11.14% auto auto 4.17%;
   width: 91.67%;
   height: 49.76%;
+  background-image: url("assets/card-ui/portrait-border-skill.png");
+}
+
+article.card[data-card-id] .card-visual-attack .card-portrait-border {
+  background-image: url("assets/card-ui/portrait-border-attack.png");
+}
+
+article.card[data-card-id] .card-visual-power .card-portrait-border {
+  background-image: url("assets/card-ui/portrait-border-power.png");
 }
 
 article.card[data-card-id] .card-frame {
@@ -997,6 +1006,9 @@ article.card[data-card-id] .card-face-type {
   height: 8.77%;
   min-height: 0;
   padding: 0;
+  background: url("assets/card-ui/type-plaque.png") center / 100% 100% no-repeat;
+  border: 0;
+  border-radius: 0;
   font-size: 5.33cqw;
   font-weight: 700;
 }
@@ -1004,6 +1016,7 @@ article.card[data-card-id] .card-face-type {
 article.card[data-card-id] .card-body {
   position: absolute;
   inset: 0;
+  z-index: 8;
   display: block;
   padding: 0;
   background: transparent;
