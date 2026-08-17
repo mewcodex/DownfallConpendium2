@@ -982,7 +982,16 @@ article.card[data-card-id] {
   overflow: visible;
   background: transparent;
   --banner-filter: grayscale(1) brightness(0.85);
+  --title-outline: #4d4b40;
 }
+
+article.card[data-card-id].card-rarity-uncommon { --title-outline: #005c75; }
+article.card[data-card-id].card-rarity-rare { --title-outline: #6b4b00; }
+article.card[data-card-id].card-rarity-curse { --title-outline: #550b9e; }
+article.card[data-card-id].card-rarity-quest { --title-outline: #7e3e15; }
+article.card[data-card-id].card-rarity-status { --title-outline: #4f522f; }
+article.card[data-card-id].card-rarity-event,
+article.card[data-card-id].card-rarity-ancient { --title-outline: #1b6131; }
 
 article.card[data-card-id] .card-visual {
   position: absolute;
@@ -1051,10 +1060,10 @@ article.card[data-card-id] .card-face-title h3 {
   color: #fff6e2;
   -webkit-text-stroke: 0;
   text-shadow:
-    2px 0 0 rgba(99, 99, 99, 0.8),
-    -2px 0 0 rgba(99, 99, 99, 0.8),
-    0 2px 0 rgba(99, 99, 99, 0.8),
-    0 -2px 0 rgba(99, 99, 99, 0.8),
+    2px 0 0 var(--title-outline),
+    -2px 0 0 var(--title-outline),
+    0 2px 0 var(--title-outline),
+    0 -2px 0 var(--title-outline),
     0 0 3px rgba(0, 0, 0, 0.34),
     1px 1px 6px rgba(0, 0, 0, 0.55);
 }
