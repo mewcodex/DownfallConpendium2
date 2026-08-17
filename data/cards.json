@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-08-17T16:12:00.868702Z",
+  "generatedAt": "2026-08-17T19:58:55.080625Z",
   "modVersion": "0.1.13",
-  "translationVersion": "2026_08_17_21_01_04_635d8d",
+  "translationVersion": "2026_08_18_03_00_42_c86949",
   "baseKeywords": [],
   "keywords": {
     "en": [],
@@ -158,7 +158,7 @@
           },
           "description": {
             "en": "Place this card into your [gold]Sequence[/gold].\nWhen it holds [blue]3[/blue] cards, their effects above this keyword are merged into a Function that costs [blue]1[/blue].",
-            "zh": "将此牌置入[gold]编码序列[/gold]。\n当[gold]编码序列[/gold]中拥有[blue]3[/blue]张牌时，它们在该关键词之上的效果将被合并为一个耗能为[blue]1[/blue]的[gold]方法[/gold]牌并加入[gold]手牌[/gold]。"
+            "zh": "将此牌置入[gold]编码序列[/gold]。\n当[gold]编码序列[/gold]中拥有[blue]3[/blue]张牌时，这些牌在该关键[gold]编码[/gold]上方的效果将被合并为一个耗能为[blue]1[/blue]的[gold]方法[/gold]，并加入你的[gold]手牌[/gold]。"
           },
           "dynamicValues": {},
           "sourceValueKey": null
@@ -266,7 +266,7 @@
           },
           "description": {
             "en": "Place this card into your [gold]Sequence[/gold].\nWhen it holds [blue]3[/blue] cards, their effects above this keyword are merged into a Function that costs [blue]1[/blue].",
-            "zh": "将此牌置入[gold]编码序列[/gold]。\n当[gold]编码序列[/gold]中拥有[blue]3[/blue]张牌时，它们在该关键词之上的效果将被合并为一个耗能为[blue]1[/blue]的[gold]方法[/gold]牌并加入[gold]手牌[/gold]。"
+            "zh": "将此牌置入[gold]编码序列[/gold]。\n当[gold]编码序列[/gold]中拥有[blue]3[/blue]张牌时，这些牌在该关键[gold]编码[/gold]上方的效果将被合并为一个耗能为[blue]1[/blue]的[gold]方法[/gold]，并加入你的[gold]手牌[/gold]。"
           },
           "dynamicValues": {},
           "sourceValueKey": null
@@ -573,7 +573,7 @@
           },
           "description": {
             "en": "Place this card into your [gold]Sequence[/gold].\nWhen it holds [blue]3[/blue] cards, their effects above this keyword are merged into a Function that costs [blue]1[/blue].",
-            "zh": "将此牌置入[gold]编码序列[/gold]。\n当[gold]编码序列[/gold]中拥有[blue]3[/blue]张牌时，它们在该关键词之上的效果将被合并为一个耗能为[blue]1[/blue]的[gold]方法[/gold]牌并加入[gold]手牌[/gold]。"
+            "zh": "将此牌置入[gold]编码序列[/gold]。\n当[gold]编码序列[/gold]中拥有[blue]3[/blue]张牌时，这些牌在该关键[gold]编码[/gold]上方的效果将被合并为一个耗能为[blue]1[/blue]的[gold]方法[/gold]，并加入你的[gold]手牌[/gold]。"
           },
           "dynamicValues": {},
           "sourceValueKey": null
@@ -586,7 +586,7 @@
           },
           "description": {
             "en": "An effect that triggers when this card is merged into a Function.",
-            "zh": "此牌被合并为方法时触发的效果。"
+            "zh": "此牌被合并为[gold]方法[/gold]时额外触发的效果。"
           },
           "dynamicValues": {},
           "sourceValueKey": null
@@ -697,7 +697,7 @@
           },
           "description": {
             "en": "Place this card into your [gold]Sequence[/gold].\nWhen it holds [blue]3[/blue] cards, their effects above this keyword are merged into a Function that costs [blue]1[/blue].",
-            "zh": "将此牌置入[gold]编码序列[/gold]。\n当[gold]编码序列[/gold]中拥有[blue]3[/blue]张牌时，它们在该关键词之上的效果将被合并为一个耗能为[blue]1[/blue]的[gold]方法[/gold]牌并加入[gold]手牌[/gold]。"
+            "zh": "将此牌置入[gold]编码序列[/gold]。\n当[gold]编码序列[/gold]中拥有[blue]3[/blue]张牌时，这些牌在该关键[gold]编码[/gold]上方的效果将被合并为一个耗能为[blue]1[/blue]的[gold]方法[/gold]，并加入你的[gold]手牌[/gold]。"
           },
           "dynamicValues": {},
           "sourceValueKey": null
@@ -779,7 +779,7 @@
           },
           "description": {
             "en": "Place this card into your [gold]Sequence[/gold].\nWhen it holds [blue]3[/blue] cards, their effects above this keyword are merged into a Function that costs [blue]1[/blue].",
-            "zh": "将此牌置入[gold]编码序列[/gold]。\n当[gold]编码序列[/gold]中拥有[blue]3[/blue]张牌时，它们在该关键词之上的效果将被合并为一个耗能为[blue]1[/blue]的[gold]方法[/gold]牌并加入[gold]手牌[/gold]。"
+            "zh": "将此牌置入[gold]编码序列[/gold]。\n当[gold]编码序列[/gold]中拥有[blue]3[/blue]张牌时，这些牌在该关键[gold]编码[/gold]上方的效果将被合并为一个耗能为[blue]1[/blue]的[gold]方法[/gold]，并加入你的[gold]手牌[/gold]。"
           },
           "dynamicValues": {},
           "sourceValueKey": null
@@ -862,7 +862,7 @@
           },
           "description": {
             "en": "Place this card into your [gold]Sequence[/gold].\nWhen it holds [blue]3[/blue] cards, their effects above this keyword are merged into a Function that costs [blue]1[/blue].",
-            "zh": "将此牌置入[gold]编码序列[/gold]。\n当[gold]编码序列[/gold]中拥有[blue]3[/blue]张牌时，它们在该关键词之上的效果将被合并为一个耗能为[blue]1[/blue]的[gold]方法[/gold]牌并加入[gold]手牌[/gold]。"
+            "zh": "将此牌置入[gold]编码序列[/gold]。\n当[gold]编码序列[/gold]中拥有[blue]3[/blue]张牌时，这些牌在该关键[gold]编码[/gold]上方的效果将被合并为一个耗能为[blue]1[/blue]的[gold]方法[/gold]，并加入你的[gold]手牌[/gold]。"
           },
           "dynamicValues": {},
           "sourceValueKey": null
@@ -1184,7 +1184,7 @@
           },
           "description": {
             "en": "Place this card into your [gold]Sequence[/gold].\nWhen it holds [blue]3[/blue] cards, their effects above this keyword are merged into a Function that costs [blue]1[/blue].",
-            "zh": "将此牌置入[gold]编码序列[/gold]。\n当[gold]编码序列[/gold]中拥有[blue]3[/blue]张牌时，它们在该关键词之上的效果将被合并为一个耗能为[blue]1[/blue]的[gold]方法[/gold]牌并加入[gold]手牌[/gold]。"
+            "zh": "将此牌置入[gold]编码序列[/gold]。\n当[gold]编码序列[/gold]中拥有[blue]3[/blue]张牌时，这些牌在该关键[gold]编码[/gold]上方的效果将被合并为一个耗能为[blue]1[/blue]的[gold]方法[/gold]，并加入你的[gold]手牌[/gold]。"
           },
           "dynamicValues": {},
           "sourceValueKey": null
@@ -1445,7 +1445,7 @@
       },
       "description": {
         "en": "Increase the damage and [gold]Block[/gold] of Functions by {ClassDefaultPower:diff()}.",
-        "zh": "方法的伤害和[gold]格挡[/gold]数值增加{ClassDefaultPower:diff()}。"
+        "zh": "[gold]方法[/gold]的伤害和[gold]格挡[/gold]数值增加{ClassDefaultPower:diff()}。"
       },
       "upgradeDescription": {
         "en": "",
@@ -1682,7 +1682,7 @@
       },
       "description": {
         "en": "Gain {Block:diff()} [gold]Block[/gold].\nDeal {Damage:diff()} damage.\nCosts {energyPrefix:energyIcons(0)} if the last card played this combat was a Function.",
-        "zh": "获得{Block:diff()}点[gold]格挡[/gold]。\n造成{Damage:diff()}点伤害。\n如果上一张打出的牌是方法，这张牌的耗能降低为{energyPrefix:energyIcons(0)}。"
+        "zh": "获得{Block:diff()}点[gold]格挡[/gold]。\n造成{Damage:diff()}点伤害。\n如果上一张打出的牌是[gold]方法[/gold]，这张牌的耗能降低为{energyPrefix:energyIcons(0)}。"
       },
       "upgradeDescription": {
         "en": "",
@@ -1802,7 +1802,7 @@
           },
           "description": {
             "en": "Place this card into your [gold]Sequence[/gold].\nWhen it holds [blue]3[/blue] cards, their effects above this keyword are merged into a Function that costs [blue]1[/blue].",
-            "zh": "将此牌置入[gold]编码序列[/gold]。\n当[gold]编码序列[/gold]中拥有[blue]3[/blue]张牌时，它们在该关键词之上的效果将被合并为一个耗能为[blue]1[/blue]的[gold]方法[/gold]牌并加入[gold]手牌[/gold]。"
+            "zh": "将此牌置入[gold]编码序列[/gold]。\n当[gold]编码序列[/gold]中拥有[blue]3[/blue]张牌时，这些牌在该关键[gold]编码[/gold]上方的效果将被合并为一个耗能为[blue]1[/blue]的[gold]方法[/gold]，并加入你的[gold]手牌[/gold]。"
           },
           "dynamicValues": {},
           "sourceValueKey": null
@@ -2120,7 +2120,7 @@
           },
           "description": {
             "en": "Place this card into your [gold]Sequence[/gold].\nWhen it holds [blue]3[/blue] cards, their effects above this keyword are merged into a Function that costs [blue]1[/blue].",
-            "zh": "将此牌置入[gold]编码序列[/gold]。\n当[gold]编码序列[/gold]中拥有[blue]3[/blue]张牌时，它们在该关键词之上的效果将被合并为一个耗能为[blue]1[/blue]的[gold]方法[/gold]牌并加入[gold]手牌[/gold]。"
+            "zh": "将此牌置入[gold]编码序列[/gold]。\n当[gold]编码序列[/gold]中拥有[blue]3[/blue]张牌时，这些牌在该关键[gold]编码[/gold]上方的效果将被合并为一个耗能为[blue]1[/blue]的[gold]方法[/gold]，并加入你的[gold]手牌[/gold]。"
           },
           "dynamicValues": {},
           "sourceValueKey": null
@@ -2283,7 +2283,7 @@
           },
           "description": {
             "en": "Place this card into your [gold]Sequence[/gold].\nWhen it holds [blue]3[/blue] cards, their effects above this keyword are merged into a Function that costs [blue]1[/blue].",
-            "zh": "将此牌置入[gold]编码序列[/gold]。\n当[gold]编码序列[/gold]中拥有[blue]3[/blue]张牌时，它们在该关键词之上的效果将被合并为一个耗能为[blue]1[/blue]的[gold]方法[/gold]牌并加入[gold]手牌[/gold]。"
+            "zh": "将此牌置入[gold]编码序列[/gold]。\n当[gold]编码序列[/gold]中拥有[blue]3[/blue]张牌时，这些牌在该关键[gold]编码[/gold]上方的效果将被合并为一个耗能为[blue]1[/blue]的[gold]方法[/gold]，并加入你的[gold]手牌[/gold]。"
           },
           "dynamicValues": {},
           "sourceValueKey": null
@@ -2296,7 +2296,7 @@
           },
           "description": {
             "en": "An effect that triggers when this card is merged into a Function.",
-            "zh": "此牌被合并为方法时触发的效果。"
+            "zh": "此牌被合并为[gold]方法[/gold]时额外触发的效果。"
           },
           "dynamicValues": {},
           "sourceValueKey": null
@@ -2383,7 +2383,7 @@
           },
           "description": {
             "en": "Place this card into your [gold]Sequence[/gold].\nWhen it holds [blue]3[/blue] cards, their effects above this keyword are merged into a Function that costs [blue]1[/blue].",
-            "zh": "将此牌置入[gold]编码序列[/gold]。\n当[gold]编码序列[/gold]中拥有[blue]3[/blue]张牌时，它们在该关键词之上的效果将被合并为一个耗能为[blue]1[/blue]的[gold]方法[/gold]牌并加入[gold]手牌[/gold]。"
+            "zh": "将此牌置入[gold]编码序列[/gold]。\n当[gold]编码序列[/gold]中拥有[blue]3[/blue]张牌时，这些牌在该关键[gold]编码[/gold]上方的效果将被合并为一个耗能为[blue]1[/blue]的[gold]方法[/gold]，并加入你的[gold]手牌[/gold]。"
           },
           "dynamicValues": {},
           "sourceValueKey": null
@@ -2466,7 +2466,7 @@
           },
           "description": {
             "en": "Place this card into your [gold]Sequence[/gold].\nWhen it holds [blue]3[/blue] cards, their effects above this keyword are merged into a Function that costs [blue]1[/blue].",
-            "zh": "将此牌置入[gold]编码序列[/gold]。\n当[gold]编码序列[/gold]中拥有[blue]3[/blue]张牌时，它们在该关键词之上的效果将被合并为一个耗能为[blue]1[/blue]的[gold]方法[/gold]牌并加入[gold]手牌[/gold]。"
+            "zh": "将此牌置入[gold]编码序列[/gold]。\n当[gold]编码序列[/gold]中拥有[blue]3[/blue]张牌时，这些牌在该关键[gold]编码[/gold]上方的效果将被合并为一个耗能为[blue]1[/blue]的[gold]方法[/gold]，并加入你的[gold]手牌[/gold]。"
           },
           "dynamicValues": {},
           "sourceValueKey": null
@@ -2579,7 +2579,7 @@
           },
           "description": {
             "en": "Place this card into your [gold]Sequence[/gold].\nWhen it holds [blue]3[/blue] cards, their effects above this keyword are merged into a Function that costs [blue]1[/blue].",
-            "zh": "将此牌置入[gold]编码序列[/gold]。\n当[gold]编码序列[/gold]中拥有[blue]3[/blue]张牌时，它们在该关键词之上的效果将被合并为一个耗能为[blue]1[/blue]的[gold]方法[/gold]牌并加入[gold]手牌[/gold]。"
+            "zh": "将此牌置入[gold]编码序列[/gold]。\n当[gold]编码序列[/gold]中拥有[blue]3[/blue]张牌时，这些牌在该关键[gold]编码[/gold]上方的效果将被合并为一个耗能为[blue]1[/blue]的[gold]方法[/gold]，并加入你的[gold]手牌[/gold]。"
           },
           "dynamicValues": {},
           "sourceValueKey": null
@@ -2674,7 +2674,7 @@
           },
           "description": {
             "en": "Place this card into your [gold]Sequence[/gold].\nWhen it holds [blue]3[/blue] cards, their effects above this keyword are merged into a Function that costs [blue]1[/blue].",
-            "zh": "将此牌置入[gold]编码序列[/gold]。\n当[gold]编码序列[/gold]中拥有[blue]3[/blue]张牌时，它们在该关键词之上的效果将被合并为一个耗能为[blue]1[/blue]的[gold]方法[/gold]牌并加入[gold]手牌[/gold]。"
+            "zh": "将此牌置入[gold]编码序列[/gold]。\n当[gold]编码序列[/gold]中拥有[blue]3[/blue]张牌时，这些牌在该关键[gold]编码[/gold]上方的效果将被合并为一个耗能为[blue]1[/blue]的[gold]方法[/gold]，并加入你的[gold]手牌[/gold]。"
           },
           "dynamicValues": {},
           "sourceValueKey": null
@@ -2845,7 +2845,7 @@
           },
           "description": {
             "en": "Place this card into your [gold]Sequence[/gold].\nWhen it holds [blue]3[/blue] cards, their effects above this keyword are merged into a Function that costs [blue]1[/blue].",
-            "zh": "将此牌置入[gold]编码序列[/gold]。\n当[gold]编码序列[/gold]中拥有[blue]3[/blue]张牌时，它们在该关键词之上的效果将被合并为一个耗能为[blue]1[/blue]的[gold]方法[/gold]牌并加入[gold]手牌[/gold]。"
+            "zh": "将此牌置入[gold]编码序列[/gold]。\n当[gold]编码序列[/gold]中拥有[blue]3[/blue]张牌时，这些牌在该关键[gold]编码[/gold]上方的效果将被合并为一个耗能为[blue]1[/blue]的[gold]方法[/gold]，并加入你的[gold]手牌[/gold]。"
           },
           "dynamicValues": {},
           "sourceValueKey": null
@@ -2858,7 +2858,7 @@
           },
           "description": {
             "en": "An effect that triggers when this card is merged into a Function.",
-            "zh": "此牌被合并为方法时触发的效果。"
+            "zh": "此牌被合并为[gold]方法[/gold]时额外触发的效果。"
           },
           "dynamicValues": {},
           "sourceValueKey": null
@@ -3622,7 +3622,7 @@
           },
           "description": {
             "en": "Place this card into your [gold]Sequence[/gold].\nWhen it holds [blue]3[/blue] cards, their effects above this keyword are merged into a Function that costs [blue]1[/blue].",
-            "zh": "将此牌置入[gold]编码序列[/gold]。\n当[gold]编码序列[/gold]中拥有[blue]3[/blue]张牌时，它们在该关键词之上的效果将被合并为一个耗能为[blue]1[/blue]的[gold]方法[/gold]牌并加入[gold]手牌[/gold]。"
+            "zh": "将此牌置入[gold]编码序列[/gold]。\n当[gold]编码序列[/gold]中拥有[blue]3[/blue]张牌时，这些牌在该关键[gold]编码[/gold]上方的效果将被合并为一个耗能为[blue]1[/blue]的[gold]方法[/gold]，并加入你的[gold]手牌[/gold]。"
           },
           "dynamicValues": {},
           "sourceValueKey": null
@@ -3783,7 +3783,7 @@
           },
           "description": {
             "en": "Place this card into your [gold]Sequence[/gold].\nWhen it holds [blue]3[/blue] cards, their effects above this keyword are merged into a Function that costs [blue]1[/blue].",
-            "zh": "将此牌置入[gold]编码序列[/gold]。\n当[gold]编码序列[/gold]中拥有[blue]3[/blue]张牌时，它们在该关键词之上的效果将被合并为一个耗能为[blue]1[/blue]的[gold]方法[/gold]牌并加入[gold]手牌[/gold]。"
+            "zh": "将此牌置入[gold]编码序列[/gold]。\n当[gold]编码序列[/gold]中拥有[blue]3[/blue]张牌时，这些牌在该关键[gold]编码[/gold]上方的效果将被合并为一个耗能为[blue]1[/blue]的[gold]方法[/gold]，并加入你的[gold]手牌[/gold]。"
           },
           "dynamicValues": {},
           "sourceValueKey": null
@@ -3867,7 +3867,7 @@
           },
           "description": {
             "en": "Place this card into your [gold]Sequence[/gold].\nWhen it holds [blue]3[/blue] cards, their effects above this keyword are merged into a Function that costs [blue]1[/blue].",
-            "zh": "将此牌置入[gold]编码序列[/gold]。\n当[gold]编码序列[/gold]中拥有[blue]3[/blue]张牌时，它们在该关键词之上的效果将被合并为一个耗能为[blue]1[/blue]的[gold]方法[/gold]牌并加入[gold]手牌[/gold]。"
+            "zh": "将此牌置入[gold]编码序列[/gold]。\n当[gold]编码序列[/gold]中拥有[blue]3[/blue]张牌时，这些牌在该关键[gold]编码[/gold]上方的效果将被合并为一个耗能为[blue]1[/blue]的[gold]方法[/gold]，并加入你的[gold]手牌[/gold]。"
           },
           "dynamicValues": {},
           "sourceValueKey": null
@@ -3900,7 +3900,7 @@
       },
       "description": {
         "en": "[gold]Compile[/gold] - Function gains [gold]Retain[/gold].",
-        "zh": "[gold]编译[/gold]：方法获得[gold]保留[/gold]。"
+        "zh": "[gold]编译[/gold]：[gold]方法[/gold]获得[gold]保留[/gold]。"
       },
       "upgradeDescription": {
         "en": "",
@@ -3967,7 +3967,7 @@
           },
           "description": {
             "en": "Place this card into your [gold]Sequence[/gold].\nWhen it holds [blue]3[/blue] cards, their effects above this keyword are merged into a Function that costs [blue]1[/blue].",
-            "zh": "将此牌置入[gold]编码序列[/gold]。\n当[gold]编码序列[/gold]中拥有[blue]3[/blue]张牌时，它们在该关键词之上的效果将被合并为一个耗能为[blue]1[/blue]的[gold]方法[/gold]牌并加入[gold]手牌[/gold]。"
+            "zh": "将此牌置入[gold]编码序列[/gold]。\n当[gold]编码序列[/gold]中拥有[blue]3[/blue]张牌时，这些牌在该关键[gold]编码[/gold]上方的效果将被合并为一个耗能为[blue]1[/blue]的[gold]方法[/gold]，并加入你的[gold]手牌[/gold]。"
           },
           "dynamicValues": {},
           "sourceValueKey": null
@@ -3996,7 +3996,7 @@
       },
       "description": {
         "en": "[gold]Compile[/gold] - Function becomes a Power with 'At the start of your turn...'",
-        "zh": "[gold]编译[/gold]：方法变为能力牌，效果为“在你的回合开始时打出此牌”。"
+        "zh": "[gold]编译[/gold]：[gold]方法[/gold]成为能力牌，效果为“在你的回合开始时打出此牌”。"
       },
       "upgradeDescription": {
         "en": "",
@@ -4050,7 +4050,7 @@
           },
           "description": {
             "en": "Place this card into your [gold]Sequence[/gold].\nWhen it holds [blue]3[/blue] cards, their effects above this keyword are merged into a Function that costs [blue]1[/blue].",
-            "zh": "将此牌置入[gold]编码序列[/gold]。\n当[gold]编码序列[/gold]中拥有[blue]3[/blue]张牌时，它们在该关键词之上的效果将被合并为一个耗能为[blue]1[/blue]的[gold]方法[/gold]牌并加入[gold]手牌[/gold]。"
+            "zh": "将此牌置入[gold]编码序列[/gold]。\n当[gold]编码序列[/gold]中拥有[blue]3[/blue]张牌时，这些牌在该关键[gold]编码[/gold]上方的效果将被合并为一个耗能为[blue]1[/blue]的[gold]方法[/gold]，并加入你的[gold]手牌[/gold]。"
           },
           "dynamicValues": {},
           "sourceValueKey": null
@@ -4670,7 +4670,7 @@
           },
           "description": {
             "en": "Place this card into your [gold]Sequence[/gold].\nWhen it holds [blue]3[/blue] cards, their effects above this keyword are merged into a Function that costs [blue]1[/blue].",
-            "zh": "将此牌置入[gold]编码序列[/gold]。\n当[gold]编码序列[/gold]中拥有[blue]3[/blue]张牌时，它们在该关键词之上的效果将被合并为一个耗能为[blue]1[/blue]的[gold]方法[/gold]牌并加入[gold]手牌[/gold]。"
+            "zh": "将此牌置入[gold]编码序列[/gold]。\n当[gold]编码序列[/gold]中拥有[blue]3[/blue]张牌时，这些牌在该关键[gold]编码[/gold]上方的效果将被合并为一个耗能为[blue]1[/blue]的[gold]方法[/gold]，并加入你的[gold]手牌[/gold]。"
           },
           "dynamicValues": {},
           "sourceValueKey": null
@@ -4683,7 +4683,7 @@
           },
           "description": {
             "en": "An effect that triggers when this card is merged into a Function.",
-            "zh": "此牌被合并为方法时触发的效果。"
+            "zh": "此牌被合并为[gold]方法[/gold]时额外触发的效果。"
           },
           "dynamicValues": {},
           "sourceValueKey": null
@@ -4766,7 +4766,7 @@
           },
           "description": {
             "en": "Place this card into your [gold]Sequence[/gold].\nWhen it holds [blue]3[/blue] cards, their effects above this keyword are merged into a Function that costs [blue]1[/blue].",
-            "zh": "将此牌置入[gold]编码序列[/gold]。\n当[gold]编码序列[/gold]中拥有[blue]3[/blue]张牌时，它们在该关键词之上的效果将被合并为一个耗能为[blue]1[/blue]的[gold]方法[/gold]牌并加入[gold]手牌[/gold]。"
+            "zh": "将此牌置入[gold]编码序列[/gold]。\n当[gold]编码序列[/gold]中拥有[blue]3[/blue]张牌时，这些牌在该关键[gold]编码[/gold]上方的效果将被合并为一个耗能为[blue]1[/blue]的[gold]方法[/gold]，并加入你的[gold]手牌[/gold]。"
           },
           "dynamicValues": {},
           "sourceValueKey": null
@@ -5025,7 +5025,7 @@
           },
           "description": {
             "en": "Place this card into your [gold]Sequence[/gold].\nWhen it holds [blue]3[/blue] cards, their effects above this keyword are merged into a Function that costs [blue]1[/blue].",
-            "zh": "将此牌置入[gold]编码序列[/gold]。\n当[gold]编码序列[/gold]中拥有[blue]3[/blue]张牌时，它们在该关键词之上的效果将被合并为一个耗能为[blue]1[/blue]的[gold]方法[/gold]牌并加入[gold]手牌[/gold]。"
+            "zh": "将此牌置入[gold]编码序列[/gold]。\n当[gold]编码序列[/gold]中拥有[blue]3[/blue]张牌时，这些牌在该关键[gold]编码[/gold]上方的效果将被合并为一个耗能为[blue]1[/blue]的[gold]方法[/gold]，并加入你的[gold]手牌[/gold]。"
           },
           "dynamicValues": {},
           "sourceValueKey": null
@@ -5153,7 +5153,7 @@
       },
       "description": {
         "en": "Deal {Damage:diff()} damage.\nThe next time you create a Function, create an additional copy of it.",
-        "zh": "造成{Damage:diff()}点伤害。\n下一张生成的方法会额外生成一张。"
+        "zh": "造成{Damage:diff()}点伤害。\n下一张生成的[gold]方法[/gold]会额外生成一张。"
       },
       "upgradeDescription": {
         "en": "",
@@ -5222,7 +5222,7 @@
           },
           "description": {
             "en": "The next time you create a Function, create an additional copy of it.",
-            "zh": "下一张生成的方法会额外生成一张。"
+            "zh": "下一张生成的[gold]方法[/gold]会额外生成一张。"
           },
           "dynamicValues": {},
           "sourceValueKey": "MergeConflictPower"
@@ -5304,7 +5304,7 @@
           },
           "description": {
             "en": "Place this card into your [gold]Sequence[/gold].\nWhen it holds [blue]3[/blue] cards, their effects above this keyword are merged into a Function that costs [blue]1[/blue].",
-            "zh": "将此牌置入[gold]编码序列[/gold]。\n当[gold]编码序列[/gold]中拥有[blue]3[/blue]张牌时，它们在该关键词之上的效果将被合并为一个耗能为[blue]1[/blue]的[gold]方法[/gold]牌并加入[gold]手牌[/gold]。"
+            "zh": "将此牌置入[gold]编码序列[/gold]。\n当[gold]编码序列[/gold]中拥有[blue]3[/blue]张牌时，这些牌在该关键[gold]编码[/gold]上方的效果将被合并为一个耗能为[blue]1[/blue]的[gold]方法[/gold]，并加入你的[gold]手牌[/gold]。"
           },
           "dynamicValues": {},
           "sourceValueKey": null
@@ -5428,7 +5428,7 @@
       },
       "description": {
         "en": "[gold]Compile[/gold] - Function costs {Energy:energyIcons()}.",
-        "zh": "[gold]编译[/gold]：方法耗能为{Energy:energyIcons()}。"
+        "zh": "[gold]编译[/gold]：[gold]方法[/gold]的耗能为{Energy:energyIcons()}。"
       },
       "upgradeDescription": {
         "en": "",
@@ -5486,7 +5486,7 @@
           },
           "description": {
             "en": "Place this card into your [gold]Sequence[/gold].\nWhen it holds [blue]3[/blue] cards, their effects above this keyword are merged into a Function that costs [blue]1[/blue].",
-            "zh": "将此牌置入[gold]编码序列[/gold]。\n当[gold]编码序列[/gold]中拥有[blue]3[/blue]张牌时，它们在该关键词之上的效果将被合并为一个耗能为[blue]1[/blue]的[gold]方法[/gold]牌并加入[gold]手牌[/gold]。"
+            "zh": "将此牌置入[gold]编码序列[/gold]。\n当[gold]编码序列[/gold]中拥有[blue]3[/blue]张牌时，这些牌在该关键[gold]编码[/gold]上方的效果将被合并为一个耗能为[blue]1[/blue]的[gold]方法[/gold]，并加入你的[gold]手牌[/gold]。"
           },
           "dynamicValues": {},
           "sourceValueKey": null
@@ -5588,7 +5588,7 @@
           },
           "description": {
             "en": "Place this card into your [gold]Sequence[/gold].\nWhen it holds [blue]3[/blue] cards, their effects above this keyword are merged into a Function that costs [blue]1[/blue].",
-            "zh": "将此牌置入[gold]编码序列[/gold]。\n当[gold]编码序列[/gold]中拥有[blue]3[/blue]张牌时，它们在该关键词之上的效果将被合并为一个耗能为[blue]1[/blue]的[gold]方法[/gold]牌并加入[gold]手牌[/gold]。"
+            "zh": "将此牌置入[gold]编码序列[/gold]。\n当[gold]编码序列[/gold]中拥有[blue]3[/blue]张牌时，这些牌在该关键[gold]编码[/gold]上方的效果将被合并为一个耗能为[blue]1[/blue]的[gold]方法[/gold]，并加入你的[gold]手牌[/gold]。"
           },
           "dynamicValues": {},
           "sourceValueKey": null
@@ -5601,7 +5601,7 @@
           },
           "description": {
             "en": "An effect that triggers when this card is merged into a Function.",
-            "zh": "此牌被合并为方法时触发的效果。"
+            "zh": "此牌被合并为[gold]方法[/gold]时额外触发的效果。"
           },
           "dynamicValues": {},
           "sourceValueKey": null
@@ -6420,7 +6420,7 @@
           },
           "description": {
             "en": "Place this card into your [gold]Sequence[/gold].\nWhen it holds [blue]3[/blue] cards, their effects above this keyword are merged into a Function that costs [blue]1[/blue].",
-            "zh": "将此牌置入[gold]编码序列[/gold]。\n当[gold]编码序列[/gold]中拥有[blue]3[/blue]张牌时，它们在该关键词之上的效果将被合并为一个耗能为[blue]1[/blue]的[gold]方法[/gold]牌并加入[gold]手牌[/gold]。"
+            "zh": "将此牌置入[gold]编码序列[/gold]。\n当[gold]编码序列[/gold]中拥有[blue]3[/blue]张牌时，这些牌在该关键[gold]编码[/gold]上方的效果将被合并为一个耗能为[blue]1[/blue]的[gold]方法[/gold]，并加入你的[gold]手牌[/gold]。"
           },
           "dynamicValues": {},
           "sourceValueKey": null
@@ -6724,7 +6724,7 @@
           },
           "description": {
             "en": "Place this card into your [gold]Sequence[/gold].\nWhen it holds [blue]3[/blue] cards, their effects above this keyword are merged into a Function that costs [blue]1[/blue].",
-            "zh": "将此牌置入[gold]编码序列[/gold]。\n当[gold]编码序列[/gold]中拥有[blue]3[/blue]张牌时，它们在该关键词之上的效果将被合并为一个耗能为[blue]1[/blue]的[gold]方法[/gold]牌并加入[gold]手牌[/gold]。"
+            "zh": "将此牌置入[gold]编码序列[/gold]。\n当[gold]编码序列[/gold]中拥有[blue]3[/blue]张牌时，这些牌在该关键[gold]编码[/gold]上方的效果将被合并为一个耗能为[blue]1[/blue]的[gold]方法[/gold]，并加入你的[gold]手牌[/gold]。"
           },
           "dynamicValues": {},
           "sourceValueKey": null
@@ -7005,7 +7005,7 @@
           },
           "description": {
             "en": "Place this card into your [gold]Sequence[/gold].\nWhen it holds [blue]3[/blue] cards, their effects above this keyword are merged into a Function that costs [blue]1[/blue].",
-            "zh": "将此牌置入[gold]编码序列[/gold]。\n当[gold]编码序列[/gold]中拥有[blue]3[/blue]张牌时，它们在该关键词之上的效果将被合并为一个耗能为[blue]1[/blue]的[gold]方法[/gold]牌并加入[gold]手牌[/gold]。"
+            "zh": "将此牌置入[gold]编码序列[/gold]。\n当[gold]编码序列[/gold]中拥有[blue]3[/blue]张牌时，这些牌在该关键[gold]编码[/gold]上方的效果将被合并为一个耗能为[blue]1[/blue]的[gold]方法[/gold]，并加入你的[gold]手牌[/gold]。"
           },
           "dynamicValues": {},
           "sourceValueKey": null
@@ -7101,7 +7101,7 @@
           },
           "description": {
             "en": "Functions gain [gold]Replay[/gold] [blue]1[/blue].",
-            "zh": "方法获得[gold]重放[/gold][blue]1[/blue]"
+            "zh": "[gold]方法[/gold]获得[gold]重放[/gold][blue]1[/blue]"
           },
           "dynamicValues": {},
           "sourceValueKey": "SentientFormPower"
@@ -7187,7 +7187,7 @@
           },
           "description": {
             "en": "Place this card into your [gold]Sequence[/gold].\nWhen it holds [blue]3[/blue] cards, their effects above this keyword are merged into a Function that costs [blue]1[/blue].",
-            "zh": "将此牌置入[gold]编码序列[/gold]。\n当[gold]编码序列[/gold]中拥有[blue]3[/blue]张牌时，它们在该关键词之上的效果将被合并为一个耗能为[blue]1[/blue]的[gold]方法[/gold]牌并加入[gold]手牌[/gold]。"
+            "zh": "将此牌置入[gold]编码序列[/gold]。\n当[gold]编码序列[/gold]中拥有[blue]3[/blue]张牌时，这些牌在该关键[gold]编码[/gold]上方的效果将被合并为一个耗能为[blue]1[/blue]的[gold]方法[/gold]，并加入你的[gold]手牌[/gold]。"
           },
           "dynamicValues": {},
           "sourceValueKey": null
@@ -7216,7 +7216,7 @@
       },
       "description": {
         "en": "Whenever you gain [gold]Block[/gold] from a Function, the ally with the least [gold]Block[/gold] gains {SharePower:diff()} [gold]Block[/gold].",
-        "zh": "每当你从方法中获得[gold]格挡[/gold]时，[gold]格挡[/gold]最少的盟友获得{SharePower:diff()}点[gold]格挡[/gold]。"
+        "zh": "每当你从[gold]方法[/gold]中获得[gold]格挡[/gold]时，[gold]格挡[/gold]最少的盟友获得{SharePower:diff()}点[gold]格挡[/gold]。"
       },
       "upgradeDescription": {
         "en": "",
@@ -7270,7 +7270,7 @@
           },
           "description": {
             "en": "Whenever you gain [gold]Block[/gold] from a Function, the ally with the least [gold]Block[/gold] gains [gold]Block[/gold].",
-            "zh": "每当你从方法中获得[gold]格挡[/gold]时，[gold]格挡[/gold]最少的盟友获得[gold]格挡[/gold]。"
+            "zh": "每当你从[gold]方法[/gold]中获得[gold]格挡[/gold]时，[gold]格挡[/gold]最少的盟友获得[gold]格挡[/gold]。"
           },
           "dynamicValues": {},
           "sourceValueKey": "SharePower"
@@ -7374,7 +7374,7 @@
       },
       "description": {
         "en": "Choose 1 of 3 random cards to [gold]Encode[/gold].\nRepeat until you create a Function.\nIt's free to play this turn.",
-        "zh": "从3张随机牌中选择1张[gold]编码[/gold]，重复直到你生成一个方法。\n这张牌在本回合中可以免费打出。"
+        "zh": "从3张随机牌中选择1张[gold]编码[/gold]，重复直到你生成一个[gold]方法[/gold]。\n其在本回合中可以免费打出。"
       },
       "upgradeDescription": {
         "en": "",
@@ -7437,7 +7437,7 @@
           },
           "description": {
             "en": "Place this card into your [gold]Sequence[/gold].\nWhen it holds [blue]3[/blue] cards, their effects above this keyword are merged into a Function that costs [blue]1[/blue].",
-            "zh": "将此牌置入[gold]编码序列[/gold]。\n当[gold]编码序列[/gold]中拥有[blue]3[/blue]张牌时，它们在该关键词之上的效果将被合并为一个耗能为[blue]1[/blue]的[gold]方法[/gold]牌并加入[gold]手牌[/gold]。"
+            "zh": "将此牌置入[gold]编码序列[/gold]。\n当[gold]编码序列[/gold]中拥有[blue]3[/blue]张牌时，这些牌在该关键[gold]编码[/gold]上方的效果将被合并为一个耗能为[blue]1[/blue]的[gold]方法[/gold]，并加入你的[gold]手牌[/gold]。"
           },
           "dynamicValues": {},
           "sourceValueKey": null
@@ -7521,7 +7521,7 @@
           },
           "description": {
             "en": "Place this card into your [gold]Sequence[/gold].\nWhen it holds [blue]3[/blue] cards, their effects above this keyword are merged into a Function that costs [blue]1[/blue].",
-            "zh": "将此牌置入[gold]编码序列[/gold]。\n当[gold]编码序列[/gold]中拥有[blue]3[/blue]张牌时，它们在该关键词之上的效果将被合并为一个耗能为[blue]1[/blue]的[gold]方法[/gold]牌并加入[gold]手牌[/gold]。"
+            "zh": "将此牌置入[gold]编码序列[/gold]。\n当[gold]编码序列[/gold]中拥有[blue]3[/blue]张牌时，这些牌在该关键[gold]编码[/gold]上方的效果将被合并为一个耗能为[blue]1[/blue]的[gold]方法[/gold]，并加入你的[gold]手牌[/gold]。"
           },
           "dynamicValues": {},
           "sourceValueKey": null
@@ -7534,7 +7534,7 @@
           },
           "description": {
             "en": "An effect that triggers when this card is merged into a Function.",
-            "zh": "此牌被合并为方法时触发的效果。"
+            "zh": "此牌被合并为[gold]方法[/gold]时额外触发的效果。"
           },
           "dynamicValues": {},
           "sourceValueKey": null
@@ -7712,7 +7712,7 @@
           },
           "description": {
             "en": "Place this card into your [gold]Sequence[/gold].\nWhen it holds [blue]3[/blue] cards, their effects above this keyword are merged into a Function that costs [blue]1[/blue].",
-            "zh": "将此牌置入[gold]编码序列[/gold]。\n当[gold]编码序列[/gold]中拥有[blue]3[/blue]张牌时，它们在该关键词之上的效果将被合并为一个耗能为[blue]1[/blue]的[gold]方法[/gold]牌并加入[gold]手牌[/gold]。"
+            "zh": "将此牌置入[gold]编码序列[/gold]。\n当[gold]编码序列[/gold]中拥有[blue]3[/blue]张牌时，这些牌在该关键[gold]编码[/gold]上方的效果将被合并为一个耗能为[blue]1[/blue]的[gold]方法[/gold]，并加入你的[gold]手牌[/gold]。"
           },
           "dynamicValues": {},
           "sourceValueKey": null
@@ -41554,7 +41554,7 @@
       },
       "description": {
         "en": "Whenever a card ticks down in [gold]Stasis[/gold], gain {MaximumOverdrivePower:diff()} [gold]Strength[/gold] for one turn.",
-        "zh": "每当一张牌减少[gold]凝滞[/gold]计数时，在本回合中获得{MaximumOverdrivePower:diff()}点[gold]力量[/gold]。"
+        "zh": "每当一张牌减少[gold]凝滞[/gold]计数时，在一回合内获得{MaximumOverdrivePower:diff()}点[gold]力量[/gold]。"
       },
       "upgradeDescription": {
         "en": "",
@@ -55067,7 +55067,7 @@
       },
       "description": {
         "en": "Gain {Block:diff()} [gold]Block[/gold].\nDeal {Damage:diff()} damage.\nPlace a card in your [gold]Hand[/gold] on top of your [gold]Draw Pile[/gold].",
-        "zh": "获得{Block:diff()}点[gold]格挡[/gold]。\n造成{Damage:diff()}点伤害。\n将你[gold]手牌[/gold]中一张牌放到你的[gold]抽牌堆[/gold]顶。"
+        "zh": "获得{Block:diff()}点[gold]格挡[/gold]。\n造成{Damage:diff()}点伤害。\n将你[gold]手牌[/gold]中一张牌放到你的[gold]抽牌堆[/gold]顶部。"
       },
       "upgradeDescription": {
         "en": "",
