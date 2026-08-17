@@ -903,6 +903,15 @@ html[lang^="zh"] .card-desc {
   gap: var(--hover-split-gap, 24px);
 }
 
+.card-hover-attachments.card-only-preview {
+  grid-template-columns: auto;
+  width: max-content;
+}
+
+.card-hover-attachments.card-only-preview .card-attached-previews {
+  width: max-content;
+}
+
 .card-attached-tip {
   width: 220px;
   max-width: none;

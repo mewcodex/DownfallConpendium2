@@ -1066,6 +1066,9 @@ function showCardAttachmentTooltip(card, anchorRect, langOverride = null) {
 
   const tip = getCardAttachmentTooltip();
   tip.innerHTML = "";
+  tip.classList.toggle("card-only-preview", !textTips.length && cardTips.length > 0);
+  tip.classList.toggle("text-and-preview", textTips.length > 0 && cardTips.length > 0);
+  tip.classList.toggle("text-only", textTips.length > 0 && cardTips.length === 0);
   const tipsColumn = document.createElement("div");
   tipsColumn.className = "card-attached-tip-column";
   if (textTips.length) tip.appendChild(tipsColumn);
