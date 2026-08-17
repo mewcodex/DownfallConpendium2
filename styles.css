@@ -955,15 +955,15 @@ article.card[data-card-id] .card-portrait-border {
   width: 91.67%;
   height: 49.76%;
   z-index: 5;
-  background-image: url("assets/card-ui/portrait-border-skill.png");
+  background-image: var(--rarity-portrait-border-image);
 }
 
 article.card[data-card-id] .card-visual-attack .card-portrait-border {
-  background-image: url("assets/card-ui/portrait-border-attack.png");
+  background-image: var(--rarity-portrait-border-image);
 }
 
 article.card[data-card-id] .card-visual-power .card-portrait-border {
-  background-image: url("assets/card-ui/portrait-border-power.png");
+  background-image: var(--rarity-portrait-border-image);
 }
 
 article.card[data-card-id] .card-frame {
@@ -976,31 +976,8 @@ article.card[data-card-id] .card-banner {
   inset: 0.95% auto auto -4.33%;
   width: 109%;
   height: 19.67%;
-  filter: var(--banner-filter);
-}
-
-article.card[data-card-id].card-rarity-uncommon {
-  --banner-filter: hue-rotate(0deg) saturate(1) brightness(1);
-}
-
-article.card[data-card-id].card-rarity-rare {
-  --banner-filter: hue-rotate(157deg) saturate(1.198) brightness(1.14);
-}
-
-article.card[data-card-id].card-rarity-curse {
-  --banner-filter: hue-rotate(263deg) saturate(1.1) brightness(0.9);
-}
-
-article.card[data-card-id].card-rarity-status {
-  --banner-filter: hue-rotate(132deg) saturate(0.35) brightness(0.8);
-}
-
-article.card[data-card-id].card-rarity-quest {
-  --banner-filter: hue-rotate(175deg) saturate(1.727) brightness(0.9);
-}
-
-article.card[data-card-id].card-rarity-event {
-  --banner-filter: hue-rotate(45deg) saturate(0.85) brightness(0.9);
+  background-image: var(--rarity-banner-image);
+  filter: none;
 }
 
 article.card[data-card-id] .card-face-title {
@@ -1054,14 +1031,14 @@ article.card[data-card-id] .card-face-type {
   height: 8.77%;
   min-height: 0;
   padding: 0;
-  background: url("assets/card-ui/type-plaque.png") center / 100% 100% no-repeat;
+  background: var(--rarity-plaque-image) center / 100% 100% no-repeat;
   border: 0;
   border-radius: 0;
   box-shadow: none;
   font-size: 5.33cqw;
   font-family: "Noto Sans Mono CJK SC UI", "PingFang SC", "Microsoft YaHei", sans-serif;
   font-weight: 700;
-  filter: var(--banner-filter);
+  filter: none;
 }
 
 article.card[data-card-id].card-color-automaton .card-frame {

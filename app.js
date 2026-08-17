@@ -1741,6 +1741,11 @@ function buildCardElement(card, suppressAnimation = false, previewMode = false, 
   if (card.color) classes.push(`card-color-${String(card.color).toLowerCase()}`);
   if (card.rarity) classes.push(`card-rarity-${String(card.rarity).toLowerCase()}`);
   cardEl.className = classes.join(" ");
+  const rarityKey = { BASIC: "common", COMMON: "common", TOKEN: "common", UNCOMMON: "uncommon", RARE: "rare", CURSE: "curse", STATUS: "status", QUEST: "quest", EVENT: "event", ANCIENT: "ancient" }[card.rarity] || "common";
+  const borderType = card.type === "ATTACK" ? "attack" : card.type === "POWER" ? "power" : "skill";
+  cardEl.style.setProperty("--rarity-banner-image", `url("assets/card-ui/rarity/${rarityKey}-banner.png")`);
+  cardEl.style.setProperty("--rarity-plaque-image", `url("assets/card-ui/rarity/${rarityKey}-type-plaque.png")`);
+  cardEl.style.setProperty("--rarity-portrait-border-image", `url("assets/card-ui/rarity/${rarityKey}-portrait-border-${borderType}.png")`);
   const frameByRarity = {
     UNCOMMON: "rgba(108, 176, 232, 0.32)",
     RARE: "rgba(220, 178, 67, 0.36)",
