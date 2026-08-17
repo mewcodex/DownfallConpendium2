@@ -1,0 +1,110 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Downfall Card Conpendium</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,600;9..144,700&family=Space+Grotesk:wght@400;500;600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="page">
+      <header class="hero">
+        <div class="hero-main">
+          <p class="eyebrow" data-i18n="eyebrow">Downfall Mod Card Showcase</p>
+          <div class="hero-title-row">
+            <h1 data-i18n="title">Downfall Card Conpendium</h1>
+            <div class="hero-actions">
+              <a class="toggle" id="relicsPageLink" href="relics.html" data-i18n="navRelics">Relics</a>
+            </div>
+          </div>
+          <p class="subtitle" data-i18n="subtitle">
+            Browse every card, filter by stats, and switch between base and upgraded text.
+          </p>
+          <p class="version-info" id="versionInfo"></p>
+        </div>
+      </header>
+
+      <section class="controls">
+        <div class="selects">
+          <label>
+            <span data-i18n="typeLabel">Type</span>
+            <select id="typeFilter"></select>
+          </label>
+          <label>
+            <span data-i18n="costLabel">Cost</span>
+            <select id="costFilter"></select>
+          </label>
+          <label>
+            <span data-i18n="rarityLabel">Rarity</span>
+            <select id="rarityFilter"></select>
+          </label>
+          <label>
+            <span data-i18n="colorLabel">Color</span>
+            <select id="colorFilter"></select>
+          </label>
+        </div>
+
+        <div class="sort-row">
+          <label>
+            <span data-i18n="sortByLabel">Sort by</span>
+            <select id="sortBy"></select>
+          </label>
+          <label>
+            <span data-i18n="sortDirLabel">Order</span>
+            <select id="sortDir"></select>
+          </label>
+          <label>
+            <span data-i18n="pageSizeLabel">Per page</span>
+            <select id="pageSize"></select>
+          </label>
+          <label>
+            <span data-i18n="deprecatedLabel">Deprecated</span>
+            <select id="deprecatedFilter"></select>
+          </label>
+        </div>
+
+        <div class="search-block">
+          <label class="search">
+            <span data-i18n="searchLabel">Search</span>
+            <div class="search-input-row">
+              <div class="search-input-wrap">
+                <input id="searchInput" type="search" placeholder="Card name or description" />
+                <button class="search-clear-inline" id="clearSearchInlineBtn" type="button" aria-label="Clear search" title="Clear search">
+                  <svg class="icon-close" viewBox="0 0 16 16" aria-hidden="true" focusable="false">
+                    <path d="M4 4L12 12M12 4L4 12" />
+                  </svg>
+                </button>
+              </div>
+              <button class="search-btn" id="searchBtn" type="button" data-i18n="searchBtn">Search</button>
+            </div>
+          </label>
+        </div>
+      </section>
+
+      <section class="summary" id="summary"></section>
+
+      <section class="grid" id="cardGrid"></section>
+
+      <footer class="pager">
+        <button id="prevPage" type="button">Prev</button>
+        <div id="pageInfo"></div>
+        <button id="nextPage" type="button">Next</button>
+      </footer>
+
+      <div class="translator-entry">
+        <a id="translatorModeEntry" href="?translator_mode=1">translator mode</a>
+      </div>
+    </div>
+
+    <button class="toggle floating-toggle" id="langToggle" type="button">EN</button>
+    <button class="toggle floating-toggle" id="upgradeToggle" type="button" data-i18n="toggleUpgrade">Show Upgraded</button>
+
+    <script src="app.js"></script>
+  </body>
+</html>

@@ -1,0 +1,3061 @@
+{
+  "generatedAt": "2026-08-17T13:18:47.556027Z",
+  "modVersion": "0.1.13",
+  "translationVersion": "2026_08_17_21_01_04_635d8d",
+  "baseKeywords": [],
+  "keywords": {
+    "en": [],
+    "zh": []
+  },
+  "relicCount": 127,
+  "relics": [
+    {
+      "id": "AUTOMATON-BOTTLED_CODE",
+      "codeName": "BottledCode",
+      "name": {
+        "en": "瓶裝代碼",
+        "zh": "瓶装代码"
+      },
+      "description": {
+        "en": "拾起时，为一张带有[gold]编码[/gold]的牌[gold]附魔[/gold][purple]硬编码[/purple]。",
+        "zh": "拾起时，为一张带有[gold]编码[/gold]的牌[gold]附魔[/gold][purple]硬编码[/purple]。"
+      },
+      "rarity": "RARE",
+      "color": "AUTOMATONCODE",
+      "colorName": {
+        "en": "Automatoncode",
+        "zh": "AUTOMATONCODE"
+      },
+      "colorPillBg": null,
+      "colorPillFg": null,
+      "energyIcon": null,
+      "img": "assets/relics/bottledcode.png",
+      "imageResource": "",
+      "deprecated": false
+    },
+    {
+      "id": "AUTOMATON-BRONZE_CORE",
+      "codeName": "BronzeCore",
+      "name": {
+        "en": "銅制核心",
+        "zh": "铜制核心"
+      },
+      "description": {
+        "en": "在每场战斗开始时，[gold]编码[/gold]一张[gold]打击[/gold]和[gold]防御[/gold]。",
+        "zh": "在每场战斗开始时，[gold]编码[/gold]一张[gold]打击[/gold]和[gold]防御[/gold]。"
+      },
+      "rarity": "STARTER",
+      "color": "AUTOMATONCODE",
+      "colorName": {
+        "en": "Automatoncode",
+        "zh": "AUTOMATONCODE"
+      },
+      "colorPillBg": null,
+      "colorPillFg": null,
+      "energyIcon": null,
+      "img": "assets/relics/bronzecore.png",
+      "imageResource": "",
+      "deprecated": false
+    },
+    {
+      "id": "AUTOMATON-CABLE_SPOOL",
+      "codeName": "CableSpool",
+      "name": {
+        "en": "電纜線軸",
+        "zh": "电缆线轴"
+      },
+      "description": {
+        "en": "每场战斗中，[gold]升级[/gold]你抽到的前[blue]{Cards:diff()}[/blue]张未升级的[gold]编码[/gold]牌。",
+        "zh": "每场战斗中，[gold]升级[/gold]你抽到的前[blue]{Cards:diff()}[/blue]张未升级的[gold]编码[/gold]牌。"
+      },
+      "rarity": "UNCOMMON",
+      "color": "AUTOMATONCODE",
+      "colorName": {
+        "en": "Automatoncode",
+        "zh": "AUTOMATONCODE"
+      },
+      "colorPillBg": null,
+      "colorPillFg": null,
+      "energyIcon": null,
+      "img": "assets/relics/cablespool.png",
+      "imageResource": "",
+      "deprecated": false
+    },
+    {
+      "id": "AUTOMATON-DONUS_WASHERS",
+      "codeName": "",
+      "name": {
+        "en": "甜圈墊片",
+        "zh": "甜圈垫片"
+      },
+      "description": {
+        "en": "在每场战斗开始时，获得{Energy:energyIcons()}并将一张[gold]虚空[/gold]加入你的[gold]抽牌堆[/gold]。",
+        "zh": "在每场战斗开始时，获得{Energy:energyIcons()}并将一张[gold]虚空[/gold]加入你的[gold]抽牌堆[/gold]。"
+      },
+      "rarity": "SPECIAL",
+      "color": "DOWNFALL",
+      "colorName": {
+        "en": "Downfall",
+        "zh": "崩坠"
+      },
+      "colorPillBg": null,
+      "colorPillFg": null,
+      "energyIcon": null,
+      "img": null,
+      "imageResource": "",
+      "deprecated": false
+    },
+    {
+      "id": "AUTOMATON-ELECTROMAGNETIC_COIL",
+      "codeName": "",
+      "name": {
+        "en": "電磁線圈",
+        "zh": "电磁线圈"
+      },
+      "description": {
+        "en": "方法现在由[blue]4[/blue]张牌组成。",
+        "zh": "方法现在由[blue]4[/blue]张牌组成。"
+      },
+      "rarity": "SPECIAL",
+      "color": "DOWNFALL",
+      "colorName": {
+        "en": "Downfall",
+        "zh": "崩坠"
+      },
+      "colorPillBg": null,
+      "colorPillFg": null,
+      "energyIcon": null,
+      "img": null,
+      "imageResource": "",
+      "deprecated": false
+    },
+    {
+      "id": "AUTOMATON-FROST_PRIMER",
+      "codeName": "FrostPrimer",
+      "name": {
+        "en": "冷凝漆",
+        "zh": "寒霜底漆"
+      },
+      "description": {
+        "en": "你的所有方法附魔[purple]稳定[/purple]。",
+        "zh": "你的所有方法附魔[purple]稳定[/purple]。"
+      },
+      "rarity": "RARE",
+      "color": "AUTOMATONCODE",
+      "colorName": {
+        "en": "Automatoncode",
+        "zh": "AUTOMATONCODE"
+      },
+      "colorPillBg": null,
+      "colorPillFg": null,
+      "energyIcon": null,
+      "img": "assets/relics/frostprimer.png",
+      "imageResource": "",
+      "deprecated": false
+    },
+    {
+      "id": "AUTOMATON-MAKESHIFT_BATTERY",
+      "codeName": "",
+      "name": {
+        "en": "備用電池",
+        "zh": "备用电池"
+      },
+      "description": {
+        "en": "在你的回合开始时，获得{Energy:energyIcons()}并将一张[gold]粘液[/gold]加入你的[gold]弃牌堆[/gold]。",
+        "zh": "在你的回合开始时，获得{Energy:energyIcons()}并将一张[gold]粘液[/gold]加入你的[gold]弃牌堆[/gold]。"
+      },
+      "rarity": "SPECIAL",
+      "color": "DOWNFALL",
+      "colorName": {
+        "en": "Downfall",
+        "zh": "崩坠"
+      },
+      "colorPillBg": null,
+      "colorPillFg": null,
+      "energyIcon": null,
+      "img": null,
+      "imageResource": "",
+      "deprecated": false
+    },
+    {
+      "id": "AUTOMATON-MALLET",
+      "codeName": "Mallet",
+      "name": {
+        "en": "鐵錘",
+        "zh": "铁锤"
+      },
+      "description": {
+        "en": "每当你[gold]暂存[/gold]一张牌时，将其[gold]升级[/gold]。",
+        "zh": "每当你[gold]暂存[/gold]一张牌时，将其[gold]升级[/gold]。"
+      },
+      "rarity": "RARE",
+      "color": "AUTOMATONCODE",
+      "colorName": {
+        "en": "Automatoncode",
+        "zh": "AUTOMATONCODE"
+      },
+      "colorPillBg": null,
+      "colorPillFg": null,
+      "energyIcon": null,
+      "img": "assets/relics/mallet.png",
+      "imageResource": "",
+      "deprecated": false
+    },
+    {
+      "id": "AUTOMATON-PLATINUM_CORE",
+      "codeName": "PlatinumCore",
+      "name": {
+        "en": "鉑金核心",
+        "zh": "铂金核心"
+      },
+      "description": {
+        "en": "在每场战斗开始时，[gold]编码[/gold]一张[gold]打击[/gold]和一张[gold]防御[/gold]。\n在你的回合开始时，将一张随机[gold]编码[/gold]牌加入你的[gold]手牌[/gold]。",
+        "zh": "在每场战斗开始时，[gold]编码[/gold]一张[gold]打击[/gold]和一张[gold]防御[/gold]。\n在你的回合开始时，将一张随机[gold]编码[/gold]牌加入你的[gold]手牌[/gold]。"
+      },
+      "rarity": "STARTER",
+      "color": "AUTOMATONCODE",
+      "colorName": {
+        "en": "Automatoncode",
+        "zh": "AUTOMATONCODE"
+      },
+      "colorPillBg": null,
+      "colorPillFg": null,
+      "energyIcon": null,
+      "img": "assets/relics/platinumcore.png",
+      "imageResource": "",
+      "deprecated": false
+    },
+    {
+      "id": "AUTOMATON-PROTECTIVE_GOGGLES",
+      "codeName": "ProtectiveGoggles",
+      "name": {
+        "en": "護目鏡",
+        "zh": "护目镜"
+      },
+      "description": {
+        "en": "在你的回合结束时，若[gold]编码[/gold]队列中没有牌，获得[blue]{Block:diff()}[/blue]点[gold]格挡[/gold]。",
+        "zh": "在你的回合结束时，若[gold]编码[/gold]队列中没有牌，获得[blue]{Block:diff()}[/blue]点[gold]格挡[/gold]。"
+      },
+      "rarity": "UNCOMMON",
+      "color": "AUTOMATONCODE",
+      "colorName": {
+        "en": "Automatoncode",
+        "zh": "AUTOMATONCODE"
+      },
+      "colorPillBg": null,
+      "colorPillFg": null,
+      "energyIcon": null,
+      "img": "assets/relics/protectivegoggles.png",
+      "imageResource": "",
+      "deprecated": false
+    },
+    {
+      "id": "AUTOMATON-SILVER_BULLET",
+      "codeName": "SilverBullet",
+      "name": {
+        "en": "銀色子彈",
+        "zh": "银色子弹"
+      },
+      "description": {
+        "en": "每当你生成一张状态牌时，对所有敌人造成[blue]{Damage:diff()}[/blue]点伤害。",
+        "zh": "每当你生成一张状态牌时，对所有敌人造成[blue]{Damage:diff()}[/blue]点伤害。"
+      },
+      "rarity": "COMMON",
+      "color": "AUTOMATONCODE",
+      "colorName": {
+        "en": "Automatoncode",
+        "zh": "AUTOMATONCODE"
+      },
+      "colorPillBg": null,
+      "colorPillFg": null,
+      "energyIcon": null,
+      "img": "assets/relics/silverbullet.png",
+      "imageResource": "",
+      "deprecated": false
+    },
+    {
+      "id": "AWAKENED-ABYSS_BLADE",
+      "codeName": "",
+      "name": {
+        "en": "深渊之刃",
+        "zh": "深渊之刃"
+      },
+      "description": {
+        "en": "每回合你第一次[gold]力竭[/gold]时，获得{Energy:energyIcons()}并抽1张牌。",
+        "zh": "每回合你第一次[gold]力竭[/gold]时，获得{Energy:energyIcons()}并抽1张牌。"
+      },
+      "rarity": "SPECIAL",
+      "color": "DOWNFALL",
+      "colorName": {
+        "en": "Downfall",
+        "zh": "崩坠"
+      },
+      "colorPillBg": null,
+      "colorPillFg": null,
+      "energyIcon": null,
+      "img": null,
+      "imageResource": "",
+      "deprecated": false
+    },
+    {
+      "id": "AWAKENED-BIRD_FACED_VASE",
+      "codeName": "",
+      "name": {
+        "en": "鸟面花瓶",
+        "zh": "鸟面花瓶"
+      },
+      "description": {
+        "en": "每场战斗中，你前[blue]4[/blue]次打出能力牌时，回复[blue]3[/blue]点生命。",
+        "zh": "每场战斗中，你前[blue]4[/blue]次打出能力牌时，回复[blue]3[/blue]点生命。"
+      },
+      "rarity": "SPECIAL",
+      "color": "DOWNFALL",
+      "colorName": {
+        "en": "Downfall",
+        "zh": "崩坠"
+      },
+      "colorPillBg": null,
+      "colorPillFg": null,
+      "energyIcon": null,
+      "img": null,
+      "imageResource": "",
+      "deprecated": false
+    },
+    {
+      "id": "AWAKENED-CRESCENT_TALISMAN",
+      "codeName": "CrescentTalisman",
+      "name": {
+        "en": "新月护符",
+        "zh": "新月护符"
+      },
+      "description": {
+        "en": "拾起时，选择一张非[gold]念咒[/gold]的攻击牌或技能牌，为其[gold]附魔[/gold]：[purple]咒术[/purple]。",
+        "zh": "拾起时，选择一张非[gold]念咒[/gold]的攻击牌或技能牌，为其[gold]附魔[/gold]：[purple]咒术[/purple]。"
+      },
+      "rarity": "RARE",
+      "color": "AWAKENEDCODE",
+      "colorName": {
+        "en": "Awakenedcode",
+        "zh": "AWAKENEDCODE"
+      },
+      "colorPillBg": null,
+      "colorPillFg": null,
+      "energyIcon": null,
+      "img": "assets/relics/crescenttalisman.png",
+      "imageResource": "",
+      "deprecated": false
+    },
+    {
+      "id": "AWAKENED-DESSICATED_HAND",
+      "codeName": "",
+      "name": {
+        "en": "干枯之手",
+        "zh": "干枯之手"
+      },
+      "description": {
+        "en": "",
+        "zh": ""
+      },
+      "rarity": "SPECIAL",
+      "color": "DOWNFALL",
+      "colorName": {
+        "en": "Downfall",
+        "zh": "崩坠"
+      },
+      "colorPillBg": null,
+      "colorPillFg": null,
+      "energyIcon": null,
+      "img": null,
+      "imageResource": "",
+      "deprecated": false
+    },
+    {
+      "id": "AWAKENED-EYE_OF_THE_OCCULT",
+      "codeName": "EyeOfTheOccult",
+      "name": {
+        "en": "异端之眼",
+        "zh": "异端之眼"
+      },
+      "description": {
+        "en": "[gold]落雷[/gold]和[gold]暗噬[/gold]现在会命中所有敌人。",
+        "zh": "[gold]落雷[/gold]和[gold]暗噬[/gold]现在会命中所有敌人。"
+      },
+      "rarity": "RARE",
+      "color": "AWAKENEDCODE",
+      "colorName": {
+        "en": "Awakenedcode",
+        "zh": "AWAKENEDCODE"
+      },
+      "colorPillBg": null,
+      "colorPillFg": null,
+      "energyIcon": null,
+      "img": "assets/relics/eyeoftheoccult.png",
+      "imageResource": "",
+      "deprecated": false
+    },
+    {
+      "id": "AWAKENED-FINAL_RITES",
+      "codeName": "FinalRites",
+      "name": {
+        "en": "最终仪式",
+        "zh": "最终仪式"
+      },
+      "description": {
+        "en": "每场战斗中，你第[blue]3[/blue]次触发[gold]吟唱[/gold]效果时，获得[blue]{RitualPower}[/blue]层[gold]仪式[/gold]。",
+        "zh": "每场战斗中，你第[blue]3[/blue]次触发[gold]吟唱[/gold]效果时，获得[blue]{RitualPower}[/blue]层[gold]仪式[/gold]。"
+      },
+      "rarity": "RARE",
+      "color": "AWAKENEDCODE",
+      "colorName": {
+        "en": "Awakenedcode",
+        "zh": "AWAKENEDCODE"
+      },
+      "colorPillBg": null,
+      "colorPillFg": null,
+      "energyIcon": null,
+      "img": "assets/relics/finalrites.png",
+      "imageResource": "",
+      "deprecated": false
+    },
+    {
+      "id": "AWAKENED-MANABOMB",
+      "codeName": "Manabomb",
+      "name": {
+        "en": "魔力炸弹",
+        "zh": "魔力炸弹"
+      },
+      "description": {
+        "en": "每当一名敌人死亡时，将其拥有的[gold]魔力灼烧[/gold]转移给随机敌人并触发。",
+        "zh": "每当一名敌人死亡时，将其拥有的[gold]魔力灼烧[/gold]转移给随机敌人并触发。"
+      },
+      "rarity": "SHOP",
+      "color": "AWAKENEDCODE",
+      "colorName": {
+        "en": "Awakenedcode",
+        "zh": "AWAKENEDCODE"
+      },
+      "colorPillBg": null,
+      "colorPillFg": null,
+      "energyIcon": null,
+      "img": "assets/relics/manabomb.png",
+      "imageResource": "",
+      "deprecated": false
+    },
+    {
+      "id": "AWAKENED-PAPER_CROW",
+      "codeName": "PaperCrow",
+      "name": {
+        "en": "纸乌鸦",
+        "zh": "纸乌鸦"
+      },
+      "description": {
+        "en": "敌人受到[gold]魔力灼烧[/gold]的伤害提高[blue]25%[/blue]。",
+        "zh": "敌人受到[gold]魔力灼烧[/gold]的伤害提高[blue]25%[/blue]。"
+      },
+      "rarity": "UNCOMMON",
+      "color": "AWAKENEDCODE",
+      "colorName": {
+        "en": "Awakenedcode",
+        "zh": "AWAKENEDCODE"
+      },
+      "colorPillBg": null,
+      "colorPillFg": null,
+      "energyIcon": null,
+      "img": "assets/relics/papercrow.png",
+      "imageResource": "",
+      "deprecated": false
+    },
+    {
+      "id": "AWAKENED-RIPPED_DOLL",
+      "codeName": "RippedDoll",
+      "name": {
+        "en": "撕裂的玩偶",
+        "zh": "撕裂的玩偶"
+      },
+      "description": {
+        "en": "每场战斗前[blue]2[/blue]个回合开始时，[gold]念咒[/gold]。",
+        "zh": "每场战斗前[blue]2[/blue]个回合开始时，[gold]念咒[/gold]。"
+      },
+      "rarity": "STARTER",
+      "color": "AWAKENEDCODE",
+      "colorName": {
+        "en": "Awakenedcode",
+        "zh": "AWAKENEDCODE"
+      },
+      "colorPillBg": null,
+      "colorPillFg": null,
+      "energyIcon": null,
+      "img": "assets/relics/rippeddoll.png",
+      "imageResource": "",
+      "deprecated": false
+    },
+    {
+      "id": "AWAKENED-SHREDDED_DOLL",
+      "codeName": "ShreddedDoll",
+      "name": {
+        "en": "破碎的玩偶",
+        "zh": "破碎的玩偶"
+      },
+      "description": {
+        "en": "在你的回合开始时，[gold]念咒[/gold]。\n在每场战斗开始时，获得[blue]{RitualPower:diff()}[/blue]层[gold]仪式[/gold]。",
+        "zh": "在你的回合开始时，[gold]念咒[/gold]。\n在每场战斗开始时，获得[blue]{RitualPower:diff()}[/blue]层[gold]仪式[/gold]。"
+      },
+      "rarity": "STARTER",
+      "color": "AWAKENEDCODE",
+      "colorName": {
+        "en": "Awakenedcode",
+        "zh": "AWAKENEDCODE"
+      },
+      "colorPillBg": null,
+      "colorPillFg": null,
+      "energyIcon": null,
+      "img": "assets/relics/shreddeddoll.png",
+      "imageResource": "",
+      "deprecated": false
+    },
+    {
+      "id": "AWAKENED-TOME_OF_PORTALMANCY",
+      "codeName": "TomeOfPortalmancy",
+      "name": {
+        "en": "召门之书",
+        "zh": "召门之书"
+      },
+      "description": {
+        "en": "每当你生成一张[gold]虚空[/gold]时，给予所有敌人[blue]2[/blue]点[gold]魔力灼烧[/gold]。",
+        "zh": "每当你生成一张[gold]虚空[/gold]时，给予所有敌人[blue]2[/blue]点[gold]魔力灼烧[/gold]。"
+      },
+      "rarity": "COMMON",
+      "color": "AWAKENEDCODE",
+      "colorName": {
+        "en": "Awakenedcode",
+        "zh": "AWAKENEDCODE"
+      },
+      "colorPillBg": null,
+      "colorPillFg": null,
+      "energyIcon": null,
+      "img": "assets/relics/tomeofportalmancy.png",
+      "imageResource": "",
+      "deprecated": false
+    },
+    {
+      "id": "AWAKENED-WHITE_RIBBON",
+      "codeName": "",
+      "name": {
+        "en": "纯白缎带",
+        "zh": "纯白缎带"
+      },
+      "description": {
+        "en": "每当你打出带有[gold]吟唱[/gold]效果的牌时，获得[blue]3[/blue]点[gold]格挡[/gold]，即使尚未激活。",
+        "zh": "每当你打出带有[gold]吟唱[/gold]效果的牌时，获得[blue]3[/blue]点[gold]格挡[/gold]，即使尚未激活。"
+      },
+      "rarity": "SPECIAL",
+      "color": "DOWNFALL",
+      "colorName": {
+        "en": "Downfall",
+        "zh": "崩坠"
+      },
+      "colorPillBg": null,
+      "colorPillFg": null,
+      "energyIcon": null,
+      "img": null,
+      "imageResource": "",
+      "deprecated": false
+    },
+    {
+      "id": "AWAKENED-ZENER_DECK",
+      "codeName": "ZenerDeck",
+      "name": {
+        "en": "齐讷牌组",
+        "zh": "齐讷牌组"
+      },
+      "description": {
+        "en": "将[gold]超感[/gold]加入你的法术书。",
+        "zh": "将[gold]超感[/gold]加入你的法术书。"
+      },
+      "rarity": "RARE",
+      "color": "AWAKENEDCODE",
+      "colorName": {
+        "en": "Awakenedcode",
+        "zh": "AWAKENEDCODE"
+      },
+      "colorPillBg": null,
+      "colorPillFg": null,
+      "energyIcon": null,
+      "img": "assets/relics/zenerdeck.png",
+      "imageResource": "",
+      "deprecated": false
+    },
+    {
+      "id": "AWAKENED-ZETSUMEI",
+      "codeName": "Zetsumei",
+      "name": {
+        "en": "绝命",
+        "zh": "绝命"
+      },
+      "description": {
+        "en": "每当你在一场战斗中打出[blue]{Cards}[/blue]张法术牌时，获得一张[gold]祭仪[/gold]。",
+        "zh": "每当你在一场战斗中打出[blue]{Cards}[/blue]张法术牌时，获得一张[gold]祭仪[/gold]。"
+      },
+      "rarity": "UNCOMMON",
+      "color": "AWAKENEDCODE",
+      "colorName": {
+        "en": "Awakenedcode",
+        "zh": "AWAKENEDCODE"
+      },
+      "colorPillBg": null,
+      "colorPillFg": null,
+      "energyIcon": null,
+      "img": "assets/relics/zetsumei.png",
+      "imageResource": "",
+      "deprecated": false
+    },
+    {
+      "id": "CHAMP-AMULET_OF_UNYIELDING",
+      "codeName": "AmuletOfUnyielding",
+      "name": {
+        "en": "不屈护符",
+        "zh": "不屈护符"
+      },
+      "description": {
+        "en": "每消耗[blue]{VigorPower}[/blue]点[gold]活力[/gold]，获得[blue]{StrengthPower}[/blue]点[gold]力量[/gold]。",
+        "zh": "每消耗[blue]{VigorPower}[/blue]点[gold]活力[/gold]，获得[blue]{StrengthPower}[/blue]点[gold]力量[/gold]。"
+      },
+      "rarity": "RARE",
+      "color": "CHAMPCODE",
+      "colorName": {
+        "en": "Champcode",
+        "zh": "CHAMPCODE"
+      },
+      "colorPillBg": null,
+      "colorPillFg": null,
+      "energyIcon": null,
+      "img": "assets/relics/amuletofunyielding.png",
+      "imageResource": "",
+      "deprecated": false
+    },
+    {
+      "id": "CHAMP-BERSERKERS_GUIDE",
+      "codeName": "",
+      "name": {
+        "en": "戰狂指南",
+        "zh": "战狂指南"
+      },
+      "description": {
+        "en": "在你的回合开始时，获得[blue]3[/blue]点[gold]活力[/gold]。",
+        "zh": "在你的回合开始时，获得[blue]3[/blue]点[gold]活力[/gold]。"
+      },
+      "rarity": "SPECIAL",
+      "color": "DOWNFALL",
+      "colorName": {
+        "en": "Downfall",
+        "zh": "崩坠"
+      },
+      "colorPillBg": null,
+      "colorPillFg": null,
+      "energyIcon": null,
+      "img": null,
+      "imageResource": "",
+      "deprecated": false
+    },
+    {
+      "id": "CHAMP-BLACK_KNIGHTS_HELM",
+      "codeName": "",
+      "name": {
+        "en": "黑騎頭盔",
+        "zh": "黑骑士头盔"
+      },
+      "description": {
+        "en": "每场战斗中你首次进入每种[gold]姿态[/gold]时：[gold]防守[/gold]：获得[blue]2[/blue]点[gold]敏捷[/gold]并失去[blue]1[/blue]点[gold]力量[/gold]。[gold]战狂[/gold]：获得[blue]2[/blue]点[gold]力量[/gold]并失去[blue]1[/blue]点[gold]敏捷[/gold]。",
+        "zh": "每场战斗中你首次进入每种[gold]姿态[/gold]时：[gold]防守[/gold]：获得[blue]2[/blue]点[gold]敏捷[/gold]并失去[blue]1[/blue]点[gold]力量[/gold]。[gold]战狂[/gold]：获得[blue]2[/blue]点[gold]力量[/gold]并失去[blue]1[/blue]点[gold]敏捷[/gold]。"
+      },
+      "rarity": "SPECIAL",
+      "color": "DOWNFALL",
+      "colorName": {
+        "en": "Downfall",
+        "zh": "崩坠"
+      },
+      "colorPillBg": null,
+      "colorPillFg": null,
+      "energyIcon": null,
+      "img": null,
+      "imageResource": "",
+      "deprecated": false
+    },
+    {
+      "id": "CHAMP-CHAMPIONS_CROWN",
+      "codeName": "",
+      "name": {
+        "en": "冠軍金冠",
+        "zh": "冠军王冠"
+      },
+      "description": {
+        "en": "在每场战斗开始时，进入随机[gold]姿态[/gold]并触发[gold]技术奖励[/gold]两次。",
+        "zh": "在每场战斗开始时，进入随机[gold]姿态[/gold]并触发[gold]技术奖励[/gold]两次。"
+      },
+      "rarity": "SPECIAL",
+      "color": "DOWNFALL",
+      "colorName": {
+        "en": "Downfall",
+        "zh": "崩坠"
+      },
+      "colorPillBg": null,
+      "colorPillFg": null,
+      "energyIcon": null,
+      "img": null,
+      "imageResource": "",
+      "deprecated": false
+    },
+    {
+      "id": "CHAMP-DEFENSIVE_THESIS",
+      "codeName": "DefensiveThesis",
+      "name": {
+        "en": "防禦訓練手冊",
+        "zh": "防守论纲"
+      },
+      "description": {
+        "en": "[gold]防守姿态[/gold]的[gold]终结技[/gold]额外给予[blue]3[/blue]点[gold]格挡[/gold]。",
+        "zh": "[gold]防守姿态[/gold]的[gold]终结技[/gold]额外给予[blue]3[/blue]点[gold]格挡[/gold]。"
+      },
+      "rarity": "UNCOMMON",
+      "color": "CHAMPCODE",
+      "colorName": {
+        "en": "Champcode",
+        "zh": "CHAMPCODE"
+      },
+      "colorPillBg": null,
+      "colorPillFg": null,
+      "energyIcon": null,
+      "img": "assets/relics/defensivethesis.png",
+      "imageResource": "",
+      "deprecated": false
+    },
+    {
+      "id": "CHAMP-DOLPHINS_STYLE_GUIDE",
+      "codeName": "DolphinsStyleGuide",
+      "name": {
+        "en": "格鬥讀本",
+        "zh": "海豚风格指南"
+      },
+      "description": {
+        "en": "如果你在没有[gold]姿态[/gold]时结束回合，下回合额外抽[blue]1[/blue]张牌。",
+        "zh": "如果你在没有[gold]姿态[/gold]时结束回合，下回合额外抽[blue]1[/blue]张牌。"
+      },
+      "rarity": "UNCOMMON",
+      "color": "CHAMPCODE",
+      "colorName": {
+        "en": "Champcode",
+        "zh": "CHAMPCODE"
+      },
+      "colorPillBg": null,
+      "colorPillFg": null,
+      "energyIcon": null,
+      "img": "assets/relics/dolphinsstyleguide.png",
+      "imageResource": "",
+      "deprecated": false
+    },
+    {
+      "id": "CHAMP-GLADIATORS_MANUAL",
+      "codeName": "",
+      "name": {
+        "en": "角鬥技法",
+        "zh": "角斗士手册"
+      },
+      "description": {
+        "en": "每当你在同一回合内打出[gold]连段[/gold]、打出[gold]终结技[/gold]并进入[gold]姿态[/gold]，获得[blue]1[/blue]点[gold]力量[/gold]和[gold]敏捷[/gold]。",
+        "zh": "每当你在同一回合内打出[gold]连段[/gold]、打出[gold]终结技[/gold]并进入[gold]姿态[/gold]，获得[blue]1[/blue]点[gold]力量[/gold]和[gold]敏捷[/gold]。"
+      },
+      "rarity": "SPECIAL",
+      "color": "DOWNFALL",
+      "colorName": {
+        "en": "Downfall",
+        "zh": "崩坠"
+      },
+      "colorPillBg": null,
+      "colorPillFg": null,
+      "energyIcon": null,
+      "img": null,
+      "imageResource": "",
+      "deprecated": false
+    },
+    {
+      "id": "CHAMP-INNER_STRENGTH",
+      "codeName": "",
+      "name": {
+        "en": "內在力量",
+        "zh": "内在力量"
+      },
+      "description": {
+        "en": "每场战斗开始时，获得[blue]1[/blue]点[gold]力量[/gold]。",
+        "zh": "每场战斗开始时，获得[blue]1[/blue]点[gold]力量[/gold]。"
+      },
+      "rarity": "SPECIAL",
+      "color": "DOWNFALL",
+      "colorName": {
+        "en": "Downfall",
+        "zh": "崩坠"
+      },
+      "colorPillBg": null,
+      "colorPillFg": null,
+      "energyIcon": null,
+      "img": null,
+      "imageResource": "",
+      "deprecated": false
+    },
+    {
+      "id": "CHAMP-POWER_ARMOR",
+      "codeName": "PowerArmor",
+      "name": {
+        "en": "力量鎧甲",
+        "zh": "力量铠甲"
+      },
+      "description": {
+        "en": "每场战斗开始时，获得[blue]2[/blue]点[gold]力量[/gold]。你的[gold]活力[/gold]和[gold]反击[/gold]上限为[blue]10[/blue]。",
+        "zh": "每场战斗开始时，获得[blue]2[/blue]点[gold]力量[/gold]。你的[gold]活力[/gold]和[gold]反击[/gold]上限为[blue]10[/blue]。"
+      },
+      "rarity": "SHOP",
+      "color": "CHAMPCODE",
+      "colorName": {
+        "en": "Champcode",
+        "zh": "CHAMPCODE"
+      },
+      "colorPillBg": null,
+      "colorPillFg": null,
+      "energyIcon": null,
+      "img": "assets/relics/powerarmor.png",
+      "imageResource": "",
+      "deprecated": false
+    },
+    {
+      "id": "CHAMP-SIGNATURE_FINISHER",
+      "codeName": "SignatureFinisher",
+      "name": {
+        "en": "終結者",
+        "zh": "终结者"
+      },
+      "description": {
+        "en": "拾起时，选择一张[gold]终结技[/gold]牌为它[gold]附魔[/gold]：[purple]签名[/purple]。",
+        "zh": "拾起时，选择一张[gold]终结技[/gold]牌为它[gold]附魔[/gold]：[purple]签名[/purple]。"
+      },
+      "rarity": "RARE",
+      "color": "CHAMPCODE",
+      "colorName": {
+        "en": "Champcode",
+        "zh": "CHAMPCODE"
+      },
+      "colorPillBg": null,
+      "colorPillFg": null,
+      "energyIcon": null,
+      "img": "assets/relics/signaturefinisher.png",
+      "imageResource": "",
+      "deprecated": false
+    },
+    {
+      "id": "CHAMP-SPECTRES_HAND",
+      "codeName": "SpectresHand",
+      "name": {
+        "en": "幽靈之手",
+        "zh": "幽影之手"
+      },
+      "description": {
+        "en": "每当你进入[gold]姿态[/gold]，获得一张[gold]打击[/gold]或[gold]防御[/gold]的[gold]回响[/gold]。\n它在本回合可以免费打出。",
+        "zh": "每当你进入[gold]姿态[/gold]，获得一张[gold]打击[/gold]或[gold]防御[/gold]的[gold]回响[/gold]。\n它在本回合可以免费打出。"
+      },
+      "rarity": "RARE",
+      "color": "CHAMPCODE",
+      "colorName": {
+        "en": "Champcode",
+        "zh": "CHAMPCODE"
+      },
+      "colorPillBg": null,
+      "colorPillFg": null,
+      "energyIcon": null,
+      "img": "assets/relics/spectreshand.png",
+      "imageResource": "",
+      "deprecated": false
+    },
+    {
+      "id": "CHAMP-VICTORIOUS_CROWN",
+      "codeName": "",
+      "name": {
+        "en": "終極王冠",
+        "zh": "胜利王冠"
+      },
+      "description": {
+        "en": "每场战斗开始时，进入随机[gold]姿态[/gold]，然后触发该[gold]姿态[/gold]的[gold]技术奖励[/gold]两次。\n每回合你第一次打出[gold]终结技[/gold]时，抽[blue]2[/blue]张牌并进入随机[gold]姿态[/gold]。",
+        "zh": "每场战斗开始时，进入随机[gold]姿态[/gold]，然后触发该[gold]姿态[/gold]的[gold]技术奖励[/gold]两次。\n每回合你第一次打出[gold]终结技[/gold]时，抽[blue]2[/blue]张牌并进入随机[gold]姿态[/gold]。"
+      },
+      "rarity": "SPECIAL",
+      "color": "DOWNFALL",
+      "colorName": {
+        "en": "Downfall",
+        "zh": "崩坠"
+      },
+      "colorPillBg": null,
+      "colorPillFg": null,
+      "energyIcon": null,
+      "img": null,
+      "imageResource": "",
+      "deprecated": false
+    },
+    {
+      "id": "COLLECTOR-BAG_OF_TRICKS",
+      "codeName": "",
+      "name": {
+        "en": "Bag of Tricks",
+        "zh": "诡计背包"
+      },
+      "description": {
+        "en": "在每场战斗开始时，抽[blue]2[/blue]张藏品牌。",
+        "zh": "在每场战斗开始时，抽[blue]2[/blue]张藏品牌。"
+      },
+      "rarity": "SPECIAL",
+      "color": "DOWNFALL",
+      "colorName": {
+        "en": "Downfall",
+        "zh": "崩坠"
+      },
+      "colorPillBg": null,
+      "colorPillFg": null,
+      "energyIcon": null,
+      "img": null,
+      "imageResource": "",
+      "deprecated": false
+    },
+    {
+      "id": "COLLECTOR-BLOCKED_CHAKRA",
+      "codeName": "BlockedChakra",
+      "name": {
+        "en": "Blocked Chakra",
+        "zh": "魔能封印"
+      },
+      "description": {
+        "en": "在你的回合开始时，获得{Energy:energyIcons()}。直到第4回合才开始从藏品堆中抽牌。",
+        "zh": "在你的回合开始时，获得{Energy:energyIcons()}。直到第4回合才开始从藏品堆中抽牌。"
+      },
+      "rarity": "ANCIENT",
+      "color": "COLLECTORCODE",
+      "colorName": {
+        "en": "Collectorcode",
+        "zh": "COLLECTORCODE"
+      },
+      "colorPillBg": null,
+      "colorPillFg": null,
+      "energyIcon": null,
+      "img": "assets/relics/blockedchakra.png",
+      "imageResource": "",
+      "deprecated": false
+    },
+    {
+      "id": "COLLECTOR-BOTTLED_BRAIN",
+      "codeName": "",
+      "name": {
+        "en": "Bottled Brain",
+        "zh": "瓶装大脑"
+      },
+      "description": {
+        "en": "拾起时，选择一张收藏堆的牌升级，并在每场战斗开始时将其置于收藏堆顶部。",
+        "zh": "拾起时，选择一张收藏堆的牌升级，并在每场战斗开始时将其置于收藏堆顶部。"
+      },
+      "rarity": "SPECIAL",
+      "color": "DOWNFALL",
+      "colorName": {
+        "en": "Downfall",
+        "zh": "崩坠"
+      },
+      "colorPillBg": null,
+      "colorPillFg": null,
+      "energyIcon": null,
+      "img": null,
+      "imageResource": "",
+      "deprecated": false
+    },
+    {
+      "id": "COLLECTOR-EMERALD_TORCH",
+      "codeName": "",
+      "name": {
+        "en": "Emerald Torch",
+        "zh": "翠绿火炬"
+      },
+      "description": {
+        "en": "战斗开始时，获得[blue]1[/blue]点[gold]储能[/gold]。",
+        "zh": "战斗开始时，获得[blue]1[/blue]点[gold]储能[/gold]。"
+      },
+      "rarity": "SPECIAL",
+      "color": "DOWNFALL",
+      "colorName": {
+        "en": "Downfall",
+        "zh": "崩坠"
+      },
+      "colorPillBg": null,
+      "colorPillFg": null,
+      "energyIcon": null,
+      "img": null,
+      "imageResource": "",
+      "deprecated": false
+    },
+    {
+      "id": "COLLECTOR-JADE_RING",
+      "codeName": "",
+      "name": {
+        "en": "Jade Ring",
+        "zh": "玉戒指"
+      },
+      "description": {
+        "en": "[gold]魂劫[/gold]额外造成[blue]6[/blue]点伤害。",
+        "zh": "[gold]魂劫[/gold]额外造成[blue]6[/blue]点伤害。"
+      },
+      "rarity": "SPECIAL",
+      "color": "DOWNFALL",
+      "colorName": {
+        "en": "Downfall",
+        "zh": "崩坠"
+      },
+      "colorPillBg": null,
+      "colorPillFg": null,
+      "energyIcon": null,
+      "img": null,
+      "imageResource": "",
+      "deprecated": false
+    },
+    {
+      "id": "COLLECTOR-KRAMPIAN_COAL",
+      "codeName": "KrampianCoal",
+      "name": {
+        "en": "Krampian Coal",
+        "zh": "角魔煤块"
+      },
+      "description": {
+        "en": "每当你尝试从空的收藏堆中抽牌，将一张[gold]幸运烛芯[/gold]添加到[gold]手牌[/gold]。",
+        "zh": "每当你尝试从空的收藏堆中抽牌，将一张[gold]幸运烛芯[/gold]添加到[gold]手牌[/gold]。"
+      },
+      "rarity": "SHOP",
+      "color": "COLLECTORCODE",
+      "colorName": {
+        "en": "Collectorcode",
+        "zh": "COLLECTORCODE"
+      },
+      "colorPillBg": null,
+      "colorPillFg": null,
+      "energyIcon": null,
+      "img": "assets/relics/krampiancoal.png",
+      "imageResource": "",
+      "deprecated": false
+    },
+    {
+      "id": "COLLECTOR-PRISMATIC_TORCH",
+      "codeName": "PrismaticTorch",
+      "name": {
+        "en": "Prismatic Torch",
+        "zh": "多彩火炬"
+      },
+      "description": {
+        "en": "替换[aqua]翠绿火炬[/aqua]。在每场战斗开始时，获得一张[gold]余烬[/gold]与[blue]1[/blue]点[gold]储能[/gold]。你每回合第一次消耗[gold]余烬[/gold]时，获得[blue]1[/blue]点[gold]储能[/gold]。",
+        "zh": "替换[aqua]翠绿火炬[/aqua]。在每场战斗开始时，获得一张[gold]余烬[/gold]与[blue]1[/blue]点[gold]储能[/gold]。你每回合第一次消耗[gold]余烬[/gold]时，获得[blue]1[/blue]点[gold]储能[/gold]。"
+      },
+      "rarity": "STARTER",
+      "color": "COLLECTORCODE",
+      "colorName": {
+        "en": "Collectorcode",
+        "zh": "COLLECTORCODE"
+      },
+      "colorPillBg": null,
+      "colorPillFg": null,
+      "energyIcon": null,
+      "img": "assets/relics/prismatictorch.png",
+      "imageResource": "",
+      "deprecated": false
+    },
+    {
+      "id": "COLLECTOR-SOUL_LIT_LAMP",
+      "codeName": "SoulLitLamp",
+      "name": {
+        "en": "Soul-lit Lamp",
+        "zh": "燃魂灯"
+      },
+      "description": {
+        "en": "拾起时，获得[blue]3[/blue]点[gold]魂粹[/gold]。在每场战斗开始时，将一张[gold]余烬[/gold]加入[gold]手牌[/gold]。",
+        "zh": "拾起时，获得[blue]3[/blue]点[gold]魂粹[/gold]。在每场战斗开始时，将一张[gold]余烬[/gold]加入[gold]手牌[/gold]。"
+      },
+      "rarity": "UNCOMMON",
+      "color": "COLLECTORCODE",
+      "colorName": {
+        "en": "Collectorcode",
+        "zh": "COLLECTORCODE"
+      },
+      "colorPillBg": null,
+      "colorPillFg": null,
+      "energyIcon": null,
+      "img": "assets/relics/soullitlamp.png",
+      "imageResource": "",
+      "deprecated": false
+    },
+    {
+      "id": "COLLECTOR-THE_CONTRACT",
+      "codeName": "",
+      "name": {
+        "en": "The Contract",
+        "zh": "交易契约"
+      },
+      "description": {
+        "en": "拾起时，获得[blue]10[/blue]点[gold]魂粹[/gold]。",
+        "zh": "拾起时，获得[blue]10[/blue]点[gold]魂粹[/gold]。"
+      },
+      "rarity": "SPECIAL",
+      "color": "DOWNFALL",
+      "colorName": {
+        "en": "Downfall",
+        "zh": "崩坠"
+      },
+      "colorPillBg": null,
+      "colorPillFg": null,
+      "energyIcon": null,
+      "img": null,
+      "imageResource": "",
+      "deprecated": false
+    },
+    {
+      "id": "COLLECTOR-THIMBLE_HELM",
+      "codeName": "ThimbleHelm",
+      "name": {
+        "en": "Thimble Helm",
+        "zh": "顶针帽"
+      },
+      "description": {
+        "en": "在每场战斗开始时，[gold]点燃[/gold][blue]3[/blue]。当[gold]火炬头[/gold]存活时，从牌中获得额外[blue]1[/blue]点[gold]格挡[/gold]。",
+        "zh": "在每场战斗开始时，[gold]点燃[/gold][blue]3[/blue]。当[gold]火炬头[/gold]存活时，从牌中获得额外[blue]1[/blue]点[gold]格挡[/gold]。"
+      },
+      "rarity": "RARE",
+      "color": "COLLECTORCODE",
+      "colorName": {
+        "en": "Collectorcode",
+        "zh": "COLLECTORCODE"
+      },
+      "colorPillBg": null,
+      "colorPillFg": null,
+      "energyIcon": null,
+      "img": "assets/relics/thimblehelm.png",
+      "imageResource": "",
+      "deprecated": false
+    },
+    {
+      "id": "GREMLINS-FRAGMENTATION_GRENADE",
+      "codeName": "",
+      "name": {
+        "en": "破片手雷",
+        "zh": "破片手雷"
+      },
+      "description": {
+        "en": "随机对敌人造成的伤害增加3点。",
+        "zh": "随机对敌人造成的伤害增加3点。"
+      },
+      "rarity": "SPECIAL",
+      "color": "DOWNFALL",
+      "colorName": {
+        "en": "Downfall",
+        "zh": "崩坠"
+      },
+      "colorPillBg": null,
+      "colorPillFg": null,
+      "energyIcon": null,
+      "img": null,
+      "imageResource": "",
+      "deprecated": false
+    },
+    {
+      "id": "GREMLINS-GREMLIN_BOMB",
+      "codeName": "GremlinBomb",
+      "name": {
+        "en": "地精炸彈",
+        "zh": "地精炸弹"
+      },
+      "description": {
+        "en": "当地精死亡时，对所有敌人造成[blue]{Damage}[/blue]点伤害。",
+        "zh": "当地精死亡时，对所有敌人造成[blue]{Damage}[/blue]点伤害。"
+      },
+      "rarity": "RARE",
+      "color": "GREMLINSCODE",
+      "colorName": {
+        "en": "Gremlinscode",
+        "zh": "GREMLINSCODE"
+      },
+      "colorPillBg": null,
+      "colorPillFg": null,
+      "energyIcon": null,
+      "img": "assets/relics/gremlinbomb.png",
+      "imageResource": "",
+      "deprecated": false
+    },
+    {
+      "id": "GREMLINS-GREMLIN_GRAVESTONE",
+      "codeName": "",
+      "name": {
+        "en": "地精墓碑",
+        "zh": "地精墓碑"
+      },
+      "description": {
+        "en": "可在休息处随机复活（自由行动）一名死亡的地精。",
+        "zh": "可在休息处随机复活（自由行动）一名死亡的地精。"
+      },
+      "rarity": "SPECIAL",
+      "color": "DOWNFALL",
+      "colorName": {
+        "en": "Downfall",
+        "zh": "崩坠"
+      },
+      "colorPillBg": null,
+      "colorPillFg": null,
+      "energyIcon": null,
+      "img": null,
+      "imageResource": "",
+      "deprecated": false
+    },
+    {
+      "id": "GREMLINS-GREMLIN_LEADERS_VOUCHER",
+      "codeName": "GremlinLeadersVoucher",
+      "name": {
+        "en": "領頭代付",
+        "zh": "领头代付"
+      },
+      "description": {
+        "en": "在你的回合开始时，获得{Energy:energyIcons()}。\n拾起时，本局游戏永久失去一名地精。",
+        "zh": "在你的回合开始时，获得{Energy:energyIcons()}。\n拾起时，本局游戏永久失去一名地精。"
+      },
+      "rarity": "ANCIENT",
+      "color": "GREMLINSCODE",
+      "colorName": {
+        "en": "Gremlinscode",
+        "zh": "GREMLINSCODE"
+      },
+      "colorPillBg": null,
+      "colorPillFg": null,
+      "energyIcon": null,
+      "img": "assets/relics/gremlinleadersvoucher.png",
+      "imageResource": "",
+      "deprecated": false
+    },
+    {
+      "id": "GREMLINS-IMPECCABLE_PECS",
+      "codeName": "ImpeccablePecs",
+      "name": {
+        "en": "完美胸肌",
+        "zh": "完美胸肌"
+      },
+      "description": {
+        "en": "每当你获得[gold]力量[/gold]时，获得等量[gold]临时生命[/gold]。\n每场战斗开始时，获得1点[gold]力量[/gold]。",
+        "zh": "每当你获得[gold]力量[/gold]时，获得等量[gold]临时生命[/gold]。\n每场战斗开始时，获得1点[gold]力量[/gold]。"
+      },
+      "rarity": "UNCOMMON",
+      "color": "GREMLINSCODE",
+      "colorName": {
+        "en": "Gremlinscode",
+        "zh": "GREMLINSCODE"
+      },
+      "colorPillBg": null,
+      "colorPillFg": null,
+      "energyIcon": null,
+      "img": "assets/relics/impeccablepecs.png",
+      "imageResource": "",
+      "deprecated": false
+    },
+    {
+      "id": "GREMLINS-MAGIC_MALLET",
+      "codeName": "MagicMallet",
+      "name": {
+        "en": "魔槌",
+        "zh": "魔槌"
+      },
+      "description": {
+        "en": "每回合，你前[blue]3[/blue]次给予[gold]虚弱[/gold]时，获得[blue]{WizPower}[/blue]点[gold]法力[/gold]。",
+        "zh": "每回合，你前[blue]3[/blue]次给予[gold]虚弱[/gold]时，获得[blue]{WizPower}[/blue]点[gold]法力[/gold]。"
+      },
+      "rarity": "UNCOMMON",
+      "color": "GREMLINSCODE",
+      "colorName": {
+        "en": "Gremlinscode",
+        "zh": "GREMLINSCODE"
+      },
+      "colorPillBg": null,
+      "colorPillFg": null,
+      "energyIcon": null,
+      "img": "assets/relics/magicmallet.png",
+      "imageResource": "",
+      "deprecated": false
+    },
+    {
+      "id": "GREMLINS-MOB_LEADERS_CROWN",
+      "codeName": "MobLeadersCrown",
+      "name": {
+        "en": "首領之冠",
+        "zh": "首领之冠"
+      },
+      "description": {
+        "en": "매 턴 [gold]뽑기 더미[/gold]를 처음 섞을 때 {Energy:energyIcons()}를 얻고, 카드 [blue]{Cards}[/blue]장을 뽑은 뒤 다음 그렘린으로 [gold]교대[/gold]합니다.",
+        "zh": "The first time you shuffle your [gold]Draw Pile[/gold] each turn, gain {Energy:energyIcons()}, draw [blue]{Cards}[/blue] card, and [gold]Swap[/gold] to the next Gremlin."
+      },
+      "rarity": "STARTER",
+      "color": "GREMLINSCODE",
+      "colorName": {
+        "en": "Gremlinscode",
+        "zh": "GREMLINSCODE"
+      },
+      "colorPillBg": null,
+      "colorPillFg": null,
+      "energyIcon": null,
+      "img": "assets/relics/mobleaderscrown.png",
+      "imageResource": "",
+      "deprecated": false
+    },
+    {
+      "id": "GREMLINS-MOB_LEADERS_STAFF",
+      "codeName": "MobLeadersStaff",
+      "name": {
+        "en": "首領之角",
+        "zh": "首领之角"
+      },
+      "description": {
+        "en": "각 전투 시작 시 {Energy:energyIcons()}를 얻고, 카드 [blue]{Cards}[/blue]장을 뽑은 뒤 다음 그렘린으로 [gold]교대[/gold]합니다.",
+        "zh": "At the start of each combat, gain {Energy:energyIcons()}, draw [blue]{Cards}[/blue] {Cards:plural:card|cards}, and [gold]Swap[/gold] to the next Gremlin."
+      },
+      "rarity": "STARTER",
+      "color": "GREMLINSCODE",
+      "colorName": {
+        "en": "Gremlinscode",
+        "zh": "GREMLINSCODE"
+      },
+      "colorPillBg": null,
+      "colorPillFg": null,
+      "energyIcon": null,
+      "img": "assets/relics/mobleadersstaff.png",
+      "imageResource": "",
+      "deprecated": false
+    },
+    {
+      "id": "GREMLINS-SHORT_STATUE",
+      "codeName": "",
+      "name": {
+        "en": "小個子雕像",
+        "zh": "小个子雕像"
+      },
+      "description": {
+        "en": "매 전투마다 처음으로 그렘린이 죽을 때, 대신 최대 HP의 75%만큼 회복합니다.",
+        "zh": "The first time a Gremlin would die each combat, heal it to 75% of your Max HP instead."
+      },
+      "rarity": "SPECIAL",
+      "color": "DOWNFALL",
+      "colorName": {
+        "en": "Downfall",
+        "zh": "崩坠"
+      },
+      "colorPillBg": null,
+      "colorPillFg": null,
+      "energyIcon": null,
+      "img": null,
+      "imageResource": "",
+      "deprecated": false
+    },
+    {
+      "id": "GREMLINS-STOLEN_MERCHANDISE",
+      "codeName": "",
+      "name": {
+        "en": "被盗商品",
+        "zh": "被盗商品"
+      },
+      "description": {
+        "en": "[gold]교대[/gold]할 때마다 무작위 무색 카드의 메아리를 얻습니다. 전투 시작 시 상인은 힘 2를 얻습니다.",
+        "zh": "Whenever you Swap, gain an Echo of a random Colorless card. At the start of combat, the Merchant gains 2 Strength."
+      },
+      "rarity": "SPECIAL",
+      "color": "DOWNFALL",
+      "colorName": {
+        "en": "Downfall",
+        "zh": "崩坠"
+      },
+      "colorPillBg": null,
+      "colorPillFg": null,
+      "energyIcon": null,
+      "img": null,
+      "imageResource": "",
+      "deprecated": false
+    },
+    {
+      "id": "GREMLINS-TAG_TEAMWORK",
+      "codeName": "TagTeamwork",
+      "name": {
+        "en": "團隊協作",
+        "zh": "并肩作战"
+      },
+      "description": {
+        "en": "[gold]태그 팀[/gold]을 뽑을 때마다 카드를 1장 더 뽑습니다.\n획득 시 [gold]태그 팀[/gold]을 2장 덱에 추가합니다.",
+        "zh": "Whenever you draw [gold]Tag Team[/gold], draw another card.\nUpon pickup, add two copies of [gold]Tag Team[/gold] to your [gold]Deck[/gold]. "
+      },
+      "rarity": "SHOP",
+      "color": "GREMLINSCODE",
+      "colorName": {
+        "en": "Gremlinscode",
+        "zh": "GREMLINSCODE"
+      },
+      "colorPillBg": null,
+      "colorPillFg": null,
+      "energyIcon": null,
+      "img": "assets/relics/tagteamwork.png",
+      "imageResource": "",
+      "deprecated": false
+    },
+    {
+      "id": "GREMLINS-WIZARD_HAT",
+      "codeName": "WizardHat",
+      "name": {
+        "en": "巫師帽",
+        "zh": "巫师帽"
+      },
+      "description": {
+        "en": "[gold]마법력[/gold]을 소모할 때마다 무작위 디버프를 하나 제거합니다.",
+        "zh": "Whenever you consume [gold]Wiz[/gold], remove a debuff at random."
+      },
+      "rarity": "UNCOMMON",
+      "color": "GREMLINSCODE",
+      "colorName": {
+        "en": "Gremlinscode",
+        "zh": "GREMLINSCODE"
+      },
+      "colorPillBg": null,
+      "colorPillFg": null,
+      "energyIcon": null,
+      "img": "assets/relics/wizardhat.png",
+      "imageResource": "",
+      "deprecated": false
+    },
+    {
+      "id": "GREMLINS-WIZARD_STAFF",
+      "codeName": "WizardStaff",
+      "name": {
+        "en": "法師杖",
+        "zh": "法师杖"
+      },
+      "description": {
+        "en": "[gold]마법력[/gold]이 주는 피해가 [blue]{Damage}[/blue] 증가합니다.",
+        "zh": "[gold]Wiz[/gold] deals [blue]{Damage}[/blue] additional damage."
+      },
+      "rarity": "RARE",
+      "color": "GREMLINSCODE",
+      "colorName": {
+        "en": "Gremlinscode",
+        "zh": "GREMLINSCODE"
+      },
+      "colorPillBg": null,
+      "colorPillFg": null,
+      "energyIcon": null,
+      "img": "assets/relics/wizardstaff.png",
+      "imageResource": "",
+      "deprecated": false
+    },
+    {
+      "id": "GREMLINS-WOUND_POKER",
+      "codeName": "WoundPoker",
+      "name": {
+        "en": "燒火棍",
+        "zh": "烧火棍"
+      },
+      "description": {
+        "en": "매 턴 종료 시 [gold]약화[/gold]된 모든 적에게 [blue]{Damage}[/blue] 피해를 줍니다.",
+        "zh": "At the end of each turn, deal [blue]{Damage}[/blue] damage to each [gold]Weakened[/gold] enemy."
+      },
+      "rarity": "COMMON",
+      "color": "GREMLINSCODE",
+      "colorName": {
+        "en": "Gremlinscode",
+        "zh": "GREMLINSCODE"
+      },
+      "colorPillBg": null,
+      "colorPillFg": null,
+      "energyIcon": null,
+      "img": "assets/relics/woundpoker.png",
+      "imageResource": "",
+      "deprecated": false
+    },
+    {
+      "id": "GUARDIAN-BAALORS_LORDLY_PLATE",
+      "codeName": "BaalorsLordlyPlate",
+      "name": {
+        "en": "銅製裝甲板",
+        "zh": "巴洛尔领主板甲"
+      },
+      "description": {
+        "en": "每当你[gold]提防[/gold]时，额外[gold]提防[/gold][blue]{Brace:diff()}[/blue]。",
+        "zh": "每当你[gold]提防[/gold]时，额外[gold]提防[/gold][blue]{Brace:diff()}[/blue]。"
+      },
+      "rarity": "COMMON",
+      "color": "GUARDIANCODE",
+      "colorName": {
+        "en": "Guardiancode",
+        "zh": "GUARDIANCODE"
+      },
+      "colorPillBg": null,
+      "colorPillFg": null,
+      "energyIcon": null,
+      "img": "assets/relics/baalorslordlyplate.png",
+      "imageResource": "",
+      "deprecated": false
+    },
+    {
+      "id": "GUARDIAN-BOTTLED_BLACK_HOLE",
+      "codeName": "BottledBlackHole",
+      "name": {
+        "en": "瓶裝黑洞",
+        "zh": "瓶装黑洞"
+      },
+      "description": {
+        "en": "拾取时，选择一张牌[gold]附魔[/gold][purple]时流[/purple]。",
+        "zh": "拾取时，选择一张牌[gold]附魔[/gold][purple]时流[/purple]。"
+      },
+      "rarity": "UNCOMMON",
+      "color": "GUARDIANCODE",
+      "colorName": {
+        "en": "Guardiancode",
+        "zh": "GUARDIANCODE"
+      },
+      "colorPillBg": null,
+      "colorPillFg": null,
+      "energyIcon": null,
+      "img": "assets/relics/bottledblackhole.png",
+      "imageResource": "",
+      "deprecated": false
+    },
+    {
+      "id": "GUARDIAN-BRONZE_GEAR",
+      "codeName": "BronzeGear",
+      "name": {
+        "en": "銅製齒輪",
+        "zh": "青铜齿轮"
+      },
+      "description": {
+        "en": "在每场战斗开始时，将一张[gold]预防[/gold]加入你的[gold]手牌[/gold]。\n守护者开局时拥有一颗随机普通[gold]宝石[/gold]。",
+        "zh": "在每场战斗开始时，将一张[gold]预防[/gold]加入你的[gold]手牌[/gold]。\n守护者开局时拥有一颗随机普通[gold]宝石[/gold]。"
+      },
+      "rarity": "STARTER",
+      "color": "GUARDIANCODE",
+      "colorName": {
+        "en": "Guardiancode",
+        "zh": "GUARDIANCODE"
+      },
+      "colorPillBg": null,
+      "colorPillFg": null,
+      "energyIcon": null,
+      "img": "assets/relics/bronzegear.png",
+      "imageResource": "",
+      "deprecated": false
+    },
+    {
+      "id": "GUARDIAN-CRYO_CHAMBER",
+      "codeName": "CryoChamber",
+      "name": {
+        "en": "低溫瓶",
+        "zh": "低温舱"
+      },
+      "description": {
+        "en": "在每场战斗开始时，获得[blue]1[/blue]个[gold]凝滞[/gold]栏位。每当你[gold]凝滞[/gold]一张牌时，本场战斗内将其[gold]升级[/gold]。",
+        "zh": "在每场战斗开始时，获得[blue]1[/blue]个[gold]凝滞[/gold]栏位。每当你[gold]凝滞[/gold]一张牌时，本场战斗内将其[gold]升级[/gold]。"
+      },
+      "rarity": "RARE",
+      "color": "GUARDIANCODE",
+      "colorName": {
+        "en": "Guardiancode",
+        "zh": "GUARDIANCODE"
+      },
+      "colorPillBg": null,
+      "colorPillFg": null,
+      "energyIcon": null,
+      "img": "assets/relics/cryochamber.png",
+      "imageResource": "",
+      "deprecated": false
+    },
+    {
+      "id": "GUARDIAN-GUARDIAN_GEAR",
+      "codeName": "",
+      "name": {
+        "en": "守護者齒輪",
+        "zh": "守护者齿轮"
+      },
+      "description": {
+        "en": "在每场战斗开始时，将一张[gold]预防[/gold]加入你的[gold]手牌[/gold]。\n每当你进入[gold]防御模式[/gold]时，获得{energyPrefix:energyIcons(1)}并抽[blue]2[/blue]张牌。",
+        "zh": "在每场战斗开始时，将一张[gold]预防[/gold]加入你的[gold]手牌[/gold]。\n每当你进入[gold]防御模式[/gold]时，获得{energyPrefix:energyIcons(1)}并抽[blue]2[/blue]张牌。"
+      },
+      "rarity": "SPECIAL",
+      "color": "DOWNFALL",
+      "colorName": {
+        "en": "Downfall",
+        "zh": "崩坠"
+      },
+      "colorPillBg": null,
+      "colorPillFg": null,
+      "energyIcon": null,
+      "img": null,
+      "imageResource": "",
+      "deprecated": false
+    },
+    {
+      "id": "GUARDIAN-OBSIDIAN_SCALES",
+      "codeName": "",
+      "name": {
+        "en": "黑曜鱗",
+        "zh": "黑曜石鳞片"
+      },
+      "description": {
+        "en": "在每场战斗开始时，获得[blue]3[/blue]点[gold]荆棘[/gold]。每当你获得负面状态时，获得[blue]1[/blue]点[gold]荆棘[/gold]。",
+        "zh": "在每场战斗开始时，获得[blue]3[/blue]点[gold]荆棘[/gold]。每当你获得负面状态时，获得[blue]1[/blue]点[gold]荆棘[/gold]。"
+      },
+      "rarity": "SPECIAL",
+      "color": "DOWNFALL",
+      "colorName": {
+        "en": "Downfall",
+        "zh": "崩坠"
+      },
+      "colorPillBg": null,
+      "colorPillFg": null,
+      "energyIcon": null,
+      "img": null,
+      "imageResource": "",
+      "deprecated": false
+    },
+    {
+      "id": "GUARDIAN-PICK_OF_RHAPSODY",
+      "codeName": "",
+      "name": {
+        "en": "星光采矿镐",
+        "zh": "狂想镐"
+      },
+      "description": {
+        "en": "每当你击败精英时，获得一颗随机[gold]宝石[/gold]作为奖励。",
+        "zh": "每当你击败精英时，获得一颗随机[gold]宝石[/gold]作为奖励。"
+      },
+      "rarity": "SPECIAL",
+      "color": "DOWNFALL",
+      "colorName": {
+        "en": "Downfall",
+        "zh": "崩坠"
+      },
+      "colorPillBg": null,
+      "colorPillFg": null,
+      "energyIcon": null,
+      "img": null,
+      "imageResource": "",
+      "deprecated": false
+    },
+    {
+      "id": "GUARDIAN-PILOTS_CODEX",
+      "codeName": "PilotsCodex",
+      "name": {
+        "en": "機械寶典",
+        "zh": "驾驶员手册"
+      },
+      "description": {
+        "en": "在每场战斗开始时，[gold]凝滞[/gold]随机[blue]2[/blue]张牌。",
+        "zh": "在每场战斗开始时，[gold]凝滞[/gold]随机[blue]2[/blue]张牌。"
+      },
+      "rarity": "RARE",
+      "color": "GUARDIANCODE",
+      "colorName": {
+        "en": "Guardiancode",
+        "zh": "GUARDIANCODE"
+      },
+      "colorPillBg": null,
+      "colorPillFg": null,
+      "energyIcon": null,
+      "img": "assets/relics/pilotscodex.png",
+      "imageResource": "",
+      "deprecated": false
+    },
+    {
+      "id": "GUARDIAN-QUANTUM_CHAMBER",
+      "codeName": "",
+      "name": {
+        "en": "量子容器",
+        "zh": "量子舱"
+      },
+      "description": {
+        "en": "每回合你第一次[gold]凝滞[/gold]卡牌时，将其[gold]加速[/gold]。",
+        "zh": "每回合你第一次[gold]凝滞[/gold]卡牌时，将其[gold]加速[/gold]。"
+      },
+      "rarity": "SPECIAL",
+      "color": "DOWNFALL",
+      "colorName": {
+        "en": "Downfall",
+        "zh": "崩坠"
+      },
+      "colorPillBg": null,
+      "colorPillFg": null,
+      "energyIcon": null,
+      "img": null,
+      "imageResource": "",
+      "deprecated": false
+    },
+    {
+      "id": "GUARDIAN-SACK_OF_GEMS",
+      "codeName": "",
+      "name": {
+        "en": "寶石袋",
+        "zh": "宝石袋"
+      },
+      "description": {
+        "en": "拾起时，你可以选择至多[blue]5[/blue]颗随机[gold]宝石[/gold]加入你的[gold]牌组[/gold]。",
+        "zh": "拾起时，你可以选择至多[blue]5[/blue]颗随机[gold]宝石[/gold]加入你的[gold]牌组[/gold]。"
+      },
+      "rarity": "SPECIAL",
+      "color": "DOWNFALL",
+      "colorName": {
+        "en": "Downfall",
+        "zh": "崩坠"
+      },
+      "colorPillBg": null,
+      "colorPillFg": null,
+      "energyIcon": null,
+      "img": null,
+      "imageResource": "",
+      "deprecated": false
+    },
+    {
+      "id": "GUARDIAN-WANDER_BOTS",
+      "codeName": "WanderBots",
+      "name": {
+        "en": "懸浮機",
+        "zh": "漫游机器人"
+      },
+      "description": {
+        "en": "在每场战斗开始时，失去[blue]1[/blue]个[gold]凝滞[/gold]栏位。在你的回合开始时，获得{Energy:energyIcons()}。",
+        "zh": "在每场战斗开始时，失去[blue]1[/blue]个[gold]凝滞[/gold]栏位。在你的回合开始时，获得{Energy:energyIcons()}。"
+      },
+      "rarity": "ANCIENT",
+      "color": "GUARDIANCODE",
+      "colorName": {
+        "en": "Guardiancode",
+        "zh": "GUARDIANCODE"
+      },
+      "colorPillBg": null,
+      "colorPillFg": null,
+      "energyIcon": null,
+      "img": "assets/relics/wanderbots.png",
+      "imageResource": "",
+      "deprecated": false
+    },
+    {
+      "id": "HERMIT-BLACK_POWDER",
+      "codeName": "",
+      "name": {
+        "en": "黑火藥",
+        "zh": "黑火药"
+      },
+      "description": {
+        "en": "每当你触发[gold]精准[/gold]效果时，对所有敌人造成[blue]{Damage}[/blue]点伤害。",
+        "zh": "每当你触发[gold]精准[/gold]效果时，对所有敌人造成[blue]{Damage}[/blue]点伤害。"
+      },
+      "rarity": "SPECIAL",
+      "color": "DOWNFALL",
+      "colorName": {
+        "en": "Downfall",
+        "zh": "崩坠"
+      },
+      "colorPillBg": null,
+      "colorPillFg": null,
+      "energyIcon": null,
+      "img": null,
+      "imageResource": "",
+      "deprecated": false
+    },
+    {
+      "id": "HERMIT-BRASS_TACKS",
+      "codeName": "",
+      "name": {
+        "en": "破舊銅釘",
+        "zh": "黄铜图钉"
+      },
+      "description": {
+        "en": "在你的回合结束时，获得[blue]{Block}[/blue]点[gold]格挡[/gold]。",
+        "zh": "在你的回合结束时，获得[blue]{Block}[/blue]点[gold]格挡[/gold]。"
+      },
+      "rarity": "SPECIAL",
+      "color": "DOWNFALL",
+      "colorName": {
+        "en": "Downfall",
+        "zh": "崩坠"
+      },
+      "colorPillBg": null,
+      "colorPillFg": null,
+      "energyIcon": null,
+      "img": null,
+      "imageResource": "",
+      "deprecated": false
+    },
+    {
+      "id": "HERMIT-BROKEN_TOOTH",
+      "codeName": "",
+      "name": {
+        "en": "獸牙戰利品",
+        "zh": "兽牙战利品"
+      },
+      "description": {
+        "en": "每当你击败精英敌人时，回复[blue]{Heal}[/blue]点生命并获得[blue]{Gold}[/blue]金币。",
+        "zh": "每当你击败精英敌人时，回复[blue]{Heal}[/blue]点生命并获得[blue]{Gold}[/blue]金币。"
+      },
+      "rarity": "SPECIAL",
+      "color": "DOWNFALL",
+      "colorName": {
+        "en": "Downfall",
+        "zh": "崩坠"
+      },
+      "colorPillBg": null,
+      "colorPillFg": null,
+      "energyIcon": null,
+      "img": null,
+      "imageResource": "",
+      "deprecated": false
+    },
+    {
+      "id": "HERMIT-CHARRED_GLOVE",
+      "codeName": "",
+      "name": {
+        "en": "燒焦的手套",
+        "zh": "烧焦手套"
+      },
+      "description": {
+        "en": "每当你抽到或生成[red]诅咒[/red]时，获得[blue]{VigorPower}[/blue]点[gold]活力[/gold]。",
+        "zh": "每当你抽到或生成[red]诅咒[/red]时，获得[blue]{VigorPower}[/blue]点[gold]活力[/gold]。"
+      },
+      "rarity": "SPECIAL",
+      "color": "DOWNFALL",
+      "colorName": {
+        "en": "Downfall",
+        "zh": "崩坠"
+      },
+      "colorPillBg": null,
+      "colorPillFg": null,
+      "energyIcon": null,
+      "img": null,
+      "imageResource": "",
+      "deprecated": false
+    },
+    {
+      "id": "HERMIT-CLASPED_LOCKET",
+      "codeName": "",
+      "name": {
+        "en": "破損的吊墜",
+        "zh": "被封死的小盒"
+      },
+      "description": {
+        "en": "每回合你首次抽到[red]诅咒[/red]时，将其[gold]消耗[/gold]并抽[blue]{Cards}[/blue]张牌。\n拾起时，获得[blue]{Curses}[/blue]张[red]受伤[/red]。",
+        "zh": "每回合你首次抽到[red]诅咒[/red]时，将其[gold]消耗[/gold]并抽[blue]{Cards}[/blue]张牌。\n拾起时，获得[blue]{Curses}[/blue]张[red]受伤[/red]。"
+      },
+      "rarity": "SPECIAL",
+      "color": "DOWNFALL",
+      "colorName": {
+        "en": "Downfall",
+        "zh": "崩坠"
+      },
+      "colorPillBg": null,
+      "colorPillFg": null,
+      "energyIcon": null,
+      "img": null,
+      "imageResource": "",
+      "deprecated": false
+    },
+    {
+      "id": "HERMIT-DENTED_PLATE",
+      "codeName": "",
+      "name": {
+        "en": "受損鐵板",
+        "zh": "凹陷铁盘"
+      },
+      "description": {
+        "en": "当你的生命值不高于[blue]50%[/blue]时，在你的回合开始时获得{Energy:energyIcons()}并抽[blue]{Cards}[/blue]张牌。",
+        "zh": "当你的生命值不高于[blue]50%[/blue]时，在你的回合开始时获得{Energy:energyIcons()}并抽[blue]{Cards}[/blue]张牌。"
+      },
+      "rarity": "SPECIAL",
+      "color": "DOWNFALL",
+      "colorName": {
+        "en": "Downfall",
+        "zh": "崩坠"
+      },
+      "colorPillBg": null,
+      "colorPillFg": null,
+      "energyIcon": null,
+      "img": null,
+      "imageResource": "",
+      "deprecated": false
+    },
+    {
+      "id": "HERMIT-HORSESHOE",
+      "codeName": "",
+      "name": {
+        "en": "馬蹄鐵",
+        "zh": "马蹄铁"
+      },
+      "description": {
+        "en": "每当你获得[gold]虚弱[/gold]、[gold]脆弱[/gold]或[gold]易伤[/gold]时，获得的层数减[blue]1[/blue]。",
+        "zh": "每当你获得[gold]虚弱[/gold]、[gold]脆弱[/gold]或[gold]易伤[/gold]时，获得的层数减[blue]1[/blue]。"
+      },
+      "rarity": "SPECIAL",
+      "color": "DOWNFALL",
+      "colorName": {
+        "en": "Downfall",
+        "zh": "崩坠"
+      },
+      "colorPillBg": null,
+      "colorPillFg": null,
+      "energyIcon": null,
+      "img": null,
+      "imageResource": "",
+      "deprecated": false
+    },
+    {
+      "id": "HERMIT-OLD_LOCKET",
+      "codeName": "",
+      "name": {
+        "en": "老舊小盒",
+        "zh": "老旧小盒"
+      },
+      "description": {
+        "en": "在每场战斗开始时，将一张[gold]纪念品[/gold]加入你的[gold]手牌[/gold]。",
+        "zh": "在每场战斗开始时，将一张[gold]纪念品[/gold]加入你的[gold]手牌[/gold]。"
+      },
+      "rarity": "SPECIAL",
+      "color": "DOWNFALL",
+      "colorName": {
+        "en": "Downfall",
+        "zh": "崩坠"
+      },
+      "colorPillBg": null,
+      "colorPillFg": null,
+      "energyIcon": null,
+      "img": null,
+      "imageResource": "",
+      "deprecated": false
+    },
+    {
+      "id": "HERMIT-PET_GHOST",
+      "codeName": "",
+      "name": {
+        "en": "寵物幽靈",
+        "zh": "宠物幽灵"
+      },
+      "description": {
+        "en": "每场战斗阻止你受到的第一次致命伤害。",
+        "zh": "每场战斗阻止你受到的第一次致命伤害。"
+      },
+      "rarity": "SPECIAL",
+      "color": "DOWNFALL",
+      "colorName": {
+        "en": "Downfall",
+        "zh": "崩坠"
+      },
+      "colorPillBg": null,
+      "colorPillFg": null,
+      "energyIcon": null,
+      "img": null,
+      "imageResource": "",
+      "deprecated": false
+    },
+    {
+      "id": "HERMIT-RED_SCARF",
+      "codeName": "",
+      "name": {
+        "en": "紅色圍巾",
+        "zh": "红围巾"
+      },
+      "description": {
+        "en": "每当你给予敌人一种新的负面状态时，获得[blue]{Block}[/blue]点[gold]格挡[/gold]。",
+        "zh": "每当你给予敌人一种新的负面状态时，获得[blue]{Block}[/blue]点[gold]格挡[/gold]。"
+      },
+      "rarity": "SPECIAL",
+      "color": "DOWNFALL",
+      "colorName": {
+        "en": "Downfall",
+        "zh": "崩坠"
+      },
+      "colorPillBg": null,
+      "colorPillFg": null,
+      "energyIcon": null,
+      "img": null,
+      "imageResource": "",
+      "deprecated": false
+    },
+    {
+      "id": "HERMIT-RYE_STALK",
+      "codeName": "",
+      "name": {
+        "en": "黑麥莖",
+        "zh": "黑麦茎"
+      },
+      "description": {
+        "en": "在第[blue]{Turn}[/blue]回合开始时，获得[blue]{RuggedPower:diff()}[/blue]层[gold]坚固[/gold]。",
+        "zh": "在第[blue]{Turn}[/blue]回合开始时，获得[blue]{RuggedPower:diff()}[/blue]层[gold]坚固[/gold]。"
+      },
+      "rarity": "SPECIAL",
+      "color": "DOWNFALL",
+      "colorName": {
+        "en": "Downfall",
+        "zh": "崩坠"
+      },
+      "colorPillBg": null,
+      "colorPillFg": null,
+      "energyIcon": null,
+      "img": null,
+      "imageResource": "",
+      "deprecated": false
+    },
+    {
+      "id": "HERMIT-SHOTGLASS",
+      "codeName": "",
+      "name": {
+        "en": "酒保玻璃杯",
+        "zh": "小酒杯"
+      },
+      "description": {
+        "en": "每场战斗你最多能使用[blue]{Limit}[/blue]瓶药水。你在战斗中使用药水时，获取[blue]1[/blue]瓶随机药水。",
+        "zh": "每场战斗你最多能使用[blue]{Limit}[/blue]瓶药水。你在战斗中使用药水时，获取[blue]1[/blue]瓶随机药水。"
+      },
+      "rarity": "SPECIAL",
+      "color": "DOWNFALL",
+      "colorName": {
+        "en": "Downfall",
+        "zh": "崩坠"
+      },
+      "colorPillBg": null,
+      "colorPillFg": null,
+      "energyIcon": null,
+      "img": null,
+      "imageResource": "",
+      "deprecated": false
+    },
+    {
+      "id": "HERMIT-SPYGLASS",
+      "codeName": "",
+      "name": {
+        "en": "望遠鏡",
+        "zh": "望远镜"
+      },
+      "description": {
+        "en": "你在每回合打出的第[blue]4[/blue]张牌必定触发[gold]精准[/gold]。",
+        "zh": "你在每回合打出的第[blue]4[/blue]张牌必定触发[gold]精准[/gold]。"
+      },
+      "rarity": "SPECIAL",
+      "color": "DOWNFALL",
+      "colorName": {
+        "en": "Downfall",
+        "zh": "崩坠"
+      },
+      "colorPillBg": null,
+      "colorPillFg": null,
+      "energyIcon": null,
+      "img": null,
+      "imageResource": "",
+      "deprecated": false
+    },
+    {
+      "id": "HERMIT-STRAIGHT_RAZOR",
+      "codeName": "",
+      "name": {
+        "en": "刮胡刀",
+        "zh": "刮胡刀"
+      },
+      "description": {
+        "en": "每当你从[gold]牌组[/gold]中移除或[gold]变化[/gold]一张牌时，回复[blue]{Heal}[/blue]点生命。",
+        "zh": "每当你从[gold]牌组[/gold]中移除或[gold]变化[/gold]一张牌时，回复[blue]{Heal}[/blue]点生命。"
+      },
+      "rarity": "SPECIAL",
+      "color": "DOWNFALL",
+      "colorName": {
+        "en": "Downfall",
+        "zh": "崩坠"
+      },
+      "colorPillBg": null,
+      "colorPillFg": null,
+      "energyIcon": null,
+      "img": null,
+      "imageResource": "",
+      "deprecated": false
+    },
+    {
+      "id": "HEXAGHOST-JAR_OF_TOBSCO",
+      "codeName": "JarOfTobsco",
+      "name": {
+        "en": "塔布斯科罐",
+        "zh": "塔布斯科罐"
+      },
+      "description": {
+        "en": "在每场战斗开始时，获得[blue]1[/blue]点[gold]热烈[/gold]。",
+        "zh": "在每场战斗开始时，获得[blue]1[/blue]点[gold]热烈[/gold]。"
+      },
+      "rarity": "COMMON",
+      "color": "HEXAGHOSTCODE",
+      "colorName": {
+        "en": "Hexaghostcode",
+        "zh": "HEXAGHOSTCODE"
+      },
+      "colorPillBg": null,
+      "colorPillFg": null,
+      "energyIcon": null,
+      "img": "assets/relics/jaroftobsco.png",
+      "imageResource": "",
+      "deprecated": false
+    },
+    {
+      "id": "HEXAGHOST-LIBRA",
+      "codeName": "",
+      "name": {
+        "en": "天秤座",
+        "zh": "天秤座"
+      },
+      "description": {
+        "en": "你的[gold]打击[/gold]和[gold]防御[/gold]计入[gold]湮灭鬼火[/gold]和[gold]焚灼鬼火[/gold]的进度。",
+        "zh": "你的[gold]打击[/gold]和[gold]防御[/gold]计入[gold]湮灭鬼火[/gold]和[gold]焚灼鬼火[/gold]的进度。"
+      },
+      "rarity": "SPECIAL",
+      "color": "DOWNFALL",
+      "colorName": {
+        "en": "Downfall",
+        "zh": "崩坠"
+      },
+      "colorPillBg": null,
+      "colorPillFg": null,
+      "energyIcon": null,
+      "img": null,
+      "imageResource": "",
+      "deprecated": false
+    },
+    {
+      "id": "HEXAGHOST-MARK_OF_THE_ETHER",
+      "codeName": "",
+      "name": {
+        "en": "以太印記",
+        "zh": "以太印记"
+      },
+      "description": {
+        "en": "每当你[gold]点燃[/gold]一枚鬼火时，获得[blue]4[/blue]点[gold]格挡[/gold]。",
+        "zh": "每当你[gold]点燃[/gold]一枚鬼火时，获得[blue]4[/blue]点[gold]格挡[/gold]。"
+      },
+      "rarity": "SPECIAL",
+      "color": "DOWNFALL",
+      "colorName": {
+        "en": "Downfall",
+        "zh": "崩坠"
+      },
+      "colorPillBg": null,
+      "colorPillFg": null,
+      "energyIcon": null,
+      "img": null,
+      "imageResource": "",
+      "deprecated": false
+    },
+    {
+      "id": "HEXAGHOST-OLEXAS_SHIELD",
+      "codeName": "",
+      "name": {
+        "en": "謎之盾",
+        "zh": "奥莱克萨之盾"
+      },
+      "description": {
+        "en": "你的能力牌可以推进[gold]湮灭鬼火[/gold]和[gold]焚灼鬼火[/gold]的进度。",
+        "zh": "你的能力牌可以推进[gold]湮灭鬼火[/gold]和[gold]焚灼鬼火[/gold]的进度。"
+      },
+      "rarity": "SPECIAL",
+      "color": "DOWNFALL",
+      "colorName": {
+        "en": "Downfall",
+        "zh": "崩坠"
+      },
+      "colorPillBg": null,
+      "colorPillFg": null,
+      "energyIcon": null,
+      "img": null,
+      "imageResource": "",
+      "deprecated": false
+    },
+    {
+      "id": "HEXAGHOST-RECYCLER",
+      "codeName": "Recycler",
+      "name": {
+        "en": "回收器",
+        "zh": "回收器"
+      },
+      "description": {
+        "en": "每场战斗中，当你首次[gold]消耗[/gold]一张非状态非诅咒的[gold]虚无[/gold]牌时，将其一张复制加入你的[gold]手牌[/gold]。",
+        "zh": "每场战斗中，当你首次[gold]消耗[/gold]一张非状态非诅咒的[gold]虚无[/gold]牌时，将其一张复制加入你的[gold]手牌[/gold]。"
+      },
+      "rarity": "UNCOMMON",
+      "color": "HEXAGHOSTCODE",
+      "colorName": {
+        "en": "Hexaghostcode",
+        "zh": "HEXAGHOSTCODE"
+      },
+      "colorPillBg": null,
+      "colorPillFg": null,
+      "energyIcon": null,
+      "img": "assets/relics/recycler.png",
+      "imageResource": "",
+      "deprecated": false
+    },
+    {
+      "id": "HEXAGHOST-RED_CANDLE",
+      "codeName": "RedCandle",
+      "name": {
+        "en": "紅蠟燭",
+        "zh": "红蜡烛"
+      },
+      "description": {
+        "en": "每当你给予[gold]灼魂[/gold]时，额外给予[blue]2[/blue]层。",
+        "zh": "每当你给予[gold]灼魂[/gold]时，额外给予[blue]2[/blue]层。"
+      },
+      "rarity": "RARE",
+      "color": "HEXAGHOSTCODE",
+      "colorName": {
+        "en": "Hexaghostcode",
+        "zh": "HEXAGHOSTCODE"
+      },
+      "colorPillBg": null,
+      "colorPillFg": null,
+      "energyIcon": null,
+      "img": "assets/relics/redcandle.png",
+      "imageResource": "",
+      "deprecated": false
+    },
+    {
+      "id": "HEXAGHOST-SNEAKY_TEAKWOOD_MATCH",
+      "codeName": "SneakyTeakwoodMatch",
+      "name": {
+        "en": "火爆火柴",
+        "zh": "隐秘柚柴"
+      },
+      "description": {
+        "en": "每回合你第一次[gold]点燃[/gold]鬼火时，选择[gold]步进[/gold]或[gold]回退[/gold]。",
+        "zh": "每回合你第一次[gold]点燃[/gold]鬼火时，选择[gold]步进[/gold]或[gold]回退[/gold]。"
+      },
+      "rarity": "RARE",
+      "color": "HEXAGHOSTCODE",
+      "colorName": {
+        "en": "Hexaghostcode",
+        "zh": "HEXAGHOSTCODE"
+      },
+      "colorPillBg": null,
+      "colorPillFg": null,
+      "energyIcon": null,
+      "img": "assets/relics/sneakyteakwoodmatch.png",
+      "imageResource": "",
+      "deprecated": false
+    },
+    {
+      "id": "HEXAGHOST-SOUL_STONE",
+      "codeName": "",
+      "name": {
+        "en": "热力石",
+        "zh": "热力石"
+      },
+      "description": {
+        "en": "你每[gold]消耗[/gold][blue]4[/blue]张牌，[gold]点燃[/gold]当前鬼火。",
+        "zh": "你每[gold]消耗[/gold][blue]4[/blue]张牌，[gold]点燃[/gold]当前鬼火。"
+      },
+      "rarity": "SPECIAL",
+      "color": "DOWNFALL",
+      "colorName": {
+        "en": "Downfall",
+        "zh": "崩坠"
+      },
+      "colorPillBg": null,
+      "colorPillFg": null,
+      "energyIcon": null,
+      "img": null,
+      "imageResource": "",
+      "deprecated": false
+    },
+    {
+      "id": "HEXAGHOST-SPIRIT_BRAND",
+      "codeName": "SpiritBrand",
+      "name": {
+        "en": "精神烙印",
+        "zh": "精神烙印"
+      },
+      "description": {
+        "en": "每回合你首次[gold]点燃[/gold]鬼火时，获得[blue]3[/blue]点[gold]格挡[/gold]。",
+        "zh": "每回合你首次[gold]点燃[/gold]鬼火时，获得[blue]3[/blue]点[gold]格挡[/gold]。"
+      },
+      "rarity": "STARTER",
+      "color": "HEXAGHOSTCODE",
+      "colorName": {
+        "en": "Hexaghostcode",
+        "zh": "HEXAGHOSTCODE"
+      },
+      "colorPillBg": null,
+      "colorPillFg": null,
+      "energyIcon": null,
+      "img": "assets/relics/spiritbrand.png",
+      "imageResource": "",
+      "deprecated": false
+    },
+    {
+      "id": "HEXAGHOST-THE_BROKEN_SEAL",
+      "codeName": "",
+      "name": {
+        "en": "掙破的封印",
+        "zh": "破碎封印"
+      },
+      "description": {
+        "en": "拾取时，将你的最大生命提高[blue]6[/blue]，然后回复所有生命。每场战斗开始时，获得[blue]1[/blue]点[gold]力量[/gold]、[gold]敏捷[/gold]和[gold]热烈[/gold]。你无法再次获得[gold]破碎封印[/gold]或其他[gold]封印[/gold]。",
+        "zh": "拾取时，将你的最大生命提高[blue]6[/blue]，然后回复所有生命。每场战斗开始时，获得[blue]1[/blue]点[gold]力量[/gold]、[gold]敏捷[/gold]和[gold]热烈[/gold]。你无法再次获得[gold]破碎封印[/gold]或其他[gold]封印[/gold]。"
+      },
+      "rarity": "SPECIAL",
+      "color": "DOWNFALL",
+      "colorName": {
+        "en": "Downfall",
+        "zh": "崩坠"
+      },
+      "colorPillBg": null,
+      "colorPillFg": null,
+      "energyIcon": null,
+      "img": null,
+      "imageResource": "",
+      "deprecated": false
+    },
+    {
+      "id": "SEA_GLASS.AUTOMATON-AUTOMATON",
+      "codeName": "",
+      "name": {
+        "en": "编码玻璃",
+        "zh": "编码玻璃"
+      },
+      "description": {
+        "en": "",
+        "zh": ""
+      },
+      "rarity": "SPECIAL",
+      "color": "DOWNFALL",
+      "colorName": {
+        "en": "Downfall",
+        "zh": "崩坠"
+      },
+      "colorPillBg": null,
+      "colorPillFg": null,
+      "energyIcon": null,
+      "img": null,
+      "imageResource": "",
+      "deprecated": false
+    },
+    {
+      "id": "SEA_GLASS.AWAKENED-AWAKENED",
+      "codeName": "",
+      "name": {
+        "en": "邪教玻璃",
+        "zh": "邪教玻璃"
+      },
+      "description": {
+        "en": "",
+        "zh": ""
+      },
+      "rarity": "SPECIAL",
+      "color": "DOWNFALL",
+      "colorName": {
+        "en": "Downfall",
+        "zh": "崩坠"
+      },
+      "colorPillBg": null,
+      "colorPillFg": null,
+      "energyIcon": null,
+      "img": null,
+      "imageResource": "",
+      "deprecated": false
+    },
+    {
+      "id": "SEA_GLASS.CHAMP-CHAMP",
+      "codeName": "",
+      "name": {
+        "en": "斗士玻璃",
+        "zh": "斗士玻璃"
+      },
+      "description": {
+        "en": "",
+        "zh": ""
+      },
+      "rarity": "SPECIAL",
+      "color": "DOWNFALL",
+      "colorName": {
+        "en": "Downfall",
+        "zh": "崩坠"
+      },
+      "colorPillBg": null,
+      "colorPillFg": null,
+      "energyIcon": null,
+      "img": null,
+      "imageResource": "",
+      "deprecated": false
+    },
+    {
+      "id": "SEA_GLASS.COLLECTOR-COLLECTOR",
+      "codeName": "",
+      "name": {
+        "en": "贪欲玻璃",
+        "zh": "贪欲玻璃"
+      },
+      "description": {
+        "en": "",
+        "zh": ""
+      },
+      "rarity": "SPECIAL",
+      "color": "DOWNFALL",
+      "colorName": {
+        "en": "Downfall",
+        "zh": "崩坠"
+      },
+      "colorPillBg": null,
+      "colorPillFg": null,
+      "energyIcon": null,
+      "img": null,
+      "imageResource": "",
+      "deprecated": false
+    },
+    {
+      "id": "SEA_GLASS.GUARDIAN-GUARDIAN",
+      "codeName": "",
+      "name": {
+        "en": "荆棘玻璃",
+        "zh": "荆棘玻璃"
+      },
+      "description": {
+        "en": "",
+        "zh": ""
+      },
+      "rarity": "SPECIAL",
+      "color": "DOWNFALL",
+      "colorName": {
+        "en": "Downfall",
+        "zh": "崩坠"
+      },
+      "colorPillBg": null,
+      "colorPillFg": null,
+      "energyIcon": null,
+      "img": null,
+      "imageResource": "",
+      "deprecated": false
+    },
+    {
+      "id": "SEA_GLASS.HERMIT-HERMIT",
+      "codeName": "",
+      "name": {
+        "en": "流浪者玻璃",
+        "zh": "流浪者玻璃"
+      },
+      "description": {
+        "en": "",
+        "zh": ""
+      },
+      "rarity": "SPECIAL",
+      "color": "DOWNFALL",
+      "colorName": {
+        "en": "Downfall",
+        "zh": "崩坠"
+      },
+      "colorPillBg": null,
+      "colorPillFg": null,
+      "energyIcon": null,
+      "img": null,
+      "imageResource": "",
+      "deprecated": false
+    },
+    {
+      "id": "SEA_GLASS.HEXAGHOST-HEXAGHOST",
+      "codeName": "",
+      "name": {
+        "en": "幽灵玻璃",
+        "zh": "幽灵玻璃"
+      },
+      "description": {
+        "en": "",
+        "zh": ""
+      },
+      "rarity": "SPECIAL",
+      "color": "DOWNFALL",
+      "colorName": {
+        "en": "Downfall",
+        "zh": "崩坠"
+      },
+      "colorPillBg": null,
+      "colorPillFg": null,
+      "energyIcon": null,
+      "img": null,
+      "imageResource": "",
+      "deprecated": false
+    },
+    {
+      "id": "SEA_GLASS.SLIMEBOSS-SLIME_BOSS",
+      "codeName": "",
+      "name": {
+        "en": "团伙玻璃",
+        "zh": "团伙玻璃"
+      },
+      "description": {
+        "en": "",
+        "zh": ""
+      },
+      "rarity": "SPECIAL",
+      "color": "DOWNFALL",
+      "colorName": {
+        "en": "Downfall",
+        "zh": "崩坠"
+      },
+      "colorPillBg": null,
+      "colorPillFg": null,
+      "energyIcon": null,
+      "img": null,
+      "imageResource": "",
+      "deprecated": false
+    },
+    {
+      "id": "SEA_GLASS.SNECKO-SNECKO",
+      "codeName": "",
+      "name": {
+        "en": "多彩玻璃",
+        "zh": "多彩玻璃"
+      },
+      "description": {
+        "en": "",
+        "zh": ""
+      },
+      "rarity": "SPECIAL",
+      "color": "DOWNFALL",
+      "colorName": {
+        "en": "Downfall",
+        "zh": "崩坠"
+      },
+      "colorPillBg": null,
+      "colorPillFg": null,
+      "energyIcon": null,
+      "img": null,
+      "imageResource": "",
+      "deprecated": false
+    },
+    {
+      "id": "SLIMEBOSS-BLACK_HEART_OF_GOO",
+      "codeName": "BlackHeartOfGoo",
+      "name": {
+        "en": "黏液腐心",
+        "zh": "黏液黑心"
+      },
+      "description": {
+        "en": "每当你[gold]吞食[/gold]时，回复[blue]{Heal}[/blue]点生命，每场战斗最多回复[blue]{MaxUses}[/blue]点。",
+        "zh": "每当你[gold]吞食[/gold]时，回复[blue]{Heal}[/blue]点生命，每场战斗最多回复[blue]{MaxUses}[/blue]点。"
+      },
+      "rarity": "STARTER",
+      "color": "SLIMEBOSSCODE",
+      "colorName": {
+        "en": "Slimebosscode",
+        "zh": "SLIMEBOSSCODE"
+      },
+      "colorPillBg": null,
+      "colorPillFg": null,
+      "energyIcon": null,
+      "img": "assets/relics/blackheartofgoo.png",
+      "imageResource": "",
+      "deprecated": false
+    },
+    {
+      "id": "SLIMEBOSS-GOOP_DWELLER",
+      "codeName": "",
+      "name": {
+        "en": "黏液居者",
+        "zh": "黏液居者"
+      },
+      "description": {
+        "en": "在每场战斗开始时，[gold]分裂[/gold]出一个[gold]好斗史莱姆[/gold]。",
+        "zh": "在每场战斗开始时，[gold]分裂[/gold]出一个[gold]好斗史莱姆[/gold]。"
+      },
+      "rarity": "SPECIAL",
+      "color": "DOWNFALL",
+      "colorName": {
+        "en": "Downfall",
+        "zh": "崩坠"
+      },
+      "colorPillBg": null,
+      "colorPillFg": null,
+      "energyIcon": null,
+      "img": null,
+      "imageResource": "",
+      "deprecated": false
+    },
+    {
+      "id": "SLIMEBOSS-GREED_OOZE",
+      "codeName": "",
+      "name": {
+        "en": "貪婪黏液",
+        "zh": "贪婪史莱姆"
+      },
+      "description": {
+        "en": "战斗开始时，生成贪婪史莱姆（若被吸收可复活。在休息处，贪婪软泥会吞噬你50个灵魂并提高1点伤害）。",
+        "zh": "战斗开始时，生成贪婪史莱姆（若被吸收可复活。在休息处，贪婪软泥会吞噬你50个灵魂并提高1点伤害）。"
+      },
+      "rarity": "SPECIAL",
+      "color": "DOWNFALL",
+      "colorName": {
+        "en": "Downfall",
+        "zh": "崩坠"
+      },
+      "colorPillBg": null,
+      "colorPillFg": null,
+      "energyIcon": null,
+      "img": null,
+      "imageResource": "",
+      "deprecated": false
+    },
+    {
+      "id": "SLIMEBOSS-HEART_OF_GOO",
+      "codeName": "HeartOfGoo",
+      "name": {
+        "en": "黏液之心",
+        "zh": "黏液之心"
+      },
+      "description": {
+        "en": "每当你[gold]吞食[/gold]时，回复[blue]{Heal}[/blue]点生命，每场战斗最多回复[blue]{MaxUses}[/blue]点。",
+        "zh": "每当你[gold]吞食[/gold]时，回复[blue]{Heal}[/blue]点生命，每场战斗最多回复[blue]{MaxUses}[/blue]点。"
+      },
+      "rarity": "STARTER",
+      "color": "SLIMEBOSSCODE",
+      "colorName": {
+        "en": "Slimebosscode",
+        "zh": "SLIMEBOSSCODE"
+      },
+      "colorPillBg": null,
+      "colorPillFg": null,
+      "energyIcon": null,
+      "img": "assets/relics/heartofgoo.png",
+      "imageResource": "",
+      "deprecated": false
+    },
+    {
+      "id": "SLIMEBOSS-JEREMIAHS_BANNER",
+      "codeName": "",
+      "name": {
+        "en": "陸軍旗",
+        "zh": "陆军旗"
+      },
+      "description": {
+        "en": "在每场战斗开始时，获得1个史莱姆槽位并[gold]分裂[/gold]出一个随机史莱姆。",
+        "zh": "在每场战斗开始时，获得1个史莱姆槽位并[gold]分裂[/gold]出一个随机史莱姆。"
+      },
+      "rarity": "SPECIAL",
+      "color": "DOWNFALL",
+      "colorName": {
+        "en": "Downfall",
+        "zh": "崩坠"
+      },
+      "colorPillBg": null,
+      "colorPillFg": null,
+      "energyIcon": null,
+      "img": null,
+      "imageResource": "",
+      "deprecated": false
+    },
+    {
+      "id": "SLIMEBOSS-PROTECTIVE_GEAR",
+      "codeName": "ProtectiveGear",
+      "name": {
+        "en": "碰撞護具",
+        "zh": "碰撞护具"
+      },
+      "description": {
+        "en": "降低你从“冲撞”牌中受到的伤害[blue]{TackleReduce}[/blue]点。",
+        "zh": "降低你从“冲撞”牌中受到的伤害[blue]{TackleReduce}[/blue]点。"
+      },
+      "rarity": "SHOP",
+      "color": "SLIMEBOSSCODE",
+      "colorName": {
+        "en": "Slimebosscode",
+        "zh": "SLIMEBOSSCODE"
+      },
+      "colorPillBg": null,
+      "colorPillFg": null,
+      "energyIcon": null,
+      "img": "assets/relics/protectivegear.png",
+      "imageResource": "",
+      "deprecated": false
+    },
+    {
+      "id": "SLIMEBOSS-SCRAP_OOZE",
+      "codeName": "",
+      "name": {
+        "en": "破爛黏液",
+        "zh": "破烂史莱姆"
+      },
+      "description": {
+        "en": "战斗开始时，生成废料软泥（若被吸收可复活。在休息处，你可以将一张牌交给废料软泥并修改其伤害：普通牌+1，稀有牌+2，基础牌-1，{{QueryLink|Cards|type:Curse|诅咒牌}}-2）。",
+        "zh": "战斗开始时，生成废料软泥（若被吸收可复活。在休息处，你可以将一张牌交给废料软泥并修改其伤害：普通牌+1，稀有牌+2，基础牌-1，{{QueryLink|Cards|type:Curse|诅咒牌}}-2）。"
+      },
+      "rarity": "SPECIAL",
+      "color": "DOWNFALL",
+      "colorName": {
+        "en": "Downfall",
+        "zh": "崩坠"
+      },
+      "colorPillBg": null,
+      "colorPillFg": null,
+      "energyIcon": null,
+      "img": null,
+      "imageResource": "",
+      "deprecated": false
+    },
+    {
+      "id": "SLIMEBOSS-SLIMED_TAIL",
+      "codeName": "SlimedTail",
+      "name": {
+        "en": "黏質斷尾",
+        "zh": "黏质断尾"
+      },
+      "description": {
+        "en": "每当你[gold]分裂[/gold]时，获得[blue]{Block}[/blue]点[gold]格挡[/gold]。",
+        "zh": "每当你[gold]分裂[/gold]时，获得[blue]{Block}[/blue]点[gold]格挡[/gold]。"
+      },
+      "rarity": "RARE",
+      "color": "SLIMEBOSSCODE",
+      "colorName": {
+        "en": "Slimebosscode",
+        "zh": "SLIMEBOSSCODE"
+      },
+      "colorPillBg": null,
+      "colorPillFg": null,
+      "energyIcon": null,
+      "img": "assets/relics/slimedtail.png",
+      "imageResource": "",
+      "deprecated": false
+    },
+    {
+      "id": "SLIMEBOSS-SLIMY_SKULL",
+      "codeName": "SlimySkull",
+      "name": {
+        "en": "黏蛇頭骨",
+        "zh": "黏糊头骨"
+      },
+      "description": {
+        "en": "每当你给予[gold]黏液[/gold]时，额外给予[blue]{GoopIncrease}[/blue]层[gold]黏液[/gold]。",
+        "zh": "每当你给予[gold]黏液[/gold]时，额外给予[blue]{GoopIncrease}[/blue]层[gold]黏液[/gold]。"
+      },
+      "rarity": "COMMON",
+      "color": "SLIMEBOSSCODE",
+      "colorName": {
+        "en": "Slimebosscode",
+        "zh": "SLIMEBOSSCODE"
+      },
+      "colorPillBg": null,
+      "colorPillFg": null,
+      "energyIcon": null,
+      "img": "assets/relics/slimyskull.png",
+      "imageResource": "",
+      "deprecated": false
+    },
+    {
+      "id": "SLIMEBOSS-STONE_OF_NOMAKK",
+      "codeName": "StoneOfNomakk",
+      "name": {
+        "en": "黏黏石",
+        "zh": "诺马克石"
+      },
+      "description": {
+        "en": "在每场战斗开始时，获得[blue]{PotencyPower}[/blue]点[gold]潜能[/gold]。",
+        "zh": "在每场战斗开始时，获得[blue]{PotencyPower}[/blue]点[gold]潜能[/gold]。"
+      },
+      "rarity": "COMMON",
+      "color": "SLIMEBOSSCODE",
+      "colorName": {
+        "en": "Slimebosscode",
+        "zh": "SLIMEBOSSCODE"
+      },
+      "colorPillBg": null,
+      "colorPillFg": null,
+      "energyIcon": null,
+      "img": "assets/relics/stoneofnomakk.png",
+      "imageResource": "",
+      "deprecated": false
+    },
+    {
+      "id": "SLIMEBOSS-TARR_BLOB",
+      "codeName": "TarrBlob",
+      "name": {
+        "en": "焦油團",
+        "zh": "焦油团"
+      },
+      "description": {
+        "en": "在每场战斗开始时，失去[blue]{Decrease}[/blue]个史莱姆槽位。\n在你的回合开始时，获得{Energy:energyIcons()}。",
+        "zh": "在每场战斗开始时，失去[blue]{Decrease}[/blue]个史莱姆槽位。\n在你的回合开始时，获得{Energy:energyIcons()}。"
+      },
+      "rarity": "ANCIENT",
+      "color": "SLIMEBOSSCODE",
+      "colorName": {
+        "en": "Slimebosscode",
+        "zh": "SLIMEBOSSCODE"
+      },
+      "colorPillBg": null,
+      "colorPillFg": null,
+      "energyIcon": null,
+      "img": "assets/relics/tarrblob.png",
+      "imageResource": "",
+      "deprecated": false
+    },
+    {
+      "id": "SNECKO-LOADED_DIE",
+      "codeName": "LoadedDie",
+      "name": {
+        "en": "註料骰子",
+        "zh": "注料骰子"
+      },
+      "description": {
+        "en": "每当你[gold]混淆[/gold]一张牌时，获得[blue]{Block}[/blue]点[gold]格挡[/gold]。",
+        "zh": "每当你[gold]混淆[/gold]一张牌时，获得[blue]{Block}[/blue]点[gold]格挡[/gold]。"
+      },
+      "rarity": "COMMON",
+      "color": "SNECKOCODE",
+      "colorName": {
+        "en": "Sneckocode",
+        "zh": "SNECKOCODE"
+      },
+      "colorPillBg": null,
+      "colorPillFg": null,
+      "energyIcon": null,
+      "img": "assets/relics/loadeddie.png",
+      "imageResource": "",
+      "deprecated": false
+    },
+    {
+      "id": "SNECKO-LUCKY_HORSESHOE",
+      "codeName": "",
+      "name": {
+        "en": "幸運馬蹄",
+        "zh": "幸运马蹄"
+      },
+      "description": {
+        "en": "拾起时，从[blue]3[/blue]个角色中选择[blue]1[/blue]个，获得来自该角色的[blue]3[/blue]组已[gold]升级[/gold]的[gold]罕见[/gold]牌奖励和[blue]2[/blue]组[gold]稀有[/gold]牌奖励。每次战斗结束后，额外掉落一组该角色的卡牌奖励。",
+        "zh": "拾起时，从[blue]3[/blue]个角色中选择[blue]1[/blue]个，获得来自该角色的[blue]3[/blue]组已[gold]升级[/gold]的[gold]罕见[/gold]牌奖励和[blue]2[/blue]组[gold]稀有[/gold]牌奖励。每次战斗结束后，额外掉落一组该角色的卡牌奖励。"
+      },
+      "rarity": "SPECIAL",
+      "color": "DOWNFALL",
+      "colorName": {
+        "en": "Downfall",
+        "zh": "崩坠"
+      },
+      "colorPillBg": null,
+      "colorPillFg": null,
+      "energyIcon": null,
+      "img": null,
+      "imageResource": "",
+      "deprecated": false
+    },
+    {
+      "id": "SNECKO-MYSTICAL_OCTAHEDRON",
+      "codeName": "",
+      "name": {
+        "en": "神秘八面體",
+        "zh": "神秘八面体"
+      },
+      "description": {
+        "en": "拾起时，选择一张[gold]溢出[/gold]牌，[gold]附魔[/gold]：[purple]注料[/purple]。",
+        "zh": "拾起时，选择一张[gold]溢出[/gold]牌，[gold]附魔[/gold]：[purple]注料[/purple]。"
+      },
+      "rarity": "SPECIAL",
+      "color": "DOWNFALL",
+      "colorName": {
+        "en": "Downfall",
+        "zh": "崩坠"
+      },
+      "colorPillBg": null,
+      "colorPillFg": null,
+      "energyIcon": null,
+      "img": null,
+      "imageResource": "",
+      "deprecated": false
+    },
+    {
+      "id": "SNECKO-RARE_BOOSTER_BOX",
+      "codeName": "",
+      "name": {
+        "en": "稀有增強箱",
+        "zh": "稀有补充箱"
+      },
+      "description": {
+        "en": "拾起时，获得一张稀有[gold]异色[/gold]牌。",
+        "zh": "拾起时，获得一张稀有[gold]异色[/gold]牌。"
+      },
+      "rarity": "SPECIAL",
+      "color": "DOWNFALL",
+      "colorName": {
+        "en": "Downfall",
+        "zh": "崩坠"
+      },
+      "colorPillBg": null,
+      "colorPillFg": null,
+      "energyIcon": null,
+      "img": null,
+      "imageResource": "",
+      "deprecated": false
+    },
+    {
+      "id": "SNECKO-RING_OF_THE_SNEK",
+      "codeName": "RingOfTheSnek",
+      "name": {
+        "en": "異蛇戒指",
+        "zh": "异蛇戒指"
+      },
+      "description": {
+        "en": "每当你触发[blue]{Cards}[/blue]次[gold]溢出[/gold]时，给予随机敌人[blue]{WeakPower}[/blue]层[gold]虚弱[/gold]和[blue]{VulnerablePower}[/blue]层[gold]易伤[/gold]。",
+        "zh": "每当你触发[blue]{Cards}[/blue]次[gold]溢出[/gold]时，给予随机敌人[blue]{WeakPower}[/blue]层[gold]虚弱[/gold]和[blue]{VulnerablePower}[/blue]层[gold]易伤[/gold]。"
+      },
+      "rarity": "RARE",
+      "color": "SNECKOCODE",
+      "colorName": {
+        "en": "Sneckocode",
+        "zh": "SNECKOCODE"
+      },
+      "colorPillBg": null,
+      "colorPillFg": null,
+      "energyIcon": null,
+      "img": "assets/relics/ringofthesnek.png",
+      "imageResource": "",
+      "deprecated": false
+    },
+    {
+      "id": "SNECKO-SEAL_OF_APPROVAL",
+      "codeName": "",
+      "name": {
+        "en": "徽章",
+        "zh": "认可印章"
+      },
+      "description": {
+        "en": "拾起时，从[blue]5[/blue]张罕见[gold]异色[/gold]能力牌中选择[blue]1[/blue]张加入你的[gold]牌组[/gold]。",
+        "zh": "拾起时，从[blue]5[/blue]张罕见[gold]异色[/gold]能力牌中选择[blue]1[/blue]张加入你的[gold]牌组[/gold]。"
+      },
+      "rarity": "SPECIAL",
+      "color": "DOWNFALL",
+      "colorName": {
+        "en": "Downfall",
+        "zh": "崩坠"
+      },
+      "colorPillBg": null,
+      "colorPillFg": null,
+      "energyIcon": null,
+      "img": null,
+      "imageResource": "",
+      "deprecated": false
+    },
+    {
+      "id": "SNECKO-SLEEVED_ACE",
+      "codeName": "SleevedAce",
+      "name": {
+        "en": "袖中王牌",
+        "zh": "袖中王牌"
+      },
+      "description": {
+        "en": "在每场战斗开始时，将一张[gold]记号牌+[/gold]加入你的[gold]手牌[/gold]。",
+        "zh": "在每场战斗开始时，将一张[gold]记号牌+[/gold]加入你的[gold]手牌[/gold]。"
+      },
+      "rarity": "UNCOMMON",
+      "color": "SNECKOCODE",
+      "colorName": {
+        "en": "Sneckocode",
+        "zh": "SNECKOCODE"
+      },
+      "colorPillBg": null,
+      "colorPillFg": null,
+      "energyIcon": null,
+      "img": "assets/relics/sleevedace.png",
+      "imageResource": "",
+      "deprecated": false
+    },
+    {
+      "id": "SNECKO-SNAKE_CHARMERS_FLUTE",
+      "codeName": "SnakeCharmersFlute",
+      "name": {
+        "en": "蛇笛",
+        "zh": "蛇笛"
+      },
+      "description": {
+        "en": "[gold]混淆[/gold]后耗能不为[blue]3[/blue]。",
+        "zh": "[gold]混淆[/gold]后耗能不为[blue]3[/blue]。"
+      },
+      "rarity": "ANCIENT",
+      "color": "SNECKOCODE",
+      "colorName": {
+        "en": "Sneckocode",
+        "zh": "SNECKOCODE"
+      },
+      "colorPillBg": null,
+      "colorPillFg": null,
+      "energyIcon": null,
+      "img": "assets/relics/snakecharmersflute.png",
+      "imageResource": "",
+      "deprecated": false
+    },
+    {
+      "id": "SNECKO-SNECKO_SOUL",
+      "codeName": "SneckoSoul",
+      "name": {
+        "en": "異蛇之魂",
+        "zh": "异蛇之魂"
+      },
+      "description": {
+        "en": "在每场战斗开始时，将一张[gold]灵魂骰掷[/gold]加入你的[gold]手牌[/gold]。",
+        "zh": "在每场战斗开始时，将一张[gold]灵魂骰掷[/gold]加入你的[gold]手牌[/gold]。"
+      },
+      "rarity": "STARTER",
+      "color": "SNECKOCODE",
+      "colorName": {
+        "en": "Sneckocode",
+        "zh": "SNECKOCODE"
+      },
+      "colorPillBg": null,
+      "colorPillFg": null,
+      "energyIcon": null,
+      "img": "assets/relics/sneckosoul.png",
+      "imageResource": "",
+      "deprecated": false
+    },
+    {
+      "id": "SNECKO-SUPER_SNECKO_SOUL",
+      "codeName": "SuperSneckoSoul",
+      "name": {
+        "en": "超級蛇魂",
+        "zh": "超级蛇魂"
+      },
+      "description": {
+        "en": "每场战斗回合开始时，获得一张[gold]灵魂骰掷[/gold]。\n在你的回合开始时，抽1张牌并将其[gold]混淆[/gold]。",
+        "zh": "每场战斗回合开始时，获得一张[gold]灵魂骰掷[/gold]。\n在你的回合开始时，抽1张牌并将其[gold]混淆[/gold]。"
+      },
+      "rarity": "STARTER",
+      "color": "SNECKOCODE",
+      "colorName": {
+        "en": "Sneckocode",
+        "zh": "SNECKOCODE"
+      },
+      "colorPillBg": null,
+      "colorPillFg": null,
+      "energyIcon": null,
+      "img": "assets/relics/supersneckosoul.png",
+      "imageResource": "",
+      "deprecated": false
+    },
+    {
+      "id": "SNECKO-UNIDENTIFIED_EGG",
+      "codeName": "UnidentifiedEgg",
+      "name": {
+        "en": "未知之蛋",
+        "zh": "未知之蛋"
+      },
+      "description": {
+        "en": "每当你将一张[gold]异色[/gold]牌加入你的[gold]牌组[/gold]时，将其[gold]升级[/gold]。\n拾起时，随机[gold]升级[/gold][blue]{Cards}[/blue]张[gold]异色牌[/gold]。",
+        "zh": "每当你将一张[gold]异色[/gold]牌加入你的[gold]牌组[/gold]时，将其[gold]升级[/gold]。\n拾起时，随机[gold]升级[/gold][blue]{Cards}[/blue]张[gold]异色牌[/gold]。"
+      },
+      "rarity": "RARE",
+      "color": "SNECKOCODE",
+      "colorName": {
+        "en": "Sneckocode",
+        "zh": "SNECKOCODE"
+      },
+      "colorPillBg": null,
+      "colorPillFg": null,
+      "energyIcon": null,
+      "img": "assets/relics/unidentifiedegg.png",
+      "imageResource": "",
+      "deprecated": false
+    }
+  ]
+}
