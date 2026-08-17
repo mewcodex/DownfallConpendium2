@@ -899,21 +899,41 @@ html[lang^="zh"] .card-desc {
 }
 
 .card-attached-tip {
-  max-width: 320px;
-  padding: 12px 14px;
-  border: 2px solid #526873;
-  border-radius: 6px;
-  background: linear-gradient(180deg, #26343b 0%, #1d2a30 100%);
+  width: 360px;
+  max-width: none;
+  min-height: 118px;
+  box-sizing: border-box;
+  padding: 16px 22px 28px;
+  border: 0;
+  border-width: 43px 91px 32px 55px;
+  border-style: solid;
+  border-image: url("assets/hover-ui/hover-tip.png") 43 91 32 55 fill stretch;
+  border-radius: 0;
+  background: transparent;
   color: #fdf4e0;
-  box-shadow: 0 4px 0 rgba(0, 0, 0, 0.5), 0 10px 20px rgba(0, 0, 0, 0.28);
+  box-shadow: none;
+}
+
+.card-attached-tip-debuff {
+  border-image-source: url("assets/hover-ui/hover-tip-debuff.png");
 }
 
 .card-attached-tip .kw-tip-name {
+  display: flex;
+  align-items: center;
+  gap: 5px;
   margin-bottom: 6px;
   color: #efc851;
   font-family: "Noto Sans Mono CJK SC UI", "PingFang SC", "Microsoft YaHei", sans-serif;
   font-size: 1rem;
   font-weight: 400;
+}
+
+.card-attached-tip-icon {
+  width: 28px;
+  height: 28px;
+  object-fit: contain;
+  flex: 0 0 28px;
 }
 
 .card-attached-tip .kw-tip-desc {

@@ -1077,9 +1077,11 @@ function showCardAttachmentTooltip(card, anchorRect, langOverride = null) {
       upgradeDynamicValues: Object.assign({}, card.upgradeDynamicValues || {}, entry.dynamicValues || {}, typeof sourceUpgradeValue === "number" ? { Amount: sourceUpgradeValue } : {}),
     });
     const panel = document.createElement("section");
-    panel.className = "card-attached-tip";
+    const isDebuff = ["POISON_POWER", "WEAK_POWER", "VULNERABLE_POWER"].includes(entry.id);
+    panel.className = `card-attached-tip${isDebuff ? " card-attached-tip-debuff" : ""}`;
+    const icon = entry.icon ? `<img class="card-attached-tip-icon" src="${entry.icon}" alt="">` : "";
     panel.innerHTML = `
-      <div class="kw-tip-name">${withTempLang(language, () => hideZhSpacesAfterFormatting(escapeHtml(entry.name[language])))}</div>
+      <div class="kw-tip-name">${icon}${withTempLang(language, () => hideZhSpacesAfterFormatting(escapeHtml(entry.name[language])))}</div>
       <div class="kw-tip-desc">${withTempLang(language, () => formatTooltipDescriptionText(entry.description[language], tipContext))}</div>
     `;
     tipsColumn.appendChild(panel);
