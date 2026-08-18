@@ -1333,6 +1333,7 @@ async function init() {
 
   state.relicData = await relicRes.json();
   elements.pageSize.closest("label").hidden = true;
+  elements.deprecatedFilter.closest("label").hidden = true;
   state.cardsData = await cardRes.json();
   state.relics = (state.relicData && state.relicData.relics) || [];
 

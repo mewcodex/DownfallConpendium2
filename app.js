@@ -2354,6 +2354,7 @@ async function init() {
   }
   state.data = await response.json();
   elements.pageSize.closest("label").hidden = true;
+  elements.deprecatedFilter.closest("label").hidden = true;
   readStateFromUrl();
   buildKeywordZhIndex();
   buildBaseKeywordIndex();
