@@ -1187,6 +1187,7 @@ article.card[data-card-id] .card-visual-ancient .card-portrait {
   inset: -0.948% auto auto -1%;
   width: 99.667%;
   height: 99.763%;
+  clip-path: inset(1.019% 0 0.167% 1.517%);
   object-fit: fill;
   object-position: center;
   -webkit-mask-image: url("assets/card-ui/ancient/portrait-mask-large.png");
@@ -1300,6 +1301,10 @@ article.card[data-card-id] .card-visual-ancient .card-banner {
 
 article.card[data-card-id] .card-visual-ancient .card-face-title {
   z-index: 9;
+}
+
+article.card[data-card-id] .card-visual-ancient .card-face-cost {
+  z-index: 10;
 }
 
 .pager {
