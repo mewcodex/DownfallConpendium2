@@ -245,6 +245,12 @@ function localizeType(type) {
   return mapped[state.lang] || type;
 }
 
+function localizeCardTypeLabel(card) {
+  const type = localizeType(card.type);
+  if (!card.isSpell) return type;
+  return `${type} | ${state.lang === "zh" ? "法术" : "Spell"}`;
+}
+
 function getTypeTagClass(type) {
   if (!type) return "tag";
   if (type === "ATTACK") return "tag tag-type tag-type-attack";
@@ -1641,7 +1647,7 @@ function colorizeAfterlifeExtended(text) {
 function resolveCardBaseDescription(card, useUpgrade = state.showUpgrade) {
   const base = getDisplayDescriptionByMode(card, useUpgrade);
   const finisherSuffix = card && card.isFinisher && card.finisherLabel && card.finisherLabel[state.lang]
-    ? `\n${card.finisherLabel[state.lang]}`
+    ? `\n[gold]${card.finisherLabel[state.lang]}[/gold]`
     : "";
   const keywordIsActive = (entry) => entry && (
     entry.mode === "always"
@@ -1657,7 +1663,11 @@ function resolveCardBaseDescription(card, useUpgrade = state.showUpgrade) {
   const dynamicLines = (card.dynamicDescriptionLines || [])
     .map((entry) => entry && entry[state.lang])
     .filter(Boolean);
-  const decorate = (description) => [prefix, ...dynamicLines, description, ...suffix, finisherSuffix.trim()]
+  const gemSlots = (useUpgrade ? card.upgradeDynamicValues : card.dynamicValues)?.GemSlots;
+  const gemLines = typeof gemSlots === "number" && gemSlots > 0
+    ? Array.from({ length: gemSlots }, () => `[gold]${state.lang === "zh" ? "槽位" : "Socket"}[/gold]`)
+    : [];
+  const decorate = (description) => [prefix, ...dynamicLines, description, ...gemLines, ...suffix, finisherSuffix.trim()]
     .filter(Boolean)
     .join("\n");
 
@@ -1773,7 +1783,7 @@ function buildCardInnerHtml(card, descriptionHtml, options = {}) {
       <span class="card-banner" aria-hidden="true"></span>
       ${ancient ? `<span class="card-ancient-text-bg" aria-hidden="true"></span><span class="card-ancient-border" aria-hidden="true"></span><span class="card-ancient-border-glass" aria-hidden="true"></span>` : ""}
       ${cardHeadingHtml}
-      <span class="card-face-type">${localizeType(card.type)}</span>
+      <span class="card-face-type">${localizeCardTypeLabel(card)}</span>
     </div>`;
   const typeTagHtml = card.type
     ? `<span class="${getTypeTagClass(card.type)}"><span class="tag-label">${localizeType(card.type)}</span></span>`
@@ -1783,19 +1793,11 @@ function buildCardInnerHtml(card, descriptionHtml, options = {}) {
   if (card.colorPillFg) colorTagStyleVars.push(`--pill-fg:${card.colorPillFg}`);
   const colorTagStyle = colorTagStyleVars.length ? ` style="${colorTagStyleVars.join(";")}"` : "";
   const dynamicValues = useUpgrade ? (card.upgradeDynamicValues || {}) : (card.dynamicValues || {});
-  const gemSlots = dynamicValues.GemSlots;
-  const finisherTagHtml = card.isFinisher && card.finisherLabel && card.finisherLabel[state.lang]
-    ? `<span class="tag tag-feature">${escapeHtml(card.finisherLabel[state.lang])}</span>`
-    : "";
-  const gemSlotsTagHtml = typeof gemSlots === "number" && gemSlots > 0 && card.gemSlotLabel && card.gemSlotLabel[state.lang]
-    ? `<span class="tag tag-feature">${gemSlots} ${escapeHtml(card.gemSlotLabel[state.lang])}</span>`
-    : "";
   const metaTagsHtml = card.type === "CURSE"
     ? ""
     : `${card.rarity ? `<span class="${getRarityTagClass(card.rarity)}">${localizeRarity(card.rarity)}</span>` : ""}
         ${card.color ? `<span class="tag tag-color"${colorTagStyle}>${localizeColor(card)}</span>` : ""}
-        ${finisherTagHtml}
-        ${gemSlotsTagHtml}`;
+        `;
   const notInPoolBadge = isNotInPoolCard(card)
     ? `<span class="card-flag-not-in-pool">${getNotInPoolBadgeText(card)}</span>`
     : "";
@@ -1835,7 +1837,7 @@ function buildCardElement(card, suppressAnimation = false, previewMode = false, 
     HEXAGHOST: "hexaghost",
     SLIMEBOUND: "slimebound",
     SNECKO: "snecko",
-  }[card.color];
+  }[card.visualColor || card.color];
   const frameSource = card.type === "CURSE"
     ? "curse"
     : card.color === "COLORLESS" || card.color === "DOWNFALL" ? "colorless" : frameColor;
