@@ -1880,7 +1880,6 @@ function fitGameCardText(cardEl) {
   };
   const run = () => {
     fit(".card-face-title h3", 8, "width");
-    fit(".card-face-type", 10, "width");
     fit(".card-face-cost .card-cost-value", 22, "width");
     fit(".card-desc", 12, "height");
   };
