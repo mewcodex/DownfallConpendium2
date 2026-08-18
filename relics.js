@@ -352,10 +352,7 @@ function renderBracketColorSyntax(text) {
 }
 
 function finalizeZhHtmlSpacing(html) {
-  if (state.lang !== "zh") return html;
-  return (html || "").replace(/(^|>)([^<>]+)(?=<|$)/g, (_m, lead, content) => {
-    return `${lead}${content.replace(/\s+/g, "")}`;
-  });
+  return html || "";
 }
 
 function normalizeSearchText(text) {

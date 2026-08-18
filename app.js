@@ -533,26 +533,17 @@ function attachAfterlifeHover(text) {
 
 function normalizeDescriptionSpacing(text) {
   let normalized = text || "";
-  // Remove spaces around energy symbols for all languages.
-  normalized = normalized.replace(/\s*\[E\]\s*/g, "[E]");
 
   if (state.lang === "zh") {
     // Normalize full-width punctuation for zh output.
     normalized = normalized.replace(/,/g, "，").replace(/｡/g, "。");
-    // Remove spaces around plain numeric literals in zh descriptions.
-    normalized = normalized.replace(/\s*(-?\d+(?:\.\d+)?)\s*/g, "$1");
   }
 
   return normalized;
 }
 
 function hideZhSpacesAfterFormatting(htmlText) {
-  if (!htmlText || state.lang !== "zh") return htmlText || "";
-  // Remove visible spaces in text segments while preserving HTML tags/attributes.
-  return htmlText
-    .split(/(<[^>]+>)/g)
-    .map((segment) => (segment.startsWith("<") ? segment : segment.replace(/[ \u3000]+/g, "")))
-    .join("");
+  return htmlText || "";
 }
 
 function stripRemoveSpaceMarkers(htmlText) {
