@@ -1739,7 +1739,7 @@ function buildCardInnerHtml(card, descriptionHtml, options = {}) {
       <span class="card-portrait-border" aria-hidden="true"></span>
       <span class="card-frame" aria-hidden="true"></span>
       <span class="card-banner" aria-hidden="true"></span>
-      ${ancient ? `<span class="card-ancient-text-bg" aria-hidden="true"></span><span class="card-ancient-border" aria-hidden="true"></span>` : ""}
+      ${ancient ? `<span class="card-ancient-text-bg" aria-hidden="true"></span><span class="card-ancient-border" aria-hidden="true"></span><span class="card-ancient-border-glass" aria-hidden="true"></span>` : ""}
       ${cardHeadingHtml}
       <span class="card-face-type">${localizeType(card.type)}</span>
     </div>`;

@@ -1197,6 +1197,7 @@ article.card[data-card-id] .card-visual-ancient .card-portrait-border {
 }
 
 article.card[data-card-id] .card-ancient-border,
+article.card[data-card-id] .card-ancient-border-glass,
 article.card[data-card-id] .card-ancient-text-bg {
   position: absolute;
   inset: 0;
@@ -1207,8 +1208,16 @@ article.card[data-card-id] .card-ancient-text-bg {
 }
 
 article.card[data-card-id] .card-ancient-border {
-  z-index: 5;
+  z-index: 6;
+  inset: -2.3% auto auto -1.3%;
+  width: 102%;
+  height: 104.3%;
   background: url("assets/card-ui/ancient/border.png") center / 100% 100% no-repeat;
+}
+
+article.card[data-card-id] .card-ancient-border-glass {
+  z-index: 7;
+  background: url("assets/card-ui/ancient/border-glass-overlay.png") center / 100% 100% no-repeat;
 }
 
 article.card[data-card-id] .card-ancient-text-bg {
@@ -1235,7 +1244,7 @@ article.card[data-card-id] .card-visual-ancient.card-visual-power .card-ancient-
 }
 
 article.card[data-card-id] .card-visual-ancient .card-banner {
-  z-index: 6;
+  z-index: 8;
   inset: 0.95% auto auto -4.33%;
   width: 109%;
   height: 19.67%;
@@ -1243,7 +1252,7 @@ article.card[data-card-id] .card-visual-ancient .card-banner {
 }
 
 article.card[data-card-id] .card-visual-ancient .card-face-title {
-  z-index: 7;
+  z-index: 9;
 }
 
 .pager {
