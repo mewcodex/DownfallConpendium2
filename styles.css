@@ -1316,6 +1316,9 @@ article.card[data-card-id] .card-body .card-desc {
   white-space: normal;
   overflow-wrap: anywhere;
   text-shadow: 1px 1px 0 rgba(0, 0, 0, 0.35), 2px 2px 0 rgba(0, 0, 0, 0.35);
+  pointer-events: auto;
+  user-select: text;
+  -webkit-user-select: text;
 }
 
 article.card[data-card-id][data-render-lang="zh"] .card-body .card-desc {
@@ -1334,6 +1337,9 @@ article.card[data-card-id] .card-desc-content {
   text-align: center;
   white-space: pre-wrap;
   overflow-wrap: anywhere;
+  pointer-events: auto;
+  user-select: text;
+  -webkit-user-select: text;
 }
 
 article.card[data-card-id] .card-visual-ancient .card-portrait {
