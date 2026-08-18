@@ -1427,28 +1427,33 @@ function highlightPrefixedKeywords(text) {
 function highlightBaseKeywords(text) {
   if (!text) return "";
   return withProtectedCardNameRefs(text, (input) => {
-    let rendered = input;
+    const segments = input.split(/(<[^>]+>)/g);
+    const renderTextSegment = (segment) => {
+      let rendered = segment;
 
-    if (state.lang === "zh") {
-      const zhBoundary = "[^\\u4e00-\\u9fffA-Za-z0-9_]";
-      state.baseKeywordTerms.zh.forEach((term) => {
+      if (state.lang === "zh") {
+        const zhBoundary = "[^\\u4e00-\\u9fffA-Za-z0-9_]";
+        state.baseKeywordTerms.zh.forEach((term) => {
+          const escaped = escapeRegExp(term);
+          if (!escaped) return;
+          const hasTooltip = Boolean(findKeywordEntry(term) || getHardcodedKeywordEntry(term));
+          const reg = new RegExp(`(^|${zhBoundary})(${escaped})(?=$|${zhBoundary})`, "g");
+          rendered = rendered.replace(reg, (_full, lead, match) => hasTooltip ? `${lead}${renderKeywordSpan(match)}` : `${lead}${match}`);
+        });
+        return rendered;
+      }
+
+      state.baseKeywordTerms.en.forEach((term) => {
         const escaped = escapeRegExp(term);
         if (!escaped) return;
         const hasTooltip = Boolean(findKeywordEntry(term) || getHardcodedKeywordEntry(term));
-        const reg = new RegExp(`(^|${zhBoundary}|>)(${escaped})(?=$|${zhBoundary}|<)`, "g");
+        const reg = new RegExp(`(^|\\b)(${escaped})(?=\\b)`, "gi");
         rendered = rendered.replace(reg, (_full, lead, match) => hasTooltip ? `${lead}${renderKeywordSpan(match)}` : `${lead}${match}`);
       });
       return rendered;
-    }
+    };
 
-    state.baseKeywordTerms.en.forEach((term) => {
-      const escaped = escapeRegExp(term);
-      if (!escaped) return;
-      const hasTooltip = Boolean(findKeywordEntry(term) || getHardcodedKeywordEntry(term));
-      const reg = new RegExp(`(^|\\b|>)(${escaped})(?=\\b|<)`, "gi");
-      rendered = rendered.replace(reg, (_full, lead, match) => hasTooltip ? `${lead}${renderKeywordSpan(match)}` : `${lead}${match}`);
-    });
-    return rendered;
+    return segments.map((segment) => segment.startsWith("<") ? segment : renderTextSegment(segment)).join("");
   });
 }
 
