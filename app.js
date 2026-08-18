@@ -1724,7 +1724,7 @@ function buildCardInnerHtml(card, descriptionHtml, options = {}) {
     COLLECTOR: "assets/energy-icons/collector_card_collector_orb.png",
     GREMLIN: "assets/energy-icons/gremlin_card_gremlin_orb.png",
     GUARDIAN: "assets/energy-icons/guardian_card_guardian_orb.png",
-    HERMIT: "assets/energy-icons/hermit_card_default_gray_orb.png",
+    HERMIT: "assets/energy-icons/hermit-card-orb.png",
     HEXAGHOST: "assets/energy-icons/theHexaghost_card_hexaghost_orb.png",
     SLIMEBOUND: "assets/energy-icons/slimebound_card_slimebound_orb.png",
     SNECKO: "assets/energy-icons/sneckomod_card_snecko_orb.png",
