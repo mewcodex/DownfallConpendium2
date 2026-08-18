@@ -1081,7 +1081,7 @@ article.card[data-card-id] .card-banner {
 }
 
 article.card[data-card-id] .card-face-title {
-  inset: 2.2% 0 auto;
+  inset: 2.2% 7% auto;
   height: 9.48%;
   display: block;
   padding: 0;
