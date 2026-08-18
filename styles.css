@@ -1189,6 +1189,14 @@ article.card[data-card-id] .card-visual-ancient .card-portrait {
   height: 100%;
   object-fit: cover;
   object-position: center;
+  -webkit-mask-image: url("assets/card-ui/ancient/portrait-mask-large.png");
+  mask-image: url("assets/card-ui/ancient/portrait-mask-large.png");
+  -webkit-mask-size: 100% 100%;
+  mask-size: 100% 100%;
+  -webkit-mask-repeat: no-repeat;
+  mask-repeat: no-repeat;
+  -webkit-mask-mode: alpha;
+  mask-mode: alpha;
 }
 
 article.card[data-card-id] .card-visual-ancient .card-frame,
