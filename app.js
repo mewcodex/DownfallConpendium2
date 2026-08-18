@@ -2142,8 +2142,24 @@ function syncTranslatorGridLayout() {
   elements.grid.style.justifyContent = "center";
 }
 
+function getCardGridColumns() {
+  const minCardWidth = 184;
+  const columnGap = 28;
+  let columns = Math.floor((elements.grid.clientWidth + columnGap) / (minCardWidth + columnGap));
+  columns = Math.max(1, columns);
+  if (state.translatorMode) columns = Math.max(2, columns - (columns % 2));
+  return columns;
+}
+
+function syncCardPageCapacity() {
+  syncTranslatorGridLayout();
+  state.pageSize = getCardGridColumns() * 6;
+  elements.pageSize.value = String(state.pageSize);
+}
+
 function renderCards() {
   if (!state.data) return;
+  syncCardPageCapacity();
   hideKeywordTooltip();
   hideCardPreviewTooltip();
   const suppressAnimation = state.suppressNextCardAnimation;
@@ -2319,7 +2335,14 @@ function bindEvents() {
   });
 
   bindAttachedHoverEvents();
-  window.addEventListener("resize", syncTranslatorGridLayout);
+  window.addEventListener("resize", () => {
+    const previousPageSize = state.pageSize;
+    syncCardPageCapacity();
+    if (state.pageSize !== previousPageSize) {
+      state.page = 1;
+      renderCards();
+    }
+  });
 
   window.addEventListener("popstate", () => {
     readStateFromUrl();
@@ -2339,6 +2362,7 @@ async function init() {
     return;
   }
   state.data = await response.json();
+  elements.pageSize.closest("label").hidden = true;
   readStateFromUrl();
   buildKeywordZhIndex();
   buildBaseKeywordIndex();

@@ -350,13 +350,20 @@ select {
 
 /* Relics use the same data card structure, but need a readable document-style body. */
 .relic-page #relicGrid {
-  grid-template-columns: repeat(auto-fill, minmax(240px, 280px));
+  grid-template-columns: repeat(auto-fill, minmax(184px, 208px));
   justify-content: center;
-  gap: 24px;
+  column-gap: 28px;
+  row-gap: 34px;
+}
+
+.selects label[hidden],
+.sort-row label[hidden] {
+  display: none !important;
 }
 
 .relic-page #relicGrid > .card {
   aspect-ratio: 598 / 844;
+  width: 208px;
   border: 1px solid rgba(68, 61, 49, 0.28);
   border-radius: 8px;
   background: #f7f0e2;
@@ -371,7 +378,7 @@ select {
   height: auto;
   min-height: 0;
   object-fit: contain;
-  background: #fbf5e9;
+  background: linear-gradient(180deg, #e9e2d5 0%, #ddd4c6 100%);
   padding: 18px;
 }
 

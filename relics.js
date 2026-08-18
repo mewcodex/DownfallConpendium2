@@ -1155,8 +1155,30 @@ function fitRelicDescriptions() {
   }
 }
 
+function syncRelicTranslatorGridLayout() {
+  const minCardWidth = 184;
+  const columnGap = 28;
+  let columns = Math.floor((elements.grid.clientWidth + columnGap) / (minCardWidth + columnGap));
+  columns = Math.max(1, columns);
+  if (state.translatorMode) columns = Math.max(2, columns - (columns % 2));
+  if (state.translatorMode) {
+    elements.grid.style.gridTemplateColumns = `repeat(${columns}, minmax(0, 208px))`;
+    elements.grid.style.justifyContent = "center";
+  } else {
+    elements.grid.style.removeProperty("grid-template-columns");
+  }
+  return columns;
+}
+
+function syncRelicPageCapacity() {
+  const columns = syncRelicTranslatorGridLayout();
+  state.pageSize = columns * 6;
+  elements.pageSize.value = String(state.pageSize);
+}
+
 function render() {
   filterAndSort();
+  syncRelicPageCapacity();
 
   const total = state.filtered.length;
   state.pageSize = Number(elements.pageSize.value || state.pageSize || 20);
@@ -1195,6 +1217,7 @@ function render() {
 }
 
 function renderCurrentPage() {
+  syncRelicPageCapacity();
   const total = state.filtered.length;
   state.pageSize = Number(elements.pageSize.value || state.pageSize || 20);
   const pageCount = Math.max(1, Math.ceil(total / state.pageSize));
@@ -1281,6 +1304,15 @@ function bindControls() {
     updateTranslatorEntryLink();
   });
 
+  window.addEventListener("resize", () => {
+    const previousPageSize = state.pageSize;
+    syncRelicPageCapacity();
+    if (state.pageSize !== previousPageSize) {
+      state.page = 1;
+      render();
+    }
+  });
+
   elements.fontStyleToggle.addEventListener("click", () => {
     state.useEnglishFontStyle = !state.useEnglishFontStyle;
     window.localStorage.setItem("downfall-english-font-style", state.useEnglishFontStyle ? "1" : "0");
@@ -1303,6 +1335,7 @@ async function init() {
   if (!cardRes.ok) throw new Error(`Failed to load card data: ${cardRes.status}`);
 
   state.relicData = await relicRes.json();
+  elements.pageSize.closest("label").hidden = true;
   state.cardsData = await cardRes.json();
   state.relics = (state.relicData && state.relicData.relics) || [];
 
