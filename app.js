@@ -208,6 +208,7 @@ function localizeColor(cardOrColor) {
   if (!cardOrColor) return "";
   const card = typeof cardOrColor === "object" ? cardOrColor : null;
   const color = card ? card.color : cardOrColor;
+  if (color === "GREMLIN" && state.lang === "zh") return "地精小队";
   if (card && card.colorName && card.colorName[state.lang]) {
     return card.colorName[state.lang];
   }
