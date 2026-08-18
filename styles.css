@@ -1592,3 +1592,186 @@ html.font-english-style .card-hover-attachments[data-render-lang="zh"] .card-att
     bottom: 62px;
   }
 }
+
+/* In-game compendium visual language: preserve the document layout, replace the
+   former light theme with the slate, teal, and gold UI treatment. */
+:root {
+  color-scheme: dark;
+  --ink: #f4e6b6;
+  --muted: #aab3b2;
+  --cream: #f8edc8;
+  --accent: #e8b83f;
+  --accent-strong: #f2c84d;
+  --teal: #4a9a9b;
+  --bg: #1c272b;
+  --card-bg: #263337;
+  --border: rgba(115, 151, 151, 0.42);
+  --shadow: 0 8px 18px rgba(0, 0, 0, 0.42);
+  --game-panel: #263c40;
+  --game-panel-dark: #172125;
+  --game-gold: #f0c84d;
+}
+
+body {
+  font-family: "Kreon Game", "Noto Sans Mono CJK SC UI", sans-serif;
+  color: var(--cream);
+  background:
+    linear-gradient(90deg, rgba(255, 255, 255, 0.018) 1px, transparent 1px),
+    #1c272b;
+  background-size: 7px 7px;
+}
+
+.page {
+  padding-top: 28px;
+}
+
+.hero {
+  background: linear-gradient(135deg, #263d40, #1f3034);
+  border: 2px solid #102024;
+  border-radius: 12px;
+  box-shadow: inset 0 0 0 1px rgba(93, 151, 151, 0.38), 0 8px 18px rgba(0, 0, 0, 0.38);
+  padding: 24px 28px;
+}
+
+.hero h1,
+.hero .subtitle,
+.hero .version-info,
+.summary,
+label span,
+.pager,
+.translator-entry {
+  font-family: "Kreon Game", "Noto Sans Mono CJK SC UI", sans-serif;
+}
+
+.hero h1 {
+  color: var(--game-gold);
+  font-size: clamp(2rem, 4vw, 3.2rem);
+  text-shadow: 2px 3px 0 #172125, 0 0 8px rgba(0, 0, 0, 0.45);
+}
+
+.hero .subtitle,
+.hero .version-info,
+.summary {
+  color: #c2caca;
+}
+
+.toggle,
+.search-btn,
+.pager button,
+.font-style-toggle {
+  font-family: "Kreon Game", "Noto Sans Mono CJK SC UI", sans-serif;
+}
+
+.toggle {
+  border: 2px solid #0f1c20;
+  border-radius: 7px;
+  background: #d9d9d1;
+  color: #1c272b;
+  box-shadow: inset 0 0 0 1px rgba(255, 255, 255, 0.42), 0 4px 8px rgba(0, 0, 0, 0.32);
+}
+
+.toggle.active,
+.search-btn:hover {
+  background: var(--game-gold);
+  color: #1b2528;
+  border-color: #142226;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.34);
+}
+
+.controls {
+  gap: 14px;
+}
+
+.selects label,
+.sort-row label,
+.search label {
+  color: var(--game-gold);
+}
+
+label span {
+  color: var(--game-gold);
+  text-shadow: 1px 2px 0 #152125;
+}
+
+select,
+.search-input-row input,
+.search-btn {
+  border: 2px solid #101d21;
+  border-radius: 6px;
+  background: #172125;
+  color: #f3e8c2;
+  box-shadow: inset 0 0 0 1px rgba(92, 140, 140, 0.25), 0 3px 7px rgba(0, 0, 0, 0.28);
+}
+
+select:focus,
+.search-input-row input:focus {
+  outline: 2px solid rgba(240, 200, 77, 0.72);
+  outline-offset: 1px;
+}
+
+.search-input-row input::placeholder {
+  color: #8d9898;
+}
+
+.search-btn {
+  color: var(--game-gold);
+  font-weight: 700;
+}
+
+.card {
+  border-color: rgba(105, 145, 145, 0.55);
+  box-shadow: 0 8px 18px rgba(0, 0, 0, 0.42), 0 0 0 1px rgba(10, 19, 22, 0.65);
+}
+
+.tag {
+  border: 1px solid rgba(19, 32, 35, 0.76);
+  border-radius: 4px;
+  background: #345d60;
+  color: #f5d25d;
+  box-shadow: inset 0 0 0 1px rgba(123, 181, 177, 0.22);
+}
+
+.pager button {
+  border-radius: 5px;
+  border-color: #102024;
+  background: #294447;
+  color: var(--game-gold);
+}
+
+.pager button:disabled {
+  color: #718080;
+  background: #202e32;
+}
+
+.font-style-toggle,
+.translator-entry a {
+  color: #c5caca;
+  border-bottom-color: rgba(197, 202, 202, 0.48);
+}
+
+.font-style-toggle:hover,
+.font-style-toggle.active,
+.translator-entry a:hover {
+  color: var(--game-gold);
+  border-bottom-color: var(--game-gold);
+}
+
+.floating-toggle {
+  border-radius: 6px;
+  background: #294447;
+  color: var(--game-gold);
+}
+
+.relic-page #relicGrid > .card {
+  border-color: #122126;
+  box-shadow: 0 8px 18px rgba(0, 0, 0, 0.44), inset 0 0 0 1px rgba(106, 153, 153, 0.24);
+}
+
+.relic-page #relicGrid > .card > img,
+.relic-page #relicGrid > .card > .placeholder {
+  background: linear-gradient(180deg, #8f9994, #737f7d);
+}
+
+.relic-page #relicGrid > .card > .card-body {
+  background: #263c40;
+}
