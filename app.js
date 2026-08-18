@@ -913,6 +913,7 @@ function formatTooltipDescriptionText(rawText, cardContext) {
 function showKeywordTooltip(entry, anchorRect, cardContext, langOverride = null) {
   if (!entry || !entry.description) return;
   const tip = getKeywordTooltip();
+  tip.dataset.renderLang = langOverride || state.lang;
   const name = withTempLang(langOverride, () => escapeHtml(entry.name || ""));
   const desc = withTempLang(langOverride, () => formatTooltipDescriptionText(entry.description || "", cardContext));
 
@@ -1068,6 +1069,7 @@ function showCardAttachmentTooltip(card, anchorRect, langOverride = null) {
   }
 
   const tip = getCardAttachmentTooltip();
+  tip.dataset.renderLang = language;
   tip.innerHTML = "";
   tip.classList.toggle("card-only-preview", !textTips.length && cardTips.length > 0);
   tip.classList.toggle("text-and-preview", textTips.length > 0 && cardTips.length > 0);

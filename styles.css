@@ -776,11 +776,14 @@ html[lang^="zh"] .card-desc {
 }
 
 .kw-tip-name {
+  font-family: "Kreon Game", serif;
   font-weight: 700;
   margin-bottom: 4px;
 }
 
 .kw-tip-desc {
+  font-family: "Kreon Game", serif;
+  font-weight: 400;
   font-size: 0.82rem;
   line-height: 1.35;
   color: #3e3832;
@@ -959,9 +962,9 @@ html[lang^="zh"] .card-desc {
   gap: 5px;
   margin-bottom: 6px;
   color: #efc851;
-  font-family: "Noto Sans Mono CJK SC UI", "PingFang SC", "Microsoft YaHei", sans-serif;
+  font-family: "Kreon Game", serif;
   font-size: 1rem;
-  font-weight: 400;
+  font-weight: 700;
 }
 
 .card-attached-tip-icon {
@@ -973,9 +976,25 @@ html[lang^="zh"] .card-desc {
 
 .card-attached-tip .kw-tip-desc {
   color: #fdf4e0;
-  font-family: "Noto Sans Mono CJK SC UI", "PingFang SC", "Microsoft YaHei", sans-serif;
+  font-family: "Kreon Game", serif;
   font-size: 0.92rem;
   line-height: 1.2;
+}
+
+.kw-tooltip[data-render-lang="zh"] .kw-tip-name,
+.card-hover-attachments[data-render-lang="zh"] .card-attached-tip .kw-tip-name,
+.kw-tooltip[data-render-lang="zh"] .kw-tip-desc,
+.card-hover-attachments[data-render-lang="zh"] .card-attached-tip .kw-tip-desc {
+  font-family: "Noto Sans Mono CJK SC UI", "PingFang SC", "Microsoft YaHei", sans-serif;
+  font-weight: 400;
+}
+
+.kw-tooltip[data-render-lang="zh"] .kw-tip-desc strong,
+.kw-tooltip[data-render-lang="zh"] .kw-tip-desc b,
+.card-hover-attachments[data-render-lang="zh"] .card-attached-tip .kw-tip-desc strong,
+.card-hover-attachments[data-render-lang="zh"] .card-attached-tip .kw-tip-desc b {
+  font-family: "Source Han Game", serif;
+  font-weight: 700;
 }
 
 .card-attached-previews {
@@ -1093,7 +1112,8 @@ article.card[data-card-id] .card-face-title {
 
 article.card[data-card-id] .card-face-title h3 {
   font-size: 8.67cqw;
-  font-weight: 400;
+  font-family: "Kreon Game", serif;
+  font-weight: 700;
   letter-spacing: 1px;
   line-height: 1.54;
   width: 100%;
@@ -1106,6 +1126,11 @@ article.card[data-card-id] .card-face-title h3 {
   text-shadow:
     0 0 2px rgba(0, 0, 0, 0.34),
     0 0 4px rgba(0, 0, 0, 0.45);
+}
+
+article.card[data-card-id][data-render-lang="zh"] .card-face-title h3 {
+  font-family: "Noto Sans Mono CJK SC UI", "PingFang SC", "Microsoft YaHei", sans-serif;
+  font-weight: 400;
 }
 
 article.card[data-card-id] .card-face-cost {
@@ -1195,7 +1220,7 @@ article.card[data-card-id] .card-body .card-desc {
   padding: 2% 2.67%;
   overflow: hidden;
   color: #fdf4e0;
-  font-family: "Noto Sans Mono CJK SC UI", "PingFang SC", "Microsoft YaHei", sans-serif;
+  font-family: "Kreon Game", serif;
   font-size: 7cqw;
   line-height: 1.3;
   font-weight: 400;
@@ -1204,6 +1229,16 @@ article.card[data-card-id] .card-body .card-desc {
   white-space: normal;
   overflow-wrap: anywhere;
   text-shadow: 1px 1px 0 rgba(0, 0, 0, 0.35), 2px 2px 0 rgba(0, 0, 0, 0.35);
+}
+
+article.card[data-card-id][data-render-lang="zh"] .card-body .card-desc {
+  font-family: "Noto Sans Mono CJK SC UI", "PingFang SC", "Microsoft YaHei", sans-serif;
+}
+
+article.card[data-card-id][data-render-lang="zh"] .card-body .card-desc strong,
+article.card[data-card-id][data-render-lang="zh"] .card-body .card-desc b {
+  font-family: "Source Han Game", serif;
+  font-weight: 700;
 }
 
 article.card[data-card-id] .card-desc-content {
