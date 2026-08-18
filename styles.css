@@ -1184,10 +1184,10 @@ article.card[data-card-id] .card-desc-content {
 }
 
 article.card[data-card-id] .card-visual-ancient .card-portrait {
-  inset: 0;
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
+  inset: -0.948% auto auto -1%;
+  width: 99.667%;
+  height: 99.763%;
+  object-fit: fill;
   object-position: center;
   -webkit-mask-image: url("assets/card-ui/ancient/portrait-mask-large.png");
   mask-image: url("assets/card-ui/ancient/portrait-mask-large.png");
@@ -1217,22 +1217,52 @@ article.card[data-card-id] .card-ancient-text-bg {
 
 article.card[data-card-id] .card-ancient-border {
   z-index: 6;
-  inset: -2.3% auto auto -1.3%;
+  inset: -2.844% auto auto -1.333%;
   width: 102%;
-  height: 104.3%;
-  background: url("assets/card-ui/ancient/border.png") center / 100% 100% no-repeat;
+  height: 104.265%;
+  background: url("assets/card-ui/ancient/border-modulated.png") center / contain no-repeat;
+  mix-blend-mode: plus-lighter;
+  opacity: 0.502;
 }
 
 article.card[data-card-id] .card-ancient-border-glass {
   z-index: 7;
-  background: url("assets/card-ui/ancient/border-glass-overlay.png") center / 100% 100% no-repeat;
+  inset: 0.069% auto auto 0.512%;
+  width: 98.424%;
+  height: 98.58%;
+  background: rgba(255, 255, 255, 0.15);
+  -webkit-backdrop-filter: brightness(1.15);
+  backdrop-filter: brightness(1.15);
+  -webkit-mask-image:
+    url("assets/card-ui/ancient/glass-shape.png"),
+    url("assets/card-ui/ancient/border-glass-overlay.png");
+  mask-image:
+    url("assets/card-ui/ancient/glass-shape.png"),
+    url("assets/card-ui/ancient/border-glass-overlay.png");
+  -webkit-mask-size: 100% 100%, 100% 100%;
+  mask-size: 100% 100%, 100% 100%;
+  -webkit-mask-repeat: no-repeat;
+  mask-repeat: no-repeat;
+  -webkit-mask-composite: source-in;
+  mask-composite: intersect;
+}
+
+article.card[data-card-id] .card-ancient-border-glass::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: rgba(255, 255, 255, 0.2);
+  -webkit-mask: url("assets/card-ui/ancient/glass-corner-weight.png") center / 100% 100% no-repeat;
+  mask: url("assets/card-ui/ancient/glass-corner-weight.png") center / 100% 100% no-repeat;
+  -webkit-mask-mode: luminance;
+  mask-mode: luminance;
 }
 
 article.card[data-card-id] .card-ancient-text-bg {
   z-index: 4;
-  inset: 45.5% auto auto 6%;
-  width: 88%;
-  height: 48%;
+  inset: 45.69% auto auto 6.936%;
+  width: 85.84%;
+  height: 45.036%;
   background-position: center;
   background-size: 100% 100%;
   background-repeat: no-repeat;
@@ -1247,7 +1277,16 @@ article.card[data-card-id] .card-visual-ancient.card-visual-attack .card-ancient
   background-image: url("assets/card-ui/ancient/text-attack.png");
 }
 
+article.card[data-card-id] .card-visual-ancient.card-visual-skill .card-ancient-text-bg {
+  inset: 54.356% auto auto 6.683%;
+  width: 85.588%;
+  height: 38.548%;
+}
+
 article.card[data-card-id] .card-visual-ancient.card-visual-power .card-ancient-text-bg {
+  inset: 44.787% auto auto 6.683%;
+  width: 86%;
+  height: 45.758%;
   background-image: url("assets/card-ui/ancient/text-power.png");
 }
 
@@ -1256,7 +1295,7 @@ article.card[data-card-id] .card-visual-ancient .card-banner {
   inset: 0.95% auto auto -4.33%;
   width: 109%;
   height: 19.67%;
-  background-image: url("assets/card-ui/ancient/banner.png");
+  background: url("assets/card-ui/ancient/banner.png") center / cover no-repeat;
 }
 
 article.card[data-card-id] .card-visual-ancient .card-face-title {
