@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-08-18T03:16:27.772712Z",
+  "generatedAt": "2026-08-18T03:24:12.114836Z",
   "modVersion": "0.1.13",
-  "translationVersion": "2026_08_18_03_00_42_c86949",
+  "translationVersion": "2026_08_18_11_00_14_c3d1a2",
   "baseKeywords": [],
   "keywords": {
     "en": [],
@@ -43,7 +43,7 @@
           },
           "description": {
             "en": "Place this card into your [gold]Sequence[/gold].\nWhen it holds [blue]3[/blue] cards, their effects above this keyword are merged into a Function that costs [blue]1[/blue].",
-            "zh": "将此牌置入[gold]编码序列[/gold]。\n当[gold]编码序列[/gold]中拥有[blue]3[/blue]张牌时，这些牌在该关键[gold]编码[/gold]上方的效果将被合并为一个耗能为[blue]1[/blue]的[gold]方法[/gold]，并加入你的[gold]手牌[/gold]。"
+            "zh": "将此牌置入[gold]编码序列[/gold]。\n当[gold]编码序列[/gold]中拥有[blue]3[/blue]张牌时，这些牌的在[gold]编码[/gold]上方的效果将被合并为一个耗能为[blue]1[/blue]的[gold]方法[/gold]，并加入你的[gold]手牌[/gold]。"
           },
           "sourceValueKey": null
         }
@@ -84,7 +84,7 @@
           },
           "description": {
             "en": "Place this card into your [gold]Sequence[/gold].\nWhen it holds [blue]3[/blue] cards, their effects above this keyword are merged into a Function that costs [blue]1[/blue].",
-            "zh": "将此牌置入[gold]编码序列[/gold]。\n当[gold]编码序列[/gold]中拥有[blue]3[/blue]张牌时，这些牌在该关键[gold]编码[/gold]上方的效果将被合并为一个耗能为[blue]1[/blue]的[gold]方法[/gold]，并加入你的[gold]手牌[/gold]。"
+            "zh": "将此牌置入[gold]编码序列[/gold]。\n当[gold]编码序列[/gold]中拥有[blue]3[/blue]张牌时，这些牌的在[gold]编码[/gold]上方的效果将被合并为一个耗能为[blue]1[/blue]的[gold]方法[/gold]，并加入你的[gold]手牌[/gold]。"
           },
           "sourceValueKey": null
         }
@@ -109,7 +109,7 @@
       },
       "description": {
         "en": "[gold]Upgrade[/gold] the first [blue]{Cards:diff()}[/blue] unupgraded [gold]Encode[/gold] cards you draw each combat.",
-        "zh": "每场战斗中，[gold]升级[/gold]你抽到的前[blue]{Cards:diff()}[/blue]张未升级的[gold]编码[/gold]牌。"
+        "zh": "每场战斗中，[gold]升级[/gold]你抽到的{Amount:cond:>1?前|第}[blue]{Cards:diff()}[/blue]张未升级的[gold]编码[/gold]牌。"
       },
       "rarity": "UNCOMMON",
       "color": "AUTOMATON",
@@ -138,7 +138,7 @@
           },
           "description": {
             "en": "Place this card into your [gold]Sequence[/gold].\nWhen it holds [blue]3[/blue] cards, their effects above this keyword are merged into a Function that costs [blue]1[/blue].",
-            "zh": "将此牌置入[gold]编码序列[/gold]。\n当[gold]编码序列[/gold]中拥有[blue]3[/blue]张牌时，这些牌在该关键[gold]编码[/gold]上方的效果将被合并为一个耗能为[blue]1[/blue]的[gold]方法[/gold]，并加入你的[gold]手牌[/gold]。"
+            "zh": "将此牌置入[gold]编码序列[/gold]。\n当[gold]编码序列[/gold]中拥有[blue]3[/blue]张牌时，这些牌的在[gold]编码[/gold]上方的效果将被合并为一个耗能为[blue]1[/blue]的[gold]方法[/gold]，并加入你的[gold]手牌[/gold]。"
           },
           "sourceValueKey": null
         }
@@ -345,7 +345,7 @@
           },
           "description": {
             "en": "Place this card into your [gold]Sequence[/gold].\nWhen it holds [blue]3[/blue] cards, their effects above this keyword are merged into a Function that costs [blue]1[/blue].",
-            "zh": "将此牌置入[gold]编码序列[/gold]。\n当[gold]编码序列[/gold]中拥有[blue]3[/blue]张牌时，这些牌在该关键[gold]编码[/gold]上方的效果将被合并为一个耗能为[blue]1[/blue]的[gold]方法[/gold]，并加入你的[gold]手牌[/gold]。"
+            "zh": "将此牌置入[gold]编码序列[/gold]。\n当[gold]编码序列[/gold]中拥有[blue]3[/blue]张牌时，这些牌的在[gold]编码[/gold]上方的效果将被合并为一个耗能为[blue]1[/blue]的[gold]方法[/gold]，并加入你的[gold]手牌[/gold]。"
           },
           "sourceValueKey": null
         }
@@ -399,7 +399,7 @@
           },
           "description": {
             "en": "Place this card into your [gold]Sequence[/gold].\nWhen it holds [blue]3[/blue] cards, their effects above this keyword are merged into a Function that costs [blue]1[/blue].",
-            "zh": "将此牌置入[gold]编码序列[/gold]。\n当[gold]编码序列[/gold]中拥有[blue]3[/blue]张牌时，这些牌在该关键[gold]编码[/gold]上方的效果将被合并为一个耗能为[blue]1[/blue]的[gold]方法[/gold]，并加入你的[gold]手牌[/gold]。"
+            "zh": "将此牌置入[gold]编码序列[/gold]。\n当[gold]编码序列[/gold]中拥有[blue]3[/blue]张牌时，这些牌的在[gold]编码[/gold]上方的效果将被合并为一个耗能为[blue]1[/blue]的[gold]方法[/gold]，并加入你的[gold]手牌[/gold]。"
           },
           "sourceValueKey": null
         }
