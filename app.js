@@ -1175,6 +1175,8 @@ function hideCardAttachmentTooltip() {
 
 function unlockCardAttachmentTooltip() {
   state.attachmentTooltipLocked = false;
+  const tip = document.querySelector(".card-hover-attachments");
+  if (tip) tip.classList.remove("locked");
   hideCardAttachmentTooltip();
 }
 
@@ -1207,6 +1209,8 @@ function bindAttachedHoverEvents() {
     if (!card) return;
     state.attachmentTooltipLocked = true;
     showCardAttachmentTooltip(card, cardNode.getBoundingClientRect(), getCardRenderLang(cardNode));
+    const tip = document.querySelector(".card-hover-attachments");
+    if (tip) tip.classList.add("locked");
     event.stopPropagation();
   });
 

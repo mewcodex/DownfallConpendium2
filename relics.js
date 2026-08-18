@@ -866,6 +866,8 @@ function hideRelicAttachmentTooltip() {
 
 function unlockRelicAttachmentTooltip() {
   state.attachmentTooltipLocked = false;
+  const tip = document.querySelector(".card-hover-attachments");
+  if (tip) tip.classList.remove("locked");
   hideRelicAttachmentTooltip();
 }
 
@@ -960,6 +962,8 @@ function bindRelicAttachmentHoverEvents() {
     if (!relic) return;
     state.attachmentTooltipLocked = true;
     showRelicAttachmentTooltip(relic, relicNode.getBoundingClientRect(), relicNode.dataset.renderLang || state.lang);
+    const tip = document.querySelector(".card-hover-attachments");
+    if (tip) tip.classList.add("locked");
     event.stopPropagation();
   });
 

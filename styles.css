@@ -983,6 +983,12 @@ html[lang^="zh"] .card-desc {
   pointer-events: none;
 }
 
+.card-hover-attachments.locked {
+  pointer-events: auto;
+  user-select: text;
+  -webkit-user-select: text;
+}
+
 .card-hover-attachments.show {
   display: grid;
 }
