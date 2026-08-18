@@ -258,6 +258,8 @@ function localizeRarity(rarity) {
     SPECIAL: { en: "Special", zh: "特殊" },
     ANCIENT: { en: "Ancient", zh: "先古" },
     CURSE: { en: "Curse", zh: "诅咒" },
+    STATUS: { en: "Status", zh: "状态" },
+    TOKEN: { en: "Token", zh: "衍生" },
   };
   const mapped = rarityMap[rarity];
   if (!mapped) return rarity.split(/[_-]+/).map((part) => part.charAt(0) + part.slice(1).toLowerCase()).join(" ");
@@ -1555,6 +1557,14 @@ const raritySortRank = {
   SPECIAL: 5,
 };
 
+const rarityFilterRank = {
+  BASIC: 0,
+  COMMON: 1,
+  UNCOMMON: 2,
+  RARE: 3,
+  ANCIENT: 4,
+};
+
 function compareMaybeString(a, b) {
   return (a || "").localeCompare((b || ""), state.lang === "zh" ? "zh" : "en");
 }
@@ -1929,7 +1939,10 @@ function buildOptions() {
     .sort((a, b) => localizeType(a).localeCompare(localizeType(b), state.lang === "zh" ? "zh" : "en"))
     .forEach((type) => typeOptions.push({ value: type, label: localizeType(type) }));
   [...rarities]
-    .sort((a, b) => localizeRarity(a).localeCompare(localizeRarity(b), state.lang === "zh" ? "zh" : "en"))
+    .sort((a, b) => {
+      const rankDifference = (rarityFilterRank[a] ?? 999) - (rarityFilterRank[b] ?? 999);
+      return rankDifference || localizeRarity(a).localeCompare(localizeRarity(b), state.lang === "zh" ? "zh" : "en");
+    })
     .forEach((rarity) => rarityOptions.push({ value: rarity, label: localizeRarity(rarity) }));
   const colorLabelMap = new Map();
   state.data.cards.forEach((card) => {
