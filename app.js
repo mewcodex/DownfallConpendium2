@@ -487,12 +487,13 @@ function renderSts2Markup(text, useUpgrade = state.showUpgrade, card = null) {
     purple: "kw-mark-purple",
     green: "kw-mark-green",
     aqua: "kw-mark-aqua",
+    afterlife: "kw-mark-afterlife",
   };
   let rendered = text.replace(/\{IfUpgraded:show:([^{}|]*)\|([^{}]*)\}/g, (_full, upgraded, base) => (
     useUpgrade ? upgraded.replace(/-?\d+/g, (value) => `__TVG__${value}__`) : base
   ));
   rendered = rendered.replace(/\{IfUpgraded:plus\(\)\}/g, useUpgrade ? "+" : "");
-  rendered = rendered.replace(/\[(gold|blue|red|purple|green|aqua)\]([\s\S]*?)\[\/\1\]/gi, (_full, color, content) => {
+  rendered = rendered.replace(/\[(gold|blue|red|purple|green|aqua|afterlife)\]([\s\S]*?)\[\/\1\]/gi, (_full, color, content) => {
     if (/^__TVG?__-?\d+__$/.test(content)) return content;
     return `<span class="${colorClasses[color.toLowerCase()]}">${content}</span>`;
   });
@@ -1429,12 +1430,13 @@ function highlightBaseKeywords(text) {
     let rendered = input;
 
     if (state.lang === "zh") {
+      const zhBoundary = "[^\\u4e00-\\u9fffA-Za-z0-9_]";
       state.baseKeywordTerms.zh.forEach((term) => {
         const escaped = escapeRegExp(term);
         if (!escaped) return;
-        // zh rule: only highlight terms surrounded by whitespace.
-        const reg = new RegExp(`(^|\\s)(${escaped})(?=\\s|$)`, "g");
-        rendered = rendered.replace(reg, (_full, lead, match) => `${lead}${renderKeywordSpan(match)}`);
+        const hasTooltip = Boolean(findKeywordEntry(term) || getHardcodedKeywordEntry(term));
+        const reg = new RegExp(`(^|${zhBoundary}|>)(${escaped})(?=$|${zhBoundary}|<)`, "g");
+        rendered = rendered.replace(reg, (_full, lead, match) => hasTooltip ? `${lead}${renderKeywordSpan(match)}` : `${lead}${match}`);
       });
       return rendered;
     }
@@ -1442,8 +1444,9 @@ function highlightBaseKeywords(text) {
     state.baseKeywordTerms.en.forEach((term) => {
       const escaped = escapeRegExp(term);
       if (!escaped) return;
-      const reg = new RegExp(`\\b(${escaped})\\b`, "gi");
-      rendered = rendered.replace(reg, (_full, match) => renderKeywordSpan(match));
+      const hasTooltip = Boolean(findKeywordEntry(term) || getHardcodedKeywordEntry(term));
+      const reg = new RegExp(`(^|\\b|>)(${escaped})(?=\\b|<)`, "gi");
+      rendered = rendered.replace(reg, (_full, lead, match) => hasTooltip ? `${lead}${renderKeywordSpan(match)}` : `${lead}${match}`);
     });
     return rendered;
   });
@@ -1706,10 +1709,13 @@ function resolveCardBaseDescription(card, useUpgrade = state.showUpgrade) {
   );
   const formatKeywords = (entries) => (entries || [])
     .filter(keywordIsActive)
-    .map((entry) => `[gold]${(entry.label || {})[state.lang] || ""}[/gold]`)
+    .map((entry) => entry.style === "afterlife"
+      ? `[afterlife]${(entry.label || {})[state.lang] || ""}[/afterlife]`
+      : `[gold]${(entry.label || {})[state.lang] || ""}[/gold]`)
     .filter(Boolean);
-  const prefix = formatKeywords(card.descriptionKeywordPrefix).join("\n");
-  const suffix = formatKeywords(card.descriptionKeywordSuffix);
+  const keywordSeparator = state.lang === "zh" ? "" : " ";
+  const prefix = formatKeywords(card.descriptionKeywordPrefix).join(keywordSeparator);
+  const suffix = formatKeywords(card.descriptionKeywordSuffix).join(keywordSeparator);
   const dynamicLines = (card.dynamicDescriptionLines || [])
     .map((entry) => entry && entry[state.lang])
     .filter(Boolean);
@@ -1717,7 +1723,7 @@ function resolveCardBaseDescription(card, useUpgrade = state.showUpgrade) {
   const gemLines = typeof gemSlots === "number" && gemSlots > 0
     ? Array.from({ length: gemSlots }, () => `[gold]<${state.lang === "zh" ? "槽位" : "Socket"}>[/gold]`)
     : [];
-  const decorate = (description) => [prefix, ...dynamicLines, description, ...gemLines, ...suffix, finisherSuffix.trim()]
+  const decorate = (description) => [prefix, ...dynamicLines, description, ...gemLines, suffix, finisherSuffix.trim()]
     .filter(Boolean)
     .join("\n");
 

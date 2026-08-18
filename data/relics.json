@@ -1,11 +1,825 @@
 {
-  "generatedAt": "2026-08-18T03:58:39.802223Z",
+  "generatedAt": "2026-08-18T05:11:11.158221Z",
   "modVersion": "0.1.13",
   "translationVersion": "2026_08_18_11_00_14_c3d1a2",
-  "baseKeywords": [],
+  "baseKeywords": [
+    {
+      "key": "ARTIFACT",
+      "en": {
+        "main": "artifact",
+        "aliases": [
+          "artifact"
+        ]
+      },
+      "zh": {
+        "main": "人工制品",
+        "aliases": [
+          "人工制品"
+        ]
+      }
+    },
+    {
+      "key": "BLOCK",
+      "en": {
+        "main": "block",
+        "aliases": [
+          "block",
+          "blocks"
+        ]
+      },
+      "zh": {
+        "main": "格挡",
+        "aliases": [
+          "格挡",
+          "blocks"
+        ]
+      }
+    },
+    {
+      "key": "BURN",
+      "en": {
+        "main": "burn",
+        "aliases": [
+          "burn",
+          "burns"
+        ]
+      },
+      "zh": {
+        "main": "灼伤",
+        "aliases": [
+          "灼伤",
+          "burns"
+        ]
+      }
+    },
+    {
+      "key": "CALM",
+      "en": {
+        "main": "calm",
+        "aliases": [
+          "calm"
+        ]
+      },
+      "zh": {
+        "main": "平静",
+        "aliases": [
+          "平静"
+        ]
+      }
+    },
+    {
+      "key": "CHANNEL",
+      "en": {
+        "main": "channel",
+        "aliases": [
+          "channel",
+          "channeled"
+        ]
+      },
+      "zh": {
+        "main": "生成",
+        "aliases": [
+          "生成",
+          "生成的"
+        ]
+      }
+    },
+    {
+      "key": "CONFUSED",
+      "en": {
+        "main": "confused",
+        "aliases": [
+          "confused"
+        ]
+      },
+      "zh": {
+        "main": "混乱",
+        "aliases": [
+          "混乱"
+        ]
+      }
+    },
+    {
+      "key": "CURSE",
+      "en": {
+        "main": "curse",
+        "aliases": [
+          "curse"
+        ]
+      },
+      "zh": {
+        "main": "诅咒",
+        "aliases": [
+          "诅咒"
+        ]
+      }
+    },
+    {
+      "key": "DARK",
+      "en": {
+        "main": "dark",
+        "aliases": [
+          "dark",
+          "dark+"
+        ]
+      },
+      "zh": {
+        "main": "黑暗",
+        "aliases": [
+          "黑暗",
+          "黑暗+"
+        ]
+      }
+    },
+    {
+      "key": "DAZED",
+      "en": {
+        "main": "dazed",
+        "aliases": [
+          "dazed"
+        ]
+      },
+      "zh": {
+        "main": "晕眩",
+        "aliases": [
+          "晕眩"
+        ]
+      }
+    },
+    {
+      "key": "DEXTERITY",
+      "en": {
+        "main": "dexterity",
+        "aliases": [
+          "dexterity"
+        ]
+      },
+      "zh": {
+        "main": "敏捷",
+        "aliases": [
+          "敏捷"
+        ]
+      }
+    },
+    {
+      "key": "DIVINITY",
+      "en": {
+        "main": "divinity",
+        "aliases": [
+          "divinity"
+        ]
+      },
+      "zh": {
+        "main": "神格",
+        "aliases": [
+          "神格"
+        ]
+      }
+    },
+    {
+      "key": "ETHEREAL",
+      "en": {
+        "main": "ethereal",
+        "aliases": [
+          "ethereal"
+        ]
+      },
+      "zh": {
+        "main": "虚无",
+        "aliases": [
+          "虚无"
+        ]
+      }
+    },
+    {
+      "key": "EVOKE",
+      "en": {
+        "main": "evoke",
+        "aliases": [
+          "evoke",
+          "evoked"
+        ]
+      },
+      "zh": {
+        "main": "激发",
+        "aliases": [
+          "激发"
+        ]
+      }
+    },
+    {
+      "key": "EXHAUST",
+      "en": {
+        "main": "exhaust",
+        "aliases": [
+          "exhaust",
+          "exhausted",
+          "exhausts"
+        ]
+      },
+      "zh": {
+        "main": "消耗",
+        "aliases": [
+          "消耗",
+          "exhausted",
+          "exhausts"
+        ]
+      }
+    },
+    {
+      "key": "FATAL",
+      "en": {
+        "main": "fatal",
+        "aliases": [
+          "fatal"
+        ]
+      },
+      "zh": {
+        "main": "斩杀",
+        "aliases": [
+          "斩杀"
+        ]
+      }
+    },
+    {
+      "key": "FOCUS",
+      "en": {
+        "main": "focus",
+        "aliases": [
+          "focus"
+        ]
+      },
+      "zh": {
+        "main": "集中",
+        "aliases": [
+          "集中"
+        ]
+      }
+    },
+    {
+      "key": "FRAIL",
+      "en": {
+        "main": "frail",
+        "aliases": [
+          "frail"
+        ]
+      },
+      "zh": {
+        "main": "脆弱",
+        "aliases": [
+          "脆弱"
+        ]
+      }
+    },
+    {
+      "key": "FROST",
+      "en": {
+        "main": "frost",
+        "aliases": [
+          "frost",
+          "frost+"
+        ]
+      },
+      "zh": {
+        "main": "冰霜",
+        "aliases": [
+          "冰霜",
+          "冰霜+"
+        ]
+      }
+    },
+    {
+      "key": "INNATE",
+      "en": {
+        "main": "innate",
+        "aliases": [
+          "innate"
+        ]
+      },
+      "zh": {
+        "main": "固有",
+        "aliases": [
+          "固有"
+        ]
+      }
+    },
+    {
+      "key": "INTANGIBLE",
+      "en": {
+        "main": "intangible",
+        "aliases": [
+          "intangible"
+        ]
+      },
+      "zh": {
+        "main": "无实体",
+        "aliases": [
+          "无实体"
+        ]
+      }
+    },
+    {
+      "key": "LIGHTNING",
+      "en": {
+        "main": "lightning",
+        "aliases": [
+          "lightning",
+          "lightning+"
+        ]
+      },
+      "zh": {
+        "main": "闪电",
+        "aliases": [
+          "闪电",
+          "闪电+"
+        ]
+      }
+    },
+    {
+      "key": "LOCKED",
+      "en": {
+        "main": "locked",
+        "aliases": [
+          "locked"
+        ]
+      },
+      "zh": {
+        "main": "锁定",
+        "aliases": [
+          "锁定"
+        ]
+      }
+    },
+    {
+      "key": "LOCK_ON",
+      "en": {
+        "main": "lock-on",
+        "aliases": [
+          "lock-on"
+        ]
+      },
+      "zh": {
+        "main": "跟踪锁定",
+        "aliases": [
+          "跟踪锁定"
+        ]
+      }
+    },
+    {
+      "key": "OPENER",
+      "en": {
+        "main": "opener",
+        "aliases": [
+          "opener"
+        ]
+      },
+      "zh": {
+        "main": "opener",
+        "aliases": [
+          "opener"
+        ]
+      }
+    },
+    {
+      "key": "PLASMA",
+      "en": {
+        "main": "plasma",
+        "aliases": [
+          "plasma",
+          "plasma+"
+        ]
+      },
+      "zh": {
+        "main": "等离子",
+        "aliases": [
+          "等离子",
+          "等离子+"
+        ]
+      }
+    },
+    {
+      "key": "POISON",
+      "en": {
+        "main": "poison",
+        "aliases": [
+          "poison",
+          "poisoned"
+        ]
+      },
+      "zh": {
+        "main": "中毒",
+        "aliases": [
+          "中毒",
+          "poisoned"
+        ]
+      }
+    },
+    {
+      "key": "PRAYER",
+      "en": {
+        "main": "mantra",
+        "aliases": [
+          "mantra",
+          "through violence"
+        ]
+      },
+      "zh": {
+        "main": "真言",
+        "aliases": [
+          "真言",
+          "through violence"
+        ]
+      }
+    },
+    {
+      "key": "REGEN",
+      "en": {
+        "main": "regen",
+        "aliases": [
+          "regen"
+        ]
+      },
+      "zh": {
+        "main": "再生",
+        "aliases": [
+          "再生"
+        ]
+      }
+    },
+    {
+      "key": "RETAIN",
+      "en": {
+        "main": "retain",
+        "aliases": [
+          "retain",
+          "retains",
+          "retained"
+        ]
+      },
+      "zh": {
+        "main": "保留",
+        "aliases": [
+          "保留",
+          "retains",
+          "retained"
+        ]
+      }
+    },
+    {
+      "key": "RITUAL",
+      "en": {
+        "main": "ritual",
+        "aliases": [
+          "ritual"
+        ]
+      },
+      "zh": {
+        "main": "仪式",
+        "aliases": [
+          "仪式"
+        ]
+      }
+    },
+    {
+      "key": "SCRY",
+      "en": {
+        "main": "scry",
+        "aliases": [
+          "scry"
+        ]
+      },
+      "zh": {
+        "main": "预见",
+        "aliases": [
+          "预见"
+        ]
+      }
+    },
+    {
+      "key": "SHIV",
+      "en": {
+        "main": "shiv",
+        "aliases": [
+          "shiv",
+          "shivs"
+        ]
+      },
+      "zh": {
+        "main": "小刀",
+        "aliases": [
+          "小刀",
+          "shivs"
+        ]
+      }
+    },
+    {
+      "key": "STANCE",
+      "en": {
+        "main": "stance",
+        "aliases": [
+          "stance",
+          "stances"
+        ]
+      },
+      "zh": {
+        "main": "姿态",
+        "aliases": [
+          "姿态",
+          "stances"
+        ]
+      }
+    },
+    {
+      "key": "STATUS",
+      "en": {
+        "main": "status",
+        "aliases": [
+          "status"
+        ]
+      },
+      "zh": {
+        "main": "状态牌",
+        "aliases": [
+          "状态牌"
+        ]
+      }
+    },
+    {
+      "key": "STRENGTH",
+      "en": {
+        "main": "strength",
+        "aliases": [
+          "strength"
+        ]
+      },
+      "zh": {
+        "main": "力量",
+        "aliases": [
+          "力量"
+        ]
+      }
+    },
+    {
+      "key": "STRIKE",
+      "en": {
+        "main": "strike",
+        "aliases": [
+          "strike"
+        ]
+      },
+      "zh": {
+        "main": "打击",
+        "aliases": [
+          "打击"
+        ]
+      }
+    },
+    {
+      "key": "THORNS",
+      "en": {
+        "main": "thorns",
+        "aliases": [
+          "thorns"
+        ]
+      },
+      "zh": {
+        "main": "荆棘",
+        "aliases": [
+          "荆棘"
+        ]
+      }
+    },
+    {
+      "key": "TODO",
+      "en": {
+        "main": "todo",
+        "aliases": [
+          "todo",
+          "JUST FOR DEVS, DONT TRANSLATE"
+        ]
+      },
+      "zh": {
+        "main": "todo",
+        "aliases": [
+          "todo",
+          "JUST FOR DEVS, DONT TRANSLATE"
+        ]
+      }
+    },
+    {
+      "key": "TRANSFORM",
+      "en": {
+        "main": "transform",
+        "aliases": [
+          "transform"
+        ]
+      },
+      "zh": {
+        "main": "变化",
+        "aliases": [
+          "变化"
+        ]
+      }
+    },
+    {
+      "key": "UNKNOWN",
+      "en": {
+        "main": "unknown",
+        "aliases": [
+          "unknown"
+        ]
+      },
+      "zh": {
+        "main": "未知",
+        "aliases": [
+          "未知"
+        ]
+      }
+    },
+    {
+      "key": "UNPLAYABLE",
+      "en": {
+        "main": "unplayable",
+        "aliases": [
+          "unplayable"
+        ]
+      },
+      "zh": {
+        "main": "不能被打出",
+        "aliases": [
+          "不能被打出"
+        ]
+      }
+    },
+    {
+      "key": "UPGRADE",
+      "en": {
+        "main": "upgrade",
+        "aliases": [
+          "upgrade",
+          "upgraded"
+        ]
+      },
+      "zh": {
+        "main": "升级",
+        "aliases": [
+          "升级",
+          "upgraded"
+        ]
+      }
+    },
+    {
+      "key": "VIGOR",
+      "en": {
+        "main": "vigor",
+        "aliases": [
+          "vigor"
+        ]
+      },
+      "zh": {
+        "main": "活力",
+        "aliases": [
+          "活力"
+        ]
+      }
+    },
+    {
+      "key": "VOID",
+      "en": {
+        "main": "void",
+        "aliases": [
+          "void",
+          "voids"
+        ]
+      },
+      "zh": {
+        "main": "虚空",
+        "aliases": [
+          "虚空"
+        ]
+      }
+    },
+    {
+      "key": "VULNERABLE",
+      "en": {
+        "main": "vulnerable",
+        "aliases": [
+          "vulnerable"
+        ]
+      },
+      "zh": {
+        "main": "易伤",
+        "aliases": [
+          "易伤"
+        ]
+      }
+    },
+    {
+      "key": "WEAK",
+      "en": {
+        "main": "weak",
+        "aliases": [
+          "weak",
+          "weaken",
+          "weakened",
+          "weakens"
+        ]
+      },
+      "zh": {
+        "main": "虚弱",
+        "aliases": [
+          "虚弱",
+          "weaken",
+          "weakened",
+          "weakens"
+        ]
+      }
+    },
+    {
+      "key": "WOUND",
+      "en": {
+        "main": "wound",
+        "aliases": [
+          "wound",
+          "wounds"
+        ]
+      },
+      "zh": {
+        "main": "伤口",
+        "aliases": [
+          "伤口",
+          "wounds"
+        ]
+      }
+    },
+    {
+      "key": "WRATH",
+      "en": {
+        "main": "wrath",
+        "aliases": [
+          "wrath"
+        ]
+      },
+      "zh": {
+        "main": "愤怒",
+        "aliases": [
+          "愤怒"
+        ]
+      }
+    },
+    {
+      "key": "HEXAGHOST-AFTERLIFE",
+      "en": {
+        "main": "Afterlife",
+        "aliases": [
+          "Afterlife"
+        ]
+      },
+      "zh": {
+        "main": "阴世",
+        "aliases": [
+          "阴世"
+        ]
+      }
+    }
+  ],
   "keywords": {
-    "en": [],
-    "zh": []
+    "en": [
+      {
+        "name": "ethereal",
+        "description": "If this card is in your hand at the end of turn, it is exhausted. Exhausted cards are removed from your deck until the end of combat.",
+        "aliases": [
+          "ethereal"
+        ],
+        "icon": null
+      },
+      {
+        "name": "Afterlife",
+        "description": "The green effect will also trigger when this card is [gold]Exhausted[/gold].",
+        "aliases": [
+          "Afterlife"
+        ],
+        "icon": null
+      }
+    ],
+    "zh": [
+      {
+        "name": "虚无",
+        "description": "如果这张牌在回合结束时仍然在你的手中，它将被消耗。被消耗的牌将在战斗结束前被移除出牌组。",
+        "aliases": [
+          "虚无"
+        ],
+        "icon": null
+      },
+      {
+        "name": "阴世",
+        "description": "本牌被[gold]消耗[/gold]时触发绿色效果。",
+        "aliases": [
+          "阴世"
+        ],
+        "icon": null
+      }
+    ]
   },
   "relicCount": 127,
   "relics": [

@@ -886,6 +886,10 @@ html[lang^="zh"] .card-desc {
   font-weight: inherit;
 }
 
+.kw-mark-yellow .kw {
+  color: inherit;
+}
+
 .kw-mark-blue {
   color: #87ceeb;
   font-weight: inherit;
@@ -909,6 +913,15 @@ html[lang^="zh"] .card-desc {
 .kw-mark-aqua {
   color: #147d8b;
   font-weight: inherit;
+}
+
+.kw-mark-afterlife {
+  color: #78d1a0;
+  font-weight: inherit;
+}
+
+.kw-mark-afterlife .kw {
+  color: inherit !important;
 }
 
 .card-mini-preview {
@@ -1304,13 +1317,12 @@ article.card[data-card-id] .card-body {
 
 article.card[data-card-id] .card-body .card-desc {
   position: absolute;
-  inset: 58.77% auto auto 9.33%;
-  width: 81%;
+  inset: 58.77% auto auto 7.5%;
+  width: 85%;
   height: 32.23%;
   display: flex;
   align-items: center;
   justify-content: center;
-  padding: 2% 2.67%;
   overflow: hidden;
   color: #fdf4e0;
   font-family: "Kreon Game", serif;
