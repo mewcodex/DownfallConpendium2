@@ -1649,7 +1649,7 @@ function resolveCardBaseDescription(card, useUpgrade = state.showUpgrade) {
   const dynamicLines = (card.dynamicDescriptionLines || [])
     .map((entry) => entry && entry[state.lang])
     .filter(Boolean);
-  const decorate = (description) => [prefix, description, ...dynamicLines, ...suffix, finisherSuffix.trim()]
+  const decorate = (description) => [prefix, ...dynamicLines, description, ...suffix, finisherSuffix.trim()]
     .filter(Boolean)
     .join("\n");
 
