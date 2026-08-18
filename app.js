@@ -1808,7 +1808,7 @@ function buildCardInnerHtml(card, descriptionHtml, options = {}) {
       <h3>${name}</h3>
       <div class="card-id">${cardId}</div>
     </div>
-    <div class="card-face-cost${getDisplayCost(card, useUpgrade) === -2 ? " card-face-cost-hidden" : ""}" title="${i18n("costLabel")}">
+    <div class="card-face-cost${isUnplayableCard(card) || getDisplayCost(card, useUpgrade) === -2 ? " card-face-cost-hidden" : ""}" title="${i18n("costLabel")}">
       ${costIcon}
       <span class="${costClass}">${cost}</span>
     </div>`;
