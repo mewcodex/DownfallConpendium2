@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-18T03:28:15.253925Z",
+  "generatedAt": "2026-08-18T03:36:03.509789Z",
   "modVersion": "0.1.13",
   "translationVersion": "2026_08_18_11_00_14_c3d1a2",
   "baseKeywords": [],
@@ -9308,7 +9308,15 @@
       "hasConjure": false,
       "isSpell": false,
       "attachedCardTips": [],
-      "descriptionKeywordPrefix": [],
+      "descriptionKeywordPrefix": [
+        {
+          "mode": "always",
+          "label": {
+            "en": "Unplayable.",
+            "zh": "不能被打出。"
+          }
+        }
+      ],
       "descriptionKeywordSuffix": [],
       "dynamicDescriptionLines": []
     },
@@ -28285,7 +28293,15 @@
       "hasConjure": false,
       "isSpell": false,
       "attachedCardTips": [],
-      "descriptionKeywordPrefix": [],
+      "descriptionKeywordPrefix": [
+        {
+          "mode": "always",
+          "label": {
+            "en": "Pyre.",
+            "zh": "焰藏。"
+          }
+        }
+      ],
       "descriptionKeywordSuffix": [],
       "dynamicDescriptionLines": []
     },
@@ -28447,7 +28463,15 @@
       "hasConjure": false,
       "isSpell": false,
       "attachedCardTips": [],
-      "descriptionKeywordPrefix": [],
+      "descriptionKeywordPrefix": [
+        {
+          "mode": "always",
+          "label": {
+            "en": "Unplayable.",
+            "zh": "不能被打出。"
+          }
+        }
+      ],
       "descriptionKeywordSuffix": [],
       "dynamicDescriptionLines": []
     },
@@ -29148,6 +29172,13 @@
             "en": "Retain.",
             "zh": "保留。"
           }
+        },
+        {
+          "mode": "always",
+          "label": {
+            "en": "Unplayable.",
+            "zh": "不能被打出。"
+          }
         }
       ],
       "descriptionKeywordSuffix": [],
@@ -29600,7 +29631,15 @@
       "hasConjure": false,
       "isSpell": false,
       "attachedCardTips": [],
-      "descriptionKeywordPrefix": [],
+      "descriptionKeywordPrefix": [
+        {
+          "mode": "always",
+          "label": {
+            "en": "Pyre.",
+            "zh": "焰藏。"
+          }
+        }
+      ],
       "descriptionKeywordSuffix": [
         {
           "mode": "always",
@@ -30252,7 +30291,15 @@
       "hasConjure": false,
       "isSpell": false,
       "attachedCardTips": [],
-      "descriptionKeywordPrefix": [],
+      "descriptionKeywordPrefix": [
+        {
+          "mode": "always",
+          "label": {
+            "en": "Pyre.",
+            "zh": "焰藏。"
+          }
+        }
+      ],
       "descriptionKeywordSuffix": [],
       "dynamicDescriptionLines": []
     },
@@ -30340,7 +30387,15 @@
       "hasConjure": false,
       "isSpell": false,
       "attachedCardTips": [],
-      "descriptionKeywordPrefix": [],
+      "descriptionKeywordPrefix": [
+        {
+          "mode": "always",
+          "label": {
+            "en": "Pyre.",
+            "zh": "焰藏。"
+          }
+        }
+      ],
       "descriptionKeywordSuffix": [
         {
           "mode": "always",
@@ -30434,7 +30489,15 @@
           "upgradeWithParent": false
         }
       ],
-      "descriptionKeywordPrefix": [],
+      "descriptionKeywordPrefix": [
+        {
+          "mode": "always",
+          "label": {
+            "en": "Pyre.",
+            "zh": "焰藏。"
+          }
+        }
+      ],
       "descriptionKeywordSuffix": [],
       "dynamicDescriptionLines": []
     },
@@ -30591,7 +30654,15 @@
       "hasConjure": false,
       "isSpell": false,
       "attachedCardTips": [],
-      "descriptionKeywordPrefix": [],
+      "descriptionKeywordPrefix": [
+        {
+          "mode": "always",
+          "label": {
+            "en": "Pyre.",
+            "zh": "焰藏。"
+          }
+        }
+      ],
       "descriptionKeywordSuffix": [],
       "dynamicDescriptionLines": []
     },
@@ -31044,7 +31115,15 @@
       "hasConjure": false,
       "isSpell": false,
       "attachedCardTips": [],
-      "descriptionKeywordPrefix": [],
+      "descriptionKeywordPrefix": [
+        {
+          "mode": "always",
+          "label": {
+            "en": "Pyre.",
+            "zh": "焰藏。"
+          }
+        }
+      ],
       "descriptionKeywordSuffix": [],
       "dynamicDescriptionLines": []
     },
@@ -31543,6 +31622,13 @@
             "en": "Retain.",
             "zh": "保留。"
           }
+        },
+        {
+          "mode": "always",
+          "label": {
+            "en": "Unplayable.",
+            "zh": "不能被打出。"
+          }
         }
       ],
       "descriptionKeywordSuffix": [],
@@ -31726,7 +31812,15 @@
       "hasConjure": false,
       "isSpell": false,
       "attachedCardTips": [],
-      "descriptionKeywordPrefix": [],
+      "descriptionKeywordPrefix": [
+        {
+          "mode": "always",
+          "label": {
+            "en": "Pyre.",
+            "zh": "焰藏。"
+          }
+        }
+      ],
       "descriptionKeywordSuffix": [],
       "dynamicDescriptionLines": []
     },
@@ -31928,7 +32022,15 @@
       "hasConjure": false,
       "isSpell": false,
       "attachedCardTips": [],
-      "descriptionKeywordPrefix": [],
+      "descriptionKeywordPrefix": [
+        {
+          "mode": "always",
+          "label": {
+            "en": "Pyre.",
+            "zh": "焰藏。"
+          }
+        }
+      ],
       "descriptionKeywordSuffix": [],
       "dynamicDescriptionLines": []
     },
@@ -32101,7 +32203,15 @@
       "hasConjure": false,
       "isSpell": false,
       "attachedCardTips": [],
-      "descriptionKeywordPrefix": [],
+      "descriptionKeywordPrefix": [
+        {
+          "mode": "always",
+          "label": {
+            "en": "Pyre.",
+            "zh": "焰藏。"
+          }
+        }
+      ],
       "descriptionKeywordSuffix": [],
       "dynamicDescriptionLines": []
     },
@@ -32324,7 +32434,15 @@
       "hasConjure": false,
       "isSpell": false,
       "attachedCardTips": [],
-      "descriptionKeywordPrefix": [],
+      "descriptionKeywordPrefix": [
+        {
+          "mode": "always",
+          "label": {
+            "en": "Unplayable.",
+            "zh": "不能被打出。"
+          }
+        }
+      ],
       "descriptionKeywordSuffix": [],
       "dynamicDescriptionLines": []
     },
@@ -32590,7 +32708,15 @@
       "hasConjure": false,
       "isSpell": false,
       "attachedCardTips": [],
-      "descriptionKeywordPrefix": [],
+      "descriptionKeywordPrefix": [
+        {
+          "mode": "always",
+          "label": {
+            "en": "Pyre.",
+            "zh": "焰藏。"
+          }
+        }
+      ],
       "descriptionKeywordSuffix": [],
       "dynamicDescriptionLines": []
     },
@@ -32778,7 +32904,15 @@
       "hasConjure": false,
       "isSpell": false,
       "attachedCardTips": [],
-      "descriptionKeywordPrefix": [],
+      "descriptionKeywordPrefix": [
+        {
+          "mode": "always",
+          "label": {
+            "en": "Pyre.",
+            "zh": "焰藏。"
+          }
+        }
+      ],
       "descriptionKeywordSuffix": [
         {
           "mode": "always",
@@ -32864,7 +32998,15 @@
       "hasConjure": false,
       "isSpell": false,
       "attachedCardTips": [],
-      "descriptionKeywordPrefix": [],
+      "descriptionKeywordPrefix": [
+        {
+          "mode": "always",
+          "label": {
+            "en": "Pyre.",
+            "zh": "焰藏。"
+          }
+        }
+      ],
       "descriptionKeywordSuffix": [],
       "dynamicDescriptionLines": []
     },
@@ -32972,7 +33114,15 @@
       "hasConjure": false,
       "isSpell": false,
       "attachedCardTips": [],
-      "descriptionKeywordPrefix": [],
+      "descriptionKeywordPrefix": [
+        {
+          "mode": "always",
+          "label": {
+            "en": "Unplayable.",
+            "zh": "不能被打出。"
+          }
+        }
+      ],
       "descriptionKeywordSuffix": [],
       "dynamicDescriptionLines": []
     },
@@ -33461,7 +33611,15 @@
       "hasConjure": false,
       "isSpell": false,
       "attachedCardTips": [],
-      "descriptionKeywordPrefix": [],
+      "descriptionKeywordPrefix": [
+        {
+          "mode": "always",
+          "label": {
+            "en": "Pyre.",
+            "zh": "焰藏。"
+          }
+        }
+      ],
       "descriptionKeywordSuffix": [],
       "dynamicDescriptionLines": []
     },
@@ -34033,7 +34191,15 @@
           "upgradeWithParent": false
         }
       ],
-      "descriptionKeywordPrefix": [],
+      "descriptionKeywordPrefix": [
+        {
+          "mode": "always",
+          "label": {
+            "en": "Unplayable.",
+            "zh": "不能被打出。"
+          }
+        }
+      ],
       "descriptionKeywordSuffix": [],
       "dynamicDescriptionLines": []
     },
@@ -38553,6 +38719,13 @@
             "en": "Ethereal.",
             "zh": "虚无。"
           }
+        },
+        {
+          "mode": "always",
+          "label": {
+            "en": "Unplayable.",
+            "zh": "不能被打出。"
+          }
         }
       ],
       "descriptionKeywordSuffix": [],
@@ -40046,7 +40219,15 @@
       "hasConjure": false,
       "isSpell": false,
       "attachedCardTips": [],
-      "descriptionKeywordPrefix": [],
+      "descriptionKeywordPrefix": [
+        {
+          "mode": "always",
+          "label": {
+            "en": "Unplayable.",
+            "zh": "不能被打出。"
+          }
+        }
+      ],
       "descriptionKeywordSuffix": [],
       "dynamicDescriptionLines": []
     },
@@ -53336,7 +53517,15 @@
       "hasConjure": false,
       "isSpell": false,
       "attachedCardTips": [],
-      "descriptionKeywordPrefix": [],
+      "descriptionKeywordPrefix": [
+        {
+          "mode": "always",
+          "label": {
+            "en": "Unplayable.",
+            "zh": "不能被打出。"
+          }
+        }
+      ],
       "descriptionKeywordSuffix": [],
       "dynamicDescriptionLines": []
     },
@@ -56203,7 +56392,15 @@
       "hasConjure": false,
       "isSpell": false,
       "attachedCardTips": [],
-      "descriptionKeywordPrefix": [],
+      "descriptionKeywordPrefix": [
+        {
+          "mode": "always",
+          "label": {
+            "en": "Unplayable.",
+            "zh": "不能被打出。"
+          }
+        }
+      ],
       "descriptionKeywordSuffix": [],
       "dynamicDescriptionLines": []
     },
@@ -75164,6 +75361,13 @@
           "label": {
             "en": "Ethereal.",
             "zh": "虚无。"
+          }
+        },
+        {
+          "mode": "always",
+          "label": {
+            "en": "Unplayable.",
+            "zh": "不能被打出。"
           }
         }
       ],
