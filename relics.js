@@ -124,10 +124,17 @@ const elements = {
 function renderVersionInfo() {
   if (!elements.versionInfo || !state.relicData) return;
   const modVersion = state.relicData.modVersion || "unknown";
-  const translationVersion = state.relicData.translationVersion || "unknown";
+  const translationVersion = formatTranslationVersion(state.relicData.translationVersion);
   elements.versionInfo.textContent = state.lang === "zh"
     ? `Mod 版本：${modVersion} | 中文译文版本：${translationVersion}`
     : `Mod version: ${modVersion} | Chinese translation: ${translationVersion}`;
+}
+
+function formatTranslationVersion(value) {
+  const match = String(value || "").match(/^(\d{4})_(\d{2})_(\d{2})_(\d{2})_(\d{2})_(\d{2})_([0-9a-f]+)$/i);
+  return match
+    ? `${match[1]}/${match[2]}/${match[3]} ${match[4]}:${match[5]}:${match[6]} #${match[7]}`
+    : value || "unknown";
 }
 
 function updateCrossPageLinks() {
@@ -1375,6 +1382,7 @@ async function init() {
   if (!cardRes.ok) throw new Error(`Failed to load card data: ${cardRes.status}`);
 
   state.relicData = await relicRes.json();
+  renderVersionInfo();
   elements.pageSize.closest("label").hidden = true;
   elements.deprecatedFilter.closest("label").hidden = true;
   state.cardsData = await cardRes.json();

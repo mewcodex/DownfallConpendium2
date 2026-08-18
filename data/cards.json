@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-18T03:36:03.509789Z",
+  "generatedAt": "2026-08-18T03:58:39.802223Z",
   "modVersion": "0.1.13",
   "translationVersion": "2026_08_18_11_00_14_c3d1a2",
   "baseKeywords": [],
@@ -57353,7 +57353,15 @@
       "isSpell": false,
       "attachedCardTips": [],
       "descriptionKeywordPrefix": [],
-      "descriptionKeywordSuffix": [],
+      "descriptionKeywordSuffix": [
+        {
+          "mode": "always",
+          "label": {
+            "en": "Advance.",
+            "zh": "步进。"
+          }
+        }
+      ],
       "dynamicDescriptionLines": []
     },
     {
@@ -57510,7 +57518,15 @@
       "hasConjure": false,
       "isSpell": false,
       "attachedCardTips": [],
-      "descriptionKeywordPrefix": [],
+      "descriptionKeywordPrefix": [
+        {
+          "mode": "always",
+          "label": {
+            "en": "Retract.",
+            "zh": "回退。"
+          }
+        }
+      ],
       "descriptionKeywordSuffix": [],
       "dynamicDescriptionLines": []
     },
@@ -59549,7 +59565,15 @@
       "isSpell": false,
       "attachedCardTips": [],
       "descriptionKeywordPrefix": [],
-      "descriptionKeywordSuffix": [],
+      "descriptionKeywordSuffix": [
+        {
+          "mode": "always",
+          "label": {
+            "en": "Advance.",
+            "zh": "步进。"
+          }
+        }
+      ],
       "dynamicDescriptionLines": []
     },
     {
@@ -59792,6 +59816,21 @@
           "dynamicValues": {},
           "sourceValueKey": null,
           "icon": null
+        },
+        {
+          "id": "HEXAGHOST-RETRACT",
+          "name": {
+            "en": "Retract",
+            "zh": "回退"
+          },
+          "description": {
+            "en": "Move to the previous Ghostflame. Moving onto a Ghostflame [gold]Extinguishes[/gold] it.",
+            "zh": "移动至上枚鬼火。移动至一枚鬼火会导致其[gold]熄灭[/gold]。"
+          },
+          "dynamicValues": {},
+          "sourceValueKey": null,
+          "icon": null,
+          "upgradeOnly": true
         }
       ],
       "visualColor": "HEXAGHOST",
@@ -59799,7 +59838,15 @@
       "isSpell": false,
       "attachedCardTips": [],
       "descriptionKeywordPrefix": [],
-      "descriptionKeywordSuffix": [],
+      "descriptionKeywordSuffix": [
+        {
+          "mode": "remove",
+          "label": {
+            "en": "Advance.",
+            "zh": "步进。"
+          }
+        }
+      ],
       "dynamicDescriptionLines": []
     },
     {
@@ -60126,7 +60173,8 @@
           },
           "dynamicValues": {},
           "sourceValueKey": null,
-          "icon": null
+          "icon": null,
+          "upgradeOnly": true
         }
       ],
       "visualColor": "HEXAGHOST",
@@ -60134,7 +60182,15 @@
       "isSpell": false,
       "attachedCardTips": [],
       "descriptionKeywordPrefix": [],
-      "descriptionKeywordSuffix": [],
+      "descriptionKeywordSuffix": [
+        {
+          "mode": "remove",
+          "label": {
+            "en": "Advance.",
+            "zh": "步进。"
+          }
+        }
+      ],
       "dynamicDescriptionLines": []
     },
     {
@@ -61706,7 +61762,15 @@
       "hasConjure": false,
       "isSpell": false,
       "attachedCardTips": [],
-      "descriptionKeywordPrefix": [],
+      "descriptionKeywordPrefix": [
+        {
+          "mode": "always",
+          "label": {
+            "en": "Retract.",
+            "zh": "回退。"
+          }
+        }
+      ],
       "descriptionKeywordSuffix": [
         {
           "mode": "always",
@@ -62181,7 +62245,15 @@
       "hasConjure": false,
       "isSpell": false,
       "attachedCardTips": [],
-      "descriptionKeywordPrefix": [],
+      "descriptionKeywordPrefix": [
+        {
+          "mode": "always",
+          "label": {
+            "en": "Retract.",
+            "zh": "回退。"
+          }
+        }
+      ],
       "descriptionKeywordSuffix": [],
       "dynamicDescriptionLines": []
     },
@@ -62717,7 +62789,15 @@
       "hasConjure": false,
       "isSpell": false,
       "attachedCardTips": [],
-      "descriptionKeywordPrefix": [],
+      "descriptionKeywordPrefix": [
+        {
+          "mode": "always",
+          "label": {
+            "en": "Retract.",
+            "zh": "回退。"
+          }
+        }
+      ],
       "descriptionKeywordSuffix": [
         {
           "mode": "always",
@@ -63744,7 +63824,15 @@
       "hasConjure": false,
       "isSpell": false,
       "attachedCardTips": [],
-      "descriptionKeywordPrefix": [],
+      "descriptionKeywordPrefix": [
+        {
+          "mode": "always",
+          "label": {
+            "en": "Retract.",
+            "zh": "回退。"
+          }
+        }
+      ],
       "descriptionKeywordSuffix": [
         {
           "mode": "always",
@@ -65091,7 +65179,15 @@
           }
         }
       ],
-      "descriptionKeywordSuffix": [],
+      "descriptionKeywordSuffix": [
+        {
+          "mode": "always",
+          "label": {
+            "en": "Advance.",
+            "zh": "步进。"
+          }
+        }
+      ],
       "dynamicDescriptionLines": []
     },
     {

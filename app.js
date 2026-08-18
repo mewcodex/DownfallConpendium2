@@ -149,10 +149,17 @@ const elements = {
 function renderVersionInfo() {
   if (!elements.versionInfo || !state.data) return;
   const modVersion = state.data.modVersion || "unknown";
-  const translationVersion = state.data.translationVersion || "unknown";
+  const translationVersion = formatTranslationVersion(state.data.translationVersion);
   elements.versionInfo.textContent = state.lang === "zh"
     ? `Mod 版本：${modVersion} | 中文译文版本：${translationVersion}`
     : `Mod version: ${modVersion} | Chinese translation: ${translationVersion}`;
+}
+
+function formatTranslationVersion(value) {
+  const match = String(value || "").match(/^(\d{4})_(\d{2})_(\d{2})_(\d{2})_(\d{2})_(\d{2})_([0-9a-f]+)$/i);
+  return match
+    ? `${match[1]}/${match[2]}/${match[3]} ${match[4]}:${match[5]}:${match[6]} #${match[7]}`
+    : value || "unknown";
 }
 
 function updateCrossPageLinks() {
@@ -1066,7 +1073,8 @@ function showCardAttachmentTooltip(card, anchorRect, langOverride = null) {
     icon: null,
   };
   const textTips = [identity, ...(card.attachedTips || [])]
-    .filter((tip) => tip && tip.name && tip.description && tip.name[language] && tip.description[language]);
+    .filter((tip) => tip && (!tip.upgradeOnly || state.showUpgrade)
+      && tip.name && tip.description && tip.name[language] && tip.description[language]);
   const parentUpgraded = state.showUpgrade && hasCardUpgradeableVariant(card);
   const cardTips = (card.attachedCardTips || [])
     .map((entry) => ({
