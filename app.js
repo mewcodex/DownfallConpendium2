@@ -36,6 +36,7 @@ const state = {
   suppressNextCardAnimation: false,
   filteredSorted: [],
   translatorMode: false,
+  useEnglishFontStyle: false,
 };
 
 const uiText = {
@@ -71,6 +72,7 @@ const uiText = {
     searchBtn: "Search",
     clearSearch: "Clear",
     navRelics: "Relics",
+    fontStyleToggle: "Use English-style font",
   },
   zh: {
     eyebrow: "崩坠 Mod 卡牌展示",
@@ -104,6 +106,7 @@ const uiText = {
     searchBtn: "搜索",
     clearSearch: "清除",
     navRelics: "遗物",
+    fontStyleToggle: "替换中文字体",
   },
 };
 
@@ -120,6 +123,7 @@ function getNotInPoolBadgeText(card) {
 
 const elements = {
   langToggle: document.getElementById("langToggle"),
+  fontStyleToggle: document.getElementById("fontStyleToggle"),
   upgradeToggle: document.getElementById("upgradeToggle"),
   relicsPageLink: document.getElementById("relicsPageLink"),
   searchInput: document.getElementById("searchInput"),
@@ -208,6 +212,7 @@ function localizeColor(cardOrColor) {
   if (!cardOrColor) return "";
   const card = typeof cardOrColor === "object" ? cardOrColor : null;
   const color = card ? card.color : cardOrColor;
+  if (color === "GREMLIN" && state.lang === "zh") return "地精小队";
   if (card && card.colorName && card.colorName[state.lang]) {
     return card.colorName[state.lang];
   }
@@ -258,6 +263,8 @@ function localizeRarity(rarity) {
     SPECIAL: { en: "Special", zh: "特殊" },
     ANCIENT: { en: "Ancient", zh: "先古" },
     CURSE: { en: "Curse", zh: "诅咒" },
+    STATUS: { en: "Status", zh: "状态" },
+    TOKEN: { en: "Token", zh: "衍生" },
   };
   const mapped = rarityMap[rarity];
   if (!mapped) return rarity.split(/[_-]+/).map((part) => part.charAt(0) + part.slice(1).toLowerCase()).join(" ");
@@ -526,26 +533,17 @@ function attachAfterlifeHover(text) {
 
 function normalizeDescriptionSpacing(text) {
   let normalized = text || "";
-  // Remove spaces around energy symbols for all languages.
-  normalized = normalized.replace(/\s*\[E\]\s*/g, "[E]");
 
   if (state.lang === "zh") {
     // Normalize full-width punctuation for zh output.
     normalized = normalized.replace(/,/g, "，").replace(/｡/g, "。");
-    // Remove spaces around plain numeric literals in zh descriptions.
-    normalized = normalized.replace(/\s*(-?\d+(?:\.\d+)?)\s*/g, "$1");
   }
 
   return normalized;
 }
 
 function hideZhSpacesAfterFormatting(htmlText) {
-  if (!htmlText || state.lang !== "zh") return htmlText || "";
-  // Remove visible spaces in text segments while preserving HTML tags/attributes.
-  return htmlText
-    .split(/(<[^>]+>)/g)
-    .map((segment) => (segment.startsWith("<") ? segment : segment.replace(/[ \u3000]+/g, "")))
-    .join("");
+  return htmlText || "";
 }
 
 function stripRemoveSpaceMarkers(htmlText) {
@@ -910,6 +908,7 @@ function formatTooltipDescriptionText(rawText, cardContext) {
 function showKeywordTooltip(entry, anchorRect, cardContext, langOverride = null) {
   if (!entry || !entry.description) return;
   const tip = getKeywordTooltip();
+  tip.dataset.renderLang = langOverride || state.lang;
   const name = withTempLang(langOverride, () => escapeHtml(entry.name || ""));
   const desc = withTempLang(langOverride, () => formatTooltipDescriptionText(entry.description || "", cardContext));
 
@@ -1065,7 +1064,14 @@ function showCardAttachmentTooltip(card, anchorRect, langOverride = null) {
   }
 
   const tip = getCardAttachmentTooltip();
+  tip.dataset.renderLang = language;
   tip.innerHTML = "";
+  tip.classList.toggle("card-only-preview", !textTips.length && cardTips.length > 0);
+  tip.classList.toggle("text-and-preview", textTips.length > 0 && cardTips.length > 0);
+  tip.classList.toggle("text-only", textTips.length > 0 && cardTips.length === 0);
+  const tipsColumn = document.createElement("div");
+  tipsColumn.className = "card-attached-tip-column";
+  if (textTips.length) tip.appendChild(tipsColumn);
   textTips.forEach((entry) => {
     const sourceValue = entry.sourceValueKey && card.dynamicValues ? card.dynamicValues[entry.sourceValueKey] : null;
     const sourceUpgradeValue = entry.sourceValueKey && card.upgradeDynamicValues ? card.upgradeDynamicValues[entry.sourceValueKey] : sourceValue;
@@ -1074,20 +1080,24 @@ function showCardAttachmentTooltip(card, anchorRect, langOverride = null) {
       upgradeDynamicValues: Object.assign({}, card.upgradeDynamicValues || {}, entry.dynamicValues || {}, typeof sourceUpgradeValue === "number" ? { Amount: sourceUpgradeValue } : {}),
     });
     const panel = document.createElement("section");
-    panel.className = "card-attached-tip";
+    const isDebuff = ["POISON_POWER", "WEAK_POWER", "VULNERABLE_POWER"].includes(entry.id);
+    panel.className = `card-attached-tip${isDebuff ? " card-attached-tip-debuff" : ""}`;
+    const icon = entry.icon ? `<img class="card-attached-tip-icon" src="${entry.icon}" alt="">` : "";
     panel.innerHTML = `
-      <div class="kw-tip-name">${withTempLang(language, () => hideZhSpacesAfterFormatting(escapeHtml(entry.name[language])))}</div>
+      <div class="kw-tip-name">${icon}${withTempLang(language, () => hideZhSpacesAfterFormatting(escapeHtml(entry.name[language])))}</div>
       <div class="kw-tip-desc">${withTempLang(language, () => formatTooltipDescriptionText(entry.description[language], tipContext))}</div>
     `;
-    tip.appendChild(panel);
+    tipsColumn.appendChild(panel);
   });
   if (cardTips.length) {
     const previews = document.createElement("div");
     previews.className = "card-attached-previews";
     cardTips.forEach((entry) => {
-      previews.appendChild(langOverride
+      const preview = langOverride
         ? buildCardElementInLang(entry.card, language, true, true, { forceUpgrade: entry.upgraded })
-        : buildCardElement(entry.card, true, true, { forceUpgrade: entry.upgraded }));
+        : buildCardElement(entry.card, true, true, { forceUpgrade: entry.upgraded });
+      previews.appendChild(preview);
+      fitGameCardText(preview);
     });
     tip.appendChild(previews);
   }
@@ -1095,13 +1105,49 @@ function showCardAttachmentTooltip(card, anchorRect, langOverride = null) {
   tip.classList.add("show");
   const margin = 10;
   const rect = anchorRect;
+  const textColumn = tip.querySelector(".card-attached-tip-column");
+  const previewsColumn = null;
+  const textWidth = textColumn ? textColumn.getBoundingClientRect().width : 0;
+  const previewsWidth = previewsColumn ? previewsColumn.getBoundingClientRect().width : 0;
+  const splitGap = 24;
+  const canSplit = false;
+  tip.classList.toggle("split-sides", canSplit);
+  tip.classList.remove("placement-left", "placement-right", "placement-below");
   const tipRect = tip.getBoundingClientRect();
-  let left = rect.right + window.scrollX + 10;
+  const sideGap = 24;
+  const viewportLeft = window.scrollX + margin;
+  const viewportRight = window.scrollX + window.innerWidth - margin;
+  const rightLeft = rect.right + window.scrollX + sideGap;
+  const leftLeft = rect.left + window.scrollX - tipRect.width - sideGap;
+  const fitsRight = rightLeft + tipRect.width <= viewportRight;
+  const fitsLeft = leftLeft >= viewportLeft;
+  let left = rightLeft;
   let top = rect.top + window.scrollY;
-  if (left + tipRect.width > window.scrollX + window.innerWidth - margin) {
-    left = rect.left + window.scrollX - tipRect.width - 10;
+  let placementBelow = false;
+  if (canSplit) {
+    tip.classList.add("placement-split");
+    left = rect.left + window.scrollX - textWidth - splitGap;
+    tip.style.setProperty("--hover-split-gap", `${splitGap}px`);
+  } else if (!fitsRight && fitsLeft) {
+    tip.classList.add("placement-left");
+    left = leftLeft;
+  } else if (!canSplit) {
+    if (fitsRight) {
+      tip.classList.add("placement-right");
+      left = rightLeft;
+    } else if (fitsLeft) {
+      tip.classList.add("placement-left");
+      left = leftLeft;
+    } else {
+      tip.classList.add("placement-below");
+      left = Math.max(viewportLeft, Math.min(rect.left + window.scrollX, viewportRight - tipRect.width));
+      top = rect.bottom + window.scrollY + sideGap;
+      placementBelow = true;
+    }
   }
-  top = Math.min(top, window.scrollY + window.innerHeight - tipRect.height - margin);
+  if (!placementBelow) {
+    top = Math.min(top, window.scrollY + window.innerHeight - tipRect.height - margin);
+  }
   tip.style.left = `${Math.max(window.scrollX + margin, left)}px`;
   tip.style.top = `${Math.max(window.scrollY + margin, top)}px`;
 }
@@ -1345,6 +1391,7 @@ function highlightBaseKeywords(text) {
 
 function applyI18n() {
   document.documentElement.lang = state.lang === "zh" ? "zh-CN" : "en";
+  document.documentElement.classList.toggle("font-english-style", state.useEnglishFontStyle);
 
   document.querySelectorAll("[data-i18n]").forEach((node) => {
     const key = node.dataset.i18n;
@@ -1360,6 +1407,8 @@ function applyI18n() {
   elements.langToggle.classList.toggle("translator-mode-pill", Boolean(state.translatorMode));
   renderVersionInfo();
   elements.upgradeToggle.textContent = state.showUpgrade ? i18n("toggleBase") : i18n("toggleUpgrade");
+  elements.fontStyleToggle.classList.toggle("active", state.useEnglishFontStyle);
+  elements.fontStyleToggle.setAttribute("aria-pressed", String(state.useEnglishFontStyle));
   elements.searchInput.placeholder = state.lang === "zh" ? "卡名或描述" : "Card name or description";
 }
 
@@ -1507,6 +1556,14 @@ const raritySortRank = {
   RARE: 3,
   CURSE: 4,
   SPECIAL: 5,
+};
+
+const rarityFilterRank = {
+  BASIC: 0,
+  COMMON: 1,
+  UNCOMMON: 2,
+  RARE: 3,
+  ANCIENT: 4,
 };
 
 function compareMaybeString(a, b) {
@@ -1671,12 +1728,44 @@ function buildCardInnerHtml(card, descriptionHtml, options = {}) {
   const cardId = escapeHtml(card.id || "");
   const cost = formatCost(getDisplayCost(card, useUpgrade));
   const costClass = isCostUpgraded(card, useUpgrade) ? "card-cost-value upgraded" : "card-cost-value";
-  const costIcon = card.energyIcon
-    ? `<img class="card-cost-icon" src="${card.energyIcon}" alt="cost orb" loading="lazy">`
+  const highResolutionEnergyIcons = {
+    AUTOMATON: "assets/energy-icons/automaton_card_bronze_orb.png",
+    AWAKENED: "assets/energy-icons/awakenedOne_card_awakened_orb.png",
+    CHAMP: "assets/energy-icons/champ_card_champ_orb.png",
+    COLLECTOR: "assets/energy-icons/collector_card_collector_orb.png",
+    GREMLIN: "assets/energy-icons/gremlin_card_gremlin_orb.png",
+    GUARDIAN: "assets/energy-icons/guardian_card_guardian_orb.png",
+    HERMIT: "assets/energy-icons/hermit-card-orb.png",
+    HEXAGHOST: "assets/energy-icons/theHexaghost_card_hexaghost_orb.png",
+    SLIMEBOUND: "assets/energy-icons/slimebound_card_slimebound_orb.png",
+    SNECKO: "assets/energy-icons/sneckomod_card_snecko_orb.png",
+  };
+  const energyIcon = card.type === "CURSE" || card.color === "DOWNFALL" || card.color === "COLORLESS"
+    ? "assets/card-ui/energy-colorless-gen2.png"
+    : highResolutionEnergyIcons[card.color] || card.energyIcon;
+  const costIcon = energyIcon
+    ? `<img class="card-cost-icon" src="${energyIcon}" alt="cost orb" loading="lazy">`
     : `<span class="card-cost-fallback-orb" aria-hidden="true"></span>`;
-  const img = card.img
-    ? `<img src="${card.img}" alt="${name}" loading="lazy">`
-    : `<div class="placeholder"></div>`;
+  const cardHeadingHtml = `
+    <div class="card-face-title">
+      <h3>${name}</h3>
+      <div class="card-id">${cardId}</div>
+    </div>
+    <div class="card-face-cost${getDisplayCost(card, useUpgrade) === -2 ? " card-face-cost-hidden" : ""}" title="${i18n("costLabel")}">
+      ${costIcon}
+      <span class="${costClass}">${cost}</span>
+    </div>`;
+  const portraitSource = card.img || "assets/card-ui/todo.png";
+    const ancient = card.rarity === "ANCIENT";
+    const img = `<div class="card-visual card-visual-${String(card.type || "skill").toLowerCase()}${card.img ? "" : " card-visual-todo"}${ancient ? " card-visual-ancient" : ""}">
+      <img class="card-portrait" src="${portraitSource}" alt="${name}" loading="lazy">
+      <span class="card-portrait-border" aria-hidden="true"></span>
+      <span class="card-frame" aria-hidden="true"></span>
+      <span class="card-banner" aria-hidden="true"></span>
+      ${ancient ? `<span class="card-ancient-text-bg" aria-hidden="true"></span><span class="card-ancient-border" aria-hidden="true"></span><span class="card-ancient-border-glass" aria-hidden="true"></span>` : ""}
+      ${cardHeadingHtml}
+      <span class="card-face-type">${localizeType(card.type)}</span>
+    </div>`;
   const typeTagHtml = card.type
     ? `<span class="${getTypeTagClass(card.type)}"><span class="tag-label">${localizeType(card.type)}</span></span>`
     : "";
@@ -1693,9 +1782,8 @@ function buildCardInnerHtml(card, descriptionHtml, options = {}) {
     ? `<span class="tag tag-feature">${gemSlots} ${escapeHtml(card.gemSlotLabel[state.lang])}</span>`
     : "";
   const metaTagsHtml = card.type === "CURSE"
-    ? typeTagHtml
-    : `${typeTagHtml}
-        ${card.rarity ? `<span class="${getRarityTagClass(card.rarity)}">${localizeRarity(card.rarity)}</span>` : ""}
+    ? ""
+    : `${card.rarity ? `<span class="${getRarityTagClass(card.rarity)}">${localizeRarity(card.rarity)}</span>` : ""}
         ${card.color ? `<span class="tag tag-color"${colorTagStyle}>${localizeColor(card)}</span>` : ""}
         ${finisherTagHtml}
         ${gemSlotsTagHtml}`;
@@ -1706,20 +1794,10 @@ function buildCardInnerHtml(card, descriptionHtml, options = {}) {
   return `
     ${img}
     <div class="card-body">
-      <div class="card-title">
-        <div class="card-title-main">
-          <h3>${name}</h3>
-          <div class="card-id">${cardId}</div>
-        </div>
-        <div class="card-cost" title="${i18n("costLabel")}">
-          ${costIcon}
-          <span class="${costClass}">${cost}</span>
-        </div>
-      </div>
       <div class="card-meta">
         ${metaTagsHtml}
       </div>
-      <div class="card-desc">${descriptionHtml}</div>
+      <div class="card-desc"><div class="card-desc-content">${descriptionHtml}</div></div>
       ${notInPoolBadge}
     </div>
   `;
@@ -1732,7 +1810,32 @@ function buildCardElement(card, suppressAnimation = false, previewMode = false, 
   if (previewMode) classes.push("mini-cloned-card");
   if (card.deprecated) classes.push("card-deprecated");
   if (card.rarity === "ANCIENT" && card.img) classes.push("card-ancient");
+  if (card.color) classes.push(`card-color-${String(card.color).toLowerCase()}`);
+  if (card.rarity) classes.push(`card-rarity-${String(card.rarity).toLowerCase()}`);
   cardEl.className = classes.join(" ");
+  const rarityKey = { BASIC: "common", COMMON: "common", TOKEN: "common", UNCOMMON: "uncommon", RARE: "rare", CURSE: "curse", STATUS: "status", QUEST: "quest", EVENT: "event", ANCIENT: "ancient" }[card.rarity] || "common";
+  const borderType = card.type === "ATTACK" ? "attack" : card.type === "POWER" ? "power" : "skill";
+  const frameColor = {
+    AUTOMATON: "automaton",
+    AWAKENED: "awakened",
+    CHAMP: "champ",
+    COLLECTOR: "collector",
+    GREMLIN: "gremlin",
+    GUARDIAN: "guardian",
+    HERMIT: "hermit",
+    HEXAGHOST: "hexaghost",
+    SLIMEBOUND: "slimebound",
+    SNECKO: "snecko",
+  }[card.color];
+  const frameSource = card.type === "CURSE"
+    ? "curse"
+    : card.color === "COLORLESS" || card.color === "DOWNFALL" ? "colorless" : frameColor;
+  if (frameSource) {
+    cardEl.style.setProperty("--frame-image", `url("assets/card-ui/rarity/${frameSource}-frame-${borderType}.png")`);
+  }
+  cardEl.style.setProperty("--rarity-banner-image", `url("assets/card-ui/rarity/${rarityKey}-banner.png")`);
+  cardEl.style.setProperty("--rarity-plaque-image", `url("assets/card-ui/rarity/${rarityKey}-type-plaque.png")`);
+  cardEl.style.setProperty("--rarity-portrait-border-image", `url("assets/card-ui/rarity/${rarityKey}-portrait-border-${borderType}.png")`);
   const frameByRarity = {
     UNCOMMON: "rgba(108, 176, 232, 0.32)",
     RARE: "rgba(220, 178, 67, 0.36)",
@@ -1757,6 +1860,34 @@ function buildCardElement(card, suppressAnimation = false, previewMode = false, 
   const desc = previewMode ? renderDescriptionForPreview(card, options) : renderDescription(card, options);
   cardEl.innerHTML = buildCardInnerHtml(card, desc, options);
   return cardEl;
+}
+
+function fitGameCardText(cardEl) {
+  if (!cardEl || !cardEl.matches("[data-card-id]")) return;
+  const fit = (selector, minimum, axis, step = 0.5) => {
+    const node = cardEl.querySelector(selector);
+    if (!node) return;
+    node.style.fontSize = "";
+    let size = parseFloat(getComputedStyle(node).fontSize);
+    if (!Number.isFinite(size)) return;
+    const overflows = () => axis === "width"
+      ? node.scrollWidth > node.clientWidth + 1
+      : node.scrollHeight > node.clientHeight + 3;
+    while (overflows() && size > minimum) {
+      size = Math.max(minimum, size - step);
+      node.style.fontSize = `${size}px`;
+    }
+  };
+  const run = () => {
+    fit(".card-face-title h3", 8, "width");
+    fit(".card-face-cost .card-cost-value", 22, "width");
+    fit(".card-desc", 12, "height");
+  };
+  if (document.fonts && document.fonts.ready) {
+    document.fonts.ready.then(run);
+  } else {
+    requestAnimationFrame(run);
+  }
 }
 
 function getDisplayCost(card, useUpgrade = state.showUpgrade) {
@@ -1808,7 +1939,10 @@ function buildOptions() {
     .sort((a, b) => localizeType(a).localeCompare(localizeType(b), state.lang === "zh" ? "zh" : "en"))
     .forEach((type) => typeOptions.push({ value: type, label: localizeType(type) }));
   [...rarities]
-    .sort((a, b) => localizeRarity(a).localeCompare(localizeRarity(b), state.lang === "zh" ? "zh" : "en"))
+    .sort((a, b) => {
+      const rankDifference = (rarityFilterRank[a] ?? 999) - (rarityFilterRank[b] ?? 999);
+      return rankDifference || localizeRarity(a).localeCompare(localizeRarity(b), state.lang === "zh" ? "zh" : "en");
+    })
     .forEach((rarity) => rarityOptions.push({ value: rarity, label: localizeRarity(rarity) }));
   const colorLabelMap = new Map();
   state.data.cards.forEach((card) => {
@@ -1967,7 +2101,9 @@ function appendCardElements(slice, suppressAnimation) {
     slice.forEach((card) => {
       const cardEl = buildCardElement(card, suppressAnimation, false);
       elements.grid.appendChild(cardEl);
+      fitGameCardText(cardEl);
     });
+    syncTranslatorGridLayout();
     return;
   }
 
@@ -1976,11 +2112,45 @@ function appendCardElements(slice, suppressAnimation) {
     const zhEl = buildCardElementInLang(card, "zh", suppressAnimation, false);
     elements.grid.appendChild(enEl);
     elements.grid.appendChild(zhEl);
+    fitGameCardText(enEl);
+    fitGameCardText(zhEl);
   });
+  syncTranslatorGridLayout();
+}
+
+function syncTranslatorGridLayout() {
+  if (!elements.grid) return;
+  if (!state.translatorMode) {
+    elements.grid.style.removeProperty("grid-template-columns");
+    return;
+  }
+  const minCardWidth = 184;
+  const columnGap = 28;
+  let columns = Math.floor((elements.grid.clientWidth + columnGap) / (minCardWidth + columnGap));
+  if (columns > 1 && columns % 2 !== 0) columns -= 1;
+  columns = Math.max(1, columns);
+  elements.grid.style.gridTemplateColumns = `repeat(${columns}, minmax(0, 208px))`;
+  elements.grid.style.justifyContent = "center";
+}
+
+function getCardGridColumns() {
+  const minCardWidth = 184;
+  const columnGap = 28;
+  let columns = Math.floor((elements.grid.clientWidth + columnGap) / (minCardWidth + columnGap));
+  columns = Math.max(1, columns);
+  if (state.translatorMode) columns = Math.max(2, columns - (columns % 2));
+  return columns;
+}
+
+function syncCardPageCapacity() {
+  syncTranslatorGridLayout();
+  state.pageSize = getCardGridColumns() * 6;
+  elements.pageSize.value = String(state.pageSize);
 }
 
 function renderCards() {
   if (!state.data) return;
+  syncCardPageCapacity();
   hideKeywordTooltip();
   hideCardPreviewTooltip();
   const suppressAnimation = state.suppressNextCardAnimation;
@@ -2070,6 +2240,12 @@ function bindEvents() {
     renderCards();
   });
 
+  elements.fontStyleToggle.addEventListener("click", () => {
+    state.useEnglishFontStyle = !state.useEnglishFontStyle;
+    window.localStorage.setItem("downfall-english-font-style", state.useEnglishFontStyle ? "1" : "0");
+    applyI18n();
+  });
+
   elements.searchBtn.addEventListener("click", () => {
     triggerSearch();
   });
@@ -2150,6 +2326,14 @@ function bindEvents() {
   });
 
   bindAttachedHoverEvents();
+  window.addEventListener("resize", () => {
+    const previousPageSize = state.pageSize;
+    syncCardPageCapacity();
+    if (state.pageSize !== previousPageSize) {
+      state.page = 1;
+      renderCards();
+    }
+  });
 
   window.addEventListener("popstate", () => {
     readStateFromUrl();
@@ -2162,12 +2346,15 @@ function bindEvents() {
 }
 
 async function init() {
+  state.useEnglishFontStyle = window.localStorage.getItem("downfall-english-font-style") === "1";
   const response = await fetch("data/cards.json");
   if (!response.ok) {
     elements.summary.textContent = "Missing data/cards.json. Run the pipeline first.";
     return;
   }
   state.data = await response.json();
+  elements.pageSize.closest("label").hidden = true;
+  elements.deprecatedFilter.closest("label").hidden = true;
   readStateFromUrl();
   buildKeywordZhIndex();
   buildBaseKeywordIndex();

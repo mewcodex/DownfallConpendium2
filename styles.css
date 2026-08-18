@@ -12,6 +12,34 @@
   --shadow: 0 20px 50px rgba(27, 26, 24, 0.12);
 }
 
+@font-face {
+  font-family: "Kreon Game";
+  src: url("assets/fonts/kreon-regular.ttf") format("truetype");
+  font-weight: 400;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Source Han Game";
+  src: url("assets/fonts/source-han-serif-sc-medium.otf") format("opentype");
+  font-weight: 400;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Source Han Game";
+  src: url("assets/fonts/source-han-serif-sc-bold.otf") format("opentype");
+  font-weight: 700;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Kreon Game";
+  src: url("assets/fonts/kreon-bold.ttf") format("truetype");
+  font-weight: 700;
+  font-display: swap;
+}
+
 * {
   box-sizing: border-box;
 }
@@ -288,17 +316,25 @@ select {
   gap: 18px;
 }
 
+#cardGrid {
+  grid-template-columns: repeat(auto-fill, minmax(184px, 208px));
+  justify-content: center;
+  column-gap: 28px;
+  row-gap: 34px;
+}
+
 .card {
   --rarity-frame: var(--border);
   --rarity-glow: transparent;
-  background: #efede7;
-  border-radius: 18px;
-  border: 5px solid var(--rarity-frame);
+  background: transparent;
+  border-radius: 10px;
+  border: 2px solid var(--rarity-frame);
   box-shadow: var(--shadow), 0 0 14px 1px var(--rarity-glow);
   overflow: hidden;
   display: flex;
   flex-direction: column;
-  min-height: 320px;
+  aspect-ratio: 598 / 844;
+  min-height: 0;
   position: relative;
   animation: riseIn 0.45s ease both;
 }
@@ -310,6 +346,98 @@ select {
   background: rgba(120, 120, 120, 0.46);
   pointer-events: none;
   z-index: 8;
+}
+
+/* Relics use the same data card structure, but need a readable document-style body. */
+.relic-page #relicGrid {
+  grid-template-columns: repeat(auto-fill, minmax(196px, 220px));
+  justify-content: center;
+  column-gap: 28px;
+  row-gap: 34px;
+}
+
+.selects label[hidden],
+.sort-row label[hidden] {
+  display: none !important;
+}
+
+.relic-page #relicGrid > .card {
+  aspect-ratio: 598 / 844;
+  width: 220px;
+  border: 1px solid rgba(68, 61, 49, 0.28);
+  border-radius: 8px;
+  background: #f7f0e2;
+  box-shadow: 0 12px 26px rgba(49, 42, 31, 0.18), 0 0 0 1px rgba(255, 255, 255, 0.55) inset;
+}
+
+.relic-page #relicGrid > .card > img,
+.relic-page #relicGrid > .card > .placeholder {
+  display: block;
+  flex: 0 0 44%;
+  width: 100%;
+  height: auto;
+  min-height: 0;
+  object-fit: contain;
+  background: linear-gradient(180deg, #e9e2d5 0%, #ddd4c6 100%);
+  padding: 18px;
+}
+
+.relic-page #relicGrid > .card > .card-body {
+  flex: 1 1 auto;
+  min-height: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 9px;
+  padding: 18px 18px 20px;
+  background: #35433f;
+  color: #fff7e8;
+}
+
+.relic-page #relicGrid > .card .card-title h3 {
+  color: #fff7e8;
+  font-family: "Kreon Game", serif;
+  font-size: clamp(1.05rem, 1.8vw, 1.35rem);
+  font-weight: 700;
+  line-height: 1.08;
+}
+
+.relic-page #relicGrid > .card .card-id {
+  color: rgba(255, 247, 232, 0.68);
+  font-family: "Kreon Game", serif;
+  font-size: 0.72rem;
+}
+
+.relic-page #relicGrid > .card .card-meta {
+  color: #fff7e8;
+  font-family: "Kreon Game", serif;
+  font-size: 0.82rem;
+}
+
+.relic-page #relicGrid > .card .card-meta .tag {
+  color: #fff7e8;
+}
+
+.relic-page #relicGrid > .card .card-desc {
+  flex: 1 1 auto;
+  min-height: 0;
+  overflow: hidden;
+  color: #fff7e8;
+  font-family: "Kreon Game", serif;
+  font-size: clamp(0.95rem, 1.35vw, 1.08rem);
+  line-height: 1.3;
+  text-shadow: 1px 1px 0 rgba(0, 0, 0, 0.3);
+}
+
+.relic-page #relicGrid > .card[data-render-lang="zh"] .card-title h3,
+.relic-page #relicGrid > .card[data-render-lang="zh"] .card-id,
+.relic-page #relicGrid > .card[data-render-lang="zh"] .card-meta,
+.relic-page #relicGrid > .card[data-render-lang="zh"] .card-desc {
+  font-family: "Noto Sans Mono CJK SC UI", "PingFang SC", "Microsoft YaHei", sans-serif;
+  font-weight: 400;
+}
+
+.relic-page #relicGrid > .card[data-render-lang="zh"] .card-title h3 {
+  font-weight: 700;
 }
 
 .card.no-enter {
@@ -345,15 +473,132 @@ select {
   color: #f4ecdd;
 }
 
-.card > img {
+.card-visual {
+  position: relative;
+  min-height: 0;
+  flex: 0 0 52%;
+  overflow: hidden;
+  background: #211a17;
+}
+
+.card-portrait,
+.card-portrait-border,
+.card-frame,
+.card-banner {
+  position: absolute;
+  inset: 0;
+  display: block;
   width: 100%;
-  height: 200px;
+  height: 100%;
+  pointer-events: none;
+}
+
+.card-portrait {
+  width: 100%;
+  height: 100%;
   object-fit: cover;
-  background: #f0ede6;
+  object-position: center 32%;
+  filter: saturate(0.95) contrast(1.04);
+  z-index: 1;
+}
+
+.card-frame {
+  z-index: 4;
+  background: url("assets/card-ui/frame-skill.png") center / 100% 100% no-repeat;
+}
+
+.card-visual-attack .card-frame {
+  background-image: url("assets/card-ui/frame-attack.png");
+}
+
+.card-visual-power .card-frame {
+  background-image: url("assets/card-ui/frame-power.png");
+}
+
+.card-portrait-border {
+  z-index: 3;
+  background: url("assets/card-ui/portrait-border.png") center / 100% 100% no-repeat;
+  opacity: 0.92;
+}
+
+.card-banner {
+  z-index: 5;
+  inset: auto 8% 3% 8%;
+  height: 19%;
+  background: url("assets/card-ui/banner.png") center / 100% 100% no-repeat;
+  opacity: 0.9;
+}
+
+.card-face-title {
+  position: absolute;
+  z-index: 6;
+  left: 14%;
+  right: 14%;
+  bottom: 7%;
+  text-align: center;
+  color: #f7efe0;
+  text-shadow: 0 2px 2px #21130d, 0 0 4px #21130d;
+  font-family: "Noto Sans Mono CJK SC UI", "PingFang SC", "Microsoft YaHei", sans-serif;
+}
+
+.card-face-title h3 {
+  margin: 0;
+  font-family: "Noto Sans Mono CJK SC UI", "PingFang SC", "Microsoft YaHei", sans-serif;
+  font-size: clamp(0.9rem, 1.8vw, 1.28rem);
+  line-height: 1.05;
+}
+
+.card-face-type {
+  position: absolute;
+  z-index: 6;
+  left: 40%;
+  right: 40%;
+  bottom: -1%;
+  min-height: 8%;
+  display: grid;
+  place-items: center;
+  padding: 0 5%;
+  background: linear-gradient(#d9d6d0, #a8a7a3);
+  border: 1px solid #6d6c68;
+  border-radius: 2px;
+  box-shadow: 0 2px 3px rgba(0, 0, 0, 0.55);
+  color: rgba(0, 0, 0, 0.76);
+  font: 700 clamp(0.55rem, 1.3vw, 0.9rem)/1 "Noto Sans Mono CJK SC UI", "PingFang SC", "Microsoft YaHei", sans-serif;
+  white-space: nowrap;
+}
+
+.card-face-title .card-id {
+  display: none;
+}
+
+.card-face-cost {
+  position: absolute;
+  z-index: 7;
+  top: 4%;
+  left: 5%;
+  width: 18%;
+  aspect-ratio: 1;
+  display: grid;
+  place-items: center;
+}
+
+.card-face-cost .card-cost-icon,
+.card-face-cost .card-cost-fallback-orb {
+  position: absolute;
+  inset: 0;
+}
+
+.card-face-cost .card-cost-value {
+  position: relative;
+  font-size: clamp(1rem, 2.4vw, 1.6rem);
+}
+
+.card-visual-missing {
+  background: #2b2521;
 }
 
 .placeholder {
-  height: 200px;
+  height: 100%;
   background: repeating-linear-gradient(
     -45deg,
     rgba(44, 111, 124, 0.08),
@@ -364,11 +609,30 @@ select {
 }
 
 .card-body {
+  flex: 1 1 auto;
+  min-height: 0;
+  background: linear-gradient(180deg, #3f4b46 0%, #303b37 100%);
+  color: #fff5e2;
   padding: 14px 16px 18px;
   display: grid;
+  align-content: center;
   gap: 8px;
   position: relative;
   padding-bottom: 40px;
+}
+
+article.card[data-card-id] .card-meta {
+  display: none;
+}
+
+.card-body .card-id,
+.card-body .card-desc {
+  color: #fff5e2;
+}
+
+.card-body .card-title h3 {
+  color: #fff5e2;
+  text-shadow: 0 1px rgba(0, 0, 0, 0.45);
 }
 
 .card-flag-not-in-pool {
@@ -378,12 +642,12 @@ select {
   display: inline-flex;
   align-items: center;
   border: 1px solid rgba(27, 26, 24, 0.18);
-  background: rgba(27, 26, 24, 0.06);
+  color: #fff5e2;
   color: #3a3732;
   border-radius: 999px;
   padding: 3px 9px;
-  font-size: 0.68rem;
-  line-height: 1;
+  color: #fff5e2;
+  text-shadow: 0 1px rgba(0, 0, 0, 0.45);
   letter-spacing: 0.02em;
 }
 
@@ -410,7 +674,7 @@ select {
   color: var(--muted);
   opacity: 0.9;
   letter-spacing: 0.01em;
-  line-height: 1.2;
+  line-height: 1.25;
   word-break: break-all;
 }
 
@@ -440,9 +704,9 @@ select {
 .card-cost-value {
   position: absolute;
   inset: 0;
-  display: flex;
-  align-items: center;
-  justify-content: center;
+  display: grid;
+  align-content: center;
+  justify-items: center;
   font-weight: 800;
   font-size: 1.35rem;
   line-height: 1;
@@ -522,13 +786,15 @@ select {
 }
 
 .card-desc {
-  font-size: 0.9rem;
-  line-height: 1.4;
-  color: #2b2824;
+  font-family: "Kreon Game", "Noto Sans SC", serif;
+  font-size: clamp(0.82rem, 1.35vw, 1rem);
+  line-height: 1.22;
+  color: #fff5e2;
+  text-shadow: 2px 2px 0 rgba(0, 0, 0, 0.25);
 }
 
 html[lang^="zh"] .card-desc {
-  font-family: "Noto Sans SC", "Source Han Sans SC", "Microsoft YaHei", "PingFang SC", "Hiragino Sans GB", "WenQuanYi Micro Hei", sans-serif;
+  font-family: "Kreon Game", "Noto Sans SC", "Source Han Sans SC", "Microsoft YaHei", sans-serif;
 }
 
 .num-up {
@@ -602,44 +868,47 @@ html[lang^="zh"] .card-desc {
 }
 
 .kw-tip-name {
+  font-family: "Kreon Game", serif;
   font-weight: 700;
   margin-bottom: 4px;
 }
 
 .kw-tip-desc {
+  font-family: "Kreon Game", serif;
+  font-weight: 400;
   font-size: 0.82rem;
   line-height: 1.35;
   color: #3e3832;
 }
 
 .kw-mark-yellow {
-  color: #9b6d00;
-  font-weight: 700;
+  color: #efc851;
+  font-weight: inherit;
 }
 
 .kw-mark-blue {
-  color: #1f5db5;
-  font-weight: 700;
+  color: #87ceeb;
+  font-weight: inherit;
 }
 
 .kw-mark-red {
-  color: #b43a2f;
-  font-weight: 700;
+  color: #e25e5e;
+  font-weight: inherit;
 }
 
 .kw-mark-purple {
-  color: #7b4dc9;
-  font-weight: 700;
+  color: #d19cea;
+  font-weight: inherit;
 }
 
 .kw-mark-green {
-  color: #287a45;
-  font-weight: 700;
+  color: #52c41a;
+  font-weight: inherit;
 }
 
 .kw-mark-aqua {
   color: #147d8b;
-  font-weight: 700;
+  font-weight: inherit;
 }
 
 .card-mini-preview {
@@ -707,7 +976,10 @@ html[lang^="zh"] .card-desc {
   display: none;
   width: max-content;
   max-width: min(78vw, 760px);
-  gap: 8px;
+  display: none;
+  grid-template-columns: minmax(260px, 320px) auto;
+  align-items: start;
+  gap: 18px;
   pointer-events: none;
 }
 
@@ -715,27 +987,120 @@ html[lang^="zh"] .card-desc {
   display: grid;
 }
 
+.card-attached-tip-column {
+  display: grid;
+  gap: 14px;
+  width: min(320px, 40vw);
+}
+
+.card-hover-attachments.split-sides {
+  grid-template-columns: minmax(220px, 320px) auto;
+  gap: var(--hover-split-gap, 24px);
+}
+
+.card-hover-attachments.text-only {
+  grid-template-columns: auto;
+  width: max-content;
+}
+
+.card-hover-attachments.text-only .card-attached-tip-column {
+  width: max-content;
+}
+
+.card-hover-attachments.card-only-preview {
+  grid-template-columns: auto;
+  width: max-content;
+}
+
+.card-hover-attachments.card-only-preview .card-attached-previews {
+  width: max-content;
+}
+
+.card-hover-attachments.text-and-preview {
+  grid-template-columns: 220px 180px;
+  width: max-content;
+  gap: 24px;
+}
+
+.card-hover-attachments.text-and-preview .card-attached-tip-column {
+  width: 220px;
+}
+
 .card-attached-tip {
-  max-width: 320px;
-  padding: 10px 12px;
-  border: 1px solid rgba(44, 111, 124, 0.25);
-  border-radius: 8px;
-  background: #fffdf8;
-  color: #1f1b16;
-  box-shadow: 0 14px 34px rgba(27, 26, 24, 0.2);
+  width: 220px;
+  max-width: none;
+  min-height: 0px;
+  box-sizing: border-box;
+  padding: 0;
+  border: 0;
+  border-width: 7.5px 15px 11.25px;
+  border-style: solid;
+  border-image: url("assets/hover-ui/hover-tip.png") 10 20 15 fill stretch;
+  border-image-outset: 5px;
+  border-radius: 0;
+  background: #242e32;
+  color: #fdf4e0;
+  box-shadow: none;
+}
+
+.card-attached-tip-debuff {
+  border-image-source: url("assets/hover-ui/hover-tip-debuff.png");
+  background: #36201e;
+}
+
+.card-attached-tip .kw-tip-name {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  margin-bottom: 6px;
+  color: #efc851;
+  font-family: "Kreon Game", serif;
+  font-size: 1rem;
+  font-weight: 700;
+}
+
+.card-attached-tip-icon {
+  width: 28px;
+  height: 28px;
+  object-fit: contain;
+  flex: 0 0 28px;
+}
+
+.card-attached-tip .kw-tip-desc {
+  color: #fdf4e0;
+  font-family: "Kreon Game", serif;
+  font-size: 0.92rem;
+  line-height: 1.2;
+}
+
+.kw-tooltip[data-render-lang="zh"] .kw-tip-name,
+.card-hover-attachments[data-render-lang="zh"] .card-attached-tip .kw-tip-name,
+.kw-tooltip[data-render-lang="zh"] .kw-tip-desc,
+.card-hover-attachments[data-render-lang="zh"] .card-attached-tip .kw-tip-desc {
+  font-family: "Noto Sans Mono CJK SC UI", "PingFang SC", "Microsoft YaHei", sans-serif;
+  font-weight: 400;
+}
+
+.kw-tooltip[data-render-lang="zh"] .kw-tip-desc strong,
+.kw-tooltip[data-render-lang="zh"] .kw-tip-desc b,
+.card-hover-attachments[data-render-lang="zh"] .card-attached-tip .kw-tip-desc strong,
+.card-hover-attachments[data-render-lang="zh"] .card-attached-tip .kw-tip-desc b {
+  font-family: "Source Han Game", serif;
+  font-weight: 700;
 }
 
 .card-attached-previews {
   display: flex;
+  align-items: flex-start;
   flex-wrap: wrap;
-  gap: 6px;
+  gap: 12px;
 }
 
 .card-attached-previews .card.mini-cloned-card {
-  width: 240px;
-  min-height: 320px;
+  width: 180px;
+  min-height: 0;
   margin: 0;
-  box-shadow: 0 5px 8px rgba(27, 26, 24, 0.1);
+  box-shadow: 0 5px 12px rgba(0, 0, 0, 0.45);
 }
 
 .card-attached-previews .card.mini-cloned-card .card-body {
@@ -749,6 +1114,349 @@ html[lang^="zh"] .card-desc {
 
 .card-attached-previews .card.mini-cloned-card .card-desc {
   font-size: 0.82rem;
+}
+
+/* The game card scene is authored at 300x422 around a centered origin. Keep
+   the web card in that same coordinate system instead of laying it out as a
+   portrait followed by a document-flow body. */
+article.card[data-card-id] {
+  container-type: inline-size;
+  display: block;
+  aspect-ratio: 300 / 422;
+  border: 0;
+  border-radius: 0;
+  overflow: visible;
+  background: transparent;
+  box-shadow: none;
+  --banner-filter: grayscale(1) brightness(0.85);
+  --title-outline: #4d4b40;
+}
+
+article.card[data-card-id].card-rarity-uncommon { --title-outline: #005c75; }
+article.card[data-card-id].card-rarity-rare { --title-outline: #6b4b00; }
+article.card[data-card-id].card-rarity-curse { --title-outline: #550b9e; }
+article.card[data-card-id].card-rarity-quest { --title-outline: #7e3e15; }
+article.card[data-card-id].card-rarity-status { --title-outline: #4f522f; }
+article.card[data-card-id].card-rarity-event,
+article.card[data-card-id].card-rarity-ancient { --title-outline: #1b6131; }
+
+article.card[data-card-id] .card-visual {
+  position: absolute;
+  inset: 0;
+  display: block;
+  overflow: visible;
+  width: 100%;
+  height: 100%;
+  background: transparent;
+}
+
+article.card[data-card-id] .card-portrait {
+  inset: 10.19% auto auto 8.33%;
+  width: 83.33%;
+  height: 45.02%;
+  object-fit: cover;
+  object-position: center;
+}
+
+article.card[data-card-id] .card-portrait-border {
+  inset: 11.14% auto auto 4.17%;
+  width: 91.67%;
+  height: 49.76%;
+  z-index: 5;
+  background-image: var(--rarity-portrait-border-image);
+}
+
+article.card[data-card-id] .card-visual-attack .card-portrait-border {
+  background-image: var(--rarity-portrait-border-image);
+}
+
+article.card[data-card-id] .card-visual-power .card-portrait-border {
+  background-image: var(--rarity-portrait-border-image);
+}
+
+article.card[data-card-id] .card-frame {
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  background-image: var(--frame-image);
+  filter: none;
+}
+
+article.card[data-card-id] .card-banner {
+  inset: 2.2% auto auto -4.33%;
+  width: 109%;
+  height: 19.67%;
+  background-image: var(--rarity-banner-image);
+  filter: none;
+  opacity: 1;
+}
+
+article.card[data-card-id] .card-face-title {
+  inset: 2.2% 15% auto;
+  height: 9.48%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0;
+  bottom: auto;
+  line-height: 1.54;
+}
+
+article.card[data-card-id] .card-face-title h3 {
+  font-size: 8.67cqw;
+  font-family: "Kreon Game", serif;
+  font-weight: 700;
+  letter-spacing: 1px;
+  line-height: 1.54;
+  width: 100%;
+  min-width: 0;
+  max-width: 100%;
+  white-space: nowrap;
+  color: #fff6e2;
+  -webkit-text-stroke: 2px var(--title-outline);
+  paint-order: stroke fill;
+  text-shadow:
+    0 0 2px rgba(0, 0, 0, 0.34),
+    0 0 4px rgba(0, 0, 0, 0.45);
+}
+
+article.card[data-card-id][data-render-lang="zh"] .card-face-title h3 {
+  font-family: "Noto Sans Mono CJK SC UI", "PingFang SC", "Microsoft YaHei", sans-serif;
+  font-weight: 400;
+}
+
+article.card[data-card-id] .card-face-cost {
+  inset: -3.79% auto auto -5.33%;
+  width: 21.33%;
+  height: 15.17%;
+  aspect-ratio: auto;
+}
+
+article.card[data-card-id] .card-face-cost-hidden {
+  display: none;
+}
+
+article.card[data-card-id] .card-face-cost .card-cost-value {
+  font-size: 10.67cqw;
+  font-family: "Noto Sans Mono CJK SC UI", "PingFang SC", "Microsoft YaHei", sans-serif;
+  font-weight: 700;
+  -webkit-text-stroke: 1px #810000;
+  text-shadow:
+    -0.45cqw -0.45cqw 0 rgba(0, 0, 0, 0.82),
+    0.45cqw -0.45cqw 0 rgba(0, 0, 0, 0.82),
+    -0.45cqw 0.45cqw 0 rgba(0, 0, 0, 0.82),
+    0.45cqw 0.45cqw 0 rgba(0, 0, 0, 0.82);
+}
+
+article.card[data-card-id] .card-face-type {
+  inset: 50.24% auto auto 50%;
+  box-sizing: content-box;
+  width: max-content;
+  min-width: 14.67%;
+  height: 8.77%;
+  min-height: 0;
+  padding: 0 2.83%;
+  transform: translateX(-50%);
+  isolation: isolate;
+  background: none;
+  border: 0;
+  border-radius: 0;
+  box-shadow: none;
+  font-size: 5.33cqw;
+  line-height: 1;
+  font-family: "Kreon Game", "Source Han Game", "Noto Sans SC", "Microsoft YaHei", sans-serif;
+  font-weight: 700;
+  color: rgba(0, 0, 0, 0.752941);
+  white-space: nowrap;
+  filter: none;
+}
+
+article.card[data-card-id] .card-face-type::before {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  inset: 0;
+  background: var(--rarity-plaque-image) center / 100% 100% no-repeat;
+}
+
+article.card[data-card-id][data-render-lang="zh"] .card-face-type {
+  font-family: "Noto Sans Mono CJK SC UI", "PingFang SC", "Microsoft YaHei", sans-serif;
+  font-size: 5.067cqw;
+  font-weight: 400;
+}
+
+article.card[data-card-id] .card-body {
+  position: absolute;
+  inset: 0;
+  z-index: 8;
+  display: block;
+  padding: 0;
+  background: transparent;
+  color: #fff5e2;
+  pointer-events: none;
+}
+
+article.card[data-card-id] .card-body .card-desc {
+  position: absolute;
+  inset: 58.77% auto auto 9.33%;
+  width: 81%;
+  height: 32.23%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 2% 2.67%;
+  overflow: hidden;
+  color: #fdf4e0;
+  font-family: "Kreon Game", serif;
+  font-size: 7cqw;
+  line-height: 1.3;
+  font-weight: 400;
+  letter-spacing: 0.02em;
+  text-align: center;
+  white-space: normal;
+  overflow-wrap: anywhere;
+  text-shadow: 1px 1px 0 rgba(0, 0, 0, 0.35), 2px 2px 0 rgba(0, 0, 0, 0.35);
+}
+
+article.card[data-card-id][data-render-lang="zh"] .card-body .card-desc {
+  font-family: "Noto Sans Mono CJK SC UI", "PingFang SC", "Microsoft YaHei", sans-serif;
+}
+
+article.card[data-card-id][data-render-lang="zh"] .card-body .card-desc strong,
+article.card[data-card-id][data-render-lang="zh"] .card-body .card-desc b {
+  font-family: "Source Han Game", serif;
+  font-weight: 700;
+}
+
+article.card[data-card-id] .card-desc-content {
+  width: 100%;
+  max-width: 100%;
+  text-align: center;
+  white-space: pre-wrap;
+  overflow-wrap: anywhere;
+}
+
+article.card[data-card-id] .card-visual-ancient .card-portrait {
+  inset: -0.948% auto auto -1%;
+  width: 99.667%;
+  height: 99.763%;
+  object-fit: fill;
+  object-position: center;
+  -webkit-mask-image: url("assets/card-ui/ancient/portrait-mask-positioned.png");
+  mask-image: url("assets/card-ui/ancient/portrait-mask-positioned.png");
+  -webkit-mask-size: 100% 100%;
+  mask-size: 100% 100%;
+  -webkit-mask-repeat: no-repeat;
+  mask-repeat: no-repeat;
+  -webkit-mask-mode: alpha;
+  mask-mode: alpha;
+}
+
+article.card[data-card-id] .card-visual-ancient .card-frame,
+article.card[data-card-id] .card-visual-ancient .card-portrait-border {
+  display: none;
+}
+
+article.card[data-card-id] .card-ancient-border,
+article.card[data-card-id] .card-ancient-border-glass,
+article.card[data-card-id] .card-ancient-text-bg {
+  position: absolute;
+  inset: 0;
+  display: block;
+  width: 100%;
+  height: 100%;
+  pointer-events: none;
+}
+
+article.card[data-card-id] .card-ancient-border {
+  z-index: 6;
+  inset: -2.844% auto auto -1.333%;
+  width: 102%;
+  height: 104.265%;
+  background: url("assets/card-ui/ancient/border-modulated.png") center / contain no-repeat;
+  mix-blend-mode: plus-lighter;
+  opacity: 0.502;
+}
+
+article.card[data-card-id] .card-ancient-border-glass {
+  z-index: 7;
+  inset: 0.069% auto auto 0.512%;
+  width: 98.424%;
+  height: 98.58%;
+  background: rgba(255, 255, 255, 0.15);
+  -webkit-backdrop-filter: brightness(1.15);
+  backdrop-filter: brightness(1.15);
+  -webkit-mask-image:
+    url("assets/card-ui/ancient/glass-shape.png"),
+    url("assets/card-ui/ancient/border-glass-overlay.png");
+  mask-image:
+    url("assets/card-ui/ancient/glass-shape.png"),
+    url("assets/card-ui/ancient/border-glass-overlay.png");
+  -webkit-mask-size: 100% 100%, 100% 100%;
+  mask-size: 100% 100%, 100% 100%;
+  -webkit-mask-repeat: no-repeat;
+  mask-repeat: no-repeat;
+  -webkit-mask-composite: source-in;
+  mask-composite: intersect;
+}
+
+article.card[data-card-id] .card-ancient-border-glass::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: rgba(255, 255, 255, 0.2);
+  -webkit-mask: url("assets/card-ui/ancient/glass-corner-weight.png") center / 100% 100% no-repeat;
+  mask: url("assets/card-ui/ancient/glass-corner-weight.png") center / 100% 100% no-repeat;
+  -webkit-mask-mode: luminance;
+  mask-mode: luminance;
+}
+
+article.card[data-card-id] .card-ancient-text-bg {
+  z-index: 4;
+  inset: 45.69% auto auto 6.936%;
+  width: 85.84%;
+  height: 45.036%;
+  background-position: center;
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  opacity: 0.66;
+}
+
+article.card[data-card-id] .card-visual-ancient .card-ancient-text-bg {
+  background-image: url("assets/card-ui/ancient/text-skill.png");
+}
+
+article.card[data-card-id] .card-visual-ancient.card-visual-attack .card-ancient-text-bg {
+  background-image: url("assets/card-ui/ancient/text-attack.png");
+}
+
+article.card[data-card-id] .card-visual-ancient.card-visual-skill .card-ancient-text-bg {
+  inset: 54.356% auto auto 6.683%;
+  width: 85.588%;
+  height: 38.548%;
+}
+
+article.card[data-card-id] .card-visual-ancient.card-visual-power .card-ancient-text-bg {
+  inset: 44.787% auto auto 6.683%;
+  width: 86%;
+  height: 45.758%;
+  background-image: url("assets/card-ui/ancient/text-power.png");
+}
+
+article.card[data-card-id] .card-visual-ancient .card-banner {
+  z-index: 8;
+  inset: 0.95% auto auto -4.33%;
+  width: 109%;
+  height: 19.67%;
+  background: url("assets/card-ui/ancient/banner.png") center / cover no-repeat;
+}
+
+article.card[data-card-id] .card-visual-ancient .card-face-title {
+  z-index: 9;
+}
+
+article.card[data-card-id] .card-visual-ancient .card-face-cost {
+  z-index: 10;
 }
 
 .pager {
@@ -771,6 +1479,11 @@ html[lang^="zh"] .card-desc {
   margin-top: 12px;
   text-align: center;
   font-size: 0.78rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 14px;
+  flex-wrap: wrap;
 }
 
 .translator-entry a {
@@ -782,6 +1495,45 @@ html[lang^="zh"] .card-desc {
 .translator-entry a:hover {
   color: var(--fg);
   border-bottom-color: rgba(27, 26, 24, 0.7);
+}
+
+.font-style-toggle {
+  border: 0;
+  border-bottom: 1px dashed rgba(27, 26, 24, 0.3);
+  border-radius: 0;
+  padding: 0;
+  background: transparent;
+  color: var(--muted);
+  font: inherit;
+  font-size: 0.78rem;
+  cursor: pointer;
+}
+
+.font-style-toggle:hover,
+.font-style-toggle.active {
+  border-bottom-color: rgba(27, 26, 24, 0.7);
+  color: var(--teal);
+}
+
+html.font-english-style article.card[data-render-lang="zh"] .card-face-title h3,
+html.font-english-style article.card[data-render-lang="zh"] .card-body .card-desc,
+html.font-english-style .relic-page #relicGrid > .card[data-render-lang="zh"] .card-title h3,
+html.font-english-style .relic-page #relicGrid > .card[data-render-lang="zh"] .card-id,
+html.font-english-style .relic-page #relicGrid > .card[data-render-lang="zh"] .card-meta,
+html.font-english-style .relic-page #relicGrid > .card[data-render-lang="zh"] .card-desc,
+html.font-english-style .kw-tooltip[data-render-lang="zh"] .kw-tip-name,
+html.font-english-style .kw-tooltip[data-render-lang="zh"] .kw-tip-desc,
+html.font-english-style .card-hover-attachments[data-render-lang="zh"] .card-attached-tip .kw-tip-name,
+html.font-english-style .card-hover-attachments[data-render-lang="zh"] .card-attached-tip .kw-tip-desc {
+  font-family: "Kreon Game", serif;
+  font-weight: 400;
+}
+
+html.font-english-style article.card[data-render-lang="zh"] .card-face-title h3,
+html.font-english-style .relic-page #relicGrid > .card[data-render-lang="zh"] .card-title h3,
+html.font-english-style .kw-tooltip[data-render-lang="zh"] .kw-tip-name,
+html.font-english-style .card-hover-attachments[data-render-lang="zh"] .card-attached-tip .kw-tip-name {
+  font-weight: 700;
 }
 
 @keyframes riseIn {
@@ -839,4 +1591,203 @@ html[lang^="zh"] .card-desc {
   #langToggle.floating-toggle {
     bottom: 62px;
   }
+}
+
+/* In-game compendium visual language: preserve the document layout, replace the
+   former light theme with the slate, teal, and gold UI treatment. */
+:root {
+  color-scheme: dark;
+  --ink: #f4e6b6;
+  --muted: #aab3b2;
+  --cream: #f8edc8;
+  --accent: #e8b83f;
+  --accent-strong: #f2c84d;
+  --teal: #4a9a9b;
+  --bg: #1c272b;
+  --card-bg: #263337;
+  --border: rgba(115, 151, 151, 0.42);
+  --shadow: 0 8px 18px rgba(0, 0, 0, 0.42);
+  --game-panel: #263c40;
+  --game-panel-dark: #172125;
+  --game-gold: #f0c84d;
+}
+
+body {
+  font-family: "Kreon Game", "Noto Sans Mono CJK SC UI", sans-serif;
+  color: var(--cream);
+  background:
+    linear-gradient(90deg, rgba(255, 255, 255, 0.018) 1px, transparent 1px),
+    #1c272b;
+  background-size: 7px 7px;
+}
+
+.page {
+  padding-top: 28px;
+}
+
+.hero {
+  background: linear-gradient(135deg, #263d40, #1f3034);
+  border: 2px solid #102024;
+  border-radius: 12px;
+  box-shadow: inset 0 0 0 1px rgba(93, 151, 151, 0.38), 0 8px 18px rgba(0, 0, 0, 0.38);
+  padding: 24px 28px;
+}
+
+.hero h1,
+.hero .subtitle,
+.hero .version-info,
+.summary,
+label span,
+.pager,
+.translator-entry {
+  font-family: "Kreon Game", "Noto Sans Mono CJK SC UI", sans-serif;
+}
+
+.hero h1 {
+  color: var(--game-gold);
+  font-size: clamp(2rem, 4vw, 3.2rem);
+  text-shadow: 2px 3px 0 #172125, 0 0 8px rgba(0, 0, 0, 0.45);
+}
+
+.hero .subtitle,
+.hero .version-info,
+.summary {
+  color: #c2caca;
+}
+
+.toggle,
+.search-btn,
+.pager button,
+.font-style-toggle {
+  font-family: "Kreon Game", "Noto Sans Mono CJK SC UI", sans-serif;
+}
+
+.toggle {
+  border: 2px solid #0f1c20;
+  border-radius: 7px;
+  background: #d9d9d1;
+  color: #1c272b;
+  box-shadow: inset 0 0 0 1px rgba(255, 255, 255, 0.42), 0 4px 8px rgba(0, 0, 0, 0.32);
+}
+
+.toggle.active,
+.search-btn:hover {
+  background: var(--game-gold);
+  color: #1b2528;
+  border-color: #142226;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.34);
+}
+
+.hero-actions .toggle,
+.hero-actions a.toggle {
+  background: #31575a;
+  color: #f5d25d;
+  border-color: #0f1e22;
+  text-shadow: 1px 2px 0 rgba(15, 25, 28, 0.8);
+}
+
+.hero-actions .toggle:hover,
+.hero-actions a.toggle:hover {
+  background: #f0c84d;
+  color: #1b2528;
+  border-color: #142226;
+  text-shadow: none;
+}
+
+.controls {
+  gap: 14px;
+}
+
+.selects label,
+.sort-row label,
+.search label {
+  color: var(--game-gold);
+}
+
+label span {
+  color: var(--game-gold);
+  text-shadow: 1px 2px 0 #152125;
+}
+
+select,
+.search-input-row input,
+.search-btn {
+  border: 2px solid #101d21;
+  border-radius: 6px;
+  background: #172125;
+  color: #f3e8c2;
+  box-shadow: inset 0 0 0 1px rgba(92, 140, 140, 0.25), 0 3px 7px rgba(0, 0, 0, 0.28);
+}
+
+select:focus,
+.search-input-row input:focus {
+  outline: 2px solid rgba(240, 200, 77, 0.72);
+  outline-offset: 1px;
+}
+
+.search-input-row input::placeholder {
+  color: #8d9898;
+}
+
+.search-btn {
+  color: var(--game-gold);
+  font-weight: 700;
+}
+
+.card {
+  border-color: rgba(105, 145, 145, 0.55);
+  box-shadow: 0 8px 18px rgba(0, 0, 0, 0.42), 0 0 0 1px rgba(10, 19, 22, 0.65);
+}
+
+.tag {
+  border: 1px solid rgba(19, 32, 35, 0.76);
+  border-radius: 4px;
+  background: #345d60;
+  color: #f5d25d;
+  box-shadow: inset 0 0 0 1px rgba(123, 181, 177, 0.22);
+}
+
+.pager button {
+  border-radius: 5px;
+  border-color: #102024;
+  background: #294447;
+  color: var(--game-gold);
+}
+
+.pager button:disabled {
+  color: #718080;
+  background: #202e32;
+}
+
+.font-style-toggle,
+.translator-entry a {
+  color: #c5caca;
+  border-bottom-color: rgba(197, 202, 202, 0.48);
+}
+
+.font-style-toggle:hover,
+.font-style-toggle.active,
+.translator-entry a:hover {
+  color: var(--game-gold);
+  border-bottom-color: var(--game-gold);
+}
+
+.floating-toggle {
+  border-radius: 6px;
+  background: #294447;
+  color: var(--game-gold);
+}
+
+.relic-page #relicGrid > .card {
+  border-color: #122126;
+  box-shadow: 0 8px 18px rgba(0, 0, 0, 0.44), inset 0 0 0 1px rgba(106, 153, 153, 0.24);
+}
+
+.relic-page #relicGrid > .card > img,
+.relic-page #relicGrid > .card > .placeholder {
+  background: linear-gradient(180deg, #8f9994, #737f7d);
+}
+
+.relic-page #relicGrid > .card > .card-body {
+  background: #263c40;
 }

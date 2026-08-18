@@ -1,6 +1,7 @@
 const state = {
   lang: "en",
   translatorMode: false,
+  useEnglishFontStyle: false,
   relicData: null,
   cardsData: null,
   relics: [],
@@ -41,6 +42,7 @@ const uiText = {
     searchPlaceholder: "Relic name / id / description",
     noDescription: "No description",
     navCards: "Cards",
+    fontStyleToggle: "Use English-style font",
   },
   zh: {
     eyebrow: "",
@@ -68,6 +70,7 @@ const uiText = {
     searchPlaceholder: "遗物名 / 代码名 / 描述",
     noDescription: "无描述",
     navCards: "卡牌",
+    fontStyleToggle: "替换中文字体",
   },
 };
 
@@ -112,6 +115,7 @@ const elements = {
   nextPage: document.getElementById("nextPage"),
   pageInfo: document.getElementById("pageInfo"),
   langToggle: document.getElementById("langToggle"),
+  fontStyleToggle: document.getElementById("fontStyleToggle"),
   cardsPageLink: document.getElementById("cardsPageLink"),
   versionInfo: document.getElementById("versionInfo"),
 };
@@ -191,6 +195,7 @@ function renderNumericMarkers(text) {
 
 function applyI18nText() {
   document.documentElement.lang = state.lang === "zh" ? "zh-CN" : "en";
+  document.documentElement.classList.toggle("font-english-style", state.useEnglishFontStyle);
   document.querySelectorAll("[data-i18n]").forEach((node) => {
     const key = node.dataset.i18n;
     node.textContent = t(key);
@@ -199,6 +204,8 @@ function applyI18nText() {
   elements.langToggle.textContent = state.translatorMode ? "translator mode" : state.lang.toUpperCase();
   elements.langToggle.disabled = Boolean(state.translatorMode);
   elements.langToggle.classList.toggle("translator-mode-pill", Boolean(state.translatorMode));
+  elements.fontStyleToggle.classList.toggle("active", state.useEnglishFontStyle);
+  elements.fontStyleToggle.setAttribute("aria-pressed", String(state.useEnglishFontStyle));
   renderVersionInfo();
 }
 
@@ -345,10 +352,7 @@ function renderBracketColorSyntax(text) {
 }
 
 function finalizeZhHtmlSpacing(html) {
-  if (state.lang !== "zh") return html;
-  return (html || "").replace(/(^|>)([^<>]+)(?=<|$)/g, (_m, lead, content) => {
-    return `${lead}${content.replace(/\s+/g, "")}`;
-  });
+  return html || "";
 }
 
 function normalizeSearchText(text) {
@@ -1130,8 +1134,48 @@ function filterAndSort() {
   state.filtered = rows;
 }
 
+function fitRelicDescriptions() {
+  const fit = () => {
+    document.querySelectorAll(".relic-page #relicGrid > .card .card-desc").forEach((node) => {
+      node.style.fontSize = "";
+      let size = parseFloat(getComputedStyle(node).fontSize);
+      while (node.scrollHeight > node.clientHeight + 1 && size > 9) {
+        size = Math.max(9, size - 0.5);
+        node.style.fontSize = `${size}px`;
+      }
+    });
+  };
+  if (document.fonts && document.fonts.ready) {
+    document.fonts.ready.then(fit);
+  } else {
+    requestAnimationFrame(fit);
+  }
+}
+
+function syncRelicTranslatorGridLayout() {
+  const minCardWidth = 196;
+  const columnGap = 28;
+  let columns = Math.floor((elements.grid.clientWidth + columnGap) / (minCardWidth + columnGap));
+  columns = Math.max(1, columns);
+  if (state.translatorMode) columns = Math.max(2, columns - (columns % 2));
+  if (state.translatorMode) {
+    elements.grid.style.gridTemplateColumns = `repeat(${columns}, minmax(0, 208px))`;
+    elements.grid.style.justifyContent = "center";
+  } else {
+    elements.grid.style.removeProperty("grid-template-columns");
+  }
+  return columns;
+}
+
+function syncRelicPageCapacity() {
+  const columns = syncRelicTranslatorGridLayout();
+  state.pageSize = columns * 6;
+  elements.pageSize.value = String(state.pageSize);
+}
+
 function render() {
   filterAndSort();
+  syncRelicPageCapacity();
 
   const total = state.filtered.length;
   state.pageSize = Number(elements.pageSize.value || state.pageSize || 20);
@@ -1150,6 +1194,7 @@ function render() {
       elements.grid.appendChild(buildRelicElement(relic, "zh"));
     });
   }
+  fitRelicDescriptions();
 
   elements.summary.textContent = t("summary")
     .replace("{shown}", String(slice.length))
@@ -1169,6 +1214,7 @@ function render() {
 }
 
 function renderCurrentPage() {
+  syncRelicPageCapacity();
   const total = state.filtered.length;
   state.pageSize = Number(elements.pageSize.value || state.pageSize || 20);
   const pageCount = Math.max(1, Math.ceil(total / state.pageSize));
@@ -1186,6 +1232,7 @@ function renderCurrentPage() {
       elements.grid.appendChild(buildRelicElement(relic, "zh"));
     });
   }
+  fitRelicDescriptions();
 
   elements.summary.textContent = t("summary")
     .replace("{shown}", String(slice.length))
@@ -1253,10 +1300,27 @@ function bindControls() {
     renderCurrentPage();
     updateTranslatorEntryLink();
   });
+
+  window.addEventListener("resize", () => {
+    const previousPageSize = state.pageSize;
+    syncRelicPageCapacity();
+    if (state.pageSize !== previousPageSize) {
+      state.page = 1;
+      render();
+    }
+  });
+
+  elements.fontStyleToggle.addEventListener("click", () => {
+    state.useEnglishFontStyle = !state.useEnglishFontStyle;
+    window.localStorage.setItem("downfall-english-font-style", state.useEnglishFontStyle ? "1" : "0");
+    applyI18nText();
+    renderCurrentPage();
+  });
 }
 
 async function init() {
   parseUrlState();
+  state.useEnglishFontStyle = window.localStorage.getItem("downfall-english-font-style") === "1";
   applyI18nText();
 
   const [relicRes, cardRes] = await Promise.all([
@@ -1268,6 +1332,8 @@ async function init() {
   if (!cardRes.ok) throw new Error(`Failed to load card data: ${cardRes.status}`);
 
   state.relicData = await relicRes.json();
+  elements.pageSize.closest("label").hidden = true;
+  elements.deprecatedFilter.closest("label").hidden = true;
   state.cardsData = await cardRes.json();
   state.relics = (state.relicData && state.relicData.relics) || [];
 
