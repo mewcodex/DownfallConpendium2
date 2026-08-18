@@ -1137,6 +1137,24 @@ function filterAndSort() {
   state.filtered = rows;
 }
 
+function fitRelicDescriptions() {
+  const fit = () => {
+    document.querySelectorAll(".relic-page #relicGrid > .card .card-desc").forEach((node) => {
+      node.style.fontSize = "";
+      let size = parseFloat(getComputedStyle(node).fontSize);
+      while (node.scrollHeight > node.clientHeight + 1 && size > 9) {
+        size = Math.max(9, size - 0.5);
+        node.style.fontSize = `${size}px`;
+      }
+    });
+  };
+  if (document.fonts && document.fonts.ready) {
+    document.fonts.ready.then(fit);
+  } else {
+    requestAnimationFrame(fit);
+  }
+}
+
 function render() {
   filterAndSort();
 
@@ -1157,6 +1175,7 @@ function render() {
       elements.grid.appendChild(buildRelicElement(relic, "zh"));
     });
   }
+  fitRelicDescriptions();
 
   elements.summary.textContent = t("summary")
     .replace("{shown}", String(slice.length))
@@ -1193,6 +1212,7 @@ function renderCurrentPage() {
       elements.grid.appendChild(buildRelicElement(relic, "zh"));
     });
   }
+  fitRelicDescriptions();
 
   elements.summary.textContent = t("summary")
     .replace("{shown}", String(slice.length))
