@@ -1470,7 +1470,12 @@ function buildSelect(select, options) {
   });
 }
 
-function formatCost(cost) {
+function isUnplayableCard(card) {
+  return Boolean(card && (card.attachedTips || []).some((tip) => tip && tip.id === "Unplayable"));
+}
+
+function formatCost(cost, card = null) {
+  if (isUnplayableCard(card)) return "-";
   if (cost === -1) return "X";
   if (cost === -2) return "-";
   if (cost === null || cost === undefined) return "?";
@@ -1585,7 +1590,7 @@ function matchesFilter(value, filterValue) {
 function matchesCost(cardCost) {
   if (!state.filters.cost) return true;
   if (state.filters.cost === "X") return cardCost === -1;
-  if (state.filters.cost === "UNPLAYABLE") return cardCost === -2;
+  if (state.filters.cost === "UNPLAYABLE") return isUnplayableCard(card);
   if (state.filters.cost === "6+") return typeof cardCost === "number" && cardCost >= 6;
   return cardCost === Number(state.filters.cost);
 }
@@ -1778,7 +1783,7 @@ function buildCardInnerHtml(card, descriptionHtml, options = {}) {
   const shouldShowPlus = useUpgrade && hasCardUpgradeableVariant(card);
   const name = shouldShowPlus ? `${baseName}+` : baseName;
   const cardId = escapeHtml(card.id || "");
-  const cost = formatCost(getDisplayCost(card, useUpgrade));
+  const cost = formatCost(getDisplayCost(card, useUpgrade), card);
   const costClass = isCostUpgraded(card, useUpgrade) ? "card-cost-value upgraded" : "card-cost-value";
   const highResolutionEnergyIcons = {
     AUTOMATON: "assets/energy-icons/automaton_card_bronze_orb.png",
