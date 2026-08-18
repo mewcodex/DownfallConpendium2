@@ -1678,6 +1678,22 @@ label span,
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.34);
 }
 
+.hero-actions .toggle,
+.hero-actions a.toggle {
+  background: #31575a;
+  color: #f5d25d;
+  border-color: #0f1e22;
+  text-shadow: 1px 2px 0 rgba(15, 25, 28, 0.8);
+}
+
+.hero-actions .toggle:hover,
+.hero-actions a.toggle:hover {
+  background: #f0c84d;
+  color: #1b2528;
+  border-color: #142226;
+  text-shadow: none;
+}
+
 .controls {
   gap: 14px;
 }
