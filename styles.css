@@ -1083,7 +1083,9 @@ article.card[data-card-id] .card-banner {
 article.card[data-card-id] .card-face-title {
   inset: 2.2% 15% auto;
   height: 9.48%;
-  display: block;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   padding: 0;
   bottom: auto;
   line-height: 1.54;
@@ -1094,6 +1096,8 @@ article.card[data-card-id] .card-face-title h3 {
   font-weight: 400;
   letter-spacing: 1px;
   line-height: 1.54;
+  width: 100%;
+  min-width: 0;
   max-width: 100%;
   white-space: nowrap;
   color: #fff6e2;
