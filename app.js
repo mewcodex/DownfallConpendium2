@@ -491,6 +491,7 @@ function renderSts2Markup(text, useUpgrade = state.showUpgrade, card = null) {
   ));
   rendered = stripSts2Blocks(rendered, "InCombat");
   rendered = stripSts2Blocks(rendered, "IsTargeting");
+  rendered = stripSts2Blocks(rendered, "IsOnCard");
   rendered = rendered.replace(/\{([A-Za-z_]\w*):plural:([^{}|]*)\|([^{}]*)\}/g, (_full, name, singular, plural) => {
     const valueToken = new RegExp(`__(?:TV|TVG)__(-?\\d+)__`).exec(`${singular}${plural}`);
     const values = useUpgrade ? ((card && card.upgradeDynamicValues) || {}) : ((card && card.dynamicValues) || {});
