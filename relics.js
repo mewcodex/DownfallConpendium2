@@ -1153,7 +1153,7 @@ function fitRelicDescriptions() {
 }
 
 function syncRelicTranslatorGridLayout() {
-  const minCardWidth = 184;
+  const minCardWidth = 196;
   const columnGap = 28;
   let columns = Math.floor((elements.grid.clientWidth + columnGap) / (minCardWidth + columnGap));
   columns = Math.max(1, columns);

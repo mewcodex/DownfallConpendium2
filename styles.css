@@ -350,7 +350,7 @@ select {
 
 /* Relics use the same data card structure, but need a readable document-style body. */
 .relic-page #relicGrid {
-  grid-template-columns: repeat(auto-fill, minmax(184px, 208px));
+  grid-template-columns: repeat(auto-fill, minmax(196px, 220px));
   justify-content: center;
   column-gap: 28px;
   row-gap: 34px;
@@ -363,7 +363,7 @@ select {
 
 .relic-page #relicGrid > .card {
   aspect-ratio: 598 / 844;
-  width: 208px;
+  width: 220px;
   border: 1px solid rgba(68, 61, 49, 0.28);
   border-radius: 8px;
   background: #f7f0e2;
