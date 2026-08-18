@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-08-18T05:11:11.158221Z",
+  "generatedAt": "2026-08-18T16:07:39.947545Z",
   "modVersion": "0.1.13",
-  "translationVersion": "2026_08_18_11_00_14_c3d1a2",
+  "translationVersion": "2026_08_18_23_00_08_5ad573",
   "baseKeywords": [
     {
       "key": "ARTIFACT",
@@ -923,7 +923,7 @@
       },
       "description": {
         "en": "[gold]Upgrade[/gold] the first [blue]{Cards:diff()}[/blue] unupgraded [gold]Encode[/gold] cards you draw each combat.",
-        "zh": "每场战斗中，[gold]升级[/gold]你抽到的{Amount:cond:>1?前|第}[blue]{Cards:diff()}[/blue]张未升级的[gold]编码[/gold]牌。"
+        "zh": "每场战斗中，[gold]升级[/gold]你抽到的{Cards:cond:>1?前|第}[blue]{Cards:diff()}[/blue]张未升级的[gold]编码[/gold]牌。"
       },
       "rarity": "UNCOMMON",
       "color": "AUTOMATON",
@@ -1065,7 +1065,7 @@
       },
       "description": {
         "en": "Gain {Energy:energyIcons()} and add a [gold]Slimed[/gold] to your [gold]Discard Pile[/gold] at the start of your turn.",
-        "zh": "在你的回合开始时，获得{Energy:energyIcons()}并将一张[gold]粘液[/gold]加入你的[gold]弃牌堆[/gold]。"
+        "zh": "在你的回合开始时，获得{Energy:energyIcons()}并将一张[gold]黏液[/gold]加入你的[gold]弃牌堆[/gold]。"
       },
       "rarity": "SPECIAL",
       "color": "DOWNFALL",
@@ -1289,7 +1289,7 @@
       },
       "description": {
         "en": "The first [blue]4[/blue] times you play a Power each combat, heal [blue]3[/blue] HP.",
-        "zh": "每场战斗中，你前[blue]4[/blue]次打出能力牌时，回复[blue]3[/blue]点生命。"
+        "zh": "每场战斗中，你前[blue]4[/blue]次打出能力牌时，回复[green]3[/green]点生命。"
       },
       "rarity": "SPECIAL",
       "color": "DOWNFALL",
@@ -3392,7 +3392,7 @@
       },
       "description": {
         "en": "The first time you put a card into [gold]Stasis[/gold] each turn, [gold]Accelerate[/gold] it.",
-        "zh": "每回合你第一次[gold]凝滞[/gold]卡牌时，将其[gold]加速[/gold]。"
+        "zh": "每回合你第一次[gold]凝滞[/gold]牌时，将其[gold]加速[/gold]。"
       },
       "rarity": "SPECIAL",
       "color": "DOWNFALL",
@@ -3557,7 +3557,7 @@
       },
       "description": {
         "en": "Whenever you defeat an Elite encounter, heal [blue]{Heal}[/blue] HP and gain [blue]{Gold}[/blue] gold.",
-        "zh": "每当你击败精英敌人时，回复[blue]{Heal}[/blue]点生命并获得[blue]{Gold}[/blue]金币。"
+        "zh": "每当你击败精英敌人时，回复[green]{Heal}[/green]点生命并获得[blue]{Gold}[/blue]金币。"
       },
       "rarity": "RARE",
       "color": "HERMIT",
@@ -4095,7 +4095,7 @@
       },
       "description": {
         "en": "Whenever you [gold]Ignite[/gold] a Ghostflame, gain [blue]4[/blue] [gold]Block[/gold].",
-        "zh": "每当你[gold]点燃[/gold]一枚鬼火时，获得[blue]4[/blue]点[gold]格挡[/gold]。"
+        "zh": "每当你[gold]点燃[/gold]一枚[gold]鬼火[/gold]时，获得[blue]4[/blue]点[gold]格挡[/gold]。"
       },
       "rarity": "SPECIAL",
       "color": "DOWNFALL",
@@ -4119,11 +4119,11 @@
       "codeName": "",
       "name": {
         "en": "Olexa's Shield",
-        "zh": "奥莱克萨之盾"
+        "zh": "奥蕾莎之盾"
       },
       "description": {
         "en": "Powers are counted towards the progression of [gold]Searing[/gold] and [gold]Crushing Ghostflames[/gold].",
-        "zh": "你的能力牌可以推进[gold]湮灭鬼火[/gold]和[gold]焚灼鬼火[/gold]的进度。"
+        "zh": "你的能力牌计入[gold]湮灭鬼火[/gold]和[gold]焚灼鬼火[/gold]的进度。"
       },
       "rarity": "SPECIAL",
       "color": "DOWNFALL",
@@ -4245,7 +4245,7 @@
       },
       "description": {
         "en": "The first time you [gold]Ignite[/gold] a Ghostflame each turn, you may choose to [gold]Advance[/gold] or [gold]Retract[/gold].",
-        "zh": "每回合你第一次[gold]点燃[/gold]鬼火时，选择[gold]步进[/gold]或[gold]回退[/gold]。"
+        "zh": "每回合你第一次[gold]点燃[/gold][gold]鬼火[/gold]时，选择[gold]步进[/gold]或[gold]回退[/gold]。"
       },
       "rarity": "RARE",
       "color": "HEXAGHOST",
@@ -4270,7 +4270,7 @@
           },
           "description": {
             "en": "Move to the next Ghostflame. Moving onto a Ghostflame [gold]Extinguishes[/gold] it.",
-            "zh": "移动至下枚鬼火。移动至一枚鬼火会导致其[gold]熄灭[/gold]。"
+            "zh": "移动至下枚[gold]鬼火[/gold]。移动至一枚[gold]鬼火[/gold]会导致其[gold]熄灭[/gold]。"
           },
           "sourceValueKey": null
         },
@@ -4282,7 +4282,7 @@
           },
           "description": {
             "en": "Move to the previous Ghostflame. Moving onto a Ghostflame [gold]Extinguishes[/gold] it.",
-            "zh": "移动至上枚鬼火。移动至一枚鬼火会导致其[gold]熄灭[/gold]。"
+            "zh": "移动至上枚[gold]鬼火[/gold]。移动至一枚[gold]鬼火[/gold]会导致其[gold]熄灭[/gold]。"
           },
           "sourceValueKey": null
         }
@@ -4298,7 +4298,7 @@
       },
       "description": {
         "en": "Whenever you [gold]Exhaust[/gold] [blue]4[/blue] cards, [gold]Ignite[/gold] the current Ghostflame.",
-        "zh": "你每[gold]消耗[/gold][blue]4[/blue]张牌，[gold]点燃[/gold]当前鬼火。"
+        "zh": "你每[gold]消耗[/gold][blue]4[/blue]张牌，[gold]点燃[/gold]当前[gold]鬼火[/gold]。"
       },
       "rarity": "SPECIAL",
       "color": "DOWNFALL",
@@ -4326,7 +4326,7 @@
       },
       "description": {
         "en": "The first time you [gold]Ignite[/gold] a Ghostflame each turn, gain [blue]3[/blue] [gold]Block[/gold].",
-        "zh": "每回合你首次[gold]点燃[/gold]鬼火时，获得[blue]3[/blue]点[gold]格挡[/gold]。"
+        "zh": "每回合你首次[gold]点燃[/gold]一枚[gold]鬼火[/gold]时，获得[blue]3[/blue]点[gold]格挡[/gold]。"
       },
       "rarity": "STARTER",
       "color": "HEXAGHOST",
@@ -4351,7 +4351,7 @@
           },
           "description": {
             "en": "Triggers the Ignition effect described on a Ghostflame.",
-            "zh": "触发当前鬼火的点燃效果"
+            "zh": "触发当前[gold]鬼火[/gold]的点燃效果"
           },
           "sourceValueKey": null
         }
@@ -4647,7 +4647,7 @@
       },
       "description": {
         "en": "Whenever you [gold]Consume[/gold], heal [blue]{Heal}[/blue] HP, up to [blue]{MaxUses}[/blue] each combat.",
-        "zh": "每当你[gold]吞食[/gold]时，回复[blue]{Heal}[/blue]点生命，每场战斗最多回复[blue]{MaxUses}[/blue]点。"
+        "zh": "每当你[gold]吞食[/gold]时，回复[green]{Heal}[/green]点生命，每场战斗最多回复[blue]{MaxUses}[/blue]点。"
       },
       "rarity": "STARTER",
       "color": "SLIMEBOUND",
@@ -4691,7 +4691,7 @@
       },
       "description": {
         "en": "At the start of each combat, [gold]Split[/gold] into a [gold]Bruiser Slime[/gold].",
-        "zh": "在每场战斗开始时，[gold]分裂[/gold]出一个[gold]好斗史莱姆[/gold]。"
+        "zh": "在每场战斗开始时，[gold]分裂[/gold]一个[gold]好斗史莱姆[/gold]。"
       },
       "rarity": "SPECIAL",
       "color": "DOWNFALL",
@@ -4747,7 +4747,7 @@
       },
       "description": {
         "en": "Whenever you [gold]Consume[/gold], heal [blue]{Heal}[/blue] HP, up to [blue]{MaxUses}[/blue] each combat.",
-        "zh": "每当你[gold]吞食[/gold]时，回复[blue]{Heal}[/blue]点生命，每场战斗最多回复[blue]{MaxUses}[/blue]点。"
+        "zh": "每当你[gold]吞食[/gold]时，回复[green]{Heal}[/green]点生命，每场战斗最多回复[blue]{MaxUses}[/blue]点。"
       },
       "rarity": "STARTER",
       "color": "SLIMEBOUND",
@@ -4791,7 +4791,7 @@
       },
       "description": {
         "en": "At the start of each combat, gain 1 Slime slot and [gold]Split[/gold] into a random Slime.",
-        "zh": "在每场战斗开始时，获得1个史莱姆槽位并[gold]分裂[/gold]出一个随机史莱姆。"
+        "zh": "在每场战斗开始时，获得[blue]1[/blue]个史莱姆槽位并[gold]分裂[/gold]一个随机史莱姆。"
       },
       "rarity": "SPECIAL",
       "color": "DOWNFALL",
@@ -5185,7 +5185,7 @@
       },
       "description": {
         "en": "Upon pickup, obtain an [gold]Offclass[/gold] Rare card.",
-        "zh": "拾起时，获得一张稀有[gold]异色[/gold]牌。"
+        "zh": "拾起时，选择一张稀有[gold]异色[/gold]牌加入你的[gold]牌组[/gold]。"
       },
       "rarity": "SPECIAL",
       "color": "DOWNFALL",
