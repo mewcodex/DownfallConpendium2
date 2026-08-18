@@ -1733,11 +1733,13 @@ function buildCardInnerHtml(card, descriptionHtml, options = {}) {
       <span class="${costClass}">${cost}</span>
     </div>`;
   const portraitSource = card.img || "assets/card-ui/todo.png";
-  const img = `<div class="card-visual card-visual-${String(card.type || "skill").toLowerCase()}${card.img ? "" : " card-visual-todo"}">
+    const ancient = card.rarity === "ANCIENT";
+    const img = `<div class="card-visual card-visual-${String(card.type || "skill").toLowerCase()}${card.img ? "" : " card-visual-todo"}${ancient ? " card-visual-ancient" : ""}">
       <img class="card-portrait" src="${portraitSource}" alt="${name}" loading="lazy">
       <span class="card-portrait-border" aria-hidden="true"></span>
       <span class="card-frame" aria-hidden="true"></span>
       <span class="card-banner" aria-hidden="true"></span>
+      ${ancient ? `<span class="card-ancient-text-bg" aria-hidden="true"></span><span class="card-ancient-border" aria-hidden="true"></span>` : ""}
       ${cardHeadingHtml}
       <span class="card-face-type">${localizeType(card.type)}</span>
     </div>`;

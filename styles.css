@@ -1183,6 +1183,69 @@ article.card[data-card-id] .card-desc-content {
   overflow-wrap: anywhere;
 }
 
+article.card[data-card-id] .card-visual-ancient .card-portrait {
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+}
+
+article.card[data-card-id] .card-visual-ancient .card-frame,
+article.card[data-card-id] .card-visual-ancient .card-portrait-border {
+  display: none;
+}
+
+article.card[data-card-id] .card-ancient-border,
+article.card[data-card-id] .card-ancient-text-bg {
+  position: absolute;
+  inset: 0;
+  display: block;
+  width: 100%;
+  height: 100%;
+  pointer-events: none;
+}
+
+article.card[data-card-id] .card-ancient-border {
+  z-index: 5;
+  background: url("assets/card-ui/ancient/border.png") center / 100% 100% no-repeat;
+}
+
+article.card[data-card-id] .card-ancient-text-bg {
+  z-index: 4;
+  inset: 45.5% auto auto 6%;
+  width: 88%;
+  height: 48%;
+  background-position: center;
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  opacity: 0.66;
+}
+
+article.card[data-card-id] .card-visual-ancient .card-ancient-text-bg {
+  background-image: url("assets/card-ui/ancient/text-skill.png");
+}
+
+article.card[data-card-id] .card-visual-ancient.card-visual-attack .card-ancient-text-bg {
+  background-image: url("assets/card-ui/ancient/text-attack.png");
+}
+
+article.card[data-card-id] .card-visual-ancient.card-visual-power .card-ancient-text-bg {
+  background-image: url("assets/card-ui/ancient/text-power.png");
+}
+
+article.card[data-card-id] .card-visual-ancient .card-banner {
+  z-index: 6;
+  inset: 0.95% auto auto -4.33%;
+  width: 109%;
+  height: 19.67%;
+  background-image: url("assets/card-ui/ancient/banner.png");
+}
+
+article.card[data-card-id] .card-visual-ancient .card-face-title {
+  z-index: 7;
+}
+
 .pager {
   margin-top: 26px;
   display: flex;
