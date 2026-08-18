@@ -1015,7 +1015,7 @@ article.card[data-card-id] {
   border: 0;
   border-radius: 0;
   overflow: visible;
-  background: rgba(15, 16, 18, 0.92);
+  background: transparent;
   --banner-filter: grayscale(1) brightness(0.85);
   --title-outline: #4d4b40;
 }
