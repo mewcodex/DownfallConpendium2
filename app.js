@@ -36,6 +36,7 @@ const state = {
   suppressNextCardAnimation: false,
   filteredSorted: [],
   translatorMode: false,
+  attachmentTooltipLocked: false,
   useEnglishFontStyle: false,
 };
 
@@ -1172,8 +1173,14 @@ function hideCardAttachmentTooltip() {
   if (tip) tip.classList.remove("show");
 }
 
+function unlockCardAttachmentTooltip() {
+  state.attachmentTooltipLocked = false;
+  hideCardAttachmentTooltip();
+}
+
 function bindAttachedHoverEvents() {
   elements.grid.addEventListener("mouseover", (event) => {
+    if (state.attachmentTooltipLocked) return;
     const cardNode = event.target.closest("article.card[data-card-id]");
     if (!cardNode || !elements.grid.contains(cardNode)) return;
     const card = state.cardById.get(cardNode.dataset.cardId || "");
@@ -1182,17 +1189,42 @@ function bindAttachedHoverEvents() {
   });
 
   elements.grid.addEventListener("mouseout", (event) => {
+    if (state.attachmentTooltipLocked) return;
     const cardNode = event.target.closest("article.card[data-card-id]");
     if (!cardNode || !elements.grid.contains(cardNode)) return;
     if (event.relatedTarget && cardNode.contains(event.relatedTarget)) return;
     hideCardAttachmentTooltip();
   });
 
-  window.addEventListener("scroll", hideCardAttachmentTooltip, { passive: true });
+  elements.grid.addEventListener("click", (event) => {
+    const cardNode = event.target.closest("article.card[data-card-id]");
+    if (!cardNode || !elements.grid.contains(cardNode)) return;
+    if (state.attachmentTooltipLocked) {
+      event.stopPropagation();
+      return;
+    }
+    const card = state.cardById.get(cardNode.dataset.cardId || "");
+    if (!card) return;
+    state.attachmentTooltipLocked = true;
+    showCardAttachmentTooltip(card, cardNode.getBoundingClientRect(), getCardRenderLang(cardNode));
+    event.stopPropagation();
+  });
+
+  document.addEventListener("click", (event) => {
+    if (!state.attachmentTooltipLocked) return;
+    const tip = document.querySelector(".card-hover-attachments");
+    if (tip && tip.contains(event.target)) return;
+    unlockCardAttachmentTooltip();
+  });
+
+  window.addEventListener("scroll", () => {
+    if (!state.attachmentTooltipLocked) hideCardAttachmentTooltip();
+  }, { passive: true });
 }
 
 function bindKeywordTooltipEvents() {
   elements.grid.addEventListener("mouseover", (event) => {
+    if (state.attachmentTooltipLocked) return;
     const kw = event.target.closest(".kw");
     if (!kw || !elements.grid.contains(kw)) {
       return;
@@ -1236,6 +1268,7 @@ function bindKeywordTooltipEvents() {
 
 function bindCardReferencePreviewEvents() {
   elements.grid.addEventListener("mouseover", (event) => {
+    if (state.attachmentTooltipLocked) return;
     const cardNode = event.target.closest("article.card[data-card-id]");
     if (!cardNode || !elements.grid.contains(cardNode)) {
       return;

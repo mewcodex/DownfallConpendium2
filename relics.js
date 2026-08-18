@@ -1,6 +1,7 @@
 const state = {
   lang: "en",
   translatorMode: false,
+  attachmentTooltipLocked: false,
   useEnglishFontStyle: false,
   relicData: null,
   cardsData: null,
@@ -863,6 +864,11 @@ function hideRelicAttachmentTooltip() {
   if (tip) tip.classList.remove("show");
 }
 
+function unlockRelicAttachmentTooltip() {
+  state.attachmentTooltipLocked = false;
+  hideRelicAttachmentTooltip();
+}
+
 function renderRelicAttachmentDescription(description, relic, language) {
   const previousLanguage = state.lang;
   state.lang = language;
@@ -929,6 +935,7 @@ function showRelicAttachmentTooltip(relic, anchorRect, language) {
 
 function bindRelicAttachmentHoverEvents() {
   elements.grid.addEventListener("mouseover", (event) => {
+    if (state.attachmentTooltipLocked) return;
     if (event.target.closest(".kw, .card-ref")) return;
     const relicNode = event.target.closest("article.card[data-relic-id]");
     if (!relicNode || !elements.grid.contains(relicNode)) return;
@@ -937,11 +944,35 @@ function bindRelicAttachmentHoverEvents() {
     showRelicAttachmentTooltip(relic, relicNode.getBoundingClientRect(), relicNode.dataset.renderLang || state.lang);
   });
   elements.grid.addEventListener("mouseout", (event) => {
+    if (state.attachmentTooltipLocked) return;
     const relicNode = event.target.closest("article.card[data-relic-id]");
     if (!relicNode || !elements.grid.contains(relicNode) || relicNode.contains(event.relatedTarget)) return;
     hideRelicAttachmentTooltip();
   });
-  window.addEventListener("scroll", hideRelicAttachmentTooltip, { passive: true });
+  elements.grid.addEventListener("click", (event) => {
+    const relicNode = event.target.closest("article.card[data-relic-id]");
+    if (!relicNode || !elements.grid.contains(relicNode)) return;
+    if (state.attachmentTooltipLocked) {
+      event.stopPropagation();
+      return;
+    }
+    const relic = state.relics.find((entry) => entry.id === relicNode.dataset.relicId);
+    if (!relic) return;
+    state.attachmentTooltipLocked = true;
+    showRelicAttachmentTooltip(relic, relicNode.getBoundingClientRect(), relicNode.dataset.renderLang || state.lang);
+    event.stopPropagation();
+  });
+
+  document.addEventListener("click", (event) => {
+    if (!state.attachmentTooltipLocked) return;
+    const tip = document.querySelector(".card-hover-attachments");
+    if (tip && tip.contains(event.target)) return;
+    unlockRelicAttachmentTooltip();
+  });
+
+  window.addEventListener("scroll", () => {
+    if (!state.attachmentTooltipLocked) hideRelicAttachmentTooltip();
+  }, { passive: true });
 }
 
 function showCardPreviewTooltip(card, anchorRect, langOverride = null) {
@@ -970,6 +1001,7 @@ function showCardPreviewTooltip(card, anchorRect, langOverride = null) {
 
 function bindTooltipEvents() {
   elements.grid.addEventListener("mouseover", (event) => {
+    if (state.attachmentTooltipLocked) return;
     const kw = event.target.closest(".kw");
     if (kw && elements.grid.contains(kw)) {
       const cardNode = kw.closest("article.card[data-relic-id]");
