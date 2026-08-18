@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-18T03:26:07.208090Z",
+  "generatedAt": "2026-08-18T03:28:15.253925Z",
   "modVersion": "0.1.13",
   "translationVersion": "2026_08_18_11_00_14_c3d1a2",
   "baseKeywords": [],
@@ -51299,7 +51299,15 @@
       "hasConjure": false,
       "isSpell": false,
       "attachedCardTips": [],
-      "descriptionKeywordPrefix": [],
+      "descriptionKeywordPrefix": [
+        {
+          "mode": "always",
+          "label": {
+            "en": "Concentrate.",
+            "zh": "专注。"
+          }
+        }
+      ],
       "descriptionKeywordSuffix": [
         {
           "mode": "always",
@@ -55993,7 +56001,15 @@
       "hasConjure": false,
       "isSpell": false,
       "attachedCardTips": [],
-      "descriptionKeywordPrefix": [],
+      "descriptionKeywordPrefix": [
+        {
+          "mode": "always",
+          "label": {
+            "en": "Concentrate.",
+            "zh": "专注。"
+          }
+        }
+      ],
       "descriptionKeywordSuffix": [
         {
           "mode": "always",
@@ -56407,7 +56423,15 @@
       "hasConjure": false,
       "isSpell": false,
       "attachedCardTips": [],
-      "descriptionKeywordPrefix": [],
+      "descriptionKeywordPrefix": [
+        {
+          "mode": "always",
+          "label": {
+            "en": "Concentrate.",
+            "zh": "专注。"
+          }
+        }
+      ],
       "descriptionKeywordSuffix": [],
       "dynamicDescriptionLines": []
     },
@@ -56716,7 +56740,15 @@
       "hasConjure": false,
       "isSpell": false,
       "attachedCardTips": [],
-      "descriptionKeywordPrefix": [],
+      "descriptionKeywordPrefix": [
+        {
+          "mode": "always",
+          "label": {
+            "en": "Concentrate.",
+            "zh": "专注。"
+          }
+        }
+      ],
       "descriptionKeywordSuffix": [],
       "dynamicDescriptionLines": []
     },
