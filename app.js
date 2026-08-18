@@ -1665,7 +1665,7 @@ function resolveCardBaseDescription(card, useUpgrade = state.showUpgrade) {
     .filter(Boolean);
   const gemSlots = (useUpgrade ? card.upgradeDynamicValues : card.dynamicValues)?.GemSlots;
   const gemLines = typeof gemSlots === "number" && gemSlots > 0
-    ? Array.from({ length: gemSlots }, () => `[gold]${state.lang === "zh" ? "槽位" : "Socket"}[/gold]`)
+    ? Array.from({ length: gemSlots }, () => `[gold]<${state.lang === "zh" ? "槽位" : "Socket"}>[/gold]`)
     : [];
   const decorate = (description) => [prefix, ...dynamicLines, description, ...gemLines, ...suffix, finisherSuffix.trim()]
     .filter(Boolean)

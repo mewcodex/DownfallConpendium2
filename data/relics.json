@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-18T03:24:12.114836Z",
+  "generatedAt": "2026-08-18T03:26:07.208090Z",
   "modVersion": "0.1.13",
   "translationVersion": "2026_08_18_11_00_14_c3d1a2",
   "baseKeywords": [],
@@ -2686,7 +2686,20 @@
       "upgradeDynamicValues": {
         "Damage": 2
       },
-      "attachedTips": [],
+      "attachedTips": [
+        {
+          "id": "HERMIT-DEAD_ON",
+          "name": {
+            "en": "Dead On",
+            "zh": "精准"
+          },
+          "description": {
+            "en": "Dead On cards have a bonus effect when in the middle of your Hand.",
+            "zh": "精准牌位于[gold]手牌[/gold]中央打出时会触发额外效果。"
+          },
+          "sourceValueKey": null
+        }
+      ],
       "attachedCardTips": []
     },
     {
@@ -3142,7 +3155,20 @@
       "deprecated": false,
       "dynamicValues": {},
       "upgradeDynamicValues": {},
-      "attachedTips": [],
+      "attachedTips": [
+        {
+          "id": "HERMIT-DEAD_ON",
+          "name": {
+            "en": "Dead On",
+            "zh": "精准"
+          },
+          "description": {
+            "en": "Dead On cards have a bonus effect when in the middle of your Hand.",
+            "zh": "精准牌位于[gold]手牌[/gold]中央打出时会触发额外效果。"
+          },
+          "sourceValueKey": null
+        }
+      ],
       "attachedCardTips": []
     },
     {
@@ -4227,7 +4253,20 @@
       "upgradeDynamicValues": {
         "Block": 1
       },
-      "attachedTips": [],
+      "attachedTips": [
+        {
+          "id": "SNECKO-MUDDLE",
+          "name": {
+            "en": "Muddle",
+            "zh": "混淆"
+          },
+          "description": {
+            "en": "Muddling a card changes its cost this turn to between [blue]0[/blue] and [blue]3[/blue] at random.\nThe cost after Muddling always differs from the original cost.",
+            "zh": "将牌的耗能在一回合内变为[blue]0[/blue]到[blue]3[/blue]之间的随机值。混淆后耗能必定改变。"
+          },
+          "sourceValueKey": null
+        }
+      ],
       "attachedCardTips": []
     },
     {
@@ -4464,7 +4503,20 @@
       "deprecated": false,
       "dynamicValues": {},
       "upgradeDynamicValues": {},
-      "attachedTips": [],
+      "attachedTips": [
+        {
+          "id": "SNECKO-MUDDLE",
+          "name": {
+            "en": "Muddle",
+            "zh": "混淆"
+          },
+          "description": {
+            "en": "Muddling a card changes its cost this turn to between [blue]0[/blue] and [blue]3[/blue] at random.\nThe cost after Muddling always differs from the original cost.",
+            "zh": "将牌的耗能在一回合内变为[blue]0[/blue]到[blue]3[/blue]之间的随机值。混淆后耗能必定改变。"
+          },
+          "sourceValueKey": null
+        }
+      ],
       "attachedCardTips": []
     },
     {
@@ -4529,7 +4581,20 @@
       "upgradeDynamicValues": {
         "Cards": 1
       },
-      "attachedTips": [],
+      "attachedTips": [
+        {
+          "id": "SNECKO-MUDDLE",
+          "name": {
+            "en": "Muddle",
+            "zh": "混淆"
+          },
+          "description": {
+            "en": "Muddling a card changes its cost this turn to between [blue]0[/blue] and [blue]3[/blue] at random.\nThe cost after Muddling always differs from the original cost.",
+            "zh": "将牌的耗能在一回合内变为[blue]0[/blue]到[blue]3[/blue]之间的随机值。混淆后耗能必定改变。"
+          },
+          "sourceValueKey": null
+        }
+      ],
       "attachedCardTips": []
     },
     {
