@@ -1,6 +1,7 @@
 const state = {
   lang: "en",
   translatorMode: false,
+  useEnglishFontStyle: false,
   relicData: null,
   cardsData: null,
   relics: [],
@@ -41,6 +42,7 @@ const uiText = {
     searchPlaceholder: "Relic name / id / description",
     noDescription: "No description",
     navCards: "Cards",
+    fontStyleToggle: "Use English-style font",
   },
   zh: {
     eyebrow: "",
@@ -68,6 +70,7 @@ const uiText = {
     searchPlaceholder: "遗物名 / 代码名 / 描述",
     noDescription: "无描述",
     navCards: "卡牌",
+    fontStyleToggle: "替换中文字体",
   },
 };
 
@@ -112,6 +115,7 @@ const elements = {
   nextPage: document.getElementById("nextPage"),
   pageInfo: document.getElementById("pageInfo"),
   langToggle: document.getElementById("langToggle"),
+  fontStyleToggle: document.getElementById("fontStyleToggle"),
   cardsPageLink: document.getElementById("cardsPageLink"),
   versionInfo: document.getElementById("versionInfo"),
 };
@@ -191,6 +195,7 @@ function renderNumericMarkers(text) {
 
 function applyI18nText() {
   document.documentElement.lang = state.lang === "zh" ? "zh-CN" : "en";
+  document.documentElement.classList.toggle("font-english-style", state.useEnglishFontStyle);
   document.querySelectorAll("[data-i18n]").forEach((node) => {
     const key = node.dataset.i18n;
     node.textContent = t(key);
@@ -199,6 +204,8 @@ function applyI18nText() {
   elements.langToggle.textContent = state.translatorMode ? "translator mode" : state.lang.toUpperCase();
   elements.langToggle.disabled = Boolean(state.translatorMode);
   elements.langToggle.classList.toggle("translator-mode-pill", Boolean(state.translatorMode));
+  elements.fontStyleToggle.classList.toggle("active", state.useEnglishFontStyle);
+  elements.fontStyleToggle.setAttribute("aria-pressed", String(state.useEnglishFontStyle));
   renderVersionInfo();
 }
 
@@ -1253,10 +1260,18 @@ function bindControls() {
     renderCurrentPage();
     updateTranslatorEntryLink();
   });
+
+  elements.fontStyleToggle.addEventListener("click", () => {
+    state.useEnglishFontStyle = !state.useEnglishFontStyle;
+    window.localStorage.setItem("downfall-english-font-style", state.useEnglishFontStyle ? "1" : "0");
+    applyI18nText();
+    renderCurrentPage();
+  });
 }
 
 async function init() {
   parseUrlState();
+  state.useEnglishFontStyle = window.localStorage.getItem("downfall-english-font-style") === "1";
   applyI18nText();
 
   const [relicRes, cardRes] = await Promise.all([

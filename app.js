@@ -36,6 +36,7 @@ const state = {
   suppressNextCardAnimation: false,
   filteredSorted: [],
   translatorMode: false,
+  useEnglishFontStyle: false,
 };
 
 const uiText = {
@@ -71,6 +72,7 @@ const uiText = {
     searchBtn: "Search",
     clearSearch: "Clear",
     navRelics: "Relics",
+    fontStyleToggle: "Use English-style font",
   },
   zh: {
     eyebrow: "崩坠 Mod 卡牌展示",
@@ -104,6 +106,7 @@ const uiText = {
     searchBtn: "搜索",
     clearSearch: "清除",
     navRelics: "遗物",
+    fontStyleToggle: "替换中文字体",
   },
 };
 
@@ -120,6 +123,7 @@ function getNotInPoolBadgeText(card) {
 
 const elements = {
   langToggle: document.getElementById("langToggle"),
+  fontStyleToggle: document.getElementById("fontStyleToggle"),
   upgradeToggle: document.getElementById("upgradeToggle"),
   relicsPageLink: document.getElementById("relicsPageLink"),
   searchInput: document.getElementById("searchInput"),
@@ -1396,6 +1400,7 @@ function highlightBaseKeywords(text) {
 
 function applyI18n() {
   document.documentElement.lang = state.lang === "zh" ? "zh-CN" : "en";
+  document.documentElement.classList.toggle("font-english-style", state.useEnglishFontStyle);
 
   document.querySelectorAll("[data-i18n]").forEach((node) => {
     const key = node.dataset.i18n;
@@ -1411,6 +1416,8 @@ function applyI18n() {
   elements.langToggle.classList.toggle("translator-mode-pill", Boolean(state.translatorMode));
   renderVersionInfo();
   elements.upgradeToggle.textContent = state.showUpgrade ? i18n("toggleBase") : i18n("toggleUpgrade");
+  elements.fontStyleToggle.classList.toggle("active", state.useEnglishFontStyle);
+  elements.fontStyleToggle.setAttribute("aria-pressed", String(state.useEnglishFontStyle));
   elements.searchInput.placeholder = state.lang === "zh" ? "卡名或描述" : "Card name or description";
 }
 
@@ -2226,6 +2233,12 @@ function bindEvents() {
     renderCards();
   });
 
+  elements.fontStyleToggle.addEventListener("click", () => {
+    state.useEnglishFontStyle = !state.useEnglishFontStyle;
+    window.localStorage.setItem("downfall-english-font-style", state.useEnglishFontStyle ? "1" : "0");
+    applyI18n();
+  });
+
   elements.searchBtn.addEventListener("click", () => {
     triggerSearch();
   });
@@ -2319,6 +2332,7 @@ function bindEvents() {
 }
 
 async function init() {
+  state.useEnglishFontStyle = window.localStorage.getItem("downfall-english-font-style") === "1";
   const response = await fetch("data/cards.json");
   if (!response.ok) {
     elements.summary.textContent = "Missing data/cards.json. Run the pipeline first.";
