@@ -1051,7 +1051,15 @@ function getCardAttachmentTooltip() {
 function showCardAttachmentTooltip(card, anchorRect, langOverride = null) {
   if (!card) return;
   const language = langOverride || state.lang;
-  const textTips = (card.attachedTips || []).filter((tip) => tip && tip.name && tip.description && tip.name[language] && tip.description[language]);
+  const identity = {
+    name: { en: card.codeName || card.id, zh: card.codeName || card.id },
+    description: { en: card.id, zh: card.id },
+    dynamicValues: {},
+    sourceValueKey: null,
+    icon: null,
+  };
+  const textTips = [identity, ...(card.attachedTips || [])]
+    .filter((tip) => tip && tip.name && tip.description && tip.name[language] && tip.description[language]);
   const parentUpgraded = state.showUpgrade && hasCardUpgradeableVariant(card);
   const cardTips = (card.attachedCardTips || [])
     .map((entry) => ({

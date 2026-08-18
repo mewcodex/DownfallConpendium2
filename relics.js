@@ -880,7 +880,14 @@ function renderRelicAttachmentDescription(description, relic, language) {
 }
 
 function showRelicAttachmentTooltip(relic, anchorRect, language) {
-  const textTips = (relic.attachedTips || []).filter((tip) => tip && tip.name && tip.description && tip.name[language] && tip.description[language]);
+  const identity = {
+    name: { en: relic.codeName || relic.id, zh: relic.codeName || relic.id },
+    description: { en: relic.id, zh: relic.id },
+    dynamicValues: {},
+    sourceValueKey: null,
+  };
+  const textTips = [identity, ...(relic.attachedTips || [])]
+    .filter((tip) => tip && tip.name && tip.description && tip.name[language] && tip.description[language]);
   const cardTips = (relic.attachedCardTips || [])
     .map((entry) => ({ card: state.cardById.get(entry.id || ""), upgraded: Boolean(entry.upgraded) }))
     .filter((entry) => entry.card);
