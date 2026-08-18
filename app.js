@@ -1717,9 +1717,21 @@ function buildCardInnerHtml(card, descriptionHtml, options = {}) {
   const cardId = escapeHtml(card.id || "");
   const cost = formatCost(getDisplayCost(card, useUpgrade));
   const costClass = isCostUpgraded(card, useUpgrade) ? "card-cost-value upgraded" : "card-cost-value";
+  const highResolutionEnergyIcons = {
+    AUTOMATON: "assets/energy-icons/automaton_card_bronze_orb.png",
+    AWAKENED: "assets/energy-icons/awakenedOne_card_awakened_orb.png",
+    CHAMP: "assets/energy-icons/champ_card_champ_orb.png",
+    COLLECTOR: "assets/energy-icons/collector_card_collector_orb.png",
+    GREMLIN: "assets/energy-icons/gremlin_card_gremlin_orb.png",
+    GUARDIAN: "assets/energy-icons/guardian_card_guardian_orb.png",
+    HERMIT: "assets/energy-icons/hermit_card_default_gray_orb.png",
+    HEXAGHOST: "assets/energy-icons/theHexaghost_card_hexaghost_orb.png",
+    SLIMEBOUND: "assets/energy-icons/slimebound_card_slimebound_orb.png",
+    SNECKO: "assets/energy-icons/sneckomod_card_snecko_orb.png",
+  };
   const energyIcon = card.type === "CURSE" || card.color === "DOWNFALL" || card.color === "COLORLESS"
     ? "assets/card-ui/energy-colorless-gen2.png"
-    : card.color === "AUTOMATON" ? "assets/card-ui/energy-automaton.png" : card.energyIcon;
+    : highResolutionEnergyIcons[card.color] || card.energyIcon;
   const costIcon = energyIcon
     ? `<img class="card-cost-icon" src="${energyIcon}" alt="cost orb" loading="lazy">`
     : `<span class="card-cost-fallback-orb" aria-hidden="true"></span>`;
