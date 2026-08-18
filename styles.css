@@ -373,7 +373,7 @@ select {
 .relic-page #relicGrid > .card > img,
 .relic-page #relicGrid > .card > .placeholder {
   display: block;
-  flex: 0 0 48%;
+  flex: 0 0 44%;
   width: 100%;
   height: auto;
   min-height: 0;
