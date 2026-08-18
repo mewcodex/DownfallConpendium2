@@ -326,7 +326,7 @@ select {
 .card {
   --rarity-frame: var(--border);
   --rarity-glow: transparent;
-  background: #171311;
+  background: transparent;
   border-radius: 10px;
   border: 2px solid var(--rarity-frame);
   box-shadow: var(--shadow), 0 0 14px 1px var(--rarity-glow);
