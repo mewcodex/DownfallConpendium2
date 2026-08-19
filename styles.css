@@ -910,6 +910,11 @@ html[lang^="zh"] .card-desc {
   font-weight: inherit;
 }
 
+.kw-mark-upgrade,
+.kw-mark-upgrade * {
+  color: #7fff00 !important;
+}
+
 .kw-mark-aqua {
   color: #147d8b;
   font-weight: inherit;
@@ -1237,6 +1242,11 @@ article.card[data-card-id] .card-face-title h3 {
   text-shadow:
     0 0 2px rgba(0, 0, 0, 0.34),
     0 0 4px rgba(0, 0, 0, 0.45);
+}
+
+article.card[data-card-id] .card-face-title h3.upgraded {
+  color: #7fff00;
+  -webkit-text-stroke-color: #1b6131;
 }
 
 article.card[data-card-id][data-render-lang="zh"] .card-face-title h3 {

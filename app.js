@@ -478,6 +478,46 @@ function stripSts2Blocks(text, blockName) {
   return output;
 }
 
+function renderIfUpgradedShowBlocks(text, useUpgrade) {
+  const marker = "{IfUpgraded:show:";
+  let rendered = "";
+  let cursor = 0;
+
+  while (cursor < text.length) {
+    const start = text.indexOf(marker, cursor);
+    if (start < 0) {
+      rendered += text.slice(cursor);
+      break;
+    }
+
+    rendered += text.slice(cursor, start);
+    let depth = 1;
+    let separator = -1;
+    let end = start + marker.length;
+    for (; end < text.length; end += 1) {
+      const char = text[end];
+      if (char === "{") depth += 1;
+      if (char === "}") {
+        depth -= 1;
+        if (depth === 0) break;
+      }
+      if (char === "|" && depth === 1 && separator < 0) separator = end;
+    }
+
+    if (depth !== 0 || separator < 0) {
+      rendered += text.slice(start);
+      break;
+    }
+
+    const upgraded = text.slice(start + marker.length, separator);
+    const base = text.slice(separator + 1, end);
+    rendered += useUpgrade ? `__UPGRADE_START__${upgraded}__UPGRADE_END__` : base;
+    cursor = end + 1;
+  }
+
+  return rendered;
+}
+
 function renderSts2Markup(text, useUpgrade = state.showUpgrade, card = null) {
   if (!text) return "";
   const colorClasses = {
@@ -489,9 +529,7 @@ function renderSts2Markup(text, useUpgrade = state.showUpgrade, card = null) {
     aqua: "kw-mark-aqua",
     afterlife: "kw-mark-afterlife",
   };
-  let rendered = text.replace(/\{IfUpgraded:show:([^{}|]*)\|([^{}]*)\}/g, (_full, upgraded, base) => (
-    useUpgrade ? upgraded.replace(/-?\d+/g, (value) => `__TVG__${value}__`) : base
-  ));
+  let rendered = renderIfUpgradedShowBlocks(text, useUpgrade);
   rendered = rendered.replace(/\{IfUpgraded:plus\(\)\}/g, useUpgrade ? "+" : "");
   rendered = rendered.replace(/\[(gold|blue|red|purple|green|aqua|afterlife)\]([\s\S]*?)\[\/\1\]/gi, (_full, color, content) => {
     if (/^__TVG?__-?\d+__$/.test(content)) return content;
@@ -528,6 +566,8 @@ function renderSts2Markup(text, useUpgrade = state.showUpgrade, card = null) {
     return name || token;
   });
   return rendered
+    .replace(/__UPGRADE_START__/g, '<span class="kw-mark-upgrade">')
+    .replace(/__UPGRADE_END__/g, "</span>")
     .replace(/\{[A-Za-z_]\w*:[^{}]*\}/g, "")
     .replace(/\[\/?(?:sine|jitter|fly_in|shake|fade_in|afterlife)\]/gi, "");
 }
@@ -1828,7 +1868,7 @@ function buildCardInnerHtml(card, descriptionHtml, options = {}) {
     : `<span class="card-cost-fallback-orb" aria-hidden="true"></span>`;
   const cardHeadingHtml = `
     <div class="card-face-title">
-      <h3>${name}</h3>
+      <h3${shouldShowPlus ? ' class="upgraded"' : ""}>${name}</h3>
       <div class="card-id">${cardId}</div>
     </div>
     <div class="card-face-cost${isUnplayableCard(card) || getDisplayCost(card, useUpgrade) === -2 ? " card-face-cost-hidden" : ""}" title="${i18n("costLabel")}">
