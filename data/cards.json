@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-08-19T03:39:18.427562Z",
+  "generatedAt": "2026-08-19T03:40:17.490303Z",
   "modVersion": "0.1.13",
-  "translationVersion": "2026_08_18_23_00_08_5ad573",
+  "translationVersion": "2026_08_19_11_04_18_b86dba",
   "baseKeywords": [
     {
       "key": "ARTIFACT",
@@ -5401,7 +5401,7 @@
       "codeName": "Hook",
       "name": {
         "en": "Hook",
-        "zh": "钩子"
+        "zh": "挂钩"
       },
       "description": {
         "en": "Gain {Block:diff()} [gold]Block[/gold].\n[gold]Stash[/gold] a card from your [gold]Draw Pile[/gold].",
@@ -9062,7 +9062,7 @@
       },
       "description": {
         "en": "If this is [gold]Encoded[/gold] as the last card of a Function, the next created Function gains [gold]Replay[/gold].",
-        "zh": "作为最后一张牌被[gold]编码[/gold]时，下一个生成的方法获得[gold]重放[/gold]。"
+        "zh": "作为最后一张牌被[gold]编码[/gold]时，下一个生成的[gold]方法[/gold]获得[gold]重放[/gold]。"
       },
       "upgradeDescription": {
         "en": "",
@@ -14900,7 +14900,7 @@
       },
       "description": {
         "en": "Whenever you play a Colorless card, gain X{IfUpgraded:show:+1|} [gold]Block[/gold].",
-        "zh": "每当你打出无色牌时，获得X{IfUpgraded:show:+1|}点[gold]格挡[/gold]。"
+        "zh": "每当你打出无色牌时，获得{IfUpgraded:show:X+1|X}点[gold]格挡[/gold]。"
       },
       "upgradeDescription": {
         "en": "",
@@ -16530,7 +16530,7 @@
       },
       "description": {
         "en": "Put a [gold]Void[/gold] on top of your [gold]Draw Pile[/gold].\nGain 1 of 3 {IfUpgraded:show:[gold]Upgraded[/gold] |}cards from another dimension.",
-        "zh": "将一张[gold]虚空[/gold]放到[gold]抽牌堆[/gold]顶部。\n从3张来自另一维度的{IfUpgraded:show:[gold]已升级[/gold]|}牌中选择1张。"
+        "zh": "将一张[gold]虚空[/gold]放到[gold]抽牌堆[/gold]顶部。\n从3张{IfUpgraded:show:[gold]升级过的[/gold]|}来自另一维度的牌中选择1张。"
       },
       "upgradeDescription": {
         "en": "",
@@ -27182,7 +27182,7 @@
       },
       "description": {
         "en": "At the start of your turn, add a random {IfUpgraded:show:[gold]Upgraded[/gold] |}\"Strike\" [gold]Echo[/gold] into your [gold]Hand[/gold].\nIt's free to play that turn.",
-        "zh": "在你的回合开始时，获得一张{IfUpgraded:show:已[gold]升级[/gold]的|}随机“打击”牌的[gold]回响[/gold]。其在一回合内可以免费打出。"
+        "zh": "在你的回合开始时，获得一张随机{IfUpgraded:show:[gold]升级过的[/gold]|}“打击”牌的[gold]回响[/gold]。其在一回合内可以免费打出。"
       },
       "upgradeDescription": {
         "en": "",
@@ -43241,7 +43241,7 @@
       },
       "description": {
         "en": "Choose 1 of {Cards:diff()} random {IfUpgraded:show:[gold]Upgraded[/gold] |}[gold]Package[/gold] to place into [gold]Stasis[/gold].",
-        "zh": "从3张{IfUpgraded:show:已[gold]升级[/gold]的|}[gold]组件[/gold]牌中选择1张[gold]凝滞[/gold]。"
+        "zh": "从3张{IfUpgraded:show:[gold]升级过的[/gold]|}[gold]组件[/gold]牌中选择1张[gold]凝滞[/gold]。"
       },
       "upgradeDescription": {
         "en": "",
@@ -67575,7 +67575,7 @@
       },
       "description": {
         "en": "[gold]Exhaust[/gold] {Cards:diff()} cards.[gold]\n[/gold]Add a random {IfUpgraded:show:[gold]Upgraded[/gold] |}card of the opposite type into your [gold]Hand[/gold] for each Attack or Skill [gold]Exhausted[/gold].",
-        "zh": "[gold]消耗[/gold]{Cards:diff()}张牌。\n每[gold]消耗[/gold]一张技能或攻击牌，随机将一张类型相反的{IfUpgraded:show:[gold]升级过的[/gold]|}牌加入你的[gold]手牌[/gold]。"
+        "zh": "[gold]消耗[/gold]{Cards:diff()}张牌。\n每[gold]消耗[/gold]一张技能或攻击牌，随机将一张类型相反的{IfUpgraded:show:已[gold]升级[/gold]的|}牌加入你的[gold]手牌[/gold]。"
       },
       "upgradeDescription": {
         "en": "",
@@ -76742,7 +76742,7 @@
       },
       "description": {
         "en": "{InCombat:cond:|[gold]Gift[/gold]: [gold]Upgraded[/gold] Rare and {Gold:diff()} Gold.}",
-        "zh": "{InCombat:cond:|[gold]赠礼[/gold]：已[gold]升级[/gold]的稀有牌和{Gold:diff()}金币。}"
+        "zh": "{InCombat:cond:|[gold]赠礼[/gold]：[gold]升级过的[/gold]稀有牌和{Gold:diff()}金币。}"
       },
       "upgradeDescription": {
         "en": "",
@@ -81796,7 +81796,7 @@
           },
           "description": {
             "en": "At the start of your turn, add an [gold]Echo[/gold] of a random [gold]Offclass[/gold] card int your [gold]Hand[/gold].",
-            "zh": "在你的回合开始时，获得一张随机[gold]异色牌[/gold]的[gold]回响[/gold]。"
+            "zh": "在你的回合开始时，获得一张随机[gold]异色[/gold]牌的[gold]回响[/gold]。"
           },
           "dynamicValues": {},
           "sourceValueKey": "UnendingSupplyPower",

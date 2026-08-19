@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-08-19T03:39:18.427562Z",
+  "generatedAt": "2026-08-19T03:40:17.490303Z",
   "modVersion": "0.1.13",
-  "translationVersion": "2026_08_18_23_00_08_5ad573",
+  "translationVersion": "2026_08_19_11_04_18_b86dba",
   "baseKeywords": [
     {
       "key": "ARTIFACT",
@@ -996,7 +996,7 @@
       },
       "description": {
         "en": "Functions are now made up of [blue]4[/blue] cards.",
-        "zh": "方法现在由[blue]4[/blue]张牌组成。"
+        "zh": "[gold]方法[/gold]现在由[blue]4[/blue]张牌组成。"
       },
       "rarity": "SPECIAL",
       "color": "DOWNFALL",
@@ -1024,7 +1024,7 @@
       },
       "description": {
         "en": "Enchant all Functions you create with [purple]Steady[/purple].",
-        "zh": "你的所有方法附魔[purple]稳定[/purple]。"
+        "zh": "你的所有[gold]方法[/gold]附魔[purple]稳定[/purple]。"
       },
       "rarity": "RARE",
       "color": "AUTOMATON",
@@ -3994,7 +3994,7 @@
       },
       "description": {
         "en": "Whenever you remove or [gold]Transform[/gold] a card from your [gold]Deck[/gold], heal [blue]{Heal}[/blue] HP.",
-        "zh": "每当你从[gold]牌组[/gold]中移除或[gold]变化[/gold]一张牌时，回复[blue]{Heal}[/blue]点生命。"
+        "zh": "每当你从[gold]牌组[/gold]中移除或[gold]变化[/gold]一张牌时，回复[green]{Heal}[/green]点生命。"
       },
       "rarity": "UNCOMMON",
       "color": "HERMIT",
@@ -5092,7 +5092,7 @@
       },
       "description": {
         "en": "Upon pickup, choose [blue]1[/blue] of [blue]3[/blue] Characters. Obtain [blue]3[/blue] [gold]Upgraded[/gold] [gold]Uncommon[/gold] cards and [blue]2[/blue] [gold]Rare[/gold] cards. All combats drop an additional card reward of the chosen character's cards.",
-        "zh": "拾起时，从[blue]3[/blue]个角色中选择[blue]1[/blue]个，获得来自该角色的[blue]3[/blue]组已[gold]升级[/gold]的[gold]罕见[/gold]牌奖励和[blue]2[/blue]组[gold]稀有[/gold]牌奖励。每次战斗结束后，额外掉落一组该角色的卡牌奖励。"
+        "zh": "拾起时，从[blue]3[/blue]个角色中选择[blue]1[/blue]个，获得来自该角色的[blue]3[/blue]组[gold]升级过的[/gold][gold]罕见[/gold]牌奖励和[blue]2[/blue]组[gold]稀有[/gold]牌奖励。每次战斗结束后，额外掉落一组该角色的卡牌奖励。"
       },
       "rarity": "COMMON",
       "color": "HERMIT",
@@ -5420,7 +5420,7 @@
       },
       "description": {
         "en": "Whenever you add an [gold]Offclass[/gold] card to your [gold]Deck[/gold], [gold]Upgrade[/gold] it.\nUpon pickup, [gold]Upgrade[/gold] [blue]{Cards}[/blue] random [gold]Offclass[/gold] cards.",
-        "zh": "每当你将一张[gold]异色[/gold]牌加入你的[gold]牌组[/gold]时，将其[gold]升级[/gold]。\n拾起时，随机[gold]升级[/gold][blue]{Cards}[/blue]张[gold]异色牌[/gold]。"
+        "zh": "每当你将一张[gold]异色[/gold]牌加入你的[gold]牌组[/gold]时，将其[gold]升级[/gold]。\n拾起时，随机[gold]升级[/gold][blue]{Cards}[/blue]张[gold]异色[/gold]牌。"
       },
       "rarity": "RARE",
       "color": "SNECKO",
