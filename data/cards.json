@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-08-19T14:54:08.882839Z",
+  "generatedAt": "2026-08-21T17:15:03.459133Z",
   "modVersion": "0.1.13",
-  "translationVersion": "2026_08_19_19_01_07_8ec0c8",
+  "translationVersion": "2026_08_21_09_00_05_44a62c",
   "baseKeywords": [
     {
       "key": "ARTIFACT",
@@ -2733,11 +2733,11 @@
       "codeName": "Convert",
       "name": {
         "en": "Convert",
-        "zh": "转换"
+        "zh": "转化"
       },
       "description": {
         "en": "Deal {Damage:diff()} damage.\n[gold]Transform[/gold] a random Status in your [gold]Stash Pile[/gold] into [gold]Fuel{IfUpgraded:plus()}[/gold].",
-        "zh": "造成{Damage:diff()}点伤害。\n将[gold]暂存区[/gold]中的一张随机状态牌[gold]变化[/gold]为[gold]燃料{IfUpgraded:plus()}[/gold]。"
+        "zh": "造成{Damage:diff()}点伤害。\n将[gold]暂存区[/gold]中的一张随机状态牌[gold]变化[/gold]为[gold]{IfUpgraded:燃料+|燃料}[/gold]。"
       },
       "upgradeDescription": {
         "en": "",
@@ -4263,7 +4263,7 @@
       },
       "description": {
         "en": "Add [gold]Constructor{IfUpgraded:plus()}[/gold], [gold]Separator{IfUpgraded:plus()}[/gold], and [gold]Terminator{IfUpgraded:plus()}[/gold] into your [gold]Hand[/gold].",
-        "zh": "将一组[gold]起始符{IfUpgraded:plus()}[/gold]、[gold]分隔符{IfUpgraded:plus()}[/gold]和[gold]终止符{IfUpgraded:plus()}[/gold]加入你的[gold]手牌[/gold]。"
+        "zh": "将一组[gold]{IfUpgraded:show:起始符+|起始符}[/gold]、[gold]{IfUpgraded:show:分隔符+|分隔符}[/gold]和[gold]{IfUpgraded:show:终止符+|终止符}[/gold]加入你的[gold]手牌[/gold]。"
       },
       "upgradeDescription": {
         "en": "",
@@ -7499,7 +7499,7 @@
       },
       "description": {
         "en": "Deal {Damage:diff()} damage twice.\n[gold]Encode[/gold] 2 copies of [gold]Strike{IfUpgraded:plus()}[/gold].",
-        "zh": "造成{Damage:diff()}点伤害两次。\n[gold]编码[/gold]2张[gold]打击{IfUpgraded:plus()}[/gold]的复制。"
+        "zh": "造成{Damage:diff()}点伤害两次。\n[gold]编码[/gold]2张[gold]{IfUpgraded:show:打击+|打击}[/gold]的复制。"
       },
       "upgradeDescription": {
         "en": "",
@@ -9596,7 +9596,7 @@
       },
       "description": {
         "en": "Deal {Damage:diff()} damage.\nDiscard your [gold]Hand[/gold].\nAdd a [gold]Minor Beam{IfUpgraded:plus()}[/gold] into your [gold]Hand[/gold] for each card discarded.",
-        "zh": "造成{Damage:diff()}点伤害。\n丢弃所有[gold]手牌[/gold]。\n每丢弃一张，将一张[gold]微光射线{IfUpgraded:plus()}[/gold]加入你的[gold]手牌[/gold]。"
+        "zh": "造成{Damage:diff()}点伤害。\n丢弃所有[gold]手牌[/gold]。\n每丢弃一张，将一张[gold]{IfUpgraded:show:微光射线+|微光射线}[/gold]加入你的[gold]手牌[/gold]。"
       },
       "upgradeDescription": {
         "en": "",
@@ -14256,7 +14256,7 @@
       "codeName": "GreatHex",
       "name": {
         "en": "Great Hex",
-        "zh": "六极邪咒"
+        "zh": "六邪极咒"
       },
       "description": {
         "en": "",
@@ -17866,7 +17866,7 @@
       },
       "description": {
         "en": "Deal {Damage:diff()} damage.\nWhenever you attack this enemy, gain {SplitWidePower:diff()} [gold]Strength[/gold] for one turn.",
-        "zh": "造成{Damage:diff()}点伤害。\n每当你攻击这名敌人时，你在本回合获得{SplitWidePower:diff()}点[gold]力量[/gold]。"
+        "zh": "造成{Damage:diff()}点伤害。\n每当你攻击该敌人时，获得{SplitWidePower:diff()}点临时[gold]力量[/gold]。"
       },
       "upgradeDescription": {
         "en": "",
@@ -42453,7 +42453,7 @@
       },
       "description": {
         "en": "Gain {ArtifactPower:diff()} [gold]Artifact[/gold].\nAt the start of your turn, if you have no [gold]Artifact[/gold], gain {AncientConstructPower:diff()} [gold]Artifact[/gold].",
-        "zh": "获得{ArtifactPower:diff()}层[gold]人工制品[/gold]。\n在你的回合开始时，若你没有[gold]人工制品[/gold]，获得{AncientConstructPower:diff()}层[gold]人工制品[/gold]。"
+        "zh": "获得{ArtifactPower:diff()}层[gold]人工制品[/gold]。\n在你的回合开始时，如果你没有[gold]人工制品[/gold]，获得{AncientConstructPower:diff()}层[gold]人工制品[/gold]。"
       },
       "upgradeDescription": {
         "en": "",
@@ -42810,7 +42810,7 @@
       },
       "description": {
         "en": "Gain {Block:diff()} [gold]Block[/gold].\nDeal damage equal to your [gold]Block[/gold].{InCombat:cond:\n(Deals {VisualBlock:diff()} damage)|}",
-        "zh": "获得{Block:diff()}点[gold]格挡[/gold]。\n造成等同于你[gold]格挡[/gold]的伤害。{InCombat:cond:\n（造成{VisualBlock:diff()}点伤害）|}"
+        "zh": "获得{Block:diff()}点[gold]格挡[/gold]。\n造成等同于你[gold]格挡[/gold]值的伤害。{InCombat:cond:\n（造成{VisualBlock:diff()}点伤害）|}"
       },
       "upgradeDescription": {
         "en": "",
@@ -43055,7 +43055,7 @@
       },
       "description": {
         "en": "Gain {Block:diff()} [gold]Block[/gold].\nNext turn, gain {NextTurnTemporaryStrengthUpPower:diff()} [gold]Strength[/gold] for one turn.",
-        "zh": "获得{Block:diff()}点[gold]格挡[/gold]。\n在下个回合，获得{NextTurnTemporaryStrengthUpPower:diff()}点[gold]力量[/gold]一回合。"
+        "zh": "获得{Block:diff()}点[gold]格挡[/gold]。\n下个回合，获得{NextTurnTemporaryStrengthUpPower:diff()}点临时[gold]力量[/gold]。"
       },
       "upgradeDescription": {
         "en": "",
@@ -43209,7 +43209,7 @@
           },
           "description": {
             "en": "A card in [gold]Stasis[/gold] stays for turns equal to its cost +[blue]1[/blue]. When it exits, it returns to your [gold]Hand[/gold] and is free until played.",
-            "zh": "将牌挂起并从其耗能+[blue]1[/blue]开始倒计时。\n在你的回合开始时，所有凝滞卡牌的计时减[blue]1[/blue]。\n计时归零时，将其返回手牌且下次打出前耗能变为[blue]0[/blue]。"
+            "zh": "将牌挂起并从其耗能+[blue]1[/blue]开始倒计时。\n在你的回合开始时，所有凝滞牌的计时减[blue]1[/blue]。\n计时归零时，将其返回手牌且下次打出前耗能变为[blue]0[/blue]。"
           },
           "dynamicValues": {},
           "sourceValueKey": null,
@@ -43309,7 +43309,7 @@
           },
           "description": {
             "en": "A card in [gold]Stasis[/gold] stays for turns equal to its cost +[blue]1[/blue]. When it exits, it returns to your [gold]Hand[/gold] and is free until played.",
-            "zh": "将牌挂起并从其耗能+[blue]1[/blue]开始倒计时。\n在你的回合开始时，所有凝滞卡牌的计时减[blue]1[/blue]。\n计时归零时，将其返回手牌且下次打出前耗能变为[blue]0[/blue]。"
+            "zh": "将牌挂起并从其耗能+[blue]1[/blue]开始倒计时。\n在你的回合开始时，所有凝滞牌的计时减[blue]1[/blue]。\n计时归零时，将其返回手牌且下次打出前耗能变为[blue]0[/blue]。"
           },
           "dynamicValues": {},
           "sourceValueKey": null,
@@ -43486,7 +43486,7 @@
       },
       "description": {
         "en": "Deal {CalculatedDamage:diff()} damage.\nDeals {ExtraDamage:diff()} additional damage for each [gold]Gem[/gold] in your [gold]Deck[/gold].",
-        "zh": "造成{CalculatedDamage:diff()}点伤害。\n你的[gold]牌组[/gold]中每有一颗[gold]宝石[/gold]，额外造成{ExtraDamage:diff()}点伤害。"
+        "zh": "造成{CalculatedDamage:diff()}点伤害。\n你每有一颗[gold]宝石[/gold]，伤害增加{ExtraDamage:diff()}。"
       },
       "upgradeDescription": {
         "en": "",
@@ -43792,7 +43792,7 @@
           },
           "description": {
             "en": "A card in [gold]Stasis[/gold] stays for turns equal to its cost +[blue]1[/blue]. When it exits, it returns to your [gold]Hand[/gold] and is free until played.",
-            "zh": "将牌挂起并从其耗能+[blue]1[/blue]开始倒计时。\n在你的回合开始时，所有凝滞卡牌的计时减[blue]1[/blue]。\n计时归零时，将其返回手牌且下次打出前耗能变为[blue]0[/blue]。"
+            "zh": "将牌挂起并从其耗能+[blue]1[/blue]开始倒计时。\n在你的回合开始时，所有凝滞牌的计时减[blue]1[/blue]。\n计时归零时，将其返回手牌且下次打出前耗能变为[blue]0[/blue]。"
           },
           "dynamicValues": {},
           "sourceValueKey": null,
@@ -43998,7 +43998,7 @@
           },
           "description": {
             "en": "A card in [gold]Stasis[/gold] stays for turns equal to its cost +[blue]1[/blue]. When it exits, it returns to your [gold]Hand[/gold] and is free until played.",
-            "zh": "将牌挂起并从其耗能+[blue]1[/blue]开始倒计时。\n在你的回合开始时，所有凝滞卡牌的计时减[blue]1[/blue]。\n计时归零时，将其返回手牌且下次打出前耗能变为[blue]0[/blue]。"
+            "zh": "将牌挂起并从其耗能+[blue]1[/blue]开始倒计时。\n在你的回合开始时，所有凝滞牌的计时减[blue]1[/blue]。\n计时归零时，将其返回手牌且下次打出前耗能变为[blue]0[/blue]。"
           },
           "dynamicValues": {},
           "sourceValueKey": null,
@@ -44100,7 +44100,7 @@
           },
           "description": {
             "en": "Reduce your [gold]Weak[/gold], [gold]Frail[/gold], and [gold]Vulnerable[/gold] by X each.\nConvert X stacks of temporary buffs into permanent buffs.",
-            "zh": "移除你的[gold]虚弱[/gold]、[gold]脆弱[/gold]和[gold]易伤[/gold]各X层。\n将X层临时增益转化为永久增益。"
+            "zh": "移除相应层数的[gold]虚弱[/gold]、[gold]脆弱[/gold]和[gold]易伤[/gold]。\n将相应层数的临时增益转化为永久增益。"
           },
           "dynamicValues": {},
           "sourceValueKey": null,
@@ -44281,7 +44281,7 @@
           },
           "description": {
             "en": "A card in [gold]Stasis[/gold] stays for turns equal to its cost +[blue]1[/blue]. When it exits, it returns to your [gold]Hand[/gold] and is free until played.",
-            "zh": "将牌挂起并从其耗能+[blue]1[/blue]开始倒计时。\n在你的回合开始时，所有凝滞卡牌的计时减[blue]1[/blue]。\n计时归零时，将其返回手牌且下次打出前耗能变为[blue]0[/blue]。"
+            "zh": "将牌挂起并从其耗能+[blue]1[/blue]开始倒计时。\n在你的回合开始时，所有凝滞牌的计时减[blue]1[/blue]。\n计时归零时，将其返回手牌且下次打出前耗能变为[blue]0[/blue]。"
           },
           "dynamicValues": {},
           "sourceValueKey": null,
@@ -44397,7 +44397,7 @@
       },
       "description": {
         "en": "At the end of your turn, place up to {FuturePlansPower:diff()} card in your [gold]Hand[/gold] in [gold]Stasis[/gold].",
-        "zh": "在你的回合结束时，[gold]凝滞[/gold]至多{FuturePlansPower:diff()}张牌。"
+        "zh": "在你的回合结束时，[gold]凝滞[/gold]最多{FuturePlansPower:diff()}张牌。"
       },
       "upgradeDescription": {
         "en": "",
@@ -44465,7 +44465,7 @@
           },
           "description": {
             "en": "A card in [gold]Stasis[/gold] stays for turns equal to its cost +[blue]1[/blue]. When it exits, it returns to your [gold]Hand[/gold] and is free until played.",
-            "zh": "将牌挂起并从其耗能+[blue]1[/blue]开始倒计时。\n在你的回合开始时，所有凝滞卡牌的计时减[blue]1[/blue]。\n计时归零时，将其返回手牌且下次打出前耗能变为[blue]0[/blue]。"
+            "zh": "将牌挂起并从其耗能+[blue]1[/blue]开始倒计时。\n在你的回合开始时，所有凝滞牌的计时减[blue]1[/blue]。\n计时归零时，将其返回手牌且下次打出前耗能变为[blue]0[/blue]。"
           },
           "dynamicValues": {},
           "sourceValueKey": null,
@@ -44479,7 +44479,7 @@
           },
           "description": {
             "en": "At the end of your turn, you may place [blue]1[/blue] card into [gold]Stasis[/gold].",
-            "zh": "在你的回合结束时，你可以[gold]凝滞[/gold]至多[blue]1[/blue]张牌。"
+            "zh": "在你的回合结束时，[gold]凝滞[/gold]最多[blue]1[/blue]张牌。"
           },
           "dynamicValues": {},
           "sourceValueKey": "FuturePlansPower",
@@ -44621,7 +44621,7 @@
       },
       "description": {
         "en": "Deal {Damage:diff()} damage.\nActivate ALL of your [gold]Gems[/gold].",
-        "zh": "造成{Damage:diff()}点伤害。\n激活你所有的[gold]宝石[/gold]。"
+        "zh": "造成{Damage:diff()}点伤害。\n触发你所有的[gold]宝石[/gold]。"
       },
       "upgradeDescription": {
         "en": "",
@@ -44927,7 +44927,7 @@
       },
       "description": {
         "en": "Deal {Damage:diff()} damage to ALL enemies twice.\nIf you have {Threshold:diff()} or more [gold]Block[/gold], deal damage 2 more times.",
-        "zh": "对所有敌人造成{Damage:diff()}点伤害两次。\n如果你有至少{Threshold:diff()}点[gold]格挡[/gold]，再造成{Damage:diff()}点伤害两次。"
+        "zh": "对所有敌人造成{Damage:diff()}点伤害两次。\n如果你有至少{Threshold:diff()}点[gold]格挡[/gold]，重复一次。"
       },
       "upgradeDescription": {
         "en": "",
@@ -45138,7 +45138,7 @@
           },
           "description": {
             "en": "A card in [gold]Stasis[/gold] stays for turns equal to its cost +[blue]1[/blue]. When it exits, it returns to your [gold]Hand[/gold] and is free until played.",
-            "zh": "将牌挂起并从其耗能+[blue]1[/blue]开始倒计时。\n在你的回合开始时，所有凝滞卡牌的计时减[blue]1[/blue]。\n计时归零时，将其返回手牌且下次打出前耗能变为[blue]0[/blue]。"
+            "zh": "将牌挂起并从其耗能+[blue]1[/blue]开始倒计时。\n在你的回合开始时，所有凝滞牌的计时减[blue]1[/blue]。\n计时归零时，将其返回手牌且下次打出前耗能变为[blue]0[/blue]。"
           },
           "dynamicValues": {},
           "sourceValueKey": null,
@@ -45295,7 +45295,7 @@
           },
           "description": {
             "en": "A card in [gold]Stasis[/gold] stays for turns equal to its cost +[blue]1[/blue]. When it exits, it returns to your [gold]Hand[/gold] and is free until played.",
-            "zh": "将牌挂起并从其耗能+[blue]1[/blue]开始倒计时。\n在你的回合开始时，所有凝滞卡牌的计时减[blue]1[/blue]。\n计时归零时，将其返回手牌且下次打出前耗能变为[blue]0[/blue]。"
+            "zh": "将牌挂起并从其耗能+[blue]1[/blue]开始倒计时。\n在你的回合开始时，所有凝滞牌的计时减[blue]1[/blue]。\n计时归零时，将其返回手牌且下次打出前耗能变为[blue]0[/blue]。"
           },
           "dynamicValues": {},
           "sourceValueKey": null,
@@ -45333,7 +45333,7 @@
       },
       "description": {
         "en": "Whenever a card ticks down in [gold]Stasis[/gold], gain {MaximumOverdrivePower:diff()} [gold]Strength[/gold] for one turn.",
-        "zh": "每当一张牌减少[gold]凝滞[/gold]计数时，在一回合内获得{MaximumOverdrivePower:diff()}点[gold]力量[/gold]。"
+        "zh": "每当一张牌减少[gold]凝滞[/gold]计数时，获得{MaximumOverdrivePower:diff()}点临时[gold]力量[/gold]。"
       },
       "upgradeDescription": {
         "en": "",
@@ -45387,7 +45387,7 @@
           },
           "description": {
             "en": "A card in [gold]Stasis[/gold] stays for turns equal to its cost +[blue]1[/blue]. When it exits, it returns to your [gold]Hand[/gold] and is free until played.",
-            "zh": "将牌挂起并从其耗能+[blue]1[/blue]开始倒计时。\n在你的回合开始时，所有凝滞卡牌的计时减[blue]1[/blue]。\n计时归零时，将其返回手牌且下次打出前耗能变为[blue]0[/blue]。"
+            "zh": "将牌挂起并从其耗能+[blue]1[/blue]开始倒计时。\n在你的回合开始时，所有凝滞牌的计时减[blue]1[/blue]。\n计时归零时，将其返回手牌且下次打出前耗能变为[blue]0[/blue]。"
           },
           "dynamicValues": {},
           "sourceValueKey": null,
@@ -45435,11 +45435,11 @@
       "codeName": "MultiBeam",
       "name": {
         "en": "Multi-Beam",
-        "zh": "多重光束"
+        "zh": "多路光束"
       },
       "description": {
         "en": "Deal {Damage:diff()} damage to ALL enemies X times.\n[gold]Stasis[/gold] lasts 3 turns.\n[gold]Tick[/gold]: Increase this card's damage by {Increase:diff()}.",
-        "zh": "对所有敌人造成{Damage:diff()}点伤害X次。\n[gold]凝滞[/gold]持续3回合。\n[gold]滴答[/gold]：本场战斗伤害加{Increase:diff()}。"
+        "zh": "对所有敌人造成{Damage:diff()}点伤害X次。\n[gold]凝滞[/gold]3回合。\n[gold]滴答[/gold]：本场战斗伤害加{Increase:diff()}。"
       },
       "upgradeDescription": {
         "en": "",
@@ -45513,7 +45513,7 @@
           },
           "description": {
             "en": "A card in [gold]Stasis[/gold] stays for turns equal to its cost +[blue]1[/blue]. When it exits, it returns to your [gold]Hand[/gold] and is free until played.",
-            "zh": "将牌挂起并从其耗能+[blue]1[/blue]开始倒计时。\n在你的回合开始时，所有凝滞卡牌的计时减[blue]1[/blue]。\n计时归零时，将其返回手牌且下次打出前耗能变为[blue]0[/blue]。"
+            "zh": "将牌挂起并从其耗能+[blue]1[/blue]开始倒计时。\n在你的回合开始时，所有凝滞牌的计时减[blue]1[/blue]。\n计时归零时，将其返回手牌且下次打出前耗能变为[blue]0[/blue]。"
           },
           "dynamicValues": {},
           "sourceValueKey": null,
@@ -45821,7 +45821,7 @@
       },
       "description": {
         "en": "Whenever you enter [gold]Defensive Mode[/gold], the ally with the least [gold]Block[/gold] gains {OverblockBlockPower:diff()} [gold]Block[/gold] and {OverblockThornsPower:diff()} [gold]Thorns[/gold] for one turn.",
-        "zh": "每当你进入[gold]防御模式[/gold]时，拥有最少[gold]格挡[/gold]的另一位盟友在本回合中获得{OverblockBlockPower:diff()}点[gold]格挡[/gold]和{OverblockThornsPower:diff()}层[gold]荆棘[/gold]。"
+        "zh": "每当你进入[gold]防御模式[/gold]时，[gold]格挡[/gold]值最少的盟友在本回合中获得{OverblockBlockPower:diff()}点[gold]格挡[/gold]和{OverblockThornsPower:diff()}层[gold]荆棘[/gold]。"
       },
       "upgradeDescription": {
         "en": "",
@@ -46402,7 +46402,7 @@
       },
       "description": {
         "en": "Gain {Block:diff()} [gold]Block[/gold].\nGain {PiercingHidePower:diff()} [gold]Thorns[/gold] this turn.\n[gold]Brace[/gold] {Brace:diff()}.",
-        "zh": "获得{Block:diff()}点[gold]格挡[/gold]\n本回合获得{PiercingHidePower:diff()}点[gold]荆棘[/gold]。\n[gold]提防[/gold]{Brace:diff()}。"
+        "zh": "获得{Block:diff()}点[gold]格挡[/gold]。\n本回合获得{PiercingHidePower:diff()}点[gold]荆棘[/gold]。\n[gold]提防[/gold]{Brace:diff()}。"
       },
       "upgradeDescription": {
         "en": "",
@@ -46615,7 +46615,7 @@
           },
           "description": {
             "en": "A card in [gold]Stasis[/gold] stays for turns equal to its cost +[blue]1[/blue]. When it exits, it returns to your [gold]Hand[/gold] and is free until played.",
-            "zh": "将牌挂起并从其耗能+[blue]1[/blue]开始倒计时。\n在你的回合开始时，所有凝滞卡牌的计时减[blue]1[/blue]。\n计时归零时，将其返回手牌且下次打出前耗能变为[blue]0[/blue]。"
+            "zh": "将牌挂起并从其耗能+[blue]1[/blue]开始倒计时。\n在你的回合开始时，所有凝滞牌的计时减[blue]1[/blue]。\n计时归零时，将其返回手牌且下次打出前耗能变为[blue]0[/blue]。"
           },
           "dynamicValues": {},
           "sourceValueKey": null,
@@ -47003,7 +47003,7 @@
           },
           "description": {
             "en": "A card in [gold]Stasis[/gold] stays for turns equal to its cost +[blue]1[/blue]. When it exits, it returns to your [gold]Hand[/gold] and is free until played.",
-            "zh": "将牌挂起并从其耗能+[blue]1[/blue]开始倒计时。\n在你的回合开始时，所有凝滞卡牌的计时减[blue]1[/blue]。\n计时归零时，将其返回手牌且下次打出前耗能变为[blue]0[/blue]。"
+            "zh": "将牌挂起并从其耗能+[blue]1[/blue]开始倒计时。\n在你的回合开始时，所有凝滞牌的计时减[blue]1[/blue]。\n计时归零时，将其返回手牌且下次打出前耗能变为[blue]0[/blue]。"
           },
           "dynamicValues": {},
           "sourceValueKey": null,
@@ -47123,7 +47123,7 @@
       "codeName": "RefractedLight",
       "name": {
         "en": "Refracted Light",
-        "zh": "折射光"
+        "zh": "偏折光线"
       },
       "description": {
         "en": "Deal {Damage:diff()} damage.\nGems in this card affect ALL players.",
@@ -47365,7 +47365,7 @@
           },
           "description": {
             "en": "A card in [gold]Stasis[/gold] stays for turns equal to its cost +[blue]1[/blue]. When it exits, it returns to your [gold]Hand[/gold] and is free until played.",
-            "zh": "将牌挂起并从其耗能+[blue]1[/blue]开始倒计时。\n在你的回合开始时，所有凝滞卡牌的计时减[blue]1[/blue]。\n计时归零时，将其返回手牌且下次打出前耗能变为[blue]0[/blue]。"
+            "zh": "将牌挂起并从其耗能+[blue]1[/blue]开始倒计时。\n在你的回合开始时，所有凝滞牌的计时减[blue]1[/blue]。\n计时归零时，将其返回手牌且下次打出前耗能变为[blue]0[/blue]。"
           },
           "dynamicValues": {},
           "sourceValueKey": null,
@@ -47627,7 +47627,7 @@
       },
       "description": {
         "en": "Deal {Damage:diff()} damage.\nPresocketed with a [gold]Common[/gold], [gold]Uncommon[/gold], and [gold]Rare[/gold] [gold]Gem[/gold].",
-        "zh": "造成{Damage:diff()}点伤害。\n预先镶嵌[gold]普通[/gold]、[gold]罕见[/gold]和[gold]稀有[/gold][gold]宝石[/gold]各一颗。"
+        "zh": "造成{Damage:diff()}点伤害。\n自动镶嵌[gold]普通[/gold]、[gold]罕见[/gold]和[gold]稀有[/gold][gold]宝石[/gold]各一颗。"
       },
       "upgradeDescription": {
         "en": "",
@@ -47711,7 +47711,7 @@
       },
       "description": {
         "en": "Deal {Damage:diff()} damage.\nIf in [gold]Defensive Mode[/gold], affects ALL enemies.\nOtherwise, [gold]Brace[/gold] {Brace:diff()}.",
-        "zh": "若在[gold]防御模式[/gold]，对所有敌人造成{Damage:diff()}点伤害。\n否则，造成{Damage:diff()}点伤害并[gold]提防[/gold]{Brace:diff()}。"
+        "zh": "如果处于[gold]防御模式[/gold]，对所有敌人造成{Damage:diff()}点伤害。\n否则，造成{Damage:diff()}点伤害并[gold]提防[/gold]{Brace:diff()}。"
       },
       "upgradeDescription": {
         "en": "",
@@ -47966,7 +47966,7 @@
           },
           "description": {
             "en": "A card in [gold]Stasis[/gold] stays for turns equal to its cost +[blue]1[/blue]. When it exits, it returns to your [gold]Hand[/gold] and is free until played.",
-            "zh": "将牌挂起并从其耗能+[blue]1[/blue]开始倒计时。\n在你的回合开始时，所有凝滞卡牌的计时减[blue]1[/blue]。\n计时归零时，将其返回手牌且下次打出前耗能变为[blue]0[/blue]。"
+            "zh": "将牌挂起并从其耗能+[blue]1[/blue]开始倒计时。\n在你的回合开始时，所有凝滞牌的计时减[blue]1[/blue]。\n计时归零时，将其返回手牌且下次打出前耗能变为[blue]0[/blue]。"
           },
           "dynamicValues": {},
           "sourceValueKey": null,
@@ -48074,7 +48074,7 @@
           },
           "description": {
             "en": "A card in [gold]Stasis[/gold] stays for turns equal to its cost +[blue]1[/blue]. When it exits, it returns to your [gold]Hand[/gold] and is free until played.",
-            "zh": "将牌挂起并从其耗能+[blue]1[/blue]开始倒计时。\n在你的回合开始时，所有凝滞卡牌的计时减[blue]1[/blue]。\n计时归零时，将其返回手牌且下次打出前耗能变为[blue]0[/blue]。"
+            "zh": "将牌挂起并从其耗能+[blue]1[/blue]开始倒计时。\n在你的回合开始时，所有凝滞牌的计时减[blue]1[/blue]。\n计时归零时，将其返回手牌且下次打出前耗能变为[blue]0[/blue]。"
           },
           "dynamicValues": {},
           "sourceValueKey": null,
@@ -48284,7 +48284,7 @@
           },
           "description": {
             "en": "A card in [gold]Stasis[/gold] stays for turns equal to its cost +[blue]1[/blue]. When it exits, it returns to your [gold]Hand[/gold] and is free until played.",
-            "zh": "将牌挂起并从其耗能+[blue]1[/blue]开始倒计时。\n在你的回合开始时，所有凝滞卡牌的计时减[blue]1[/blue]。\n计时归零时，将其返回手牌且下次打出前耗能变为[blue]0[/blue]。"
+            "zh": "将牌挂起并从其耗能+[blue]1[/blue]开始倒计时。\n在你的回合开始时，所有凝滞牌的计时减[blue]1[/blue]。\n计时归零时，将其返回手牌且下次打出前耗能变为[blue]0[/blue]。"
           },
           "dynamicValues": {},
           "sourceValueKey": null,
@@ -48494,7 +48494,7 @@
           },
           "description": {
             "en": "A card in [gold]Stasis[/gold] stays for turns equal to its cost +[blue]1[/blue]. When it exits, it returns to your [gold]Hand[/gold] and is free until played.",
-            "zh": "将牌挂起并从其耗能+[blue]1[/blue]开始倒计时。\n在你的回合开始时，所有凝滞卡牌的计时减[blue]1[/blue]。\n计时归零时，将其返回手牌且下次打出前耗能变为[blue]0[/blue]。"
+            "zh": "将牌挂起并从其耗能+[blue]1[/blue]开始倒计时。\n在你的回合开始时，所有凝滞牌的计时减[blue]1[/blue]。\n计时归零时，将其返回手牌且下次打出前耗能变为[blue]0[/blue]。"
           },
           "dynamicValues": {},
           "sourceValueKey": null,
@@ -48532,7 +48532,7 @@
       },
       "description": {
         "en": "Gain {Block:diff()} [gold]Block[/gold].\nGain {ThornsPower:diff()} [gold]Thorns[/gold] if in [gold]Defensive Mode[/gold].\n[gold]Brace[/gold] {Brace:diff()}.",
-        "zh": "获得{Block:diff()}点[gold]格挡[/gold]。\n若在[gold]防御模式[/gold]，获得{ThornsPower:diff()}点[gold]荆棘[/gold]。\n[gold]提防[/gold]{Brace:diff()}。"
+        "zh": "获得{Block:diff()}点[gold]格挡[/gold]。\n如果处于[gold]防御模式[/gold]，获得{ThornsPower:diff()}点[gold]荆棘[/gold]。\n[gold]提防[/gold]{Brace:diff()}。"
       },
       "upgradeDescription": {
         "en": "",
@@ -49040,7 +49040,7 @@
           },
           "description": {
             "en": "A card in [gold]Stasis[/gold] stays for turns equal to its cost +[blue]1[/blue]. When it exits, it returns to your [gold]Hand[/gold] and is free until played.",
-            "zh": "将牌挂起并从其耗能+[blue]1[/blue]开始倒计时。\n在你的回合开始时，所有凝滞卡牌的计时减[blue]1[/blue]。\n计时归零时，将其返回手牌且下次打出前耗能变为[blue]0[/blue]。"
+            "zh": "将牌挂起并从其耗能+[blue]1[/blue]开始倒计时。\n在你的回合开始时，所有凝滞牌的计时减[blue]1[/blue]。\n计时归零时，将其返回手牌且下次打出前耗能变为[blue]0[/blue]。"
           },
           "dynamicValues": {},
           "sourceValueKey": null,
@@ -49124,7 +49124,7 @@
           },
           "description": {
             "en": "A card in [gold]Stasis[/gold] stays for turns equal to its cost +[blue]1[/blue]. When it exits, it returns to your [gold]Hand[/gold] and is free until played.",
-            "zh": "将牌挂起并从其耗能+[blue]1[/blue]开始倒计时。\n在你的回合开始时，所有凝滞卡牌的计时减[blue]1[/blue]。\n计时归零时，将其返回手牌且下次打出前耗能变为[blue]0[/blue]。"
+            "zh": "将牌挂起并从其耗能+[blue]1[/blue]开始倒计时。\n在你的回合开始时，所有凝滞牌的计时减[blue]1[/blue]。\n计时归零时，将其返回手牌且下次打出前耗能变为[blue]0[/blue]。"
           },
           "dynamicValues": {},
           "sourceValueKey": null,
@@ -49342,7 +49342,7 @@
           },
           "description": {
             "en": "A card in [gold]Stasis[/gold] stays for turns equal to its cost +[blue]1[/blue]. When it exits, it returns to your [gold]Hand[/gold] and is free until played.",
-            "zh": "将牌挂起并从其耗能+[blue]1[/blue]开始倒计时。\n在你的回合开始时，所有凝滞卡牌的计时减[blue]1[/blue]。\n计时归零时，将其返回手牌且下次打出前耗能变为[blue]0[/blue]。"
+            "zh": "将牌挂起并从其耗能+[blue]1[/blue]开始倒计时。\n在你的回合开始时，所有凝滞牌的计时减[blue]1[/blue]。\n计时归零时，将其返回手牌且下次打出前耗能变为[blue]0[/blue]。"
           },
           "dynamicValues": {},
           "sourceValueKey": null,
@@ -49366,7 +49366,7 @@
       },
       "description": {
         "en": "Double the first [gold]Gem[/gold] effect you activate each turn.",
-        "zh": "你每回合激活的第一个[gold]宝石[/gold]效果翻倍。"
+        "zh": "你每回合触发的第一个[gold]宝石[/gold]效果翻倍。"
       },
       "upgradeDescription": {
         "en": "",
@@ -49585,7 +49585,7 @@
           },
           "description": {
             "en": "A card in [gold]Stasis[/gold] stays for turns equal to its cost +[blue]1[/blue]. When it exits, it returns to your [gold]Hand[/gold] and is free until played.",
-            "zh": "将牌挂起并从其耗能+[blue]1[/blue]开始倒计时。\n在你的回合开始时，所有凝滞卡牌的计时减[blue]1[/blue]。\n计时归零时，将其返回手牌且下次打出前耗能变为[blue]0[/blue]。"
+            "zh": "将牌挂起并从其耗能+[blue]1[/blue]开始倒计时。\n在你的回合开始时，所有凝滞牌的计时减[blue]1[/blue]。\n计时归零时，将其返回手牌且下次打出前耗能变为[blue]0[/blue]。"
           },
           "dynamicValues": {},
           "sourceValueKey": null,
@@ -49679,7 +49679,7 @@
           },
           "description": {
             "en": "A card in [gold]Stasis[/gold] stays for turns equal to its cost +[blue]1[/blue]. When it exits, it returns to your [gold]Hand[/gold] and is free until played.",
-            "zh": "将牌挂起并从其耗能+[blue]1[/blue]开始倒计时。\n在你的回合开始时，所有凝滞卡牌的计时减[blue]1[/blue]。\n计时归零时，将其返回手牌且下次打出前耗能变为[blue]0[/blue]。"
+            "zh": "将牌挂起并从其耗能+[blue]1[/blue]开始倒计时。\n在你的回合开始时，所有凝滞牌的计时减[blue]1[/blue]。\n计时归零时，将其返回手牌且下次打出前耗能变为[blue]0[/blue]。"
           },
           "dynamicValues": {},
           "sourceValueKey": null,
@@ -49769,7 +49769,7 @@
           },
           "description": {
             "en": "A card in [gold]Stasis[/gold] stays for turns equal to its cost +[blue]1[/blue]. When it exits, it returns to your [gold]Hand[/gold] and is free until played.",
-            "zh": "将牌挂起并从其耗能+[blue]1[/blue]开始倒计时。\n在你的回合开始时，所有凝滞卡牌的计时减[blue]1[/blue]。\n计时归零时，将其返回手牌且下次打出前耗能变为[blue]0[/blue]。"
+            "zh": "将牌挂起并从其耗能+[blue]1[/blue]开始倒计时。\n在你的回合开始时，所有凝滞牌的计时减[blue]1[/blue]。\n计时归零时，将其返回手牌且下次打出前耗能变为[blue]0[/blue]。"
           },
           "dynamicValues": {},
           "sourceValueKey": null,
@@ -49793,7 +49793,7 @@
       },
       "description": {
         "en": "At the start of your turn, [gold]Accelerate[/gold].",
-        "zh": "在你的回合开始时，[gold]加速[/gold]。"
+        "zh": "在回合开始时，[gold]加速[/gold]。"
       },
       "upgradeDescription": {
         "en": "",
@@ -56585,7 +56585,7 @@
       "codeName": "ShareTheLoad",
       "name": {
         "en": "Share the Load",
-        "zh": "同担重负"
+        "zh": "同甘共苦"
       },
       "description": {
         "en": "Gain {Block:diff()} [gold]Block[/gold].\n[gold]Dead On[/gold]: ALL other players gain {Energy:energyIcons()} and draw {Cards:diff()} cards.",
@@ -62482,7 +62482,7 @@
       },
       "description": {
         "en": "At the start of your turn, gain {energyPrefix:energyIcons(1)}.\nAt the end of your turn, [gold]Extinguish[/gold] the current Ghostflame.",
-        "zh": "回合开始时，获得{energyPrefix:energyIcons(1)}。\n回合结束时，[gold]熄灭[/gold]当前[gold]鬼火[/gold]。"
+        "zh": "在回合开始时，获得{energyPrefix:energyIcons(1)}。\n在回合结束时，[gold]熄灭[/gold]当前[gold]鬼火[/gold]。"
       },
       "upgradeDescription": {
         "en": "",
@@ -69596,7 +69596,7 @@
       },
       "description": {
         "en": "Deal {Damage:diff()} damage.\n[gold]Consume[/gold]: Gain a [gold]Lick{IfUpgraded:plus()}[/gold].",
-        "zh": "造成{Damage:diff()}点伤害。\n[gold]吞食[/gold]：获得一张[gold]舔舐{IfUpgraded:plus()}[/gold]。"
+        "zh": "造成{Damage:diff()}点伤害。\n[gold]吞食[/gold]：获得一张[gold]{IfUpgraded:show:舔舐+|舔舐}[/gold]。"
       },
       "upgradeDescription": {
         "en": "",
@@ -70682,7 +70682,7 @@
       "codeName": "MinionMaster",
       "name": {
         "en": "Minion Master",
-        "zh": ""
+        "zh": "史莱姆之主"
       },
       "description": {
         "en": "Whenever you play a card with [gold]Command[/gold], [gold]Command[/gold] again.",
@@ -71423,7 +71423,7 @@
       },
       "description": {
         "en": "Next turn, gain [gold]Slime Crush!!!{IfUpgraded:plus()}[/gold], {Energy:energyIcons()} and {StrengthNextTurnPower:diff()} [gold]Strength[/gold].",
-        "zh": "下个回合，获得{Energy:energyIcons()}，{StrengthNextTurnPower:diff()}点[gold]力量[/gold]和[gold]史莱姆粉碎！！！{IfUpgraded:plus()}[/gold]。"
+        "zh": "下个回合，获得{Energy:energyIcons()}，{StrengthNextTurnPower:diff()}点[gold]力量[/gold]和[gold]{IfUpgraded:show:史莱姆粉碎！！！+|史莱姆粉碎！！！}[/gold]。"
       },
       "upgradeDescription": {
         "en": "",
@@ -75587,7 +75587,7 @@
       "codeName": "DefensiveFlair",
       "name": {
         "en": "Defensive Flair",
-        "zh": "防御才华"
+        "zh": "花样防御"
       },
       "description": {
         "en": "Gain {CalculatedBlock:diff()} [gold]Block[/gold],\nincreased by {CalculationExtra:diff()} for each [gold]Offclass[/gold] card in your [gold]Hand[/gold].{InCombat:cond:|\n[gold]Gift[/gold]: Uncommon.}",
@@ -76279,7 +76279,7 @@
       "codeName": "FinalStrike",
       "name": {
         "en": "Final Strike",
-        "zh": "最终打击"
+        "zh": "终焉打击"
       },
       "description": {
         "en": "Deal {Damage:diff()} damage.\nRepeat for each unique card containing “Strike” you've played this combat.\n{InCombat:cond:(Hits {UniqueStrikesPlayed:diff()} {UniqueStrikesPlayed:plural:time|times})|Gift: Strike.}",
@@ -76868,7 +76868,7 @@
       "codeName": "Glut",
       "name": {
         "en": "Glut",
-        "zh": "过剩"
+        "zh": "暴食"
       },
       "description": {
         "en": "Deal {Damage:diff()} damage.\n[gold]Overflow[/gold]: Deal {OverflowDamage:diff()} damage to ALL enemies for each other card in your [gold]Hand[/gold].{InCombat:cond:\n(Hits {OverflowRepeat:diff()} {OverflowRepeat:plural:time|times})|}",
@@ -78679,7 +78679,7 @@
       "codeName": "PowerShot",
       "name": {
         "en": "Power Shot",
-        "zh": "能力射击"
+        "zh": "强能射击"
       },
       "description": {
         "en": "Deal {Damage:diff()} damage.\nWhenever you play a Power, return this from the [gold]Discard Pile[/gold] to your [gold]Hand[/gold].",
@@ -79795,7 +79795,7 @@
       "codeName": "Shapeshift",
       "name": {
         "en": "Shapeshift",
-        "zh": "变形"
+        "zh": "化形"
       },
       "description": {
         "en": "[gold]Transform[/gold] your [gold]Hand[/gold] into random {IfUpgraded:show:[gold]Upgraded[/gold] |}[gold]Offclass[/gold] cards of the same rarity.",
@@ -79869,7 +79869,7 @@
       "codeName": "Shed",
       "name": {
         "en": "Shed",
-        "zh": "棚屋"
+        "zh": "蜕皮"
       },
       "description": {
         "en": "[gold]Muddle[/gold] your [gold]Hand[/gold].\nGain {Block:diff()} [gold]Block[/gold] for each card now costing {energyPrefix:energyIcons(0)}.",
@@ -80908,7 +80908,7 @@
       "codeName": "Sssharing",
       "name": {
         "en": "Sssharing",
-        "zh": "蛇享"
+        "zh": "有蛇同享"
       },
       "description": {
         "en": "ALL players add {Cards:diff()} random [gold]Offclass[/gold] {Cards:plural:card|cards} into their [gold]Hand[/gold].\n{Cards:plural:It's|They're} free to play this turn.",
@@ -81181,7 +81181,7 @@
       "codeName": "ThrowingCards",
       "name": {
         "en": "Throwing Cards",
-        "zh": "投掷卡牌"
+        "zh": "飞牌"
       },
       "description": {
         "en": "The next X{IfUpgraded:show:+1|} times you play an [gold]Offclass[/gold] card, deal 6 damage to a random enemy and draw a card.",

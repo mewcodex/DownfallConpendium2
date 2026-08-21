@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-08-19T14:54:08.882839Z",
+  "generatedAt": "2026-08-21T17:15:03.459133Z",
   "modVersion": "0.1.13",
-  "translationVersion": "2026_08_19_19_01_07_8ec0c8",
+  "translationVersion": "2026_08_21_09_00_05_44a62c",
   "baseKeywords": [
     {
       "key": "ARTIFACT",
@@ -1705,7 +1705,7 @@
       },
       "description": {
         "en": "Whenever you play a card with a [gold]Chant[/gold] effect, gain [blue]3[/blue] [gold]Block[/gold], even if it is not active.",
-        "zh": "每当你打出带有[gold]吟唱[/gold]效果的牌时，获得[blue]3[/blue]点[gold]格挡[/gold]，即使尚未激活。"
+        "zh": "每当你打出带有[gold]吟唱[/gold]关键词的牌时，获得[blue]3[/blue]点[gold]格挡[/gold]。"
       },
       "rarity": "SPECIAL",
       "color": "DOWNFALL",
@@ -3094,7 +3094,7 @@
       },
       "description": {
         "en": "Whenever you [gold]Brace[/gold], [gold]Brace[/gold] [blue]{Brace:diff()}[/blue] more.",
-        "zh": "每当你[gold]提防[/gold]时，额外[gold]提防[/gold][blue]{Brace:diff()}[/blue]。"
+        "zh": "每当你[gold]提防[/gold]时，额外[gold]提防[/gold][blue]{Brace:diff()}[/blue]点。"
       },
       "rarity": "COMMON",
       "color": "GUARDIAN",
@@ -3164,7 +3164,7 @@
           },
           "description": {
             "en": "A card in [gold]Stasis[/gold] stays for turns equal to its cost +[blue]1[/blue]. When it exits, it returns to your [gold]Hand[/gold] and is free until played.",
-            "zh": "将牌挂起并从其耗能+[blue]1[/blue]开始倒计时。\n在你的回合开始时，所有凝滞卡牌的计时减[blue]1[/blue]。\n计时归零时，将其返回手牌且下次打出前耗能变为[blue]0[/blue]。"
+            "zh": "将牌挂起并从其耗能+[blue]1[/blue]开始倒计时。\n在你的回合开始时，所有凝滞牌的计时减[blue]1[/blue]。\n计时归零时，将其返回手牌且下次打出前耗能变为[blue]0[/blue]。"
           },
           "sourceValueKey": null
         }
@@ -3226,7 +3226,7 @@
       },
       "description": {
         "en": "At the start of each combat, gain [blue]1[/blue] [gold]Stasis[/gold] slot. Whenever a card enters [gold]Stasis[/gold], [gold]Upgrade[/gold] it for the remainder of combat.",
-        "zh": "在每场战斗开始时，获得[blue]1[/blue]个[gold]凝滞[/gold]栏位。每当你[gold]凝滞[/gold]一张牌时，本场战斗内将其[gold]升级[/gold]。"
+        "zh": "在每场战斗开始时，获得[blue]1[/blue]个[gold]凝滞[/gold]栏位。每当你[gold]凝滞[/gold]一张牌时，将其在本场战斗内[gold]升级[/gold]。"
       },
       "rarity": "RARE",
       "color": "GUARDIAN",
@@ -3251,7 +3251,7 @@
           },
           "description": {
             "en": "A card in [gold]Stasis[/gold] stays for turns equal to its cost +[blue]1[/blue]. When it exits, it returns to your [gold]Hand[/gold] and is free until played.",
-            "zh": "将牌挂起并从其耗能+[blue]1[/blue]开始倒计时。\n在你的回合开始时，所有凝滞卡牌的计时减[blue]1[/blue]。\n计时归零时，将其返回手牌且下次打出前耗能变为[blue]0[/blue]。"
+            "zh": "将牌挂起并从其耗能+[blue]1[/blue]开始倒计时。\n在你的回合开始时，所有凝滞牌的计时减[blue]1[/blue]。\n计时归零时，将其返回手牌且下次打出前耗能变为[blue]0[/blue]。"
           },
           "sourceValueKey": null
         }
@@ -3263,7 +3263,7 @@
       "codeName": "",
       "name": {
         "en": "Guardian Gear",
-        "zh": "守护者齿轮"
+        "zh": "守护齿轮"
       },
       "description": {
         "en": "At the start of each combat, add [gold]Gear Up[/gold] into your [gold]Hand[/gold].\nWhenever you enter [gold]Defensive Mode[/gold], gain {energyPrefix:energyIcons(1)} and draw [blue]2[/blue] cards.",
@@ -3376,7 +3376,7 @@
           },
           "description": {
             "en": "A card in [gold]Stasis[/gold] stays for turns equal to its cost +[blue]1[/blue]. When it exits, it returns to your [gold]Hand[/gold] and is free until played.",
-            "zh": "将牌挂起并从其耗能+[blue]1[/blue]开始倒计时。\n在你的回合开始时，所有凝滞卡牌的计时减[blue]1[/blue]。\n计时归零时，将其返回手牌且下次打出前耗能变为[blue]0[/blue]。"
+            "zh": "将牌挂起并从其耗能+[blue]1[/blue]开始倒计时。\n在你的回合开始时，所有凝滞牌的计时减[blue]1[/blue]。\n计时归零时，将其返回手牌且下次打出前耗能变为[blue]0[/blue]。"
           },
           "sourceValueKey": null
         }
