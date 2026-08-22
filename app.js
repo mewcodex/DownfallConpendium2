@@ -530,6 +530,24 @@ function renderSts2Markup(text, useUpgrade = state.showUpgrade, card = null) {
     afterlife: "kw-mark-afterlife",
   };
   let rendered = renderIfUpgradedShowBlocks(text, useUpgrade);
+  rendered = rendered.replace(/\{([A-Za-z_]\w*):cond:\s*(>=|<=|>|<|&gt;=?|&lt;=?|==|!=)\s*(-?\d+(?:\.\d+)?)\?([^{}|]*)\|([^{}]*)\}/g,
+    (_full, name, rawOperator, expectedRaw, whenTrue, whenFalse) => {
+      const operator = rawOperator.replace("&gt;", ">").replace("&lt;", "<");
+      const values = useUpgrade ? ((card && card.upgradeDynamicValues) || {}) : ((card && card.dynamicValues) || {});
+      const key = Object.keys(values).find((candidate) => candidate.toLowerCase() === name.toLowerCase());
+      const actual = key ? values[key] : null;
+      const expected = Number(expectedRaw);
+      if (typeof actual !== "number") return "";
+      const matches = {
+        ">=": actual >= expected,
+        "<=": actual <= expected,
+        ">": actual > expected,
+        "<": actual < expected,
+        "==": actual === expected,
+        "!=": actual !== expected,
+      }[operator];
+      return matches ? whenTrue : whenFalse;
+    });
   rendered = rendered.replace(/\{IfUpgraded:plus\(\)\}/g, useUpgrade ? "+" : "");
   rendered = rendered.replace(/\[(gold|blue|red|purple|green|aqua|afterlife)\]([\s\S]*?)\[\/\1\]/gi, (_full, color, content) => {
     if (/^__TVG?__-?\d+__$/.test(content)) return content;
@@ -562,6 +580,7 @@ function renderSts2Markup(text, useUpgrade = state.showUpgrade, card = null) {
     return content.trim().replace(/^[（(]\s*/, "").replace(/\s*[）)]+$/, "");
   });
   rendered = rendered.replace(/\{(?:[A-Za-z_][\w]*)(?::(?:diff\(\)|plural:[^}]*|cond:[\s\S]*?))?\}/g, (token) => {
+    if (/:cond:|:diff\(\)|:plural:/.test(token)) return "";
     const name = token.slice(1, -1).split(":", 1)[0].replace(/Power$/, "").replace(/([a-z])([A-Z])/g, "$1 $2");
     return name || token;
   });
