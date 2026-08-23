@@ -111,8 +111,70 @@ body {
 
 .hero-actions {
   display: flex;
+  flex-direction: column;
+  align-items: flex-end;
   justify-content: flex-end;
   gap: 12px;
+}
+
+.catfall-switch {
+  display: inline-flex;
+  align-items: center;
+  gap: 7px;
+  color: var(--muted);
+  font-size: 0.78rem;
+  font-weight: 600;
+  cursor: pointer;
+  user-select: none;
+}
+
+.catfall-switch input {
+  position: absolute;
+  opacity: 0;
+  pointer-events: none;
+}
+
+.catfall-switch-track {
+  position: relative;
+  width: 30px;
+  height: 17px;
+  flex: 0 0 auto;
+  border: 1px solid rgba(27, 26, 24, 0.28);
+  border-radius: 9px;
+  background: rgba(82, 77, 69, 0.22);
+  transition: background 160ms ease, border-color 160ms ease;
+}
+
+.catfall-switch-track::after {
+  content: "";
+  position: absolute;
+  top: 2px;
+  left: 2px;
+  width: 11px;
+  height: 11px;
+  border-radius: 50%;
+  background: #fffdf8;
+  box-shadow: 0 1px 3px rgba(27, 26, 24, 0.3);
+  transition: transform 160ms ease;
+}
+
+.catfall-switch input:checked + .catfall-switch-track {
+  border-color: #2c6f7c;
+  background: #2c6f7c;
+}
+
+.catfall-switch input:checked + .catfall-switch-track::after {
+  transform: translateX(13px);
+}
+
+.catfall-switch input:focus-visible + .catfall-switch-track {
+  outline: 2px solid #bf4f2d;
+  outline-offset: 2px;
+}
+
+.translator-entry[hidden],
+.floating-toggle[hidden] {
+  display: none !important;
 }
 
 .hero-title-row .hero-actions {
@@ -927,6 +989,11 @@ html[lang^="zh"] .card-desc {
 
 .kw-mark-afterlife .kw {
   color: inherit !important;
+}
+
+.kw-mark-afterlife .kw-mark-yellow,
+.kw-mark-afterlife .kw-mark-yellow .kw {
+  color: #efc851 !important;
 }
 
 .card-mini-preview {

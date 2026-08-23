@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-21T17:15:03.459133Z",
+  "generatedAt": "2026-08-23T08:44:42.849788Z",
   "modVersion": "0.1.13",
   "translationVersion": "2026_08_21_09_00_05_44a62c",
   "baseKeywords": [
@@ -821,7 +821,7 @@
       }
     ]
   },
-  "cardCount": 932,
+  "cardCount": 947,
   "cards": [
     {
       "id": "AUTOMATON-ALLOCATE",
@@ -42445,6 +42445,178 @@
       "dynamicDescriptionLines": []
     },
     {
+      "id": "GUARDIAN-AMBER_GEM",
+      "codeName": "AmberGem",
+      "name": {
+        "en": "Amber",
+        "zh": "琥珀"
+      },
+      "description": {
+        "en": "[gold]Accelerate[/gold]{Gem:plural:| {Gem:diff()}}.",
+        "zh": "[gold]加速[/gold]{Gem:plural:|{Gem:diff()}}。"
+      },
+      "upgradeDescription": {
+        "en": "",
+        "zh": ""
+      },
+      "extendedDescription": {
+        "en": [],
+        "zh": []
+      },
+      "type": "SKILL",
+      "rarity": "UNCOMMON",
+      "color": "GUARDIAN",
+      "visualColor": "GUARDIAN",
+      "colorName": {
+        "en": "The Guardian",
+        "zh": "守护者"
+      },
+      "cost": 0,
+      "upgradeCost": null,
+      "canUpgrade": false,
+      "target": "Self",
+      "isFinisher": false,
+      "isGem": true,
+      "img": "assets/cards/ambergem.png",
+      "stats": {
+        "damage": null,
+        "block": null,
+        "magic": null,
+        "secondMagic": null,
+        "thirdMagic": null,
+        "secondDamage": null,
+        "selfDamage": null
+      },
+      "upgradeStats": {
+        "damage": null,
+        "block": null
+      },
+      "dynamicValues": {
+        "Gem": 1
+      },
+      "upgradeDynamicValues": {
+        "Gem": 1
+      },
+      "energyIcon": "assets/energy-icons/guardian.png",
+      "deprecated": false,
+      "notInPool": false,
+      "attachedTips": [
+        {
+          "id": "GUARDIAN-GEM",
+          "name": {
+            "en": "Gem",
+            "zh": "宝石"
+          },
+          "description": {
+            "en": "Gems can be placed into [gold]Sockets[/gold] in cards at a Rest Site.",
+            "zh": "宝石能在休息处被镶嵌至有[gold]孔位[/gold]的卡牌上。"
+          },
+          "dynamicValues": {},
+          "sourceValueKey": null,
+          "icon": null
+        }
+      ],
+      "attachedCardTips": [],
+      "descriptionKeywordPrefix": [
+        {
+          "mode": "always",
+          "style": null,
+          "label": {
+            "en": "Gem.",
+            "zh": "宝石。"
+          }
+        }
+      ],
+      "descriptionKeywordSuffix": [],
+      "dynamicDescriptionLines": []
+    },
+    {
+      "id": "GUARDIAN-AMETHYST_GEM",
+      "codeName": "AmethystGem",
+      "name": {
+        "en": "Amethyst",
+        "zh": "紫水晶"
+      },
+      "description": {
+        "en": "ALL enemies lose {Gem:diff()} [gold]Strength[/gold] this turn.",
+        "zh": "本回合所有敌人失去{Gem:diff()}点[gold]力量[/gold]。"
+      },
+      "upgradeDescription": {
+        "en": "",
+        "zh": ""
+      },
+      "extendedDescription": {
+        "en": [],
+        "zh": []
+      },
+      "type": "SKILL",
+      "rarity": "UNCOMMON",
+      "color": "GUARDIAN",
+      "visualColor": "GUARDIAN",
+      "colorName": {
+        "en": "The Guardian",
+        "zh": "守护者"
+      },
+      "cost": 0,
+      "upgradeCost": null,
+      "canUpgrade": false,
+      "target": "Self",
+      "isFinisher": false,
+      "isGem": true,
+      "img": "assets/cards/amethystgem.png",
+      "stats": {
+        "damage": null,
+        "block": null,
+        "magic": null,
+        "secondMagic": null,
+        "thirdMagic": null,
+        "secondDamage": null,
+        "selfDamage": null
+      },
+      "upgradeStats": {
+        "damage": null,
+        "block": null
+      },
+      "dynamicValues": {
+        "Gem": 2
+      },
+      "upgradeDynamicValues": {
+        "Gem": 2
+      },
+      "energyIcon": "assets/energy-icons/guardian.png",
+      "deprecated": false,
+      "notInPool": false,
+      "attachedTips": [
+        {
+          "id": "GUARDIAN-GEM",
+          "name": {
+            "en": "Gem",
+            "zh": "宝石"
+          },
+          "description": {
+            "en": "Gems can be placed into [gold]Sockets[/gold] in cards at a Rest Site.",
+            "zh": "宝石能在休息处被镶嵌至有[gold]孔位[/gold]的卡牌上。"
+          },
+          "dynamicValues": {},
+          "sourceValueKey": null,
+          "icon": null
+        }
+      ],
+      "attachedCardTips": [],
+      "descriptionKeywordPrefix": [
+        {
+          "mode": "always",
+          "style": null,
+          "label": {
+            "en": "Gem.",
+            "zh": "宝石。"
+          }
+        }
+      ],
+      "descriptionKeywordSuffix": [],
+      "dynamicDescriptionLines": []
+    },
+    {
       "id": "GUARDIAN-ANCIENT_CONSTRUCT",
       "codeName": "AncientConstruct",
       "name": {
@@ -42639,6 +42811,98 @@
       "dynamicDescriptionLines": []
     },
     {
+      "id": "GUARDIAN-AQUAMARINE_GEM",
+      "codeName": "AquamarineGem",
+      "name": {
+        "en": "Aquamarine",
+        "zh": "海蓝宝石"
+      },
+      "description": {
+        "en": "Add {Gem:plural:a [gold]Crystal Ward[/gold]|{Gem:diff()} [gold]Crystal Wards[/gold]} into your [gold]Hand[/gold].",
+        "zh": "获得一张[gold]水晶守卫[/gold]。"
+      },
+      "upgradeDescription": {
+        "en": "",
+        "zh": ""
+      },
+      "extendedDescription": {
+        "en": [],
+        "zh": []
+      },
+      "type": "SKILL",
+      "rarity": "UNCOMMON",
+      "color": "GUARDIAN",
+      "visualColor": "GUARDIAN",
+      "colorName": {
+        "en": "The Guardian",
+        "zh": "守护者"
+      },
+      "cost": 0,
+      "upgradeCost": null,
+      "canUpgrade": false,
+      "target": "Self",
+      "isFinisher": false,
+      "isGem": true,
+      "img": "assets/cards/aquamarinegem.png",
+      "stats": {
+        "damage": null,
+        "block": null,
+        "magic": null,
+        "secondMagic": null,
+        "thirdMagic": null,
+        "secondDamage": null,
+        "selfDamage": null
+      },
+      "upgradeStats": {
+        "damage": null,
+        "block": null
+      },
+      "dynamicValues": {
+        "Gem": 1
+      },
+      "upgradeDynamicValues": {
+        "Gem": 1
+      },
+      "energyIcon": "assets/energy-icons/guardian.png",
+      "deprecated": false,
+      "notInPool": false,
+      "attachedTips": [
+        {
+          "id": "GUARDIAN-GEM",
+          "name": {
+            "en": "Gem",
+            "zh": "宝石"
+          },
+          "description": {
+            "en": "Gems can be placed into [gold]Sockets[/gold] in cards at a Rest Site.",
+            "zh": "宝石能在休息处被镶嵌至有[gold]孔位[/gold]的卡牌上。"
+          },
+          "dynamicValues": {},
+          "sourceValueKey": null,
+          "icon": null
+        }
+      ],
+      "attachedCardTips": [
+        {
+          "id": "GUARDIAN-CRYSTAL_WARD",
+          "upgraded": false,
+          "upgradeWithParent": false
+        }
+      ],
+      "descriptionKeywordPrefix": [
+        {
+          "mode": "always",
+          "style": null,
+          "label": {
+            "en": "Gem.",
+            "zh": "宝石。"
+          }
+        }
+      ],
+      "descriptionKeywordSuffix": [],
+      "dynamicDescriptionLines": []
+    },
+    {
       "id": "GUARDIAN-BASTION",
       "codeName": "Bastion",
       "name": {
@@ -42798,6 +43062,114 @@
       "isSpell": false,
       "attachedCardTips": [],
       "descriptionKeywordPrefix": [],
+      "descriptionKeywordSuffix": [],
+      "dynamicDescriptionLines": []
+    },
+    {
+      "id": "GUARDIAN-BISMUTH_GEM",
+      "codeName": "BismuthGem",
+      "name": {
+        "en": "Bismuth",
+        "zh": "虹彩晶"
+      },
+      "description": {
+        "en": "Gain {Gem:diff()} [gold]Stasis[/gold] Slot. [gold]Aggravate[/gold].",
+        "zh": "获得{Gem:diff()}个[gold]凝滞[/gold]栏位。\n[gold]激化[/gold]。"
+      },
+      "upgradeDescription": {
+        "en": "",
+        "zh": ""
+      },
+      "extendedDescription": {
+        "en": [],
+        "zh": []
+      },
+      "type": "SKILL",
+      "rarity": "RARE",
+      "color": "GUARDIAN",
+      "visualColor": "GUARDIAN",
+      "colorName": {
+        "en": "The Guardian",
+        "zh": "守护者"
+      },
+      "cost": -2,
+      "upgradeCost": null,
+      "canUpgrade": false,
+      "target": "Self",
+      "isFinisher": false,
+      "isGem": true,
+      "img": "assets/cards/bismuthgem.png",
+      "stats": {
+        "damage": null,
+        "block": null,
+        "magic": null,
+        "secondMagic": null,
+        "thirdMagic": null,
+        "secondDamage": null,
+        "selfDamage": null
+      },
+      "upgradeStats": {
+        "damage": null,
+        "block": null
+      },
+      "dynamicValues": {
+        "Gem": 1
+      },
+      "upgradeDynamicValues": {
+        "Gem": 1
+      },
+      "energyIcon": "assets/energy-icons/guardian.png",
+      "deprecated": false,
+      "notInPool": false,
+      "attachedTips": [
+        {
+          "id": "GUARDIAN-GEM",
+          "name": {
+            "en": "Gem",
+            "zh": "宝石"
+          },
+          "description": {
+            "en": "Gems can be placed into [gold]Sockets[/gold] in cards at a Rest Site.",
+            "zh": "宝石能在休息处被镶嵌至有[gold]孔位[/gold]的卡牌上。"
+          },
+          "dynamicValues": {},
+          "sourceValueKey": null,
+          "icon": null
+        },
+        {
+          "id": "Unplayable",
+          "name": {
+            "en": "Unplayable",
+            "zh": "不能被打出"
+          },
+          "description": {
+            "en": "Cannot be played.",
+            "zh": "不能被打出。"
+          },
+          "dynamicValues": {},
+          "sourceValueKey": null,
+          "icon": null
+        }
+      ],
+      "attachedCardTips": [],
+      "descriptionKeywordPrefix": [
+        {
+          "mode": "always",
+          "style": null,
+          "label": {
+            "en": "Gem.",
+            "zh": "宝石。"
+          }
+        },
+        {
+          "mode": "always",
+          "style": null,
+          "label": {
+            "en": "Unplayable.",
+            "zh": "不能被打出。"
+          }
+        }
+      ],
       "descriptionKeywordSuffix": [],
       "dynamicDescriptionLines": []
     },
@@ -43129,6 +43501,92 @@
       "isSpell": false,
       "attachedCardTips": [],
       "descriptionKeywordPrefix": [],
+      "descriptionKeywordSuffix": [],
+      "dynamicDescriptionLines": []
+    },
+    {
+      "id": "GUARDIAN-CITRINE_GEM",
+      "codeName": "CitrineGem",
+      "name": {
+        "en": "Citrine",
+        "zh": "黄水晶"
+      },
+      "description": {
+        "en": "Gain {Gem:energyIcons()}.",
+        "zh": "获得{Gem:energyIcons()}。"
+      },
+      "upgradeDescription": {
+        "en": "",
+        "zh": ""
+      },
+      "extendedDescription": {
+        "en": [],
+        "zh": []
+      },
+      "type": "SKILL",
+      "rarity": "RARE",
+      "color": "GUARDIAN",
+      "visualColor": "GUARDIAN",
+      "colorName": {
+        "en": "The Guardian",
+        "zh": "守护者"
+      },
+      "cost": 0,
+      "upgradeCost": null,
+      "canUpgrade": false,
+      "target": "Self",
+      "isFinisher": false,
+      "isGem": true,
+      "img": "assets/cards/citrinegem.png",
+      "stats": {
+        "damage": null,
+        "block": null,
+        "magic": null,
+        "secondMagic": null,
+        "thirdMagic": null,
+        "secondDamage": null,
+        "selfDamage": null
+      },
+      "upgradeStats": {
+        "damage": null,
+        "block": null
+      },
+      "dynamicValues": {
+        "Gem": 1
+      },
+      "upgradeDynamicValues": {
+        "Gem": 1
+      },
+      "energyIcon": "assets/energy-icons/guardian.png",
+      "deprecated": false,
+      "notInPool": false,
+      "attachedTips": [
+        {
+          "id": "GUARDIAN-GEM",
+          "name": {
+            "en": "Gem",
+            "zh": "宝石"
+          },
+          "description": {
+            "en": "Gems can be placed into [gold]Sockets[/gold] in cards at a Rest Site.",
+            "zh": "宝石能在休息处被镶嵌至有[gold]孔位[/gold]的卡牌上。"
+          },
+          "dynamicValues": {},
+          "sourceValueKey": null,
+          "icon": null
+        }
+      ],
+      "attachedCardTips": [],
+      "descriptionKeywordPrefix": [
+        {
+          "mode": "always",
+          "style": null,
+          "label": {
+            "en": "Gem.",
+            "zh": "宝石。"
+          }
+        }
+      ],
       "descriptionKeywordSuffix": [],
       "dynamicDescriptionLines": []
     },
@@ -43936,6 +44394,200 @@
       "dynamicDescriptionLines": []
     },
     {
+      "id": "GUARDIAN-DIAMOND_GEM",
+      "codeName": "DiamondGem",
+      "name": {
+        "en": "Diamond",
+        "zh": "钻石"
+      },
+      "description": {
+        "en": "[gold]Replay[/gold] once per combat. [gold]Aggravate[/gold].",
+        "zh": "每场战斗[gold]重放[/gold]1次。\n[gold]激化[/gold]。"
+      },
+      "upgradeDescription": {
+        "en": "",
+        "zh": ""
+      },
+      "extendedDescription": {
+        "en": [],
+        "zh": []
+      },
+      "type": "SKILL",
+      "rarity": "RARE",
+      "color": "GUARDIAN",
+      "visualColor": "GUARDIAN",
+      "colorName": {
+        "en": "The Guardian",
+        "zh": "守护者"
+      },
+      "cost": -2,
+      "upgradeCost": null,
+      "canUpgrade": false,
+      "target": "Self",
+      "isFinisher": false,
+      "isGem": true,
+      "img": "assets/cards/diamondgem.png",
+      "stats": {
+        "damage": null,
+        "block": null,
+        "magic": null,
+        "secondMagic": null,
+        "thirdMagic": null,
+        "secondDamage": null,
+        "selfDamage": null
+      },
+      "upgradeStats": {
+        "damage": null,
+        "block": null
+      },
+      "dynamicValues": {
+        "Gem": 1
+      },
+      "upgradeDynamicValues": {
+        "Gem": 1
+      },
+      "energyIcon": "assets/energy-icons/guardian.png",
+      "deprecated": false,
+      "notInPool": false,
+      "attachedTips": [
+        {
+          "id": "GUARDIAN-GEM",
+          "name": {
+            "en": "Gem",
+            "zh": "宝石"
+          },
+          "description": {
+            "en": "Gems can be placed into [gold]Sockets[/gold] in cards at a Rest Site.",
+            "zh": "宝石能在休息处被镶嵌至有[gold]孔位[/gold]的卡牌上。"
+          },
+          "dynamicValues": {},
+          "sourceValueKey": null,
+          "icon": null
+        },
+        {
+          "id": "Unplayable",
+          "name": {
+            "en": "Unplayable",
+            "zh": "不能被打出"
+          },
+          "description": {
+            "en": "Cannot be played.",
+            "zh": "不能被打出。"
+          },
+          "dynamicValues": {},
+          "sourceValueKey": null,
+          "icon": null
+        }
+      ],
+      "attachedCardTips": [],
+      "descriptionKeywordPrefix": [
+        {
+          "mode": "always",
+          "style": null,
+          "label": {
+            "en": "Gem.",
+            "zh": "宝石。"
+          }
+        },
+        {
+          "mode": "always",
+          "style": null,
+          "label": {
+            "en": "Unplayable.",
+            "zh": "不能被打出。"
+          }
+        }
+      ],
+      "descriptionKeywordSuffix": [],
+      "dynamicDescriptionLines": []
+    },
+    {
+      "id": "GUARDIAN-EMERALD_GEM",
+      "codeName": "EmeraldGem",
+      "name": {
+        "en": "Emerald",
+        "zh": "祖母绿"
+      },
+      "description": {
+        "en": "Gain {Gem:diff()} [gold]Dexterity[/gold] this turn.",
+        "zh": "本回合获得{Gem:diff()}点[gold]敏捷[/gold]。"
+      },
+      "upgradeDescription": {
+        "en": "",
+        "zh": ""
+      },
+      "extendedDescription": {
+        "en": [],
+        "zh": []
+      },
+      "type": "SKILL",
+      "rarity": "UNCOMMON",
+      "color": "GUARDIAN",
+      "visualColor": "GUARDIAN",
+      "colorName": {
+        "en": "The Guardian",
+        "zh": "守护者"
+      },
+      "cost": 0,
+      "upgradeCost": null,
+      "canUpgrade": false,
+      "target": "Self",
+      "isFinisher": false,
+      "isGem": true,
+      "img": "assets/cards/emeraldgem.png",
+      "stats": {
+        "damage": null,
+        "block": null,
+        "magic": null,
+        "secondMagic": null,
+        "thirdMagic": null,
+        "secondDamage": null,
+        "selfDamage": null
+      },
+      "upgradeStats": {
+        "damage": null,
+        "block": null
+      },
+      "dynamicValues": {
+        "Gem": 2
+      },
+      "upgradeDynamicValues": {
+        "Gem": 2
+      },
+      "energyIcon": "assets/energy-icons/guardian.png",
+      "deprecated": false,
+      "notInPool": false,
+      "attachedTips": [
+        {
+          "id": "GUARDIAN-GEM",
+          "name": {
+            "en": "Gem",
+            "zh": "宝石"
+          },
+          "description": {
+            "en": "Gems can be placed into [gold]Sockets[/gold] in cards at a Rest Site.",
+            "zh": "宝石能在休息处被镶嵌至有[gold]孔位[/gold]的卡牌上。"
+          },
+          "dynamicValues": {},
+          "sourceValueKey": null,
+          "icon": null
+        }
+      ],
+      "attachedCardTips": [],
+      "descriptionKeywordPrefix": [
+        {
+          "mode": "always",
+          "style": null,
+          "label": {
+            "en": "Gem.",
+            "zh": "宝石。"
+          }
+        }
+      ],
+      "descriptionKeywordSuffix": [],
+      "dynamicDescriptionLines": []
+    },
+    {
       "id": "GUARDIAN-EMERGENCY",
       "codeName": "Emergency",
       "name": {
@@ -44389,6 +45041,98 @@
       "dynamicDescriptionLines": []
     },
     {
+      "id": "GUARDIAN-FRAGMENTED_GEM",
+      "codeName": "FragmentedGem",
+      "name": {
+        "en": "Fragmented Gem",
+        "zh": "破碎宝石"
+      },
+      "description": {
+        "en": "Add {Gem:plural:a [gold]Crystal Shiv[/gold]|{Gem:diff()} [gold]Crystal Shivs[/gold]} into your [gold]Hand[/gold].",
+        "zh": "获得一张[gold]水晶小刀[/gold]。"
+      },
+      "upgradeDescription": {
+        "en": "",
+        "zh": ""
+      },
+      "extendedDescription": {
+        "en": [],
+        "zh": []
+      },
+      "type": "SKILL",
+      "rarity": "COMMON",
+      "color": "GUARDIAN",
+      "visualColor": "GUARDIAN",
+      "colorName": {
+        "en": "The Guardian",
+        "zh": "守护者"
+      },
+      "cost": 0,
+      "upgradeCost": null,
+      "canUpgrade": false,
+      "target": "Self",
+      "isFinisher": false,
+      "isGem": true,
+      "img": "assets/cards/fragmentedgem.png",
+      "stats": {
+        "damage": null,
+        "block": null,
+        "magic": null,
+        "secondMagic": null,
+        "thirdMagic": null,
+        "secondDamage": null,
+        "selfDamage": null
+      },
+      "upgradeStats": {
+        "damage": null,
+        "block": null
+      },
+      "dynamicValues": {
+        "Gem": 1
+      },
+      "upgradeDynamicValues": {
+        "Gem": 1
+      },
+      "energyIcon": "assets/energy-icons/guardian.png",
+      "deprecated": false,
+      "notInPool": false,
+      "attachedTips": [
+        {
+          "id": "GUARDIAN-GEM",
+          "name": {
+            "en": "Gem",
+            "zh": "宝石"
+          },
+          "description": {
+            "en": "Gems can be placed into [gold]Sockets[/gold] in cards at a Rest Site.",
+            "zh": "宝石能在休息处被镶嵌至有[gold]孔位[/gold]的卡牌上。"
+          },
+          "dynamicValues": {},
+          "sourceValueKey": null,
+          "icon": null
+        }
+      ],
+      "attachedCardTips": [
+        {
+          "id": "GUARDIAN-CRYSTAL_SHIV",
+          "upgraded": false,
+          "upgradeWithParent": false
+        }
+      ],
+      "descriptionKeywordPrefix": [
+        {
+          "mode": "always",
+          "style": null,
+          "label": {
+            "en": "Gem.",
+            "zh": "宝石。"
+          }
+        }
+      ],
+      "descriptionKeywordSuffix": [],
+      "dynamicDescriptionLines": []
+    },
+    {
       "id": "GUARDIAN-FUTURE_PLANS",
       "codeName": "FuturePlans",
       "name": {
@@ -44497,6 +45241,92 @@
           "label": {
             "en": "Innate.",
             "zh": "固有。"
+          }
+        }
+      ],
+      "descriptionKeywordSuffix": [],
+      "dynamicDescriptionLines": []
+    },
+    {
+      "id": "GUARDIAN-GARNET_GEM",
+      "codeName": "GarnetGem",
+      "name": {
+        "en": "Garnet",
+        "zh": "石榴石"
+      },
+      "description": {
+        "en": "Apply {Gem:diff()} [gold]Vulnerable[/gold] to ALL enemies.",
+        "zh": "给予所有敌人{Gem:diff()}层[gold]易伤[/gold]。"
+      },
+      "upgradeDescription": {
+        "en": "",
+        "zh": ""
+      },
+      "extendedDescription": {
+        "en": [],
+        "zh": []
+      },
+      "type": "SKILL",
+      "rarity": "UNCOMMON",
+      "color": "GUARDIAN",
+      "visualColor": "GUARDIAN",
+      "colorName": {
+        "en": "The Guardian",
+        "zh": "守护者"
+      },
+      "cost": 0,
+      "upgradeCost": null,
+      "canUpgrade": false,
+      "target": "Self",
+      "isFinisher": false,
+      "isGem": true,
+      "img": "assets/cards/garnetgem.png",
+      "stats": {
+        "damage": null,
+        "block": null,
+        "magic": null,
+        "secondMagic": null,
+        "thirdMagic": null,
+        "secondDamage": null,
+        "selfDamage": null
+      },
+      "upgradeStats": {
+        "damage": null,
+        "block": null
+      },
+      "dynamicValues": {
+        "Gem": 1
+      },
+      "upgradeDynamicValues": {
+        "Gem": 1
+      },
+      "energyIcon": "assets/energy-icons/guardian.png",
+      "deprecated": false,
+      "notInPool": false,
+      "attachedTips": [
+        {
+          "id": "GUARDIAN-GEM",
+          "name": {
+            "en": "Gem",
+            "zh": "宝石"
+          },
+          "description": {
+            "en": "Gems can be placed into [gold]Sockets[/gold] in cards at a Rest Site.",
+            "zh": "宝石能在休息处被镶嵌至有[gold]孔位[/gold]的卡牌上。"
+          },
+          "dynamicValues": {},
+          "sourceValueKey": null,
+          "icon": null
+        }
+      ],
+      "attachedCardTips": [],
+      "descriptionKeywordPrefix": [
+        {
+          "mode": "always",
+          "style": null,
+          "label": {
+            "en": "Gem.",
+            "zh": "宝石。"
           }
         }
       ],
@@ -45603,6 +46433,178 @@
       "isSpell": false,
       "attachedCardTips": [],
       "descriptionKeywordPrefix": [],
+      "descriptionKeywordSuffix": [],
+      "dynamicDescriptionLines": []
+    },
+    {
+      "id": "GUARDIAN-ONYX_GEM",
+      "codeName": "OnyxGem",
+      "name": {
+        "en": "Onyx",
+        "zh": "黑玛瑙"
+      },
+      "description": {
+        "en": "[gold]Polish[/gold] {Gem:diff()}.",
+        "zh": "[gold]抛光[/gold]{Gem:diff()}。"
+      },
+      "upgradeDescription": {
+        "en": "",
+        "zh": ""
+      },
+      "extendedDescription": {
+        "en": [],
+        "zh": []
+      },
+      "type": "SKILL",
+      "rarity": "RARE",
+      "color": "GUARDIAN",
+      "visualColor": "GUARDIAN",
+      "colorName": {
+        "en": "The Guardian",
+        "zh": "守护者"
+      },
+      "cost": 0,
+      "upgradeCost": null,
+      "canUpgrade": false,
+      "target": "Self",
+      "isFinisher": false,
+      "isGem": true,
+      "img": "assets/cards/onyxgem.png",
+      "stats": {
+        "damage": null,
+        "block": null,
+        "magic": null,
+        "secondMagic": null,
+        "thirdMagic": null,
+        "secondDamage": null,
+        "selfDamage": null
+      },
+      "upgradeStats": {
+        "damage": null,
+        "block": null
+      },
+      "dynamicValues": {
+        "Gem": 1
+      },
+      "upgradeDynamicValues": {
+        "Gem": 1
+      },
+      "energyIcon": "assets/energy-icons/guardian.png",
+      "deprecated": false,
+      "notInPool": false,
+      "attachedTips": [
+        {
+          "id": "GUARDIAN-GEM",
+          "name": {
+            "en": "Gem",
+            "zh": "宝石"
+          },
+          "description": {
+            "en": "Gems can be placed into [gold]Sockets[/gold] in cards at a Rest Site.",
+            "zh": "宝石能在休息处被镶嵌至有[gold]孔位[/gold]的卡牌上。"
+          },
+          "dynamicValues": {},
+          "sourceValueKey": null,
+          "icon": null
+        }
+      ],
+      "attachedCardTips": [],
+      "descriptionKeywordPrefix": [
+        {
+          "mode": "always",
+          "style": null,
+          "label": {
+            "en": "Gem.",
+            "zh": "宝石。"
+          }
+        }
+      ],
+      "descriptionKeywordSuffix": [],
+      "dynamicDescriptionLines": []
+    },
+    {
+      "id": "GUARDIAN-OPAL_GEM",
+      "codeName": "OpalGem",
+      "name": {
+        "en": "Opal",
+        "zh": "蛋白石"
+      },
+      "description": {
+        "en": "Draw {Gem:plural:a card|{Gem:diff()} cards}.",
+        "zh": "抽{Gem:diff()}张牌。"
+      },
+      "upgradeDescription": {
+        "en": "",
+        "zh": ""
+      },
+      "extendedDescription": {
+        "en": [],
+        "zh": []
+      },
+      "type": "SKILL",
+      "rarity": "UNCOMMON",
+      "color": "GUARDIAN",
+      "visualColor": "GUARDIAN",
+      "colorName": {
+        "en": "The Guardian",
+        "zh": "守护者"
+      },
+      "cost": 0,
+      "upgradeCost": null,
+      "canUpgrade": false,
+      "target": "Self",
+      "isFinisher": false,
+      "isGem": true,
+      "img": "assets/cards/opalgem.png",
+      "stats": {
+        "damage": null,
+        "block": null,
+        "magic": null,
+        "secondMagic": null,
+        "thirdMagic": null,
+        "secondDamage": null,
+        "selfDamage": null
+      },
+      "upgradeStats": {
+        "damage": null,
+        "block": null
+      },
+      "dynamicValues": {
+        "Gem": 1
+      },
+      "upgradeDynamicValues": {
+        "Gem": 1
+      },
+      "energyIcon": "assets/energy-icons/guardian.png",
+      "deprecated": false,
+      "notInPool": false,
+      "attachedTips": [
+        {
+          "id": "GUARDIAN-GEM",
+          "name": {
+            "en": "Gem",
+            "zh": "宝石"
+          },
+          "description": {
+            "en": "Gems can be placed into [gold]Sockets[/gold] in cards at a Rest Site.",
+            "zh": "宝石能在休息处被镶嵌至有[gold]孔位[/gold]的卡牌上。"
+          },
+          "dynamicValues": {},
+          "sourceValueKey": null,
+          "icon": null
+        }
+      ],
+      "attachedCardTips": [],
+      "descriptionKeywordPrefix": [
+        {
+          "mode": "always",
+          "style": null,
+          "label": {
+            "en": "Gem.",
+            "zh": "宝石。"
+          }
+        }
+      ],
       "descriptionKeywordSuffix": [],
       "dynamicDescriptionLines": []
     },
@@ -47789,6 +48791,264 @@
       "dynamicDescriptionLines": []
     },
     {
+      "id": "GUARDIAN-RUBY_GEM",
+      "codeName": "RubyGem",
+      "name": {
+        "en": "Ruby",
+        "zh": "红宝石"
+      },
+      "description": {
+        "en": "Gain {Gem:diff()} [gold]Strength[/gold] this turn.",
+        "zh": "本回合获得{Gem:diff()}点[gold]力量[/gold]。"
+      },
+      "upgradeDescription": {
+        "en": "",
+        "zh": ""
+      },
+      "extendedDescription": {
+        "en": [],
+        "zh": []
+      },
+      "type": "SKILL",
+      "rarity": "COMMON",
+      "color": "GUARDIAN",
+      "visualColor": "GUARDIAN",
+      "colorName": {
+        "en": "The Guardian",
+        "zh": "守护者"
+      },
+      "cost": 0,
+      "upgradeCost": null,
+      "canUpgrade": false,
+      "target": "Self",
+      "isFinisher": false,
+      "isGem": true,
+      "img": "assets/cards/rubygem.png",
+      "stats": {
+        "damage": null,
+        "block": null,
+        "magic": null,
+        "secondMagic": null,
+        "thirdMagic": null,
+        "secondDamage": null,
+        "selfDamage": null
+      },
+      "upgradeStats": {
+        "damage": null,
+        "block": null
+      },
+      "dynamicValues": {
+        "Gem": 2
+      },
+      "upgradeDynamicValues": {
+        "Gem": 2
+      },
+      "energyIcon": "assets/energy-icons/guardian.png",
+      "deprecated": false,
+      "notInPool": false,
+      "attachedTips": [
+        {
+          "id": "GUARDIAN-GEM",
+          "name": {
+            "en": "Gem",
+            "zh": "宝石"
+          },
+          "description": {
+            "en": "Gems can be placed into [gold]Sockets[/gold] in cards at a Rest Site.",
+            "zh": "宝石能在休息处被镶嵌至有[gold]孔位[/gold]的卡牌上。"
+          },
+          "dynamicValues": {},
+          "sourceValueKey": null,
+          "icon": null
+        }
+      ],
+      "attachedCardTips": [],
+      "descriptionKeywordPrefix": [
+        {
+          "mode": "always",
+          "style": null,
+          "label": {
+            "en": "Gem.",
+            "zh": "宝石。"
+          }
+        }
+      ],
+      "descriptionKeywordSuffix": [],
+      "dynamicDescriptionLines": []
+    },
+    {
+      "id": "GUARDIAN-RUTILE_GEM",
+      "codeName": "RutileGem",
+      "name": {
+        "en": "Rutile",
+        "zh": "金红石"
+      },
+      "description": {
+        "en": "Apply {Gem:diff()} [gold]Weak[/gold] to a random enemy.",
+        "zh": "给予随机敌人{Gem:diff()}层[gold]虚弱[/gold]。"
+      },
+      "upgradeDescription": {
+        "en": "",
+        "zh": ""
+      },
+      "extendedDescription": {
+        "en": [],
+        "zh": []
+      },
+      "type": "SKILL",
+      "rarity": "UNCOMMON",
+      "color": "GUARDIAN",
+      "visualColor": "GUARDIAN",
+      "colorName": {
+        "en": "The Guardian",
+        "zh": "守护者"
+      },
+      "cost": 0,
+      "upgradeCost": null,
+      "canUpgrade": false,
+      "target": "Self",
+      "isFinisher": false,
+      "isGem": true,
+      "img": "assets/cards/rutilegem.png",
+      "stats": {
+        "damage": null,
+        "block": null,
+        "magic": null,
+        "secondMagic": null,
+        "thirdMagic": null,
+        "secondDamage": null,
+        "selfDamage": null
+      },
+      "upgradeStats": {
+        "damage": null,
+        "block": null
+      },
+      "dynamicValues": {
+        "Gem": 1
+      },
+      "upgradeDynamicValues": {
+        "Gem": 1
+      },
+      "energyIcon": "assets/energy-icons/guardian.png",
+      "deprecated": false,
+      "notInPool": false,
+      "attachedTips": [
+        {
+          "id": "GUARDIAN-GEM",
+          "name": {
+            "en": "Gem",
+            "zh": "宝石"
+          },
+          "description": {
+            "en": "Gems can be placed into [gold]Sockets[/gold] in cards at a Rest Site.",
+            "zh": "宝石能在休息处被镶嵌至有[gold]孔位[/gold]的卡牌上。"
+          },
+          "dynamicValues": {},
+          "sourceValueKey": null,
+          "icon": null
+        }
+      ],
+      "attachedCardTips": [],
+      "descriptionKeywordPrefix": [
+        {
+          "mode": "always",
+          "style": null,
+          "label": {
+            "en": "Gem.",
+            "zh": "宝石。"
+          }
+        }
+      ],
+      "descriptionKeywordSuffix": [],
+      "dynamicDescriptionLines": []
+    },
+    {
+      "id": "GUARDIAN-SAPPHIRE_GEM",
+      "codeName": "SapphireGem",
+      "name": {
+        "en": "Sapphire",
+        "zh": "蓝宝石"
+      },
+      "description": {
+        "en": "[gold]Brace[/gold] {Gem:diff()}.",
+        "zh": "[gold]提防[/gold]{Gem:diff()}。"
+      },
+      "upgradeDescription": {
+        "en": "",
+        "zh": ""
+      },
+      "extendedDescription": {
+        "en": [],
+        "zh": []
+      },
+      "type": "SKILL",
+      "rarity": "COMMON",
+      "color": "GUARDIAN",
+      "visualColor": "GUARDIAN",
+      "colorName": {
+        "en": "The Guardian",
+        "zh": "守护者"
+      },
+      "cost": 0,
+      "upgradeCost": null,
+      "canUpgrade": false,
+      "target": "Self",
+      "isFinisher": false,
+      "isGem": true,
+      "img": "assets/cards/sapphiregem.png",
+      "stats": {
+        "damage": null,
+        "block": null,
+        "magic": null,
+        "secondMagic": null,
+        "thirdMagic": null,
+        "secondDamage": null,
+        "selfDamage": null
+      },
+      "upgradeStats": {
+        "damage": null,
+        "block": null
+      },
+      "dynamicValues": {
+        "Gem": 4
+      },
+      "upgradeDynamicValues": {
+        "Gem": 4
+      },
+      "energyIcon": "assets/energy-icons/guardian.png",
+      "deprecated": false,
+      "notInPool": false,
+      "attachedTips": [
+        {
+          "id": "GUARDIAN-GEM",
+          "name": {
+            "en": "Gem",
+            "zh": "宝石"
+          },
+          "description": {
+            "en": "Gems can be placed into [gold]Sockets[/gold] in cards at a Rest Site.",
+            "zh": "宝石能在休息处被镶嵌至有[gold]孔位[/gold]的卡牌上。"
+          },
+          "dynamicValues": {},
+          "sourceValueKey": null,
+          "icon": null
+        }
+      ],
+      "attachedCardTips": [],
+      "descriptionKeywordPrefix": [
+        {
+          "mode": "always",
+          "style": null,
+          "label": {
+            "en": "Gem.",
+            "zh": "宝石。"
+          }
+        }
+      ],
+      "descriptionKeywordSuffix": [],
+      "dynamicDescriptionLines": []
+    },
+    {
       "id": "GUARDIAN-SECOND_SLAM",
       "codeName": "SecondSlam",
       "name": {
@@ -49893,6 +51153,92 @@
           "label": {
             "en": "Innate.",
             "zh": "固有。"
+          }
+        }
+      ],
+      "descriptionKeywordSuffix": [],
+      "dynamicDescriptionLines": []
+    },
+    {
+      "id": "GUARDIAN-TOURMALINE_GEM",
+      "codeName": "TourmalineGem",
+      "name": {
+        "en": "Tourmaline",
+        "zh": "碧玺"
+      },
+      "description": {
+        "en": "Gain {Gem:diff()} [gold]Thorns[/gold] this turn.",
+        "zh": "本回合获得{Gem:diff()}点[gold]荆棘[/gold]。"
+      },
+      "upgradeDescription": {
+        "en": "",
+        "zh": ""
+      },
+      "extendedDescription": {
+        "en": [],
+        "zh": []
+      },
+      "type": "SKILL",
+      "rarity": "COMMON",
+      "color": "GUARDIAN",
+      "visualColor": "GUARDIAN",
+      "colorName": {
+        "en": "The Guardian",
+        "zh": "守护者"
+      },
+      "cost": 0,
+      "upgradeCost": null,
+      "canUpgrade": false,
+      "target": "Self",
+      "isFinisher": false,
+      "isGem": true,
+      "img": "assets/cards/tourmalinegem.png",
+      "stats": {
+        "damage": null,
+        "block": null,
+        "magic": null,
+        "secondMagic": null,
+        "thirdMagic": null,
+        "secondDamage": null,
+        "selfDamage": null
+      },
+      "upgradeStats": {
+        "damage": null,
+        "block": null
+      },
+      "dynamicValues": {
+        "Gem": 4
+      },
+      "upgradeDynamicValues": {
+        "Gem": 4
+      },
+      "energyIcon": "assets/energy-icons/guardian.png",
+      "deprecated": false,
+      "notInPool": false,
+      "attachedTips": [
+        {
+          "id": "GUARDIAN-GEM",
+          "name": {
+            "en": "Gem",
+            "zh": "宝石"
+          },
+          "description": {
+            "en": "Gems can be placed into [gold]Sockets[/gold] in cards at a Rest Site.",
+            "zh": "宝石能在休息处被镶嵌至有[gold]孔位[/gold]的卡牌上。"
+          },
+          "dynamicValues": {},
+          "sourceValueKey": null,
+          "icon": null
+        }
+      ],
+      "attachedCardTips": [],
+      "descriptionKeywordPrefix": [
+        {
+          "mode": "always",
+          "style": null,
+          "label": {
+            "en": "Gem.",
+            "zh": "宝石。"
           }
         }
       ],

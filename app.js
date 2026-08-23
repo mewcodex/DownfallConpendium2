@@ -36,6 +36,7 @@ const state = {
   suppressNextCardAnimation: false,
   filteredSorted: [],
   translatorMode: false,
+  catfall: false,
   attachmentTooltipLocked: false,
   useEnglishFontStyle: false,
 };
@@ -73,6 +74,7 @@ const uiText = {
     searchBtn: "Search",
     clearSearch: "Clear",
     navRelics: "Relics",
+    catfallLabel: "Catfall",
     fontStyleToggle: "Use English-style font",
   },
   zh: {
@@ -107,6 +109,7 @@ const uiText = {
     searchBtn: "搜索",
     clearSearch: "清除",
     navRelics: "遗物",
+    catfallLabel: "猫坠",
     fontStyleToggle: "替换中文字体",
   },
 };
@@ -127,6 +130,7 @@ const elements = {
   fontStyleToggle: document.getElementById("fontStyleToggle"),
   upgradeToggle: document.getElementById("upgradeToggle"),
   relicsPageLink: document.getElementById("relicsPageLink"),
+  catfallToggle: document.getElementById("catfallToggle"),
   searchInput: document.getElementById("searchInput"),
   searchBtn: document.getElementById("searchBtn"),
   clearSearchInlineBtn: document.getElementById("clearSearchInlineBtn"),
@@ -148,6 +152,10 @@ const elements = {
 
 function renderVersionInfo() {
   if (!elements.versionInfo || !state.data) return;
+  if (state.catfall) {
+    elements.versionInfo.textContent = state.lang === "zh" ? "猫坠版本：2026/08/19" : "Catfall version: 2026/08/19";
+    return;
+  }
   const modVersion = state.data.modVersion || "unknown";
   const translationVersion = formatTranslationVersion(state.data.translationVersion);
   elements.versionInfo.textContent = state.lang === "zh"
@@ -168,6 +176,7 @@ function updateCrossPageLinks() {
   const params = new URLSearchParams();
   if (state.lang !== "en") params.set("lang", state.lang);
   if (state.translatorMode) params.set("translator_mode", "1");
+  if (state.catfall) params.set("catfall", "1");
   const query = params.toString();
   link.href = query ? `relics.html?${query}` : "relics.html";
 }
@@ -255,6 +264,7 @@ function localizeType(type) {
 
 function localizeCardTypeLabel(card) {
   const type = localizeType(card.type);
+  if (card.isGem) return `${type} | ${state.lang === "zh" ? "宝石" : "Gem"}`;
   if (!card.isSpell) return type;
   return `${type} | ${state.lang === "zh" ? "法术" : "Spell"}`;
 }
@@ -549,12 +559,19 @@ function renderSts2Markup(text, useUpgrade = state.showUpgrade, card = null) {
       return matches ? whenTrue : whenFalse;
     });
   rendered = rendered.replace(/\{IfUpgraded:plus\(\)\}/g, useUpgrade ? "+" : "");
-  rendered = rendered.replace(/\[(gold|blue|red|purple|green|aqua|afterlife)\]([\s\S]*?)\[\/\1\]/gi, (_full, color, content) => {
-    if (/^__TVG?__-?\d+__$/.test(content)) return content;
-    return `<span class="${colorClasses[color.toLowerCase()]}">${content}</span>`;
-  });
-  rendered = rendered.replace(/\{(?:energyPrefix|Energy):energyIcons\((\d*)\)\}/gi, (_full, amount) => {
-    const count = Number(amount || 1);
+  const colorPattern = /\[(gold|blue|red|purple|green|aqua|afterlife)\]((?:(?!\[(?:gold|blue|red|purple|green|aqua|afterlife)\])[\s\S])*?)\[\/\1\]/gi;
+  let previousColorMarkup;
+  do {
+    previousColorMarkup = rendered;
+    rendered = rendered.replace(colorPattern, (_full, color, content) => {
+      if (/^__TVG?__-?\d+__$/.test(content)) return content;
+      return `<span class="${colorClasses[color.toLowerCase()]}">${content}</span>`;
+    });
+  } while (rendered !== previousColorMarkup);
+  rendered = rendered.replace(/\{([A-Za-z_]\w*):energyIcons\((\d*)\)\}/gi, (_full, name, amount) => {
+    const values = useUpgrade ? ((card && card.upgradeDynamicValues) || {}) : ((card && card.dynamicValues) || {});
+    const key = Object.keys(values).find((candidate) => candidate.toLowerCase().replace(/power$/, "") === name.toLowerCase().replace(/power$/, ""));
+    const count = Number(amount || values[key] || 1);
     return "[E]".repeat(Number.isFinite(count) && count > 0 ? count : 1);
   });
   rendered = rendered.replace(/\{TargetType:choose\((\w+)\):([\s\S]*?)\|\}/g, (_full, target, content) => (
@@ -1518,6 +1535,9 @@ function highlightBaseKeywords(text) {
 
 function applyI18n() {
   document.documentElement.lang = state.lang === "zh" ? "zh-CN" : "en";
+  elements.langToggle.hidden = state.catfall;
+  const translatorEntry = document.querySelector(".translator-entry");
+  if (translatorEntry) translatorEntry.hidden = state.catfall;
   document.documentElement.classList.toggle("font-english-style", state.useEnglishFontStyle);
 
   document.querySelectorAll("[data-i18n]").forEach((node) => {
@@ -1881,7 +1901,7 @@ function buildCardInnerHtml(card, descriptionHtml, options = {}) {
   };
   const energyIcon = card.type === "CURSE" || card.color === "DOWNFALL" || card.color === "COLORLESS"
     ? "assets/card-ui/energy-colorless-gen2.png"
-    : highResolutionEnergyIcons[card.color] || card.energyIcon;
+    : highResolutionEnergyIcons[card.visualColor || card.color] || card.energyIcon;
   const costIcon = energyIcon
     ? `<img class="card-cost-icon" src="${energyIcon}" alt="cost orb" loading="lazy">`
     : `<span class="card-cost-fallback-orb" aria-hidden="true"></span>`;
@@ -2144,6 +2164,7 @@ function readStateFromUrl() {
   const size = params.get("size");
   const page = params.get("page");
   const translatorMode = params.get("translator_mode");
+  const catfall = params.get("catfall");
 
   if (lang === "zh" || lang === "en") {
     state.lang = lang;
@@ -2154,6 +2175,10 @@ function readStateFromUrl() {
   if (translatorMode !== null) {
     const normalized = String(translatorMode).toLowerCase();
     state.translatorMode = normalized === "1" || normalized === "true" || normalized === "yes";
+  }
+  if (catfall !== null) {
+    const normalized = String(catfall).toLowerCase();
+    state.catfall = normalized === "1" || normalized === "true" || normalized === "yes";
   }
 
   state.search = (q || "").trim();
@@ -2170,12 +2195,17 @@ function readStateFromUrl() {
 
   const parsedPage = Number(page);
   state.page = Number.isFinite(parsedPage) && parsedPage > 0 ? parsedPage : 1;
+  if (state.catfall) {
+    state.lang = "zh";
+    state.translatorMode = false;
+  }
 }
 
 function syncControlsFromState() {
   elements.searchInput.value = state.search;
   updateInlineClearVisibility();
   elements.upgradeToggle.classList.toggle("active", state.showUpgrade);
+  elements.catfallToggle.checked = state.catfall;
 }
 
 function writeStateToUrl() {
@@ -2192,6 +2222,7 @@ function writeStateToUrl() {
   if (state.sort.by) params.set("sortBy", state.sort.by);
   if (state.sort.dir === "desc") params.set("sortDir", "desc");
   if (state.translatorMode) params.set("translator_mode", "1");
+  if (state.catfall) params.set("catfall", "1");
   if (state.pageSize !== 24) params.set("size", String(state.pageSize));
   if (state.page > 1) params.set("page", String(state.page));
 
@@ -2277,6 +2308,13 @@ function syncCardPageCapacity() {
   syncTranslatorGridLayout();
   state.pageSize = getCardGridColumns() * 6;
   elements.pageSize.value = String(state.pageSize);
+}
+
+function waitForInitialLayout() {
+  return Promise.race([
+    new Promise((resolve) => requestAnimationFrame(() => requestAnimationFrame(resolve))),
+    new Promise((resolve) => setTimeout(resolve, 120)),
+  ]);
 }
 
 function renderCards() {
@@ -2377,6 +2415,16 @@ function bindEvents() {
     applyI18n();
   });
 
+  elements.catfallToggle.addEventListener("change", () => {
+    state.catfall = elements.catfallToggle.checked;
+    window.localStorage.setItem("downfall-catfall", state.catfall ? "1" : "0");
+    const params = new URLSearchParams(window.location.search || "");
+    if (state.catfall) params.set("catfall", "1");
+    else params.delete("catfall");
+    params.delete("page");
+    window.location.assign(`${window.location.pathname}?${params.toString()}`);
+  });
+
   elements.searchBtn.addEventListener("click", () => {
     triggerSearch();
   });
@@ -2465,6 +2513,11 @@ function bindEvents() {
       renderCards();
     }
   });
+  window.addEventListener("load", () => {
+    const previousPageSize = state.pageSize;
+    syncCardPageCapacity();
+    if (state.pageSize !== previousPageSize) renderCards();
+  }, { once: true });
 
   window.addEventListener("popstate", () => {
     readStateFromUrl();
@@ -2478,7 +2531,18 @@ function bindEvents() {
 
 async function init() {
   state.useEnglishFontStyle = window.localStorage.getItem("downfall-english-font-style") === "1";
-  const response = await fetch("data/cards.json");
+  const initialParams = new URLSearchParams(window.location.search || "");
+  const catfallParam = initialParams.get("catfall");
+  state.catfall = catfallParam === null
+    ? window.localStorage.getItem("downfall-catfall") === "1"
+    : ["1", "true", "yes"].includes(String(catfallParam).toLowerCase());
+  if (state.catfall) {
+    state.lang = "zh";
+    state.translatorMode = false;
+    initialParams.set("lang", "zh");
+    initialParams.delete("translator_mode");
+  }
+  const response = await fetch(`${state.catfall ? "data/catfall-cards.json" : "data/cards.json"}?v=20260823-3`);
   if (!response.ok) {
     elements.summary.textContent = "Missing data/cards.json. Run the pipeline first.";
     return;
@@ -2495,6 +2559,8 @@ async function init() {
   syncControlsFromState();
   updateTranslatorEntryLink();
   updateCrossPageLinks();
+  if (document.fonts && document.fonts.ready) await document.fonts.ready;
+  await waitForInitialLayout();
   renderCards();
   bindEvents();
 }

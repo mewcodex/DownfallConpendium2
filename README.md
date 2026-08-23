@@ -12,6 +12,8 @@ Browse online: https://mewcodex.github.io/DownfallConpendium/
 - `styles.css`: UI styles
 - `app.js`: filtering, rendering, i18n, behavior alignment with mod runtime
 - `data/cards.json`: generated card data
+- `data/catfall-cards.json`: generated Catfall card data
+- `data/catfall-relics.json`: generated Catfall relic data
 - `assets/`: card art and icon assets
 - `serve_site.bat`: local static server helper
 
@@ -30,6 +32,8 @@ Prerequisite: Python 3
 - `../pipeline/run_pipeline.bat`
 
 Re-run the pipeline after changing extraction rules or replacing either archive in `pipeline/resources/`. The site header displays the generated mod and Chinese translation versions.
+
+Catfall mode uses the bundled Guardian and Downfall packages, including Downfall's Hermit implementation. It is Chinese-only and keeps its enabled state when moving between the card and relic pages.
 
 ## Notes
 

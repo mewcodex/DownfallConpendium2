@@ -1,6 +1,7 @@
 const state = {
   lang: "en",
   translatorMode: false,
+  catfall: false,
   attachmentTooltipLocked: false,
   useEnglishFontStyle: false,
   relicData: null,
@@ -43,6 +44,7 @@ const uiText = {
     searchPlaceholder: "Relic name / id / description",
     noDescription: "No description",
     navCards: "Cards",
+    catfallLabel: "Catfall",
     fontStyleToggle: "Use English-style font",
   },
   zh: {
@@ -71,6 +73,7 @@ const uiText = {
     searchPlaceholder: "遗物名 / 代码名 / 描述",
     noDescription: "无描述",
     navCards: "卡牌",
+    catfallLabel: "猫坠",
     fontStyleToggle: "替换中文字体",
   },
 };
@@ -118,11 +121,16 @@ const elements = {
   langToggle: document.getElementById("langToggle"),
   fontStyleToggle: document.getElementById("fontStyleToggle"),
   cardsPageLink: document.getElementById("cardsPageLink"),
+  catfallToggle: document.getElementById("catfallToggle"),
   versionInfo: document.getElementById("versionInfo"),
 };
 
 function renderVersionInfo() {
   if (!elements.versionInfo || !state.relicData) return;
+  if (state.catfall) {
+    elements.versionInfo.textContent = state.lang === "zh" ? "猫坠版本：2026/08/19" : "Catfall version: 2026/08/19";
+    return;
+  }
   const modVersion = state.relicData.modVersion || "unknown";
   const translationVersion = formatTranslationVersion(state.relicData.translationVersion);
   elements.versionInfo.textContent = state.lang === "zh"
@@ -143,6 +151,7 @@ function updateCrossPageLinks() {
   const params = new URLSearchParams();
   if (state.lang !== "en") params.set("lang", state.lang);
   if (state.translatorMode) params.set("translator_mode", "1");
+  if (state.catfall) params.set("catfall", "1");
   const query = params.toString();
   link.href = query ? `index.html?${query}` : "index.html";
 }
@@ -203,6 +212,9 @@ function renderNumericMarkers(text) {
 
 function applyI18nText() {
   document.documentElement.lang = state.lang === "zh" ? "zh-CN" : "en";
+  elements.langToggle.hidden = state.catfall;
+  const translatorEntry = document.querySelector(".translator-entry");
+  if (translatorEntry) translatorEntry.hidden = state.catfall;
   document.documentElement.classList.toggle("font-english-style", state.useEnglishFontStyle);
   document.querySelectorAll("[data-i18n]").forEach((node) => {
     const key = node.dataset.i18n;
@@ -221,10 +233,18 @@ function parseUrlState() {
   const params = new URLSearchParams(window.location.search || "");
   const lang = params.get("lang");
   const translatorMode = params.get("translator_mode");
+  const catfall = params.get("catfall");
   if (lang === "en" || lang === "zh") state.lang = lang;
   if (translatorMode !== null) {
     const normalized = String(translatorMode).toLowerCase();
     state.translatorMode = normalized === "1" || normalized === "true" || normalized === "yes";
+  }
+  state.catfall = catfall === null
+    ? window.localStorage.getItem("downfall-catfall") === "1"
+    : ["1", "true", "yes"].includes(String(catfall).toLowerCase());
+  if (state.catfall) {
+    state.lang = "zh";
+    state.translatorMode = false;
   }
 }
 
@@ -232,6 +252,7 @@ function syncUrlState() {
   const params = new URLSearchParams();
   if (state.lang !== "en") params.set("lang", state.lang);
   if (state.translatorMode) params.set("translator_mode", "1");
+  if (state.catfall) params.set("catfall", "1");
 
   if (elements.searchInput.value.trim()) params.set("q", elements.searchInput.value.trim());
   if (elements.rarityFilter.value) params.set("rarity", elements.rarityFilter.value);
@@ -1223,6 +1244,13 @@ function syncRelicPageCapacity() {
   elements.pageSize.value = String(state.pageSize);
 }
 
+function waitForInitialLayout() {
+  return Promise.race([
+    new Promise((resolve) => requestAnimationFrame(() => requestAnimationFrame(resolve))),
+    new Promise((resolve) => setTimeout(resolve, 120)),
+  ]);
+}
+
 function render() {
   filterAndSort();
   syncRelicPageCapacity();
@@ -1359,12 +1387,27 @@ function bindControls() {
       render();
     }
   });
+  window.addEventListener("load", () => {
+    const previousPageSize = state.pageSize;
+    syncRelicPageCapacity();
+    if (state.pageSize !== previousPageSize) render();
+  }, { once: true });
 
   elements.fontStyleToggle.addEventListener("click", () => {
     state.useEnglishFontStyle = !state.useEnglishFontStyle;
     window.localStorage.setItem("downfall-english-font-style", state.useEnglishFontStyle ? "1" : "0");
     applyI18nText();
     renderCurrentPage();
+  });
+
+  elements.catfallToggle.addEventListener("change", () => {
+    state.catfall = elements.catfallToggle.checked;
+    window.localStorage.setItem("downfall-catfall", state.catfall ? "1" : "0");
+    const params = new URLSearchParams(window.location.search || "");
+    if (state.catfall) params.set("catfall", "1");
+    else params.delete("catfall");
+    params.delete("page");
+    window.location.assign(`${window.location.pathname}?${params.toString()}`);
   });
 }
 
@@ -1374,8 +1417,8 @@ async function init() {
   applyI18nText();
 
   const [relicRes, cardRes] = await Promise.all([
-    fetch("data/relics.json"),
-    fetch("data/cards.json"),
+    fetch(`${state.catfall ? "data/catfall-relics.json" : "data/relics.json"}?v=20260823-3`),
+    fetch(`${state.catfall ? "data/catfall-cards.json" : "data/cards.json"}?v=20260823-3`),
   ]);
 
   if (!relicRes.ok) throw new Error(`Failed to load relic data: ${relicRes.status}`);
@@ -1401,8 +1444,11 @@ async function init() {
   elements.sortBy.value = "NAME";
   elements.sortDir.value = "ASC";
   elements.pageSize.value = String(state.pageSize);
+  elements.catfallToggle.checked = state.catfall;
 
   state.search = elements.searchInput.value || "";
+  if (document.fonts && document.fonts.ready) await document.fonts.ready;
+  await waitForInitialLayout();
   render();
 }
 
