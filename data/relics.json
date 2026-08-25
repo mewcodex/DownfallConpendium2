@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-25T19:07:38.229845Z",
+  "generatedAt": "2026-08-25T19:09:55.771429Z",
   "modVersion": "0.1.15",
   "translationVersion": "2026_08_25_10_00_32_c98d4c",
   "baseKeywords": [
@@ -5347,6 +5347,12 @@
       "dynamicValues": {},
       "upgradeDynamicValues": {},
       "attachedTips": [],
+      "dynamicTextValues": {
+        "borrowed": {
+          "en": "the chosen character",
+          "zh": "所选角色"
+        }
+      },
       "attachedCardTips": []
     },
     {
