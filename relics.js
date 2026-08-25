@@ -172,10 +172,12 @@ function renderSts2Markup(text) {
   if (!text) return "";
   const colorClasses = { gold: "kw-mark-yellow", blue: "kw-mark-blue", red: "kw-mark-red", purple: "kw-mark-purple", green: "kw-mark-green", aqua: "kw-mark-aqua" };
   let rendered = text.replace(/\[(gold|blue|red|purple|green|aqua)\]([\s\S]*?)\[\/\1\]/gi, (_full, color, content) => `<span class="${colorClasses[color.toLowerCase()]}">${content}</span>`);
+  rendered = rendered.replace(/\{Multiplayer:([^{}|]*)\|([^{}]*)\}/gi, (_full, singlePlayer) => singlePlayer);
+  rendered = rendered.replace(/\{\{QueryLink\|[^{}|]*\|[^{}|]*\|([^{}|]*)\}\}/gi, (_full, label) => label);
   rendered = rendered.replace(/\{(?:energyPrefix|Energy):energyIcons\((\d*)\)\}/gi, (_full, amount) => "[E]".repeat(Math.max(1, Number(amount || 1))));
   rendered = rendered.replace(/\{InCombat:cond:\s*[\s\S]*?\|\}/gi, "");
   rendered = rendered.replace(/\{[A-Za-z_]\w*:cond:\s*([\s\S]*?)\|\}/g, (_full, content) => content.trim().replace(/^[（(]\s*/, "").replace(/\s*[）)]+$/, ""));
-  rendered = rendered.replace(/\{(?:[A-Za-z_][\w]*)(?::(?:diff\(\)|plural:[^}]*|cond:[\s\S]*?))?\}/g, (token) => token.slice(1, -1).split(":", 1)[0].replace(/Power$/, "").replace(/([a-z])([A-Z])/g, "$1 $2"));
+  rendered = rendered.replace(/\{(?:[A-Za-z_][\w]*)(?::(?:(?:diff|inverseDiff|preview)\(\)|p?plural:[^}]*|cond:[\s\S]*?))?\}/g, (token) => token.slice(1, -1).split(":", 1)[0].replace(/Power$/, "").replace(/([a-z])([A-Z])/g, "$1 $2"));
   return rendered
     .replace(/\{[A-Za-z_]\w*:[^{}]*\}/g, "")
     .replace(/\[\/?(?:sine|jitter|fly_in|shake)\]/gi, "");
@@ -183,26 +185,35 @@ function renderSts2Markup(text) {
 
 function fillSts2DynamicTokens(text, relic) {
   const values = (relic && relic.dynamicValues) || {};
+  const textValues = (relic && relic.dynamicTextValues) || {};
   const wrapValue = (value) => `__TV__${value}__`;
+  const normalizedName = (name) => name.toLowerCase().replace(/(?:power|keyword|var)$/, "");
   const findValue = (name) => {
-    const normalized = name.toLowerCase().replace(/power$/, "");
-    const key = Object.keys(values).find((candidate) => candidate.toLowerCase().replace(/power$/, "") === normalized);
+    const normalized = normalizedName(name);
+    const key = Object.keys(values).find((candidate) => normalizedName(candidate) === normalized);
     return key && typeof values[key] === "number" ? values[key] : null;
+  };
+  const findTextValue = (name) => {
+    const normalized = normalizedName(name);
+    const key = Object.keys(textValues).find((candidate) => normalizedName(candidate) === normalized);
+    const value = key ? textValues[key] : null;
+    if (typeof value === "string") return value;
+    return value && typeof value[state.lang] === "string" ? value[state.lang] : null;
   };
 
   return (text || "")
-    .replace(/\{([A-Za-z_]\w*):plural:([^|{}]*)\|([^{}]*)\}/g, (full, name, singular, plural) => {
+    .replace(/\{([A-Za-z_]\w*):p?plural:([^|{}]*)\|([^{}]*)\}/g, (full, name, singular, plural) => {
       const value = findValue(name);
       if (typeof value !== "number") return full;
       return (value === 1 ? singular : plural).replace(/\{\}/g, wrapValue(value));
     })
-    .replace(/\{([A-Za-z_]\w*):diff\(\)\}/g, (full, name) => {
+    .replace(/\{([A-Za-z_]\w*):(?:diff|inverseDiff|preview)\(\)\}/g, (full, name) => {
       const value = findValue(name);
-      return typeof value === "number" ? wrapValue(value) : full;
+      return typeof value === "number" ? wrapValue(value) : (findTextValue(name) || full);
     })
     .replace(/\{([A-Za-z_]\w*)\}/g, (full, name) => {
       const value = findValue(name);
-      return typeof value === "number" ? wrapValue(value) : full;
+      return typeof value === "number" ? wrapValue(value) : (findTextValue(name) || full);
     });
 }
 

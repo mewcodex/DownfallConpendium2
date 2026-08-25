@@ -355,19 +355,29 @@ function fillNumericTokens(text, card, useUpgrade = state.showUpgrade) {
 function fillSts2DynamicTokens(text, card, useUpgrade = state.showUpgrade) {
   const baseValues = (card && card.dynamicValues) || {};
   const values = useUpgrade ? ((card && card.upgradeDynamicValues) || baseValues) : baseValues;
+  const baseTextValues = (card && card.dynamicTextValues) || {};
+  const textValues = useUpgrade ? ((card && card.upgradeDynamicTextValues) || baseTextValues) : baseTextValues;
   const wrapFilledValue = (value, changed) => (changed ? `__TVG__${value}__` : `__TV__${value}__`);
-  const normalizedName = (name) => name.toLowerCase().replace(/power$/, "");
+  const normalizedName = (name) => name.toLowerCase().replace(/(?:power|keyword|var)$/, "");
   const fillValue = (full, name) => {
     const key = Object.keys(values).find((candidate) => normalizedName(candidate) === normalizedName(name));
     const baseKey = Object.keys(baseValues).find((candidate) => normalizedName(candidate) === normalizedName(name));
     const value = key ? values[key] : null;
     const baseValue = baseKey ? baseValues[baseKey] : value;
-    if (typeof value !== "number") return full;
-    return wrapFilledValue(value, useUpgrade && typeof baseValue === "number" && value !== baseValue);
+    if (typeof value === "number") {
+      return wrapFilledValue(value, useUpgrade && typeof baseValue === "number" && value !== baseValue);
+    }
+    const textKey = Object.keys(textValues).find((candidate) => normalizedName(candidate) === normalizedName(name));
+    const textValue = textKey ? textValues[textKey] : null;
+    if (typeof textValue === "string") return textValue;
+    if (textValue && typeof textValue === "object" && typeof textValue[state.lang] === "string") {
+      return textValue[state.lang];
+    }
+    return full;
   };
 
   return (text || "")
-    .replace(/\{([A-Za-z_]\w*):diff\(\)\}/g, fillValue)
+    .replace(/\{([A-Za-z_]\w*):(?:diff|inverseDiff|preview)\(\)\}/g, fillValue)
     .replace(/\{([A-Za-z_]\w*)\}/g, fillValue);
 }
 
@@ -540,6 +550,8 @@ function renderSts2Markup(text, useUpgrade = state.showUpgrade, card = null) {
     afterlife: "kw-mark-afterlife",
   };
   let rendered = renderIfUpgradedShowBlocks(text, useUpgrade);
+  rendered = rendered.replace(/\{Multiplayer:([^{}|]*)\|([^{}]*)\}/gi, (_full, singlePlayer) => singlePlayer);
+  rendered = rendered.replace(/\{\{QueryLink\|[^{}|]*\|[^{}|]*\|([^{}|]*)\}\}/gi, (_full, label) => label);
   rendered = rendered.replace(/\{([A-Za-z_]\w*):cond:\s*(>=|<=|>|<|&gt;=?|&lt;=?|==|!=)\s*(-?\d+(?:\.\d+)?)\?([^{}|]*)\|([^{}]*)\}/g,
     (_full, name, rawOperator, expectedRaw, whenTrue, whenFalse) => {
       const operator = rawOperator.replace("&gt;", ">").replace("&lt;", "<");
@@ -580,7 +592,7 @@ function renderSts2Markup(text, useUpgrade = state.showUpgrade, card = null) {
   rendered = stripSts2Blocks(rendered, "InCombat");
   rendered = stripSts2Blocks(rendered, "IsTargeting");
   rendered = stripSts2Blocks(rendered, "IsOnCard");
-  rendered = rendered.replace(/\{([A-Za-z_]\w*):plural:([^{}|]*)\|([^{}]*)\}/g, (_full, name, singular, plural) => {
+  rendered = rendered.replace(/\{([A-Za-z_]\w*):p?plural:([^{}|]*)\|([^{}]*)\}/g, (_full, name, singular, plural) => {
     const valueToken = new RegExp(`__(?:TV|TVG)__(-?\\d+)__`).exec(`${singular}${plural}`);
     const values = useUpgrade ? ((card && card.upgradeDynamicValues) || {}) : ((card && card.dynamicValues) || {});
     const key = Object.keys(values).find((candidate) => candidate.toLowerCase().replace(/power$/, "") === name.toLowerCase().replace(/power$/, ""));
@@ -593,6 +605,10 @@ function renderSts2Markup(text, useUpgrade = state.showUpgrade, card = null) {
     return typeof value === "number" && value > 0 ? `+${value}` : "";
   });
   rendered = rendered.replace(/\{Ghostflame\}/g, state.lang === "zh" ? "鬼火" : "Ghostflame");
+  rendered = rendered
+    .replace(/\{effects\}/gi, state.lang === "zh" ? "动态效果" : "Dynamic effects")
+    .replace(/\{Keyword\}/g, state.lang === "zh" ? "关键词" : "Keyword")
+    .replace(/\{Type\}/g, state.lang === "zh" ? "类型" : "Type");
   rendered = rendered.replace(/\{[A-Za-z_]\w*:cond:\s*([\s\S]*?)\|\}/g, (_full, content) => {
     return content.trim().replace(/^[（(]\s*/, "").replace(/\s*[）)]+$/, "");
   });
