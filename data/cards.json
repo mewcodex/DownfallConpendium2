@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-25T17:43:25.856950Z",
+  "generatedAt": "2026-08-25T19:03:03.917776Z",
   "modVersion": "0.1.15",
   "translationVersion": "2026_08_25_10_00_32_c98d4c",
   "baseKeywords": [
@@ -14967,6 +14967,12 @@
       "energyIcon": "assets/energy-icons/awakened.png",
       "deprecated": false,
       "notInPool": false,
+      "dynamicTextValues": {
+        "MagicianismPower": "X"
+      },
+      "upgradeDynamicTextValues": {
+        "MagicianismPower": "X+1"
+      },
       "attachedTips": [],
       "visualColor": "AWAKENED",
       "hasConjure": false,
@@ -19595,11 +19601,11 @@
       },
       "dynamicValues": {
         "CalculatedBlock": 6,
-        "CalculationExtra": 3
+        "CalculationExtra": 1
       },
       "upgradeDynamicValues": {
         "CalculatedBlock": 9,
-        "CalculationExtra": 3
+        "CalculationExtra": 1
       },
       "energyIcon": "assets/energy-icons/champ.png",
       "deprecated": false,
