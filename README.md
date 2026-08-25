@@ -31,6 +31,10 @@ Prerequisite: Python 3
 
 - `../pipeline/run_pipeline.bat`
 
+Catfall data is generated independently and does not inherit regular Downfall records or assets:
+
+- `../pipeline/run_catfall_pipeline.bat`
+
 Re-run the pipeline after changing extraction rules or replacing either archive in `pipeline/resources/`. The site header displays the generated mod and Chinese translation versions.
 
 Catfall mode uses the bundled Guardian and Downfall packages, including Downfall's Hermit implementation. It is Chinese-only and keeps its enabled state when moving between the card and relic pages.
