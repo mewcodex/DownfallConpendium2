@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-25T19:03:03.917776Z",
+  "generatedAt": "2026-08-25T19:04:29.820434Z",
   "modVersion": "0.1.15",
   "translationVersion": "2026_08_25_10_00_32_c98d4c",
   "baseKeywords": [
@@ -21714,8 +21714,12 @@
         "damage": null,
         "block": null
       },
-      "dynamicValues": {},
-      "upgradeDynamicValues": {},
+      "dynamicValues": {
+        "Nimble": 8
+      },
+      "upgradeDynamicValues": {
+        "Nimble": 8
+      },
       "energyIcon": "assets/energy-icons/champ.png",
       "deprecated": false,
       "notInPool": false,
@@ -21796,8 +21800,12 @@
         "damage": null,
         "block": null
       },
-      "dynamicValues": {},
-      "upgradeDynamicValues": {},
+      "dynamicValues": {
+        "Sharp": 8
+      },
+      "upgradeDynamicValues": {
+        "Sharp": 8
+      },
       "energyIcon": "assets/energy-icons/champ.png",
       "deprecated": false,
       "notInPool": false,

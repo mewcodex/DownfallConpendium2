@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-25T19:03:03.917776Z",
+  "generatedAt": "2026-08-25T19:04:29.820434Z",
   "modVersion": "0.1.15",
   "translationVersion": "2026_08_25_10_00_32_c98d4c",
   "baseKeywords": [
@@ -5212,9 +5212,13 @@
       "imageResource": "",
       "deprecated": false,
       "dynamicValues": {
+        "WeakPower": 1,
+        "VulnerablePower": 1,
         "Cards": 3
       },
       "upgradeDynamicValues": {
+        "WeakPower": 1,
+        "VulnerablePower": 1,
         "Cards": 3
       },
       "attachedTips": [],
