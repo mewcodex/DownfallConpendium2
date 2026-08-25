@@ -4,7 +4,7 @@ Static web frontend for browsing Slay the Spire 2 Downfall mod cards and relics.
 
 ## Online
 
-Browse online: https://mewcodex.github.io/DownfallConpendium/
+Browse online: https://mewcodex.github.io/DownfallConpendium2/
 
 ## Contents
 
