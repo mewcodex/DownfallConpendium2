@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-08-23T08:44:42.849788Z",
-  "modVersion": "0.1.13",
-  "translationVersion": "2026_08_21_09_00_05_44a62c",
+  "generatedAt": "2026-08-25T17:43:25.856950Z",
+  "modVersion": "0.1.15",
+  "translationVersion": "2026_08_25_10_00_32_c98d4c",
   "baseKeywords": [
     {
       "key": "ARTIFACT",
@@ -821,7 +821,7 @@
       }
     ]
   },
-  "cardCount": 947,
+  "cardCount": 948,
   "cards": [
     {
       "id": "AUTOMATON-ALLOCATE",
@@ -921,8 +921,8 @@
         "zh": "汇编"
       },
       "description": {
-        "en": "Draw {Cards:diff()} cards.\n[gold]Encode[/gold] any drawn cards with [gold]Encode[/gold].",
-        "zh": "抽{Cards:diff()}张牌。\n[gold]编码[/gold]抽到的[gold]编码[/gold]牌。"
+        "en": "Draw {Cards:plural:a card|{Cards:diff()} cards} and [gold]Encode[/gold] {Cards:plural:it|them}, if possible.",
+        "zh": "Draw {Cards:plural:a card|{Cards:diff()} cards} and [gold]Encode[/gold] {Cards:plural:it|them}, if possible."
       },
       "upgradeDescription": {
         "en": "",
@@ -1474,7 +1474,7 @@
       },
       "description": {
         "en": "Deal {Damage:diff()} damage or gain {Block:diff()} [gold]Block[/gold].\nThe option not chosen is [gold]Encoded[/gold].",
-        "zh": "选择一项：\n造成{Damage:diff()}点伤害。\n获得{Block:diff()}点[gold]格挡[/gold]。\n然后[gold]编码[/gold]未选择的选项："
+        "zh": "选择一项：\n造成{Damage:diff()}点伤害。\n获得{Block:diff()}点[gold]格挡[/gold]。\n然后[gold]编码[/gold]未选择的选项。"
       },
       "upgradeDescription": {
         "en": "",
@@ -1899,8 +1899,8 @@
         "zh": "铜制圆球"
       },
       "description": {
-        "en": "Deal {Damage:diff()} damage.\n[gold]Stash[/gold] the next card you play this turn.",
-        "zh": "造成{Damage:diff()}点伤害。\n[gold]暂存[/gold]你本回合打出的下一张牌。"
+        "en": "Deal {Damage:diff()} damage.\n[gold]Stash[/gold] the next Attack or Skill you play this turn.",
+        "zh": "造成{Damage:diff()}点伤害。\n[gold]暂存[/gold]你本回合打出的下一张攻击或技能牌。"
       },
       "upgradeDescription": {
         "en": "",
@@ -1969,8 +1969,8 @@
             "zh": "铜制圆球"
           },
           "description": {
-            "en": "[gold]Stash[/gold] the next card you play this turn.",
-            "zh": "[gold]暂存[/gold]本回合你打出的下一张牌。"
+            "en": "[gold]Stash[/gold] the next Attack or Skill you play this turn.",
+            "zh": "[gold]暂存[/gold]本回合你打出的下一张攻击或技能牌。"
           },
           "dynamicValues": {},
           "sourceValueKey": "BronzeOrbPower",
@@ -6752,7 +6752,7 @@
       },
       "description": {
         "en": "At the start of your turn, draw an additional card from your [gold]Stash Pile[/gold].",
-        "zh": "在你的回合开始时，额外从[gold]暂存区[/gold]中抽1张牌。"
+        "zh": "在你的回合开始时，额外从[gold]暂存区[/gold]中抽[blue]1[/blue]张牌。"
       },
       "upgradeDescription": {
         "en": "",
@@ -6834,7 +6834,7 @@
           },
           "description": {
             "en": "At the start of your turn, draw an additional card from your [gold]Stash Pile[/gold].",
-            "zh": "在你的回合开始时，额外从[gold]暂存区[/gold]中抽1张牌。"
+            "zh": "在你的回合开始时，额外从[gold]暂存区[/gold]中抽[blue]1[/blue]张牌。"
           },
           "dynamicValues": {},
           "sourceValueKey": "OptimizePower",
@@ -6946,8 +6946,8 @@
         "zh": "哲思"
       },
       "description": {
-        "en": "When you draw this, gain {PhilosophizePower:diff()} [gold]Strength[/gold] this turn.",
-        "zh": "当你抽到这张牌时，在本回合获得{PhilosophizePower:diff()}点[gold]力量[/gold]。"
+        "en": "Whenever you draw this card, gain {PhilosophizePower:diff()} [gold]Strength[/gold] that turn.",
+        "zh": "每当你抽到这张牌时，在一回合内获得{PhilosophizePower:diff()}点[gold]力量[/gold]。"
       },
       "upgradeDescription": {
         "en": "",
@@ -7177,8 +7177,8 @@
         "zh": "原型光束"
       },
       "description": {
-        "en": "Deal {Damage:diff()} damage for every Status card in your [gold]Exhaust Pile[/gold].{InCombat:cond:\n(Hits {CalculatedHits:diff()} times)|}",
-        "zh": "你的[gold]消耗牌堆[/gold]中每有一张状态牌，就造成{Damage:diff()}点伤害一次。{InCombat:cond:\n（命中{CalculatedHits:diff()}次）|}"
+        "en": "Deal {Damage:diff()} damage.\nWhenever you draw this card, gain {Energy:energyIcons()}.",
+        "zh": "造成{Damage:diff()}点伤害。\n每当你抽到这张牌时，获得{Energy:energyIcons()}。"
       },
       "upgradeDescription": {
         "en": "",
@@ -7195,14 +7195,14 @@
         "en": "The Automaton",
         "zh": "铜制机械人偶"
       },
-      "cost": 2,
+      "cost": 1,
       "upgradeCost": null,
       "canUpgrade": true,
       "target": "AnyEnemy",
       "isFinisher": false,
       "img": "assets/cards/protobeam.png",
       "stats": {
-        "damage": 5,
+        "damage": 9,
         "block": null,
         "magic": null,
         "secondMagic": null,
@@ -7211,30 +7211,50 @@
         "selfDamage": null
       },
       "upgradeStats": {
-        "damage": 7,
+        "damage": 12,
         "block": null
       },
       "dynamicValues": {
-        "Damage": 5,
-        "CalculatedHits": 0,
-        "CalculatedHitsBase": 0,
-        "CalculatedHitsExtra": 1
+        "Damage": 9,
+        "Energy": 1
       },
       "upgradeDynamicValues": {
-        "Damage": 7,
-        "CalculatedHits": 0,
-        "CalculatedHitsBase": 0,
-        "CalculatedHitsExtra": 1
+        "Damage": 12,
+        "Energy": 1
       },
       "energyIcon": "assets/energy-icons/automaton.png",
       "deprecated": false,
       "notInPool": false,
-      "attachedTips": [],
+      "attachedTips": [
+        {
+          "id": "Ethereal",
+          "name": {
+            "en": "Ethereal",
+            "zh": "虚无"
+          },
+          "description": {
+            "en": "If this card is in your [gold]Hand[/gold] at the end of this turn, it is [gold]Exhausted[/gold].",
+            "zh": "如果这张牌在这个回合结束时留在你的[gold]手牌[/gold]中，则将其[gold]消耗[/gold]。"
+          },
+          "dynamicValues": {},
+          "sourceValueKey": null,
+          "icon": null
+        }
+      ],
       "visualColor": "AUTOMATON",
       "hasConjure": false,
       "isSpell": false,
       "attachedCardTips": [],
-      "descriptionKeywordPrefix": [],
+      "descriptionKeywordPrefix": [
+        {
+          "mode": "always",
+          "style": null,
+          "label": {
+            "en": "Ethereal.",
+            "zh": "虚无。"
+          }
+        }
+      ],
       "descriptionKeywordSuffix": [],
       "dynamicDescriptionLines": []
     },
@@ -7246,8 +7266,8 @@
         "zh": "原型护盾"
       },
       "description": {
-        "en": "Gain {Block:diff()} [gold]Block[/gold].\nGain {PlatingPower:diff()} [gold]Plating[/gold].\nAdd {Cards:plural:a [gold]Error[/gold]|{Cards:diff()} [gold]Errors[/gold]} to your [gold]Discard Pile[/gold].",
-        "zh": "获得{Block:diff()}点[gold]格挡[/gold]。\n获得{PlatingPower:diff()}层[gold]覆甲[/gold]。\n将{Cards:diff()}张[gold]错误[/gold]加入你的[gold]弃牌堆[/gold]。"
+        "en": "Whenever you draw this card, gain {PlatingPower:diff()} [gold]Plating[/gold] and add {Cards:plural:an [gold]Error[/gold]|{Cards:diff()} [gold]Errors[/gold]} into your [gold]Draw Pile[/gold].",
+        "zh": "每当你抽到这张牌时，获得{PlatingPower:diff()}层[gold]覆甲[/gold]，将{Cards:diff()}张[gold]错误[/gold]加入你的[gold]弃牌堆[/gold]。"
       },
       "upgradeDescription": {
         "en": "",
@@ -7264,7 +7284,7 @@
         "en": "The Automaton",
         "zh": "铜制机械人偶"
       },
-      "cost": 1,
+      "cost": 2,
       "upgradeCost": null,
       "canUpgrade": true,
       "target": "Self",
@@ -7272,7 +7292,7 @@
       "img": "assets/cards/protoshield.png",
       "stats": {
         "damage": null,
-        "block": 8,
+        "block": null,
         "magic": null,
         "secondMagic": null,
         "thirdMagic": null,
@@ -7281,22 +7301,34 @@
       },
       "upgradeStats": {
         "damage": null,
-        "block": 8
+        "block": null
       },
       "dynamicValues": {
-        "Block": 8,
-        "Cards": 1,
-        "PlatingPower": 2
-      },
-      "upgradeDynamicValues": {
-        "Block": 10,
         "Cards": 1,
         "PlatingPower": 3
+      },
+      "upgradeDynamicValues": {
+        "Cards": 1,
+        "PlatingPower": 5
       },
       "energyIcon": "assets/energy-icons/automaton.png",
       "deprecated": false,
       "notInPool": false,
       "attachedTips": [
+        {
+          "id": "Ethereal",
+          "name": {
+            "en": "Ethereal",
+            "zh": "虚无"
+          },
+          "description": {
+            "en": "If this card is in your [gold]Hand[/gold] at the end of this turn, it is [gold]Exhausted[/gold].",
+            "zh": "如果这张牌在这个回合结束时留在你的[gold]手牌[/gold]中，则将其[gold]消耗[/gold]。"
+          },
+          "dynamicValues": {},
+          "sourceValueKey": null,
+          "icon": null
+        },
         {
           "id": "PLATING_POWER",
           "name": {
@@ -7322,7 +7354,16 @@
           "upgradeWithParent": false
         }
       ],
-      "descriptionKeywordPrefix": [],
+      "descriptionKeywordPrefix": [
+        {
+          "mode": "always",
+          "style": null,
+          "label": {
+            "en": "Ethereal.",
+            "zh": "虚无。"
+          }
+        }
+      ],
       "descriptionKeywordSuffix": [],
       "dynamicDescriptionLines": []
     },
@@ -8470,8 +8511,8 @@
         "zh": "交付"
       },
       "description": {
-        "en": "Deal {Damage:diff()} damage.\nWhen you draw this, draw {Cards:plural:a card|{Cards:diff()} cards}.",
-        "zh": "造成{Damage:diff()}点伤害。\n当你抽到这张牌时，抽{Cards:diff()}张牌。"
+        "en": "Deal {Damage:diff()} damage.\nWhenever you draw this card, draw {Cards:plural:a card|{Cards:diff()} cards}.",
+        "zh": "造成{Damage:diff()}点伤害。\n每当你抽到这张牌时，抽{Cards:diff()}张牌。"
       },
       "upgradeDescription": {
         "en": "",
@@ -8733,14 +8774,14 @@
           "icon": null
         },
         {
-          "id": "DOWNFALL-TEMPORARY_THORNS_POWER",
+          "id": "GUARDIAN-OVERBLOCK_THORNS_POWER",
           "name": {
-            "en": "Thorns Down",
-            "zh": "临时荆棘"
+            "en": "Overblock",
+            "zh": "超量格挡"
           },
           "description": {
-            "en": "Gain [gold]Thorns[/gold] until the end of this turn.",
-            "zh": "获得[gold]荆棘[/gold]，直到本回合结束。"
+            "en": "Whenever you enter [gold]Defensive Mode[/gold], the ally with the least [gold]Block[/gold] gains [gold]Thorns[/gold] this turn.",
+            "zh": "每当你进入[gold]防御模式[/gold]时，拥有最少[gold]格挡[/gold]的另一位盟友获得[gold]荆棘[/gold]一回合。"
           },
           "dynamicValues": {},
           "sourceValueKey": "ThornsPower",
@@ -11445,8 +11486,8 @@
         "zh": "被拣选的诗句"
       },
       "description": {
-        "en": "The next 2 times you play a non-Attack card this turn, draw a card and gain {ChosenVersePower:diff()} [gold]Block[/gold].",
-        "zh": "本回合你下2次打出非攻击牌时，抽1张牌并获得{ChosenVersePower:diff()}点[gold]格挡[/gold]。"
+        "en": "The next 2 times you play a non-Attack card this turn, draw a card and gain {Block:diff()} [gold]Block[/gold].",
+        "zh": "本回合你下2次打出非攻击牌时，抽1张牌并获得{Block:diff()}点[gold]格挡[/gold]。"
       },
       "upgradeDescription": {
         "en": "",
@@ -11471,7 +11512,7 @@
       "img": "assets/cards/chosenverse.png",
       "stats": {
         "damage": null,
-        "block": null,
+        "block": 4,
         "magic": null,
         "secondMagic": null,
         "thirdMagic": null,
@@ -11480,33 +11521,18 @@
       },
       "upgradeStats": {
         "damage": null,
-        "block": null
+        "block": 4
       },
       "dynamicValues": {
-        "ChosenVersePower": 4
+        "Block": 4
       },
       "upgradeDynamicValues": {
-        "ChosenVersePower": 6
+        "Block": 5
       },
       "energyIcon": "assets/energy-icons/awakened.png",
       "deprecated": false,
       "notInPool": false,
-      "attachedTips": [
-        {
-          "id": "AWAKENED-CHOSEN_VERSE_POWER",
-          "name": {
-            "en": "Chosen Verse",
-            "zh": "被拣选的诗句"
-          },
-          "description": {
-            "en": "The next time you play a non-Attack card this turn, draw a card and gain [gold]Block[/gold].",
-            "zh": "本回合下次你打出非攻击牌时，抽1张牌并获得[gold]格挡[/gold]。"
-          },
-          "dynamicValues": {},
-          "sourceValueKey": "ChosenVersePower",
-          "icon": null
-        }
-      ],
+      "attachedTips": [],
       "visualColor": "AWAKENED",
       "hasConjure": false,
       "isSpell": false,
@@ -17153,8 +17179,8 @@
         "zh": "奇点护盾"
       },
       "description": {
-        "en": "Gain {Block:diff()} [gold]Block[/gold].\nNext turn, gain {BlockNextTurnPower:diff()} [gold]Block[/gold] and lose {Energy:energyIcons()}.",
-        "zh": "获得{Block:diff()}点[gold]格挡[/gold]。\n下个回合，获得{BlockNextTurnPower:diff()}点[gold]格挡[/gold]并失去{Energy:energyIcons()}。"
+        "en": "Gain {Block:diff()} [gold]Block[/gold].\nNext turn, gain {Block:diff()} [gold]Block[/gold] and lose {Energy:energyIcons()}.",
+        "zh": "获得{Block:diff()}点[gold]格挡[/gold]。\n下个回合，获得{Block:diff()}点[gold]格挡[/gold]并失去{Energy:energyIcons()}。"
       },
       "upgradeDescription": {
         "en": "",
@@ -17192,33 +17218,16 @@
       },
       "dynamicValues": {
         "Block": 8,
-        "Drained": 1,
-        "BlockNextTurnPower": 8
+        "Drained": 1
       },
       "upgradeDynamicValues": {
         "Block": 10,
-        "Drained": 1,
-        "BlockNextTurnPower": 10
+        "Drained": 1
       },
       "energyIcon": "assets/energy-icons/awakened.png",
       "deprecated": false,
       "notInPool": false,
-      "attachedTips": [
-        {
-          "id": "CHAMP-NO_BLOCK_NEXT_TURN_POWER",
-          "name": {
-            "en": "Shield Thrown",
-            "zh": "护盾猛掷"
-          },
-          "description": {
-            "en": "You can't gain [gold]Block[/gold] from cards next turn.",
-            "zh": "在下个回合，你无法从卡牌中获得[gold]格挡[/gold]。"
-          },
-          "dynamicValues": {},
-          "sourceValueKey": "BlockNextTurnPower",
-          "icon": null
-        }
-      ],
+      "attachedTips": [],
       "visualColor": "AWAKENED",
       "hasConjure": false,
       "isSpell": false,
@@ -17865,8 +17874,8 @@
         "zh": "劈破"
       },
       "description": {
-        "en": "Deal {Damage:diff()} damage.\nWhenever you attack this enemy, gain {SplitWidePower:diff()} [gold]Strength[/gold] for one turn.",
-        "zh": "造成{Damage:diff()}点伤害。\n每当你攻击该敌人时，获得{SplitWidePower:diff()}点临时[gold]力量[/gold]。"
+        "en": "Deal {Damage:diff()} damage.\nWhenever you attack this enemy, gain {SplitWidePower:diff()} [gold]Strength[/gold] that turn.",
+        "zh": "造成{Damage:diff()}点伤害。\n每当你攻击该敌人时，在一回合内获得{SplitWidePower:diff()}点[gold]力量[/gold]。"
       },
       "upgradeDescription": {
         "en": "",
@@ -18043,14 +18052,14 @@
           "icon": null
         },
         {
-          "id": "DOWNFALL-TEMPORARY_THORNS_POWER",
+          "id": "GUARDIAN-OVERBLOCK_THORNS_POWER",
           "name": {
-            "en": "Thorns Down",
-            "zh": "临时荆棘"
+            "en": "Overblock",
+            "zh": "超量格挡"
           },
           "description": {
-            "en": "Gain [gold]Thorns[/gold] until the end of this turn.",
-            "zh": "获得[gold]荆棘[/gold]，直到本回合结束。"
+            "en": "Whenever you enter [gold]Defensive Mode[/gold], the ally with the least [gold]Block[/gold] gains [gold]Thorns[/gold] this turn.",
+            "zh": "每当你进入[gold]防御模式[/gold]时，拥有最少[gold]格挡[/gold]的另一位盟友获得[gold]荆棘[/gold]一回合。"
           },
           "dynamicValues": {},
           "sourceValueKey": "ThornsPower",
@@ -19120,7 +19129,7 @@
       "img": "assets/cards/adrenalarmor.png",
       "stats": {
         "damage": null,
-        "block": 7,
+        "block": 6,
         "magic": null,
         "secondMagic": null,
         "thirdMagic": null,
@@ -19129,15 +19138,15 @@
       },
       "upgradeStats": {
         "damage": null,
-        "block": 7
+        "block": 6
       },
       "dynamicValues": {
-        "Block": 7,
-        "AdrenalArmorPower": 2
+        "Block": 6,
+        "AdrenalArmorPower": 3
       },
       "upgradeDynamicValues": {
-        "Block": 9,
-        "AdrenalArmorPower": 3
+        "Block": 8,
+        "AdrenalArmorPower": 4
       },
       "energyIcon": "assets/energy-icons/champ.png",
       "deprecated": false,
@@ -19240,28 +19249,14 @@
           "icon": null
         },
         {
-          "id": "CHAMP-STANCE",
-          "name": {
-            "en": "Stance",
-            "zh": "姿态"
-          },
-          "description": {
-            "en": "You may have only one Stance at a time.",
-            "zh": "你同一时间只能拥有一个姿态。"
-          },
-          "dynamicValues": {},
-          "sourceValueKey": null,
-          "icon": null
-        },
-        {
           "id": "CHAMP-FINISHER",
           "name": {
             "en": "Finisher",
             "zh": "终结技"
           },
           "description": {
-            "en": "Requires a [gold]Stance[/gold].\nAfter playing a Finisher, exit your [gold]Stance[/gold] and trigger its Finisher bonus.",
-            "zh": "处于[gold]姿态[/gold]时才能打出。\n打出终结技后，退出当前[gold]姿态[/gold]并触发终结技效果。"
+            "en": "Requires a [gold]Stance[/gold].\nAfter playing a Finisher, exit your [gold]Stance[/gold] and trigger its Finisher effect.",
+            "zh": "Requires a [gold]Stance[/gold].\nAfter playing a Finisher, exit your [gold]Stance[/gold] and trigger its Finisher effect."
           },
           "dynamicValues": {},
           "sourceValueKey": null,
@@ -19352,8 +19347,8 @@
             "zh": "终结技"
           },
           "description": {
-            "en": "Requires a [gold]Stance[/gold].\nAfter playing a Finisher, exit your [gold]Stance[/gold] and trigger its Finisher bonus.",
-            "zh": "处于[gold]姿态[/gold]时才能打出。\n打出终结技后，退出当前[gold]姿态[/gold]并触发终结技效果。"
+            "en": "Requires a [gold]Stance[/gold].\nAfter playing a Finisher, exit your [gold]Stance[/gold] and trigger its Finisher effect.",
+            "zh": "Requires a [gold]Stance[/gold].\nAfter playing a Finisher, exit your [gold]Stance[/gold] and trigger its Finisher effect."
           },
           "dynamicValues": {},
           "sourceValueKey": null,
@@ -19366,8 +19361,8 @@
             "zh": "战狂姿态"
           },
           "description": {
-            "en": "[gold]Skill Bonus[/gold]: Gain [blue]{BerserkerSkill}[/blue] [gold]Vigor[/gold].\n[gold]Finisher[/gold]: Gain [blue]{BerserkerFinisher}[/blue] [gold]Strength[/gold].",
-            "zh": "[gold]技术奖励[/gold]：获得[blue]{BerserkerSkill}[/blue]点[gold]活力[/gold]。\n[gold]终结技[/gold]：获得[blue]{BerserkerFinisher}[/blue]点[gold]力量[/gold]。"
+            "en": "{Infinite:cond:Whenever|The next {Charges:plural:time|[blue]{}[/blue] times}} you play a Skill, gain [blue]{BerserkerSkill}[/blue] [gold]Vigor[/gold].\nWhenever a [gold]Finisher[/gold] is triggered, gain [blue]{BerserkerFinisher}[/blue] [gold]Strength[/gold].",
+            "zh": "{Infinite:cond:Whenever|The next {Charges:plural:time|[blue]{}[/blue] times}} you play a Skill, gain [blue]{BerserkerSkill}[/blue] [gold]Vigor[/gold].\nWhenever a [gold]Finisher[/gold] is triggered, gain [blue]{BerserkerFinisher}[/blue] [gold]Strength[/gold]."
           },
           "dynamicValues": {
             "BerserkerSkill": 2,
@@ -19383,8 +19378,8 @@
             "zh": "防守姿态"
           },
           "description": {
-            "en": "[gold]Skill Bonus[/gold]: Gain [blue]{DefensiveSkill}[/blue] [gold]Counter[/gold].\n[gold]Finisher[/gold]: Gain [blue]{DefensiveFinisher}[/blue] [gold]Block[/gold].",
-            "zh": "[gold]技术奖励[/gold]：获得[blue]{DefensiveSkill}[/blue]层[gold]反击[/gold]。\n[gold]终结技[/gold]：获得[blue]{DefensiveFinisher}[/blue]点[gold]格挡[/gold]。"
+            "en": "{Infinite:cond:Whenever|The next {Charges:plural:time|[blue]{}[/blue] times}} you play a Skill, gain [blue]{DefensiveSkill}[/blue] [gold]Counter[/gold].\nWhenever a [gold]Finisher[/gold] is triggered, gain [blue]{DefensiveFinisher}[/blue] [gold]Block[/gold].",
+            "zh": "{Infinite:cond:Whenever|The next {Charges:plural:time|[blue]{}[/blue] times}} you play a Skill, gain [blue]{DefensiveSkill}[/blue] [gold]Counter[/gold].\nWhenever a [gold]Finisher[/gold] is triggered, gain [blue]{DefensiveFinisher}[/blue] [gold]Block[/gold]."
           },
           "dynamicValues": {
             "DefensiveSkill": 2,
@@ -19697,8 +19692,8 @@
             "zh": "防守姿态"
           },
           "description": {
-            "en": "[gold]Skill Bonus[/gold]: Gain [blue]{DefensiveSkill}[/blue] [gold]Counter[/gold].\n[gold]Finisher[/gold]: Gain [blue]{DefensiveFinisher}[/blue] [gold]Block[/gold].",
-            "zh": "[gold]技术奖励[/gold]：获得[blue]{DefensiveSkill}[/blue]层[gold]反击[/gold]。\n[gold]终结技[/gold]：获得[blue]{DefensiveFinisher}[/blue]点[gold]格挡[/gold]。"
+            "en": "{Infinite:cond:Whenever|The next {Charges:plural:time|[blue]{}[/blue] times}} you play a Skill, gain [blue]{DefensiveSkill}[/blue] [gold]Counter[/gold].\nWhenever a [gold]Finisher[/gold] is triggered, gain [blue]{DefensiveFinisher}[/blue] [gold]Block[/gold].",
+            "zh": "{Infinite:cond:Whenever|The next {Charges:plural:time|[blue]{}[/blue] times}} you play a Skill, gain [blue]{DefensiveSkill}[/blue] [gold]Counter[/gold].\nWhenever a [gold]Finisher[/gold] is triggered, gain [blue]{DefensiveFinisher}[/blue] [gold]Block[/gold]."
           },
           "dynamicValues": {
             "DefensiveSkill": 2,
@@ -19778,8 +19773,8 @@
             "zh": "战狂姿态"
           },
           "description": {
-            "en": "[gold]Skill Bonus[/gold]: Gain [blue]{BerserkerSkill}[/blue] [gold]Vigor[/gold].\n[gold]Finisher[/gold]: Gain [blue]{BerserkerFinisher}[/blue] [gold]Strength[/gold].",
-            "zh": "[gold]技术奖励[/gold]：获得[blue]{BerserkerSkill}[/blue]点[gold]活力[/gold]。\n[gold]终结技[/gold]：获得[blue]{BerserkerFinisher}[/blue]点[gold]力量[/gold]。"
+            "en": "{Infinite:cond:Whenever|The next {Charges:plural:time|[blue]{}[/blue] times}} you play a Skill, gain [blue]{BerserkerSkill}[/blue] [gold]Vigor[/gold].\nWhenever a [gold]Finisher[/gold] is triggered, gain [blue]{BerserkerFinisher}[/blue] [gold]Strength[/gold].",
+            "zh": "{Infinite:cond:Whenever|The next {Charges:plural:time|[blue]{}[/blue] times}} you play a Skill, gain [blue]{BerserkerSkill}[/blue] [gold]Vigor[/gold].\nWhenever a [gold]Finisher[/gold] is triggered, gain [blue]{BerserkerFinisher}[/blue] [gold]Strength[/gold]."
           },
           "dynamicValues": {
             "BerserkerSkill": 2,
@@ -19875,8 +19870,8 @@
             "zh": "战狂姿态"
           },
           "description": {
-            "en": "[gold]Skill Bonus[/gold]: Gain [blue]{BerserkerSkill}[/blue] [gold]Vigor[/gold].\n[gold]Finisher[/gold]: Gain [blue]{BerserkerFinisher}[/blue] [gold]Strength[/gold].",
-            "zh": "[gold]技术奖励[/gold]：获得[blue]{BerserkerSkill}[/blue]点[gold]活力[/gold]。\n[gold]终结技[/gold]：获得[blue]{BerserkerFinisher}[/blue]点[gold]力量[/gold]。"
+            "en": "{Infinite:cond:Whenever|The next {Charges:plural:time|[blue]{}[/blue] times}} you play a Skill, gain [blue]{BerserkerSkill}[/blue] [gold]Vigor[/gold].\nWhenever a [gold]Finisher[/gold] is triggered, gain [blue]{BerserkerFinisher}[/blue] [gold]Strength[/gold].",
+            "zh": "{Infinite:cond:Whenever|The next {Charges:plural:time|[blue]{}[/blue] times}} you play a Skill, gain [blue]{BerserkerSkill}[/blue] [gold]Vigor[/gold].\nWhenever a [gold]Finisher[/gold] is triggered, gain [blue]{BerserkerFinisher}[/blue] [gold]Strength[/gold]."
           },
           "dynamicValues": {
             "BerserkerSkill": 2,
@@ -19976,8 +19971,8 @@
             "zh": "终结技"
           },
           "description": {
-            "en": "Requires a [gold]Stance[/gold].\nAfter playing a Finisher, exit your [gold]Stance[/gold] and trigger its Finisher bonus.",
-            "zh": "处于[gold]姿态[/gold]时才能打出。\n打出终结技后，退出当前[gold]姿态[/gold]并触发终结技效果。"
+            "en": "Requires a [gold]Stance[/gold].\nAfter playing a Finisher, exit your [gold]Stance[/gold] and trigger its Finisher effect.",
+            "zh": "Requires a [gold]Stance[/gold].\nAfter playing a Finisher, exit your [gold]Stance[/gold] and trigger its Finisher effect."
           },
           "dynamicValues": {},
           "sourceValueKey": null,
@@ -20039,7 +20034,7 @@
       "isFinisher": false,
       "img": "assets/cards/chainlash.png",
       "stats": {
-        "damage": 3,
+        "damage": 5,
         "block": null,
         "magic": null,
         "secondMagic": null,
@@ -20048,16 +20043,16 @@
         "selfDamage": null
       },
       "upgradeStats": {
-        "damage": 5,
+        "damage": 7,
         "block": null
       },
       "dynamicValues": {
-        "Damage": 3,
-        "ChainLashPower": 2
-      },
-      "upgradeDynamicValues": {
         "Damage": 5,
         "ChainLashPower": 3
+      },
+      "upgradeDynamicValues": {
+        "Damage": 7,
+        "ChainLashPower": 4
       },
       "energyIcon": "assets/energy-icons/champ.png",
       "deprecated": false,
@@ -20070,8 +20065,8 @@
             "zh": "技术奖励"
           },
           "description": {
-            "en": "Whenever you play a [gold]Skill[/gold] while in a [gold]Stance[/gold], trigger that Stance's bonus effect, up to [blue]3[/blue] times.\nSkill Bonuses triggered by card effects do not count towards this limit.",
-            "zh": "处于[gold]姿态[/gold]时，打出[gold]技能牌[/gold]可获得[gold]姿态[/gold]的技术奖励，最多[blue]3[/blue]次。\n卡牌效果触发的技术奖励不受此限制。"
+            "en": "The bonus effect triggered by your current [gold]Stance[/gold] when you play a [gold]Skill[/gold].",
+            "zh": "The bonus effect triggered by your current [gold]Stance[/gold] when you play a [gold]Skill[/gold]."
           },
           "dynamicValues": {},
           "sourceValueKey": null,
@@ -20385,8 +20380,8 @@
             "zh": "防守姿态"
           },
           "description": {
-            "en": "[gold]Skill Bonus[/gold]: Gain [blue]{DefensiveSkill}[/blue] [gold]Counter[/gold].\n[gold]Finisher[/gold]: Gain [blue]{DefensiveFinisher}[/blue] [gold]Block[/gold].",
-            "zh": "[gold]技术奖励[/gold]：获得[blue]{DefensiveSkill}[/blue]层[gold]反击[/gold]。\n[gold]终结技[/gold]：获得[blue]{DefensiveFinisher}[/blue]点[gold]格挡[/gold]。"
+            "en": "{Infinite:cond:Whenever|The next {Charges:plural:time|[blue]{}[/blue] times}} you play a Skill, gain [blue]{DefensiveSkill}[/blue] [gold]Counter[/gold].\nWhenever a [gold]Finisher[/gold] is triggered, gain [blue]{DefensiveFinisher}[/blue] [gold]Block[/gold].",
+            "zh": "{Infinite:cond:Whenever|The next {Charges:plural:time|[blue]{}[/blue] times}} you play a Skill, gain [blue]{DefensiveSkill}[/blue] [gold]Counter[/gold].\nWhenever a [gold]Finisher[/gold] is triggered, gain [blue]{DefensiveFinisher}[/blue] [gold]Block[/gold]."
           },
           "dynamicValues": {
             "DefensiveSkill": 2,
@@ -20535,8 +20530,8 @@
             "zh": "终结技"
           },
           "description": {
-            "en": "Requires a [gold]Stance[/gold].\nAfter playing a Finisher, exit your [gold]Stance[/gold] and trigger its Finisher bonus.",
-            "zh": "处于[gold]姿态[/gold]时才能打出。\n打出终结技后，退出当前[gold]姿态[/gold]并触发终结技效果。"
+            "en": "Requires a [gold]Stance[/gold].\nAfter playing a Finisher, exit your [gold]Stance[/gold] and trigger its Finisher effect.",
+            "zh": "Requires a [gold]Stance[/gold].\nAfter playing a Finisher, exit your [gold]Stance[/gold] and trigger its Finisher effect."
           },
           "dynamicValues": {},
           "sourceValueKey": null,
@@ -20735,8 +20730,8 @@
             "zh": "战狂姿态"
           },
           "description": {
-            "en": "[gold]Skill Bonus[/gold]: Gain [blue]{BerserkerSkill}[/blue] [gold]Vigor[/gold].\n[gold]Finisher[/gold]: Gain [blue]{BerserkerFinisher}[/blue] [gold]Strength[/gold].",
-            "zh": "[gold]技术奖励[/gold]：获得[blue]{BerserkerSkill}[/blue]点[gold]活力[/gold]。\n[gold]终结技[/gold]：获得[blue]{BerserkerFinisher}[/blue]点[gold]力量[/gold]。"
+            "en": "{Infinite:cond:Whenever|The next {Charges:plural:time|[blue]{}[/blue] times}} you play a Skill, gain [blue]{BerserkerSkill}[/blue] [gold]Vigor[/gold].\nWhenever a [gold]Finisher[/gold] is triggered, gain [blue]{BerserkerFinisher}[/blue] [gold]Strength[/gold].",
+            "zh": "{Infinite:cond:Whenever|The next {Charges:plural:time|[blue]{}[/blue] times}} you play a Skill, gain [blue]{BerserkerSkill}[/blue] [gold]Vigor[/gold].\nWhenever a [gold]Finisher[/gold] is triggered, gain [blue]{BerserkerFinisher}[/blue] [gold]Strength[/gold]."
           },
           "dynamicValues": {
             "BerserkerSkill": 2,
@@ -20762,8 +20757,8 @@
         "zh": "战技大师"
       },
       "description": {
-        "en": "The first time you use a [gold]Finisher[/gold] each turn, gain {Energy:energyIcons()} and draw a card.",
-        "zh": "每回合第一次使用[gold]终结技[/gold]时，获得{Energy:energyIcons()}并抽1张牌。"
+        "en": "The first time you play a [gold]Finisher[/gold] each turn, gain {Energy:energyIcons()} and draw a card.",
+        "zh": "你每回合第一次打出[gold]终结技[/gold]时，获得{Energy:energyIcons()}并抽1张牌。"
       },
       "upgradeDescription": {
         "en": "",
@@ -20822,8 +20817,8 @@
             "zh": "终结技"
           },
           "description": {
-            "en": "Requires a [gold]Stance[/gold].\nAfter playing a Finisher, exit your [gold]Stance[/gold] and trigger its Finisher bonus.",
-            "zh": "处于[gold]姿态[/gold]时才能打出。\n打出终结技后，退出当前[gold]姿态[/gold]并触发终结技效果。"
+            "en": "Requires a [gold]Stance[/gold].\nAfter playing a Finisher, exit your [gold]Stance[/gold] and trigger its Finisher effect.",
+            "zh": "Requires a [gold]Stance[/gold].\nAfter playing a Finisher, exit your [gold]Stance[/gold] and trigger its Finisher effect."
           },
           "dynamicValues": {},
           "sourceValueKey": null,
@@ -21102,8 +21097,8 @@
             "zh": "防守姿态"
           },
           "description": {
-            "en": "[gold]Skill Bonus[/gold]: Gain [blue]{DefensiveSkill}[/blue] [gold]Counter[/gold].\n[gold]Finisher[/gold]: Gain [blue]{DefensiveFinisher}[/blue] [gold]Block[/gold].",
-            "zh": "[gold]技术奖励[/gold]：获得[blue]{DefensiveSkill}[/blue]层[gold]反击[/gold]。\n[gold]终结技[/gold]：获得[blue]{DefensiveFinisher}[/blue]点[gold]格挡[/gold]。"
+            "en": "{Infinite:cond:Whenever|The next {Charges:plural:time|[blue]{}[/blue] times}} you play a Skill, gain [blue]{DefensiveSkill}[/blue] [gold]Counter[/gold].\nWhenever a [gold]Finisher[/gold] is triggered, gain [blue]{DefensiveFinisher}[/blue] [gold]Block[/gold].",
+            "zh": "{Infinite:cond:Whenever|The next {Charges:plural:time|[blue]{}[/blue] times}} you play a Skill, gain [blue]{DefensiveSkill}[/blue] [gold]Counter[/gold].\nWhenever a [gold]Finisher[/gold] is triggered, gain [blue]{DefensiveFinisher}[/blue] [gold]Block[/gold]."
           },
           "dynamicValues": {
             "DefensiveSkill": 2,
@@ -21306,8 +21301,8 @@
             "zh": "终结技"
           },
           "description": {
-            "en": "Requires a [gold]Stance[/gold].\nAfter playing a Finisher, exit your [gold]Stance[/gold] and trigger its Finisher bonus.",
-            "zh": "处于[gold]姿态[/gold]时才能打出。\n打出终结技后，退出当前[gold]姿态[/gold]并触发终结技效果。"
+            "en": "Requires a [gold]Stance[/gold].\nAfter playing a Finisher, exit your [gold]Stance[/gold] and trigger its Finisher effect.",
+            "zh": "Requires a [gold]Stance[/gold].\nAfter playing a Finisher, exit your [gold]Stance[/gold] and trigger its Finisher effect."
           },
           "dynamicValues": {},
           "sourceValueKey": null,
@@ -21348,7 +21343,7 @@
         "en": "The Champ",
         "zh": "第一勇士"
       },
-      "cost": 2,
+      "cost": 1,
       "upgradeCost": null,
       "canUpgrade": true,
       "target": "Self",
@@ -21386,8 +21381,8 @@
             "zh": "技术奖励"
           },
           "description": {
-            "en": "Whenever you play a [gold]Skill[/gold] while in a [gold]Stance[/gold], trigger that Stance's bonus effect, up to [blue]3[/blue] times.\nSkill Bonuses triggered by card effects do not count towards this limit.",
-            "zh": "处于[gold]姿态[/gold]时，打出[gold]技能牌[/gold]可获得[gold]姿态[/gold]的技术奖励，最多[blue]3[/blue]次。\n卡牌效果触发的技术奖励不受此限制。"
+            "en": "The bonus effect triggered by your current [gold]Stance[/gold] when you play a [gold]Skill[/gold].",
+            "zh": "The bonus effect triggered by your current [gold]Stance[/gold] when you play a [gold]Skill[/gold]."
           },
           "dynamicValues": {},
           "sourceValueKey": null,
@@ -21538,8 +21533,8 @@
             "zh": "终结技"
           },
           "description": {
-            "en": "Requires a [gold]Stance[/gold].\nAfter playing a Finisher, exit your [gold]Stance[/gold] and trigger its Finisher bonus.",
-            "zh": "处于[gold]姿态[/gold]时才能打出。\n打出终结技后，退出当前[gold]姿态[/gold]并触发终结技效果。"
+            "en": "Requires a [gold]Stance[/gold].\nAfter playing a Finisher, exit your [gold]Stance[/gold] and trigger its Finisher effect.",
+            "zh": "Requires a [gold]Stance[/gold].\nAfter playing a Finisher, exit your [gold]Stance[/gold] and trigger its Finisher effect."
           },
           "dynamicValues": {},
           "sourceValueKey": null,
@@ -21571,8 +21566,8 @@
         "zh": "附魔金冠"
       },
       "description": {
-        "en": "[gold]Enchant[/gold] a card in [gold]Hand[/gold] with [purple]Crowned[/purple].",
-        "zh": "为[gold]手牌[/gold]中的一张牌[gold]附魔[/gold][purple]加冕[/purple]。"
+        "en": "[gold]Enchant[/gold] a card in your [gold]Hand[/gold] with [purple]Crowned[/purple].",
+        "zh": "为你[gold]手牌[/gold]中的一张牌[gold]附魔[/gold][purple]加冕[/purple]。"
       },
       "upgradeDescription": {
         "en": "",
@@ -21676,8 +21671,8 @@
         "zh": "附魔坚盾"
       },
       "description": {
-        "en": "[gold]Enchant[/gold] a Skill in [gold]Hand[/gold] with [purple]Sturdy[/purple].",
-        "zh": "为[gold]手牌[/gold]中的一张技能牌[gold]附魔[/gold][purple]坚固[/purple]。"
+        "en": "[gold]Enchant[/gold] a card in your [gold]Hand[/gold] with [purple]Nimble[/purple] {Nimble:diff()}.",
+        "zh": "为你[gold]手牌[/gold]中的一张牌[gold]附魔[/gold][purple]灵巧[/purple]{Nimble:diff()}。"
       },
       "upgradeDescription": {
         "en": "",
@@ -21694,9 +21689,9 @@
         "en": "The Champ",
         "zh": "第一勇士"
       },
-      "cost": 2,
+      "cost": 1,
       "upgradeCost": null,
-      "canUpgrade": true,
+      "canUpgrade": false,
       "target": "Self",
       "isFinisher": false,
       "img": "assets/cards/enchantshield.png",
@@ -21732,36 +21727,13 @@
           "dynamicValues": {},
           "sourceValueKey": null,
           "icon": null
-        },
-        {
-          "id": "Ethereal",
-          "name": {
-            "en": "Ethereal",
-            "zh": "虚无"
-          },
-          "description": {
-            "en": "If this card is in your [gold]Hand[/gold] at the end of this turn, it is [gold]Exhausted[/gold].",
-            "zh": "如果这张牌在这个回合结束时留在你的[gold]手牌[/gold]中，则将其[gold]消耗[/gold]。"
-          },
-          "dynamicValues": {},
-          "sourceValueKey": null,
-          "icon": null
         }
       ],
       "visualColor": "CHAMP",
       "hasConjure": false,
       "isSpell": false,
       "attachedCardTips": [],
-      "descriptionKeywordPrefix": [
-        {
-          "mode": "remove",
-          "style": null,
-          "label": {
-            "en": "Ethereal.",
-            "zh": "虚无。"
-          }
-        }
-      ],
+      "descriptionKeywordPrefix": [],
       "descriptionKeywordSuffix": [
         {
           "mode": "always",
@@ -21781,8 +21753,8 @@
         "zh": "附魔利剑"
       },
       "description": {
-        "en": "[gold]Enchant[/gold] an Attack in [gold]Hand[/gold] with [purple]Instinct[/purple].",
-        "zh": "为[gold]手牌[/gold]中的一张攻击牌[gold]附魔[/gold][purple]本能[/purple]。"
+        "en": "[gold]Enchant[/gold] a card in your [gold]Hand[/gold] with [purple]Sharp[/purple] {Sharp:diff()}.",
+        "zh": "为[gold]手牌[/gold]中的一张牌[gold]附魔[/gold][purple]锋利[/purple]{Sharp:diff()}。"
       },
       "upgradeDescription": {
         "en": "",
@@ -21799,9 +21771,9 @@
         "en": "The Champ",
         "zh": "第一勇士"
       },
-      "cost": 2,
+      "cost": 1,
       "upgradeCost": null,
-      "canUpgrade": true,
+      "canUpgrade": false,
       "target": "Self",
       "isFinisher": false,
       "img": "assets/cards/enchantsword.png",
@@ -21837,36 +21809,13 @@
           "dynamicValues": {},
           "sourceValueKey": null,
           "icon": null
-        },
-        {
-          "id": "Ethereal",
-          "name": {
-            "en": "Ethereal",
-            "zh": "虚无"
-          },
-          "description": {
-            "en": "If this card is in your [gold]Hand[/gold] at the end of this turn, it is [gold]Exhausted[/gold].",
-            "zh": "如果这张牌在这个回合结束时留在你的[gold]手牌[/gold]中，则将其[gold]消耗[/gold]。"
-          },
-          "dynamicValues": {},
-          "sourceValueKey": null,
-          "icon": null
         }
       ],
       "visualColor": "CHAMP",
       "hasConjure": false,
       "isSpell": false,
       "attachedCardTips": [],
-      "descriptionKeywordPrefix": [
-        {
-          "mode": "remove",
-          "style": null,
-          "label": {
-            "en": "Ethereal.",
-            "zh": "虚无。"
-          }
-        }
-      ],
+      "descriptionKeywordPrefix": [],
       "descriptionKeywordSuffix": [
         {
           "mode": "always",
@@ -21942,8 +21891,8 @@
             "zh": "终极姿态"
           },
           "description": {
-            "en": "[gold]Skill Bonus[/gold]: Gain [blue]{BerserkerSkill}[/blue] [gold]Vigor[/gold] and [blue]{DefensiveSkill}[/blue] [gold]Counter[/gold].\n[gold]Finisher[/gold]: Gain [blue]{BerserkerFinisher}[/blue] [gold]Strength[/gold] and [blue]{DefensiveFinisher}[/blue] [gold]Block[/gold].",
-            "zh": "[gold]技术奖励[/gold]：获得[blue]{BerserkerSkill}[/blue]点[gold]活力[/gold]和[blue]{DefensiveSkill}[/blue]层[gold]反击[/gold]。\n[gold]终结技[/gold]：获得[blue]{BerserkerFinisher}[/blue]点[gold]力量[/gold]和[blue]{DefensiveFinisher}[/blue]点[gold]格挡[/gold]。"
+            "en": "{Infinite:cond:Whenever|The next {Charges:plural:time|[blue]{}[/blue] times}} you play a Skill, gain [blue]{BerserkerSkill}[/blue] [gold]Vigor[/gold] and [blue]{DefensiveSkill}[/blue] [gold]Counter[/gold].\nWhenever a [gold]Finisher[/gold] is triggered, gain [blue]{BerserkerFinisher}[/blue] [gold]Strength[/gold] and [blue]{DefensiveFinisher}[/blue] [gold]Block[/gold].",
+            "zh": "{Infinite:cond:Whenever|The next {Charges:plural:time|[blue]{}[/blue] times}} you play a Skill, gain [blue]{BerserkerSkill}[/blue] [gold]Vigor[/gold] and [blue]{DefensiveSkill}[/blue] [gold]Counter[/gold].\nWhenever a [gold]Finisher[/gold] is triggered, gain [blue]{BerserkerFinisher}[/blue] [gold]Strength[/gold] and [blue]{DefensiveFinisher}[/blue] [gold]Block[/gold]."
           },
           "dynamicValues": {
             "BerserkerSkill": 2,
@@ -22027,8 +21976,8 @@
             "zh": "防守姿态"
           },
           "description": {
-            "en": "[gold]Skill Bonus[/gold]: Gain [blue]{DefensiveSkill}[/blue] [gold]Counter[/gold].\n[gold]Finisher[/gold]: Gain [blue]{DefensiveFinisher}[/blue] [gold]Block[/gold].",
-            "zh": "[gold]技术奖励[/gold]：获得[blue]{DefensiveSkill}[/blue]层[gold]反击[/gold]。\n[gold]终结技[/gold]：获得[blue]{DefensiveFinisher}[/blue]点[gold]格挡[/gold]。"
+            "en": "{Infinite:cond:Whenever|The next {Charges:plural:time|[blue]{}[/blue] times}} you play a Skill, gain [blue]{DefensiveSkill}[/blue] [gold]Counter[/gold].\nWhenever a [gold]Finisher[/gold] is triggered, gain [blue]{DefensiveFinisher}[/blue] [gold]Block[/gold].",
+            "zh": "{Infinite:cond:Whenever|The next {Charges:plural:time|[blue]{}[/blue] times}} you play a Skill, gain [blue]{DefensiveSkill}[/blue] [gold]Counter[/gold].\nWhenever a [gold]Finisher[/gold] is triggered, gain [blue]{DefensiveFinisher}[/blue] [gold]Block[/gold]."
           },
           "dynamicValues": {
             "DefensiveSkill": 2,
@@ -22138,8 +22087,8 @@
             "zh": "战狂姿态"
           },
           "description": {
-            "en": "[gold]Skill Bonus[/gold]: Gain [blue]{BerserkerSkill}[/blue] [gold]Vigor[/gold].\n[gold]Finisher[/gold]: Gain [blue]{BerserkerFinisher}[/blue] [gold]Strength[/gold].",
-            "zh": "[gold]技术奖励[/gold]：获得[blue]{BerserkerSkill}[/blue]点[gold]活力[/gold]。\n[gold]终结技[/gold]：获得[blue]{BerserkerFinisher}[/blue]点[gold]力量[/gold]。"
+            "en": "{Infinite:cond:Whenever|The next {Charges:plural:time|[blue]{}[/blue] times}} you play a Skill, gain [blue]{BerserkerSkill}[/blue] [gold]Vigor[/gold].\nWhenever a [gold]Finisher[/gold] is triggered, gain [blue]{BerserkerFinisher}[/blue] [gold]Strength[/gold].",
+            "zh": "{Infinite:cond:Whenever|The next {Charges:plural:time|[blue]{}[/blue] times}} you play a Skill, gain [blue]{BerserkerSkill}[/blue] [gold]Vigor[/gold].\nWhenever a [gold]Finisher[/gold] is triggered, gain [blue]{BerserkerFinisher}[/blue] [gold]Strength[/gold]."
           },
           "dynamicValues": {
             "BerserkerSkill": 2,
@@ -22283,12 +22232,10 @@
         "block": null
       },
       "dynamicValues": {
-        "Damage": 6,
-        "HitCount": 2
+        "Damage": 6
       },
       "upgradeDynamicValues": {
-        "Damage": 9,
-        "HitCount": 2
+        "Damage": 9
       },
       "energyIcon": "assets/energy-icons/champ.png",
       "deprecated": false,
@@ -22305,8 +22252,8 @@
             "zh": "终结技"
           },
           "description": {
-            "en": "Requires a [gold]Stance[/gold].\nAfter playing a Finisher, exit your [gold]Stance[/gold] and trigger its Finisher bonus.",
-            "zh": "处于[gold]姿态[/gold]时才能打出。\n打出终结技后，退出当前[gold]姿态[/gold]并触发终结技效果。"
+            "en": "Requires a [gold]Stance[/gold].\nAfter playing a Finisher, exit your [gold]Stance[/gold] and trigger its Finisher effect.",
+            "zh": "Requires a [gold]Stance[/gold].\nAfter playing a Finisher, exit your [gold]Stance[/gold] and trigger its Finisher effect."
           },
           "dynamicValues": {},
           "sourceValueKey": null,
@@ -22383,28 +22330,14 @@
       },
       "attachedTips": [
         {
-          "id": "CHAMP-STANCE",
-          "name": {
-            "en": "Stance",
-            "zh": "姿态"
-          },
-          "description": {
-            "en": "You may have only one Stance at a time.",
-            "zh": "你同一时间只能拥有一个姿态。"
-          },
-          "dynamicValues": {},
-          "sourceValueKey": null,
-          "icon": null
-        },
-        {
           "id": "CHAMP-FINISHER",
           "name": {
             "en": "Finisher",
             "zh": "终结技"
           },
           "description": {
-            "en": "Requires a [gold]Stance[/gold].\nAfter playing a Finisher, exit your [gold]Stance[/gold] and trigger its Finisher bonus.",
-            "zh": "处于[gold]姿态[/gold]时才能打出。\n打出终结技后，退出当前[gold]姿态[/gold]并触发终结技效果。"
+            "en": "Requires a [gold]Stance[/gold].\nAfter playing a Finisher, exit your [gold]Stance[/gold] and trigger its Finisher effect.",
+            "zh": "Requires a [gold]Stance[/gold].\nAfter playing a Finisher, exit your [gold]Stance[/gold] and trigger its Finisher effect."
           },
           "dynamicValues": {},
           "sourceValueKey": null,
@@ -22497,8 +22430,8 @@
             "zh": "战狂姿态"
           },
           "description": {
-            "en": "[gold]Skill Bonus[/gold]: Gain [blue]{BerserkerSkill}[/blue] [gold]Vigor[/gold].\n[gold]Finisher[/gold]: Gain [blue]{BerserkerFinisher}[/blue] [gold]Strength[/gold].",
-            "zh": "[gold]技术奖励[/gold]：获得[blue]{BerserkerSkill}[/blue]点[gold]活力[/gold]。\n[gold]终结技[/gold]：获得[blue]{BerserkerFinisher}[/blue]点[gold]力量[/gold]。"
+            "en": "{Infinite:cond:Whenever|The next {Charges:plural:time|[blue]{}[/blue] times}} you play a Skill, gain [blue]{BerserkerSkill}[/blue] [gold]Vigor[/gold].\nWhenever a [gold]Finisher[/gold] is triggered, gain [blue]{BerserkerFinisher}[/blue] [gold]Strength[/gold].",
+            "zh": "{Infinite:cond:Whenever|The next {Charges:plural:time|[blue]{}[/blue] times}} you play a Skill, gain [blue]{BerserkerSkill}[/blue] [gold]Vigor[/gold].\nWhenever a [gold]Finisher[/gold] is triggered, gain [blue]{BerserkerFinisher}[/blue] [gold]Strength[/gold]."
           },
           "dynamicValues": {
             "BerserkerSkill": 2,
@@ -22590,28 +22523,14 @@
       },
       "attachedTips": [
         {
-          "id": "CHAMP-STANCE",
-          "name": {
-            "en": "Stance",
-            "zh": "姿态"
-          },
-          "description": {
-            "en": "You may have only one Stance at a time.",
-            "zh": "你同一时间只能拥有一个姿态。"
-          },
-          "dynamicValues": {},
-          "sourceValueKey": null,
-          "icon": null
-        },
-        {
           "id": "CHAMP-FINISHER",
           "name": {
             "en": "Finisher",
             "zh": "终结技"
           },
           "description": {
-            "en": "Requires a [gold]Stance[/gold].\nAfter playing a Finisher, exit your [gold]Stance[/gold] and trigger its Finisher bonus.",
-            "zh": "处于[gold]姿态[/gold]时才能打出。\n打出终结技后，退出当前[gold]姿态[/gold]并触发终结技效果。"
+            "en": "Requires a [gold]Stance[/gold].\nAfter playing a Finisher, exit your [gold]Stance[/gold] and trigger its Finisher effect.",
+            "zh": "Requires a [gold]Stance[/gold].\nAfter playing a Finisher, exit your [gold]Stance[/gold] and trigger its Finisher effect."
           },
           "dynamicValues": {},
           "sourceValueKey": null,
@@ -22716,8 +22635,8 @@
             "zh": "战狂姿态"
           },
           "description": {
-            "en": "[gold]Skill Bonus[/gold]: Gain [blue]{BerserkerSkill}[/blue] [gold]Vigor[/gold].\n[gold]Finisher[/gold]: Gain [blue]{BerserkerFinisher}[/blue] [gold]Strength[/gold].",
-            "zh": "[gold]技术奖励[/gold]：获得[blue]{BerserkerSkill}[/blue]点[gold]活力[/gold]。\n[gold]终结技[/gold]：获得[blue]{BerserkerFinisher}[/blue]点[gold]力量[/gold]。"
+            "en": "{Infinite:cond:Whenever|The next {Charges:plural:time|[blue]{}[/blue] times}} you play a Skill, gain [blue]{BerserkerSkill}[/blue] [gold]Vigor[/gold].\nWhenever a [gold]Finisher[/gold] is triggered, gain [blue]{BerserkerFinisher}[/blue] [gold]Strength[/gold].",
+            "zh": "{Infinite:cond:Whenever|The next {Charges:plural:time|[blue]{}[/blue] times}} you play a Skill, gain [blue]{BerserkerSkill}[/blue] [gold]Vigor[/gold].\nWhenever a [gold]Finisher[/gold] is triggered, gain [blue]{BerserkerFinisher}[/blue] [gold]Strength[/gold]."
           },
           "dynamicValues": {
             "BerserkerSkill": 2,
@@ -22743,8 +22662,8 @@
         "zh": "迅疾打击"
       },
       "description": {
-        "en": "Deal {Damage:diff()} damage.\n[gold]Defensive Combo[/gold]:\nGain {CounterPower:diff()} [gold]Counter[/gold] and {Block:diff()} [gold]Block[/gold]. ",
-        "zh": "造成{Damage:diff()}点伤害。\n[gold]防守连段[/gold]：\n获得{CounterPower:diff()}点[gold]反击[/gold]和{Block:diff()}点[gold]格挡[/gold]。"
+        "en": "Deal {Damage:diff()} damage.\n[gold]Defensive Combo[/gold]:\nGain {CounterPower:diff()} [gold]Counter[/gold].",
+        "zh": "造成{Damage:diff()}点伤害。\n[gold]防守连段[/gold]：\n获得{CounterPower:diff()}点[gold]反击[/gold]。"
       },
       "upgradeDescription": {
         "en": "",
@@ -22769,7 +22688,7 @@
       "img": "assets/cards/flashstrike.png",
       "stats": {
         "damage": 6,
-        "block": 5,
+        "block": null,
         "magic": null,
         "secondMagic": null,
         "thirdMagic": null,
@@ -22778,17 +22697,15 @@
       },
       "upgradeStats": {
         "damage": 9,
-        "block": 5
+        "block": null
       },
       "dynamicValues": {
         "Damage": 6,
-        "Block": 5,
-        "CounterPower": 4
+        "CounterPower": 6
       },
       "upgradeDynamicValues": {
         "Damage": 9,
-        "Block": 7,
-        "CounterPower": 6
+        "CounterPower": 9
       },
       "energyIcon": "assets/energy-icons/champ.png",
       "deprecated": false,
@@ -22815,8 +22732,8 @@
             "zh": "防守姿态"
           },
           "description": {
-            "en": "[gold]Skill Bonus[/gold]: Gain [blue]{DefensiveSkill}[/blue] [gold]Counter[/gold].\n[gold]Finisher[/gold]: Gain [blue]{DefensiveFinisher}[/blue] [gold]Block[/gold].",
-            "zh": "[gold]技术奖励[/gold]：获得[blue]{DefensiveSkill}[/blue]层[gold]反击[/gold]。\n[gold]终结技[/gold]：获得[blue]{DefensiveFinisher}[/blue]点[gold]格挡[/gold]。"
+            "en": "{Infinite:cond:Whenever|The next {Charges:plural:time|[blue]{}[/blue] times}} you play a Skill, gain [blue]{DefensiveSkill}[/blue] [gold]Counter[/gold].\nWhenever a [gold]Finisher[/gold] is triggered, gain [blue]{DefensiveFinisher}[/blue] [gold]Block[/gold].",
+            "zh": "{Infinite:cond:Whenever|The next {Charges:plural:time|[blue]{}[/blue] times}} you play a Skill, gain [blue]{DefensiveSkill}[/blue] [gold]Counter[/gold].\nWhenever a [gold]Finisher[/gold] is triggered, gain [blue]{DefensiveFinisher}[/blue] [gold]Block[/gold]."
           },
           "dynamicValues": {
             "DefensiveSkill": 2,
@@ -22902,22 +22819,7 @@
       "energyIcon": "assets/energy-icons/champ.png",
       "deprecated": false,
       "notInPool": false,
-      "attachedTips": [
-        {
-          "id": "CHAMP-STANCE",
-          "name": {
-            "en": "Stance",
-            "zh": "姿态"
-          },
-          "description": {
-            "en": "You may have only one Stance at a time.",
-            "zh": "你同一时间只能拥有一个姿态。"
-          },
-          "dynamicValues": {},
-          "sourceValueKey": null,
-          "icon": null
-        }
-      ],
+      "attachedTips": [],
       "visualColor": "CHAMP",
       "hasConjure": false,
       "isSpell": false,
@@ -23105,8 +23007,8 @@
             "zh": "战狂姿态"
           },
           "description": {
-            "en": "[gold]Skill Bonus[/gold]: Gain [blue]{BerserkerSkill}[/blue] [gold]Vigor[/gold].\n[gold]Finisher[/gold]: Gain [blue]{BerserkerFinisher}[/blue] [gold]Strength[/gold].",
-            "zh": "[gold]技术奖励[/gold]：获得[blue]{BerserkerSkill}[/blue]点[gold]活力[/gold]。\n[gold]终结技[/gold]：获得[blue]{BerserkerFinisher}[/blue]点[gold]力量[/gold]。"
+            "en": "{Infinite:cond:Whenever|The next {Charges:plural:time|[blue]{}[/blue] times}} you play a Skill, gain [blue]{BerserkerSkill}[/blue] [gold]Vigor[/gold].\nWhenever a [gold]Finisher[/gold] is triggered, gain [blue]{BerserkerFinisher}[/blue] [gold]Strength[/gold].",
+            "zh": "{Infinite:cond:Whenever|The next {Charges:plural:time|[blue]{}[/blue] times}} you play a Skill, gain [blue]{BerserkerSkill}[/blue] [gold]Vigor[/gold].\nWhenever a [gold]Finisher[/gold] is triggered, gain [blue]{BerserkerFinisher}[/blue] [gold]Strength[/gold]."
           },
           "dynamicValues": {
             "BerserkerSkill": 2,
@@ -23122,8 +23024,8 @@
             "zh": "防守姿态"
           },
           "description": {
-            "en": "[gold]Skill Bonus[/gold]: Gain [blue]{DefensiveSkill}[/blue] [gold]Counter[/gold].\n[gold]Finisher[/gold]: Gain [blue]{DefensiveFinisher}[/blue] [gold]Block[/gold].",
-            "zh": "[gold]技术奖励[/gold]：获得[blue]{DefensiveSkill}[/blue]层[gold]反击[/gold]。\n[gold]终结技[/gold]：获得[blue]{DefensiveFinisher}[/blue]点[gold]格挡[/gold]。"
+            "en": "{Infinite:cond:Whenever|The next {Charges:plural:time|[blue]{}[/blue] times}} you play a Skill, gain [blue]{DefensiveSkill}[/blue] [gold]Counter[/gold].\nWhenever a [gold]Finisher[/gold] is triggered, gain [blue]{DefensiveFinisher}[/blue] [gold]Block[/gold].",
+            "zh": "{Infinite:cond:Whenever|The next {Charges:plural:time|[blue]{}[/blue] times}} you play a Skill, gain [blue]{DefensiveSkill}[/blue] [gold]Counter[/gold].\nWhenever a [gold]Finisher[/gold] is triggered, gain [blue]{DefensiveFinisher}[/blue] [gold]Block[/gold]."
           },
           "dynamicValues": {
             "DefensiveSkill": 2,
@@ -23235,8 +23137,8 @@
             "zh": "终结技"
           },
           "description": {
-            "en": "Requires a [gold]Stance[/gold].\nAfter playing a Finisher, exit your [gold]Stance[/gold] and trigger its Finisher bonus.",
-            "zh": "处于[gold]姿态[/gold]时才能打出。\n打出终结技后，退出当前[gold]姿态[/gold]并触发终结技效果。"
+            "en": "Requires a [gold]Stance[/gold].\nAfter playing a Finisher, exit your [gold]Stance[/gold] and trigger its Finisher effect.",
+            "zh": "Requires a [gold]Stance[/gold].\nAfter playing a Finisher, exit your [gold]Stance[/gold] and trigger its Finisher effect."
           },
           "dynamicValues": {},
           "sourceValueKey": null,
@@ -23313,8 +23215,8 @@
             "zh": "终极姿态"
           },
           "description": {
-            "en": "[gold]Skill Bonus[/gold]: Gain [blue]{BerserkerSkill}[/blue] [gold]Vigor[/gold] and [blue]{DefensiveSkill}[/blue] [gold]Counter[/gold].\n[gold]Finisher[/gold]: Gain [blue]{BerserkerFinisher}[/blue] [gold]Strength[/gold] and [blue]{DefensiveFinisher}[/blue] [gold]Block[/gold].",
-            "zh": "[gold]技术奖励[/gold]：获得[blue]{BerserkerSkill}[/blue]点[gold]活力[/gold]和[blue]{DefensiveSkill}[/blue]层[gold]反击[/gold]。\n[gold]终结技[/gold]：获得[blue]{BerserkerFinisher}[/blue]点[gold]力量[/gold]和[blue]{DefensiveFinisher}[/blue]点[gold]格挡[/gold]。"
+            "en": "{Infinite:cond:Whenever|The next {Charges:plural:time|[blue]{}[/blue] times}} you play a Skill, gain [blue]{BerserkerSkill}[/blue] [gold]Vigor[/gold] and [blue]{DefensiveSkill}[/blue] [gold]Counter[/gold].\nWhenever a [gold]Finisher[/gold] is triggered, gain [blue]{BerserkerFinisher}[/blue] [gold]Strength[/gold] and [blue]{DefensiveFinisher}[/blue] [gold]Block[/gold].",
+            "zh": "{Infinite:cond:Whenever|The next {Charges:plural:time|[blue]{}[/blue] times}} you play a Skill, gain [blue]{BerserkerSkill}[/blue] [gold]Vigor[/gold] and [blue]{DefensiveSkill}[/blue] [gold]Counter[/gold].\nWhenever a [gold]Finisher[/gold] is triggered, gain [blue]{BerserkerFinisher}[/blue] [gold]Strength[/gold] and [blue]{DefensiveFinisher}[/blue] [gold]Block[/gold]."
           },
           "dynamicValues": {
             "BerserkerSkill": 2,
@@ -23398,8 +23300,8 @@
             "zh": "终极姿态"
           },
           "description": {
-            "en": "[gold]Skill Bonus[/gold]: Gain [blue]{BerserkerSkill}[/blue] [gold]Vigor[/gold] and [blue]{DefensiveSkill}[/blue] [gold]Counter[/gold].\n[gold]Finisher[/gold]: Gain [blue]{BerserkerFinisher}[/blue] [gold]Strength[/gold] and [blue]{DefensiveFinisher}[/blue] [gold]Block[/gold].",
-            "zh": "[gold]技术奖励[/gold]：获得[blue]{BerserkerSkill}[/blue]点[gold]活力[/gold]和[blue]{DefensiveSkill}[/blue]层[gold]反击[/gold]。\n[gold]终结技[/gold]：获得[blue]{BerserkerFinisher}[/blue]点[gold]力量[/gold]和[blue]{DefensiveFinisher}[/blue]点[gold]格挡[/gold]。"
+            "en": "{Infinite:cond:Whenever|The next {Charges:plural:time|[blue]{}[/blue] times}} you play a Skill, gain [blue]{BerserkerSkill}[/blue] [gold]Vigor[/gold] and [blue]{DefensiveSkill}[/blue] [gold]Counter[/gold].\nWhenever a [gold]Finisher[/gold] is triggered, gain [blue]{BerserkerFinisher}[/blue] [gold]Strength[/gold] and [blue]{DefensiveFinisher}[/blue] [gold]Block[/gold].",
+            "zh": "{Infinite:cond:Whenever|The next {Charges:plural:time|[blue]{}[/blue] times}} you play a Skill, gain [blue]{BerserkerSkill}[/blue] [gold]Vigor[/gold] and [blue]{DefensiveSkill}[/blue] [gold]Counter[/gold].\nWhenever a [gold]Finisher[/gold] is triggered, gain [blue]{BerserkerFinisher}[/blue] [gold]Strength[/gold] and [blue]{DefensiveFinisher}[/blue] [gold]Block[/gold]."
           },
           "dynamicValues": {
             "BerserkerSkill": 2,
@@ -23586,8 +23488,8 @@
         "zh": "磨刃"
       },
       "description": {
-        "en": "Your \"Strike\" cards deal {HoneBladePower:diff()} more damage. ",
-        "zh": "你的“打击”牌额外造成{HoneBladePower:diff()}点伤害。"
+        "en": "Your \"Strike\" cards deal {HoneBladePower:diff()} additional damage. ",
+        "zh": "Your \"Strike\" cards deal {HoneBladePower:diff()} additional damage. "
       },
       "upgradeDescription": {
         "en": "",
@@ -23624,10 +23526,10 @@
         "block": null
       },
       "dynamicValues": {
-        "HoneBladePower": 3
+        "HoneBladePower": 4
       },
       "upgradeDynamicValues": {
-        "HoneBladePower": 4
+        "HoneBladePower": 5
       },
       "energyIcon": "assets/energy-icons/champ.png",
       "deprecated": false,
@@ -23761,7 +23663,7 @@
         "zh": "第一勇士"
       },
       "cost": 3,
-      "upgradeCost": 2,
+      "upgradeCost": null,
       "canUpgrade": true,
       "target": "Self",
       "isFinisher": true,
@@ -23794,6 +23696,20 @@
       },
       "attachedTips": [
         {
+          "id": "Ethereal",
+          "name": {
+            "en": "Ethereal",
+            "zh": "虚无"
+          },
+          "description": {
+            "en": "If this card is in your [gold]Hand[/gold] at the end of this turn, it is [gold]Exhausted[/gold].",
+            "zh": "如果这张牌在这个回合结束时留在你的[gold]手牌[/gold]中，则将其[gold]消耗[/gold]。"
+          },
+          "dynamicValues": {},
+          "sourceValueKey": null,
+          "icon": null
+        },
+        {
           "id": "Exhaust",
           "name": {
             "en": "Exhaust",
@@ -23814,8 +23730,8 @@
             "zh": "终结技"
           },
           "description": {
-            "en": "Requires a [gold]Stance[/gold].\nAfter playing a Finisher, exit your [gold]Stance[/gold] and trigger its Finisher bonus.",
-            "zh": "处于[gold]姿态[/gold]时才能打出。\n打出终结技后，退出当前[gold]姿态[/gold]并触发终结技效果。"
+            "en": "Requires a [gold]Stance[/gold].\nAfter playing a Finisher, exit your [gold]Stance[/gold] and trigger its Finisher effect.",
+            "zh": "Requires a [gold]Stance[/gold].\nAfter playing a Finisher, exit your [gold]Stance[/gold] and trigger its Finisher effect."
           },
           "dynamicValues": {},
           "sourceValueKey": null,
@@ -23840,7 +23756,16 @@
       "hasConjure": false,
       "isSpell": false,
       "attachedCardTips": [],
-      "descriptionKeywordPrefix": [],
+      "descriptionKeywordPrefix": [
+        {
+          "mode": "remove",
+          "style": null,
+          "label": {
+            "en": "Ethereal.",
+            "zh": "虚无。"
+          }
+        }
+      ],
       "descriptionKeywordSuffix": [
         {
           "mode": "always",
@@ -23908,28 +23833,14 @@
       "notInPool": false,
       "attachedTips": [
         {
-          "id": "CHAMP-STANCE",
-          "name": {
-            "en": "Stance",
-            "zh": "姿态"
-          },
-          "description": {
-            "en": "You may have only one Stance at a time.",
-            "zh": "你同一时间只能拥有一个姿态。"
-          },
-          "dynamicValues": {},
-          "sourceValueKey": null,
-          "icon": null
-        },
-        {
           "id": "CHAMP-TRIGGER_SKILL_BONUS",
           "name": {
             "en": "Skill Bonus",
             "zh": "技术奖励"
           },
           "description": {
-            "en": "Whenever you play a [gold]Skill[/gold] while in a [gold]Stance[/gold], trigger that Stance's bonus effect, up to [blue]3[/blue] times.\nSkill Bonuses triggered by card effects do not count towards this limit.",
-            "zh": "处于[gold]姿态[/gold]时，打出[gold]技能牌[/gold]可获得[gold]姿态[/gold]的技术奖励，最多[blue]3[/blue]次。\n卡牌效果触发的技术奖励不受此限制。"
+            "en": "The bonus effect triggered by your current [gold]Stance[/gold] when you play a [gold]Skill[/gold].",
+            "zh": "The bonus effect triggered by your current [gold]Stance[/gold] when you play a [gold]Skill[/gold]."
           },
           "dynamicValues": {},
           "sourceValueKey": null,
@@ -24276,22 +24187,8 @@
             "zh": "技术奖励"
           },
           "description": {
-            "en": "Whenever you play a [gold]Skill[/gold] while in a [gold]Stance[/gold], trigger that Stance's bonus effect, up to [blue]3[/blue] times.\nSkill Bonuses triggered by card effects do not count towards this limit.",
-            "zh": "处于[gold]姿态[/gold]时，打出[gold]技能牌[/gold]可获得[gold]姿态[/gold]的技术奖励，最多[blue]3[/blue]次。\n卡牌效果触发的技术奖励不受此限制。"
-          },
-          "dynamicValues": {},
-          "sourceValueKey": null,
-          "icon": null
-        },
-        {
-          "id": "CHAMP-STANCE",
-          "name": {
-            "en": "Stance",
-            "zh": "姿态"
-          },
-          "description": {
-            "en": "You may have only one Stance at a time.",
-            "zh": "你同一时间只能拥有一个姿态。"
+            "en": "The bonus effect triggered by your current [gold]Stance[/gold] when you play a [gold]Skill[/gold].",
+            "zh": "The bonus effect triggered by your current [gold]Stance[/gold] when you play a [gold]Skill[/gold]."
           },
           "dynamicValues": {},
           "sourceValueKey": null,
@@ -24382,8 +24279,8 @@
             "zh": "技术奖励"
           },
           "description": {
-            "en": "Whenever you play a [gold]Skill[/gold] while in a [gold]Stance[/gold], trigger that Stance's bonus effect, up to [blue]3[/blue] times.\nSkill Bonuses triggered by card effects do not count towards this limit.",
-            "zh": "处于[gold]姿态[/gold]时，打出[gold]技能牌[/gold]可获得[gold]姿态[/gold]的技术奖励，最多[blue]3[/blue]次。\n卡牌效果触发的技术奖励不受此限制。"
+            "en": "The bonus effect triggered by your current [gold]Stance[/gold] when you play a [gold]Skill[/gold].",
+            "zh": "The bonus effect triggered by your current [gold]Stance[/gold] when you play a [gold]Skill[/gold]."
           },
           "dynamicValues": {},
           "sourceValueKey": null,
@@ -24580,8 +24477,8 @@
             "zh": "终极姿态"
           },
           "description": {
-            "en": "[gold]Skill Bonus[/gold]: Gain [blue]{BerserkerSkill}[/blue] [gold]Vigor[/gold] and [blue]{DefensiveSkill}[/blue] [gold]Counter[/gold].\n[gold]Finisher[/gold]: Gain [blue]{BerserkerFinisher}[/blue] [gold]Strength[/gold] and [blue]{DefensiveFinisher}[/blue] [gold]Block[/gold].",
-            "zh": "[gold]技术奖励[/gold]：获得[blue]{BerserkerSkill}[/blue]点[gold]活力[/gold]和[blue]{DefensiveSkill}[/blue]层[gold]反击[/gold]。\n[gold]终结技[/gold]：获得[blue]{BerserkerFinisher}[/blue]点[gold]力量[/gold]和[blue]{DefensiveFinisher}[/blue]点[gold]格挡[/gold]。"
+            "en": "{Infinite:cond:Whenever|The next {Charges:plural:time|[blue]{}[/blue] times}} you play a Skill, gain [blue]{BerserkerSkill}[/blue] [gold]Vigor[/gold] and [blue]{DefensiveSkill}[/blue] [gold]Counter[/gold].\nWhenever a [gold]Finisher[/gold] is triggered, gain [blue]{BerserkerFinisher}[/blue] [gold]Strength[/gold] and [blue]{DefensiveFinisher}[/blue] [gold]Block[/gold].",
+            "zh": "{Infinite:cond:Whenever|The next {Charges:plural:time|[blue]{}[/blue] times}} you play a Skill, gain [blue]{BerserkerSkill}[/blue] [gold]Vigor[/gold] and [blue]{DefensiveSkill}[/blue] [gold]Counter[/gold].\nWhenever a [gold]Finisher[/gold] is triggered, gain [blue]{BerserkerFinisher}[/blue] [gold]Strength[/gold] and [blue]{DefensiveFinisher}[/blue] [gold]Block[/gold]."
           },
           "dynamicValues": {
             "BerserkerSkill": 2,
@@ -24599,8 +24496,8 @@
             "zh": "荣耀"
           },
           "description": {
-            "en": "At the start of your turn, if you have [blue]10[/blue] or more [gold]Glory[/gold], enter [gold]Ultimate[/gold].",
-            "zh": "在你的回合开始时，若你拥有[blue]10[/blue]点或更多[gold]荣耀[/gold]，进入[gold]终极[/gold]。"
+            "en": "At the start of your turn, if you have [blue]10[/blue] or more [gold]Glory[/gold], enter [gold]Ultimate[/gold] and draw a card.",
+            "zh": "在你的回合开始时，若你拥有[blue]10[/blue]点或更多[gold]荣耀[/gold]，进入[gold]终极[/gold]，抽[blue]1[/blue]张牌。"
           },
           "dynamicValues": {},
           "sourceValueKey": "GloryPower",
@@ -24787,8 +24684,8 @@
             "zh": "终结技"
           },
           "description": {
-            "en": "Requires a [gold]Stance[/gold].\nAfter playing a Finisher, exit your [gold]Stance[/gold] and trigger its Finisher bonus.",
-            "zh": "处于[gold]姿态[/gold]时才能打出。\n打出终结技后，退出当前[gold]姿态[/gold]并触发终结技效果。"
+            "en": "Requires a [gold]Stance[/gold].\nAfter playing a Finisher, exit your [gold]Stance[/gold] and trigger its Finisher effect.",
+            "zh": "Requires a [gold]Stance[/gold].\nAfter playing a Finisher, exit your [gold]Stance[/gold] and trigger its Finisher effect."
           },
           "dynamicValues": {},
           "sourceValueKey": null,
@@ -24909,12 +24806,12 @@
       "id": "CHAMP-PARRY",
       "codeName": "Parry",
       "name": {
-        "en": "Parrying Shield",
-        "zh": "招架"
+        "en": "Second Intention",
+        "zh": "第二意图"
       },
       "description": {
-        "en": "Gain {Block:diff()} [gold]Block[/gold].\nGain {CounterPower:diff()} [gold]Counter[/gold].\nIf [gold]Counter[/gold] is used this turn, gain another [gold]Riposte Strike[/gold].",
-        "zh": "获得{Block:diff()}点[gold]格挡[/gold]。\n获得{CounterPower:diff()}点[gold]反击[/gold]。\n如果本回合触发了[gold]反击[/gold]，获得一张[gold]还击打击[/gold]。"
+        "en": "Gain {Block:diff()} [gold]Block[/gold].\nGain {CounterPower:diff()} [gold]Counter[/gold].\nIf [gold]Counter[/gold] is used this turn, the [gold]Riposte Strike[/gold] gains [gold]Replay[/gold] 1.",
+        "zh": "获得{Block:diff()}点[gold]格挡[/gold]。\n获得{CounterPower:diff()}点[gold]反击[/gold]。\n如果本回合触发了[gold]反击[/gold]，[gold]还击打击[/gold]获得[gold]重放[/gold]1。"
       },
       "upgradeDescription": {
         "en": "",
@@ -24985,8 +24882,8 @@
             "zh": "招架"
           },
           "description": {
-            "en": "If your [gold]Counter[/gold] is triggered this turn, gain an additional [gold]Riposte Strike[/gold].",
-            "zh": "若本回合触发了[gold]反击[/gold]，额外获得一张[gold]还击打击[/gold]。"
+            "en": "If your [gold]Counter[/gold] is triggered this turn, the [gold]Riposte Strike[/gold] gains [gold]Replay[/gold] [blue]1[/blue].",
+            "zh": "若本回合触发了[gold]反击[/gold]，[gold]还击打击[/gold]获得[gold]重放[/gold][blue]1[/blue]。"
           },
           "dynamicValues": {},
           "sourceValueKey": "ParryingPower",
@@ -25142,8 +25039,8 @@
             "zh": "终结技"
           },
           "description": {
-            "en": "Requires a [gold]Stance[/gold].\nAfter playing a Finisher, exit your [gold]Stance[/gold] and trigger its Finisher bonus.",
-            "zh": "处于[gold]姿态[/gold]时才能打出。\n打出终结技后，退出当前[gold]姿态[/gold]并触发终结技效果。"
+            "en": "Requires a [gold]Stance[/gold].\nAfter playing a Finisher, exit your [gold]Stance[/gold] and trigger its Finisher effect.",
+            "zh": "Requires a [gold]Stance[/gold].\nAfter playing a Finisher, exit your [gold]Stance[/gold] and trigger its Finisher effect."
           },
           "dynamicValues": {},
           "sourceValueKey": null,
@@ -25264,8 +25161,8 @@
             "zh": "战狂姿态"
           },
           "description": {
-            "en": "[gold]Skill Bonus[/gold]: Gain [blue]{BerserkerSkill}[/blue] [gold]Vigor[/gold].\n[gold]Finisher[/gold]: Gain [blue]{BerserkerFinisher}[/blue] [gold]Strength[/gold].",
-            "zh": "[gold]技术奖励[/gold]：获得[blue]{BerserkerSkill}[/blue]点[gold]活力[/gold]。\n[gold]终结技[/gold]：获得[blue]{BerserkerFinisher}[/blue]点[gold]力量[/gold]。"
+            "en": "{Infinite:cond:Whenever|The next {Charges:plural:time|[blue]{}[/blue] times}} you play a Skill, gain [blue]{BerserkerSkill}[/blue] [gold]Vigor[/gold].\nWhenever a [gold]Finisher[/gold] is triggered, gain [blue]{BerserkerFinisher}[/blue] [gold]Strength[/gold].",
+            "zh": "{Infinite:cond:Whenever|The next {Charges:plural:time|[blue]{}[/blue] times}} you play a Skill, gain [blue]{BerserkerSkill}[/blue] [gold]Vigor[/gold].\nWhenever a [gold]Finisher[/gold] is triggered, gain [blue]{BerserkerFinisher}[/blue] [gold]Strength[/gold]."
           },
           "dynamicValues": {
             "BerserkerSkill": 2,
@@ -25281,8 +25178,8 @@
             "zh": "防守姿态"
           },
           "description": {
-            "en": "[gold]Skill Bonus[/gold]: Gain [blue]{DefensiveSkill}[/blue] [gold]Counter[/gold].\n[gold]Finisher[/gold]: Gain [blue]{DefensiveFinisher}[/blue] [gold]Block[/gold].",
-            "zh": "[gold]技术奖励[/gold]：获得[blue]{DefensiveSkill}[/blue]层[gold]反击[/gold]。\n[gold]终结技[/gold]：获得[blue]{DefensiveFinisher}[/blue]点[gold]格挡[/gold]。"
+            "en": "{Infinite:cond:Whenever|The next {Charges:plural:time|[blue]{}[/blue] times}} you play a Skill, gain [blue]{DefensiveSkill}[/blue] [gold]Counter[/gold].\nWhenever a [gold]Finisher[/gold] is triggered, gain [blue]{DefensiveFinisher}[/blue] [gold]Block[/gold].",
+            "zh": "{Infinite:cond:Whenever|The next {Charges:plural:time|[blue]{}[/blue] times}} you play a Skill, gain [blue]{DefensiveSkill}[/blue] [gold]Counter[/gold].\nWhenever a [gold]Finisher[/gold] is triggered, gain [blue]{DefensiveFinisher}[/blue] [gold]Block[/gold]."
           },
           "dynamicValues": {
             "DefensiveSkill": 2,
@@ -25364,8 +25261,8 @@
             "zh": "防守姿态"
           },
           "description": {
-            "en": "[gold]Skill Bonus[/gold]: Gain [blue]{DefensiveSkill}[/blue] [gold]Counter[/gold].\n[gold]Finisher[/gold]: Gain [blue]{DefensiveFinisher}[/blue] [gold]Block[/gold].",
-            "zh": "[gold]技术奖励[/gold]：获得[blue]{DefensiveSkill}[/blue]层[gold]反击[/gold]。\n[gold]终结技[/gold]：获得[blue]{DefensiveFinisher}[/blue]点[gold]格挡[/gold]。"
+            "en": "{Infinite:cond:Whenever|The next {Charges:plural:time|[blue]{}[/blue] times}} you play a Skill, gain [blue]{DefensiveSkill}[/blue] [gold]Counter[/gold].\nWhenever a [gold]Finisher[/gold] is triggered, gain [blue]{DefensiveFinisher}[/blue] [gold]Block[/gold].",
+            "zh": "{Infinite:cond:Whenever|The next {Charges:plural:time|[blue]{}[/blue] times}} you play a Skill, gain [blue]{DefensiveSkill}[/blue] [gold]Counter[/gold].\nWhenever a [gold]Finisher[/gold] is triggered, gain [blue]{DefensiveFinisher}[/blue] [gold]Block[/gold]."
           },
           "dynamicValues": {
             "DefensiveSkill": 2,
@@ -25443,29 +25340,15 @@
         "block": null
       },
       "dynamicValues": {
-        "ProtectiveAuraPower": 4
+        "ProtectiveAuraPower": 5
       },
       "upgradeDynamicValues": {
-        "ProtectiveAuraPower": 6
+        "ProtectiveAuraPower": 7
       },
       "energyIcon": "assets/energy-icons/champ.png",
       "deprecated": false,
       "notInPool": false,
       "attachedTips": [
-        {
-          "id": "CHAMP-STANCE",
-          "name": {
-            "en": "Stance",
-            "zh": "姿态"
-          },
-          "description": {
-            "en": "You may have only one Stance at a time.",
-            "zh": "你同一时间只能拥有一个姿态。"
-          },
-          "dynamicValues": {},
-          "sourceValueKey": null,
-          "icon": null
-        },
         {
           "id": "CHAMP-PROTECTIVE_AURA_POWER",
           "name": {
@@ -25630,8 +25513,8 @@
             "zh": "战狂姿态"
           },
           "description": {
-            "en": "[gold]Skill Bonus[/gold]: Gain [blue]{BerserkerSkill}[/blue] [gold]Vigor[/gold].\n[gold]Finisher[/gold]: Gain [blue]{BerserkerFinisher}[/blue] [gold]Strength[/gold].",
-            "zh": "[gold]技术奖励[/gold]：获得[blue]{BerserkerSkill}[/blue]点[gold]活力[/gold]。\n[gold]终结技[/gold]：获得[blue]{BerserkerFinisher}[/blue]点[gold]力量[/gold]。"
+            "en": "{Infinite:cond:Whenever|The next {Charges:plural:time|[blue]{}[/blue] times}} you play a Skill, gain [blue]{BerserkerSkill}[/blue] [gold]Vigor[/gold].\nWhenever a [gold]Finisher[/gold] is triggered, gain [blue]{BerserkerFinisher}[/blue] [gold]Strength[/gold].",
+            "zh": "{Infinite:cond:Whenever|The next {Charges:plural:time|[blue]{}[/blue] times}} you play a Skill, gain [blue]{BerserkerSkill}[/blue] [gold]Vigor[/gold].\nWhenever a [gold]Finisher[/gold] is triggered, gain [blue]{BerserkerFinisher}[/blue] [gold]Strength[/gold]."
           },
           "dynamicValues": {
             "BerserkerSkill": 2,
@@ -25843,8 +25726,8 @@
             "zh": "战狂姿态"
           },
           "description": {
-            "en": "[gold]Skill Bonus[/gold]: Gain [blue]{BerserkerSkill}[/blue] [gold]Vigor[/gold].\n[gold]Finisher[/gold]: Gain [blue]{BerserkerFinisher}[/blue] [gold]Strength[/gold].",
-            "zh": "[gold]技术奖励[/gold]：获得[blue]{BerserkerSkill}[/blue]点[gold]活力[/gold]。\n[gold]终结技[/gold]：获得[blue]{BerserkerFinisher}[/blue]点[gold]力量[/gold]。"
+            "en": "{Infinite:cond:Whenever|The next {Charges:plural:time|[blue]{}[/blue] times}} you play a Skill, gain [blue]{BerserkerSkill}[/blue] [gold]Vigor[/gold].\nWhenever a [gold]Finisher[/gold] is triggered, gain [blue]{BerserkerFinisher}[/blue] [gold]Strength[/gold].",
+            "zh": "{Infinite:cond:Whenever|The next {Charges:plural:time|[blue]{}[/blue] times}} you play a Skill, gain [blue]{BerserkerSkill}[/blue] [gold]Vigor[/gold].\nWhenever a [gold]Finisher[/gold] is triggered, gain [blue]{BerserkerFinisher}[/blue] [gold]Strength[/gold]."
           },
           "dynamicValues": {
             "BerserkerSkill": 2,
@@ -25860,8 +25743,8 @@
             "zh": "防守姿态"
           },
           "description": {
-            "en": "[gold]Skill Bonus[/gold]: Gain [blue]{DefensiveSkill}[/blue] [gold]Counter[/gold].\n[gold]Finisher[/gold]: Gain [blue]{DefensiveFinisher}[/blue] [gold]Block[/gold].",
-            "zh": "[gold]技术奖励[/gold]：获得[blue]{DefensiveSkill}[/blue]层[gold]反击[/gold]。\n[gold]终结技[/gold]：获得[blue]{DefensiveFinisher}[/blue]点[gold]格挡[/gold]。"
+            "en": "{Infinite:cond:Whenever|The next {Charges:plural:time|[blue]{}[/blue] times}} you play a Skill, gain [blue]{DefensiveSkill}[/blue] [gold]Counter[/gold].\nWhenever a [gold]Finisher[/gold] is triggered, gain [blue]{DefensiveFinisher}[/blue] [gold]Block[/gold].",
+            "zh": "{Infinite:cond:Whenever|The next {Charges:plural:time|[blue]{}[/blue] times}} you play a Skill, gain [blue]{DefensiveSkill}[/blue] [gold]Counter[/gold].\nWhenever a [gold]Finisher[/gold] is triggered, gain [blue]{DefensiveFinisher}[/blue] [gold]Block[/gold]."
           },
           "dynamicValues": {
             "DefensiveSkill": 2,
@@ -25996,8 +25879,8 @@
         "zh": "升龙打击"
       },
       "description": {
-        "en": "Deal {Damage:diff()} damage.\nIf the last card played was a [gold]Finisher[/gold], deal {Damage:diff()} damage again. ",
-        "zh": "造成{Damage:diff()}点伤害。\n若上一张打出的牌是[gold]终结技[/gold]，再次造成{Damage:diff()}点伤害。"
+        "en": "Deal {Damage:diff()} damage.\nIf the last card played this combat was a [gold]Finisher[/gold], deal {Damage:diff()} damage again. ",
+        "zh": "造成{Damage:diff()}点伤害。\n如果上一张打出的牌是[gold]终结技[/gold]，再造成{Damage:diff()}点伤害。"
       },
       "upgradeDescription": {
         "en": "",
@@ -26021,7 +25904,7 @@
       "isFinisher": true,
       "img": "assets/cards/risingstrike.png",
       "stats": {
-        "damage": 8,
+        "damage": 7,
         "block": null,
         "magic": null,
         "secondMagic": null,
@@ -26030,14 +25913,14 @@
         "selfDamage": null
       },
       "upgradeStats": {
-        "damage": 11,
+        "damage": 10,
         "block": null
       },
       "dynamicValues": {
-        "Damage": 8
+        "Damage": 7
       },
       "upgradeDynamicValues": {
-        "Damage": 11
+        "Damage": 10
       },
       "energyIcon": "assets/energy-icons/champ.png",
       "deprecated": false,
@@ -26048,28 +25931,14 @@
       },
       "attachedTips": [
         {
-          "id": "Retain",
-          "name": {
-            "en": "Retain",
-            "zh": "保留"
-          },
-          "description": {
-            "en": "Retained cards are not discarded at the end of turn.",
-            "zh": "保留的牌不会在回合结束时被弃掉。"
-          },
-          "dynamicValues": {},
-          "sourceValueKey": null,
-          "icon": null
-        },
-        {
           "id": "CHAMP-FINISHER",
           "name": {
             "en": "Finisher",
             "zh": "终结技"
           },
           "description": {
-            "en": "Requires a [gold]Stance[/gold].\nAfter playing a Finisher, exit your [gold]Stance[/gold] and trigger its Finisher bonus.",
-            "zh": "处于[gold]姿态[/gold]时才能打出。\n打出终结技后，退出当前[gold]姿态[/gold]并触发终结技效果。"
+            "en": "Requires a [gold]Stance[/gold].\nAfter playing a Finisher, exit your [gold]Stance[/gold] and trigger its Finisher effect.",
+            "zh": "Requires a [gold]Stance[/gold].\nAfter playing a Finisher, exit your [gold]Stance[/gold] and trigger its Finisher effect."
           },
           "dynamicValues": {},
           "sourceValueKey": null,
@@ -26080,16 +25949,7 @@
       "hasConjure": false,
       "isSpell": false,
       "attachedCardTips": [],
-      "descriptionKeywordPrefix": [
-        {
-          "mode": "always",
-          "style": null,
-          "label": {
-            "en": "Retain.",
-            "zh": "保留。"
-          }
-        }
-      ],
+      "descriptionKeywordPrefix": [],
       "descriptionKeywordSuffix": [],
       "dynamicDescriptionLines": []
     },
@@ -26163,8 +26023,8 @@
             "zh": "终结技"
           },
           "description": {
-            "en": "Requires a [gold]Stance[/gold].\nAfter playing a Finisher, exit your [gold]Stance[/gold] and trigger its Finisher bonus.",
-            "zh": "处于[gold]姿态[/gold]时才能打出。\n打出终结技后，退出当前[gold]姿态[/gold]并触发终结技效果。"
+            "en": "Requires a [gold]Stance[/gold].\nAfter playing a Finisher, exit your [gold]Stance[/gold] and trigger its Finisher effect.",
+            "zh": "Requires a [gold]Stance[/gold].\nAfter playing a Finisher, exit your [gold]Stance[/gold] and trigger its Finisher effect."
           },
           "dynamicValues": {},
           "sourceValueKey": null,
@@ -26271,8 +26131,8 @@
             "zh": "防守姿态"
           },
           "description": {
-            "en": "[gold]Skill Bonus[/gold]: Gain [blue]{DefensiveSkill}[/blue] [gold]Counter[/gold].\n[gold]Finisher[/gold]: Gain [blue]{DefensiveFinisher}[/blue] [gold]Block[/gold].",
-            "zh": "[gold]技术奖励[/gold]：获得[blue]{DefensiveSkill}[/blue]层[gold]反击[/gold]。\n[gold]终结技[/gold]：获得[blue]{DefensiveFinisher}[/blue]点[gold]格挡[/gold]。"
+            "en": "{Infinite:cond:Whenever|The next {Charges:plural:time|[blue]{}[/blue] times}} you play a Skill, gain [blue]{DefensiveSkill}[/blue] [gold]Counter[/gold].\nWhenever a [gold]Finisher[/gold] is triggered, gain [blue]{DefensiveFinisher}[/blue] [gold]Block[/gold].",
+            "zh": "{Infinite:cond:Whenever|The next {Charges:plural:time|[blue]{}[/blue] times}} you play a Skill, gain [blue]{DefensiveSkill}[/blue] [gold]Counter[/gold].\nWhenever a [gold]Finisher[/gold] is triggered, gain [blue]{DefensiveFinisher}[/blue] [gold]Block[/gold]."
           },
           "dynamicValues": {
             "DefensiveSkill": 2,
@@ -26363,20 +26223,6 @@
       "deprecated": false,
       "notInPool": false,
       "attachedTips": [
-        {
-          "id": "CHAMP-STANCE",
-          "name": {
-            "en": "Stance",
-            "zh": "姿态"
-          },
-          "description": {
-            "en": "You may have only one Stance at a time.",
-            "zh": "你同一时间只能拥有一个姿态。"
-          },
-          "dynamicValues": {},
-          "sourceValueKey": null,
-          "icon": null
-        },
         {
           "id": "CHAMP-COMBO",
           "name": {
@@ -26496,8 +26342,8 @@
             "zh": "防守姿态"
           },
           "description": {
-            "en": "[gold]Skill Bonus[/gold]: Gain [blue]{DefensiveSkill}[/blue] [gold]Counter[/gold].\n[gold]Finisher[/gold]: Gain [blue]{DefensiveFinisher}[/blue] [gold]Block[/gold].",
-            "zh": "[gold]技术奖励[/gold]：获得[blue]{DefensiveSkill}[/blue]层[gold]反击[/gold]。\n[gold]终结技[/gold]：获得[blue]{DefensiveFinisher}[/blue]点[gold]格挡[/gold]。"
+            "en": "{Infinite:cond:Whenever|The next {Charges:plural:time|[blue]{}[/blue] times}} you play a Skill, gain [blue]{DefensiveSkill}[/blue] [gold]Counter[/gold].\nWhenever a [gold]Finisher[/gold] is triggered, gain [blue]{DefensiveFinisher}[/blue] [gold]Block[/gold].",
+            "zh": "{Infinite:cond:Whenever|The next {Charges:plural:time|[blue]{}[/blue] times}} you play a Skill, gain [blue]{DefensiveSkill}[/blue] [gold]Counter[/gold].\nWhenever a [gold]Finisher[/gold] is triggered, gain [blue]{DefensiveFinisher}[/blue] [gold]Block[/gold]."
           },
           "dynamicValues": {
             "DefensiveSkill": 2,
@@ -26591,22 +26437,8 @@
             "zh": "技术奖励"
           },
           "description": {
-            "en": "Whenever you play a [gold]Skill[/gold] while in a [gold]Stance[/gold], trigger that Stance's bonus effect, up to [blue]3[/blue] times.\nSkill Bonuses triggered by card effects do not count towards this limit.",
-            "zh": "处于[gold]姿态[/gold]时，打出[gold]技能牌[/gold]可获得[gold]姿态[/gold]的技术奖励，最多[blue]3[/blue]次。\n卡牌效果触发的技术奖励不受此限制。"
-          },
-          "dynamicValues": {},
-          "sourceValueKey": null,
-          "icon": null
-        },
-        {
-          "id": "CHAMP-STANCE",
-          "name": {
-            "en": "Stance",
-            "zh": "姿态"
-          },
-          "description": {
-            "en": "You may have only one Stance at a time.",
-            "zh": "你同一时间只能拥有一个姿态。"
+            "en": "The bonus effect triggered by your current [gold]Stance[/gold] when you play a [gold]Skill[/gold].",
+            "zh": "The bonus effect triggered by your current [gold]Stance[/gold] when you play a [gold]Skill[/gold]."
           },
           "dynamicValues": {},
           "sourceValueKey": null,
@@ -26683,22 +26515,8 @@
             "zh": "技术奖励"
           },
           "description": {
-            "en": "Whenever you play a [gold]Skill[/gold] while in a [gold]Stance[/gold], trigger that Stance's bonus effect, up to [blue]3[/blue] times.\nSkill Bonuses triggered by card effects do not count towards this limit.",
-            "zh": "处于[gold]姿态[/gold]时，打出[gold]技能牌[/gold]可获得[gold]姿态[/gold]的技术奖励，最多[blue]3[/blue]次。\n卡牌效果触发的技术奖励不受此限制。"
-          },
-          "dynamicValues": {},
-          "sourceValueKey": null,
-          "icon": null
-        },
-        {
-          "id": "CHAMP-STANCE",
-          "name": {
-            "en": "Stance",
-            "zh": "姿态"
-          },
-          "description": {
-            "en": "You may have only one Stance at a time.",
-            "zh": "你同一时间只能拥有一个姿态。"
+            "en": "The bonus effect triggered by your current [gold]Stance[/gold] when you play a [gold]Skill[/gold].",
+            "zh": "The bonus effect triggered by your current [gold]Stance[/gold] when you play a [gold]Skill[/gold]."
           },
           "dynamicValues": {},
           "sourceValueKey": null,
@@ -26797,8 +26615,8 @@
             "zh": "防守姿态"
           },
           "description": {
-            "en": "[gold]Skill Bonus[/gold]: Gain [blue]{DefensiveSkill}[/blue] [gold]Counter[/gold].\n[gold]Finisher[/gold]: Gain [blue]{DefensiveFinisher}[/blue] [gold]Block[/gold].",
-            "zh": "[gold]技术奖励[/gold]：获得[blue]{DefensiveSkill}[/blue]层[gold]反击[/gold]。\n[gold]终结技[/gold]：获得[blue]{DefensiveFinisher}[/blue]点[gold]格挡[/gold]。"
+            "en": "{Infinite:cond:Whenever|The next {Charges:plural:time|[blue]{}[/blue] times}} you play a Skill, gain [blue]{DefensiveSkill}[/blue] [gold]Counter[/gold].\nWhenever a [gold]Finisher[/gold] is triggered, gain [blue]{DefensiveFinisher}[/blue] [gold]Block[/gold].",
+            "zh": "{Infinite:cond:Whenever|The next {Charges:plural:time|[blue]{}[/blue] times}} you play a Skill, gain [blue]{DefensiveSkill}[/blue] [gold]Counter[/gold].\nWhenever a [gold]Finisher[/gold] is triggered, gain [blue]{DefensiveFinisher}[/blue] [gold]Block[/gold]."
           },
           "dynamicValues": {
             "DefensiveSkill": 2,
@@ -26888,22 +26706,8 @@
             "zh": "技术奖励"
           },
           "description": {
-            "en": "Whenever you play a [gold]Skill[/gold] while in a [gold]Stance[/gold], trigger that Stance's bonus effect, up to [blue]3[/blue] times.\nSkill Bonuses triggered by card effects do not count towards this limit.",
-            "zh": "处于[gold]姿态[/gold]时，打出[gold]技能牌[/gold]可获得[gold]姿态[/gold]的技术奖励，最多[blue]3[/blue]次。\n卡牌效果触发的技术奖励不受此限制。"
-          },
-          "dynamicValues": {},
-          "sourceValueKey": null,
-          "icon": null
-        },
-        {
-          "id": "CHAMP-STANCE",
-          "name": {
-            "en": "Stance",
-            "zh": "姿态"
-          },
-          "description": {
-            "en": "You may have only one Stance at a time.",
-            "zh": "你同一时间只能拥有一个姿态。"
+            "en": "The bonus effect triggered by your current [gold]Stance[/gold] when you play a [gold]Skill[/gold].",
+            "zh": "The bonus effect triggered by your current [gold]Stance[/gold] when you play a [gold]Skill[/gold]."
           },
           "dynamicValues": {},
           "sourceValueKey": null,
@@ -27094,8 +26898,8 @@
             "zh": "终结技"
           },
           "description": {
-            "en": "Requires a [gold]Stance[/gold].\nAfter playing a Finisher, exit your [gold]Stance[/gold] and trigger its Finisher bonus.",
-            "zh": "处于[gold]姿态[/gold]时才能打出。\n打出终结技后，退出当前[gold]姿态[/gold]并触发终结技效果。"
+            "en": "Requires a [gold]Stance[/gold].\nAfter playing a Finisher, exit your [gold]Stance[/gold] and trigger its Finisher effect.",
+            "zh": "Requires a [gold]Stance[/gold].\nAfter playing a Finisher, exit your [gold]Stance[/gold] and trigger its Finisher effect."
           },
           "dynamicValues": {},
           "sourceValueKey": null,
@@ -27313,8 +27117,8 @@
             "zh": "战狂姿态"
           },
           "description": {
-            "en": "[gold]Skill Bonus[/gold]: Gain [blue]{BerserkerSkill}[/blue] [gold]Vigor[/gold].\n[gold]Finisher[/gold]: Gain [blue]{BerserkerFinisher}[/blue] [gold]Strength[/gold].",
-            "zh": "[gold]技术奖励[/gold]：获得[blue]{BerserkerSkill}[/blue]点[gold]活力[/gold]。\n[gold]终结技[/gold]：获得[blue]{BerserkerFinisher}[/blue]点[gold]力量[/gold]。"
+            "en": "{Infinite:cond:Whenever|The next {Charges:plural:time|[blue]{}[/blue] times}} you play a Skill, gain [blue]{BerserkerSkill}[/blue] [gold]Vigor[/gold].\nWhenever a [gold]Finisher[/gold] is triggered, gain [blue]{BerserkerFinisher}[/blue] [gold]Strength[/gold].",
+            "zh": "{Infinite:cond:Whenever|The next {Charges:plural:time|[blue]{}[/blue] times}} you play a Skill, gain [blue]{BerserkerSkill}[/blue] [gold]Vigor[/gold].\nWhenever a [gold]Finisher[/gold] is triggered, gain [blue]{BerserkerFinisher}[/blue] [gold]Strength[/gold]."
           },
           "dynamicValues": {
             "BerserkerSkill": 2,
@@ -27496,20 +27300,6 @@
       "notInPool": false,
       "attachedTips": [
         {
-          "id": "CHAMP-STANCE",
-          "name": {
-            "en": "Stance",
-            "zh": "姿态"
-          },
-          "description": {
-            "en": "You may have only one Stance at a time.",
-            "zh": "你同一时间只能拥有一个姿态。"
-          },
-          "dynamicValues": {},
-          "sourceValueKey": null,
-          "icon": null
-        },
-        {
           "id": "CHAMP-TECHNICAL_JIG_POWER",
           "name": {
             "en": "Technical Jig",
@@ -27616,8 +27406,8 @@
             "zh": "防守姿态"
           },
           "description": {
-            "en": "[gold]Skill Bonus[/gold]: Gain [blue]{DefensiveSkill}[/blue] [gold]Counter[/gold].\n[gold]Finisher[/gold]: Gain [blue]{DefensiveFinisher}[/blue] [gold]Block[/gold].",
-            "zh": "[gold]技术奖励[/gold]：获得[blue]{DefensiveSkill}[/blue]层[gold]反击[/gold]。\n[gold]终结技[/gold]：获得[blue]{DefensiveFinisher}[/blue]点[gold]格挡[/gold]。"
+            "en": "{Infinite:cond:Whenever|The next {Charges:plural:time|[blue]{}[/blue] times}} you play a Skill, gain [blue]{DefensiveSkill}[/blue] [gold]Counter[/gold].\nWhenever a [gold]Finisher[/gold] is triggered, gain [blue]{DefensiveFinisher}[/blue] [gold]Block[/gold].",
+            "zh": "{Infinite:cond:Whenever|The next {Charges:plural:time|[blue]{}[/blue] times}} you play a Skill, gain [blue]{DefensiveSkill}[/blue] [gold]Counter[/gold].\nWhenever a [gold]Finisher[/gold] is triggered, gain [blue]{DefensiveFinisher}[/blue] [gold]Block[/gold]."
           },
           "dynamicValues": {
             "DefensiveSkill": 2,
@@ -27643,8 +27433,8 @@
         "zh": "三重打击"
       },
       "description": {
-        "en": "Deal {Damage:diff()} damage.\nGain {Cards:diff()} [gold]Strike{IfUpgraded:show:+|} Echoes[/gold]. \nThey cost 0{energyPrefix:energyIcons(1)} and trigger [gold]Skill Bonus[/gold].",
-        "zh": "造成{Damage:diff()}点伤害。\n获得{Cards:diff()}张[gold]{IfUpgraded:show:打击+|打击}[/gold]的[gold]回响[/gold]。\n其耗能为0{energyPrefix:energyIcons(1)}且可触发[gold]技术奖励[/gold]。"
+        "en": "Deal {Damage:diff()} damage.\nAdd {Cards:diff()} [gold]Strike{IfUpgraded:show:+|} Echoes[/gold] into your [gold]Hand[/gold]. \nThey're free to play and trigger [gold]Skill Bonus[/gold].",
+        "zh": "造成{Damage:diff()}点伤害。\n将{Cards:diff()}张[gold]{IfUpgraded:show:打击+|打击}[/gold]的[gold]回响[/gold]加入你的[gold]手牌[/gold]。\n其可以免费打出且可触发[gold]技术奖励[/gold]。"
       },
       "upgradeDescription": {
         "en": "",
@@ -27713,8 +27503,8 @@
             "zh": "技术奖励"
           },
           "description": {
-            "en": "Whenever you play a [gold]Skill[/gold] while in a [gold]Stance[/gold], trigger that Stance's bonus effect, up to [blue]3[/blue] times.\nSkill Bonuses triggered by card effects do not count towards this limit.",
-            "zh": "处于[gold]姿态[/gold]时，打出[gold]技能牌[/gold]可获得[gold]姿态[/gold]的技术奖励，最多[blue]3[/blue]次。\n卡牌效果触发的技术奖励不受此限制。"
+            "en": "The bonus effect triggered by your current [gold]Stance[/gold] when you play a [gold]Skill[/gold].",
+            "zh": "The bonus effect triggered by your current [gold]Stance[/gold] when you play a [gold]Skill[/gold]."
           },
           "dynamicValues": {},
           "sourceValueKey": null,
@@ -27819,8 +27609,8 @@
             "zh": "终极姿态"
           },
           "description": {
-            "en": "[gold]Skill Bonus[/gold]: Gain [blue]{BerserkerSkill}[/blue] [gold]Vigor[/gold] and [blue]{DefensiveSkill}[/blue] [gold]Counter[/gold].\n[gold]Finisher[/gold]: Gain [blue]{BerserkerFinisher}[/blue] [gold]Strength[/gold] and [blue]{DefensiveFinisher}[/blue] [gold]Block[/gold].",
-            "zh": "[gold]技术奖励[/gold]：获得[blue]{BerserkerSkill}[/blue]点[gold]活力[/gold]和[blue]{DefensiveSkill}[/blue]层[gold]反击[/gold]。\n[gold]终结技[/gold]：获得[blue]{BerserkerFinisher}[/blue]点[gold]力量[/gold]和[blue]{DefensiveFinisher}[/blue]点[gold]格挡[/gold]。"
+            "en": "{Infinite:cond:Whenever|The next {Charges:plural:time|[blue]{}[/blue] times}} you play a Skill, gain [blue]{BerserkerSkill}[/blue] [gold]Vigor[/gold] and [blue]{DefensiveSkill}[/blue] [gold]Counter[/gold].\nWhenever a [gold]Finisher[/gold] is triggered, gain [blue]{BerserkerFinisher}[/blue] [gold]Strength[/gold] and [blue]{DefensiveFinisher}[/blue] [gold]Block[/gold].",
+            "zh": "{Infinite:cond:Whenever|The next {Charges:plural:time|[blue]{}[/blue] times}} you play a Skill, gain [blue]{BerserkerSkill}[/blue] [gold]Vigor[/gold] and [blue]{DefensiveSkill}[/blue] [gold]Counter[/gold].\nWhenever a [gold]Finisher[/gold] is triggered, gain [blue]{BerserkerFinisher}[/blue] [gold]Strength[/gold] and [blue]{DefensiveFinisher}[/blue] [gold]Block[/gold]."
           },
           "dynamicValues": {
             "BerserkerSkill": 2,
@@ -27921,8 +27711,8 @@
             "zh": "技术奖励"
           },
           "description": {
-            "en": "Whenever you play a [gold]Skill[/gold] while in a [gold]Stance[/gold], trigger that Stance's bonus effect, up to [blue]3[/blue] times.\nSkill Bonuses triggered by card effects do not count towards this limit.",
-            "zh": "处于[gold]姿态[/gold]时，打出[gold]技能牌[/gold]可获得[gold]姿态[/gold]的技术奖励，最多[blue]3[/blue]次。\n卡牌效果触发的技术奖励不受此限制。"
+            "en": "The bonus effect triggered by your current [gold]Stance[/gold] when you play a [gold]Skill[/gold].",
+            "zh": "The bonus effect triggered by your current [gold]Stance[/gold] when you play a [gold]Skill[/gold]."
           },
           "dynamicValues": {},
           "sourceValueKey": null,
@@ -28029,8 +27819,8 @@
             "zh": "终极姿态"
           },
           "description": {
-            "en": "[gold]Skill Bonus[/gold]: Gain [blue]{BerserkerSkill}[/blue] [gold]Vigor[/gold] and [blue]{DefensiveSkill}[/blue] [gold]Counter[/gold].\n[gold]Finisher[/gold]: Gain [blue]{BerserkerFinisher}[/blue] [gold]Strength[/gold] and [blue]{DefensiveFinisher}[/blue] [gold]Block[/gold].",
-            "zh": "[gold]技术奖励[/gold]：获得[blue]{BerserkerSkill}[/blue]点[gold]活力[/gold]和[blue]{DefensiveSkill}[/blue]层[gold]反击[/gold]。\n[gold]终结技[/gold]：获得[blue]{BerserkerFinisher}[/blue]点[gold]力量[/gold]和[blue]{DefensiveFinisher}[/blue]点[gold]格挡[/gold]。"
+            "en": "{Infinite:cond:Whenever|The next {Charges:plural:time|[blue]{}[/blue] times}} you play a Skill, gain [blue]{BerserkerSkill}[/blue] [gold]Vigor[/gold] and [blue]{DefensiveSkill}[/blue] [gold]Counter[/gold].\nWhenever a [gold]Finisher[/gold] is triggered, gain [blue]{BerserkerFinisher}[/blue] [gold]Strength[/gold] and [blue]{DefensiveFinisher}[/blue] [gold]Block[/gold].",
+            "zh": "{Infinite:cond:Whenever|The next {Charges:plural:time|[blue]{}[/blue] times}} you play a Skill, gain [blue]{BerserkerSkill}[/blue] [gold]Vigor[/gold] and [blue]{DefensiveSkill}[/blue] [gold]Counter[/gold].\nWhenever a [gold]Finisher[/gold] is triggered, gain [blue]{BerserkerFinisher}[/blue] [gold]Strength[/gold] and [blue]{DefensiveFinisher}[/blue] [gold]Block[/gold]."
           },
           "dynamicValues": {
             "BerserkerSkill": 2,
@@ -28120,28 +27910,14 @@
           "icon": null
         },
         {
-          "id": "CHAMP-STANCE",
-          "name": {
-            "en": "Stance",
-            "zh": "姿态"
-          },
-          "description": {
-            "en": "You may have only one Stance at a time.",
-            "zh": "你同一时间只能拥有一个姿态。"
-          },
-          "dynamicValues": {},
-          "sourceValueKey": null,
-          "icon": null
-        },
-        {
           "id": "CHAMP-FINISHER",
           "name": {
             "en": "Finisher",
             "zh": "终结技"
           },
           "description": {
-            "en": "Requires a [gold]Stance[/gold].\nAfter playing a Finisher, exit your [gold]Stance[/gold] and trigger its Finisher bonus.",
-            "zh": "处于[gold]姿态[/gold]时才能打出。\n打出终结技后，退出当前[gold]姿态[/gold]并触发终结技效果。"
+            "en": "Requires a [gold]Stance[/gold].\nAfter playing a Finisher, exit your [gold]Stance[/gold] and trigger its Finisher effect.",
+            "zh": "Requires a [gold]Stance[/gold].\nAfter playing a Finisher, exit your [gold]Stance[/gold] and trigger its Finisher effect."
           },
           "dynamicValues": {},
           "sourceValueKey": null,
@@ -28172,8 +27948,8 @@
         "zh": "胜者奖台"
       },
       "description": {
-        "en": "Gain {Block:diff()} [gold]Block[/gold].\nGain {GloryPower:diff()} [gold]Glory[/gold].",
-        "zh": "获得{Block:diff()}点[gold]格挡[/gold]。\n获得{GloryPower:diff()}点[gold]荣耀[/gold]。"
+        "en": "Draw {Cards:diff()} {Cards:plural:card|cards}.\nGain {GloryPower:diff()} [gold]Glory[/gold].",
+        "zh": "抽{Cards:diff()}张牌。\n获得{GloryPower:diff()}点[gold]荣耀[/gold]。"
       },
       "upgradeDescription": {
         "en": "",
@@ -28198,7 +27974,7 @@
       "img": null,
       "stats": {
         "damage": null,
-        "block": 7,
+        "block": null,
         "magic": null,
         "secondMagic": null,
         "thirdMagic": null,
@@ -28207,14 +27983,14 @@
       },
       "upgradeStats": {
         "damage": null,
-        "block": 7
+        "block": null
       },
       "dynamicValues": {
-        "Block": 7,
+        "Cards": 2,
         "Glory": 2
       },
       "upgradeDynamicValues": {
-        "Block": 10,
+        "Cards": 3,
         "Glory": 3
       },
       "energyIcon": "assets/energy-icons/champ.png",
@@ -28228,8 +28004,8 @@
             "zh": "终极姿态"
           },
           "description": {
-            "en": "[gold]Skill Bonus[/gold]: Gain [blue]{BerserkerSkill}[/blue] [gold]Vigor[/gold] and [blue]{DefensiveSkill}[/blue] [gold]Counter[/gold].\n[gold]Finisher[/gold]: Gain [blue]{BerserkerFinisher}[/blue] [gold]Strength[/gold] and [blue]{DefensiveFinisher}[/blue] [gold]Block[/gold].",
-            "zh": "[gold]技术奖励[/gold]：获得[blue]{BerserkerSkill}[/blue]点[gold]活力[/gold]和[blue]{DefensiveSkill}[/blue]层[gold]反击[/gold]。\n[gold]终结技[/gold]：获得[blue]{BerserkerFinisher}[/blue]点[gold]力量[/gold]和[blue]{DefensiveFinisher}[/blue]点[gold]格挡[/gold]。"
+            "en": "{Infinite:cond:Whenever|The next {Charges:plural:time|[blue]{}[/blue] times}} you play a Skill, gain [blue]{BerserkerSkill}[/blue] [gold]Vigor[/gold] and [blue]{DefensiveSkill}[/blue] [gold]Counter[/gold].\nWhenever a [gold]Finisher[/gold] is triggered, gain [blue]{BerserkerFinisher}[/blue] [gold]Strength[/gold] and [blue]{DefensiveFinisher}[/blue] [gold]Block[/gold].",
+            "zh": "{Infinite:cond:Whenever|The next {Charges:plural:time|[blue]{}[/blue] times}} you play a Skill, gain [blue]{BerserkerSkill}[/blue] [gold]Vigor[/gold] and [blue]{DefensiveSkill}[/blue] [gold]Counter[/gold].\nWhenever a [gold]Finisher[/gold] is triggered, gain [blue]{BerserkerFinisher}[/blue] [gold]Strength[/gold] and [blue]{DefensiveFinisher}[/blue] [gold]Block[/gold]."
           },
           "dynamicValues": {
             "BerserkerSkill": 2,
@@ -28257,8 +28033,8 @@
         "zh": "胜利桂冠"
       },
       "description": {
-        "en": "Gain {VigorPower:diff()} [gold]Vigor[/gold].\nGain {CounterPower:diff()} [gold]Counter[/gold].",
-        "zh": "获得{VigorPower:diff()}点[gold]活力[/gold]。\n获得{CounterPower:diff()}点[gold]反击[/gold]。"
+        "en": "Double your [gold]Vigor[/gold] and [gold]Counter[/gold].",
+        "zh": "翻倍你的[gold]活力[/gold]和[gold]反击[/gold]。"
       },
       "upgradeDescription": {
         "en": "",
@@ -28275,7 +28051,7 @@
         "en": "The Champ",
         "zh": "第一勇士"
       },
-      "cost": 1,
+      "cost": 2,
       "upgradeCost": null,
       "canUpgrade": true,
       "target": "Self",
@@ -28294,18 +28070,40 @@
         "damage": null,
         "block": null
       },
-      "dynamicValues": {
-        "VigorPower": 6,
-        "CounterPower": 6
-      },
-      "upgradeDynamicValues": {
-        "VigorPower": 8,
-        "CounterPower": 8
-      },
+      "dynamicValues": {},
+      "upgradeDynamicValues": {},
       "energyIcon": "assets/energy-icons/champ.png",
       "deprecated": false,
       "notInPool": false,
       "attachedTips": [
+        {
+          "id": "Retain",
+          "name": {
+            "en": "Retain",
+            "zh": "保留"
+          },
+          "description": {
+            "en": "Retained cards are not discarded at the end of turn.",
+            "zh": "保留的牌不会在回合结束时被弃掉。"
+          },
+          "dynamicValues": {},
+          "sourceValueKey": null,
+          "icon": null
+        },
+        {
+          "id": "Exhaust",
+          "name": {
+            "en": "Exhaust",
+            "zh": "消耗"
+          },
+          "description": {
+            "en": "Removed until the end of combat.",
+            "zh": "在战斗结束前移除。"
+          },
+          "dynamicValues": {},
+          "sourceValueKey": null,
+          "icon": null
+        },
         {
           "id": "VIGOR_POWER",
           "name": {
@@ -28339,8 +28137,25 @@
       "hasConjure": false,
       "isSpell": false,
       "attachedCardTips": [],
-      "descriptionKeywordPrefix": [],
-      "descriptionKeywordSuffix": [],
+      "descriptionKeywordPrefix": [
+        {
+          "mode": "add",
+          "style": null,
+          "label": {
+            "en": "Retain.",
+            "zh": "保留。"
+          }
+        }
+      ],
+      "descriptionKeywordSuffix": [
+        {
+          "mode": "always",
+          "label": {
+            "en": "Exhaust.",
+            "zh": "消耗。"
+          }
+        }
+      ],
       "dynamicDescriptionLines": []
     },
     {
@@ -42509,7 +42324,7 @@
           },
           "description": {
             "en": "Gems can be placed into [gold]Sockets[/gold] in cards at a Rest Site.",
-            "zh": "宝石能在休息处被镶嵌至有[gold]孔位[/gold]的卡牌上。"
+            "zh": "宝石能在休息处被镶嵌至有[gold]槽位[/gold]的卡牌上。"
           },
           "dynamicValues": {},
           "sourceValueKey": null,
@@ -42595,7 +42410,7 @@
           },
           "description": {
             "en": "Gems can be placed into [gold]Sockets[/gold] in cards at a Rest Site.",
-            "zh": "宝石能在休息处被镶嵌至有[gold]孔位[/gold]的卡牌上。"
+            "zh": "宝石能在休息处被镶嵌至有[gold]槽位[/gold]的卡牌上。"
           },
           "dynamicValues": {},
           "sourceValueKey": null,
@@ -42875,7 +42690,7 @@
           },
           "description": {
             "en": "Gems can be placed into [gold]Sockets[/gold] in cards at a Rest Site.",
-            "zh": "宝石能在休息处被镶嵌至有[gold]孔位[/gold]的卡牌上。"
+            "zh": "宝石能在休息处被镶嵌至有[gold]槽位[/gold]的卡牌上。"
           },
           "dynamicValues": {},
           "sourceValueKey": null,
@@ -43130,7 +42945,7 @@
           },
           "description": {
             "en": "Gems can be placed into [gold]Sockets[/gold] in cards at a Rest Site.",
-            "zh": "宝石能在休息处被镶嵌至有[gold]孔位[/gold]的卡牌上。"
+            "zh": "宝石能在休息处被镶嵌至有[gold]槽位[/gold]的卡牌上。"
           },
           "dynamicValues": {},
           "sourceValueKey": null,
@@ -43269,7 +43084,7 @@
         "zh": "守护者"
       },
       "cost": 2,
-      "upgradeCost": 1,
+      "upgradeCost": null,
       "canUpgrade": true,
       "target": "Self",
       "isFinisher": false,
@@ -43304,6 +43119,34 @@
       },
       "attachedTips": [
         {
+          "id": "Ethereal",
+          "name": {
+            "en": "Ethereal",
+            "zh": "虚无"
+          },
+          "description": {
+            "en": "If this card is in your [gold]Hand[/gold] at the end of this turn, it is [gold]Exhausted[/gold].",
+            "zh": "如果这张牌在这个回合结束时留在你的[gold]手牌[/gold]中，则将其[gold]消耗[/gold]。"
+          },
+          "dynamicValues": {},
+          "sourceValueKey": null,
+          "icon": null
+        },
+        {
+          "id": "Retain",
+          "name": {
+            "en": "Retain",
+            "zh": "保留"
+          },
+          "description": {
+            "en": "Retained cards are not discarded at the end of turn.",
+            "zh": "保留的牌不会在回合结束时被弃掉。"
+          },
+          "dynamicValues": {},
+          "sourceValueKey": null,
+          "icon": null
+        },
+        {
           "id": "GUARDIAN-BRILLIANT_SCALES_POWER",
           "name": {
             "en": "Brilliant Scales",
@@ -43322,7 +43165,24 @@
       "hasConjure": false,
       "isSpell": false,
       "attachedCardTips": [],
-      "descriptionKeywordPrefix": [],
+      "descriptionKeywordPrefix": [
+        {
+          "mode": "remove",
+          "style": null,
+          "label": {
+            "en": "Ethereal.",
+            "zh": "虚无。"
+          }
+        },
+        {
+          "mode": "add",
+          "style": null,
+          "label": {
+            "en": "Retain.",
+            "zh": "保留。"
+          }
+        }
+      ],
       "descriptionKeywordSuffix": [],
       "dynamicDescriptionLines": []
     },
@@ -43569,7 +43429,7 @@
           },
           "description": {
             "en": "Gems can be placed into [gold]Sockets[/gold] in cards at a Rest Site.",
-            "zh": "宝石能在休息处被镶嵌至有[gold]孔位[/gold]的卡牌上。"
+            "zh": "宝石能在休息处被镶嵌至有[gold]槽位[/gold]的卡牌上。"
           },
           "dynamicValues": {},
           "sourceValueKey": null,
@@ -43698,8 +43558,8 @@
         "zh": "集成组件"
       },
       "description": {
-        "en": "Choose 1 of {Cards:diff()} random {IfUpgraded:show:[gold]Upgraded[/gold] |}[gold]Package[/gold] to place into [gold]Stasis[/gold].",
-        "zh": "从3张{IfUpgraded:show:[gold]升级过的[/gold]|}[gold]组件[/gold]牌中选择1张[gold]凝滞[/gold]。"
+        "en": "Choose 1 of {Cards:diff()} random {IfUpgraded:show:[gold]Upgraded[/gold] |}[gold]Packages[/gold] to place into [gold]Stasis[/gold].",
+        "zh": "从{Cards:diff()}张{IfUpgraded:show:[gold]升级过的[/gold]|}[gold]组件[/gold]牌中选择1张[gold]凝滞[/gold]。"
       },
       "upgradeDescription": {
         "en": "",
@@ -44000,7 +43860,7 @@
           },
           "description": {
             "en": "Gems can be placed into [gold]Sockets[/gold] in cards at a Rest Site.",
-            "zh": "宝石能在休息处被镶嵌至有[gold]孔位[/gold]的卡牌上。"
+            "zh": "宝石能在休息处被镶嵌至有[gold]槽位[/gold]的卡牌上。"
           },
           "dynamicValues": {},
           "sourceValueKey": null,
@@ -44458,7 +44318,7 @@
           },
           "description": {
             "en": "Gems can be placed into [gold]Sockets[/gold] in cards at a Rest Site.",
-            "zh": "宝石能在休息处被镶嵌至有[gold]孔位[/gold]的卡牌上。"
+            "zh": "宝石能在休息处被镶嵌至有[gold]槽位[/gold]的卡牌上。"
           },
           "dynamicValues": {},
           "sourceValueKey": null,
@@ -44566,7 +44426,7 @@
           },
           "description": {
             "en": "Gems can be placed into [gold]Sockets[/gold] in cards at a Rest Site.",
-            "zh": "宝石能在休息处被镶嵌至有[gold]孔位[/gold]的卡牌上。"
+            "zh": "宝石能在休息处被镶嵌至有[gold]槽位[/gold]的卡牌上。"
           },
           "dynamicValues": {},
           "sourceValueKey": null,
@@ -44897,7 +44757,7 @@
       "isFinisher": false,
       "img": "assets/cards/fiercebash.png",
       "stats": {
-        "damage": 18,
+        "damage": 16,
         "block": null,
         "magic": null,
         "secondMagic": null,
@@ -44906,17 +44766,17 @@
         "selfDamage": null
       },
       "upgradeStats": {
-        "damage": 22,
+        "damage": 20,
         "block": null
       },
       "dynamicValues": {
-        "Damage": 18,
+        "Damage": 16,
         "Increase": 2,
         "IncreaseBase": 2,
         "IncreaseExtra": 1
       },
       "upgradeDynamicValues": {
-        "Damage": 22,
+        "Damage": 20,
         "Increase": 2,
         "IncreaseBase": 2,
         "IncreaseExtra": 1
@@ -45045,7 +44905,7 @@
       "codeName": "FragmentedGem",
       "name": {
         "en": "Fragmented Gem",
-        "zh": "破碎宝石"
+        "zh": "宝石碎片"
       },
       "description": {
         "en": "Add {Gem:plural:a [gold]Crystal Shiv[/gold]|{Gem:diff()} [gold]Crystal Shivs[/gold]} into your [gold]Hand[/gold].",
@@ -45105,7 +44965,7 @@
           },
           "description": {
             "en": "Gems can be placed into [gold]Sockets[/gold] in cards at a Rest Site.",
-            "zh": "宝石能在休息处被镶嵌至有[gold]孔位[/gold]的卡牌上。"
+            "zh": "宝石能在休息处被镶嵌至有[gold]槽位[/gold]的卡牌上。"
           },
           "dynamicValues": {},
           "sourceValueKey": null,
@@ -45312,7 +45172,7 @@
           },
           "description": {
             "en": "Gems can be placed into [gold]Sockets[/gold] in cards at a Rest Site.",
-            "zh": "宝石能在休息处被镶嵌至有[gold]孔位[/gold]的卡牌上。"
+            "zh": "宝石能在休息处被镶嵌至有[gold]槽位[/gold]的卡牌上。"
           },
           "dynamicValues": {},
           "sourceValueKey": null,
@@ -45475,7 +45335,7 @@
       "isFinisher": false,
       "img": "assets/cards/gemcannon.png",
       "stats": {
-        "damage": 24,
+        "damage": 16,
         "block": null,
         "magic": null,
         "secondMagic": null,
@@ -45484,14 +45344,14 @@
         "selfDamage": null
       },
       "upgradeStats": {
-        "damage": 32,
+        "damage": 22,
         "block": null
       },
       "dynamicValues": {
-        "Damage": 24
+        "Damage": 16
       },
       "upgradeDynamicValues": {
-        "Damage": 32
+        "Damage": 22
       },
       "energyIcon": "assets/energy-icons/guardian.png",
       "deprecated": false,
@@ -45519,7 +45379,7 @@
           },
           "description": {
             "en": "Gems can be placed into [gold]Sockets[/gold] in cards at a Rest Site.",
-            "zh": "宝石能在休息处被镶嵌至有[gold]孔位[/gold]的卡牌上。"
+            "zh": "宝石能在休息处被镶嵌至有[gold]槽位[/gold]的卡牌上。"
           },
           "dynamicValues": {},
           "sourceValueKey": null,
@@ -45550,8 +45410,8 @@
         "zh": "宝石发现"
       },
       "description": {
-        "en": "Whenever you play a card with a [gold]Gem[/gold] in it, [gold]Brace[/gold] X{IfUpgraded:show:+1|}.",
-        "zh": "每当你打出一张镶嵌有[gold]宝石[/gold]的牌时，[gold]提防[/gold]{IfUpgraded:show:X+1|X}。"
+        "en": "Whenever you play an [gold]Unsocketed[/gold] [gold]Gem[/gold], draw {GemFinderPower:diff()} additional card next turn.",
+        "zh": "每当你打出一张[gold]宝石[/gold]牌时，在下个回合抽{GemFinderPower:diff()}张牌。"
       },
       "upgradeDescription": {
         "en": "",
@@ -45568,8 +45428,8 @@
         "en": "The Guardian",
         "zh": "守护者"
       },
-      "cost": -1,
-      "upgradeCost": null,
+      "cost": 1,
+      "upgradeCost": 0,
       "canUpgrade": true,
       "target": "Self",
       "isFinisher": false,
@@ -45598,6 +45458,20 @@
       "notInPool": false,
       "attachedTips": [
         {
+          "id": "GUARDIAN-SOCKET",
+          "name": {
+            "en": "Socket",
+            "zh": "槽位"
+          },
+          "description": {
+            "en": "Can be forged with a [gold]Gem[/gold] at a Rest Site to permanently absorb its effect.",
+            "zh": "能够在休息处镶嵌一张[gold]宝石[/gold]牌，永久获得对应效果。"
+          },
+          "dynamicValues": {},
+          "sourceValueKey": null,
+          "icon": null
+        },
+        {
           "id": "GUARDIAN-GEM",
           "name": {
             "en": "Gem",
@@ -45605,21 +45479,7 @@
           },
           "description": {
             "en": "Gems can be placed into [gold]Sockets[/gold] in cards at a Rest Site.",
-            "zh": "宝石能在休息处被镶嵌至有[gold]孔位[/gold]的卡牌上。"
-          },
-          "dynamicValues": {},
-          "sourceValueKey": null,
-          "icon": null
-        },
-        {
-          "id": "GUARDIAN-BRACE",
-          "name": {
-            "en": "Brace",
-            "zh": "提防"
-          },
-          "description": {
-            "en": "Reduce the HP loss required to trigger [gold]Mode Shift[/gold].",
-            "zh": "降低进入[gold]防御模式[/gold]所需的计数。"
+            "zh": "宝石能在休息处被镶嵌至有[gold]槽位[/gold]的卡牌上。"
           },
           "dynamicValues": {},
           "sourceValueKey": null,
@@ -45632,8 +45492,8 @@
             "zh": "宝石发现"
           },
           "description": {
-            "en": "Whenever you play a card with a [gold]Gem[/gold] in it, [gold]Brace[/gold].",
-            "zh": "每当你打出一张镶嵌有[gold]宝石[/gold]的牌时，[gold]提防[/gold]。"
+            "en": "Whenever you play an [gold]Unsocketed[/gold] [gold]Gem[/gold], draw [blue]1[/blue] additional card next turn.",
+            "zh": "每当你打出一张[gold]宝石[/gold]牌时，在下个回合抽[blue]1[/blue]张牌。"
           },
           "dynamicValues": {},
           "sourceValueKey": "GemFinderPower",
@@ -46162,8 +46022,8 @@
         "zh": "最大功率"
       },
       "description": {
-        "en": "Whenever a card ticks down in [gold]Stasis[/gold], gain {MaximumOverdrivePower:diff()} [gold]Strength[/gold] for one turn.",
-        "zh": "每当一张牌减少[gold]凝滞[/gold]计数时，获得{MaximumOverdrivePower:diff()}点临时[gold]力量[/gold]。"
+        "en": "Whenever a card ticks down in [gold]Stasis[/gold], gain {MaximumOverdrivePower:diff()} [gold]Strength[/gold] that turn.",
+        "zh": "每当一张牌减少[gold]凝滞[/gold]计数时，在一回合内获得{MaximumOverdrivePower:diff()}点[gold]力量[/gold]。"
       },
       "upgradeDescription": {
         "en": "",
@@ -46501,7 +46361,7 @@
           },
           "description": {
             "en": "Gems can be placed into [gold]Sockets[/gold] in cards at a Rest Site.",
-            "zh": "宝石能在休息处被镶嵌至有[gold]孔位[/gold]的卡牌上。"
+            "zh": "宝石能在休息处被镶嵌至有[gold]槽位[/gold]的卡牌上。"
           },
           "dynamicValues": {},
           "sourceValueKey": null,
@@ -46587,7 +46447,7 @@
           },
           "description": {
             "en": "Gems can be placed into [gold]Sockets[/gold] in cards at a Rest Site.",
-            "zh": "宝石能在休息处被镶嵌至有[gold]孔位[/gold]的卡牌上。"
+            "zh": "宝石能在休息处被镶嵌至有[gold]槽位[/gold]的卡牌上。"
           },
           "dynamicValues": {},
           "sourceValueKey": null,
@@ -46822,8 +46682,8 @@
         "zh": "超量格挡"
       },
       "description": {
-        "en": "Whenever you enter [gold]Defensive Mode[/gold], the ally with the least [gold]Block[/gold] gains {OverblockBlockPower:diff()} [gold]Block[/gold] and {OverblockThornsPower:diff()} [gold]Thorns[/gold] for one turn.",
-        "zh": "每当你进入[gold]防御模式[/gold]时，[gold]格挡[/gold]值最少的盟友在本回合中获得{OverblockBlockPower:diff()}点[gold]格挡[/gold]和{OverblockThornsPower:diff()}层[gold]荆棘[/gold]。"
+        "en": "Whenever you enter [gold]Defensive Mode[/gold], the ally with the least [gold]Block[/gold] gains {OverblockBlockPower:diff()} [gold]Block[/gold] and {OverblockThornsPower:diff()} [gold]Thorns[/gold] that turn.",
+        "zh": "每当你进入[gold]防御模式[/gold]时，[gold]格挡[/gold]值最少的盟友在一回合内获得{OverblockBlockPower:diff()}点[gold]格挡[/gold]和{OverblockThornsPower:diff()}层[gold]荆棘[/gold]。"
       },
       "upgradeDescription": {
         "en": "",
@@ -46841,7 +46701,7 @@
         "zh": "守护者"
       },
       "cost": 3,
-      "upgradeCost": null,
+      "upgradeCost": 2,
       "canUpgrade": true,
       "target": "Self",
       "isFinisher": false,
@@ -46934,7 +46794,7 @@
       "attachedCardTips": [],
       "descriptionKeywordPrefix": [
         {
-          "mode": "remove",
+          "mode": "always",
           "style": null,
           "label": {
             "en": "Ethereal.",
@@ -47711,8 +47571,8 @@
         "zh": "缤纷炫盾"
       },
       "description": {
-        "en": "Gain {CalculationExtra:diff()} [gold]Block[/gold] for each [gold]Gem[/gold] in this card.",
-        "zh": "此牌中每有一颗[gold]宝石[/gold]，获得{CalculationExtra:diff()}点[gold]格挡[/gold]。"
+        "en": "Gain {CalculationExtra:diff()} [gold]Block[/gold] for each [gold]Gem[/gold] in this card.{InCombat:cond:\n(Gain {CalculatedBlock:diff()} [gold]Block[/gold])|}",
+        "zh": "此牌中每有一颗[gold]宝石[/gold]，获得{CalculationExtra:diff()}点[gold]格挡[/gold]。{InCombat:cond:\n（获得{CalculatedBlock:diff()}点[gold]格挡[/gold]）|}"
       },
       "upgradeDescription": {
         "en": "",
@@ -47774,7 +47634,7 @@
           },
           "description": {
             "en": "Gems can be placed into [gold]Sockets[/gold] in cards at a Rest Site.",
-            "zh": "宝石能在休息处被镶嵌至有[gold]孔位[/gold]的卡牌上。"
+            "zh": "宝石能在休息处被镶嵌至有[gold]槽位[/gold]的卡牌上。"
           },
           "dynamicValues": {},
           "sourceValueKey": null,
@@ -47860,7 +47720,7 @@
           },
           "description": {
             "en": "Gems can be placed into [gold]Sockets[/gold] in cards at a Rest Site.",
-            "zh": "宝石能在休息处被镶嵌至有[gold]孔位[/gold]的卡牌上。"
+            "zh": "宝石能在休息处被镶嵌至有[gold]槽位[/gold]的卡牌上。"
           },
           "dynamicValues": {},
           "sourceValueKey": null,
@@ -47922,11 +47782,11 @@
       },
       "dynamicValues": {
         "Block": 7,
-        "Brace": 6
+        "Brace": 8
       },
       "upgradeDynamicValues": {
-        "Block": 9,
-        "Brace": 8
+        "Block": 10,
+        "Brace": 10
       },
       "energyIcon": "assets/energy-icons/guardian.png",
       "deprecated": false,
@@ -47987,11 +47847,11 @@
       },
       "dynamicValues": {
         "Block": 5,
-        "Brace": 3
+        "Brace": 2
       },
       "upgradeDynamicValues": {
         "Block": 8,
-        "Brace": 4
+        "Brace": 3
       },
       "energyIcon": "assets/energy-icons/guardian.png",
       "deprecated": false,
@@ -48028,8 +47888,8 @@
         "zh": "折射光束"
       },
       "description": {
-        "en": "Deal {Damage:diff()} damage {Repeat:diff()} times.\nCan be [gold]Upgraded[/gold] any number of times.\nGain +1 [gold]Socket[/gold] for each [gold]Upgrade[/gold].",
-        "zh": "造成{Damage:diff()}点伤害{Repeat:diff()}次。\n可以被[gold]升级[/gold]任意次。\n每次[gold]升级[/gold]获得一个额外[gold]槽位[/gold]。"
+        "en": "Deal {Damage:diff()} damage {Repeat:diff()} times.{InCombat:cond:|\nCan be [gold]Upgraded[/gold] any number of times.\nGain +1 [gold]Socket[/gold] each time you [gold]Upgrade[/gold] this.}",
+        "zh": "造成{Damage:diff()}点伤害{Repeat:diff()}次。{InCombat:cond:|\n可以被[gold]升级[/gold]任意次。\n每次[gold]升级[/gold]获得一个额外[gold]槽位[/gold]。}"
       },
       "upgradeDescription": {
         "en": "",
@@ -48091,7 +47951,7 @@
           },
           "description": {
             "en": "Gems can be placed into [gold]Sockets[/gold] in cards at a Rest Site.",
-            "zh": "宝石能在休息处被镶嵌至有[gold]孔位[/gold]的卡牌上。"
+            "zh": "宝石能在休息处被镶嵌至有[gold]槽位[/gold]的卡牌上。"
           },
           "dynamicValues": {},
           "sourceValueKey": null,
@@ -48104,8 +47964,8 @@
             "zh": "槽位"
           },
           "description": {
-            "en": "[gold]Gems[/gold] can be placed into this Socket at a Rest Site.",
-            "zh": "[gold]宝石[/gold]能够被镶嵌至有槽位的牌上。"
+            "en": "Can be forged with a [gold]Gem[/gold] at a Rest Site to permanently absorb its effect.",
+            "zh": "能够在休息处镶嵌一张[gold]宝石[/gold]牌，永久获得对应效果。"
           },
           "dynamicValues": {},
           "sourceValueKey": null,
@@ -48189,7 +48049,7 @@
           },
           "description": {
             "en": "Gems can be placed into [gold]Sockets[/gold] in cards at a Rest Site.",
-            "zh": "宝石能在休息处被镶嵌至有[gold]孔位[/gold]的卡牌上。"
+            "zh": "宝石能在休息处被镶嵌至有[gold]槽位[/gold]的卡牌上。"
           },
           "dynamicValues": {},
           "sourceValueKey": null,
@@ -48628,8 +48488,8 @@
         "zh": "岩崩"
       },
       "description": {
-        "en": "Deal {Damage:diff()} damage.\nPresocketed with a [gold]Common[/gold], [gold]Uncommon[/gold], and [gold]Rare[/gold] [gold]Gem[/gold].",
-        "zh": "造成{Damage:diff()}点伤害。\n自动镶嵌[gold]普通[/gold]、[gold]罕见[/gold]和[gold]稀有[/gold][gold]宝石[/gold]各一颗。"
+        "en": "Deal {Damage:diff()} damage.{InCombat:cond:|\nPresocketed with a [gold]Common[/gold], [gold]Uncommon[/gold], and [gold]Rare[/gold] [gold]Gem[/gold].}",
+        "zh": "造成{Damage:diff()}点伤害。{InCombat:cond:|\n自带[gold]普通[/gold]、[gold]罕见[/gold]和[gold]稀有[/gold][gold]宝石[/gold]各一颗。}"
       },
       "upgradeDescription": {
         "en": "",
@@ -48689,7 +48549,7 @@
           },
           "description": {
             "en": "Gems can be placed into [gold]Sockets[/gold] in cards at a Rest Site.",
-            "zh": "宝石能在休息处被镶嵌至有[gold]孔位[/gold]的卡牌上。"
+            "zh": "宝石能在休息处被镶嵌至有[gold]槽位[/gold]的卡牌上。"
           },
           "dynamicValues": {},
           "sourceValueKey": null,
@@ -48855,7 +48715,7 @@
           },
           "description": {
             "en": "Gems can be placed into [gold]Sockets[/gold] in cards at a Rest Site.",
-            "zh": "宝石能在休息处被镶嵌至有[gold]孔位[/gold]的卡牌上。"
+            "zh": "宝石能在休息处被镶嵌至有[gold]槽位[/gold]的卡牌上。"
           },
           "dynamicValues": {},
           "sourceValueKey": null,
@@ -48941,7 +48801,7 @@
           },
           "description": {
             "en": "Gems can be placed into [gold]Sockets[/gold] in cards at a Rest Site.",
-            "zh": "宝石能在休息处被镶嵌至有[gold]孔位[/gold]的卡牌上。"
+            "zh": "宝石能在休息处被镶嵌至有[gold]槽位[/gold]的卡牌上。"
           },
           "dynamicValues": {},
           "sourceValueKey": null,
@@ -49027,7 +48887,7 @@
           },
           "description": {
             "en": "Gems can be placed into [gold]Sockets[/gold] in cards at a Rest Site.",
-            "zh": "宝石能在休息处被镶嵌至有[gold]孔位[/gold]的卡牌上。"
+            "zh": "宝石能在休息处被镶嵌至有[gold]槽位[/gold]的卡牌上。"
           },
           "dynamicValues": {},
           "sourceValueKey": null,
@@ -49441,7 +49301,7 @@
         "ExtraDamage": 5
       },
       "upgradeDynamicValues": {
-        "CalculatedDamage": 18,
+        "CalculatedDamage": 17,
         "ExtraDamage": 6
       },
       "energyIcon": "assets/energy-icons/guardian.png",
@@ -49817,7 +49677,7 @@
       "img": "assets/cards/shieldspikes.png",
       "stats": {
         "damage": null,
-        "block": 12,
+        "block": 11,
         "magic": null,
         "secondMagic": null,
         "thirdMagic": null,
@@ -49826,15 +49686,15 @@
       },
       "upgradeStats": {
         "damage": null,
-        "block": 12
+        "block": 11
       },
       "dynamicValues": {
-        "Block": 12,
+        "Block": 11,
         "Brace": 8,
         "ThornsPower": 3
       },
       "upgradeDynamicValues": {
-        "Block": 16,
+        "Block": 15,
         "Brace": 8,
         "ThornsPower": 4
       },
@@ -49950,8 +49810,8 @@
         "zh": "球面护盾"
       },
       "description": {
-        "en": "[gold]Brace[/gold] {Brace:diff()}.",
-        "zh": "[gold]提防[/gold]{Brace:diff()}。"
+        "en": "[gold]Brace[/gold] {Brace:diff()} X times.",
+        "zh": "[gold]提防[/gold]{Brace:diff()}，共X次。"
       },
       "upgradeDescription": {
         "en": "",
@@ -49968,8 +49828,8 @@
         "en": "The Guardian",
         "zh": "守护者"
       },
-      "cost": 4,
-      "upgradeCost": 3,
+      "cost": -1,
+      "upgradeCost": null,
       "canUpgrade": true,
       "target": "Self",
       "isFinisher": false,
@@ -49988,10 +49848,10 @@
         "block": null
       },
       "dynamicValues": {
-        "Brace": 40
+        "Brace": 10
       },
       "upgradeDynamicValues": {
-        "Brace": 40
+        "Brace": 13
       },
       "energyIcon": "assets/energy-icons/guardian.png",
       "deprecated": false,
@@ -50271,7 +50131,7 @@
       "img": "assets/cards/stasisfield.png",
       "stats": {
         "damage": null,
-        "block": 6,
+        "block": 5,
         "magic": null,
         "secondMagic": null,
         "thirdMagic": null,
@@ -50280,10 +50140,10 @@
       },
       "upgradeStats": {
         "damage": null,
-        "block": 6
+        "block": 5
       },
       "dynamicValues": {
-        "Block": 6
+        "Block": 5
       },
       "upgradeDynamicValues": {
         "Block": 8
@@ -50348,7 +50208,7 @@
       "isFinisher": false,
       "img": "assets/cards/stasisstrike.png",
       "stats": {
-        "damage": 16,
+        "damage": 15,
         "block": null,
         "magic": null,
         "secondMagic": null,
@@ -50361,7 +50221,7 @@
         "block": null
       },
       "dynamicValues": {
-        "Damage": 16,
+        "Damage": 15,
         "StasisSlots": 1,
         "StasisSlotsBase": 1,
         "StasisSlotsExtra": 1
@@ -50680,7 +50540,7 @@
           },
           "description": {
             "en": "Gems can be placed into [gold]Sockets[/gold] in cards at a Rest Site.",
-            "zh": "宝石能在休息处被镶嵌至有[gold]孔位[/gold]的卡牌上。"
+            "zh": "宝石能在休息处被镶嵌至有[gold]槽位[/gold]的卡牌上。"
           },
           "dynamicValues": {},
           "sourceValueKey": null,
@@ -50743,7 +50603,7 @@
       "img": "assets/cards/temporalshield.png",
       "stats": {
         "damage": null,
-        "block": 8,
+        "block": 7,
         "magic": null,
         "secondMagic": null,
         "thirdMagic": null,
@@ -50752,14 +50612,14 @@
       },
       "upgradeStats": {
         "damage": null,
-        "block": 8
+        "block": 7
       },
       "dynamicValues": {
-        "Block": 8,
+        "Block": 7,
         "Accelerate": 1
       },
       "upgradeDynamicValues": {
-        "Block": 11,
+        "Block": 10,
         "Accelerate": 1
       },
       "energyIcon": "assets/energy-icons/guardian.png",
@@ -51224,7 +51084,7 @@
           },
           "description": {
             "en": "Gems can be placed into [gold]Sockets[/gold] in cards at a Rest Site.",
-            "zh": "宝石能在休息处被镶嵌至有[gold]孔位[/gold]的卡牌上。"
+            "zh": "宝石能在休息处被镶嵌至有[gold]槽位[/gold]的卡牌上。"
           },
           "dynamicValues": {},
           "sourceValueKey": null,
@@ -51430,14 +51290,14 @@
         "en": "The Guardian",
         "zh": "守护者"
       },
-      "cost": 3,
+      "cost": 2,
       "upgradeCost": null,
       "canUpgrade": true,
       "target": "AnyEnemy",
       "isFinisher": false,
       "img": "assets/cards/walkerclaw.png",
       "stats": {
-        "damage": 26,
+        "damage": 18,
         "block": null,
         "magic": null,
         "secondMagic": null,
@@ -51446,15 +51306,15 @@
         "selfDamage": null
       },
       "upgradeStats": {
-        "damage": 32,
+        "damage": 23,
         "block": null
       },
       "dynamicValues": {
-        "Damage": 26,
+        "Damage": 18,
         "GemSlots": 2
       },
       "upgradeDynamicValues": {
-        "Damage": 32,
+        "Damage": 23,
         "GemSlots": 2
       },
       "energyIcon": "assets/energy-icons/guardian.png",
@@ -51685,8 +51545,8 @@
         "en": "The Hermit",
         "zh": "亡命之徒"
       },
-      "cost": 2,
-      "upgradeCost": 1,
+      "cost": 1,
+      "upgradeCost": 0,
       "canUpgrade": true,
       "target": "AnyEnemy",
       "isFinisher": false,
@@ -53736,7 +53596,7 @@
         "zh": "渐隐"
       },
       "description": {
-        "en": "Gain {Block:diff()} [gold]Block[/gold].\nALL players add a [gold]Clumsy[/gold] into their [gold]Discard Pile[/gold].",
+        "en": "ALL players gain {Block:diff()} [gold]Block[/gold] and add a [gold]Clumsy[/gold] into their [gold]Discard Pile[/gold].",
         "zh": "所有玩家获得{Block:diff()}点[gold]格挡[/gold]，并在[gold]弃牌堆[/gold]中加入一张[gold]笨拙[/gold]。"
       },
       "upgradeDescription": {
@@ -53748,7 +53608,7 @@
         "zh": []
       },
       "type": "SKILL",
-      "rarity": "RARE",
+      "rarity": "UNCOMMON",
       "color": "HERMIT",
       "colorName": {
         "en": "The Hermit",
@@ -53762,7 +53622,7 @@
       "img": null,
       "stats": {
         "damage": null,
-        "block": 12,
+        "block": 9,
         "magic": null,
         "secondMagic": null,
         "thirdMagic": null,
@@ -53771,13 +53631,13 @@
       },
       "upgradeStats": {
         "damage": null,
-        "block": 12
+        "block": 9
       },
       "dynamicValues": {
-        "Block": 12
+        "Block": 9
       },
       "upgradeDynamicValues": {
-        "Block": 16
+        "Block": 12
       },
       "energyIcon": "assets/energy-icons/hermit.png",
       "deprecated": false,
@@ -54954,7 +54814,7 @@
       },
       "description": {
         "en": "Deal {CalculatedDamage:diff()} damage to ALL enemies.\nDeals {ExtraDamage:diff()} additional damage for ALL your Curse cards.",
-        "zh": "对所有敌人造成{CalculatedDamage:diff()}点伤害。\n你在[gold]消耗牌堆[/gold]之外每有一张诅咒牌，伤害增加{ExtraDamage:diff()}。"
+        "zh": "对所有敌人造成{CalculatedDamage:diff()}点伤害。\n你每有一张诅咒牌，伤害增加{ExtraDamage:diff()}。"
       },
       "upgradeDescription": {
         "en": "",
@@ -55957,6 +55817,84 @@
       "dynamicDescriptionLines": []
     },
     {
+      "id": "HERMIT-LONG_SHADOWS",
+      "codeName": "LongShadows",
+      "name": {
+        "en": "Long Shadows",
+        "zh": "漫长阴影"
+      },
+      "description": {
+        "en": "Whenever you draw a Curse, draw {LongShadowsPower:plural:a card|{LongShadowsPower:diff()} cards}.",
+        "zh": "每当你抽到一张诅咒牌时，抽{LongShadowsPower:diff()}张牌。"
+      },
+      "upgradeDescription": {
+        "en": "",
+        "zh": ""
+      },
+      "extendedDescription": {
+        "en": [],
+        "zh": []
+      },
+      "type": "POWER",
+      "rarity": "RARE",
+      "color": "HERMIT",
+      "colorName": {
+        "en": "The Hermit",
+        "zh": "亡命之徒"
+      },
+      "cost": 1,
+      "upgradeCost": 0,
+      "canUpgrade": true,
+      "target": "Self",
+      "isFinisher": false,
+      "img": null,
+      "stats": {
+        "damage": null,
+        "block": null,
+        "magic": null,
+        "secondMagic": null,
+        "thirdMagic": null,
+        "secondDamage": null,
+        "selfDamage": null
+      },
+      "upgradeStats": {
+        "damage": null,
+        "block": null
+      },
+      "dynamicValues": {
+        "LongShadowsPower": 1
+      },
+      "upgradeDynamicValues": {
+        "LongShadowsPower": 1
+      },
+      "energyIcon": "assets/energy-icons/hermit.png",
+      "deprecated": false,
+      "notInPool": false,
+      "attachedTips": [
+        {
+          "id": "HERMIT-LONG_SHADOWS_POWER",
+          "name": {
+            "en": "Long Shadows",
+            "zh": "漫长阴影"
+          },
+          "description": {
+            "en": "Whenever you draw a Curse, draw a card.",
+            "zh": "每当你抽到一张诅咒牌时，抽[blue]1[/blue]张牌。"
+          },
+          "dynamicValues": {},
+          "sourceValueKey": "LongShadowsPower",
+          "icon": null
+        }
+      ],
+      "visualColor": "HERMIT",
+      "hasConjure": false,
+      "isSpell": false,
+      "attachedCardTips": [],
+      "descriptionKeywordPrefix": [],
+      "descriptionKeywordSuffix": [],
+      "dynamicDescriptionLines": []
+    },
+    {
       "id": "HERMIT-LOW_PROFILE",
       "codeName": "LowProfile",
       "name": {
@@ -56115,7 +56053,7 @@
         "zh": "亡命之徒"
       },
       "cost": 2,
-      "upgradeCost": null,
+      "upgradeCost": 1,
       "canUpgrade": true,
       "target": "Self",
       "isFinisher": false,
@@ -56137,7 +56075,7 @@
         "MagazinePower": 6
       },
       "upgradeDynamicValues": {
-        "MagazinePower": 9
+        "MagazinePower": 6
       },
       "energyIcon": "assets/energy-icons/hermit.png",
       "deprecated": false,
@@ -57343,8 +57281,8 @@
         "zh": "肉搏"
       },
       "description": {
-        "en": "Deal {Damage:diff()} damage.\n[gold]Dead On[/gold]: Gain {Block:diff()} [gold]Block[/gold].",
-        "zh": "造成{Damage:diff()}点伤害。\n[gold]精准[/gold]：获得{Block:diff()}点[gold]格挡[/gold]。"
+        "en": "Deal {Damage:diff()} damage.\n[gold]Dead On[/gold]: Gain [gold]Block[/gold] equal to damage dealt.",
+        "zh": "造成{Damage:diff()}点伤害。\n[gold]精准[/gold]：获得等量于所造成伤害的[gold]格挡[/gold]。"
       },
       "upgradeDescription": {
         "en": "",
@@ -57368,8 +57306,8 @@
       "isFinisher": false,
       "img": "assets/cards/roughhouse.png",
       "stats": {
-        "damage": 24,
-        "block": 20,
+        "damage": 22,
+        "block": null,
         "magic": null,
         "secondMagic": null,
         "thirdMagic": null,
@@ -57377,16 +57315,14 @@
         "selfDamage": null
       },
       "upgradeStats": {
-        "damage": 30,
-        "block": 20
+        "damage": 28,
+        "block": null
       },
       "dynamicValues": {
-        "Damage": 24,
-        "Block": 20
+        "Damage": 22
       },
       "upgradeDynamicValues": {
-        "Damage": 30,
-        "Block": 24
+        "Damage": 28
       },
       "energyIcon": "assets/energy-icons/hermit.png",
       "deprecated": false,
@@ -57934,7 +57870,7 @@
         "zh": "同甘共苦"
       },
       "description": {
-        "en": "Gain {Block:diff()} [gold]Block[/gold].\n[gold]Dead On[/gold]: ALL other players gain {Energy:energyIcons()} and draw {Cards:diff()} cards.",
+        "en": "Gain {Block:diff()} [gold]Block[/gold].\n[gold]Dead On[/gold]: ALL allies gain {Energy:energyIcons()} and draw {Cards:diff()} cards.",
         "zh": "获得{Block:diff()}点[gold]格挡[/gold]。\n[gold]精准[/gold]：所有盟友获得{Energy:energyIcons()}并抽{Cards:diff()}张牌。"
       },
       "upgradeDescription": {
@@ -58049,7 +57985,7 @@
       "isFinisher": false,
       "img": "assets/cards/shortfuse.png",
       "stats": {
-        "damage": 13,
+        "damage": 14,
         "block": null,
         "magic": null,
         "secondMagic": null,
@@ -58058,14 +57994,14 @@
         "selfDamage": null
       },
       "upgradeStats": {
-        "damage": 17,
+        "damage": 18,
         "block": null
       },
       "dynamicValues": {
-        "Damage": 13
+        "Damage": 14
       },
       "upgradeDynamicValues": {
-        "Damage": 17
+        "Damage": 18
       },
       "energyIcon": "assets/energy-icons/hermit.png",
       "deprecated": false,
@@ -60035,6 +59971,20 @@
           "dynamicValues": {},
           "sourceValueKey": null,
           "icon": null
+        },
+        {
+          "id": "HEXAGHOST-EXTINGUISH",
+          "name": {
+            "en": "Extinguish",
+            "zh": "熄灭"
+          },
+          "description": {
+            "en": "Resets an [gold]Ignited[/gold] Ghostflame so it can be [gold]Ignited[/gold] again.",
+            "zh": "重置1枚已[gold]点燃[/gold]的[gold]鬼火[/gold]，其可以再次被[gold]点燃[/gold]。"
+          },
+          "dynamicValues": {},
+          "sourceValueKey": null,
+          "icon": null
         }
       ],
       "visualColor": "HEXAGHOST",
@@ -60193,7 +60143,7 @@
         "en": "The Hexaghost",
         "zh": "六火亡魂"
       },
-      "cost": 3,
+      "cost": 2,
       "upgradeCost": null,
       "canUpgrade": true,
       "target": "Self",
@@ -60213,14 +60163,14 @@
         "block": null
       },
       "dynamicValues": {
-        "IntensityPower": 3,
-        "MetallicizePower": 6,
-        "RoyaltiesPower": 40
+        "IntensityPower": 2,
+        "MetallicizePower": 4,
+        "RoyaltiesPower": 35
       },
       "upgradeDynamicValues": {
-        "IntensityPower": 4,
-        "MetallicizePower": 8,
-        "RoyaltiesPower": 50
+        "IntensityPower": 3,
+        "MetallicizePower": 6,
+        "RoyaltiesPower": 45
       },
       "energyIcon": "assets/energy-icons/hexaghost.png",
       "deprecated": false,
@@ -60323,14 +60273,14 @@
         "block": null
       },
       "dynamicValues": {
-        "IntensityPower": 3,
-        "MetallicizePower": 6,
-        "RoyaltiesPower": 40
+        "IntensityPower": 2,
+        "MetallicizePower": 4,
+        "RoyaltiesPower": 35
       },
       "upgradeDynamicValues": {
-        "IntensityPower": 4,
-        "MetallicizePower": 8,
-        "RoyaltiesPower": 50
+        "IntensityPower": 3,
+        "MetallicizePower": 6,
+        "RoyaltiesPower": 45
       },
       "energyIcon": "assets/energy-icons/hexaghost.png",
       "deprecated": false,
@@ -60390,12 +60340,12 @@
         "block": null
       },
       "dynamicValues": {
-        "MetallicizePower": 6,
-        "RoyaltiesPower": 40
+        "MetallicizePower": 4,
+        "RoyaltiesPower": 35
       },
       "upgradeDynamicValues": {
-        "MetallicizePower": 8,
-        "RoyaltiesPower": 50
+        "MetallicizePower": 6,
+        "RoyaltiesPower": 45
       },
       "energyIcon": "assets/energy-icons/hexaghost.png",
       "deprecated": false,
@@ -60455,10 +60405,10 @@
         "block": null
       },
       "dynamicValues": {
-        "RoyaltiesPower": 40
+        "RoyaltiesPower": 35
       },
       "upgradeDynamicValues": {
-        "RoyaltiesPower": 50
+        "RoyaltiesPower": 45
       },
       "energyIcon": "assets/energy-icons/hexaghost.png",
       "deprecated": false,
@@ -60857,7 +60807,7 @@
       "canUpgrade": true,
       "target": "AnyEnemy",
       "isFinisher": false,
-      "img": null,
+      "img": "assets/cards/circleflame.png",
       "stats": {
         "damage": null,
         "block": null,
@@ -61152,7 +61102,7 @@
       "img": "assets/cards/devourflame.png",
       "stats": {
         "damage": null,
-        "block": 9,
+        "block": 10,
         "magic": null,
         "secondMagic": null,
         "thirdMagic": null,
@@ -61161,13 +61111,13 @@
       },
       "upgradeStats": {
         "damage": null,
-        "block": 9
+        "block": 10
       },
       "dynamicValues": {
-        "Block": 9
+        "Block": 10
       },
       "upgradeDynamicValues": {
-        "Block": 12
+        "Block": 13
       },
       "energyIcon": "assets/energy-icons/hexaghost.png",
       "deprecated": false,
@@ -61218,8 +61168,8 @@
         "zh": "移位"
       },
       "description": {
-        "en": "Gain {Block:diff()} [gold]Block[/gold].\nDeal {Damage:diff()} damage.\nPlace a card in your [gold]Hand[/gold] on top of your [gold]Draw Pile[/gold].",
-        "zh": "获得{Block:diff()}点[gold]格挡[/gold]。\n造成{Damage:diff()}点伤害。\n将你[gold]手牌[/gold]中一张牌放到你的[gold]抽牌堆[/gold]顶部。"
+        "en": "Gain {Block:diff()} [gold]Block[/gold].\nDraw {Cards:diff()} {Cards:plural:card|cards}.\nPlace {Place:diff()} {Place:plural:card|cards} from your [gold]Hand[/gold] on top of your [gold]Draw Pile[/gold].",
+        "zh": "获得{Block:diff()}点[gold]格挡[/gold]。\n抽{Cards:diff()}张牌。\n将你[gold]手牌[/gold]中{Place:diff()}张牌放到你的[gold]抽牌堆[/gold]顶部。"
       },
       "upgradeDescription": {
         "en": "",
@@ -61229,7 +61179,7 @@
         "en": [],
         "zh": []
       },
-      "type": "ATTACK",
+      "type": "SKILL",
       "rarity": "COMMON",
       "color": "HEXAGHOST",
       "colorName": {
@@ -61243,8 +61193,8 @@
       "isFinisher": false,
       "img": "assets/cards/displace.png",
       "stats": {
-        "damage": 6,
-        "block": 6,
+        "damage": null,
+        "block": 7,
         "magic": null,
         "secondMagic": null,
         "thirdMagic": null,
@@ -61252,18 +61202,18 @@
         "selfDamage": null
       },
       "upgradeStats": {
-        "damage": 8,
-        "block": 6
+        "damage": null,
+        "block": 7
       },
       "dynamicValues": {
-        "Block": 6,
-        "Damage": 6,
-        "Cards": 1
+        "Block": 7,
+        "Cards": 1,
+        "Place": 1
       },
       "upgradeDynamicValues": {
         "Block": 8,
-        "Damage": 8,
-        "Cards": 1
+        "Cards": 2,
+        "Place": 1
       },
       "energyIcon": "assets/energy-icons/hexaghost.png",
       "deprecated": false,
@@ -61310,7 +61260,7 @@
       "isFinisher": false,
       "img": "assets/cards/divider.png",
       "stats": {
-        "damage": 3,
+        "damage": 5,
         "block": null,
         "magic": null,
         "secondMagic": null,
@@ -61319,14 +61269,14 @@
         "selfDamage": null
       },
       "upgradeStats": {
-        "damage": 5,
+        "damage": 7,
         "block": null
       },
       "dynamicValues": {
-        "Damage": 3
+        "Damage": 5
       },
       "upgradeDynamicValues": {
-        "Damage": 5
+        "Damage": 7
       },
       "energyIcon": "assets/energy-icons/hexaghost.png",
       "deprecated": false,
@@ -62323,12 +62273,12 @@
       "dynamicValues": {
         "Damage": 6,
         "WeakPower": 1,
-        "FlashbangPower": 2
+        "FlashbangPower": 3
       },
       "upgradeDynamicValues": {
         "Damage": 7,
         "WeakPower": 2,
-        "FlashbangPower": 3
+        "FlashbangPower": 4
       },
       "energyIcon": "assets/energy-icons/hexaghost.png",
       "deprecated": false,
@@ -62445,6 +62395,20 @@
           "description": {
             "en": "Triggers the Ignition effect described on a Ghostflame.",
             "zh": "触发当前[gold]鬼火[/gold]的点燃效果"
+          },
+          "dynamicValues": {},
+          "sourceValueKey": null,
+          "icon": null
+        },
+        {
+          "id": "HEXAGHOST-EXTINGUISH",
+          "name": {
+            "en": "Extinguish",
+            "zh": "熄灭"
+          },
+          "description": {
+            "en": "Resets an [gold]Ignited[/gold] Ghostflame so it can be [gold]Ignited[/gold] again.",
+            "zh": "重置1枚已[gold]点燃[/gold]的[gold]鬼火[/gold]，其可以再次被[gold]点燃[/gold]。"
           },
           "dynamicValues": {},
           "sourceValueKey": null,
@@ -63877,6 +63841,20 @@
       "notInPool": false,
       "attachedTips": [
         {
+          "id": "HEXAGHOST-EXTINGUISH",
+          "name": {
+            "en": "Extinguish",
+            "zh": "熄灭"
+          },
+          "description": {
+            "en": "Resets an [gold]Ignited[/gold] Ghostflame so it can be [gold]Ignited[/gold] again.",
+            "zh": "重置1枚已[gold]点燃[/gold]的[gold]鬼火[/gold]，其可以再次被[gold]点燃[/gold]。"
+          },
+          "dynamicValues": {},
+          "sourceValueKey": null,
+          "icon": null
+        },
+        {
           "id": "HEXAGHOST-MORE_ENERGY_POWER",
           "name": {
             "en": "More Energy",
@@ -64450,8 +64428,8 @@
         "en": "The Hexaghost",
         "zh": "六火亡魂"
       },
-      "cost": 3,
-      "upgradeCost": 2,
+      "cost": 2,
+      "upgradeCost": null,
       "canUpgrade": true,
       "target": "Self",
       "isFinisher": false,
@@ -64479,6 +64457,20 @@
       "deprecated": false,
       "notInPool": false,
       "attachedTips": [
+        {
+          "id": "Retain",
+          "name": {
+            "en": "Retain",
+            "zh": "保留"
+          },
+          "description": {
+            "en": "Retained cards are not discarded at the end of turn.",
+            "zh": "保留的牌不会在回合结束时被弃掉。"
+          },
+          "dynamicValues": {},
+          "sourceValueKey": null,
+          "icon": null
+        },
         {
           "id": "Exhaust",
           "name": {
@@ -64526,7 +64518,16 @@
       "hasConjure": false,
       "isSpell": false,
       "attachedCardTips": [],
-      "descriptionKeywordPrefix": [],
+      "descriptionKeywordPrefix": [
+        {
+          "mode": "add",
+          "style": null,
+          "label": {
+            "en": "Retain.",
+            "zh": "保留。"
+          }
+        }
+      ],
       "descriptionKeywordSuffix": [],
       "dynamicDescriptionLines": []
     },
@@ -64958,10 +64959,10 @@
         "block": null
       },
       "dynamicValues": {
-        "SoulBurnPower": 3
+        "SoulBurnPower": 4
       },
       "upgradeDynamicValues": {
-        "SoulBurnPower": 5
+        "SoulBurnPower": 6
       },
       "energyIcon": "assets/energy-icons/hexaghost.png",
       "deprecated": false,
@@ -65228,7 +65229,7 @@
         "zh": "梦魇幻象"
       },
       "description": {
-        "en": "Whenever an [gold]Ethereal[/gold] card [gold]Exhausts[/gold], gain {NightmareVisionPower:diff()} [gold]Block[/gold].",
+        "en": "Whenever an [gold]Ethereal[/gold] card is [gold]Exhausted[/gold], gain {NightmareVisionPower:diff()} [gold]Block[/gold].",
         "zh": "每当你[gold]消耗[/gold]一张[gold]虚无[/gold]牌时，获得{NightmareVisionPower:diff()}点[gold]格挡[/gold]。"
       },
       "upgradeDescription": {
@@ -65928,8 +65929,8 @@
         "zh": "预兆"
       },
       "description": {
-        "en": "Choose a card type.\nPlay a random card of that type from your [gold]Draw Pile[/gold].",
-        "zh": "选择一种卡牌类型。\n从[gold]抽牌堆[/gold]随机打出一张该类型的牌。"
+        "en": "At the start of your turn, if at least 2 cards were [gold]Exhausted[/gold] during the previous turn, draw {PremonitionPower:diff()} additional {PremonitionPower:plural:card|cards}.",
+        "zh": "At the start of your turn, if at least 2 cards were [gold]Exhausted[/gold] during the previous turn, draw {PremonitionPower:diff()} additional {PremonitionPower:plural:card|cards}."
       },
       "upgradeDescription": {
         "en": "",
@@ -65939,7 +65940,7 @@
         "en": [],
         "zh": []
       },
-      "type": "SKILL",
+      "type": "POWER",
       "rarity": "UNCOMMON",
       "color": "HEXAGHOST",
       "colorName": {
@@ -65947,7 +65948,7 @@
         "zh": "六火亡魂"
       },
       "cost": 1,
-      "upgradeCost": 0,
+      "upgradeCost": null,
       "canUpgrade": true,
       "target": "Self",
       "isFinisher": false,
@@ -65965,8 +65966,12 @@
         "damage": null,
         "block": null
       },
-      "dynamicValues": {},
-      "upgradeDynamicValues": {},
+      "dynamicValues": {
+        "PremonitionPower": 1
+      },
+      "upgradeDynamicValues": {
+        "PremonitionPower": 2
+      },
       "energyIcon": "assets/energy-icons/hexaghost.png",
       "deprecated": false,
       "notInPool": false,
@@ -65983,6 +65988,20 @@
           },
           "dynamicValues": {},
           "sourceValueKey": null,
+          "icon": null
+        },
+        {
+          "id": "HEXAGHOST-PREMONITION_POWER",
+          "name": {
+            "en": "Premonition",
+            "zh": "预兆"
+          },
+          "description": {
+            "en": "At the start of your turn, if at least [blue]2[/blue] cards were [gold]Exhausted[/gold] during the previous turn, draw additional cards.",
+            "zh": "At the start of your turn, if at least [blue]2[/blue] cards were [gold]Exhausted[/gold] during the previous turn, draw additional cards."
+          },
+          "dynamicValues": {},
+          "sourceValueKey": "PremonitionPower",
           "icon": null
         }
       ],
@@ -66004,7 +66023,7 @@
     },
     {
       "id": "HEXAGHOST-PREMONITION_CHOICE",
-      "codeName": "PremonitionChoice",
+      "codeName": "",
       "name": {
         "en": "Premonition",
         "zh": "预兆"
@@ -66022,17 +66041,17 @@
         "zh": []
       },
       "type": "SKILL",
-      "rarity": "TOKEN",
-      "color": "COLORLESS",
+      "rarity": "SPECIAL",
+      "color": "DOWNFALL",
       "colorName": {
-        "en": "Colorless",
-        "zh": "无色"
+        "en": "Downfall",
+        "zh": "崩坠"
       },
-      "cost": -1,
+      "cost": null,
       "upgradeCost": null,
       "canUpgrade": false,
       "target": null,
-      "isFinisher": null,
+      "isFinisher": false,
       "img": null,
       "stats": {
         "damage": null,
@@ -66049,13 +66068,9 @@
       },
       "dynamicValues": {},
       "upgradeDynamicValues": {},
-      "energyIcon": "assets/energy-icons/hexaghost.png",
+      "energyIcon": null,
       "deprecated": false,
       "notInPool": false,
-      "attachedTips": [],
-      "visualColor": "HEXAGHOST",
-      "hasConjure": false,
-      "isSpell": false,
       "attachedCardTips": [],
       "descriptionKeywordPrefix": [],
       "descriptionKeywordSuffix": [],
@@ -66383,6 +66398,20 @@
           "dynamicValues": {},
           "sourceValueKey": null,
           "icon": null
+        },
+        {
+          "id": "HEXAGHOST-EXTINGUISH",
+          "name": {
+            "en": "Extinguish",
+            "zh": "熄灭"
+          },
+          "description": {
+            "en": "Resets an [gold]Ignited[/gold] Ghostflame so it can be [gold]Ignited[/gold] again.",
+            "zh": "重置1枚已[gold]点燃[/gold]的[gold]鬼火[/gold]，其可以再次被[gold]点燃[/gold]。"
+          },
+          "dynamicValues": {},
+          "sourceValueKey": null,
+          "icon": null
         }
       ],
       "visualColor": "HEXAGHOST",
@@ -66413,7 +66442,7 @@
         "zh": []
       },
       "type": "SKILL",
-      "rarity": "RARE",
+      "rarity": "UNCOMMON",
       "color": "HEXAGHOST",
       "colorName": {
         "en": "The Hexaghost",
@@ -67137,7 +67166,7 @@
       "img": "assets/cards/sizzle.png",
       "stats": {
         "damage": null,
-        "block": 12,
+        "block": 13,
         "magic": null,
         "secondMagic": null,
         "thirdMagic": null,
@@ -67146,14 +67175,14 @@
       },
       "upgradeStats": {
         "damage": null,
-        "block": 12
+        "block": 13
       },
       "dynamicValues": {
-        "Block": 12,
+        "Block": 13,
         "SizzlePower": 1
       },
       "upgradeDynamicValues": {
-        "Block": 16,
+        "Block": 17,
         "SizzlePower": 1
       },
       "energyIcon": "assets/energy-icons/hexaghost.png",
@@ -67461,12 +67490,26 @@
         "SoulBurnPower": 6
       },
       "upgradeDynamicValues": {
-        "SoulBurnPower": 9
+        "SoulBurnPower": 6
       },
       "energyIcon": "assets/energy-icons/hexaghost.png",
       "deprecated": false,
       "notInPool": false,
       "attachedTips": [
+        {
+          "id": "Retain",
+          "name": {
+            "en": "Retain",
+            "zh": "保留"
+          },
+          "description": {
+            "en": "Retained cards are not discarded at the end of turn.",
+            "zh": "保留的牌不会在回合结束时被弃掉。"
+          },
+          "dynamicValues": {},
+          "sourceValueKey": null,
+          "icon": null
+        },
         {
           "id": "DOWNFALL-SOUL_BURN_POWER",
           "name": {
@@ -67486,7 +67529,16 @@
       "hasConjure": false,
       "isSpell": false,
       "attachedCardTips": [],
-      "descriptionKeywordPrefix": [],
+      "descriptionKeywordPrefix": [
+        {
+          "mode": "add",
+          "style": null,
+          "label": {
+            "en": "Retain.",
+            "zh": "保留。"
+          }
+        }
+      ],
       "descriptionKeywordSuffix": [],
       "dynamicDescriptionLines": []
     },
@@ -67510,7 +67562,7 @@
         "zh": []
       },
       "type": "ATTACK",
-      "rarity": "UNCOMMON",
+      "rarity": "RARE",
       "color": "HEXAGHOST",
       "colorName": {
         "en": "The Hexaghost",
@@ -67523,7 +67575,7 @@
       "isFinisher": false,
       "img": "assets/cards/stepthrough.png",
       "stats": {
-        "damage": 7,
+        "damage": 8,
         "block": null,
         "magic": null,
         "secondMagic": null,
@@ -67532,14 +67584,14 @@
         "selfDamage": null
       },
       "upgradeStats": {
-        "damage": 10,
+        "damage": 11,
         "block": null
       },
       "dynamicValues": {
-        "Damage": 7
+        "Damage": 8
       },
       "upgradeDynamicValues": {
-        "Damage": 10
+        "Damage": 11
       },
       "energyIcon": "assets/energy-icons/hexaghost.png",
       "deprecated": false,
@@ -68448,8 +68500,8 @@
         "zh": "释魂"
       },
       "description": {
-        "en": "Deal {Damage:diff()} damage to a random enemy. \nRepeat for each card [gold]Exhausted[/gold] last turn.{InCombat:cond:\n(Hits {Repeat:diff()} {Repeat:plural:time|times})|}",
-        "zh": "对随机敌人造成{Damage:diff()}点伤害。上回合每[gold]消耗[/gold]一张牌，重复一次。{InCombat:cond:\n（命中{Repeat:diff()}次）|}"
+        "en": "Deal {Damage:diff()} damage. \nRepeat for each [gold]Ethereal[/gold] card in your [gold]Exhaust Pile[/gold].{InCombat:cond:\n(Hits {Repeat:diff()} {Repeat:plural:time|times})|}",
+        "zh": "造成{Damage:diff()}点伤害。\n你的[gold]消耗牌堆[/gold]中每有一张[gold]虚无[/gold]牌，重复一次。{InCombat:cond:\n（命中{Repeat:diff()}次）|}"
       },
       "upgradeDescription": {
         "en": "",
@@ -68466,14 +68518,14 @@
         "en": "The Hexaghost",
         "zh": "六火亡魂"
       },
-      "cost": 2,
+      "cost": 1,
       "upgradeCost": null,
       "canUpgrade": true,
       "target": "RandomEnemy",
       "isFinisher": false,
       "img": "assets/cards/unleashspirits.png",
       "stats": {
-        "damage": 10,
+        "damage": 6,
         "block": null,
         "magic": null,
         "secondMagic": null,
@@ -68482,17 +68534,17 @@
         "selfDamage": null
       },
       "upgradeStats": {
-        "damage": 13,
+        "damage": 8,
         "block": null
       },
       "dynamicValues": {
-        "Damage": 10,
+        "Damage": 6,
         "Repeat": 1,
         "RepeatBase": 1,
         "RepeatExtra": 1
       },
       "upgradeDynamicValues": {
-        "Damage": 13,
+        "Damage": 8,
         "Repeat": 1,
         "RepeatBase": 1,
         "RepeatExtra": 1
@@ -68501,6 +68553,20 @@
       "deprecated": false,
       "notInPool": false,
       "attachedTips": [
+        {
+          "id": "Ethereal",
+          "name": {
+            "en": "Ethereal",
+            "zh": "虚无"
+          },
+          "description": {
+            "en": "If this card is in your [gold]Hand[/gold] at the end of this turn, it is [gold]Exhausted[/gold].",
+            "zh": "如果这张牌在这个回合结束时留在你的[gold]手牌[/gold]中，则将其[gold]消耗[/gold]。"
+          },
+          "dynamicValues": {},
+          "sourceValueKey": null,
+          "icon": null
+        },
         {
           "id": "Exhaust",
           "name": {
@@ -74644,14 +74710,14 @@
       "notInPool": false,
       "attachedTips": [
         {
-          "id": "DOWNFALL-TEMPORARY_THORNS_POWER",
+          "id": "GUARDIAN-OVERBLOCK_THORNS_POWER",
           "name": {
-            "en": "Thorns Down",
-            "zh": "临时荆棘"
+            "en": "Overblock",
+            "zh": "超量格挡"
           },
           "description": {
-            "en": "Gain [gold]Thorns[/gold] until the end of this turn.",
-            "zh": "获得[gold]荆棘[/gold]，直到本回合结束。"
+            "en": "Whenever you enter [gold]Defensive Mode[/gold], the ally with the least [gold]Block[/gold] gains [gold]Thorns[/gold] this turn.",
+            "zh": "每当你进入[gold]防御模式[/gold]时，拥有最少[gold]格挡[/gold]的另一位盟友获得[gold]荆棘[/gold]一回合。"
           },
           "dynamicValues": {},
           "sourceValueKey": "ThornsPower",
@@ -79332,7 +79398,7 @@
         "zh": "拟态"
       },
       "description": {
-        "en": "Whenever you play an [gold]Offclass[/gold] card, gain {MimicryPower:diff()} [gold]Strength[/gold] for one turn.",
+        "en": "Whenever you play an [gold]Offclass[/gold] card, gain {MimicryPower:diff()} [gold]Strength[/gold] that turn.",
         "zh": "每当你打出一张[gold]异色[/gold]牌时，在一回合内获得{MimicryPower:diff()}点[gold]力量[/gold]。"
       },
       "upgradeDescription": {
@@ -83457,14 +83523,14 @@
       },
       "dynamicValues": {
         "Damage": 12,
-        "PowerVar": 0,
-        "PowerVarBase": 0,
+        "PowerVar": 1,
+        "PowerVarBase": 1,
         "PowerVarExtra": 1
       },
       "upgradeDynamicValues": {
         "Damage": 16,
-        "PowerVar": 1,
-        "PowerVarBase": 1,
+        "PowerVar": 2,
+        "PowerVarBase": 2,
         "PowerVarExtra": 1
       },
       "energyIcon": "assets/energy-icons/snecko.png",

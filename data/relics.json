@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-08-23T08:44:42.849788Z",
-  "modVersion": "0.1.13",
-  "translationVersion": "2026_08_21_09_00_05_44a62c",
+  "generatedAt": "2026-08-25T17:43:25.856950Z",
+  "modVersion": "0.1.15",
+  "translationVersion": "2026_08_25_10_00_32_c98d4c",
   "baseKeywords": [
     {
       "key": "ARTIFACT",
@@ -821,7 +821,7 @@
       }
     ]
   },
-  "relicCount": 127,
+  "relicCount": 129,
   "relics": [
     {
       "id": "AUTOMATON-BOTTLED_CODE",
@@ -1906,30 +1906,47 @@
     },
     {
       "id": "CHAMP-CHAMPIONS_CROWN",
-      "codeName": "",
+      "codeName": "ChampionsCrown",
       "name": {
         "en": "Champion's Crown",
         "zh": "冠军王冠"
       },
       "description": {
-        "en": "Start each combat in a random [gold]Stance[/gold], and then trigger that [gold]Stance[/gold]'s [gold]Skill Bonus[/gold] twice.",
-        "zh": "在每场战斗开始时，进入随机[gold]姿态[/gold]并触发[gold]技术奖励[/gold]两次。"
+        "en": "Start each combat in a random [gold]Stance[/gold], trigger it's [gold]Skill Bonus[/gold], and draw a card.",
+        "zh": "在每场战斗开始时，进入随机[gold]姿态[/gold]，触发1次[gold]技术奖励[/gold]，抽1张牌。"
       },
-      "rarity": "SPECIAL",
-      "color": "DOWNFALL",
+      "rarity": "STARTER",
+      "color": "CHAMP",
       "colorName": {
-        "en": "Downfall",
-        "zh": "崩坠"
+        "en": "The Champ",
+        "zh": "第一勇士"
       },
       "colorPillBg": null,
       "colorPillFg": null,
-      "energyIcon": null,
-      "img": null,
+      "energyIcon": "assets/energy-icons/champ.png",
+      "img": "assets/relics/championscrown.png",
       "imageResource": "",
       "deprecated": false,
-      "dynamicValues": {},
-      "upgradeDynamicValues": {},
-      "attachedTips": [],
+      "dynamicValues": {
+        "Cards": 1
+      },
+      "upgradeDynamicValues": {
+        "Cards": 1
+      },
+      "attachedTips": [
+        {
+          "id": "CHAMP-TRIGGER_SKILL_BONUS",
+          "name": {
+            "en": "Skill Bonus",
+            "zh": "技术奖励"
+          },
+          "description": {
+            "en": "The bonus effect triggered by your current [gold]Stance[/gold] when you play a [gold]Skill[/gold].",
+            "zh": "The bonus effect triggered by your current [gold]Stance[/gold] when you play a [gold]Skill[/gold]."
+          },
+          "sourceValueKey": null
+        }
+      ],
       "attachedCardTips": []
     },
     {
@@ -1965,8 +1982,8 @@
             "zh": "终结技"
           },
           "description": {
-            "en": "Requires a [gold]Stance[/gold].\nAfter playing a Finisher, exit your [gold]Stance[/gold] and trigger its Finisher bonus.",
-            "zh": "处于[gold]姿态[/gold]时才能打出。\n打出终结技后，退出当前[gold]姿态[/gold]并触发终结技效果。"
+            "en": "Requires a [gold]Stance[/gold].\nAfter playing a Finisher, exit your [gold]Stance[/gold] and trigger its Finisher effect.",
+            "zh": "Requires a [gold]Stance[/gold].\nAfter playing a Finisher, exit your [gold]Stance[/gold] and trigger its Finisher effect."
           },
           "sourceValueKey": null
         }
@@ -1998,20 +2015,7 @@
       "deprecated": false,
       "dynamicValues": {},
       "upgradeDynamicValues": {},
-      "attachedTips": [
-        {
-          "id": "CHAMP-STANCE",
-          "name": {
-            "en": "Stance",
-            "zh": "姿态"
-          },
-          "description": {
-            "en": "You may have only one Stance at a time.",
-            "zh": "你同一时间只能拥有一个姿态。"
-          },
-          "sourceValueKey": null
-        }
-      ],
+      "attachedTips": [],
       "attachedCardTips": []
     },
     {
@@ -2168,8 +2172,8 @@
             "zh": "终结技"
           },
           "description": {
-            "en": "Requires a [gold]Stance[/gold].\nAfter playing a Finisher, exit your [gold]Stance[/gold] and trigger its Finisher bonus.",
-            "zh": "处于[gold]姿态[/gold]时才能打出。\n打出终结技后，退出当前[gold]姿态[/gold]并触发终结技效果。"
+            "en": "Requires a [gold]Stance[/gold].\nAfter playing a Finisher, exit your [gold]Stance[/gold] and trigger its Finisher effect.",
+            "zh": "Requires a [gold]Stance[/gold].\nAfter playing a Finisher, exit your [gold]Stance[/gold] and trigger its Finisher effect."
           },
           "sourceValueKey": null
         }
@@ -2184,8 +2188,8 @@
         "zh": "幽影之手"
       },
       "description": {
-        "en": "Whenever you enter a [gold]Stance[/gold], gain an [gold]Echo[/gold] of a [gold]Basic[/gold] [gold]Strike[/gold] or [gold]Defend[/gold].\nIt's free to play this turn.",
-        "zh": "每当你进入[gold]姿态[/gold]，获得一张[gold]打击[/gold]或[gold]防御[/gold]的[gold]回响[/gold]。\n它在本回合可以免费打出。"
+        "en": "Whenever you enter a [gold]Stance[/gold], add an [gold]Echo[/gold] of a [gold]Basic[/gold] [gold]Strike[/gold] or [gold]Defend[/gold] into your [gold]Hand[/gold].\nIt's free to play this turn.",
+        "zh": "每当你进入[gold]姿态[/gold]，将一张[gold]打击[/gold]或[gold]防御[/gold]的[gold]回响[/gold]加入你的[gold]手牌[/gold]。\n其在一回合内可以免费打出。"
       },
       "rarity": "RARE",
       "color": "CHAMP",
@@ -2203,18 +2207,6 @@
       "upgradeDynamicValues": {},
       "attachedTips": [
         {
-          "id": "CHAMP-STANCE",
-          "name": {
-            "en": "Stance",
-            "zh": "姿态"
-          },
-          "description": {
-            "en": "You may have only one Stance at a time.",
-            "zh": "你同一时间只能拥有一个姿态。"
-          },
-          "sourceValueKey": null
-        },
-        {
           "id": "DOWNFALL-ECHO",
           "name": {
             "en": "Echo",
@@ -2231,30 +2223,59 @@
     },
     {
       "id": "CHAMP-VICTORIOUS_CROWN",
-      "codeName": "",
+      "codeName": "VictoriousCrown",
       "name": {
         "en": "Victorious Crown",
         "zh": "胜利王冠"
       },
       "description": {
-        "en": "Start each combat in a random [gold]Stance[/gold], and then trigger that [gold]Stance[/gold]'s [gold]Skill Bonus[/gold] twice.\nThe first time you play a [gold]Finisher[/gold] each turn, draw [blue]2[/blue] cards and enter a random [gold]Stance[/gold].",
-        "zh": "每场战斗开始时，进入随机[gold]姿态[/gold]，然后触发该[gold]姿态[/gold]的[gold]技术奖励[/gold]两次。\n每回合你第一次打出[gold]终结技[/gold]时，抽[blue]2[/blue]张牌并进入随机[gold]姿态[/gold]。"
+        "en": "Start each combat in a random [gold]Stance[/gold], trigger it's [gold]Skill Bonus[/gold], and draw a card.\nThe first time you play a [gold]Finisher[/gold] each turn, draw [blue]2[/blue] cards and enter a random [gold]Stance[/gold].",
+        "zh": "每场战斗开始时，进入随机[gold]姿态[/gold]，触发[blue]1[/blue]次[gold]技术奖励[/gold]，抽[blue]1[/blue]张牌。\n每回合你第一次打出[gold]终结技[/gold]时，抽[blue]2[/blue]张牌并进入随机[gold]姿态[/gold]。"
       },
-      "rarity": "SPECIAL",
-      "color": "DOWNFALL",
+      "rarity": "STARTER",
+      "color": "CHAMP",
       "colorName": {
-        "en": "Downfall",
-        "zh": "崩坠"
+        "en": "The Champ",
+        "zh": "第一勇士"
       },
       "colorPillBg": null,
       "colorPillFg": null,
-      "energyIcon": null,
-      "img": null,
+      "energyIcon": "assets/energy-icons/champ.png",
+      "img": "assets/relics/victoriouscrown.png",
       "imageResource": "",
       "deprecated": false,
-      "dynamicValues": {},
-      "upgradeDynamicValues": {},
-      "attachedTips": [],
+      "dynamicValues": {
+        "Cards": 1
+      },
+      "upgradeDynamicValues": {
+        "Cards": 1
+      },
+      "attachedTips": [
+        {
+          "id": "CHAMP-TRIGGER_SKILL_BONUS",
+          "name": {
+            "en": "Skill Bonus",
+            "zh": "技术奖励"
+          },
+          "description": {
+            "en": "The bonus effect triggered by your current [gold]Stance[/gold] when you play a [gold]Skill[/gold].",
+            "zh": "The bonus effect triggered by your current [gold]Stance[/gold] when you play a [gold]Skill[/gold]."
+          },
+          "sourceValueKey": null
+        },
+        {
+          "id": "CHAMP-FINISHER",
+          "name": {
+            "en": "Finisher",
+            "zh": "终结技"
+          },
+          "description": {
+            "en": "Requires a [gold]Stance[/gold].\nAfter playing a Finisher, exit your [gold]Stance[/gold] and trigger its Finisher effect.",
+            "zh": "Requires a [gold]Stance[/gold].\nAfter playing a Finisher, exit your [gold]Stance[/gold] and trigger its Finisher effect."
+          },
+          "sourceValueKey": null
+        }
+      ],
       "attachedCardTips": []
     },
     {
@@ -3205,7 +3226,7 @@
           },
           "description": {
             "en": "Gems can be placed into [gold]Sockets[/gold] in cards at a Rest Site.",
-            "zh": "宝石能在休息处被镶嵌至有[gold]孔位[/gold]的卡牌上。"
+            "zh": "宝石能在休息处被镶嵌至有[gold]槽位[/gold]的卡牌上。"
           },
           "sourceValueKey": null
         }
@@ -3593,7 +3614,7 @@
         "en": "Whenever you draw or create a [red]Curse[/red], gain [blue]{VigorPower}[/blue] [gold]Vigor[/gold].",
         "zh": "每当你抽到或生成[red]诅咒[/red]时，获得[blue]{VigorPower}[/blue]点[gold]活力[/gold]。"
       },
-      "rarity": "RARE",
+      "rarity": "UNCOMMON",
       "color": "HERMIT",
       "colorName": {
         "en": "The Hermit",
@@ -3606,10 +3627,10 @@
       "imageResource": "",
       "deprecated": false,
       "dynamicValues": {
-        "VigorPower": 4
+        "VigorPower": 3
       },
       "upgradeDynamicValues": {
-        "VigorPower": 4
+        "VigorPower": 3
       },
       "attachedTips": [
         {
@@ -3701,67 +3722,30 @@
     },
     {
       "id": "HERMIT-HORSESHOE",
-      "codeName": "Horseshoe",
+      "codeName": "",
       "name": {
         "en": "Horseshoe",
         "zh": "马蹄铁"
       },
       "description": {
-        "en": "Whenever you gain [gold]Weak[/gold], [gold]Frail[/gold] or [gold]Vulnerable[/gold], gain [blue]1[/blue] less.",
-        "zh": "每当你获得[gold]虚弱[/gold]、[gold]脆弱[/gold]或[gold]易伤[/gold]时，获得的层数减[blue]1[/blue]。"
+        "en": "[gold]Basic[/gold] [gold]Strikes[/gold] now deal damage to ALL enemies.",
+        "zh": "[gold]打击[/gold]现在会攻击所有敌人。"
       },
-      "rarity": "COMMON",
-      "color": "HERMIT",
+      "rarity": "SPECIAL",
+      "color": "DOWNFALL",
       "colorName": {
-        "en": "The Hermit",
-        "zh": "亡命之徒"
+        "en": "Downfall",
+        "zh": "崩坠"
       },
       "colorPillBg": null,
       "colorPillFg": null,
-      "energyIcon": "assets/energy-icons/hermit.png",
-      "img": "assets/relics/horseshoe.png",
+      "energyIcon": null,
+      "img": null,
       "imageResource": "",
       "deprecated": false,
       "dynamicValues": {},
       "upgradeDynamicValues": {},
-      "attachedTips": [
-        {
-          "id": "WEAK_POWER",
-          "name": {
-            "en": "Weak",
-            "zh": "虚弱"
-          },
-          "description": {
-            "en": "Weakened creatures deal [blue]25%[/blue] less damage with Attacks.",
-            "zh": "虚弱的生物造成的攻击伤害减少[blue]25%[/blue]。"
-          },
-          "sourceValueKey": "WeakPower"
-        },
-        {
-          "id": "FRAIL_POWER",
-          "name": {
-            "en": "Frail",
-            "zh": "脆弱"
-          },
-          "description": {
-            "en": "While Frail, gain [blue]25%[/blue] less [gold]Block[/gold] from cards.",
-            "zh": "脆弱时，从卡牌中获得的[gold]格挡[/gold]值减少[blue]25%[/blue]。"
-          },
-          "sourceValueKey": "FrailPower"
-        },
-        {
-          "id": "VULNERABLE_POWER",
-          "name": {
-            "en": "Vulnerable",
-            "zh": "易伤"
-          },
-          "description": {
-            "en": "Vulnerable creatures take [blue]50%[/blue] more damage from Attacks.",
-            "zh": "易伤的生物从攻击中受到的伤害增加[blue]50%[/blue]。"
-          },
-          "sourceValueKey": "VulnerablePower"
-        }
-      ],
+      "attachedTips": [],
       "attachedCardTips": []
     },
     {
@@ -3909,6 +3893,39 @@
       "attachedCardTips": []
     },
     {
+      "id": "HERMIT-SCORCHED_LOCKET",
+      "codeName": "ScorchedLocket",
+      "name": {
+        "en": "Scorched Locket",
+        "zh": "熏黑小盒"
+      },
+      "description": {
+        "en": "At the start of each combat, add a [purple]Seething[/purple] [gold]Memento[/gold] into your [gold]Hand[/gold].",
+        "zh": "在每场战斗开始时，将一张附有[purple]怒火[/purple]的[gold]纪念品[/gold]加入你的[gold]手牌[/gold]。"
+      },
+      "rarity": "STARTER",
+      "color": "HERMIT",
+      "colorName": {
+        "en": "The Hermit",
+        "zh": "亡命之徒"
+      },
+      "colorPillBg": null,
+      "colorPillFg": null,
+      "energyIcon": "assets/energy-icons/hermit.png",
+      "img": "assets/relics/scorchedlocket.png",
+      "imageResource": "",
+      "deprecated": false,
+      "dynamicValues": {},
+      "upgradeDynamicValues": {},
+      "attachedTips": [],
+      "attachedCardTips": [
+        {
+          "id": "HERMIT-MEMENTO_CARD",
+          "upgraded": false
+        }
+      ]
+    },
+    {
       "id": "HERMIT-SHOTGLASS",
       "codeName": "Shotglass",
       "name": {
@@ -3952,10 +3969,10 @@
         "zh": "望远镜"
       },
       "description": {
-        "en": "The [blue]4th[/blue] card you play each turn triggers its [gold]Dead On[/gold] effect regardless of position.",
-        "zh": "你在每回合打出的第[blue]4[/blue]张牌必定触发[gold]精准[/gold]。"
+        "en": "The [blue]3rd[/blue] card you play each turn triggers its [gold]Dead On[/gold] effect regardless of position.",
+        "zh": "你在每回合打出的第[blue]3[/blue]张牌必定触发[gold]精准[/gold]。"
       },
-      "rarity": "UNCOMMON",
+      "rarity": "SHOP",
       "color": "HERMIT",
       "colorName": {
         "en": "The Hermit",
@@ -3967,8 +3984,12 @@
       "img": "assets/relics/spyglass.png",
       "imageResource": "",
       "deprecated": false,
-      "dynamicValues": {},
-      "upgradeDynamicValues": {},
+      "dynamicValues": {
+        "Cards": 3
+      },
+      "upgradeDynamicValues": {
+        "Cards": 3
+      },
       "attachedTips": [
         {
           "id": "HERMIT-DEAD_ON",
@@ -5085,7 +5106,7 @@
     },
     {
       "id": "SNECKO-LUCKY_HORSESHOE",
-      "codeName": "Horseshoe",
+      "codeName": "",
       "name": {
         "en": "Lucky Horseshoe",
         "zh": "幸运马蹄"
@@ -5094,58 +5115,21 @@
         "en": "Upon pickup, choose [blue]1[/blue] of [blue]3[/blue] Characters. Obtain [blue]3[/blue] [gold]Upgraded[/gold] [gold]Uncommon[/gold] cards and [blue]2[/blue] [gold]Rare[/gold] cards. All combats drop an additional card reward of the chosen character's cards.",
         "zh": "拾起时，从[blue]3[/blue]个角色中选择[blue]1[/blue]个，获得来自该角色的[blue]3[/blue]组[gold]升级过的[/gold][gold]罕见[/gold]牌奖励和[blue]2[/blue]组[gold]稀有[/gold]牌奖励。每次战斗结束后，额外掉落一组该角色的卡牌奖励。"
       },
-      "rarity": "COMMON",
-      "color": "HERMIT",
+      "rarity": "SPECIAL",
+      "color": "DOWNFALL",
       "colorName": {
-        "en": "The Hermit",
-        "zh": "亡命之徒"
+        "en": "Downfall",
+        "zh": "崩坠"
       },
       "colorPillBg": null,
       "colorPillFg": null,
-      "energyIcon": "assets/energy-icons/hermit.png",
-      "img": "assets/relics/horseshoe.png",
+      "energyIcon": null,
+      "img": null,
       "imageResource": "",
       "deprecated": false,
       "dynamicValues": {},
       "upgradeDynamicValues": {},
-      "attachedTips": [
-        {
-          "id": "WEAK_POWER",
-          "name": {
-            "en": "Weak",
-            "zh": "虚弱"
-          },
-          "description": {
-            "en": "Weakened creatures deal [blue]25%[/blue] less damage with Attacks.",
-            "zh": "虚弱的生物造成的攻击伤害减少[blue]25%[/blue]。"
-          },
-          "sourceValueKey": "WeakPower"
-        },
-        {
-          "id": "FRAIL_POWER",
-          "name": {
-            "en": "Frail",
-            "zh": "脆弱"
-          },
-          "description": {
-            "en": "While Frail, gain [blue]25%[/blue] less [gold]Block[/gold] from cards.",
-            "zh": "脆弱时，从卡牌中获得的[gold]格挡[/gold]值减少[blue]25%[/blue]。"
-          },
-          "sourceValueKey": "FrailPower"
-        },
-        {
-          "id": "VULNERABLE_POWER",
-          "name": {
-            "en": "Vulnerable",
-            "zh": "易伤"
-          },
-          "description": {
-            "en": "Vulnerable creatures take [blue]50%[/blue] more damage from Attacks.",
-            "zh": "易伤的生物从攻击中受到的伤害增加[blue]50%[/blue]。"
-          },
-          "sourceValueKey": "VulnerablePower"
-        }
-      ],
+      "attachedTips": [],
       "attachedCardTips": []
     },
     {
@@ -5331,6 +5315,34 @@
           "sourceValueKey": null
         }
       ],
+      "attachedCardTips": []
+    },
+    {
+      "id": "SNECKO-SNECKO_CHOICE",
+      "codeName": "",
+      "name": {
+        "en": "{character}'s Blessing",
+        "zh": "{character}的祝福"
+      },
+      "description": {
+        "en": "You now gain cards from [blue]{borrowed}[/blue] in [gold]Gift[/gold] rewards.",
+        "zh": "你现在会在[gold]赠礼[/gold]中获得[blue]{borrowed}[/blue]的卡牌。"
+      },
+      "rarity": "SPECIAL",
+      "color": "DOWNFALL",
+      "colorName": {
+        "en": "Downfall",
+        "zh": "崩坠"
+      },
+      "colorPillBg": null,
+      "colorPillFg": null,
+      "energyIcon": null,
+      "img": null,
+      "imageResource": "",
+      "deprecated": false,
+      "dynamicValues": {},
+      "upgradeDynamicValues": {},
+      "attachedTips": [],
       "attachedCardTips": []
     },
     {
