@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-25T17:43:29.263634Z",
+  "generatedAt": "2026-08-25T18:22:54.910539Z",
   "modVersion": "2026/08/19",
   "translationVersion": "2026/08/19",
   "baseKeywords": [
@@ -766,60 +766,11 @@
           "愤怒"
         ]
       }
-    },
-    {
-      "key": "HEXAGHOST-AFTERLIFE",
-      "en": {
-        "main": "Afterlife",
-        "aliases": [
-          "Afterlife"
-        ]
-      },
-      "zh": {
-        "main": "阴世",
-        "aliases": [
-          "阴世"
-        ]
-      }
     }
   ],
   "keywords": {
-    "en": [
-      {
-        "name": "ethereal",
-        "description": "If this card is in your hand at the end of turn, it is exhausted. Exhausted cards are removed from your deck until the end of combat.",
-        "aliases": [
-          "ethereal"
-        ],
-        "icon": null
-      },
-      {
-        "name": "Afterlife",
-        "description": "The green effect will also trigger when this card is [gold]Exhausted[/gold].",
-        "aliases": [
-          "Afterlife"
-        ],
-        "icon": null
-      }
-    ],
-    "zh": [
-      {
-        "name": "虚无",
-        "description": "如果这张牌在回合结束时仍然在你的手中，它将被消耗。被消耗的牌将在战斗结束前被移除出牌组。",
-        "aliases": [
-          "虚无"
-        ],
-        "icon": null
-      },
-      {
-        "name": "阴世",
-        "description": "本牌被[gold]消耗[/gold]时触发绿色效果。",
-        "aliases": [
-          "阴世"
-        ],
-        "icon": null
-      }
-    ]
+    "en": [],
+    "zh": []
   },
   "relicCount": 111,
   "relics": [
@@ -827,11 +778,11 @@
       "id": "AUTOMATON-BOTTLED_CODE",
       "codeName": "BottledCode",
       "name": {
-        "en": "瓶装代码",
+        "en": "Bottled Code",
         "zh": "瓶装代码"
       },
       "description": {
-        "en": "拾起时，为一张带有[gold]编码[/gold]的牌[gold]附魔[/gold][purple]硬编码[/purple]。",
+        "en": "Upon pickup, [gold]Enchant[/gold] a card with [gold]Encode[/gold] with [purple]Hardcoded[/purple].",
         "zh": "拾起时，为一张带有[gold]编码[/gold]的牌[gold]附魔[/gold][purple]硬编码[/purple]。"
       },
       "rarity": "RARE",
@@ -840,28 +791,12 @@
         "en": "The Automaton",
         "zh": "铜制机械人偶"
       },
-      "colorPillBg": null,
-      "colorPillFg": null,
-      "energyIcon": "assets/energy-icons/automaton.png",
+      "energyIcon": "assets/catfall/energy-icons/automaton.webp",
       "img": "assets/catfall/relics/automaton-bottled_code.webp",
       "imageResource": "",
       "deprecated": false,
       "dynamicValues": {},
-      "upgradeDynamicValues": {},
-      "attachedTips": [
-        {
-          "id": "AUTOMATON-ENCODE",
-          "name": {
-            "en": "Encode",
-            "zh": "编码"
-          },
-          "description": {
-            "en": "Place this card into your [gold]Sequence[/gold].\nWhen it holds [blue]3[/blue] cards, their effects above this keyword are merged into a Function that costs [blue]1[/blue].",
-            "zh": "将此牌置入[gold]编码序列[/gold]。\n当[gold]编码序列[/gold]中拥有[blue]3[/blue]张牌时，这些牌的在[gold]编码[/gold]上方的效果将被合并为一个耗能为[blue]1[/blue]的[gold]方法[/gold]，并加入你的[gold]手牌[/gold]。"
-          },
-          "sourceValueKey": null
-        }
-      ],
+      "attachedTips": [],
       "attachedCardTips": [],
       "catfall": true
     },
@@ -869,11 +804,11 @@
       "id": "AUTOMATON-BRONZE_CORE",
       "codeName": "BronzeCore",
       "name": {
-        "en": "青铜核心",
+        "en": "Bronze Core",
         "zh": "青铜核心"
       },
       "description": {
-        "en": "在每场战斗开始时，[gold]编码[/gold]一张[gold]打击[/gold]和一张[gold]防御[/gold]。",
+        "en": "Start each combat with an [gold]Encoded[/gold] [gold]Strike[/gold] and [gold]Defend[/gold].",
         "zh": "在每场战斗开始时，[gold]编码[/gold]一张[gold]打击[/gold]和一张[gold]防御[/gold]。"
       },
       "rarity": "STARTER",
@@ -882,49 +817,24 @@
         "en": "The Automaton",
         "zh": "铜制机械人偶"
       },
-      "colorPillBg": null,
-      "colorPillFg": null,
-      "energyIcon": "assets/energy-icons/automaton.png",
+      "energyIcon": "assets/catfall/energy-icons/automaton.webp",
       "img": "assets/catfall/relics/automaton-bronze_core.webp",
       "imageResource": "",
       "deprecated": false,
       "dynamicValues": {},
-      "upgradeDynamicValues": {},
-      "attachedTips": [
-        {
-          "id": "AUTOMATON-ENCODE",
-          "name": {
-            "en": "Encode",
-            "zh": "编码"
-          },
-          "description": {
-            "en": "Place this card into your [gold]Sequence[/gold].\nWhen it holds [blue]3[/blue] cards, their effects above this keyword are merged into a Function that costs [blue]1[/blue].",
-            "zh": "将此牌置入[gold]编码序列[/gold]。\n当[gold]编码序列[/gold]中拥有[blue]3[/blue]张牌时，这些牌的在[gold]编码[/gold]上方的效果将被合并为一个耗能为[blue]1[/blue]的[gold]方法[/gold]，并加入你的[gold]手牌[/gold]。"
-          },
-          "sourceValueKey": null
-        }
-      ],
-      "attachedCardTips": [
-        {
-          "id": "AUTOMATON-STRIKE_AUTOMATON",
-          "upgraded": false
-        },
-        {
-          "id": "AUTOMATON-DEFEND_AUTOMATON",
-          "upgraded": false
-        }
-      ],
+      "attachedTips": [],
+      "attachedCardTips": [],
       "catfall": true
     },
     {
       "id": "AUTOMATON-CABLE_SPOOL",
       "codeName": "CableSpool",
       "name": {
-        "en": "电缆线轴",
+        "en": "Cable Spool",
         "zh": "电缆线轴"
       },
       "description": {
-        "en": "每场战斗中，[gold]升级[/gold]你抽到的前[blue]{Cards:diff()}[/blue]张未升级的[gold]编码[/gold]牌。",
+        "en": "[gold]Upgrade[/gold] the first [blue]{Cards:diff()}[/blue] unupgraded [gold]Encode[/gold] cards you draw each combat.",
         "zh": "每场战斗中，[gold]升级[/gold]你抽到的前[blue]{Cards:diff()}[/blue]张未升级的[gold]编码[/gold]牌。"
       },
       "rarity": "UNCOMMON",
@@ -933,89 +843,63 @@
         "en": "The Automaton",
         "zh": "铜制机械人偶"
       },
-      "colorPillBg": null,
-      "colorPillFg": null,
-      "energyIcon": "assets/energy-icons/automaton.png",
+      "energyIcon": "assets/catfall/energy-icons/automaton.webp",
       "img": "assets/catfall/relics/automaton-cable_spool.webp",
       "imageResource": "",
       "deprecated": false,
-      "dynamicValues": {
-        "Cards": 2
-      },
-      "upgradeDynamicValues": {
-        "Cards": 2
-      },
-      "attachedTips": [
-        {
-          "id": "AUTOMATON-ENCODE",
-          "name": {
-            "en": "Encode",
-            "zh": "编码"
-          },
-          "description": {
-            "en": "Place this card into your [gold]Sequence[/gold].\nWhen it holds [blue]3[/blue] cards, their effects above this keyword are merged into a Function that costs [blue]1[/blue].",
-            "zh": "将此牌置入[gold]编码序列[/gold]。\n当[gold]编码序列[/gold]中拥有[blue]3[/blue]张牌时，这些牌的在[gold]编码[/gold]上方的效果将被合并为一个耗能为[blue]1[/blue]的[gold]方法[/gold]，并加入你的[gold]手牌[/gold]。"
-          },
-          "sourceValueKey": null
-        }
-      ],
+      "dynamicValues": {},
+      "attachedTips": [],
       "attachedCardTips": [],
       "catfall": true
     },
     {
       "id": "AUTOMATON-DONUS_WASHERS",
-      "codeName": "Automaton-DonusWashers",
+      "codeName": "DonusWashers",
       "name": {
-        "en": "甜圈垫片",
+        "en": "Donu's Washers",
         "zh": "甜圈垫片"
       },
       "description": {
-        "en": "在每场战斗开始时，获得{Energy:energyIcons()}并将一张[gold]虚空[/gold]加入你的[gold]抽牌堆[/gold]。",
+        "en": "At the start of combat, gain {Energy:energyIcons()} and add a [gold]Void[/gold] to your [gold]Draw Pile[/gold].",
         "zh": "在每场战斗开始时，获得{Energy:energyIcons()}并将一张[gold]虚空[/gold]加入你的[gold]抽牌堆[/gold]。"
       },
       "rarity": "SPECIAL",
-      "color": "DOWNFALL",
+      "color": "AUTOMATON",
       "colorName": {
-        "en": "Downfall",
-        "zh": "崩坠"
+        "en": "The Automaton",
+        "zh": "铜制机械人偶"
       },
-      "colorPillBg": null,
-      "colorPillFg": null,
-      "energyIcon": null,
+      "energyIcon": "assets/catfall/energy-icons/automaton.webp",
       "img": "assets/catfall/relics/automaton-donus_washers.webp",
       "imageResource": "",
       "deprecated": false,
       "dynamicValues": {},
-      "upgradeDynamicValues": {},
       "attachedTips": [],
       "attachedCardTips": [],
       "catfall": true
     },
     {
       "id": "AUTOMATON-ELECTROMAGNETIC_COIL",
-      "codeName": "Automaton-ElectromagneticCoil",
+      "codeName": "ElectromagneticCoil",
       "name": {
-        "en": "电磁线圈",
+        "en": "Electromagnetic Coil",
         "zh": "电磁线圈"
       },
       "description": {
-        "en": "方法现在由[blue]4[/blue]张牌组成。",
+        "en": "Functions are now made up of [blue]4[/blue] cards.",
         "zh": "方法现在由[blue]4[/blue]张牌组成。"
       },
-      "rarity": "SPECIAL",
-      "color": "DOWNFALL",
+      "rarity": "BOSS",
+      "color": "AUTOMATON",
       "colorName": {
-        "en": "Downfall",
-        "zh": "崩坠"
+        "en": "The Automaton",
+        "zh": "铜制机械人偶"
       },
-      "colorPillBg": null,
-      "colorPillFg": null,
-      "energyIcon": null,
+      "energyIcon": "assets/catfall/energy-icons/automaton.webp",
       "img": "assets/catfall/relics/automaton-electromagnetic_coil.webp",
       "imageResource": "",
       "deprecated": false,
       "dynamicValues": {},
-      "upgradeDynamicValues": {},
       "attachedTips": [],
       "attachedCardTips": [],
       "catfall": true
@@ -1024,11 +908,11 @@
       "id": "AUTOMATON-FROST_PRIMER",
       "codeName": "FrostPrimer",
       "name": {
-        "en": "寒霜底漆",
+        "en": "Frost Primer",
         "zh": "寒霜底漆"
       },
       "description": {
-        "en": "你的所有方法附魔[purple]稳定[/purple]。",
+        "en": "Enchant all Functions you create with [purple]Steady[/purple].",
         "zh": "你的所有方法附魔[purple]稳定[/purple]。"
       },
       "rarity": "RARE",
@@ -1037,56 +921,37 @@
         "en": "The Automaton",
         "zh": "铜制机械人偶"
       },
-      "colorPillBg": null,
-      "colorPillFg": null,
-      "energyIcon": "assets/energy-icons/automaton.png",
+      "energyIcon": "assets/catfall/energy-icons/automaton.webp",
       "img": "assets/catfall/relics/automaton-frost_primer.webp",
       "imageResource": "",
       "deprecated": false,
       "dynamicValues": {},
-      "upgradeDynamicValues": {},
-      "attachedTips": [
-        {
-          "id": "UNSTEADY",
-          "name": {
-            "en": "Unsteady",
-            "zh": "脚下不稳"
-          },
-          "description": {
-            "en": "When Flail Knight falls below [blue]50%[/blue] HP, becomes [gold]Stunned[/gold].",
-            "zh": "当连枷骑士的生命值下降到[blue]50%[/blue]以下时，会被[gold]击晕[/gold]。"
-          },
-          "sourceValueKey": "Steady"
-        }
-      ],
+      "attachedTips": [],
       "attachedCardTips": [],
       "catfall": true
     },
     {
       "id": "AUTOMATON-MAKESHIFT_BATTERY",
-      "codeName": "Automaton-MakeshiftBattery",
+      "codeName": "MakeshiftBattery",
       "name": {
-        "en": "备用电池",
+        "en": "Makeshift Battery",
         "zh": "备用电池"
       },
       "description": {
-        "en": "在你的回合开始时，获得{Energy:energyIcons()}并将一张[gold]粘液[/gold]加入你的[gold]弃牌堆[/gold]。",
+        "en": "Gain {Energy:energyIcons()} and add a [gold]Slimed[/gold] to your [gold]Discard Pile[/gold] at the start of your turn.",
         "zh": "在你的回合开始时，获得{Energy:energyIcons()}并将一张[gold]粘液[/gold]加入你的[gold]弃牌堆[/gold]。"
       },
       "rarity": "SPECIAL",
-      "color": "DOWNFALL",
+      "color": "AUTOMATON",
       "colorName": {
-        "en": "Downfall",
-        "zh": "崩坠"
+        "en": "The Automaton",
+        "zh": "铜制机械人偶"
       },
-      "colorPillBg": null,
-      "colorPillFg": null,
-      "energyIcon": null,
+      "energyIcon": "assets/catfall/energy-icons/automaton.webp",
       "img": "assets/catfall/relics/automaton-makeshift_battery.webp",
       "imageResource": "",
       "deprecated": false,
       "dynamicValues": {},
-      "upgradeDynamicValues": {},
       "attachedTips": [],
       "attachedCardTips": [],
       "catfall": true
@@ -1095,11 +960,11 @@
       "id": "AUTOMATON-MALLET",
       "codeName": "Mallet",
       "name": {
-        "en": "铁锤",
+        "en": "Mallet",
         "zh": "铁锤"
       },
       "description": {
-        "en": "每当你[gold]储藏[/gold]一张牌时，将其[gold]升级[/gold]。",
+        "en": "Whenever you [gold]Stash[/gold] a card, [gold]Upgrade[/gold] it for the remainder of combat.",
         "zh": "每当你[gold]储藏[/gold]一张牌时，将其[gold]升级[/gold]。"
       },
       "rarity": "RARE",
@@ -1108,28 +973,12 @@
         "en": "The Automaton",
         "zh": "铜制机械人偶"
       },
-      "colorPillBg": null,
-      "colorPillFg": null,
-      "energyIcon": "assets/energy-icons/automaton.png",
+      "energyIcon": "assets/catfall/energy-icons/automaton.webp",
       "img": "assets/catfall/relics/automaton-mallet.webp",
       "imageResource": "",
       "deprecated": false,
       "dynamicValues": {},
-      "upgradeDynamicValues": {},
-      "attachedTips": [
-        {
-          "id": "AUTOMATON-STASH",
-          "name": {
-            "en": "Stash",
-            "zh": "暂存"
-          },
-          "description": {
-            "en": "Place a card inside of your [gold]Stash Pile[/gold], up to a maximum of [blue]5[/blue]. You draw the oldest card from it at the start of each turn.",
-            "zh": "将一张牌放入[gold]暂存区[/gold]（最多[blue]5[/blue]张）。\n在每个回合开始时，你会从[gold]暂存区[/gold]顶部抽一张牌。"
-          },
-          "sourceValueKey": null
-        }
-      ],
+      "attachedTips": [],
       "attachedCardTips": [],
       "catfall": true
     },
@@ -1137,11 +986,11 @@
       "id": "AUTOMATON-PLATINUM_CORE",
       "codeName": "PlatinumCore",
       "name": {
-        "en": "铂金核心",
+        "en": "Platinum Core",
         "zh": "铂金核心"
       },
       "description": {
-        "en": "在每场战斗开始时，[gold]编码[/gold]一张[gold]打击[/gold]和一张[gold]防御[/gold]。\n在你的回合开始时，将一张随机[gold]编码[/gold]牌加入你的[gold]手牌[/gold]。",
+        "en": "Start each combat with an [gold]Encoded[/gold] [gold]Strike[/gold] and [gold]Defend[/gold].\nAt the start of your turn, add a random card with [gold]Encode[/gold] to your [gold]Hand[/gold].",
         "zh": "在每场战斗开始时，[gold]编码[/gold]一张[gold]打击[/gold]和一张[gold]防御[/gold]。\n在你的回合开始时，将一张随机[gold]编码[/gold]牌加入你的[gold]手牌[/gold]。"
       },
       "rarity": "STARTER",
@@ -1150,49 +999,24 @@
         "en": "The Automaton",
         "zh": "铜制机械人偶"
       },
-      "colorPillBg": null,
-      "colorPillFg": null,
-      "energyIcon": "assets/energy-icons/automaton.png",
+      "energyIcon": "assets/catfall/energy-icons/automaton.webp",
       "img": "assets/catfall/relics/automaton-platinum_core.webp",
       "imageResource": "",
       "deprecated": false,
       "dynamicValues": {},
-      "upgradeDynamicValues": {},
-      "attachedTips": [
-        {
-          "id": "AUTOMATON-ENCODE",
-          "name": {
-            "en": "Encode",
-            "zh": "编码"
-          },
-          "description": {
-            "en": "Place this card into your [gold]Sequence[/gold].\nWhen it holds [blue]3[/blue] cards, their effects above this keyword are merged into a Function that costs [blue]1[/blue].",
-            "zh": "将此牌置入[gold]编码序列[/gold]。\n当[gold]编码序列[/gold]中拥有[blue]3[/blue]张牌时，这些牌的在[gold]编码[/gold]上方的效果将被合并为一个耗能为[blue]1[/blue]的[gold]方法[/gold]，并加入你的[gold]手牌[/gold]。"
-          },
-          "sourceValueKey": null
-        }
-      ],
-      "attachedCardTips": [
-        {
-          "id": "AUTOMATON-STRIKE_AUTOMATON",
-          "upgraded": false
-        },
-        {
-          "id": "AUTOMATON-DEFEND_AUTOMATON",
-          "upgraded": false
-        }
-      ],
+      "attachedTips": [],
+      "attachedCardTips": [],
       "catfall": true
     },
     {
       "id": "AUTOMATON-PROTECTIVE_GOGGLES",
       "codeName": "ProtectiveGoggles",
       "name": {
-        "en": "护目镜",
+        "en": "Protective Goggles",
         "zh": "护目镜"
       },
       "description": {
-        "en": "在你的回合结束时，若[gold]编码[/gold]队列中没有牌，获得[blue]{Block:diff()}[/blue]点[gold]格挡[/gold]。",
+        "en": "If you end your turn with no [gold]Encoded[/gold] cards, gain [blue]{Block:diff()}[/blue] [gold]Block[/gold].",
         "zh": "在你的回合结束时，若[gold]编码[/gold]队列中没有牌，获得[blue]{Block:diff()}[/blue]点[gold]格挡[/gold]。"
       },
       "rarity": "UNCOMMON",
@@ -1201,32 +1025,12 @@
         "en": "The Automaton",
         "zh": "铜制机械人偶"
       },
-      "colorPillBg": null,
-      "colorPillFg": null,
-      "energyIcon": "assets/energy-icons/automaton.png",
+      "energyIcon": "assets/catfall/energy-icons/automaton.webp",
       "img": "assets/catfall/relics/automaton-protective_goggles.webp",
       "imageResource": "",
       "deprecated": false,
-      "dynamicValues": {
-        "Block": 4
-      },
-      "upgradeDynamicValues": {
-        "Block": 4
-      },
-      "attachedTips": [
-        {
-          "id": "AUTOMATON-ENCODE",
-          "name": {
-            "en": "Encode",
-            "zh": "编码"
-          },
-          "description": {
-            "en": "Place this card into your [gold]Sequence[/gold].\nWhen it holds [blue]3[/blue] cards, their effects above this keyword are merged into a Function that costs [blue]1[/blue].",
-            "zh": "将此牌置入[gold]编码序列[/gold]。\n当[gold]编码序列[/gold]中拥有[blue]3[/blue]张牌时，这些牌的在[gold]编码[/gold]上方的效果将被合并为一个耗能为[blue]1[/blue]的[gold]方法[/gold]，并加入你的[gold]手牌[/gold]。"
-          },
-          "sourceValueKey": null
-        }
-      ],
+      "dynamicValues": {},
+      "attachedTips": [],
       "attachedCardTips": [],
       "catfall": true
     },
@@ -1234,11 +1038,11 @@
       "id": "AUTOMATON-SILVER_BULLET",
       "codeName": "SilverBullet",
       "name": {
-        "en": "银色子弹",
+        "en": "Silver Bullet",
         "zh": "银色子弹"
       },
       "description": {
-        "en": "每当你生成一张状态牌时，对所有敌人造成[blue]{Damage:diff()}[/blue]点伤害。",
+        "en": "Whenever you create a Status, deal [blue]{Damage:diff()}[/blue] damage to ALL enemies. ",
         "zh": "每当你生成一张状态牌时，对所有敌人造成[blue]{Damage:diff()}[/blue]点伤害。"
       },
       "rarity": "COMMON",
@@ -1247,76 +1051,63 @@
         "en": "The Automaton",
         "zh": "铜制机械人偶"
       },
-      "colorPillBg": null,
-      "colorPillFg": null,
-      "energyIcon": "assets/energy-icons/automaton.png",
+      "energyIcon": "assets/catfall/energy-icons/automaton.webp",
       "img": "assets/catfall/relics/automaton-silver_bullet.webp",
       "imageResource": "",
       "deprecated": false,
-      "dynamicValues": {
-        "Damage": 2
-      },
-      "upgradeDynamicValues": {
-        "Damage": 2
-      },
+      "dynamicValues": {},
       "attachedTips": [],
       "attachedCardTips": [],
       "catfall": true
     },
     {
       "id": "AWAKENED-ABYSS_BLADE",
-      "codeName": "Awakened-AbyssBlade",
+      "codeName": "AbyssBlade",
       "name": {
-        "en": "深渊之刃",
+        "en": "Abyss Blade",
         "zh": "深渊之刃"
       },
       "description": {
-        "en": "每回合你第一次[gold]力竭[/gold]时，获得{Energy:energyIcons()}并抽一张牌。",
+        "en": "The first time you are [gold]Drained[/gold] each turn, gain {Energy:energyIcons()} and draw a card.",
         "zh": "每回合你第一次[gold]力竭[/gold]时，获得{Energy:energyIcons()}并抽一张牌。"
       },
       "rarity": "SPECIAL",
-      "color": "DOWNFALL",
+      "color": "AWAKENED",
       "colorName": {
-        "en": "Downfall",
-        "zh": "崩坠"
+        "en": "The Awakened",
+        "zh": "觉醒者"
       },
-      "colorPillBg": null,
-      "colorPillFg": null,
-      "energyIcon": null,
+      "energyIcon": "assets/catfall/energy-icons/awakened.webp",
       "img": "assets/catfall/relics/awakened-abyss_blade.webp",
       "imageResource": "",
       "deprecated": false,
       "dynamicValues": {},
-      "upgradeDynamicValues": {},
       "attachedTips": [],
       "attachedCardTips": [],
       "catfall": true
     },
     {
       "id": "AWAKENED-BIRD_FACED_VASE",
-      "codeName": "Awakened-BirdFacedVase",
+      "codeName": "BirdFacedVase",
       "name": {
-        "en": "鸟面花瓶",
+        "en": "Bird-Faced Vase",
         "zh": "鸟面花瓶"
       },
       "description": {
-        "en": "每场战斗中，你前[blue]4[/blue]次打出能力牌时，回复[blue]3[/blue]点生命。",
+        "en": "The first [blue]4[/blue] times you play a Power each combat, heal [blue]3[/blue] HP.",
         "zh": "每场战斗中，你前[blue]4[/blue]次打出能力牌时，回复[blue]3[/blue]点生命。"
       },
       "rarity": "SPECIAL",
-      "color": "DOWNFALL",
+      "color": "AWAKENED",
       "colorName": {
-        "en": "Downfall",
-        "zh": "崩坠"
+        "en": "The Awakened",
+        "zh": "觉醒者"
       },
-      "colorPillBg": null,
-      "colorPillFg": null,
-      "energyIcon": null,
+      "energyIcon": "assets/catfall/energy-icons/awakened.webp",
       "img": "assets/catfall/relics/awakened-bird_faced_vase.webp",
       "imageResource": "",
       "deprecated": false,
       "dynamicValues": {},
-      "upgradeDynamicValues": {},
       "attachedTips": [],
       "attachedCardTips": [],
       "catfall": true
@@ -1325,11 +1116,11 @@
       "id": "AWAKENED-CRESCENT_TALISMAN",
       "codeName": "CrescentTalisman",
       "name": {
-        "en": "新月护符",
+        "en": "Crescent Talisman",
         "zh": "新月护符"
       },
       "description": {
-        "en": "拾起时，选择一张非[gold]念咒[/gold]的攻击牌或技能牌，为其[gold]附魔[/gold]：[purple]念咒[/purple]。",
+        "en": "Upon pickup, [gold]Enchant[/gold] an Attack or Skill without [gold]Conjure[/gold] with [purple]Conjuration[/purple].",
         "zh": "拾起时，选择一张非[gold]念咒[/gold]的攻击牌或技能牌，为其[gold]附魔[/gold]：[purple]念咒[/purple]。"
       },
       "rarity": "RARE",
@@ -1338,36 +1129,20 @@
         "en": "The Awakened",
         "zh": "觉醒者"
       },
-      "colorPillBg": null,
-      "colorPillFg": null,
-      "energyIcon": "assets/energy-icons/awakened.png",
+      "energyIcon": "assets/catfall/energy-icons/awakened.webp",
       "img": "assets/catfall/relics/awakened-crescent_talisman.webp",
       "imageResource": "",
       "deprecated": false,
       "dynamicValues": {},
-      "upgradeDynamicValues": {},
-      "attachedTips": [
-        {
-          "id": "AWAKENED-CONJURE",
-          "name": {
-            "en": "Conjure",
-            "zh": "念咒"
-          },
-          "description": {
-            "en": "Create the next card from you Spellbook in your [gold]Hand[/gold].",
-            "zh": "从法术书中将下一张法术牌加入你的[gold]手牌[/gold]。"
-          },
-          "sourceValueKey": null
-        }
-      ],
+      "attachedTips": [],
       "attachedCardTips": [],
       "catfall": true
     },
     {
       "id": "AWAKENED-DESSICATED_HAND",
-      "codeName": "Awakened-DessicatedHand",
+      "codeName": "DessicatedHand",
       "name": {
-        "en": "干枯之手",
+        "en": "Dessicated Hand",
         "zh": "干枯之手"
       },
       "description": {
@@ -1375,19 +1150,16 @@
         "zh": ""
       },
       "rarity": "SPECIAL",
-      "color": "DOWNFALL",
+      "color": "AWAKENED",
       "colorName": {
-        "en": "Downfall",
-        "zh": "崩坠"
+        "en": "The Awakened",
+        "zh": "觉醒者"
       },
-      "colorPillBg": null,
-      "colorPillFg": null,
-      "energyIcon": null,
+      "energyIcon": "assets/catfall/energy-icons/awakened.webp",
       "img": "assets/catfall/relics/awakened-dessicated_hand.webp",
       "imageResource": "",
       "deprecated": false,
       "dynamicValues": {},
-      "upgradeDynamicValues": {},
       "attachedTips": [],
       "attachedCardTips": [],
       "catfall": true
@@ -1396,11 +1168,11 @@
       "id": "AWAKENED-EYE_OF_THE_OCCULT",
       "codeName": "EyeOfTheOccult",
       "name": {
-        "en": "邪教之眼",
+        "en": "Eye of the Occult",
         "zh": "邪教之眼"
       },
       "description": {
-        "en": "[gold]落雷[/gold]和[gold]暗噬[/gold]会以所有敌人为目标。",
+        "en": "[gold]Thunderbolt[/gold] and [gold]Darkleech[/gold] target ALL enemies.",
         "zh": "[gold]落雷[/gold]和[gold]暗噬[/gold]会以所有敌人为目标。"
       },
       "rarity": "RARE",
@@ -1409,36 +1181,24 @@
         "en": "The Awakened",
         "zh": "觉醒者"
       },
-      "colorPillBg": null,
-      "colorPillFg": null,
-      "energyIcon": "assets/energy-icons/awakened.png",
+      "energyIcon": "assets/catfall/energy-icons/awakened.webp",
       "img": "assets/catfall/relics/awakened-eye_of_the_occult.webp",
       "imageResource": "",
       "deprecated": false,
       "dynamicValues": {},
-      "upgradeDynamicValues": {},
       "attachedTips": [],
-      "attachedCardTips": [
-        {
-          "id": "AWAKENED-THUNDERBOLT",
-          "upgraded": false
-        },
-        {
-          "id": "AWAKENED-DARKLEECH",
-          "upgraded": false
-        }
-      ],
+      "attachedCardTips": [],
       "catfall": true
     },
     {
       "id": "AWAKENED-FINAL_RITES",
       "codeName": "FinalRites",
       "name": {
-        "en": "最终仪式",
+        "en": "Final Rites",
         "zh": "最终仪式"
       },
       "description": {
-        "en": "每场战斗中，你第[blue]3[/blue]次触发[gold]吟唱[/gold]效果时，获得[blue]{RitualPower}[/blue]层[gold]仪式[/gold]。",
+        "en": "The [blue]3[/blue]rd time you activate [gold]Chant[/gold] effects in a combat, gain [blue]{RitualPower}[/blue] [gold]Ritual[/gold].",
         "zh": "每场战斗中，你第[blue]3[/blue]次触发[gold]吟唱[/gold]效果时，获得[blue]{RitualPower}[/blue]层[gold]仪式[/gold]。"
       },
       "rarity": "RARE",
@@ -1447,16 +1207,11 @@
         "en": "The Awakened",
         "zh": "觉醒者"
       },
-      "colorPillBg": null,
-      "colorPillFg": null,
-      "energyIcon": "assets/energy-icons/awakened.png",
+      "energyIcon": "assets/catfall/energy-icons/awakened.webp",
       "img": "assets/catfall/relics/awakened-final_rites.webp",
       "imageResource": "",
       "deprecated": false,
       "dynamicValues": {
-        "RitualPower": 1
-      },
-      "upgradeDynamicValues": {
         "RitualPower": 1
       },
       "attachedTips": [
@@ -1468,21 +1223,11 @@
           },
           "description": {
             "en": "Cards with Chant effects become more powerful for the rest of combat if the last played card in combat was a Power card.",
-            "zh": "带有该关键词的牌被打出时，如果打出的上一张牌是能力牌，则会在本场战斗中激活吟唱效果。"
+            "zh": "若上一张打出的牌是能力牌，则在本场战斗中每次打出这张牌都会触发吟唱效果。"
           },
-          "sourceValueKey": null
-        },
-        {
-          "id": "RITUAL_POWER",
-          "name": {
-            "en": "Ritual",
-            "zh": "仪式"
-          },
-          "description": {
-            "en": "Gain [gold]Strength[/gold] at the end of your turn.",
-            "zh": "在你的回合结束时获得[gold]力量[/gold]。"
-          },
-          "sourceValueKey": "RitualPower"
+          "dynamicValues": {},
+          "sourceValueKey": null,
+          "icon": null
         }
       ],
       "attachedCardTips": [],
@@ -1492,41 +1237,25 @@
       "id": "AWAKENED-MANABOMB",
       "codeName": "Manabomb",
       "name": {
-        "en": "魔力炸弹",
+        "en": "Manabomb",
         "zh": "魔力炸弹"
       },
       "description": {
-        "en": "每当一名敌人死亡时，将其拥有的所有[gold]魔力灼烧[/gold]转移给随机敌人并触发。",
+        "en": "Whenever an enemy dies, transfer any [gold]Manaburn[/gold] it has to a random enemy and then trigger it.",
         "zh": "每当一名敌人死亡时，将其拥有的所有[gold]魔力灼烧[/gold]转移给随机敌人并触发。"
       },
-      "rarity": "SHOP",
+      "rarity": "BOSS",
       "color": "AWAKENED",
       "colorName": {
         "en": "The Awakened",
         "zh": "觉醒者"
       },
-      "colorPillBg": null,
-      "colorPillFg": null,
-      "energyIcon": "assets/energy-icons/awakened.png",
+      "energyIcon": "assets/catfall/energy-icons/awakened.webp",
       "img": "assets/catfall/relics/awakened-manabomb.webp",
       "imageResource": "",
       "deprecated": false,
       "dynamicValues": {},
-      "upgradeDynamicValues": {},
-      "attachedTips": [
-        {
-          "id": "AWAKENED-MANABURN_POWER",
-          "name": {
-            "en": "Manaburn",
-            "zh": "魔力灼烧"
-          },
-          "description": {
-            "en": "Whenever you are [gold]Drained[/gold], this enemy loses HP.",
-            "zh": "每当你[gold]力竭[/gold]时，此敌人失去生命。"
-          },
-          "sourceValueKey": "ManaburnPower"
-        }
-      ],
+      "attachedTips": [],
       "attachedCardTips": [],
       "catfall": true
     },
@@ -1534,11 +1263,11 @@
       "id": "AWAKENED-PAPER_CROW",
       "codeName": "PaperCrow",
       "name": {
-        "en": "纸乌鸦",
+        "en": "Paper Crow",
         "zh": "纸乌鸦"
       },
       "description": {
-        "en": "敌人受到的[gold]魔力灼烧[/gold]伤害提高[blue]25%[/blue]。",
+        "en": "Enemies take [blue]25%[/blue] additional damage from [gold]Manaburn[/gold].",
         "zh": "敌人受到的[gold]魔力灼烧[/gold]伤害提高[blue]25%[/blue]。"
       },
       "rarity": "UNCOMMON",
@@ -1547,28 +1276,12 @@
         "en": "The Awakened",
         "zh": "觉醒者"
       },
-      "colorPillBg": null,
-      "colorPillFg": null,
-      "energyIcon": "assets/energy-icons/awakened.png",
+      "energyIcon": "assets/catfall/energy-icons/awakened.webp",
       "img": "assets/catfall/relics/awakened-paper_crow.webp",
       "imageResource": "",
       "deprecated": false,
       "dynamicValues": {},
-      "upgradeDynamicValues": {},
-      "attachedTips": [
-        {
-          "id": "AWAKENED-MANABURN_POWER",
-          "name": {
-            "en": "Manaburn",
-            "zh": "魔力灼烧"
-          },
-          "description": {
-            "en": "Whenever you are [gold]Drained[/gold], this enemy loses HP.",
-            "zh": "每当你[gold]力竭[/gold]时，此敌人失去生命。"
-          },
-          "sourceValueKey": "ManaburnPower"
-        }
-      ],
+      "attachedTips": [],
       "attachedCardTips": [],
       "catfall": true
     },
@@ -1576,11 +1289,11 @@
       "id": "AWAKENED-RIPPED_DOLL",
       "codeName": "RippedDoll",
       "name": {
-        "en": "撕裂的玩偶",
+        "en": "Ripped Doll",
         "zh": "撕裂的玩偶"
       },
       "description": {
-        "en": "每场战斗前[blue]2[/blue]个回合开始时，[gold]念咒[/gold]。",
+        "en": "At the start of the first [blue]2[/blue] turns of combat, [gold]Conjure[/gold].",
         "zh": "每场战斗前[blue]2[/blue]个回合开始时，[gold]念咒[/gold]。"
       },
       "rarity": "STARTER",
@@ -1589,28 +1302,12 @@
         "en": "The Awakened",
         "zh": "觉醒者"
       },
-      "colorPillBg": null,
-      "colorPillFg": null,
-      "energyIcon": "assets/energy-icons/awakened.png",
+      "energyIcon": "assets/catfall/energy-icons/awakened.webp",
       "img": "assets/catfall/relics/awakened-ripped_doll.webp",
       "imageResource": "",
       "deprecated": false,
       "dynamicValues": {},
-      "upgradeDynamicValues": {},
-      "attachedTips": [
-        {
-          "id": "AWAKENED-CONJURE",
-          "name": {
-            "en": "Conjure",
-            "zh": "念咒"
-          },
-          "description": {
-            "en": "Create the next card from you Spellbook in your [gold]Hand[/gold].",
-            "zh": "从法术书中将下一张法术牌加入你的[gold]手牌[/gold]。"
-          },
-          "sourceValueKey": null
-        }
-      ],
+      "attachedTips": [],
       "attachedCardTips": [],
       "catfall": true
     },
@@ -1618,11 +1315,11 @@
       "id": "AWAKENED-SHREDDED_DOLL",
       "codeName": "ShreddedDoll",
       "name": {
-        "en": "撕碎的玩偶",
+        "en": "Shredded Doll",
         "zh": "撕碎的玩偶"
       },
       "description": {
-        "en": "在你的回合开始时，[gold]念咒[/gold]。\n每场战斗开始时，获得[blue]1[/blue]层[gold]仪式[/gold]。",
+        "en": "At the start of your turn, [gold]Conjure[/gold].\nStart combat with [blue]1[/blue] [gold]Ritual[/gold].",
         "zh": "在你的回合开始时，[gold]念咒[/gold]。\n每场战斗开始时，获得[blue]1[/blue]层[gold]仪式[/gold]。"
       },
       "rarity": "STARTER",
@@ -1631,44 +1328,12 @@
         "en": "The Awakened",
         "zh": "觉醒者"
       },
-      "colorPillBg": null,
-      "colorPillFg": null,
-      "energyIcon": "assets/energy-icons/awakened.png",
+      "energyIcon": "assets/catfall/energy-icons/awakened.webp",
       "img": "assets/catfall/relics/awakened-shredded_doll.webp",
       "imageResource": "",
       "deprecated": false,
-      "dynamicValues": {
-        "RitualPower": 1
-      },
-      "upgradeDynamicValues": {
-        "RitualPower": 1
-      },
-      "attachedTips": [
-        {
-          "id": "AWAKENED-CONJURE",
-          "name": {
-            "en": "Conjure",
-            "zh": "念咒"
-          },
-          "description": {
-            "en": "Create the next card from you Spellbook in your [gold]Hand[/gold].",
-            "zh": "从法术书中将下一张法术牌加入你的[gold]手牌[/gold]。"
-          },
-          "sourceValueKey": null
-        },
-        {
-          "id": "RITUAL_POWER",
-          "name": {
-            "en": "Ritual",
-            "zh": "仪式"
-          },
-          "description": {
-            "en": "Gain [gold]Strength[/gold] at the end of your turn.",
-            "zh": "在你的回合结束时获得[gold]力量[/gold]。"
-          },
-          "sourceValueKey": "RitualPower"
-        }
-      ],
+      "dynamicValues": {},
+      "attachedTips": [],
       "attachedCardTips": [],
       "catfall": true
     },
@@ -1676,11 +1341,11 @@
       "id": "AWAKENED-TOME_OF_PORTALMANCY",
       "codeName": "TomeOfPortalmancy",
       "name": {
-        "en": "召门之书",
+        "en": "Tome of Portalmancy",
         "zh": "召门之书"
       },
       "description": {
-        "en": "每当你生成一张[gold]虚空[/gold]时，给予所有敌人[blue]2[/blue]点[gold]魔力灼烧[/gold]。",
+        "en": "Whenever you create a [gold]Void[/gold], apply [blue]2[/blue] [gold]Manaburn[/gold] to ALL enemies.",
         "zh": "每当你生成一张[gold]虚空[/gold]时，给予所有敌人[blue]2[/blue]点[gold]魔力灼烧[/gold]。"
       },
       "rarity": "COMMON",
@@ -1689,60 +1354,37 @@
         "en": "The Awakened",
         "zh": "觉醒者"
       },
-      "colorPillBg": null,
-      "colorPillFg": null,
-      "energyIcon": "assets/energy-icons/awakened.png",
+      "energyIcon": "assets/catfall/energy-icons/awakened.webp",
       "img": "assets/catfall/relics/awakened-tome_of_portalmancy.webp",
       "imageResource": "",
       "deprecated": false,
-      "dynamicValues": {
-        "ManaburnPower": 2
-      },
-      "upgradeDynamicValues": {
-        "ManaburnPower": 2
-      },
-      "attachedTips": [
-        {
-          "id": "AWAKENED-MANABURN_POWER",
-          "name": {
-            "en": "Manaburn",
-            "zh": "魔力灼烧"
-          },
-          "description": {
-            "en": "Whenever you are [gold]Drained[/gold], this enemy loses HP.",
-            "zh": "每当你[gold]力竭[/gold]时，此敌人失去生命。"
-          },
-          "sourceValueKey": "ManaburnPower"
-        }
-      ],
+      "dynamicValues": {},
+      "attachedTips": [],
       "attachedCardTips": [],
       "catfall": true
     },
     {
       "id": "AWAKENED-WHITE_RIBBON",
-      "codeName": "Awakened-WhiteRibbon",
+      "codeName": "WhiteRibbon",
       "name": {
-        "en": "纯白缎带",
+        "en": "White Ribbon",
         "zh": "纯白缎带"
       },
       "description": {
-        "en": "每当你打出带有[gold]吟唱[/gold]效果的牌时，获得[blue]3[/blue]点[gold]格挡[/gold]，即使尚未激活。",
+        "en": "Whenever you play a card with a [gold]Chant[/gold] effect, gain [blue]3[/blue] [gold]Block[/gold], even if it is not active.",
         "zh": "每当你打出带有[gold]吟唱[/gold]效果的牌时，获得[blue]3[/blue]点[gold]格挡[/gold]，即使尚未激活。"
       },
       "rarity": "SPECIAL",
-      "color": "DOWNFALL",
+      "color": "AWAKENED",
       "colorName": {
-        "en": "Downfall",
-        "zh": "崩坠"
+        "en": "The Awakened",
+        "zh": "觉醒者"
       },
-      "colorPillBg": null,
-      "colorPillFg": null,
-      "energyIcon": null,
+      "energyIcon": "assets/catfall/energy-icons/awakened.webp",
       "img": "assets/catfall/relics/awakened-white_ribbon.webp",
       "imageResource": "",
       "deprecated": false,
       "dynamicValues": {},
-      "upgradeDynamicValues": {},
       "attachedTips": [],
       "attachedCardTips": [],
       "catfall": true
@@ -1751,11 +1393,11 @@
       "id": "AWAKENED-ZENER_DECK",
       "codeName": "ZenerDeck",
       "name": {
-        "en": "齐纳牌组",
+        "en": "Zener Deck",
         "zh": "齐纳牌组"
       },
       "description": {
-        "en": "每场战斗开始时，将[gold]超感[/gold]加入你的法术书。",
+        "en": "Start each combat with [gold]ESP[/gold] in your Spellbook.",
         "zh": "每场战斗开始时，将[gold]超感[/gold]加入你的法术书。"
       },
       "rarity": "RARE",
@@ -1764,32 +1406,24 @@
         "en": "The Awakened",
         "zh": "觉醒者"
       },
-      "colorPillBg": null,
-      "colorPillFg": null,
-      "energyIcon": "assets/energy-icons/awakened.png",
+      "energyIcon": "assets/catfall/energy-icons/awakened.webp",
       "img": "assets/catfall/relics/awakened-zener_deck.webp",
       "imageResource": "",
       "deprecated": false,
       "dynamicValues": {},
-      "upgradeDynamicValues": {},
       "attachedTips": [],
-      "attachedCardTips": [
-        {
-          "id": "AWAKENED-ESP",
-          "upgraded": false
-        }
-      ],
+      "attachedCardTips": [],
       "catfall": true
     },
     {
       "id": "AWAKENED-ZETSUMEI",
       "codeName": "Zetsumei",
       "name": {
-        "en": "绝命",
+        "en": "Zetsumei",
         "zh": "绝命"
       },
       "description": {
-        "en": "每当你在一场战斗中打出[blue]{Cards}[/blue]张法术牌时，获得一张[gold]祭仪[/gold]。",
+        "en": "Every time you play [blue]{Cards}[/blue] Spells in a combat, gain a [gold]Ceremony[/gold].",
         "zh": "每当你在一场战斗中打出[blue]{Cards}[/blue]张法术牌时，获得一张[gold]祭仪[/gold]。"
       },
       "rarity": "UNCOMMON",
@@ -1798,18 +1432,11 @@
         "en": "The Awakened",
         "zh": "觉醒者"
       },
-      "colorPillBg": null,
-      "colorPillFg": null,
-      "energyIcon": "assets/energy-icons/awakened.png",
+      "energyIcon": "assets/catfall/energy-icons/awakened.webp",
       "img": "assets/catfall/relics/awakened-zetsumei.webp",
       "imageResource": "",
       "deprecated": false,
-      "dynamicValues": {
-        "Cards": 4
-      },
-      "upgradeDynamicValues": {
-        "Cards": 4
-      },
+      "dynamicValues": {},
       "attachedTips": [],
       "attachedCardTips": [],
       "catfall": true
@@ -1831,13 +1458,16 @@
         "en": "The Guardian",
         "zh": "守护者"
       },
-      "catfall": true,
+      "energyIcon": null,
+      "img": "assets/catfall/relics/catfall2-bottled_stasis.webp",
+      "imageResource": "",
+      "deprecated": false,
       "dynamicValues": {
         "Cards": 1
       },
-      "img": "assets/catfall/relics/catfall2-bottled_stasis.webp",
       "attachedTips": [],
-      "attachedCardTips": []
+      "attachedCardTips": [],
+      "catfall": true
     },
     {
       "id": "CATFALL2-DEFENSIVE_MODE_MORE_BLOCK",
@@ -1856,13 +1486,31 @@
         "en": "The Guardian",
         "zh": "守护者"
       },
-      "catfall": true,
+      "energyIcon": null,
+      "img": "assets/catfall/relics/catfall2-defensive_mode_more_block.webp",
+      "imageResource": "",
+      "deprecated": false,
       "dynamicValues": {
         "Brace": 1
       },
-      "img": "assets/catfall/relics/catfall2-defensive_mode_more_block.webp",
-      "attachedTips": [],
-      "attachedCardTips": []
+      "attachedTips": [
+        {
+          "id": "BRACE",
+          "name": {
+            "en": "提防",
+            "zh": "提防"
+          },
+          "description": {
+            "en": "降低进入[gold]防御模式[/gold]所需生命损失。进入[gold]防御模式[/gold]时获得20[gold]格挡[/gold]，在2回合内拥有3[gold]荆棘[/gold]并且保留格挡。",
+            "zh": "降低进入[gold]防御模式[/gold]所需生命损失。进入[gold]防御模式[/gold]时获得20[gold]格挡[/gold]，在2回合内拥有3[gold]荆棘[/gold]并且保留格挡。"
+          },
+          "dynamicValues": {},
+          "sourceValueKey": "Brace",
+          "icon": null
+        }
+      ],
+      "attachedCardTips": [],
+      "catfall": true
     },
     {
       "id": "CATFALL2-GEMSTONE_GUN",
@@ -1881,11 +1529,14 @@
         "en": "The Guardian",
         "zh": "守护者"
       },
-      "catfall": true,
-      "dynamicValues": {},
+      "energyIcon": null,
       "img": "assets/catfall/relics/catfall2-gemstone_gun.webp",
+      "imageResource": "",
+      "deprecated": false,
+      "dynamicValues": {},
       "attachedTips": [],
-      "attachedCardTips": []
+      "attachedCardTips": [],
+      "catfall": true
     },
     {
       "id": "CATFALL2-MODE_SHIFTER",
@@ -1904,13 +1555,22 @@
         "en": "The Guardian",
         "zh": "守护者"
       },
-      "catfall": true,
+      "energyIcon": null,
+      "img": "assets/catfall/relics/catfall2-mode_shifter.webp",
+      "imageResource": "",
+      "deprecated": false,
       "dynamicValues": {
         "Cards": 1
       },
-      "img": "assets/catfall/relics/catfall2-mode_shifter.webp",
       "attachedTips": [],
-      "attachedCardTips": []
+      "attachedCardTips": [
+        {
+          "id": "CATFALL2-GEAR_UP",
+          "upgraded": false,
+          "upgradeWithParent": false
+        }
+      ],
+      "catfall": true
     },
     {
       "id": "CATFALL2-MODE_SHIFTER_PLUS",
@@ -1929,13 +1589,31 @@
         "en": "The Guardian",
         "zh": "守护者"
       },
-      "catfall": true,
+      "energyIcon": null,
+      "img": "assets/catfall/relics/catfall2-mode_shifter_plus.webp",
+      "imageResource": "",
+      "deprecated": false,
       "dynamicValues": {
         "Brace": 39
       },
-      "img": "assets/catfall/relics/catfall2-mode_shifter_plus.webp",
-      "attachedTips": [],
-      "attachedCardTips": []
+      "attachedTips": [
+        {
+          "id": "BRACE",
+          "name": {
+            "en": "提防",
+            "zh": "提防"
+          },
+          "description": {
+            "en": "降低进入[gold]防御模式[/gold]所需生命损失。进入[gold]防御模式[/gold]时获得20[gold]格挡[/gold]，在2回合内拥有3[gold]荆棘[/gold]并且保留格挡。",
+            "zh": "降低进入[gold]防御模式[/gold]所需生命损失。进入[gold]防御模式[/gold]时获得20[gold]格挡[/gold]，在2回合内拥有3[gold]荆棘[/gold]并且保留格挡。"
+          },
+          "dynamicValues": {},
+          "sourceValueKey": "Brace",
+          "icon": null
+        }
+      ],
+      "attachedCardTips": [],
+      "catfall": true
     },
     {
       "id": "CATFALL2-POCKET_SENTRY",
@@ -1954,15 +1632,18 @@
         "en": "The Guardian",
         "zh": "守护者"
       },
-      "catfall": true,
+      "energyIcon": null,
+      "img": "assets/catfall/relics/catfall2-pocket_sentry.webp",
+      "imageResource": "",
+      "deprecated": false,
       "dynamicValues": {
         "Power": 1,
         "WeakPower": 1,
         "Turns": 3
       },
-      "img": "assets/catfall/relics/catfall2-pocket_sentry.webp",
       "attachedTips": [],
-      "attachedCardTips": []
+      "attachedCardTips": [],
+      "catfall": true
     },
     {
       "id": "CATFALL2-STASIS_CODEX",
@@ -1981,13 +1662,16 @@
         "en": "The Guardian",
         "zh": "守护者"
       },
-      "catfall": true,
+      "energyIcon": null,
+      "img": "assets/catfall/relics/catfall2-stasis_codex.webp",
+      "imageResource": "",
+      "deprecated": false,
       "dynamicValues": {
         "Cards": 3
       },
-      "img": "assets/catfall/relics/catfall2-stasis_codex.webp",
       "attachedTips": [],
-      "attachedCardTips": []
+      "attachedCardTips": [],
+      "catfall": true
     },
     {
       "id": "CATFALL2-STASIS_EGG",
@@ -2006,13 +1690,16 @@
         "en": "The Guardian",
         "zh": "守护者"
       },
-      "catfall": true,
+      "energyIcon": null,
+      "img": "assets/catfall/relics/catfall2-stasis_egg.webp",
+      "imageResource": "",
+      "deprecated": false,
       "dynamicValues": {
         "Cards": 3
       },
-      "img": "assets/catfall/relics/catfall2-stasis_egg.webp",
       "attachedTips": [],
-      "attachedCardTips": []
+      "attachedCardTips": [],
+      "catfall": true
     },
     {
       "id": "CATFALL2-STASIS_UPGRADE_RELIC",
@@ -2031,21 +1718,24 @@
         "en": "The Guardian",
         "zh": "守护者"
       },
-      "catfall": true,
-      "dynamicValues": {},
+      "energyIcon": null,
       "img": "assets/catfall/relics/catfall2-stasis_upgrade_relic.webp",
+      "imageResource": "",
+      "deprecated": false,
+      "dynamicValues": {},
       "attachedTips": [],
-      "attachedCardTips": []
+      "attachedCardTips": [],
+      "catfall": true
     },
     {
       "id": "CHAMP-AMULET_OF_UNYIELDING",
       "codeName": "AmuletOfUnyielding",
       "name": {
-        "en": "不屈护符",
+        "en": "Amulet of Unyielding",
         "zh": "不屈护符"
       },
       "description": {
-        "en": "每消耗[blue]{VigorPower}[/blue]点[gold]活力[/gold]，获得[blue]{StrengthPower}[/blue]点[gold]力量[/gold]。",
+        "en": "Whenever you spend [gold]Vigor[/gold], gain [blue]{StrengthPower}[/blue] [gold]Strength[/gold] for every [blue]{VigorPower}[/blue] [gold]Vigor[/gold] spent.",
         "zh": "每消耗[blue]{VigorPower}[/blue]点[gold]活力[/gold]，获得[blue]{StrengthPower}[/blue]点[gold]力量[/gold]。"
       },
       "rarity": "RARE",
@@ -2054,103 +1744,63 @@
         "en": "The Champ",
         "zh": "第一勇士"
       },
-      "colorPillBg": null,
-      "colorPillFg": null,
-      "energyIcon": "assets/energy-icons/champ.png",
+      "energyIcon": "assets/catfall/energy-icons/champ.webp",
       "img": "assets/catfall/relics/champ-amulet_of_unyielding.webp",
       "imageResource": "",
       "deprecated": false,
-      "dynamicValues": {
-        "StrengthPower": 1,
-        "VigorPower": 12
-      },
-      "upgradeDynamicValues": {
-        "StrengthPower": 1,
-        "VigorPower": 12
-      },
-      "attachedTips": [
-        {
-          "id": "POSSESS_STRENGTH_POWER",
-          "name": {
-            "en": "Possess Strength",
-            "zh": "抢夺力量"
-          },
-          "description": {
-            "en": "When killed, return all stolen [gold]Strength[/gold] to the player.",
-            "zh": "被击杀时，将偷窃的所有[gold]力量[/gold]返还给玩家。"
-          },
-          "sourceValueKey": "StrengthPower"
-        },
-        {
-          "id": "VIGOR_POWER",
-          "name": {
-            "en": "Vigor",
-            "zh": "活力"
-          },
-          "description": {
-            "en": "Your next Attack deals additional damage.",
-            "zh": "你的下一张攻击牌伤害增加。"
-          },
-          "sourceValueKey": "VigorPower"
-        }
-      ],
+      "dynamicValues": {},
+      "attachedTips": [],
       "attachedCardTips": [],
       "catfall": true
     },
     {
       "id": "CHAMP-BERSERKERS_GUIDE",
-      "codeName": "Champ-BerserkersGuide",
+      "codeName": "BerserkersGuide",
       "name": {
-        "en": "战狂指南",
+        "en": "Berserker's Guide",
         "zh": "战狂指南"
       },
       "description": {
-        "en": "在你的回合开始时，获得[blue]3[/blue]点[gold]活力[/gold]。",
+        "en": "At the start of your turn, gain [blue]3[/blue] [gold]Vigor[/gold].",
         "zh": "在你的回合开始时，获得[blue]3[/blue]点[gold]活力[/gold]。"
       },
-      "rarity": "SPECIAL",
-      "color": "DOWNFALL",
+      "rarity": "COMMON",
+      "color": "CHAMP",
       "colorName": {
-        "en": "Downfall",
-        "zh": "崩坠"
+        "en": "The Champ",
+        "zh": "第一勇士"
       },
-      "colorPillBg": null,
-      "colorPillFg": null,
-      "energyIcon": null,
+      "energyIcon": "assets/catfall/energy-icons/champ.webp",
       "img": "assets/catfall/relics/champ-berserkers_guide.webp",
       "imageResource": "",
       "deprecated": false,
       "dynamicValues": {},
-      "upgradeDynamicValues": {},
       "attachedTips": [],
       "attachedCardTips": [],
       "catfall": true
     },
     {
       "id": "CHAMP-BLACK_KNIGHTS_HELM",
-      "codeName": "Champ-BlackKnightsHelm",
+      "codeName": "BlackKnightsHelm",
       "name": {
-        "en": "黑骑士头盔",
+        "en": "Black Knight's Helm",
         "zh": "黑骑士头盔"
       },
       "description": {
-        "en": "每场战斗中你首次进入每种[gold]姿态[/gold]时：[gold]防守[/gold]：获得[blue]2[/blue]点[gold]敏捷[/gold]并失去[blue]1[/blue]点[gold]力量[/gold]。[gold]战狂[/gold]：获得[blue]2[/blue]点[gold]力量[/gold]并失去[blue]1[/blue]点[gold]敏捷[/gold]。",
+        "en": "The first time you enter each [gold]Stance[/gold] each combat: [gold]Defensive[/gold]: Gain [blue]2[/blue] [gold]Dexterity[/gold] and lose [blue]1[/blue] [gold]Strength[/gold]. [gold]Berserker[/gold]: Gain [blue]2[/blue] [gold]Strength[/gold] and lose [blue]1[/blue] [gold]Dexterity[/gold].",
         "zh": "每场战斗中你首次进入每种[gold]姿态[/gold]时：[gold]防守[/gold]：获得[blue]2[/blue]点[gold]敏捷[/gold]并失去[blue]1[/blue]点[gold]力量[/gold]。[gold]战狂[/gold]：获得[blue]2[/blue]点[gold]力量[/gold]并失去[blue]1[/blue]点[gold]敏捷[/gold]。"
       },
       "rarity": "SPECIAL",
-      "color": "DOWNFALL",
+      "color": "CHAMP",
       "colorName": {
-        "en": "Downfall",
-        "zh": "崩坠"
+        "en": "The Champ",
+        "zh": "第一勇士"
       },
-      "colorPillBg": null,
-      "colorPillFg": null,
-      "energyIcon": null,
+      "energyIcon": "assets/catfall/energy-icons/champ.webp",
       "img": "assets/catfall/relics/champ-black_knights_helm.webp",
       "imageResource": "",
       "deprecated": false,
       "dynamicValues": {},
-      "upgradeDynamicValues": {},
       "attachedTips": [],
       "attachedCardTips": [],
       "catfall": true
@@ -2159,11 +1809,11 @@
       "id": "CHAMP-CHAMPIONS_CROWN",
       "codeName": "ChampionsCrown",
       "name": {
-        "en": "冠军王冠",
+        "en": "Champion's Crown",
         "zh": "冠军王冠"
       },
       "description": {
-        "en": "在每场战斗开始时，进入随机[gold]姿态[/gold]并触发[gold]技术奖励[/gold]两次。",
+        "en": "Start each combat in a random [gold]Stance[/gold], and then trigger that [gold]Stance[/gold]'s [gold]Skill Bonus[/gold] twice.",
         "zh": "在每场战斗开始时，进入随机[gold]姿态[/gold]并触发[gold]技术奖励[/gold]两次。"
       },
       "rarity": "STARTER",
@@ -2172,32 +1822,12 @@
         "en": "The Champ",
         "zh": "第一勇士"
       },
-      "colorPillBg": null,
-      "colorPillFg": null,
-      "energyIcon": "assets/energy-icons/champ.png",
+      "energyIcon": "assets/catfall/energy-icons/champ.webp",
       "img": "assets/catfall/relics/champ-champions_crown.webp",
       "imageResource": "",
       "deprecated": false,
-      "dynamicValues": {
-        "Cards": 1
-      },
-      "upgradeDynamicValues": {
-        "Cards": 1
-      },
-      "attachedTips": [
-        {
-          "id": "CHAMP-TRIGGER_SKILL_BONUS",
-          "name": {
-            "en": "Skill Bonus",
-            "zh": "技术奖励"
-          },
-          "description": {
-            "en": "The bonus effect triggered by your current [gold]Stance[/gold] when you play a [gold]Skill[/gold].",
-            "zh": "The bonus effect triggered by your current [gold]Stance[/gold] when you play a [gold]Skill[/gold]."
-          },
-          "sourceValueKey": null
-        }
-      ],
+      "dynamicValues": {},
+      "attachedTips": [],
       "attachedCardTips": [],
       "catfall": true
     },
@@ -2205,11 +1835,11 @@
       "id": "CHAMP-DEFENSIVE_THESIS",
       "codeName": "DefensiveThesis",
       "name": {
-        "en": "防守论纲",
+        "en": "Defensive Thesis",
         "zh": "防守论纲"
       },
       "description": {
-        "en": "[gold]防守姿态[/gold]的[gold]终结技[/gold]额外给予[blue]3[/blue]点[gold]格挡[/gold]。",
+        "en": "[gold]Defensive Stance[/gold]'s [gold]Finisher[/gold] Bonus grants [blue]3[/blue] more [gold]Block[/gold].",
         "zh": "[gold]防守姿态[/gold]的[gold]终结技[/gold]额外给予[blue]3[/blue]点[gold]格挡[/gold]。"
       },
       "rarity": "UNCOMMON",
@@ -2218,28 +1848,12 @@
         "en": "The Champ",
         "zh": "第一勇士"
       },
-      "colorPillBg": null,
-      "colorPillFg": null,
-      "energyIcon": "assets/energy-icons/champ.png",
+      "energyIcon": "assets/catfall/energy-icons/champ.webp",
       "img": "assets/catfall/relics/champ-defensive_thesis.webp",
       "imageResource": "",
       "deprecated": false,
       "dynamicValues": {},
-      "upgradeDynamicValues": {},
-      "attachedTips": [
-        {
-          "id": "CHAMP-FINISHER",
-          "name": {
-            "en": "Finisher",
-            "zh": "终结技"
-          },
-          "description": {
-            "en": "Requires a [gold]Stance[/gold].\nAfter playing a Finisher, exit your [gold]Stance[/gold] and trigger its Finisher effect.",
-            "zh": "Requires a [gold]Stance[/gold].\nAfter playing a Finisher, exit your [gold]Stance[/gold] and trigger its Finisher effect."
-          },
-          "sourceValueKey": null
-        }
-      ],
+      "attachedTips": [],
       "attachedCardTips": [],
       "catfall": true
     },
@@ -2247,11 +1861,11 @@
       "id": "CHAMP-DOLPHINS_STYLE_GUIDE",
       "codeName": "DolphinsStyleGuide",
       "name": {
-        "en": "海豚风格指南",
+        "en": "Dolphin's Style Guide",
         "zh": "海豚风格指南"
       },
       "description": {
-        "en": "如果你在没有[gold]姿态[/gold]时结束回合，下回合额外抽[blue]1[/blue]张牌。",
+        "en": "If you end your turn while in no [gold]Stance[/gold], draw [blue]1[/blue] additional card next turn.",
         "zh": "如果你在没有[gold]姿态[/gold]时结束回合，下回合额外抽[blue]1[/blue]张牌。"
       },
       "rarity": "UNCOMMON",
@@ -2260,72 +1874,63 @@
         "en": "The Champ",
         "zh": "第一勇士"
       },
-      "colorPillBg": null,
-      "colorPillFg": null,
-      "energyIcon": "assets/energy-icons/champ.png",
+      "energyIcon": "assets/catfall/energy-icons/champ.webp",
       "img": "assets/catfall/relics/champ-dolphins_style_guide.webp",
       "imageResource": "",
       "deprecated": false,
       "dynamicValues": {},
-      "upgradeDynamicValues": {},
       "attachedTips": [],
       "attachedCardTips": [],
       "catfall": true
     },
     {
       "id": "CHAMP-GLADIATORS_MANUAL",
-      "codeName": "Champ-GladiatorsManual",
+      "codeName": "GladiatorsManual",
       "name": {
-        "en": "角斗士手册",
+        "en": "Gladiators Manual",
         "zh": "角斗士手册"
       },
       "description": {
-        "en": "每当你在同一回合内打出[gold]连段[/gold]、打出[gold]终结技[/gold]并进入[gold]姿态[/gold]，获得[blue]1[/blue]点[gold]力量[/gold]和[gold]敏捷[/gold]。",
+        "en": "Whenever you play a [gold]Combo[/gold], a [gold]Finisher[/gold], and enter a [gold]Stance[/gold] in the same turn, gain [blue]1[/blue] [gold]Strength[/gold] and [gold]Dexterity[/gold].",
         "zh": "每当你在同一回合内打出[gold]连段[/gold]、打出[gold]终结技[/gold]并进入[gold]姿态[/gold]，获得[blue]1[/blue]点[gold]力量[/gold]和[gold]敏捷[/gold]。"
       },
       "rarity": "SPECIAL",
-      "color": "DOWNFALL",
+      "color": "CHAMP",
       "colorName": {
-        "en": "Downfall",
-        "zh": "崩坠"
+        "en": "The Champ",
+        "zh": "第一勇士"
       },
-      "colorPillBg": null,
-      "colorPillFg": null,
-      "energyIcon": null,
+      "energyIcon": "assets/catfall/energy-icons/champ.webp",
       "img": "assets/catfall/relics/champ-gladiators_manual.webp",
       "imageResource": "",
       "deprecated": false,
       "dynamicValues": {},
-      "upgradeDynamicValues": {},
       "attachedTips": [],
       "attachedCardTips": [],
       "catfall": true
     },
     {
       "id": "CHAMP-INNER_STRENGTH",
-      "codeName": "Champ-InnerStrength",
+      "codeName": "InnerStrength",
       "name": {
-        "en": "内在力量",
+        "en": "Inner Strength",
         "zh": "内在力量"
       },
       "description": {
-        "en": "每场战斗开始时，获得[blue]1[/blue]点[gold]力量[/gold]。",
+        "en": "Start each combat with [blue]1[/blue] [gold]Strength[/gold].",
         "zh": "每场战斗开始时，获得[blue]1[/blue]点[gold]力量[/gold]。"
       },
       "rarity": "SPECIAL",
-      "color": "DOWNFALL",
+      "color": "CHAMP",
       "colorName": {
-        "en": "Downfall",
-        "zh": "崩坠"
+        "en": "The Champ",
+        "zh": "第一勇士"
       },
-      "colorPillBg": null,
-      "colorPillFg": null,
-      "energyIcon": null,
+      "energyIcon": "assets/catfall/energy-icons/champ.webp",
       "img": "assets/catfall/relics/champ-inner_strength.webp",
       "imageResource": "",
       "deprecated": false,
       "dynamicValues": {},
-      "upgradeDynamicValues": {},
       "attachedTips": [],
       "attachedCardTips": [],
       "catfall": true
@@ -2334,65 +1939,25 @@
       "id": "CHAMP-POWER_ARMOR",
       "codeName": "PowerArmor",
       "name": {
-        "en": "力量铠甲",
+        "en": "Power Armor",
         "zh": "力量铠甲"
       },
       "description": {
-        "en": "每场战斗开始时，获得[blue]2[/blue]点[gold]力量[/gold]。你的[gold]活力[/gold]和[gold]反击[/gold]上限为[blue]10[/blue]。",
+        "en": "Start each combat with [blue]2[/blue] [gold]Strength[/gold]. Your maximum [gold]Vigor[/gold] and [gold]Counter[/gold] is [blue]10[/blue].",
         "zh": "每场战斗开始时，获得[blue]2[/blue]点[gold]力量[/gold]。你的[gold]活力[/gold]和[gold]反击[/gold]上限为[blue]10[/blue]。"
       },
-      "rarity": "SHOP",
+      "rarity": "BOSS",
       "color": "CHAMP",
       "colorName": {
         "en": "The Champ",
         "zh": "第一勇士"
       },
-      "colorPillBg": null,
-      "colorPillFg": null,
-      "energyIcon": "assets/energy-icons/champ.png",
+      "energyIcon": "assets/catfall/energy-icons/champ.webp",
       "img": "assets/catfall/relics/champ-power_armor.webp",
       "imageResource": "",
       "deprecated": false,
       "dynamicValues": {},
-      "upgradeDynamicValues": {},
-      "attachedTips": [
-        {
-          "id": "POSSESS_STRENGTH_POWER",
-          "name": {
-            "en": "Possess Strength",
-            "zh": "抢夺力量"
-          },
-          "description": {
-            "en": "When killed, return all stolen [gold]Strength[/gold] to the player.",
-            "zh": "被击杀时，将偷窃的所有[gold]力量[/gold]返还给玩家。"
-          },
-          "sourceValueKey": "StrengthPower"
-        },
-        {
-          "id": "VIGOR_POWER",
-          "name": {
-            "en": "Vigor",
-            "zh": "活力"
-          },
-          "description": {
-            "en": "Your next Attack deals additional damage.",
-            "zh": "你的下一张攻击牌伤害增加。"
-          },
-          "sourceValueKey": "VigorPower"
-        },
-        {
-          "id": "CHAMP-COUNTER_POWER",
-          "name": {
-            "en": "Counter",
-            "zh": "反击"
-          },
-          "description": {
-            "en": "The next time you take Attack damage, gain [gold]Riposte Strike[/gold] that deals damage equal to this amount.",
-            "zh": "下次你受到攻击伤害时，获得一张[gold]还击打击[/gold]，其伤害等同于你的反击层数。"
-          },
-          "sourceValueKey": "CounterPower"
-        }
-      ],
+      "attachedTips": [],
       "attachedCardTips": [],
       "catfall": true
     },
@@ -2400,11 +1965,11 @@
       "id": "CHAMP-SIGNATURE_FINISHER",
       "codeName": "SignatureFinisher",
       "name": {
-        "en": "终结者",
+        "en": "Signature Finisher",
         "zh": "终结者"
       },
       "description": {
-        "en": "拾起时，选择一张[gold]终结技[/gold]牌为它[gold]附魔[/gold]：[purple]签名[/purple]。",
+        "en": "Upon pickup, [gold]Enchant[/gold] a [gold]Finisher[/gold] with [purple]Signature[/purple].",
         "zh": "拾起时，选择一张[gold]终结技[/gold]牌为它[gold]附魔[/gold]：[purple]签名[/purple]。"
       },
       "rarity": "RARE",
@@ -2413,28 +1978,12 @@
         "en": "The Champ",
         "zh": "第一勇士"
       },
-      "colorPillBg": null,
-      "colorPillFg": null,
-      "energyIcon": "assets/energy-icons/champ.png",
+      "energyIcon": "assets/catfall/energy-icons/champ.webp",
       "img": "assets/catfall/relics/champ-signature_finisher.webp",
       "imageResource": "",
       "deprecated": false,
       "dynamicValues": {},
-      "upgradeDynamicValues": {},
-      "attachedTips": [
-        {
-          "id": "CHAMP-FINISHER",
-          "name": {
-            "en": "Finisher",
-            "zh": "终结技"
-          },
-          "description": {
-            "en": "Requires a [gold]Stance[/gold].\nAfter playing a Finisher, exit your [gold]Stance[/gold] and trigger its Finisher effect.",
-            "zh": "Requires a [gold]Stance[/gold].\nAfter playing a Finisher, exit your [gold]Stance[/gold] and trigger its Finisher effect."
-          },
-          "sourceValueKey": null
-        }
-      ],
+      "attachedTips": [],
       "attachedCardTips": [],
       "catfall": true
     },
@@ -2442,11 +1991,11 @@
       "id": "CHAMP-SPECTRES_HAND",
       "codeName": "SpectresHand",
       "name": {
-        "en": "幽影之手",
+        "en": "Spectre's Hand",
         "zh": "幽影之手"
       },
       "description": {
-        "en": "每当你进入[gold]姿态[/gold]，获得一张[gold]打击[/gold]或[gold]防御[/gold]的[gold]回响[/gold]。\n它在本回合可以免费打出。",
+        "en": "Whenever you enter a [gold]Stance[/gold], gain an [gold]Echo[/gold] of a [gold]Basic[/gold] [gold]Strike[/gold] or [gold]Defend[/gold].\nIt's free to play this turn.",
         "zh": "每当你进入[gold]姿态[/gold]，获得一张[gold]打击[/gold]或[gold]防御[/gold]的[gold]回响[/gold]。\n它在本回合可以免费打出。"
       },
       "rarity": "RARE",
@@ -2455,28 +2004,12 @@
         "en": "The Champ",
         "zh": "第一勇士"
       },
-      "colorPillBg": null,
-      "colorPillFg": null,
-      "energyIcon": "assets/energy-icons/champ.png",
+      "energyIcon": "assets/catfall/energy-icons/champ.webp",
       "img": "assets/catfall/relics/champ-spectres_hand.webp",
       "imageResource": "",
       "deprecated": false,
       "dynamicValues": {},
-      "upgradeDynamicValues": {},
-      "attachedTips": [
-        {
-          "id": "DOWNFALL-ECHO",
-          "name": {
-            "en": "Echo",
-            "zh": "回响"
-          },
-          "description": {
-            "en": "Echoes are copies of cards with [gold]Ethereal[/gold] and [gold]Exhaust[/gold].\nEchoes cannot be Echoed.",
-            "zh": "回响是具有[gold]虚无[/gold]和[gold]消耗[/gold]的卡牌复制品。\n回响无法被再次回响。"
-          },
-          "sourceValueKey": null
-        }
-      ],
+      "attachedTips": [],
       "attachedCardTips": [],
       "catfall": true
     },
@@ -2484,11 +2017,11 @@
       "id": "CHAMP-VICTORIOUS_CROWN",
       "codeName": "VictoriousCrown",
       "name": {
-        "en": "胜利王冠",
+        "en": "Victorious Crown",
         "zh": "胜利王冠"
       },
       "description": {
-        "en": "每场战斗开始时，进入随机[gold]姿态[/gold]，然后触发该[gold]姿态[/gold]的[gold]技术奖励[/gold]两次。\n每回合你第一次打出[gold]终结技[/gold]时，抽[blue]2[/blue]张牌并进入随机[gold]姿态[/gold]。",
+        "en": "Start each combat in a random [gold]Stance[/gold], and then trigger that [gold]Stance[/gold]'s [gold]Skill Bonus[/gold] twice.\nThe first time you play a [gold]Finisher[/gold] each turn, draw [blue]2[/blue] cards and enter a random [gold]Stance[/gold].",
         "zh": "每场战斗开始时，进入随机[gold]姿态[/gold]，然后触发该[gold]姿态[/gold]的[gold]技术奖励[/gold]两次。\n每回合你第一次打出[gold]终结技[/gold]时，抽[blue]2[/blue]张牌并进入随机[gold]姿态[/gold]。"
       },
       "rarity": "STARTER",
@@ -2497,72 +2030,37 @@
         "en": "The Champ",
         "zh": "第一勇士"
       },
-      "colorPillBg": null,
-      "colorPillFg": null,
-      "energyIcon": "assets/energy-icons/champ.png",
+      "energyIcon": "assets/catfall/energy-icons/champ.webp",
       "img": "assets/catfall/relics/champ-victorious_crown.webp",
       "imageResource": "",
       "deprecated": false,
-      "dynamicValues": {
-        "Cards": 1
-      },
-      "upgradeDynamicValues": {
-        "Cards": 1
-      },
-      "attachedTips": [
-        {
-          "id": "CHAMP-TRIGGER_SKILL_BONUS",
-          "name": {
-            "en": "Skill Bonus",
-            "zh": "技术奖励"
-          },
-          "description": {
-            "en": "The bonus effect triggered by your current [gold]Stance[/gold] when you play a [gold]Skill[/gold].",
-            "zh": "The bonus effect triggered by your current [gold]Stance[/gold] when you play a [gold]Skill[/gold]."
-          },
-          "sourceValueKey": null
-        },
-        {
-          "id": "CHAMP-FINISHER",
-          "name": {
-            "en": "Finisher",
-            "zh": "终结技"
-          },
-          "description": {
-            "en": "Requires a [gold]Stance[/gold].\nAfter playing a Finisher, exit your [gold]Stance[/gold] and trigger its Finisher effect.",
-            "zh": "Requires a [gold]Stance[/gold].\nAfter playing a Finisher, exit your [gold]Stance[/gold] and trigger its Finisher effect."
-          },
-          "sourceValueKey": null
-        }
-      ],
+      "dynamicValues": {},
+      "attachedTips": [],
       "attachedCardTips": [],
       "catfall": true
     },
     {
       "id": "GREMLINS-FRAGMENTATION_GRENADE",
-      "codeName": "Gremlins-FragmentationGrenade",
+      "codeName": "FragmentationGrenade",
       "name": {
-        "en": "破片手雷",
+        "en": "Fragmentation Grenade",
         "zh": "破片手雷"
       },
       "description": {
-        "en": "",
+        "en": "Damage dealt to random enemies is increased by 3.",
         "zh": ""
       },
       "rarity": "SPECIAL",
-      "color": "DOWNFALL",
+      "color": "GREMLIN",
       "colorName": {
-        "en": "Downfall",
-        "zh": "崩坠"
+        "en": "The Gremlins",
+        "zh": "地精小队"
       },
-      "colorPillBg": null,
-      "colorPillFg": null,
-      "energyIcon": null,
+      "energyIcon": "assets/catfall/energy-icons/gremlin.webp",
       "img": "assets/catfall/relics/gremlins-fragmentation_grenade.webp",
       "imageResource": "",
       "deprecated": false,
       "dynamicValues": {},
-      "upgradeDynamicValues": {},
       "attachedTips": [],
       "attachedCardTips": [],
       "catfall": true
@@ -2571,11 +2069,11 @@
       "id": "GREMLINS-GREMLIN_BOMB",
       "codeName": "GremlinBomb",
       "name": {
-        "en": "地精炸弹",
+        "en": "Gremlin Bomb",
         "zh": "地精炸弹"
       },
       "description": {
-        "en": "",
+        "en": "Whenever a Gremlin dies, deal [blue]{Damage}[/blue] damage to ALL enemies.",
         "zh": ""
       },
       "rarity": "RARE",
@@ -2584,16 +2082,11 @@
         "en": "The Gremlins",
         "zh": "地精小队"
       },
-      "colorPillBg": null,
-      "colorPillFg": null,
-      "energyIcon": "assets/energy-icons/gremlin.png",
+      "energyIcon": "assets/catfall/energy-icons/gremlin.webp",
       "img": "assets/catfall/relics/gremlins-gremlin_bomb.webp",
       "imageResource": "",
       "deprecated": false,
       "dynamicValues": {
-        "Damage": 30
-      },
-      "upgradeDynamicValues": {
         "Damage": 30
       },
       "attachedTips": [],
@@ -2602,29 +2095,26 @@
     },
     {
       "id": "GREMLINS-GREMLIN_GRAVESTONE",
-      "codeName": "Gremlins-GremlinGravestone",
+      "codeName": "GremlinGravestone",
       "name": {
-        "en": "地精墓碑",
+        "en": "Gremlin Gravestone",
         "zh": "地精墓碑"
       },
       "description": {
-        "en": "",
+        "en": "Dead Gremlins can be Resurrected at Rest Sites as a Free Action.",
         "zh": ""
       },
       "rarity": "SPECIAL",
-      "color": "DOWNFALL",
+      "color": "GREMLIN",
       "colorName": {
-        "en": "Downfall",
-        "zh": "崩坠"
+        "en": "The Gremlins",
+        "zh": "地精小队"
       },
-      "colorPillBg": null,
-      "colorPillFg": null,
-      "energyIcon": null,
+      "energyIcon": "assets/catfall/energy-icons/gremlin.webp",
       "img": "assets/catfall/relics/gremlins-gremlin_gravestone.webp",
       "imageResource": "",
       "deprecated": false,
       "dynamicValues": {},
-      "upgradeDynamicValues": {},
       "attachedTips": [],
       "attachedCardTips": [],
       "catfall": true
@@ -2633,11 +2123,11 @@
       "id": "GREMLINS-GREMLIN_LEADERS_VOUCHER",
       "codeName": "GremlinLeadersVoucher",
       "name": {
-        "en": "领头代付",
+        "en": "Gremlin Leader's Voucher",
         "zh": "领头代付"
       },
       "description": {
-        "en": "",
+        "en": "Gain {Energy:energyIcons()} at the start of your turn.\nUpon pickup, permanently lose a Gremlin.",
         "zh": ""
       },
       "rarity": "ANCIENT",
@@ -2646,16 +2136,11 @@
         "en": "The Gremlins",
         "zh": "地精小队"
       },
-      "colorPillBg": null,
-      "colorPillFg": null,
-      "energyIcon": "assets/energy-icons/gremlin.png",
+      "energyIcon": "assets/catfall/energy-icons/gremlin.webp",
       "img": "assets/catfall/relics/gremlins-gremlin_leaders_voucher.webp",
       "imageResource": "",
       "deprecated": false,
       "dynamicValues": {
-        "Energy": 1
-      },
-      "upgradeDynamicValues": {
         "Energy": 1
       },
       "attachedTips": [],
@@ -2666,11 +2151,11 @@
       "id": "GREMLINS-IMPECCABLE_PECS",
       "codeName": "ImpeccablePecs",
       "name": {
-        "en": "完美胸肌",
+        "en": "Impeccable Pecs",
         "zh": "完美胸肌"
       },
       "description": {
-        "en": "",
+        "en": "Whenever you gain [gold]Strength[/gold], gain an equal amount of [gold]Temporary HP[/gold].\nStart each combat with 1 [gold]Strength[/gold].",
         "zh": ""
       },
       "rarity": "UNCOMMON",
@@ -2679,32 +2164,14 @@
         "en": "The Gremlins",
         "zh": "地精小队"
       },
-      "colorPillBg": null,
-      "colorPillFg": null,
-      "energyIcon": "assets/energy-icons/gremlin.png",
+      "energyIcon": "assets/catfall/energy-icons/gremlin.webp",
       "img": "assets/catfall/relics/gremlins-impeccable_pecs.webp",
       "imageResource": "",
       "deprecated": false,
       "dynamicValues": {
         "StrengthPower": 1
       },
-      "upgradeDynamicValues": {
-        "StrengthPower": 1
-      },
-      "attachedTips": [
-        {
-          "id": "POSSESS_STRENGTH_POWER",
-          "name": {
-            "en": "Possess Strength",
-            "zh": "抢夺力量"
-          },
-          "description": {
-            "en": "When killed, return all stolen [gold]Strength[/gold] to the player.",
-            "zh": "被击杀时，将偷窃的所有[gold]力量[/gold]返还给玩家。"
-          },
-          "sourceValueKey": "StrengthPower"
-        }
-      ],
+      "attachedTips": [],
       "attachedCardTips": [],
       "catfall": true
     },
@@ -2712,11 +2179,11 @@
       "id": "GREMLINS-MAGIC_MALLET",
       "codeName": "MagicMallet",
       "name": {
-        "en": "魔槌",
+        "en": "Magic Mallet",
         "zh": "魔槌"
       },
       "description": {
-        "en": "",
+        "en": "Whenever you apply [gold]Weak[/gold], gain [blue]{WizPower}[/blue] [gold]Wiz[/gold], up to 3 times per turn.",
         "zh": ""
       },
       "rarity": "UNCOMMON",
@@ -2725,9 +2192,7 @@
         "en": "The Gremlins",
         "zh": "地精小队"
       },
-      "colorPillBg": null,
-      "colorPillFg": null,
-      "energyIcon": "assets/energy-icons/gremlin.png",
+      "energyIcon": "assets/catfall/energy-icons/gremlin.webp",
       "img": "assets/catfall/relics/gremlins-magic_mallet.webp",
       "imageResource": "",
       "deprecated": false,
@@ -2737,25 +2202,7 @@
         "MaxUsesBase": 3,
         "MaxUsesExtra": 1
       },
-      "upgradeDynamicValues": {
-        "MaxUses": 3,
-        "WizPower": 1,
-        "MaxUsesBase": 3,
-        "MaxUsesExtra": 1
-      },
       "attachedTips": [
-        {
-          "id": "WEAK_POWER",
-          "name": {
-            "en": "Weak",
-            "zh": "虚弱"
-          },
-          "description": {
-            "en": "Weakened creatures deal [blue]25%[/blue] less damage with Attacks.",
-            "zh": "虚弱的生物造成的攻击伤害减少[blue]25%[/blue]。"
-          },
-          "sourceValueKey": "WeakPower"
-        },
         {
           "id": "GREMLINS-WIZ_POWER",
           "name": {
@@ -2766,7 +2213,9 @@
             "en": "When you have at least [blue]3[/blue] [gold]Wiz[/gold], your next Attack deals [blue]7[/blue] additional damage. ",
             "zh": "当你拥有至少[blue]3[/blue]点[gold]法力[/gold]时，你的下一次攻击造成[blue]7[/blue]点额外伤害。"
           },
-          "sourceValueKey": "WizPower"
+          "dynamicValues": {},
+          "sourceValueKey": "WizPower",
+          "icon": null
         }
       ],
       "attachedCardTips": [],
@@ -2776,11 +2225,11 @@
       "id": "GREMLINS-MOB_LEADERS_CROWN",
       "codeName": "MobLeadersCrown",
       "name": {
-        "en": "首领之冠",
+        "en": "Mob Leader's Crown",
         "zh": "首领之冠"
       },
       "description": {
-        "en": "",
+        "en": "The first time you shuffle your [gold]Draw Pile[/gold] each turn, gain {Energy:energyIcons()}, draw [blue]{Cards}[/blue] card, and [gold]Swap[/gold] to the next Gremlin.",
         "zh": ""
       },
       "rarity": "STARTER",
@@ -2789,17 +2238,11 @@
         "en": "The Gremlins",
         "zh": "地精小队"
       },
-      "colorPillBg": null,
-      "colorPillFg": null,
-      "energyIcon": "assets/energy-icons/gremlin.png",
+      "energyIcon": "assets/catfall/energy-icons/gremlin.webp",
       "img": "assets/catfall/relics/gremlins-mob_leaders_crown.webp",
       "imageResource": "",
       "deprecated": false,
       "dynamicValues": {
-        "Energy": 1,
-        "Cards": 1
-      },
-      "upgradeDynamicValues": {
         "Energy": 1,
         "Cards": 1
       },
@@ -2811,11 +2254,11 @@
       "id": "GREMLINS-MOB_LEADERS_STAFF",
       "codeName": "MobLeadersStaff",
       "name": {
-        "en": "首领之角",
+        "en": "Mob Leader's Staff",
         "zh": "首领之角"
       },
       "description": {
-        "en": "",
+        "en": "At the start of each combat, gain {Energy:energyIcons()}, draw [blue]{Cards}[/blue] {Cards:plural:card|cards}, and [gold]Swap[/gold] to the next Gremlin.",
         "zh": ""
       },
       "rarity": "STARTER",
@@ -2824,17 +2267,11 @@
         "en": "The Gremlins",
         "zh": "地精小队"
       },
-      "colorPillBg": null,
-      "colorPillFg": null,
-      "energyIcon": "assets/energy-icons/gremlin.png",
+      "energyIcon": "assets/catfall/energy-icons/gremlin.webp",
       "img": "assets/catfall/relics/gremlins-mob_leaders_staff.webp",
       "imageResource": "",
       "deprecated": false,
       "dynamicValues": {
-        "Energy": 1,
-        "Cards": 1
-      },
-      "upgradeDynamicValues": {
         "Energy": 1,
         "Cards": 1
       },
@@ -2844,58 +2281,52 @@
     },
     {
       "id": "GREMLINS-SHORT_STATUE",
-      "codeName": "Gremlins-ShortStatue",
+      "codeName": "ShortStatue",
       "name": {
-        "en": "小个子雕像",
+        "en": "Short Statue",
         "zh": "小个子雕像"
       },
       "description": {
-        "en": "",
+        "en": "The first time a Gremlin would die each combat, heal it to 75% of your Max HP instead.",
         "zh": ""
       },
       "rarity": "SPECIAL",
-      "color": "DOWNFALL",
+      "color": "GREMLIN",
       "colorName": {
-        "en": "Downfall",
-        "zh": "崩坠"
+        "en": "The Gremlins",
+        "zh": "地精小队"
       },
-      "colorPillBg": null,
-      "colorPillFg": null,
-      "energyIcon": null,
+      "energyIcon": "assets/catfall/energy-icons/gremlin.webp",
       "img": "assets/catfall/relics/gremlins-short_statue.webp",
       "imageResource": "",
       "deprecated": false,
       "dynamicValues": {},
-      "upgradeDynamicValues": {},
       "attachedTips": [],
       "attachedCardTips": [],
       "catfall": true
     },
     {
       "id": "GREMLINS-STOLEN_MERCHANDISE",
-      "codeName": "Gremlins-StolenMerchandise",
+      "codeName": "StolenMerchandise",
       "name": {
-        "en": "被盗商品",
+        "en": "Stolen MercHandise",
         "zh": "被盗商品"
       },
       "description": {
-        "en": "",
+        "en": "Whenever you Swap, gain an Echo of a random Colorless card. At the start of combat, the Merchant gains 2 Strength.",
         "zh": ""
       },
       "rarity": "SPECIAL",
-      "color": "DOWNFALL",
+      "color": "GREMLIN",
       "colorName": {
-        "en": "Downfall",
-        "zh": "崩坠"
+        "en": "The Gremlins",
+        "zh": "地精小队"
       },
-      "colorPillBg": null,
-      "colorPillFg": null,
-      "energyIcon": null,
+      "energyIcon": "assets/catfall/energy-icons/gremlin.webp",
       "img": "assets/catfall/relics/gremlins-stolen_merchandise.webp",
       "imageResource": "",
       "deprecated": false,
       "dynamicValues": {},
-      "upgradeDynamicValues": {},
       "attachedTips": [],
       "attachedCardTips": [],
       "catfall": true
@@ -2904,11 +2335,11 @@
       "id": "GREMLINS-TAG_TEAMWORK",
       "codeName": "TagTeamwork",
       "name": {
-        "en": "团队协作",
+        "en": "Tag Teamwork",
         "zh": "团队协作"
       },
       "description": {
-        "en": "",
+        "en": "Whenever you draw [gold]Tag Team[/gold], draw another card.\nUpon pickup, add two copies of [gold]Tag Team[/gold] to your [gold]Deck[/gold]. ",
         "zh": ""
       },
       "rarity": "SHOP",
@@ -2917,32 +2348,24 @@
         "en": "The Gremlins",
         "zh": "地精小队"
       },
-      "colorPillBg": null,
-      "colorPillFg": null,
-      "energyIcon": "assets/energy-icons/gremlin.png",
+      "energyIcon": "assets/catfall/energy-icons/gremlin.webp",
       "img": "assets/catfall/relics/gremlins-tag_teamwork.webp",
       "imageResource": "",
       "deprecated": false,
       "dynamicValues": {},
-      "upgradeDynamicValues": {},
       "attachedTips": [],
-      "attachedCardTips": [
-        {
-          "id": "GREMLINS-TAG_TEAM",
-          "upgraded": false
-        }
-      ],
+      "attachedCardTips": [],
       "catfall": true
     },
     {
       "id": "GREMLINS-WIZARD_HAT",
       "codeName": "WizardHat",
       "name": {
-        "en": "巫师帽",
+        "en": "Wizard Hat",
         "zh": "巫师帽"
       },
       "description": {
-        "en": "",
+        "en": "Whenever you consume [gold]Wiz[/gold], remove a debuff at random.",
         "zh": ""
       },
       "rarity": "UNCOMMON",
@@ -2951,14 +2374,11 @@
         "en": "The Gremlins",
         "zh": "地精小队"
       },
-      "colorPillBg": null,
-      "colorPillFg": null,
-      "energyIcon": "assets/energy-icons/gremlin.png",
+      "energyIcon": "assets/catfall/energy-icons/gremlin.webp",
       "img": "assets/catfall/relics/gremlins-wizard_hat.webp",
       "imageResource": "",
       "deprecated": false,
       "dynamicValues": {},
-      "upgradeDynamicValues": {},
       "attachedTips": [
         {
           "id": "GREMLINS-WIZ_POWER",
@@ -2970,7 +2390,9 @@
             "en": "When you have at least [blue]3[/blue] [gold]Wiz[/gold], your next Attack deals [blue]7[/blue] additional damage. ",
             "zh": "当你拥有至少[blue]3[/blue]点[gold]法力[/gold]时，你的下一次攻击造成[blue]7[/blue]点额外伤害。"
           },
-          "sourceValueKey": "WizPower"
+          "dynamicValues": {},
+          "sourceValueKey": null,
+          "icon": null
         }
       ],
       "attachedCardTips": [],
@@ -2980,11 +2402,11 @@
       "id": "GREMLINS-WIZARD_STAFF",
       "codeName": "WizardStaff",
       "name": {
-        "en": "法师杖",
+        "en": "Wizard Staff",
         "zh": "法师杖"
       },
       "description": {
-        "en": "",
+        "en": "[gold]Wiz[/gold] deals [blue]{Damage}[/blue] additional damage.",
         "zh": ""
       },
       "rarity": "RARE",
@@ -2993,16 +2415,11 @@
         "en": "The Gremlins",
         "zh": "地精小队"
       },
-      "colorPillBg": null,
-      "colorPillFg": null,
-      "energyIcon": "assets/energy-icons/gremlin.png",
+      "energyIcon": "assets/catfall/energy-icons/gremlin.webp",
       "img": "assets/catfall/relics/gremlins-wizard_staff.webp",
       "imageResource": "",
       "deprecated": false,
       "dynamicValues": {
-        "Damage": 7
-      },
-      "upgradeDynamicValues": {
         "Damage": 7
       },
       "attachedTips": [
@@ -3016,7 +2433,9 @@
             "en": "When you have at least [blue]3[/blue] [gold]Wiz[/gold], your next Attack deals [blue]7[/blue] additional damage. ",
             "zh": "当你拥有至少[blue]3[/blue]点[gold]法力[/gold]时，你的下一次攻击造成[blue]7[/blue]点额外伤害。"
           },
-          "sourceValueKey": "WizPower"
+          "dynamicValues": {},
+          "sourceValueKey": null,
+          "icon": null
         }
       ],
       "attachedCardTips": [],
@@ -3026,11 +2445,11 @@
       "id": "GREMLINS-WOUND_POKER",
       "codeName": "WoundPoker",
       "name": {
-        "en": "烧火棍",
+        "en": "Wound Poker",
         "zh": "烧火棍"
       },
       "description": {
-        "en": "",
+        "en": "At the end of each turn, deal [blue]{Damage}[/blue] damage to each [gold]Weakened[/gold] enemy.",
         "zh": ""
       },
       "rarity": "COMMON",
@@ -3039,32 +2458,14 @@
         "en": "The Gremlins",
         "zh": "地精小队"
       },
-      "colorPillBg": null,
-      "colorPillFg": null,
-      "energyIcon": "assets/energy-icons/gremlin.png",
+      "energyIcon": "assets/catfall/energy-icons/gremlin.webp",
       "img": "assets/catfall/relics/gremlins-wound_poker.webp",
       "imageResource": "",
       "deprecated": false,
       "dynamicValues": {
         "Damage": 4
       },
-      "upgradeDynamicValues": {
-        "Damage": 4
-      },
-      "attachedTips": [
-        {
-          "id": "WEAK_POWER",
-          "name": {
-            "en": "Weak",
-            "zh": "虚弱"
-          },
-          "description": {
-            "en": "Weakened creatures deal [blue]25%[/blue] less damage with Attacks.",
-            "zh": "虚弱的生物造成的攻击伤害减少[blue]25%[/blue]。"
-          },
-          "sourceValueKey": "WeakPower"
-        }
-      ],
+      "attachedTips": [],
       "attachedCardTips": [],
       "catfall": true
     },
@@ -3072,11 +2473,11 @@
       "id": "HERMIT-BLACK_POWDER",
       "codeName": "BlackPowder",
       "name": {
-        "en": "黑火药",
+        "en": "Black Powder",
         "zh": "黑火药"
       },
       "description": {
-        "en": "每当你触发[gold]精准[/gold]效果时，对所有敌人造成[blue]{Damage}[/blue]点伤害。",
+        "en": "Whenever you trigger a [gold]Dead On[/gold] effect, deal [blue]{Damage}[/blue] damage to ALL enemies.",
         "zh": "每当你触发[gold]精准[/gold]效果时，对所有敌人造成[blue]{Damage}[/blue]点伤害。"
       },
       "rarity": "COMMON",
@@ -3085,32 +2486,14 @@
         "en": "The Hermit",
         "zh": "亡命之徒"
       },
-      "colorPillBg": null,
-      "colorPillFg": null,
-      "energyIcon": "assets/energy-icons/hermit.png",
+      "energyIcon": "assets/catfall/energy-icons/hermit.webp",
       "img": "assets/catfall/relics/hermit-black_powder.webp",
       "imageResource": "",
       "deprecated": false,
       "dynamicValues": {
         "Damage": 2
       },
-      "upgradeDynamicValues": {
-        "Damage": 2
-      },
-      "attachedTips": [
-        {
-          "id": "HERMIT-DEAD_ON",
-          "name": {
-            "en": "Dead On",
-            "zh": "精准"
-          },
-          "description": {
-            "en": "Dead On cards have a bonus effect when in the middle of your Hand.",
-            "zh": "精准牌位于[gold]手牌[/gold]中央打出时会触发额外效果。"
-          },
-          "sourceValueKey": null
-        }
-      ],
+      "attachedTips": [],
       "attachedCardTips": [],
       "catfall": true
     },
@@ -3118,11 +2501,11 @@
       "id": "HERMIT-BRASS_TACKS",
       "codeName": "BrassTacks",
       "name": {
-        "en": "黄铜图钉",
+        "en": "Brass Tacks",
         "zh": "黄铜图钉"
       },
       "description": {
-        "en": "在你的回合结束时，获得[blue]{Block}[/blue]点[gold]格挡[/gold]。",
+        "en": "At the end of your turn, gain [blue]{Block}[/blue] [gold]Block[/gold].",
         "zh": "在你的回合结束时，获得[blue]{Block}[/blue]点[gold]格挡[/gold]。"
       },
       "rarity": "COMMON",
@@ -3131,18 +2514,11 @@
         "en": "The Hermit",
         "zh": "亡命之徒"
       },
-      "colorPillBg": null,
-      "colorPillFg": null,
-      "energyIcon": "assets/energy-icons/hermit.png",
+      "energyIcon": "assets/catfall/energy-icons/hermit.webp",
       "img": "assets/catfall/relics/hermit-brass_tacks.webp",
       "imageResource": "",
       "deprecated": false,
-      "dynamicValues": {
-        "Block": 2
-      },
-      "upgradeDynamicValues": {
-        "Block": 2
-      },
+      "dynamicValues": {},
       "attachedTips": [],
       "attachedCardTips": [],
       "catfall": true
@@ -3151,11 +2527,11 @@
       "id": "HERMIT-BROKEN_TOOTH",
       "codeName": "BrokenTooth",
       "name": {
-        "en": "兽牙战利品",
+        "en": "Broken Tooth",
         "zh": "兽牙战利品"
       },
       "description": {
-        "en": "每当你击败精英敌人时，回复[blue]{Heal}[/blue]点生命并获得[blue]{Gold}[/blue]金币。",
+        "en": "Whenever you defeat an Elite encounter, heal [blue]{Heal}[/blue] HP and gain [blue]{Gold}[/blue] gold.",
         "zh": "每当你击败精英敌人时，回复[blue]{Heal}[/blue]点生命并获得[blue]{Gold}[/blue]金币。"
       },
       "rarity": "RARE",
@@ -3164,20 +2540,11 @@
         "en": "The Hermit",
         "zh": "亡命之徒"
       },
-      "colorPillBg": null,
-      "colorPillFg": null,
-      "energyIcon": "assets/energy-icons/hermit.png",
+      "energyIcon": "assets/catfall/energy-icons/hermit.webp",
       "img": "assets/catfall/relics/hermit-broken_tooth.webp",
       "imageResource": "",
       "deprecated": false,
-      "dynamicValues": {
-        "Heal": 7,
-        "Gold": 35
-      },
-      "upgradeDynamicValues": {
-        "Heal": 7,
-        "Gold": 35
-      },
+      "dynamicValues": {},
       "attachedTips": [],
       "attachedCardTips": [],
       "catfall": true
@@ -3186,45 +2553,25 @@
       "id": "HERMIT-CHARRED_GLOVE",
       "codeName": "CharredGlove",
       "name": {
-        "en": "烧焦手套",
+        "en": "Charred Glove",
         "zh": "烧焦手套"
       },
       "description": {
-        "en": "每当你抽到[red]诅咒[/red]时，获得[blue]{VigorPower}[/blue]点[gold]活力[/gold]。",
+        "en": "Whenever you draw or create a [red]Curse[/red], gain [blue]{VigorPower}[/blue] [gold]Vigor[/gold].",
         "zh": "每当你抽到[red]诅咒[/red]时，获得[blue]{VigorPower}[/blue]点[gold]活力[/gold]。"
       },
-      "rarity": "UNCOMMON",
+      "rarity": "RARE",
       "color": "HERMIT",
       "colorName": {
         "en": "The Hermit",
         "zh": "亡命之徒"
       },
-      "colorPillBg": null,
-      "colorPillFg": null,
-      "energyIcon": "assets/energy-icons/hermit.png",
+      "energyIcon": "assets/catfall/energy-icons/hermit.webp",
       "img": "assets/catfall/relics/hermit-charred_glove.webp",
       "imageResource": "",
       "deprecated": false,
-      "dynamicValues": {
-        "VigorPower": 3
-      },
-      "upgradeDynamicValues": {
-        "VigorPower": 3
-      },
-      "attachedTips": [
-        {
-          "id": "VIGOR_POWER",
-          "name": {
-            "en": "Vigor",
-            "zh": "活力"
-          },
-          "description": {
-            "en": "Your next Attack deals additional damage.",
-            "zh": "你的下一张攻击牌伤害增加。"
-          },
-          "sourceValueKey": "VigorPower"
-        }
-      ],
+      "dynamicValues": {},
+      "attachedTips": [],
       "attachedCardTips": [],
       "catfall": true
     },
@@ -3232,11 +2579,11 @@
       "id": "HERMIT-CLASPED_LOCKET",
       "codeName": "ClaspedLocket",
       "name": {
-        "en": "被锁死的小盒",
+        "en": "Clasped Locket",
         "zh": "被锁死的小盒"
       },
       "description": {
-        "en": "在每场战斗开始时，将一张[gold]纪念品[/gold]加入你的[gold]手牌[/gold]。每回合你首次抽到[red]诅咒[/red]时，将其[gold]消耗[/gold]并抽[blue]{Cards}[/blue]张牌。\n拾起时，获得[blue]{Curses}[/blue]张[red]伤口[/red]。",
+        "en": "At the start of each combat, add a [gold]Memento[/gold] into your [gold]Hand[/gold].The first time you draw a [red]Curse[/red] each turn, [gold]Exhaust[/gold] it and draw [blue]{Cards}[/blue] cards.\nUpon pickup, obtain [blue]{Curses}[/blue] [red]Injuries[/red].",
         "zh": "在每场战斗开始时，将一张[gold]纪念品[/gold]加入你的[gold]手牌[/gold]。每回合你首次抽到[red]诅咒[/red]时，将其[gold]消耗[/gold]并抽[blue]{Cards}[/blue]张牌。\n拾起时，获得[blue]{Curses}[/blue]张[red]伤口[/red]。"
       },
       "rarity": "STARTER",
@@ -3245,23 +2592,12 @@
         "en": "The Hermit",
         "zh": "亡命之徒"
       },
-      "colorPillBg": null,
-      "colorPillFg": null,
-      "energyIcon": "assets/energy-icons/hermit.png",
+      "energyIcon": "assets/catfall/energy-icons/hermit.webp",
       "img": "assets/catfall/relics/hermit-clasped_locket.webp",
       "imageResource": "",
       "deprecated": false,
       "dynamicValues": {
-        "Curses": 2,
-        "Cards": 3,
-        "CursesBase": 2,
-        "CursesExtra": 1
-      },
-      "upgradeDynamicValues": {
-        "Curses": 2,
-        "Cards": 3,
-        "CursesBase": 2,
-        "CursesExtra": 1
+        "Cards": 2
       },
       "attachedTips": [],
       "attachedCardTips": [],
@@ -3271,11 +2607,11 @@
       "id": "HERMIT-DENTED_PLATE",
       "codeName": "DentedPlate",
       "name": {
-        "en": "凹陷铁盘",
+        "en": "Dented Plate",
         "zh": "凹陷铁盘"
       },
       "description": {
-        "en": "当你的生命值不高于[blue]50%[/blue]时，在你的回合开始时获得{energyPrefix:energyIcons(1)}并抽[blue]{Cards}[/blue]张牌。",
+        "en": "While your HP is at or below [blue]50%[/blue], gain {Energy:energyIcons()} and draw [blue]{Cards}[/blue] card at the start of your turn.",
         "zh": "当你的生命值不高于[blue]50%[/blue]时，在你的回合开始时获得{energyPrefix:energyIcons(1)}并抽[blue]{Cards}[/blue]张牌。"
       },
       "rarity": "RARE",
@@ -3284,49 +2620,37 @@
         "en": "The Hermit",
         "zh": "亡命之徒"
       },
-      "colorPillBg": null,
-      "colorPillFg": null,
-      "energyIcon": "assets/energy-icons/hermit.png",
+      "energyIcon": "assets/catfall/energy-icons/hermit.webp",
       "img": "assets/catfall/relics/hermit-dented_plate.webp",
       "imageResource": "",
       "deprecated": false,
-      "dynamicValues": {
-        "Energy": 1,
-        "Cards": 1
-      },
-      "upgradeDynamicValues": {
-        "Energy": 1,
-        "Cards": 1
-      },
+      "dynamicValues": {},
       "attachedTips": [],
       "attachedCardTips": [],
       "catfall": true
     },
     {
       "id": "HERMIT-HORSESHOE",
-      "codeName": "Hermit-Horseshoe",
+      "codeName": "Horseshoe",
       "name": {
-        "en": "马蹄铁",
+        "en": "Horseshoe",
         "zh": "马蹄铁"
       },
       "description": {
-        "en": "每当你获得[gold]虚弱[/gold]、[gold]脆弱[/gold]或[gold]易伤[/gold]时，获得的层数减[blue]1[/blue]。",
+        "en": "Whenever you gain [gold]Weak[/gold], [gold]Frail[/gold] or [gold]Vulnerable[/gold], gain [blue]1[/blue] less.",
         "zh": "每当你获得[gold]虚弱[/gold]、[gold]脆弱[/gold]或[gold]易伤[/gold]时，获得的层数减[blue]1[/blue]。"
       },
-      "rarity": "SPECIAL",
-      "color": "DOWNFALL",
+      "rarity": "COMMON",
+      "color": "HERMIT",
       "colorName": {
-        "en": "Downfall",
-        "zh": "崩坠"
+        "en": "The Hermit",
+        "zh": "亡命之徒"
       },
-      "colorPillBg": null,
-      "colorPillFg": null,
-      "energyIcon": null,
+      "energyIcon": "assets/catfall/energy-icons/hermit.webp",
       "img": "assets/catfall/relics/hermit-horseshoe.webp",
       "imageResource": "",
       "deprecated": false,
       "dynamicValues": {},
-      "upgradeDynamicValues": {},
       "attachedTips": [],
       "attachedCardTips": [],
       "catfall": true
@@ -3335,11 +2659,11 @@
       "id": "HERMIT-OLD_LOCKET",
       "codeName": "OldLocket",
       "name": {
-        "en": "老旧小盒",
+        "en": "Old Locket",
         "zh": "老旧小盒"
       },
       "description": {
-        "en": "在每场战斗开始时，将一张[gold]纪念品[/gold]加入你的[gold]手牌[/gold]。",
+        "en": "At the start of each combat, add a [gold]Memento[/gold] into your [gold]Hand[/gold].",
         "zh": "在每场战斗开始时，将一张[gold]纪念品[/gold]加入你的[gold]手牌[/gold]。"
       },
       "rarity": "STARTER",
@@ -3348,48 +2672,43 @@
         "en": "The Hermit",
         "zh": "亡命之徒"
       },
-      "colorPillBg": null,
-      "colorPillFg": null,
-      "energyIcon": "assets/energy-icons/hermit.png",
+      "energyIcon": "assets/catfall/energy-icons/hermit.webp",
       "img": "assets/catfall/relics/hermit-old_locket.webp",
       "imageResource": "",
       "deprecated": false,
       "dynamicValues": {},
-      "upgradeDynamicValues": {},
       "attachedTips": [],
       "attachedCardTips": [
         {
           "id": "HERMIT-MEMENTO_CARD",
-          "upgraded": false
+          "upgraded": false,
+          "upgradeWithParent": false
         }
       ],
       "catfall": true
     },
     {
       "id": "HERMIT-PET_GHOST",
-      "codeName": "Hermit-PetGhost",
+      "codeName": "PetGhost",
       "name": {
-        "en": "宠物幽灵",
+        "en": "Pet Ghost",
         "zh": "宠物幽灵"
       },
       "description": {
-        "en": "每场战斗阻止你受到的第一次致命伤害。",
+        "en": "Prevent your first lethal HP loss each combat.",
         "zh": "每场战斗阻止你受到的第一次致命伤害。"
       },
-      "rarity": "SPECIAL",
-      "color": "DOWNFALL",
+      "rarity": "RARE",
+      "color": "HERMIT",
       "colorName": {
-        "en": "Downfall",
-        "zh": "崩坠"
+        "en": "The Hermit",
+        "zh": "亡命之徒"
       },
-      "colorPillBg": null,
-      "colorPillFg": null,
-      "energyIcon": null,
+      "energyIcon": "assets/catfall/energy-icons/hermit.webp",
       "img": "assets/catfall/relics/hermit-pet_ghost.webp",
       "imageResource": "",
       "deprecated": false,
       "dynamicValues": {},
-      "upgradeDynamicValues": {},
       "attachedTips": [],
       "attachedCardTips": [],
       "catfall": true
@@ -3398,11 +2717,11 @@
       "id": "HERMIT-RED_SCARF",
       "codeName": "RedScarf",
       "name": {
-        "en": "红围巾",
+        "en": "Red Scarf",
         "zh": "红围巾"
       },
       "description": {
-        "en": "每当你给予敌人一种新的负面状态时，获得[blue]{Block}[/blue]点[gold]格挡[/gold]。",
+        "en": "Whenever you apply a new debuff to an enemy, gain [blue]{Block}[/blue] [gold]Block[/gold].",
         "zh": "每当你给予敌人一种新的负面状态时，获得[blue]{Block}[/blue]点[gold]格挡[/gold]。"
       },
       "rarity": "RARE",
@@ -3411,18 +2730,11 @@
         "en": "The Hermit",
         "zh": "亡命之徒"
       },
-      "colorPillBg": null,
-      "colorPillFg": null,
-      "energyIcon": "assets/energy-icons/hermit.png",
+      "energyIcon": "assets/catfall/energy-icons/hermit.webp",
       "img": "assets/catfall/relics/hermit-red_scarf.webp",
       "imageResource": "",
       "deprecated": false,
-      "dynamicValues": {
-        "Block": 3
-      },
-      "upgradeDynamicValues": {
-        "Block": 3
-      },
+      "dynamicValues": {},
       "attachedTips": [],
       "attachedCardTips": [],
       "catfall": true
@@ -3431,11 +2743,11 @@
       "id": "HERMIT-RYE_STALK",
       "codeName": "RyeStalk",
       "name": {
-        "en": "黑麦茎",
+        "en": "Rye Stalk",
         "zh": "黑麦茎"
       },
       "description": {
-        "en": "在第[blue]{Turn}[/blue]回合开始时，获得[blue]{RuggedPower:diff()}[/blue]层[gold]坚固[/gold]。",
+        "en": "At the start of turn [blue]{Turn}[/blue], gain [blue]{RuggedPower:diff()}[/blue] [gold]Rugged[/gold].",
         "zh": "在第[blue]{Turn}[/blue]回合开始时，获得[blue]{RuggedPower:diff()}[/blue]层[gold]坚固[/gold]。"
       },
       "rarity": "RARE",
@@ -3444,24 +2756,11 @@
         "en": "The Hermit",
         "zh": "亡命之徒"
       },
-      "colorPillBg": null,
-      "colorPillFg": null,
-      "energyIcon": "assets/energy-icons/hermit.png",
+      "energyIcon": "assets/catfall/energy-icons/hermit.webp",
       "img": "assets/catfall/relics/hermit-rye_stalk.webp",
       "imageResource": "",
       "deprecated": false,
-      "dynamicValues": {
-        "Turn": 4,
-        "RuggedPower": 1,
-        "TurnBase": 4,
-        "TurnExtra": 1
-      },
-      "upgradeDynamicValues": {
-        "Turn": 4,
-        "RuggedPower": 1,
-        "TurnBase": 4,
-        "TurnExtra": 1
-      },
+      "dynamicValues": {},
       "attachedTips": [
         {
           "id": "HERMIT-RUGGED_POWER",
@@ -3473,7 +2772,9 @@
             "en": "When you would take unblocked attack damage, reduce it to [blue]2[/blue].",
             "zh": "下一次你受到未被格挡的攻击伤害时，将其降低至[blue]2[/blue]点。"
           },
-          "sourceValueKey": "RuggedPower"
+          "dynamicValues": {},
+          "sourceValueKey": null,
+          "icon": null
         }
       ],
       "attachedCardTips": [],
@@ -3483,35 +2784,24 @@
       "id": "HERMIT-SHOTGLASS",
       "codeName": "Shotglass",
       "name": {
-        "en": "小酒杯",
+        "en": "Shotglass",
         "zh": "小酒杯"
       },
       "description": {
-        "en": "你在每次战斗中首次使用药水时，获取[blue]2[/blue]瓶随机药水。",
+        "en": "The first time you use a potion each combat, procure 2 random potions.",
         "zh": "你在每次战斗中首次使用药水时，获取[blue]2[/blue]瓶随机药水。"
       },
-      "rarity": "SHOP",
+      "rarity": "RARE",
       "color": "HERMIT",
       "colorName": {
         "en": "The Hermit",
         "zh": "亡命之徒"
       },
-      "colorPillBg": null,
-      "colorPillFg": null,
-      "energyIcon": "assets/energy-icons/hermit.png",
+      "energyIcon": "assets/catfall/energy-icons/hermit.webp",
       "img": "assets/catfall/relics/hermit-shotglass.webp",
       "imageResource": "",
       "deprecated": false,
-      "dynamicValues": {
-        "Limit": 1,
-        "LimitBase": 1,
-        "LimitExtra": 1
-      },
-      "upgradeDynamicValues": {
-        "Limit": 1,
-        "LimitBase": 1,
-        "LimitExtra": 1
-      },
+      "dynamicValues": {},
       "attachedTips": [],
       "attachedCardTips": [],
       "catfall": true
@@ -3520,45 +2810,25 @@
       "id": "HERMIT-SPYGLASS",
       "codeName": "Spyglass",
       "name": {
-        "en": "望远镜",
+        "en": "Spyglass",
         "zh": "望远镜"
       },
       "description": {
-        "en": "你的回合结束时，若你处于[gold]专注[/gold]状态，下回合开始时获得{energyPrefix:energyIcons(1)}。",
+        "en": "If you end your turn [gold]Concentrated[/gold], gain an additional Energy next turn.",
         "zh": "你的回合结束时，若你处于[gold]专注[/gold]状态，下回合开始时获得{energyPrefix:energyIcons(1)}。"
       },
-      "rarity": "SHOP",
+      "rarity": "UNCOMMON",
       "color": "HERMIT",
       "colorName": {
         "en": "The Hermit",
         "zh": "亡命之徒"
       },
-      "colorPillBg": null,
-      "colorPillFg": null,
-      "energyIcon": "assets/energy-icons/hermit.png",
+      "energyIcon": "assets/catfall/energy-icons/hermit.webp",
       "img": "assets/catfall/relics/hermit-spyglass.webp",
       "imageResource": "",
       "deprecated": false,
-      "dynamicValues": {
-        "Cards": 3
-      },
-      "upgradeDynamicValues": {
-        "Cards": 3
-      },
-      "attachedTips": [
-        {
-          "id": "HERMIT-DEAD_ON",
-          "name": {
-            "en": "Dead On",
-            "zh": "精准"
-          },
-          "description": {
-            "en": "Dead On cards have a bonus effect when in the middle of your Hand.",
-            "zh": "精准牌位于[gold]手牌[/gold]中央打出时会触发额外效果。"
-          },
-          "sourceValueKey": null
-        }
-      ],
+      "dynamicValues": {},
+      "attachedTips": [],
       "attachedCardTips": [],
       "catfall": true
     },
@@ -3566,11 +2836,11 @@
       "id": "HERMIT-STRAIGHT_RAZOR",
       "codeName": "StraightRazor",
       "name": {
-        "en": "刮胡刀",
+        "en": "Straight Razor",
         "zh": "刮胡刀"
       },
       "description": {
-        "en": "每当你从[gold]牌组[/gold]中移除或[gold]变化[/gold]一张牌时，回复[blue]{Heal}[/blue]点生命。",
+        "en": "Whenever you remove or [gold]Transform[/gold] a card from your [gold]Deck[/gold], heal [blue]{Heal}[/blue] HP.",
         "zh": "每当你从[gold]牌组[/gold]中移除或[gold]变化[/gold]一张牌时，回复[blue]{Heal}[/blue]点生命。"
       },
       "rarity": "UNCOMMON",
@@ -3579,16 +2849,11 @@
         "en": "The Hermit",
         "zh": "亡命之徒"
       },
-      "colorPillBg": null,
-      "colorPillFg": null,
-      "energyIcon": "assets/energy-icons/hermit.png",
+      "energyIcon": "assets/catfall/energy-icons/hermit.webp",
       "img": "assets/catfall/relics/hermit-straight_razor.webp",
       "imageResource": "",
       "deprecated": false,
       "dynamicValues": {
-        "Heal": 15
-      },
-      "upgradeDynamicValues": {
         "Heal": 15
       },
       "attachedTips": [],
@@ -3599,11 +2864,11 @@
       "id": "HEXAGHOST-JAR_OF_TOBSCO",
       "codeName": "JarOfTobsco",
       "name": {
-        "en": "塔布斯科罐",
+        "en": "Jar of Tobsco",
         "zh": "塔布斯科罐"
       },
       "description": {
-        "en": "在每场战斗开始时，获得[blue]1[/blue]点[gold]热烈[/gold]。",
+        "en": "Start each combat with [blue]1[/blue] [gold]Intensity[/gold].",
         "zh": "在每场战斗开始时，获得[blue]1[/blue]点[gold]热烈[/gold]。"
       },
       "rarity": "COMMON",
@@ -3612,114 +2877,89 @@
         "en": "The Hexaghost",
         "zh": "六火亡魂"
       },
-      "colorPillBg": null,
-      "colorPillFg": null,
-      "energyIcon": "assets/energy-icons/hexaghost.png",
+      "energyIcon": "assets/catfall/energy-icons/hexaghost.webp",
       "img": "assets/catfall/relics/hexaghost-jar_of_tobsco.webp",
       "imageResource": "",
       "deprecated": false,
       "dynamicValues": {},
-      "upgradeDynamicValues": {},
-      "attachedTips": [
-        {
-          "id": "HEXAGHOST-INTENSITY_POWER",
-          "name": {
-            "en": "Intensity",
-            "zh": "热烈"
-          },
-          "description": {
-            "en": "Increase the amount of damage, [gold]Block[/gold] and [gold]Soulburn[/gold] from [gold]Ghostflames[/gold] by [blue]1[/blue].",
-            "zh": "使[gold]鬼火[/gold]的伤害、[gold]格挡[/gold]和[gold]灼魂[/gold]数值增加[blue]1[/blue]。"
-          },
-          "sourceValueKey": "IntensityPower"
-        }
-      ],
+      "attachedTips": [],
       "attachedCardTips": [],
       "catfall": true
     },
     {
       "id": "HEXAGHOST-LIBRA",
-      "codeName": "Hexaghost-Libra",
+      "codeName": "Libra",
       "name": {
-        "en": "天秤座",
+        "en": "Libra",
         "zh": "天秤座"
       },
       "description": {
-        "en": "选择至多[blue]2[/blue]张基础[gold]打击[/gold]或[gold]防御[/gold]，[gold]变化[/gold]为相反类型。",
+        "en": "Choose up to [blue]2[/blue] Basic [gold]Strikes[/gold] or [gold]Defends[/gold] to [gold]Transform[/gold] them into their opposite type.",
         "zh": "选择至多[blue]2[/blue]张基础[gold]打击[/gold]或[gold]防御[/gold]，[gold]变化[/gold]为相反类型。"
       },
-      "rarity": "SPECIAL",
-      "color": "DOWNFALL",
+      "rarity": "BOSS",
+      "color": "HEXAGHOST",
       "colorName": {
-        "en": "Downfall",
-        "zh": "崩坠"
+        "en": "The Hexaghost",
+        "zh": "六火亡魂"
       },
-      "colorPillBg": null,
-      "colorPillFg": null,
-      "energyIcon": null,
+      "energyIcon": "assets/catfall/energy-icons/hexaghost.webp",
       "img": "assets/catfall/relics/hexaghost-libra.webp",
       "imageResource": "",
       "deprecated": false,
       "dynamicValues": {},
-      "upgradeDynamicValues": {},
       "attachedTips": [],
       "attachedCardTips": [],
       "catfall": true
     },
     {
       "id": "HEXAGHOST-MARK_OF_THE_ETHER",
-      "codeName": "Hexaghost-MarkOfTheEther",
+      "codeName": "MarkOfTheEther",
       "name": {
-        "en": "以太印记",
+        "en": "Mark of the Ether",
         "zh": "以太印记"
       },
       "description": {
-        "en": "每当你[gold]点燃[/gold]一枚鬼火时，获得[blue]4[/blue]点[gold]格挡[/gold]。",
+        "en": "Whenever you [gold]Ignite[/gold] a Ghostflame, gain [blue]4[/blue] [gold]Block[/gold].",
         "zh": "每当你[gold]点燃[/gold]一枚鬼火时，获得[blue]4[/blue]点[gold]格挡[/gold]。"
       },
-      "rarity": "SPECIAL",
-      "color": "DOWNFALL",
+      "rarity": "STARTER",
+      "color": "HEXAGHOST",
       "colorName": {
-        "en": "Downfall",
-        "zh": "崩坠"
+        "en": "The Hexaghost",
+        "zh": "六火亡魂"
       },
-      "colorPillBg": null,
-      "colorPillFg": null,
-      "energyIcon": null,
+      "energyIcon": "assets/catfall/energy-icons/hexaghost.webp",
       "img": "assets/catfall/relics/hexaghost-mark_of_the_ether.webp",
       "imageResource": "",
       "deprecated": false,
       "dynamicValues": {},
-      "upgradeDynamicValues": {},
       "attachedTips": [],
       "attachedCardTips": [],
       "catfall": true
     },
     {
       "id": "HEXAGHOST-OLEXAS_SHIELD",
-      "codeName": "Hexaghost-OlexasShield",
+      "codeName": "OlexasShield",
       "name": {
-        "en": "奥莱克萨之盾",
+        "en": "Olexa's Shield",
         "zh": "奥莱克萨之盾"
       },
       "description": {
-        "en": "你的能力牌可以推进[gold]灼热鬼火[/gold]和[gold]碾压鬼火[/gold]的进度。",
+        "en": "Powers are counted towards the progression of [gold]Searing[/gold] and [gold]Crushing Ghostflames[/gold].",
         "zh": "你的能力牌可以推进[gold]灼热鬼火[/gold]和[gold]碾压鬼火[/gold]的进度。"
       },
-      "rarity": "SPECIAL",
-      "color": "DOWNFALL",
+      "rarity": "UNCOMMON",
+      "color": "HEXAGHOST",
       "colorName": {
-        "en": "Downfall",
-        "zh": "崩坠"
+        "en": "The Hexaghost",
+        "zh": "六火亡魂"
       },
-      "colorPillBg": null,
-      "colorPillFg": null,
-      "energyIcon": null,
+      "energyIcon": "assets/catfall/energy-icons/hexaghost.webp",
       "img": "assets/catfall/relics/hexaghost-olexas_shield.webp",
       "imageResource": "",
       "deprecated": false,
       "dynamicValues": {},
-      "upgradeDynamicValues": {},
       "attachedTips": [],
       "attachedCardTips": [],
       "catfall": true
@@ -3728,11 +2968,11 @@
       "id": "HEXAGHOST-RECYCLER",
       "codeName": "Recycler",
       "name": {
-        "en": "回收器",
+        "en": "Recycler",
         "zh": "回收器"
       },
       "description": {
-        "en": "每场战斗中，当你首次[gold]消耗[/gold]一张非状态非诅咒的[gold]虚无[/gold]牌时，将其一张复制加入你的[gold]手牌[/gold]，且下次打出前耗能为[blue]0[/blue]。",
+        "en": "The first time a non-Status, non-Curse [gold]Ethereal[/gold] card is [gold]Exhausted[/gold] each combat, add a copy to your [gold]Hand[/gold] that costs [blue]0[/blue] until played.",
         "zh": "每场战斗中，当你首次[gold]消耗[/gold]一张非状态非诅咒的[gold]虚无[/gold]牌时，将其一张复制加入你的[gold]手牌[/gold]，且下次打出前耗能为[blue]0[/blue]。"
       },
       "rarity": "UNCOMMON",
@@ -3741,40 +2981,12 @@
         "en": "The Hexaghost",
         "zh": "六火亡魂"
       },
-      "colorPillBg": null,
-      "colorPillFg": null,
-      "energyIcon": "assets/energy-icons/hexaghost.png",
+      "energyIcon": "assets/catfall/energy-icons/hexaghost.webp",
       "img": "assets/catfall/relics/hexaghost-recycler.webp",
       "imageResource": "",
       "deprecated": false,
       "dynamicValues": {},
-      "upgradeDynamicValues": {},
-      "attachedTips": [
-        {
-          "id": "Ethereal",
-          "name": {
-            "en": "Ethereal",
-            "zh": "虚无"
-          },
-          "description": {
-            "en": "If this card is in your [gold]Hand[/gold] at the end of this turn, it is [gold]Exhausted[/gold].",
-            "zh": "如果这张牌在这个回合结束时留在你的[gold]手牌[/gold]中，则将其[gold]消耗[/gold]。"
-          },
-          "sourceValueKey": null
-        },
-        {
-          "id": "Exhaust",
-          "name": {
-            "en": "Exhaust",
-            "zh": "消耗"
-          },
-          "description": {
-            "en": "Removed until the end of combat.",
-            "zh": "在战斗结束前移除。"
-          },
-          "sourceValueKey": null
-        }
-      ],
+      "attachedTips": [],
       "attachedCardTips": [],
       "catfall": true
     },
@@ -3782,11 +2994,11 @@
       "id": "HEXAGHOST-RED_CANDLE",
       "codeName": "RedCandle",
       "name": {
-        "en": "红蜡烛",
+        "en": "Red Candle",
         "zh": "红蜡烛"
       },
       "description": {
-        "en": "每当你给予[gold]灼魂[/gold]时，额外给予[blue]2[/blue]层。",
+        "en": "Whenever you apply [gold]Soulburn[/gold], apply [blue]2[/blue] additional [gold]Soulburn[/gold].",
         "zh": "每当你给予[gold]灼魂[/gold]时，额外给予[blue]2[/blue]层。"
       },
       "rarity": "RARE",
@@ -3795,28 +3007,12 @@
         "en": "The Hexaghost",
         "zh": "六火亡魂"
       },
-      "colorPillBg": null,
-      "colorPillFg": null,
-      "energyIcon": "assets/energy-icons/hexaghost.png",
+      "energyIcon": "assets/catfall/energy-icons/hexaghost.webp",
       "img": "assets/catfall/relics/hexaghost-red_candle.webp",
       "imageResource": "",
       "deprecated": false,
       "dynamicValues": {},
-      "upgradeDynamicValues": {},
-      "attachedTips": [
-        {
-          "id": "DOWNFALL-SOUL_BURN_POWER",
-          "name": {
-            "en": "Soulburn",
-            "zh": "灼魂"
-          },
-          "description": {
-            "en": "In [blue]3[/blue] turns, this enemy loses HP at the start of their turn, then [gold]Soulburn[/gold] is removed.",
-            "zh": "在你的[blue]3[/blue]个回合后，该敌人在它们的回合开始时失去生命值，然后移除所有[gold]灼魂[/gold]层数。"
-          },
-          "sourceValueKey": "SoulBurnPower"
-        }
-      ],
+      "attachedTips": [],
       "attachedCardTips": [],
       "catfall": true
     },
@@ -3824,11 +3020,11 @@
       "id": "HEXAGHOST-SNEAKY_TEAKWOOD_MATCH",
       "codeName": "SneakyTeakwoodMatch",
       "name": {
-        "en": "隐秘柚柴",
+        "en": "Sneaky Teakwood Match",
         "zh": "隐秘柚柴"
       },
       "description": {
-        "en": "每回合你第一次[gold]点燃[/gold]鬼火时，选择[gold]步进[/gold]或[gold]回退[/gold]。",
+        "en": "The first time you [gold]Ignite[/gold] a Ghostflame each turn, you may choose to [gold]Advance[/gold] or [gold]Retract[/gold].",
         "zh": "每回合你第一次[gold]点燃[/gold]鬼火时，选择[gold]步进[/gold]或[gold]回退[/gold]。"
       },
       "rarity": "RARE",
@@ -3837,68 +3033,37 @@
         "en": "The Hexaghost",
         "zh": "六火亡魂"
       },
-      "colorPillBg": null,
-      "colorPillFg": null,
-      "energyIcon": "assets/energy-icons/hexaghost.png",
+      "energyIcon": "assets/catfall/energy-icons/hexaghost.webp",
       "img": "assets/catfall/relics/hexaghost-sneaky_teakwood_match.webp",
       "imageResource": "",
       "deprecated": false,
       "dynamicValues": {},
-      "upgradeDynamicValues": {},
-      "attachedTips": [
-        {
-          "id": "HEXAGHOST-ADVANCE",
-          "name": {
-            "en": "Advance",
-            "zh": "步进"
-          },
-          "description": {
-            "en": "Move to the next Ghostflame. Moving onto a Ghostflame [gold]Extinguishes[/gold] it.",
-            "zh": "移动至下枚[gold]鬼火[/gold]。移动至一枚[gold]鬼火[/gold]会导致其[gold]熄灭[/gold]。"
-          },
-          "sourceValueKey": null
-        },
-        {
-          "id": "HEXAGHOST-RETRACT",
-          "name": {
-            "en": "Retract",
-            "zh": "回退"
-          },
-          "description": {
-            "en": "Move to the previous Ghostflame. Moving onto a Ghostflame [gold]Extinguishes[/gold] it.",
-            "zh": "移动至上枚[gold]鬼火[/gold]。移动至一枚[gold]鬼火[/gold]会导致其[gold]熄灭[/gold]。"
-          },
-          "sourceValueKey": null
-        }
-      ],
+      "attachedTips": [],
       "attachedCardTips": [],
       "catfall": true
     },
     {
       "id": "HEXAGHOST-SOUL_STONE",
-      "codeName": "Hexaghost-SoulStone",
+      "codeName": "SoulStone",
       "name": {
-        "en": "魂石",
+        "en": "Thermal Stone",
         "zh": "魂石"
       },
       "description": {
-        "en": "你每[gold]消耗[/gold][blue]3[/blue]张牌，[gold]点燃[/gold]当前鬼火。",
+        "en": "Whenever you [gold]Exhaust[/gold] [blue]3[/blue] cards, [gold]Ignite[/gold] the current Ghostflame.",
         "zh": "你每[gold]消耗[/gold][blue]3[/blue]张牌，[gold]点燃[/gold]当前鬼火。"
       },
-      "rarity": "SPECIAL",
-      "color": "DOWNFALL",
+      "rarity": "RARE",
+      "color": "HEXAGHOST",
       "colorName": {
-        "en": "Downfall",
-        "zh": "崩坠"
+        "en": "The Hexaghost",
+        "zh": "六火亡魂"
       },
-      "colorPillBg": null,
-      "colorPillFg": null,
-      "energyIcon": null,
+      "energyIcon": "assets/catfall/energy-icons/hexaghost.webp",
       "img": "assets/catfall/relics/hexaghost-soul_stone.webp",
       "imageResource": "",
       "deprecated": false,
       "dynamicValues": {},
-      "upgradeDynamicValues": {},
       "attachedTips": [],
       "attachedCardTips": [],
       "catfall": true
@@ -3907,11 +3072,11 @@
       "id": "HEXAGHOST-SPIRIT_BRAND",
       "codeName": "SpiritBrand",
       "name": {
-        "en": "精神烙印",
+        "en": "Spirit Brand",
         "zh": "精神烙印"
       },
       "description": {
-        "en": "每回合首次[gold]点燃[/gold]一枚鬼火时，获得[blue]4[/blue]点[gold]格挡[/gold]。",
+        "en": "The first time you [gold]Ignite[/gold] a Ghostflame each turn, gain [blue]4[/blue] [gold]Block[/gold].",
         "zh": "每回合首次[gold]点燃[/gold]一枚鬼火时，获得[blue]4[/blue]点[gold]格挡[/gold]。"
       },
       "rarity": "STARTER",
@@ -3920,65 +3085,46 @@
         "en": "The Hexaghost",
         "zh": "六火亡魂"
       },
-      "colorPillBg": null,
-      "colorPillFg": null,
-      "energyIcon": "assets/energy-icons/hexaghost.png",
+      "energyIcon": "assets/catfall/energy-icons/hexaghost.webp",
       "img": "assets/catfall/relics/hexaghost-spirit_brand.webp",
       "imageResource": "",
       "deprecated": false,
       "dynamicValues": {},
-      "upgradeDynamicValues": {},
-      "attachedTips": [
-        {
-          "id": "HEXAGHOST-IGNITE",
-          "name": {
-            "en": "Ignite",
-            "zh": "点燃"
-          },
-          "description": {
-            "en": "Triggers the Ignition effect described on a Ghostflame.",
-            "zh": "触发当前[gold]鬼火[/gold]的点燃效果"
-          },
-          "sourceValueKey": null
-        }
-      ],
+      "attachedTips": [],
       "attachedCardTips": [],
       "catfall": true
     },
     {
       "id": "HEXAGHOST-THE_BROKEN_SEAL",
-      "codeName": "Hexaghost-TheBrokenSeal",
+      "codeName": "TheBrokenSeal",
       "name": {
-        "en": "挣破的封印",
+        "en": "The Broken Seal",
         "zh": "挣破的封印"
       },
       "description": {
-        "en": "拾取时，将你的最大生命提高[blue]10[/blue]，然后回复所有生命。每场战斗开始时，获得[blue]2[/blue]点[gold]力量[/gold]、[gold]敏捷[/gold]和[gold]热烈[/gold]。你无法再次获得[gold]挣破的封印[/gold]。",
+        "en": "Upon pickup, raise your Max HP by [blue]10[/blue], then heal all of your HP. Start each combat with [blue]2[/blue] [gold]Strength[/gold], [gold]Dexterity[/gold], and [gold]Intensity[/gold]. You can not receive [gold]The Broken Seal[/gold] again.",
         "zh": "拾取时，将你的最大生命提高[blue]10[/blue]，然后回复所有生命。每场战斗开始时，获得[blue]2[/blue]点[gold]力量[/gold]、[gold]敏捷[/gold]和[gold]热烈[/gold]。你无法再次获得[gold]挣破的封印[/gold]。"
       },
-      "rarity": "SPECIAL",
-      "color": "DOWNFALL",
+      "rarity": "SHOP",
+      "color": "HEXAGHOST",
       "colorName": {
-        "en": "Downfall",
-        "zh": "崩坠"
+        "en": "The Hexaghost",
+        "zh": "六火亡魂"
       },
-      "colorPillBg": null,
-      "colorPillFg": null,
-      "energyIcon": null,
+      "energyIcon": "assets/catfall/energy-icons/hexaghost.webp",
       "img": "assets/catfall/relics/hexaghost-the_broken_seal.webp",
       "imageResource": "",
       "deprecated": false,
       "dynamicValues": {},
-      "upgradeDynamicValues": {},
       "attachedTips": [],
       "attachedCardTips": [],
       "catfall": true
     },
     {
       "id": "SEA_GLASS.AUTOMATON-AUTOMATON",
-      "codeName": "SeaGlass.Automaton-Automaton",
+      "codeName": "Automaton",
       "name": {
-        "en": "编码玻璃",
+        "en": "Codon Glass",
         "zh": "编码玻璃"
       },
       "description": {
@@ -3986,28 +3132,25 @@
         "zh": ""
       },
       "rarity": "SPECIAL",
-      "color": "DOWNFALL",
+      "color": "SEA_GLASS.AUTOMATON",
       "colorName": {
-        "en": "Downfall",
-        "zh": "崩坠"
+        "en": "SEA_GLASS.AUTOMATON",
+        "zh": "SEA_GLASS.AUTOMATON"
       },
-      "colorPillBg": null,
-      "colorPillFg": null,
       "energyIcon": null,
       "img": "assets/catfall/relics/sea_glass_automaton-automaton.webp",
       "imageResource": "",
       "deprecated": false,
       "dynamicValues": {},
-      "upgradeDynamicValues": {},
       "attachedTips": [],
       "attachedCardTips": [],
       "catfall": true
     },
     {
       "id": "SEA_GLASS.CHAMP-CHAMP",
-      "codeName": "SeaGlass.Champ-Champ",
+      "codeName": "Champ",
       "name": {
-        "en": "斗士玻璃",
+        "en": "Gladiator Glass",
         "zh": "斗士玻璃"
       },
       "description": {
@@ -4015,28 +3158,25 @@
         "zh": ""
       },
       "rarity": "SPECIAL",
-      "color": "DOWNFALL",
+      "color": "SEA_GLASS.CHAMP",
       "colorName": {
-        "en": "Downfall",
-        "zh": "崩坠"
+        "en": "SEA_GLASS.CHAMP",
+        "zh": "SEA_GLASS.CHAMP"
       },
-      "colorPillBg": null,
-      "colorPillFg": null,
       "energyIcon": null,
       "img": "assets/catfall/relics/sea_glass_champ-champ.webp",
       "imageResource": "",
       "deprecated": false,
       "dynamicValues": {},
-      "upgradeDynamicValues": {},
       "attachedTips": [],
       "attachedCardTips": [],
       "catfall": true
     },
     {
       "id": "SEA_GLASS.COLLECTOR-COLLECTOR",
-      "codeName": "SeaGlass.Collector-Collector",
+      "codeName": "Collector",
       "name": {
-        "en": "贪欲玻璃",
+        "en": "Greed Glass",
         "zh": "贪欲玻璃"
       },
       "description": {
@@ -4044,28 +3184,25 @@
         "zh": ""
       },
       "rarity": "SPECIAL",
-      "color": "DOWNFALL",
+      "color": "SEA_GLASS.COLLECTOR",
       "colorName": {
-        "en": "Downfall",
-        "zh": "崩坠"
+        "en": "SEA_GLASS.COLLECTOR",
+        "zh": "SEA_GLASS.COLLECTOR"
       },
-      "colorPillBg": null,
-      "colorPillFg": null,
       "energyIcon": null,
       "img": "assets/catfall/relics/sea_glass_collector-collector.webp",
       "imageResource": "",
       "deprecated": false,
       "dynamicValues": {},
-      "upgradeDynamicValues": {},
       "attachedTips": [],
       "attachedCardTips": [],
       "catfall": true
     },
     {
       "id": "SEA_GLASS.HERMIT-HERMIT",
-      "codeName": "SeaGlass.Hermit-Hermit",
+      "codeName": "Hermit",
       "name": {
-        "en": "流浪者玻璃",
+        "en": "Drifter Glass",
         "zh": "流浪者玻璃"
       },
       "description": {
@@ -4073,28 +3210,25 @@
         "zh": ""
       },
       "rarity": "SPECIAL",
-      "color": "DOWNFALL",
+      "color": "SEA_GLASS.HERMIT",
       "colorName": {
-        "en": "Downfall",
-        "zh": "崩坠"
+        "en": "SEA_GLASS.HERMIT",
+        "zh": "SEA_GLASS.HERMIT"
       },
-      "colorPillBg": null,
-      "colorPillFg": null,
       "energyIcon": null,
       "img": "assets/catfall/relics/sea_glass_hermit-hermit.webp",
       "imageResource": "",
       "deprecated": false,
       "dynamicValues": {},
-      "upgradeDynamicValues": {},
       "attachedTips": [],
       "attachedCardTips": [],
       "catfall": true
     },
     {
       "id": "SEA_GLASS.SLIMEBOSS-SLIME_BOSS",
-      "codeName": "SeaGlass.Slimeboss-SlimeBoss",
+      "codeName": "SlimeBoss",
       "name": {
-        "en": "团伙玻璃",
+        "en": "Legion Glass",
         "zh": "团伙玻璃"
       },
       "description": {
@@ -4102,19 +3236,16 @@
         "zh": ""
       },
       "rarity": "SPECIAL",
-      "color": "DOWNFALL",
+      "color": "SEA_GLASS.SLIMEBOSS",
       "colorName": {
-        "en": "Downfall",
-        "zh": "崩坠"
+        "en": "SEA_GLASS.SLIMEBOSS",
+        "zh": "SEA_GLASS.SLIMEBOSS"
       },
-      "colorPillBg": null,
-      "colorPillFg": null,
       "energyIcon": null,
       "img": "assets/catfall/relics/sea_glass_slimeboss-slime_boss.webp",
       "imageResource": "",
       "deprecated": false,
       "dynamicValues": {},
-      "upgradeDynamicValues": {},
       "attachedTips": [],
       "attachedCardTips": [],
       "catfall": true
@@ -4123,11 +3254,11 @@
       "id": "SLIMEBOSS-BLACK_HEART_OF_GOO",
       "codeName": "BlackHeartOfGoo",
       "name": {
-        "en": "黏液黑心",
+        "en": "Black Heart of Goo",
         "zh": "黏液黑心"
       },
       "description": {
-        "en": "每当你[gold]吞食[/gold]时，回复[blue]{Heal}[/blue]点生命，每场战斗最多回复[blue]{MaxUses}[/blue]点。",
+        "en": "Whenever you [gold]Consume[/gold], heal [blue]{Heal}[/blue] HP, up to [blue]{MaxUses}[/blue] each combat.",
         "zh": "每当你[gold]吞食[/gold]时，回复[blue]{Heal}[/blue]点生命，每场战斗最多回复[blue]{MaxUses}[/blue]点。"
       },
       "rarity": "STARTER",
@@ -4136,88 +3267,63 @@
         "en": "The Slime Boss",
         "zh": "史莱姆老大"
       },
-      "colorPillBg": null,
-      "colorPillFg": null,
-      "energyIcon": "assets/energy-icons/slimebound.png",
+      "energyIcon": "assets/catfall/energy-icons/slimebound.webp",
       "img": "assets/catfall/relics/slimeboss-black_heart_of_goo.webp",
       "imageResource": "",
       "deprecated": false,
-      "dynamicValues": {
-        "Heal": 3,
-        "UsesLeft": 15,
-        "MaxUses": 15,
-        "UsesLeftBase": 15,
-        "UsesLeftExtra": 1,
-        "MaxUsesBase": 15,
-        "MaxUsesExtra": 1
-      },
-      "upgradeDynamicValues": {
-        "Heal": 3,
-        "UsesLeft": 15,
-        "MaxUses": 15,
-        "UsesLeftBase": 15,
-        "UsesLeftExtra": 1,
-        "MaxUsesBase": 15,
-        "MaxUsesExtra": 1
-      },
+      "dynamicValues": {},
       "attachedTips": [],
       "attachedCardTips": [],
       "catfall": true
     },
     {
       "id": "SLIMEBOSS-GOOP_DWELLER",
-      "codeName": "Slimeboss-GoopDweller",
+      "codeName": "GoopDweller",
       "name": {
-        "en": "黏液居者",
+        "en": "Goop Dweller",
         "zh": "黏液居者"
       },
       "description": {
-        "en": "在每场战斗开始时，[gold]分裂[/gold]出一个[gold]好斗史莱姆[/gold]。",
+        "en": "At the start of each combat, [gold]Split[/gold] into a [gold]Bruiser Slime[/gold].",
         "zh": "在每场战斗开始时，[gold]分裂[/gold]出一个[gold]好斗史莱姆[/gold]。"
       },
-      "rarity": "SPECIAL",
-      "color": "DOWNFALL",
+      "rarity": "COMMON",
+      "color": "SLIMEBOUND",
       "colorName": {
-        "en": "Downfall",
-        "zh": "崩坠"
+        "en": "The Slime Boss",
+        "zh": "史莱姆老大"
       },
-      "colorPillBg": null,
-      "colorPillFg": null,
-      "energyIcon": null,
+      "energyIcon": "assets/catfall/energy-icons/slimebound.webp",
       "img": "assets/catfall/relics/slimeboss-goop_dweller.webp",
       "imageResource": "",
       "deprecated": false,
       "dynamicValues": {},
-      "upgradeDynamicValues": {},
       "attachedTips": [],
       "attachedCardTips": [],
       "catfall": true
     },
     {
       "id": "SLIMEBOSS-GREED_OOZE",
-      "codeName": "Slimeboss-GreedOoze",
+      "codeName": "GreedOoze",
       "name": {
-        "en": "贪婪史莱姆",
+        "en": "Greed Ooze",
         "zh": "贪婪史莱姆"
       },
       "description": {
-        "en": "战斗开始时，生成贪婪史莱姆（若被吸收可复活。在休息处，贪婪软泥会吞噬你50个灵魂并提高1点伤害）。",
+        "en": "At the start of each combat, spawn Greed Ooze (can be revived if Absorbed. At Rest Sites, Greed Ooze will take 50 of your souls, increasing its damage by 1.",
         "zh": "战斗开始时，生成贪婪史莱姆（若被吸收可复活。在休息处，贪婪软泥会吞噬你50个灵魂并提高1点伤害）。"
       },
-      "rarity": "SPECIAL",
-      "color": "DOWNFALL",
+      "rarity": "SHOP",
+      "color": "SLIMEBOUND",
       "colorName": {
-        "en": "Downfall",
-        "zh": "崩坠"
+        "en": "The Slime Boss",
+        "zh": "史莱姆老大"
       },
-      "colorPillBg": null,
-      "colorPillFg": null,
-      "energyIcon": null,
+      "energyIcon": "assets/catfall/energy-icons/slimebound.webp",
       "img": "assets/catfall/relics/slimeboss-greed_ooze.webp",
       "imageResource": "",
       "deprecated": false,
       "dynamicValues": {},
-      "upgradeDynamicValues": {},
       "attachedTips": [],
       "attachedCardTips": [],
       "catfall": true
@@ -4226,11 +3332,11 @@
       "id": "SLIMEBOSS-HEART_OF_GOO",
       "codeName": "HeartOfGoo",
       "name": {
-        "en": "黏液之心",
+        "en": "Heart of Goo",
         "zh": "黏液之心"
       },
       "description": {
-        "en": "每当你[gold]吞食[/gold]时，回复[blue]{Heal}[/blue]点生命，每场战斗最多回复[blue]{MaxUses}[/blue]点。",
+        "en": "Whenever you [gold]Consume[/gold], heal [blue]{Heal}[/blue] HP, up to [blue]{MaxUses}[/blue] each combat.",
         "zh": "每当你[gold]吞食[/gold]时，回复[blue]{Heal}[/blue]点生命，每场战斗最多回复[blue]{MaxUses}[/blue]点。"
       },
       "rarity": "STARTER",
@@ -4239,59 +3345,37 @@
         "en": "The Slime Boss",
         "zh": "史莱姆老大"
       },
-      "colorPillBg": null,
-      "colorPillFg": null,
-      "energyIcon": "assets/energy-icons/slimebound.png",
+      "energyIcon": "assets/catfall/energy-icons/slimebound.webp",
       "img": "assets/catfall/relics/slimeboss-heart_of_goo.webp",
       "imageResource": "",
       "deprecated": false,
-      "dynamicValues": {
-        "Heal": 2,
-        "UsesLeft": 8,
-        "MaxUses": 8,
-        "UsesLeftBase": 8,
-        "UsesLeftExtra": 1,
-        "MaxUsesBase": 8,
-        "MaxUsesExtra": 1
-      },
-      "upgradeDynamicValues": {
-        "Heal": 2,
-        "UsesLeft": 8,
-        "MaxUses": 8,
-        "UsesLeftBase": 8,
-        "UsesLeftExtra": 1,
-        "MaxUsesBase": 8,
-        "MaxUsesExtra": 1
-      },
+      "dynamicValues": {},
       "attachedTips": [],
       "attachedCardTips": [],
       "catfall": true
     },
     {
       "id": "SLIMEBOSS-JEREMIAHS_BANNER",
-      "codeName": "Slimeboss-JeremiahsBanner",
+      "codeName": "JeremiahsBanner",
       "name": {
-        "en": "陆军旗",
+        "en": "Jeremiah's Banner",
         "zh": "陆军旗"
       },
       "description": {
-        "en": "在每场战斗开始时，获得1个史莱姆槽位并[gold]分裂[/gold]出一个随机史莱姆。",
+        "en": "At the start of each combat, gain 1 Slime slot and [gold]Split[/gold] into a random Slime.",
         "zh": "在每场战斗开始时，获得1个史莱姆槽位并[gold]分裂[/gold]出一个随机史莱姆。"
       },
-      "rarity": "SPECIAL",
-      "color": "DOWNFALL",
+      "rarity": "UNCOMMON",
+      "color": "SLIMEBOUND",
       "colorName": {
-        "en": "Downfall",
-        "zh": "崩坠"
+        "en": "The Slime Boss",
+        "zh": "史莱姆老大"
       },
-      "colorPillBg": null,
-      "colorPillFg": null,
-      "energyIcon": null,
+      "energyIcon": "assets/catfall/energy-icons/slimebound.webp",
       "img": "assets/catfall/relics/slimeboss-jeremiahs_banner.webp",
       "imageResource": "",
       "deprecated": false,
       "dynamicValues": {},
-      "upgradeDynamicValues": {},
       "attachedTips": [],
       "attachedCardTips": [],
       "catfall": true
@@ -4300,12 +3384,38 @@
       "id": "SLIMEBOSS-PROTECTIVE_GEAR",
       "codeName": "ProtectiveGear",
       "name": {
-        "en": "碰撞护具",
+        "en": "Protective Gear",
         "zh": "碰撞护具"
       },
       "description": {
-        "en": "降低你从“冲撞”牌中受到的伤害[blue]{TackleReduce}[/blue]点。",
+        "en": "Reduce the damage you take from Tackles by [blue]{TackleReduce}[/blue].",
         "zh": "降低你从“冲撞”牌中受到的伤害[blue]{TackleReduce}[/blue]点。"
+      },
+      "rarity": "BOSS",
+      "color": "SLIMEBOUND",
+      "colorName": {
+        "en": "The Slime Boss",
+        "zh": "史莱姆老大"
+      },
+      "energyIcon": "assets/catfall/energy-icons/slimebound.webp",
+      "img": "assets/catfall/relics/slimeboss-protective_gear.webp",
+      "imageResource": "",
+      "deprecated": false,
+      "dynamicValues": {},
+      "attachedTips": [],
+      "attachedCardTips": [],
+      "catfall": true
+    },
+    {
+      "id": "SLIMEBOSS-SCRAP_OOZE",
+      "codeName": "ScrapOoze",
+      "name": {
+        "en": "Scrap Ooze",
+        "zh": "破烂史莱姆"
+      },
+      "description": {
+        "en": "At the start of each combat, spawn Scrap Ooze (can be revived if Absorbed. At Rest Sites, you can donate a card to the Scrap Ooze, modifying its +1 damage for Uncommons +2 damage for Rares -1 damage for Commons -2 damage for {{QueryLink|Cards|type:Curse|Curses}}",
+        "zh": "战斗开始时，生成废料软泥（若被吸收可复活。在休息处，你可以将一张牌交给废料软泥并修改其伤害：普通牌+1，稀有牌+2，基础牌-1，{{QueryLink|Cards|type:Curse|诅咒牌}}-2）。"
       },
       "rarity": "SHOP",
       "color": "SLIMEBOUND",
@@ -4313,51 +3423,11 @@
         "en": "The Slime Boss",
         "zh": "史莱姆老大"
       },
-      "colorPillBg": null,
-      "colorPillFg": null,
-      "energyIcon": "assets/energy-icons/slimebound.png",
-      "img": "assets/catfall/relics/slimeboss-protective_gear.webp",
-      "imageResource": "",
-      "deprecated": false,
-      "dynamicValues": {
-        "TackleReduce": 3,
-        "TackleReduceBase": 3,
-        "TackleReduceExtra": 1
-      },
-      "upgradeDynamicValues": {
-        "TackleReduce": 3,
-        "TackleReduceBase": 3,
-        "TackleReduceExtra": 1
-      },
-      "attachedTips": [],
-      "attachedCardTips": [],
-      "catfall": true
-    },
-    {
-      "id": "SLIMEBOSS-SCRAP_OOZE",
-      "codeName": "Slimeboss-ScrapOoze",
-      "name": {
-        "en": "破烂史莱姆",
-        "zh": "破烂史莱姆"
-      },
-      "description": {
-        "en": "战斗开始时，生成废料软泥（若被吸收可复活。在休息处，你可以将一张牌交给废料软泥并修改其伤害：普通牌+1，稀有牌+2，基础牌-1，{{QueryLink|Cards|type:Curse|诅咒牌}}-2）。",
-        "zh": "战斗开始时，生成废料软泥（若被吸收可复活。在休息处，你可以将一张牌交给废料软泥并修改其伤害：普通牌+1，稀有牌+2，基础牌-1，{{QueryLink|Cards|type:Curse|诅咒牌}}-2）。"
-      },
-      "rarity": "SPECIAL",
-      "color": "DOWNFALL",
-      "colorName": {
-        "en": "Downfall",
-        "zh": "崩坠"
-      },
-      "colorPillBg": null,
-      "colorPillFg": null,
-      "energyIcon": null,
+      "energyIcon": "assets/catfall/energy-icons/slimebound.webp",
       "img": "assets/catfall/relics/slimeboss-scrap_ooze.webp",
       "imageResource": "",
       "deprecated": false,
       "dynamicValues": {},
-      "upgradeDynamicValues": {},
       "attachedTips": [],
       "attachedCardTips": [],
       "catfall": true
@@ -4366,11 +3436,11 @@
       "id": "SLIMEBOSS-SLIMED_TAIL",
       "codeName": "SlimedTail",
       "name": {
-        "en": "黏质断尾",
+        "en": "Slimed Tail",
         "zh": "黏质断尾"
       },
       "description": {
-        "en": "每当你[gold]分裂[/gold]时，获得[blue]{Block}[/blue]点[gold]格挡[/gold]。",
+        "en": "Whenever you [gold]Split[/gold], gain [blue]{Block}[/blue] [gold]Block[/gold].",
         "zh": "每当你[gold]分裂[/gold]时，获得[blue]{Block}[/blue]点[gold]格挡[/gold]。"
       },
       "rarity": "RARE",
@@ -4379,18 +3449,11 @@
         "en": "The Slime Boss",
         "zh": "史莱姆老大"
       },
-      "colorPillBg": null,
-      "colorPillFg": null,
-      "energyIcon": "assets/energy-icons/slimebound.png",
+      "energyIcon": "assets/catfall/energy-icons/slimebound.webp",
       "img": "assets/catfall/relics/slimeboss-slimed_tail.webp",
       "imageResource": "",
       "deprecated": false,
-      "dynamicValues": {
-        "Block": 3
-      },
-      "upgradeDynamicValues": {
-        "Block": 3
-      },
+      "dynamicValues": {},
       "attachedTips": [],
       "attachedCardTips": [],
       "catfall": true
@@ -4399,11 +3462,11 @@
       "id": "SLIMEBOSS-SLIMY_SKULL",
       "codeName": "SlimySkull",
       "name": {
-        "en": "黏黏头骨",
+        "en": "Slimy Skull",
         "zh": "黏黏头骨"
       },
       "description": {
-        "en": "每当你给予[gold]黏液[/gold]时，额外给予[blue]{GoopIncrease}[/blue]层[gold]黏液[/gold]。",
+        "en": "Whenever you apply [gold]Goop[/gold], apply an additional [blue]{GoopIncrease}[/blue] [gold]Goop[/gold].",
         "zh": "每当你给予[gold]黏液[/gold]时，额外给予[blue]{GoopIncrease}[/blue]层[gold]黏液[/gold]。"
       },
       "rarity": "COMMON",
@@ -4412,36 +3475,12 @@
         "en": "The Slime Boss",
         "zh": "史莱姆老大"
       },
-      "colorPillBg": null,
-      "colorPillFg": null,
-      "energyIcon": "assets/energy-icons/slimebound.png",
+      "energyIcon": "assets/catfall/energy-icons/slimebound.webp",
       "img": "assets/catfall/relics/slimeboss-slimy_skull.webp",
       "imageResource": "",
       "deprecated": false,
-      "dynamicValues": {
-        "GoopIncrease": 1,
-        "GoopIncreaseBase": 1,
-        "GoopIncreaseExtra": 1
-      },
-      "upgradeDynamicValues": {
-        "GoopIncrease": 1,
-        "GoopIncreaseBase": 1,
-        "GoopIncreaseExtra": 1
-      },
-      "attachedTips": [
-        {
-          "id": "SLIMEBOSS-GOOP_POWER",
-          "name": {
-            "en": "Goop",
-            "zh": "黏液"
-          },
-          "description": {
-            "en": "Your next attack deals additional damage and triggers [gold]Consume[/gold] effects.",
-            "zh": "你的下一次攻击造成额外伤害，并触发[gold]吞食[/gold]效果。"
-          },
-          "sourceValueKey": "GoopPower"
-        }
-      ],
+      "dynamicValues": {},
+      "attachedTips": [],
       "attachedCardTips": [],
       "catfall": true
     },
@@ -4449,11 +3488,11 @@
       "id": "SLIMEBOSS-STONE_OF_NOMAKK",
       "codeName": "StoneOfNomakk",
       "name": {
-        "en": "黏黏石",
+        "en": "Stone of Nomakk",
         "zh": "黏黏石"
       },
       "description": {
-        "en": "在每场战斗开始时，获得[blue]{PotencyPower}[/blue]点[gold]潜能[/gold]。",
+        "en": "At the start of each combat, gain [blue]{PotencyPower}[/blue] [gold]Potency[/gold].",
         "zh": "在每场战斗开始时，获得[blue]{PotencyPower}[/blue]点[gold]潜能[/gold]。"
       },
       "rarity": "COMMON",
@@ -4462,18 +3501,11 @@
         "en": "The Slime Boss",
         "zh": "史莱姆老大"
       },
-      "colorPillBg": null,
-      "colorPillFg": null,
-      "energyIcon": "assets/energy-icons/slimebound.png",
+      "energyIcon": "assets/catfall/energy-icons/slimebound.webp",
       "img": "assets/catfall/relics/slimeboss-stone_of_nomakk.webp",
       "imageResource": "",
       "deprecated": false,
-      "dynamicValues": {
-        "PotencyPower": 1
-      },
-      "upgradeDynamicValues": {
-        "PotencyPower": 1
-      },
+      "dynamicValues": {},
       "attachedTips": [
         {
           "id": "SLIMEBOSS-POTENCY_POWER",
@@ -4485,7 +3517,9 @@
             "en": "Increases the damage of ALL your Spawned Slimes.\nSecondary effects increase by [blue]1[/blue] for every [blue]2[/blue] Potency (rounding up).",
             "zh": "提升你所有史莱姆的伤害。\n每[blue]2[/blue]点潜能可使次要效果提升[blue]1[/blue]点（向上取整）。"
           },
-          "sourceValueKey": "PotencyPower"
+          "dynamicValues": {},
+          "sourceValueKey": null,
+          "icon": null
         }
       ],
       "attachedCardTips": [],
@@ -4495,37 +3529,24 @@
       "id": "SLIMEBOSS-TARR_BLOB",
       "codeName": "TarrBlob",
       "name": {
-        "en": "焦油团",
+        "en": "Tarr Blob",
         "zh": "焦油团"
       },
       "description": {
-        "en": "在每场战斗开始时，失去[blue]{Decrease}[/blue]个史莱姆槽位。\n在你的回合开始时，获得{Energy:energyIcons()}。",
+        "en": "At the start of each combat, lose [blue]{Decrease}[/blue] Slime {Decrease:plural:slot|slots}.\nAt the start of your turn, gain {Energy:energyIcons()}.",
         "zh": "在每场战斗开始时，失去[blue]{Decrease}[/blue]个史莱姆槽位。\n在你的回合开始时，获得{Energy:energyIcons()}。"
       },
-      "rarity": "ANCIENT",
+      "rarity": "SPECIAL",
       "color": "SLIMEBOUND",
       "colorName": {
         "en": "The Slime Boss",
         "zh": "史莱姆老大"
       },
-      "colorPillBg": null,
-      "colorPillFg": null,
-      "energyIcon": "assets/energy-icons/slimebound.png",
+      "energyIcon": "assets/catfall/energy-icons/slimebound.webp",
       "img": "assets/catfall/relics/slimeboss-tarr_blob.webp",
       "imageResource": "",
       "deprecated": false,
-      "dynamicValues": {
-        "Energy": 1,
-        "Decrease": 1,
-        "DecreaseBase": 1,
-        "DecreaseExtra": 1
-      },
-      "upgradeDynamicValues": {
-        "Energy": 1,
-        "Decrease": 1,
-        "DecreaseBase": 1,
-        "DecreaseExtra": 1
-      },
+      "dynamicValues": {},
       "attachedTips": [],
       "attachedCardTips": [],
       "catfall": true
@@ -4534,11 +3555,11 @@
       "id": "SNECKO-LOADED_DIE",
       "codeName": "LoadedDie",
       "name": {
-        "en": "注料骰子",
+        "en": "Loaded Die",
         "zh": "注料骰子"
       },
       "description": {
-        "en": "每当你[gold]混淆[/gold]一张牌时，获得[blue]{Block}[/blue]点[gold]格挡[/gold]。",
+        "en": "Whenever a card is [gold]Muddled[/gold], gain [blue]{Block}[/blue] [gold]Block[/gold].",
         "zh": "每当你[gold]混淆[/gold]一张牌时，获得[blue]{Block}[/blue]点[gold]格挡[/gold]。"
       },
       "rarity": "COMMON",
@@ -4547,118 +3568,89 @@
         "en": "The Snecko",
         "zh": "异蛇"
       },
-      "colorPillBg": null,
-      "colorPillFg": null,
-      "energyIcon": "assets/energy-icons/snecko.png",
+      "energyIcon": "assets/catfall/energy-icons/snecko.webp",
       "img": "assets/catfall/relics/snecko-loaded_die.webp",
       "imageResource": "",
       "deprecated": false,
-      "dynamicValues": {
-        "Block": 1
-      },
-      "upgradeDynamicValues": {
-        "Block": 1
-      },
-      "attachedTips": [
-        {
-          "id": "SNECKO-MUDDLE",
-          "name": {
-            "en": "Muddle",
-            "zh": "混淆"
-          },
-          "description": {
-            "en": "Muddling a card changes its cost this turn to between [blue]0[/blue] and [blue]3[/blue] at random.\nThe cost after Muddling always differs from the original cost.",
-            "zh": "将牌的耗能在一回合内变为[blue]0[/blue]到[blue]3[/blue]之间的随机值。混淆后耗能必定改变。"
-          },
-          "sourceValueKey": null
-        }
-      ],
+      "dynamicValues": {},
+      "attachedTips": [],
       "attachedCardTips": [],
       "catfall": true
     },
     {
       "id": "SNECKO-LUCKY_HORSESHOE",
-      "codeName": "Snecko-LuckyHorseshoe",
+      "codeName": "LuckyHorseshoe",
       "name": {
-        "en": "幸运马蹄",
+        "en": "Lucky Horseshoe",
         "zh": "幸运马蹄"
       },
       "description": {
-        "en": "拾起时，从[blue]3[/blue]个角色中选择[blue]1[/blue]个，获得来自该角色的[blue]3[/blue]组已[gold]升级[/gold]的[gold]罕见[/gold]牌奖励和[blue]2[/blue]组[gold]稀有[/gold]牌奖励。每次战斗结束后，额外掉落一组该角色的卡牌奖励。",
+        "en": "Upon pickup, choose [blue]1[/blue] of [blue]3[/blue] Characters. Obtain [blue]3[/blue] [gold]Upgraded[/gold] [gold]Uncommon[/gold] cards and [blue]2[/blue] [gold]Rare[/gold] cards. All combats drop an additional card reward of the chosen character's cards.",
         "zh": "拾起时，从[blue]3[/blue]个角色中选择[blue]1[/blue]个，获得来自该角色的[blue]3[/blue]组已[gold]升级[/gold]的[gold]罕见[/gold]牌奖励和[blue]2[/blue]组[gold]稀有[/gold]牌奖励。每次战斗结束后，额外掉落一组该角色的卡牌奖励。"
       },
       "rarity": "SPECIAL",
-      "color": "DOWNFALL",
+      "color": "SNECKO",
       "colorName": {
-        "en": "Downfall",
-        "zh": "崩坠"
+        "en": "The Snecko",
+        "zh": "异蛇"
       },
-      "colorPillBg": null,
-      "colorPillFg": null,
-      "energyIcon": null,
+      "energyIcon": "assets/catfall/energy-icons/snecko.webp",
       "img": "assets/catfall/relics/snecko-lucky_horseshoe.webp",
       "imageResource": "",
       "deprecated": false,
       "dynamicValues": {},
-      "upgradeDynamicValues": {},
       "attachedTips": [],
       "attachedCardTips": [],
       "catfall": true
     },
     {
       "id": "SNECKO-MYSTICAL_OCTAHEDRON",
-      "codeName": "Snecko-MysticalOctahedron",
+      "codeName": "MysticalOctahedron",
       "name": {
-        "en": "神秘八面体",
+        "en": "Mystical Octahedron",
         "zh": "神秘八面体"
       },
       "description": {
-        "en": "拾起时，选择一张[gold]溢出[/gold]牌，[gold]附魔[/gold]：[purple]注料[/purple]。",
+        "en": "Upon pickup, [gold]Enchant[/gold] an [gold]Overflow[/gold] card with [purple]Loaded[/purple].",
         "zh": "拾起时，选择一张[gold]溢出[/gold]牌，[gold]附魔[/gold]：[purple]注料[/purple]。"
       },
       "rarity": "SPECIAL",
-      "color": "DOWNFALL",
+      "color": "SNECKO",
       "colorName": {
-        "en": "Downfall",
-        "zh": "崩坠"
+        "en": "The Snecko",
+        "zh": "异蛇"
       },
-      "colorPillBg": null,
-      "colorPillFg": null,
-      "energyIcon": null,
+      "energyIcon": "assets/catfall/energy-icons/snecko.webp",
       "img": "assets/catfall/relics/snecko-mystical_octahedron.webp",
       "imageResource": "",
       "deprecated": false,
       "dynamicValues": {},
-      "upgradeDynamicValues": {},
       "attachedTips": [],
       "attachedCardTips": [],
       "catfall": true
     },
     {
       "id": "SNECKO-RARE_BOOSTER_BOX",
-      "codeName": "Snecko-RareBoosterBox",
+      "codeName": "RareBoosterBox",
       "name": {
-        "en": "稀有补充箱",
+        "en": "Rare Booster Box",
         "zh": "稀有补充箱"
       },
       "description": {
-        "en": "拾起时，获得一张稀有[gold]异色[/gold]牌。",
+        "en": "Upon pickup, obtain an [gold]Offclass[/gold] Rare card.",
         "zh": "拾起时，获得一张稀有[gold]异色[/gold]牌。"
       },
-      "rarity": "SPECIAL",
-      "color": "DOWNFALL",
+      "rarity": "BOSS",
+      "color": "SNECKO",
       "colorName": {
-        "en": "Downfall",
-        "zh": "崩坠"
+        "en": "The Snecko",
+        "zh": "异蛇"
       },
-      "colorPillBg": null,
-      "colorPillFg": null,
-      "energyIcon": null,
+      "energyIcon": "assets/catfall/energy-icons/snecko.webp",
       "img": "assets/catfall/relics/snecko-rare_booster_box.webp",
       "imageResource": "",
       "deprecated": false,
       "dynamicValues": {},
-      "upgradeDynamicValues": {},
       "attachedTips": [],
       "attachedCardTips": [],
       "catfall": true
@@ -4667,11 +3659,11 @@
       "id": "SNECKO-RING_OF_THE_SNEK",
       "codeName": "RingOfTheSnek",
       "name": {
-        "en": "异蛇戒指",
+        "en": "Ring of the Snek",
         "zh": "异蛇戒指"
       },
       "description": {
-        "en": "每当你触发[blue]{Cards}[/blue]次[gold]溢出[/gold]时，给予随机敌人[blue]{WeakPower}[/blue]层[gold]虚弱[/gold]和[blue]{VulnerablePower}[/blue]层[gold]易伤[/gold]。",
+        "en": "Whenever you activate [blue]{Cards}[/blue] [gold]Overflow[/gold] effects, apply [blue]{WeakPower}[/blue] [gold]Weak[/gold] and [blue]{VulnerablePower}[/blue] [gold]Vulnerable[/gold] to a random enemy.",
         "zh": "每当你触发[blue]{Cards}[/blue]次[gold]溢出[/gold]时，给予随机敌人[blue]{WeakPower}[/blue]层[gold]虚弱[/gold]和[blue]{VulnerablePower}[/blue]层[gold]易伤[/gold]。"
       },
       "rarity": "RARE",
@@ -4680,17 +3672,15 @@
         "en": "The Snecko",
         "zh": "异蛇"
       },
-      "colorPillBg": null,
-      "colorPillFg": null,
-      "energyIcon": "assets/energy-icons/snecko.png",
+      "energyIcon": "assets/catfall/energy-icons/snecko.webp",
       "img": "assets/catfall/relics/snecko-ring_of_the_snek.webp",
       "imageResource": "",
       "deprecated": false,
       "dynamicValues": {
-        "Cards": 3
-      },
-      "upgradeDynamicValues": {
-        "Cards": 3
+        "Power": 1,
+        "Cards": 3,
+        "WeakPower": 1,
+        "VulnerablePower": 1
       },
       "attachedTips": [],
       "attachedCardTips": [],
@@ -4698,29 +3688,26 @@
     },
     {
       "id": "SNECKO-SEAL_OF_APPROVAL",
-      "codeName": "Snecko-SealOfApproval",
+      "codeName": "SealOfApproval",
       "name": {
-        "en": "认可印章",
+        "en": "Seal of Approval",
         "zh": "认可印章"
       },
       "description": {
-        "en": "拾起时，从[blue]5[/blue]张罕见[gold]异色[/gold]能力牌中选择[blue]1[/blue]张加入你的[gold]牌组[/gold]。",
+        "en": "Upon pickup, choose [blue]1[/blue] of [blue]5[/blue] Uncommon [gold]Offclass[/gold] Powers to add to your [gold]Deck[/gold].",
         "zh": "拾起时，从[blue]5[/blue]张罕见[gold]异色[/gold]能力牌中选择[blue]1[/blue]张加入你的[gold]牌组[/gold]。"
       },
-      "rarity": "SPECIAL",
-      "color": "DOWNFALL",
+      "rarity": "COMMON",
+      "color": "SNECKO",
       "colorName": {
-        "en": "Downfall",
-        "zh": "崩坠"
+        "en": "The Snecko",
+        "zh": "异蛇"
       },
-      "colorPillBg": null,
-      "colorPillFg": null,
-      "energyIcon": null,
+      "energyIcon": "assets/catfall/energy-icons/snecko.webp",
       "img": "assets/catfall/relics/snecko-seal_of_approval.webp",
       "imageResource": "",
       "deprecated": false,
       "dynamicValues": {},
-      "upgradeDynamicValues": {},
       "attachedTips": [],
       "attachedCardTips": [],
       "catfall": true
@@ -4729,11 +3716,11 @@
       "id": "SNECKO-SLEEVED_ACE",
       "codeName": "SleevedAce",
       "name": {
-        "en": "袖中王牌",
+        "en": "Sleeved Ace",
         "zh": "袖中王牌"
       },
       "description": {
-        "en": "在每场战斗开始时，将一张[gold]记号牌[/gold]加入你的[gold]手牌[/gold]。",
+        "en": "At the start of each combat, gain a [gold]Marked Card[/gold].",
         "zh": "在每场战斗开始时，将一张[gold]记号牌[/gold]加入你的[gold]手牌[/gold]。"
       },
       "rarity": "UNCOMMON",
@@ -4742,14 +3729,11 @@
         "en": "The Snecko",
         "zh": "异蛇"
       },
-      "colorPillBg": null,
-      "colorPillFg": null,
-      "energyIcon": "assets/energy-icons/snecko.png",
+      "energyIcon": "assets/catfall/energy-icons/snecko.webp",
       "img": "assets/catfall/relics/snecko-sleeved_ace.webp",
       "imageResource": "",
       "deprecated": false,
       "dynamicValues": {},
-      "upgradeDynamicValues": {},
       "attachedTips": [],
       "attachedCardTips": [],
       "catfall": true
@@ -4758,41 +3742,25 @@
       "id": "SNECKO-SNAKE_CHARMERS_FLUTE",
       "codeName": "SnakeCharmersFlute",
       "name": {
-        "en": "蛇笛",
+        "en": "Snake-Charmer's Flute",
         "zh": "蛇笛"
       },
       "description": {
-        "en": "[gold]混淆[/gold]后耗能不为[blue]3[/blue]。",
+        "en": "[gold]Muddled[/gold] cards can't cost [blue]3[/blue].",
         "zh": "[gold]混淆[/gold]后耗能不为[blue]3[/blue]。"
       },
-      "rarity": "ANCIENT",
+      "rarity": "RARE",
       "color": "SNECKO",
       "colorName": {
         "en": "The Snecko",
         "zh": "异蛇"
       },
-      "colorPillBg": null,
-      "colorPillFg": null,
-      "energyIcon": "assets/energy-icons/snecko.png",
+      "energyIcon": "assets/catfall/energy-icons/snecko.webp",
       "img": "assets/catfall/relics/snecko-snake_charmers_flute.webp",
       "imageResource": "",
       "deprecated": false,
       "dynamicValues": {},
-      "upgradeDynamicValues": {},
-      "attachedTips": [
-        {
-          "id": "SNECKO-MUDDLE",
-          "name": {
-            "en": "Muddle",
-            "zh": "混淆"
-          },
-          "description": {
-            "en": "Muddling a card changes its cost this turn to between [blue]0[/blue] and [blue]3[/blue] at random.\nThe cost after Muddling always differs from the original cost.",
-            "zh": "将牌的耗能在一回合内变为[blue]0[/blue]到[blue]3[/blue]之间的随机值。混淆后耗能必定改变。"
-          },
-          "sourceValueKey": null
-        }
-      ],
+      "attachedTips": [],
       "attachedCardTips": [],
       "catfall": true
     },
@@ -4800,11 +3768,11 @@
       "id": "SNECKO-SNECKO_SOUL",
       "codeName": "SneckoSoul",
       "name": {
-        "en": "异蛇之魂",
+        "en": "Snecko Soul",
         "zh": "异蛇之魂"
       },
       "description": {
-        "en": "在每场战斗开始时，将一张[gold]灵魂骰掷[/gold]加入你的[gold]手牌[/gold]。",
+        "en": "At the start of each combat, add [gold]Soul Roll[/gold] to your [gold]Hand[/gold].",
         "zh": "在每场战斗开始时，将一张[gold]灵魂骰掷[/gold]加入你的[gold]手牌[/gold]。"
       },
       "rarity": "STARTER",
@@ -4813,32 +3781,24 @@
         "en": "The Snecko",
         "zh": "异蛇"
       },
-      "colorPillBg": null,
-      "colorPillFg": null,
-      "energyIcon": "assets/energy-icons/snecko.png",
+      "energyIcon": "assets/catfall/energy-icons/snecko.webp",
       "img": "assets/catfall/relics/snecko-snecko_soul.webp",
       "imageResource": "",
       "deprecated": false,
       "dynamicValues": {},
-      "upgradeDynamicValues": {},
       "attachedTips": [],
-      "attachedCardTips": [
-        {
-          "id": "SNECKO-SOUL_ROLL",
-          "upgraded": false
-        }
-      ],
+      "attachedCardTips": [],
       "catfall": true
     },
     {
       "id": "SNECKO-SUPER_SNECKO_SOUL",
       "codeName": "SuperSneckoSoul",
       "name": {
-        "en": "超级蛇魂",
+        "en": "Super Snecko Soul",
         "zh": "超级蛇魂"
       },
       "description": {
-        "en": "每回合开始时，获得一张[gold]灵魂骰掷[/gold]。",
+        "en": "At the start of every turn, add [gold]Soul Roll[/gold] to your [gold]Hand[/gold].",
         "zh": "每回合开始时，获得一张[gold]灵魂骰掷[/gold]。"
       },
       "rarity": "STARTER",
@@ -4847,32 +3807,12 @@
         "en": "The Snecko",
         "zh": "异蛇"
       },
-      "colorPillBg": null,
-      "colorPillFg": null,
-      "energyIcon": "assets/energy-icons/snecko.png",
+      "energyIcon": "assets/catfall/energy-icons/snecko.webp",
       "img": "assets/catfall/relics/snecko-super_snecko_soul.webp",
       "imageResource": "",
       "deprecated": false,
-      "dynamicValues": {
-        "Cards": 1
-      },
-      "upgradeDynamicValues": {
-        "Cards": 1
-      },
-      "attachedTips": [
-        {
-          "id": "SNECKO-MUDDLE",
-          "name": {
-            "en": "Muddle",
-            "zh": "混淆"
-          },
-          "description": {
-            "en": "Muddling a card changes its cost this turn to between [blue]0[/blue] and [blue]3[/blue] at random.\nThe cost after Muddling always differs from the original cost.",
-            "zh": "将牌的耗能在一回合内变为[blue]0[/blue]到[blue]3[/blue]之间的随机值。混淆后耗能必定改变。"
-          },
-          "sourceValueKey": null
-        }
-      ],
+      "dynamicValues": {},
+      "attachedTips": [],
       "attachedCardTips": [],
       "catfall": true
     },
@@ -4880,11 +3820,11 @@
       "id": "SNECKO-UNIDENTIFIED_EGG",
       "codeName": "UnidentifiedEgg",
       "name": {
-        "en": "未知之蛋",
+        "en": "Unidentified Egg",
         "zh": "未知之蛋"
       },
       "description": {
-        "en": "每当你将一张[gold]异色[/gold]牌加入你的[gold]牌组[/gold]时，将其[gold]升级[/gold]。\n拾起时，随机[gold]升级[/gold][blue]{Cards}[/blue]张[gold]异色牌[/gold]。",
+        "en": "Whenever you add an [gold]Offclass[/gold] card to your [gold]Deck[/gold], [gold]Upgrade[/gold] it.\nUpon pickup, [gold]Upgrade[/gold] [blue]{Cards}[/blue] random [gold]Offclass[/gold] cards.",
         "zh": "每当你将一张[gold]异色[/gold]牌加入你的[gold]牌组[/gold]时，将其[gold]升级[/gold]。\n拾起时，随机[gold]升级[/gold][blue]{Cards}[/blue]张[gold]异色牌[/gold]。"
       },
       "rarity": "RARE",
@@ -4893,16 +3833,11 @@
         "en": "The Snecko",
         "zh": "异蛇"
       },
-      "colorPillBg": null,
-      "colorPillFg": null,
-      "energyIcon": "assets/energy-icons/snecko.png",
+      "energyIcon": "assets/catfall/energy-icons/snecko.webp",
       "img": "assets/catfall/relics/snecko-unidentified_egg.webp",
       "imageResource": "",
       "deprecated": false,
       "dynamicValues": {
-        "Cards": 2
-      },
-      "upgradeDynamicValues": {
         "Cards": 2
       },
       "attachedTips": [],
