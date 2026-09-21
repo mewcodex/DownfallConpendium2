@@ -155,7 +155,8 @@ const elements = {
 function renderVersionInfo() {
   if (!elements.versionInfo || !state.data) return;
   if (state.catfall) {
-    elements.versionInfo.textContent = state.lang === "zh" ? "猫坠版本：2026/08/19" : "Catfall version: 2026/08/19";
+    const modVersion = state.data.modVersion || "unknown";
+    elements.versionInfo.textContent = state.lang === "zh" ? `猫坠版本：${modVersion}` : `Catfall version: ${modVersion}`;
     return;
   }
   const modVersion = state.data.modVersion || "unknown";
@@ -2564,7 +2565,7 @@ async function init() {
     initialParams.set("lang", "zh");
     initialParams.delete("translator_mode");
   }
-  const response = await fetch(`${state.catfall ? "data/catfall-cards.json" : "data/cards.json"}?v=20260921-1`);
+  const response = await fetch(`${state.catfall ? "data/catfall-cards.json" : "data/cards.json"}?v=20260921-2`);
   if (!response.ok) {
     elements.summary.textContent = "Missing data/cards.json. Run the pipeline first.";
     return;

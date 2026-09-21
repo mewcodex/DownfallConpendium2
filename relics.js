@@ -128,7 +128,8 @@ const elements = {
 function renderVersionInfo() {
   if (!elements.versionInfo || !state.relicData) return;
   if (state.catfall) {
-    elements.versionInfo.textContent = state.lang === "zh" ? "猫坠版本：2026/08/19" : "Catfall version: 2026/08/19";
+    const modVersion = state.relicData.modVersion || "unknown";
+    elements.versionInfo.textContent = state.lang === "zh" ? `猫坠版本：${modVersion}` : `Catfall version: ${modVersion}`;
     return;
   }
   const modVersion = state.relicData.modVersion || "unknown";
@@ -1434,8 +1435,8 @@ async function init() {
   applyI18nText();
 
   const [relicRes, cardRes] = await Promise.all([
-    fetch(`${state.catfall ? "data/catfall-relics.json" : "data/relics.json"}?v=20260921-1`),
-    fetch(`${state.catfall ? "data/catfall-cards.json" : "data/cards.json"}?v=20260921-1`),
+    fetch(`${state.catfall ? "data/catfall-relics.json" : "data/relics.json"}?v=20260921-2`),
+    fetch(`${state.catfall ? "data/catfall-cards.json" : "data/cards.json"}?v=20260921-2`),
   ]);
 
   if (!relicRes.ok) throw new Error(`Failed to load relic data: ${relicRes.status}`);
