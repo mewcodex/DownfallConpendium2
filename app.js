@@ -1,3 +1,5 @@
+const DEFAULT_PAGE_SIZE = 12;
+
 const state = {
   data: null,
   keywordByLang: {
@@ -32,7 +34,7 @@ const state = {
   },
   search: "",
   page: 1,
-  pageSize: 24,
+  pageSize: DEFAULT_PAGE_SIZE,
   suppressNextCardAnimation: false,
   filteredSorted: [],
   translatorMode: false,
@@ -2168,7 +2170,7 @@ function buildOptions() {
   state.filters.deprecated = elements.deprecatedFilter.value;
   state.sort.by = elements.sortBy.value;
   state.sort.dir = elements.sortDir.value || "asc";
-  state.pageSize = Number(elements.pageSize.value) || 24;
+  state.pageSize = Number(elements.pageSize.value) || DEFAULT_PAGE_SIZE;
 }
 
 function readStateFromUrl() {
@@ -2245,7 +2247,7 @@ function writeStateToUrl() {
   if (state.sort.dir === "desc") params.set("sortDir", "desc");
   if (state.translatorMode) params.set("translator_mode", "1");
   if (state.catfall) params.set("catfall", "1");
-  if (state.pageSize !== 24) params.set("size", String(state.pageSize));
+  if (state.pageSize !== DEFAULT_PAGE_SIZE) params.set("size", String(state.pageSize));
   if (state.page > 1) params.set("page", String(state.page));
 
   const query = params.toString();
@@ -2328,8 +2330,6 @@ function getCardGridColumns() {
 
 function syncCardPageCapacity() {
   syncTranslatorGridLayout();
-  state.pageSize = getCardGridColumns() * 6;
-  elements.pageSize.value = String(state.pageSize);
 }
 
 function waitForInitialLayout() {
@@ -2564,7 +2564,7 @@ async function init() {
     initialParams.set("lang", "zh");
     initialParams.delete("translator_mode");
   }
-  const response = await fetch(`${state.catfall ? "data/catfall-cards.json" : "data/cards.json"}?v=20260823-3`);
+  const response = await fetch(`${state.catfall ? "data/catfall-cards.json" : "data/cards.json"}?v=20260921-1`);
   if (!response.ok) {
     elements.summary.textContent = "Missing data/cards.json. Run the pipeline first.";
     return;

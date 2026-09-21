@@ -1434,8 +1434,8 @@ async function init() {
   applyI18nText();
 
   const [relicRes, cardRes] = await Promise.all([
-    fetch(`${state.catfall ? "data/catfall-relics.json" : "data/relics.json"}?v=20260823-3`),
-    fetch(`${state.catfall ? "data/catfall-cards.json" : "data/cards.json"}?v=20260823-3`),
+    fetch(`${state.catfall ? "data/catfall-relics.json" : "data/relics.json"}?v=20260921-1`),
+    fetch(`${state.catfall ? "data/catfall-cards.json" : "data/cards.json"}?v=20260921-1`),
   ]);
 
   if (!relicRes.ok) throw new Error(`Failed to load relic data: ${relicRes.status}`);
