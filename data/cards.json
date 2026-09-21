@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-21T01:23:53.724813Z",
+  "generatedAt": "2026-09-21T02:20:52.882605Z",
   "modVersion": "0.1.19",
   "translationVersion": "bundled",
   "translationSource": "bundled",
@@ -3683,10 +3683,10 @@
       },
       "type": "STATUS",
       "rarity": "STATUS",
-      "color": "AUTOMATON",
+      "color": "COLORLESS",
       "colorName": {
-        "en": "The Automaton",
-        "zh": "铜制机械人偶"
+        "en": "Colorless",
+        "zh": "无色"
       },
       "cost": 1,
       "upgradeCost": null,
@@ -31395,10 +31395,10 @@
       },
       "type": "STATUS",
       "rarity": "STATUS",
-      "color": "COLLECTOR",
+      "color": "COLORLESS",
       "colorName": {
-        "en": "The Collector",
-        "zh": "收藏家"
+        "en": "Colorless",
+        "zh": "无色"
       },
       "cost": -1,
       "upgradeCost": null,

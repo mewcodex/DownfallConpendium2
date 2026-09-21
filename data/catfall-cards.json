@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-21T02:13:43.764427Z",
+  "generatedAt": "2026-09-21T02:21:26.555999Z",
   "modVersion": "catfall2 1.0 + Downfall 0.1.15",
   "translationVersion": "bundled",
   "translationSource": "bundled",
@@ -1472,11 +1472,11 @@
         "zh": []
       },
       "type": "ATTACK",
-      "rarity": "STATUS",
-      "color": "AUTOMATON",
+      "rarity": "TOKEN",
+      "color": "COLORLESS",
       "colorName": {
-        "en": "The Automaton",
-        "zh": "铜制机械人偶"
+        "en": "Colorless",
+        "zh": "无色"
       },
       "cost": 1,
       "upgradeCost": null,
@@ -1551,11 +1551,11 @@
         "zh": []
       },
       "type": "SKILL",
-      "rarity": "STATUS",
-      "color": "AUTOMATON",
+      "rarity": "TOKEN",
+      "color": "COLORLESS",
       "colorName": {
-        "en": "The Automaton",
-        "zh": "铜制机械人偶"
+        "en": "Colorless",
+        "zh": "无色"
       },
       "cost": 1,
       "upgradeCost": null,
@@ -2500,10 +2500,10 @@
       },
       "type": "SKILL",
       "rarity": "TOKEN",
-      "color": "AUTOMATON",
+      "color": "COLORLESS",
       "colorName": {
-        "en": "The Automaton",
-        "zh": "铜制机械人偶"
+        "en": "Colorless",
+        "zh": "无色"
       },
       "cost": 1,
       "upgradeCost": null,
@@ -3443,11 +3443,11 @@
         "zh": []
       },
       "type": "STATUS",
-      "rarity": "TOKEN",
-      "color": "AUTOMATON",
+      "rarity": "STATUS",
+      "color": "COLORLESS",
       "colorName": {
-        "en": "The Automaton",
-        "zh": "铜制机械人偶"
+        "en": "Colorless",
+        "zh": "无色"
       },
       "cost": 1,
       "upgradeCost": null,
@@ -4837,11 +4837,11 @@
         "zh": []
       },
       "type": "SKILL",
-      "rarity": "STATUS",
-      "color": "AUTOMATON",
+      "rarity": "TOKEN",
+      "color": "COLORLESS",
       "colorName": {
-        "en": "The Automaton",
-        "zh": "铜制机械人偶"
+        "en": "Colorless",
+        "zh": "无色"
       },
       "cost": 1,
       "upgradeCost": null,
@@ -5946,11 +5946,11 @@
         "zh": []
       },
       "type": "ATTACK",
-      "rarity": "STATUS",
-      "color": "AUTOMATON",
+      "rarity": "TOKEN",
+      "color": "COLORLESS",
       "colorName": {
-        "en": "The Automaton",
-        "zh": "铜制机械人偶"
+        "en": "Colorless",
+        "zh": "无色"
       },
       "cost": 0,
       "upgradeCost": null,
@@ -7829,10 +7829,10 @@
       },
       "type": "ATTACK",
       "rarity": "TOKEN",
-      "color": "AUTOMATON",
+      "color": "COLORLESS",
       "colorName": {
-        "en": "The Automaton",
-        "zh": "铜制机械人偶"
+        "en": "Colorless",
+        "zh": "无色"
       },
       "cost": 1,
       "upgradeCost": null,
@@ -8513,11 +8513,11 @@
         "zh": []
       },
       "type": "SKILL",
-      "rarity": "STATUS",
-      "color": "AUTOMATON",
+      "rarity": "TOKEN",
+      "color": "COLORLESS",
       "colorName": {
-        "en": "The Automaton",
-        "zh": "铜制机械人偶"
+        "en": "Colorless",
+        "zh": "无色"
       },
       "cost": 1,
       "upgradeCost": null,
@@ -10165,10 +10165,10 @@
       },
       "type": "SKILL",
       "rarity": "TOKEN",
-      "color": "AWAKENED",
+      "color": "COLORLESS",
       "colorName": {
-        "en": "The Awakened",
-        "zh": "觉醒者"
+        "en": "Colorless",
+        "zh": "无色"
       },
       "cost": 1,
       "upgradeCost": null,
@@ -10457,11 +10457,11 @@
         "zh": []
       },
       "type": "POWER",
-      "rarity": "STATUS",
-      "color": "AWAKENED",
+      "rarity": "TOKEN",
+      "color": "COLORLESS",
       "colorName": {
-        "en": "The Awakened",
-        "zh": "觉醒者"
+        "en": "Colorless",
+        "zh": "无色"
       },
       "cost": 0,
       "upgradeCost": null,
@@ -10783,11 +10783,11 @@
         "zh": []
       },
       "type": "ATTACK",
-      "rarity": "STATUS",
-      "color": "AWAKENED",
+      "rarity": "TOKEN",
+      "color": "COLORLESS",
       "colorName": {
-        "en": "The Awakened",
-        "zh": "觉醒者"
+        "en": "Colorless",
+        "zh": "无色"
       },
       "cost": 5,
       "upgradeCost": null,
@@ -10857,10 +10857,10 @@
       },
       "type": "SKILL",
       "rarity": "TOKEN",
-      "color": "AWAKENED",
+      "color": "COLORLESS",
       "colorName": {
-        "en": "The Awakened",
-        "zh": "觉醒者"
+        "en": "Colorless",
+        "zh": "无色"
       },
       "cost": 1,
       "upgradeCost": null,
@@ -10938,11 +10938,11 @@
         "zh": []
       },
       "type": "POWER",
-      "rarity": "STATUS",
-      "color": "AWAKENED",
+      "rarity": "TOKEN",
+      "color": "COLORLESS",
       "colorName": {
-        "en": "The Awakened",
-        "zh": "觉醒者"
+        "en": "Colorless",
+        "zh": "无色"
       },
       "cost": 2,
       "upgradeCost": null,
@@ -11018,10 +11018,10 @@
       },
       "type": "SKILL",
       "rarity": "TOKEN",
-      "color": "AWAKENED",
+      "color": "COLORLESS",
       "colorName": {
-        "en": "The Awakened",
-        "zh": "觉醒者"
+        "en": "Colorless",
+        "zh": "无色"
       },
       "cost": 1,
       "upgradeCost": null,
@@ -12086,10 +12086,10 @@
       },
       "type": "SKILL",
       "rarity": "TOKEN",
-      "color": "AWAKENED",
+      "color": "COLORLESS",
       "colorName": {
-        "en": "The Awakened",
-        "zh": "觉醒者"
+        "en": "Colorless",
+        "zh": "无色"
       },
       "cost": 0,
       "upgradeCost": null,
@@ -12296,10 +12296,10 @@
       },
       "type": "SKILL",
       "rarity": "TOKEN",
-      "color": "AWAKENED",
+      "color": "COLORLESS",
       "colorName": {
-        "en": "The Awakened",
-        "zh": "觉醒者"
+        "en": "Colorless",
+        "zh": "无色"
       },
       "cost": 0,
       "upgradeCost": null,
@@ -13749,10 +13749,10 @@
       },
       "type": "SKILL",
       "rarity": "TOKEN",
-      "color": "AWAKENED",
+      "color": "COLORLESS",
       "colorName": {
-        "en": "The Awakened",
-        "zh": "觉醒者"
+        "en": "Colorless",
+        "zh": "无色"
       },
       "cost": 2,
       "upgradeCost": null,
@@ -13827,11 +13827,11 @@
         "zh": []
       },
       "type": "SKILL",
-      "rarity": "STATUS",
-      "color": "AWAKENED",
+      "rarity": "TOKEN",
+      "color": "COLORLESS",
       "colorName": {
-        "en": "The Awakened",
-        "zh": "觉醒者"
+        "en": "Colorless",
+        "zh": "无色"
       },
       "cost": 1,
       "upgradeCost": null,
@@ -13957,11 +13957,11 @@
         "zh": []
       },
       "type": "ATTACK",
-      "rarity": "STATUS",
-      "color": "AWAKENED",
+      "rarity": "TOKEN",
+      "color": "COLORLESS",
       "colorName": {
-        "en": "The Awakened",
-        "zh": "觉醒者"
+        "en": "Colorless",
+        "zh": "无色"
       },
       "cost": 2,
       "upgradeCost": null,
@@ -14639,11 +14639,11 @@
         "zh": []
       },
       "type": "ATTACK",
-      "rarity": "STATUS",
-      "color": "AWAKENED",
+      "rarity": "TOKEN",
+      "color": "COLORLESS",
       "colorName": {
-        "en": "The Awakened",
-        "zh": "觉醒者"
+        "en": "Colorless",
+        "zh": "无色"
       },
       "cost": 0,
       "upgradeCost": null,
@@ -15472,11 +15472,11 @@
         "zh": []
       },
       "type": "SKILL",
-      "rarity": "STATUS",
-      "color": "AWAKENED",
+      "rarity": "TOKEN",
+      "color": "COLORLESS",
       "colorName": {
-        "en": "The Awakened",
-        "zh": "觉醒者"
+        "en": "Colorless",
+        "zh": "无色"
       },
       "cost": 1,
       "upgradeCost": null,
@@ -15647,10 +15647,10 @@
       },
       "type": "SKILL",
       "rarity": "TOKEN",
-      "color": "AWAKENED",
+      "color": "COLORLESS",
       "colorName": {
-        "en": "The Awakened",
-        "zh": "觉醒者"
+        "en": "Colorless",
+        "zh": "无色"
       },
       "cost": 0,
       "upgradeCost": null,
@@ -16520,11 +16520,11 @@
         "zh": []
       },
       "type": "POWER",
-      "rarity": "STATUS",
-      "color": "AWAKENED",
+      "rarity": "TOKEN",
+      "color": "COLORLESS",
       "colorName": {
-        "en": "The Awakened",
-        "zh": "觉醒者"
+        "en": "Colorless",
+        "zh": "无色"
       },
       "cost": 0,
       "upgradeCost": null,
@@ -17057,11 +17057,11 @@
         "zh": []
       },
       "type": "SKILL",
-      "rarity": "STATUS",
-      "color": "AWAKENED",
+      "rarity": "TOKEN",
+      "color": "COLORLESS",
       "colorName": {
-        "en": "The Awakened",
-        "zh": "觉醒者"
+        "en": "Colorless",
+        "zh": "无色"
       },
       "cost": 2,
       "upgradeCost": null,
@@ -17197,10 +17197,10 @@
       },
       "type": "ATTACK",
       "rarity": "TOKEN",
-      "color": "AWAKENED",
+      "color": "COLORLESS",
       "colorName": {
-        "en": "The Awakened",
-        "zh": "觉醒者"
+        "en": "Colorless",
+        "zh": "无色"
       },
       "cost": 1,
       "upgradeCost": null,
@@ -18746,11 +18746,11 @@
         "zh": []
       },
       "type": "SKILL",
-      "rarity": "STATUS",
-      "color": "GUARDIAN",
+      "rarity": "TOKEN",
+      "color": "COLORLESS",
       "colorName": {
-        "en": "The Guardian",
-        "zh": "守护者"
+        "en": "Colorless",
+        "zh": "无色"
       },
       "cost": 0,
       "upgradeCost": null,
@@ -19648,11 +19648,11 @@
         "zh": []
       },
       "type": "SKILL",
-      "rarity": "STATUS",
-      "color": "GUARDIAN",
+      "rarity": "TOKEN",
+      "color": "COLORLESS",
       "colorName": {
-        "en": "The Guardian",
-        "zh": "守护者"
+        "en": "Colorless",
+        "zh": "无色"
       },
       "cost": 0,
       "upgradeCost": null,
@@ -19745,11 +19745,11 @@
         "zh": []
       },
       "type": "SKILL",
-      "rarity": "STATUS",
-      "color": "GUARDIAN",
+      "rarity": "TOKEN",
+      "color": "COLORLESS",
       "colorName": {
-        "en": "The Guardian",
-        "zh": "守护者"
+        "en": "Colorless",
+        "zh": "无色"
       },
       "cost": 0,
       "upgradeCost": null,
@@ -21577,11 +21577,11 @@
         "zh": []
       },
       "type": "ATTACK",
-      "rarity": "STATUS",
-      "color": "GUARDIAN",
+      "rarity": "TOKEN",
+      "color": "COLORLESS",
       "colorName": {
-        "en": "The Guardian",
-        "zh": "守护者"
+        "en": "Colorless",
+        "zh": "无色"
       },
       "cost": 0,
       "upgradeCost": null,
@@ -21665,11 +21665,11 @@
         "zh": []
       },
       "type": "SKILL",
-      "rarity": "STATUS",
-      "color": "GUARDIAN",
+      "rarity": "TOKEN",
+      "color": "COLORLESS",
       "colorName": {
-        "en": "The Guardian",
-        "zh": "守护者"
+        "en": "Colorless",
+        "zh": "无色"
       },
       "cost": 0,
       "upgradeCost": null,
@@ -21753,11 +21753,11 @@
         "zh": []
       },
       "type": "SKILL",
-      "rarity": "STATUS",
-      "color": "GUARDIAN",
+      "rarity": "TOKEN",
+      "color": "COLORLESS",
       "colorName": {
-        "en": "The Guardian",
-        "zh": "守护者"
+        "en": "Colorless",
+        "zh": "无色"
       },
       "cost": 0,
       "upgradeCost": null,
@@ -21828,11 +21828,11 @@
         "zh": []
       },
       "type": "SKILL",
-      "rarity": "STATUS",
-      "color": "GUARDIAN",
+      "rarity": "TOKEN",
+      "color": "COLORLESS",
       "colorName": {
-        "en": "The Guardian",
-        "zh": "守护者"
+        "en": "Colorless",
+        "zh": "无色"
       },
       "cost": 0,
       "upgradeCost": null,
@@ -21923,11 +21923,11 @@
         "zh": []
       },
       "type": "ATTACK",
-      "rarity": "STATUS",
-      "color": "GUARDIAN",
+      "rarity": "TOKEN",
+      "color": "COLORLESS",
       "colorName": {
-        "en": "The Guardian",
-        "zh": "守护者"
+        "en": "Colorless",
+        "zh": "无色"
       },
       "cost": 0,
       "upgradeCost": null,
@@ -21998,11 +21998,11 @@
         "zh": []
       },
       "type": "SKILL",
-      "rarity": "STATUS",
-      "color": "GUARDIAN",
+      "rarity": "TOKEN",
+      "color": "COLORLESS",
       "colorName": {
-        "en": "The Guardian",
-        "zh": "守护者"
+        "en": "Colorless",
+        "zh": "无色"
       },
       "cost": 0,
       "upgradeCost": null,
@@ -22075,11 +22075,11 @@
         "zh": []
       },
       "type": "ATTACK",
-      "rarity": "STATUS",
-      "color": "GUARDIAN",
+      "rarity": "TOKEN",
+      "color": "COLORLESS",
       "colorName": {
-        "en": "The Guardian",
-        "zh": "守护者"
+        "en": "Colorless",
+        "zh": "无色"
       },
       "cost": 0,
       "upgradeCost": null,
@@ -23518,11 +23518,11 @@
         "zh": []
       },
       "type": "SKILL",
-      "rarity": "STATUS",
-      "color": "GUARDIAN",
+      "rarity": "TOKEN",
+      "color": "COLORLESS",
       "colorName": {
-        "en": "The Guardian",
-        "zh": "守护者"
+        "en": "Colorless",
+        "zh": "无色"
       },
       "cost": 0,
       "upgradeCost": null,
@@ -31578,11 +31578,11 @@
         "zh": []
       },
       "type": "ATTACK",
-      "rarity": "STATUS",
-      "color": "CHAMP",
+      "rarity": "TOKEN",
+      "color": "COLORLESS",
       "colorName": {
-        "en": "The Champ",
-        "zh": "第一勇士"
+        "en": "Colorless",
+        "zh": "无色"
       },
       "cost": 0,
       "upgradeCost": null,
@@ -32491,11 +32491,11 @@
         "zh": []
       },
       "type": "SKILL",
-      "rarity": "STATUS",
-      "color": "CHAMP",
+      "rarity": "TOKEN",
+      "color": "COLORLESS",
       "colorName": {
-        "en": "The Champ",
-        "zh": "第一勇士"
+        "en": "Colorless",
+        "zh": "无色"
       },
       "cost": -1,
       "upgradeCost": null,
@@ -32551,11 +32551,11 @@
         "zh": []
       },
       "type": "SKILL",
-      "rarity": "STATUS",
-      "color": "CHAMP",
+      "rarity": "TOKEN",
+      "color": "COLORLESS",
       "colorName": {
-        "en": "The Champ",
-        "zh": "第一勇士"
+        "en": "Colorless",
+        "zh": "无色"
       },
       "cost": -1,
       "upgradeCost": null,
@@ -34035,11 +34035,11 @@
         "zh": []
       },
       "type": "SKILL",
-      "rarity": "STATUS",
-      "color": "COLLECTOR",
+      "rarity": "TOKEN",
+      "color": "COLORLESS",
       "colorName": {
-        "en": "The Collector",
-        "zh": "收藏家"
+        "en": "Colorless",
+        "zh": "无色"
       },
       "cost": 1,
       "upgradeCost": null,
@@ -34408,11 +34408,11 @@
         "zh": []
       },
       "type": "ATTACK",
-      "rarity": "STATUS",
-      "color": "COLLECTOR",
+      "rarity": "TOKEN",
+      "color": "COLORLESS",
       "colorName": {
-        "en": "The Collector",
-        "zh": "收藏家"
+        "en": "Colorless",
+        "zh": "无色"
       },
       "cost": 0,
       "upgradeCost": null,
@@ -34514,11 +34514,11 @@
         "zh": []
       },
       "type": "SKILL",
-      "rarity": "STATUS",
-      "color": "COLLECTOR",
+      "rarity": "TOKEN",
+      "color": "COLORLESS",
       "colorName": {
-        "en": "The Collector",
-        "zh": "收藏家"
+        "en": "Colorless",
+        "zh": "无色"
       },
       "cost": 0,
       "upgradeCost": null,
@@ -34855,11 +34855,11 @@
         "zh": []
       },
       "type": "ATTACK",
-      "rarity": "STATUS",
-      "color": "COLLECTOR",
+      "rarity": "TOKEN",
+      "color": "COLORLESS",
       "colorName": {
-        "en": "The Collector",
-        "zh": "收藏家"
+        "en": "Colorless",
+        "zh": "无色"
       },
       "cost": 1,
       "upgradeCost": null,
@@ -35986,11 +35986,11 @@
         "zh": []
       },
       "type": "SKILL",
-      "rarity": "STATUS",
-      "color": "COLLECTOR",
+      "rarity": "TOKEN",
+      "color": "COLORLESS",
       "colorName": {
-        "en": "The Collector",
-        "zh": "收藏家"
+        "en": "Colorless",
+        "zh": "无色"
       },
       "cost": 1,
       "upgradeCost": null,
@@ -37021,11 +37021,11 @@
         "zh": []
       },
       "type": "ATTACK",
-      "rarity": "STATUS",
-      "color": "COLLECTOR",
+      "rarity": "TOKEN",
+      "color": "COLORLESS",
       "colorName": {
-        "en": "The Collector",
-        "zh": "收藏家"
+        "en": "Colorless",
+        "zh": "无色"
       },
       "cost": 2,
       "upgradeCost": null,
@@ -37094,11 +37094,11 @@
         "zh": []
       },
       "type": "ATTACK",
-      "rarity": "STATUS",
-      "color": "COLLECTOR",
+      "rarity": "TOKEN",
+      "color": "COLORLESS",
       "colorName": {
-        "en": "The Collector",
-        "zh": "收藏家"
+        "en": "Colorless",
+        "zh": "无色"
       },
       "cost": 3,
       "upgradeCost": null,
@@ -38241,11 +38241,11 @@
         "zh": []
       },
       "type": "ATTACK",
-      "rarity": "STATUS",
-      "color": "COLLECTOR",
+      "rarity": "TOKEN",
+      "color": "COLORLESS",
       "colorName": {
-        "en": "The Collector",
-        "zh": "收藏家"
+        "en": "Colorless",
+        "zh": "无色"
       },
       "cost": 0,
       "upgradeCost": null,
@@ -40569,11 +40569,11 @@
         "zh": []
       },
       "type": "SKILL",
-      "rarity": "STATUS",
-      "color": "COLLECTOR",
+      "rarity": "TOKEN",
+      "color": "COLORLESS",
       "colorName": {
-        "en": "The Collector",
-        "zh": "收藏家"
+        "en": "Colorless",
+        "zh": "无色"
       },
       "cost": 0,
       "upgradeCost": null,
@@ -49140,11 +49140,11 @@
         "zh": []
       },
       "type": "SKILL",
-      "rarity": "STATUS",
-      "color": "HEXAGHOST",
+      "rarity": "TOKEN",
+      "color": "COLORLESS",
       "colorName": {
-        "en": "The Hexaghost",
-        "zh": "六火亡魂"
+        "en": "Colorless",
+        "zh": "无色"
       },
       "cost": -1,
       "upgradeCost": null,
@@ -51207,10 +51207,10 @@
       },
       "type": "SKILL",
       "rarity": "TOKEN",
-      "color": "HEXAGHOST",
+      "color": "COLORLESS",
       "colorName": {
-        "en": "The Hexaghost",
-        "zh": "六火亡魂"
+        "en": "Colorless",
+        "zh": "无色"
       },
       "cost": -1,
       "upgradeCost": null,
@@ -51681,10 +51681,10 @@
       },
       "type": "SKILL",
       "rarity": "TOKEN",
-      "color": "HEXAGHOST",
+      "color": "COLORLESS",
       "colorName": {
-        "en": "The Hexaghost",
-        "zh": "六火亡魂"
+        "en": "Colorless",
+        "zh": "无色"
       },
       "cost": -1,
       "upgradeCost": null,
@@ -51756,10 +51756,10 @@
       },
       "type": "SKILL",
       "rarity": "TOKEN",
-      "color": "HEXAGHOST",
+      "color": "COLORLESS",
       "colorName": {
-        "en": "The Hexaghost",
-        "zh": "六火亡魂"
+        "en": "Colorless",
+        "zh": "无色"
       },
       "cost": -1,
       "upgradeCost": null,
@@ -55599,11 +55599,11 @@
         "zh": []
       },
       "type": "SKILL",
-      "rarity": "STATUS",
-      "color": "HEXAGHOST",
+      "rarity": "TOKEN",
+      "color": "COLORLESS",
       "colorName": {
-        "en": "The Hexaghost",
-        "zh": "六火亡魂"
+        "en": "Colorless",
+        "zh": "无色"
       },
       "cost": 0,
       "upgradeCost": null,
@@ -55681,11 +55681,11 @@
         "zh": []
       },
       "type": "ATTACK",
-      "rarity": "STATUS",
-      "color": "HEXAGHOST",
+      "rarity": "TOKEN",
+      "color": "COLORLESS",
       "colorName": {
-        "en": "The Hexaghost",
-        "zh": "六火亡魂"
+        "en": "Colorless",
+        "zh": "无色"
       },
       "cost": 0,
       "upgradeCost": null,
@@ -60088,10 +60088,10 @@
       },
       "type": "SKILL",
       "rarity": "TOKEN",
-      "color": "SLIMEBOUND",
+      "color": "COLORLESS",
       "colorName": {
-        "en": "The Slime Boss",
-        "zh": "史莱姆老大"
+        "en": "Colorless",
+        "zh": "无色"
       },
       "cost": 0,
       "upgradeCost": null,
@@ -62770,11 +62770,11 @@
         "zh": []
       },
       "type": "ATTACK",
-      "rarity": "STATUS",
-      "color": "SLIMEBOUND",
+      "rarity": "TOKEN",
+      "color": "COLORLESS",
       "colorName": {
-        "en": "The Slime Boss",
-        "zh": "史莱姆老大"
+        "en": "Colorless",
+        "zh": "无色"
       },
       "cost": 4,
       "upgradeCost": null,
@@ -71478,11 +71478,11 @@
         "zh": []
       },
       "type": "POWER",
-      "rarity": "STATUS",
-      "color": "SNECKO",
+      "rarity": "TOKEN",
+      "color": "COLORLESS",
       "colorName": {
-        "en": "The Snecko",
-        "zh": "异蛇"
+        "en": "Colorless",
+        "zh": "无色"
       },
       "cost": 0,
       "upgradeCost": null,

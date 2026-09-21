@@ -2565,7 +2565,7 @@ async function init() {
     initialParams.set("lang", "zh");
     initialParams.delete("translator_mode");
   }
-  const response = await fetch(`${state.catfall ? "data/catfall-cards.json" : "data/cards.json"}?v=20260921-3`);
+  const response = await fetch(`${state.catfall ? "data/catfall-cards.json" : "data/cards.json"}?v=20260921-4`);
   if (!response.ok) {
     elements.summary.textContent = "Missing data/cards.json. Run the pipeline first.";
     return;
