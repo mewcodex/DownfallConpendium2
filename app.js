@@ -1,4 +1,4 @@
-const DEFAULT_PAGE_SIZE = 12;
+const DEFAULT_PAGE_SIZE = 20;
 
 const state = {
   data: null,
@@ -2148,10 +2148,10 @@ function buildOptions() {
     { value: "desc", label: i18n("sortDirDesc") },
   ]);
   buildSelect(elements.pageSize, [
-    { value: "12", label: "12" },
-    { value: "24", label: "24" },
-    { value: "48", label: "48" },
-    { value: "96", label: "96" },
+    { value: "20", label: "20" },
+    { value: "40", label: "40" },
+    { value: "80", label: "80" },
+    { value: "100", label: "100" },
   ]);
 
   elements.typeFilter.value = state.filters.type;
@@ -2565,7 +2565,7 @@ async function init() {
     initialParams.set("lang", "zh");
     initialParams.delete("translator_mode");
   }
-  const response = await fetch(`${state.catfall ? "data/catfall-cards.json" : "data/cards.json"}?v=20260921-2`);
+  const response = await fetch(`${state.catfall ? "data/catfall-cards.json" : "data/cards.json"}?v=20260921-3`);
   if (!response.ok) {
     elements.summary.textContent = "Missing data/cards.json. Run the pipeline first.";
     return;

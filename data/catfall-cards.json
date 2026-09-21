@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-21T02:00:24.972258Z",
+  "generatedAt": "2026-09-21T02:13:43.764427Z",
   "modVersion": "catfall2 1.0 + Downfall 0.1.15",
   "translationVersion": "bundled",
   "translationSource": "bundled",
@@ -2724,14 +2724,6 @@
             "en": "Exhaust.",
             "zh": "消耗。"
           }
-        },
-        {
-          "mode": "always",
-          "style": null,
-          "label": {
-            "en": "Exhaust.",
-            "zh": "消耗。"
-          }
         }
       ],
       "dynamicDescriptionLines": [],
@@ -3679,14 +3671,6 @@
             "en": "Exhaust.",
             "zh": "消耗。"
           }
-        },
-        {
-          "mode": "always",
-          "style": null,
-          "label": {
-            "en": "Exhaust.",
-            "zh": "消耗。"
-          }
         }
       ],
       "dynamicDescriptionLines": [],
@@ -3765,14 +3749,6 @@
       "descriptionKeywordPrefix": [
         {
           "mode": "add",
-          "style": null,
-          "label": {
-            "en": "Retain.",
-            "zh": "保留。"
-          }
-        },
-        {
-          "mode": "always",
           "style": null,
           "label": {
             "en": "Retain.",
@@ -6096,14 +6072,6 @@
             "en": "Retain.",
             "zh": "保留。"
           }
-        },
-        {
-          "mode": "always",
-          "style": null,
-          "label": {
-            "en": "Retain.",
-            "zh": "保留。"
-          }
         }
       ],
       "descriptionKeywordSuffix": [],
@@ -7829,14 +7797,6 @@
       "descriptionKeywordPrefix": [
         {
           "mode": "remove",
-          "style": null,
-          "label": {
-            "en": "Ethereal.",
-            "zh": "虚无。"
-          }
-        },
-        {
-          "mode": "always",
           "style": null,
           "label": {
             "en": "Ethereal.",
@@ -10110,14 +10070,6 @@
       "descriptionKeywordSuffix": [
         {
           "mode": "remove",
-          "style": null,
-          "label": {
-            "en": "Exhaust.",
-            "zh": "消耗。"
-          }
-        },
-        {
-          "mode": "always",
           "style": null,
           "label": {
             "en": "Exhaust.",
@@ -13544,14 +13496,6 @@
             "en": "Retain.",
             "zh": "保留。"
           }
-        },
-        {
-          "mode": "always",
-          "style": null,
-          "label": {
-            "en": "Retain.",
-            "zh": "保留。"
-          }
         }
       ],
       "descriptionKeywordSuffix": [],
@@ -14301,14 +14245,6 @@
             "en": "Retain.",
             "zh": "保留。"
           }
-        },
-        {
-          "mode": "always",
-          "style": null,
-          "label": {
-            "en": "Retain.",
-            "zh": "保留。"
-          }
         }
       ],
       "descriptionKeywordSuffix": [],
@@ -14904,7 +14840,7 @@
       "descriptionKeywordPrefix": [],
       "descriptionKeywordSuffix": [
         {
-          "mode": "always",
+          "mode": "remove",
           "style": null,
           "label": {
             "en": "Exhaust.",
@@ -25740,14 +25676,6 @@
             "en": "Retain.",
             "zh": "保留。"
           }
-        },
-        {
-          "mode": "always",
-          "style": null,
-          "label": {
-            "en": "Retain.",
-            "zh": "保留。"
-          }
         }
       ],
       "descriptionKeywordSuffix": [
@@ -27687,14 +27615,6 @@
             "en": "Ethereal.",
             "zh": "虚无。"
           }
-        },
-        {
-          "mode": "always",
-          "style": null,
-          "label": {
-            "en": "Ethereal.",
-            "zh": "虚无。"
-          }
         }
       ],
       "descriptionKeywordSuffix": [
@@ -28996,14 +28916,6 @@
             "en": "Ethereal.",
             "zh": "虚无。"
           }
-        },
-        {
-          "mode": "always",
-          "style": null,
-          "label": {
-            "en": "Ethereal.",
-            "zh": "虚无。"
-          }
         }
       ],
       "descriptionKeywordSuffix": [],
@@ -29804,14 +29716,6 @@
             "en": "Ethereal.",
             "zh": "虚无。"
           }
-        },
-        {
-          "mode": "always",
-          "style": null,
-          "label": {
-            "en": "Ethereal.",
-            "zh": "虚无。"
-          }
         }
       ],
       "descriptionKeywordSuffix": [
@@ -30123,14 +30027,6 @@
       "descriptionKeywordPrefix": [
         {
           "mode": "remove",
-          "style": null,
-          "label": {
-            "en": "Ethereal.",
-            "zh": "虚无。"
-          }
-        },
-        {
-          "mode": "always",
           "style": null,
           "label": {
             "en": "Ethereal.",
@@ -31463,14 +31359,6 @@
       "descriptionKeywordSuffix": [
         {
           "mode": "remove",
-          "style": null,
-          "label": {
-            "en": "Exhaust.",
-            "zh": "消耗。"
-          }
-        },
-        {
-          "mode": "always",
           "style": null,
           "label": {
             "en": "Exhaust.",
@@ -33953,14 +33841,6 @@
             "en": "Retain.",
             "zh": "保留。"
           }
-        },
-        {
-          "mode": "always",
-          "style": null,
-          "label": {
-            "en": "Retain.",
-            "zh": "保留。"
-          }
         }
       ],
       "descriptionKeywordSuffix": [
@@ -35595,14 +35475,6 @@
           "label": {
             "en": "Unplayable.",
             "zh": "不能被打出。"
-          }
-        },
-        {
-          "mode": "always",
-          "style": null,
-          "label": {
-            "en": "Retain.",
-            "zh": "保留。"
           }
         }
       ],
@@ -37961,14 +37833,6 @@
         },
         {
           "mode": "add",
-          "style": null,
-          "label": {
-            "en": "Retain.",
-            "zh": "保留。"
-          }
-        },
-        {
-          "mode": "always",
           "style": null,
           "label": {
             "en": "Retain.",
@@ -42915,14 +42779,6 @@
             "en": "Innate.",
             "zh": "固有。"
           }
-        },
-        {
-          "mode": "always",
-          "style": null,
-          "label": {
-            "en": "Innate.",
-            "zh": "固有。"
-          }
         }
       ],
       "descriptionKeywordSuffix": [],
@@ -43266,14 +43122,6 @@
             "en": "Ethereal.",
             "zh": "虚无。"
           }
-        },
-        {
-          "mode": "always",
-          "style": null,
-          "label": {
-            "en": "Ethereal.",
-            "zh": "虚无。"
-          }
         }
       ],
       "descriptionKeywordSuffix": [],
@@ -43452,14 +43300,6 @@
       "descriptionKeywordPrefix": [
         {
           "mode": "add",
-          "style": null,
-          "label": {
-            "en": "Innate.",
-            "zh": "固有。"
-          }
-        },
-        {
-          "mode": "always",
           "style": null,
           "label": {
             "en": "Innate.",
@@ -43894,7 +43734,7 @@
       "attachedCardTips": [],
       "descriptionKeywordPrefix": [
         {
-          "mode": "always",
+          "mode": "add",
           "style": null,
           "label": {
             "en": "Innate.",
@@ -44063,14 +43903,6 @@
       "descriptionKeywordPrefix": [
         {
           "mode": "add",
-          "style": null,
-          "label": {
-            "en": "Retain.",
-            "zh": "保留。"
-          }
-        },
-        {
-          "mode": "always",
           "style": null,
           "label": {
             "en": "Retain.",
@@ -44399,14 +44231,6 @@
       "descriptionKeywordPrefix": [
         {
           "mode": "add",
-          "style": null,
-          "label": {
-            "en": "Retain.",
-            "zh": "保留。"
-          }
-        },
-        {
-          "mode": "always",
           "style": null,
           "label": {
             "en": "Retain.",
@@ -45545,7 +45369,7 @@
       "descriptionKeywordPrefix": [],
       "descriptionKeywordSuffix": [
         {
-          "mode": "always",
+          "mode": "remove",
           "style": null,
           "label": {
             "en": "Exhaust.",
@@ -47426,7 +47250,7 @@
       "attachedCardTips": [],
       "descriptionKeywordPrefix": [
         {
-          "mode": "always",
+          "mode": "add",
           "style": null,
           "label": {
             "en": "Retain.",
@@ -49276,14 +49100,6 @@
       "descriptionKeywordPrefix": [
         {
           "mode": "add",
-          "style": null,
-          "label": {
-            "en": "Retain.",
-            "zh": "保留。"
-          }
-        },
-        {
-          "mode": "always",
           "style": null,
           "label": {
             "en": "Retain.",
@@ -55625,14 +55441,6 @@
             "en": "Exhaust.",
             "zh": "消耗。"
           }
-        },
-        {
-          "mode": "always",
-          "style": null,
-          "label": {
-            "en": "Exhaust.",
-            "zh": "消耗。"
-          }
         }
       ],
       "dynamicDescriptionLines": [],
@@ -60818,14 +60626,6 @@
             "en": "Innate.",
             "zh": "固有。"
           }
-        },
-        {
-          "mode": "always",
-          "style": null,
-          "label": {
-            "en": "Innate.",
-            "zh": "固有。"
-          }
         }
       ],
       "descriptionKeywordSuffix": [],
@@ -64371,14 +64171,6 @@
             "en": "Exhaust.",
             "zh": "消耗。"
           }
-        },
-        {
-          "mode": "always",
-          "style": null,
-          "label": {
-            "en": "Exhaust.",
-            "zh": "消耗。"
-          }
         }
       ],
       "dynamicDescriptionLines": [],
@@ -66150,14 +65942,6 @@
             "en": "Ethereal.",
             "zh": "虚无。"
           }
-        },
-        {
-          "mode": "always",
-          "style": null,
-          "label": {
-            "en": "Ethereal.",
-            "zh": "虚无。"
-          }
         }
       ],
       "descriptionKeywordSuffix": [],
@@ -66255,14 +66039,6 @@
       "descriptionKeywordPrefix": [
         {
           "mode": "remove",
-          "style": null,
-          "label": {
-            "en": "Ethereal.",
-            "zh": "虚无。"
-          }
-        },
-        {
-          "mode": "always",
           "style": null,
           "label": {
             "en": "Ethereal.",
@@ -67732,19 +67508,11 @@
             "en": "Retain.",
             "zh": "保留。"
           }
-        },
-        {
-          "mode": "always",
-          "style": null,
-          "label": {
-            "en": "Retain.",
-            "zh": "保留。"
-          }
         }
       ],
       "descriptionKeywordSuffix": [
         {
-          "mode": "always",
+          "mode": "remove",
           "style": null,
           "label": {
             "en": "Exhaust.",
@@ -68706,14 +68474,6 @@
       "descriptionKeywordPrefix": [
         {
           "mode": "remove",
-          "style": null,
-          "label": {
-            "en": "Ethereal.",
-            "zh": "虚无。"
-          }
-        },
-        {
-          "mode": "always",
           "style": null,
           "label": {
             "en": "Ethereal.",
@@ -71309,7 +71069,7 @@
       "attachedCardTips": [],
       "descriptionKeywordPrefix": [
         {
-          "mode": "always",
+          "mode": "add",
           "style": null,
           "label": {
             "en": "Innate.",
@@ -71384,14 +71144,6 @@
       "descriptionKeywordSuffix": [
         {
           "mode": "remove",
-          "style": null,
-          "label": {
-            "en": "Exhaust.",
-            "zh": "消耗。"
-          }
-        },
-        {
-          "mode": "always",
           "style": null,
           "label": {
             "en": "Exhaust.",
@@ -71869,7 +71621,7 @@
       "attachedCardTips": [],
       "descriptionKeywordPrefix": [
         {
-          "mode": "always",
+          "mode": "add",
           "style": null,
           "label": {
             "en": "Innate.",
