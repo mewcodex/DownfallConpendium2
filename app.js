@@ -157,6 +157,12 @@ function renderVersionInfo() {
     return;
   }
   const modVersion = state.data.modVersion || "unknown";
+  if (state.data.translationSource === "bundled") {
+    elements.versionInfo.textContent = state.lang === "zh"
+      ? `Mod 版本：${modVersion} | 中文译文：Mod 内置`
+      : `Mod version: ${modVersion} | Chinese translation: bundled with the mod`;
+    return;
+  }
   const translationVersion = formatTranslationVersion(state.data.translationVersion);
   elements.versionInfo.textContent = state.lang === "zh"
     ? `Mod 版本：${modVersion} | 中文译文版本：${translationVersion}`

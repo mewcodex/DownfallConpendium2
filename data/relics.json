@@ -1,7 +1,8 @@
 {
-  "generatedAt": "2026-08-25T19:09:55.771429Z",
-  "modVersion": "0.1.15",
-  "translationVersion": "2026_08_25_10_00_32_c98d4c",
+  "generatedAt": "2026-09-21T01:23:53.724813Z",
+  "modVersion": "0.1.19",
+  "translationVersion": "bundled",
+  "translationSource": "bundled",
   "baseKeywords": [
     {
       "key": "ARTIFACT",
@@ -856,8 +857,8 @@
             "zh": "编码"
           },
           "description": {
-            "en": "Place this card into your [gold]Sequence[/gold].\nWhen it holds [blue]3[/blue] cards, their effects above this keyword are merged into a Function that costs [blue]1[/blue].",
-            "zh": "将此牌置入[gold]编码序列[/gold]。\n当[gold]编码序列[/gold]中拥有[blue]3[/blue]张牌时，这些牌的在[gold]编码[/gold]上方的效果将被合并为一个耗能为[blue]1[/blue]的[gold]方法[/gold]，并加入你的[gold]手牌[/gold]。"
+            "en": "Place this card into your [gold]Encode Orb[/gold]. At [blue]3[/blue] cards, merge their effects above this keyword into a [blue]1[/blue]-cost Function card.",
+            "zh": "将此牌置入[gold]编码序列[/gold]。\n当[gold]编码序列[/gold]中拥有[blue]3[/blue]张牌时，这些牌在[gold]编码[/gold]上方的效果将被合并为一个耗能为[blue]1[/blue]的[gold]方法[/gold]，并加入你的[gold]手牌[/gold]。"
           },
           "sourceValueKey": null
         }
@@ -872,7 +873,7 @@
         "zh": "铜制核心"
       },
       "description": {
-        "en": "Start each combat with an [gold]Encoded[/gold] [gold]Strike[/gold] and [gold]Defend[/gold].",
+        "en": "At the start of each combat, [gold]Encode[/gold] a [gold]Strike[/gold] and [gold]Defend[/gold].",
         "zh": "在每场战斗开始时，[gold]编码[/gold]一张[gold]打击[/gold]和[gold]防御[/gold]。"
       },
       "rarity": "STARTER",
@@ -897,8 +898,8 @@
             "zh": "编码"
           },
           "description": {
-            "en": "Place this card into your [gold]Sequence[/gold].\nWhen it holds [blue]3[/blue] cards, their effects above this keyword are merged into a Function that costs [blue]1[/blue].",
-            "zh": "将此牌置入[gold]编码序列[/gold]。\n当[gold]编码序列[/gold]中拥有[blue]3[/blue]张牌时，这些牌的在[gold]编码[/gold]上方的效果将被合并为一个耗能为[blue]1[/blue]的[gold]方法[/gold]，并加入你的[gold]手牌[/gold]。"
+            "en": "Place this card into your [gold]Encode Orb[/gold]. At [blue]3[/blue] cards, merge their effects above this keyword into a [blue]1[/blue]-cost Function card.",
+            "zh": "将此牌置入[gold]编码序列[/gold]。\n当[gold]编码序列[/gold]中拥有[blue]3[/blue]张牌时，这些牌在[gold]编码[/gold]上方的效果将被合并为一个耗能为[blue]1[/blue]的[gold]方法[/gold]，并加入你的[gold]手牌[/gold]。"
           },
           "sourceValueKey": null
         }
@@ -951,8 +952,8 @@
             "zh": "编码"
           },
           "description": {
-            "en": "Place this card into your [gold]Sequence[/gold].\nWhen it holds [blue]3[/blue] cards, their effects above this keyword are merged into a Function that costs [blue]1[/blue].",
-            "zh": "将此牌置入[gold]编码序列[/gold]。\n当[gold]编码序列[/gold]中拥有[blue]3[/blue]张牌时，这些牌的在[gold]编码[/gold]上方的效果将被合并为一个耗能为[blue]1[/blue]的[gold]方法[/gold]，并加入你的[gold]手牌[/gold]。"
+            "en": "Place this card into your [gold]Encode Orb[/gold]. At [blue]3[/blue] cards, merge their effects above this keyword into a [blue]1[/blue]-cost Function card.",
+            "zh": "将此牌置入[gold]编码序列[/gold]。\n当[gold]编码序列[/gold]中拥有[blue]3[/blue]张牌时，这些牌在[gold]编码[/gold]上方的效果将被合并为一个耗能为[blue]1[/blue]的[gold]方法[/gold]，并加入你的[gold]手牌[/gold]。"
           },
           "sourceValueKey": null
         }
@@ -1117,7 +1118,7 @@
             "zh": "暂存"
           },
           "description": {
-            "en": "Place a card inside of your [gold]Stash Pile[/gold], up to a maximum of [blue]5[/blue]. You draw the oldest card from it at the start of each turn.",
+            "en": "Place a card into your [gold]Stash Orb[/gold]. Holds up to [blue]5[/blue] cards.",
             "zh": "将一张牌放入[gold]暂存区[/gold]（最多[blue]5[/blue]张）。\n在每个回合开始时，你会从[gold]暂存区[/gold]顶部抽一张牌。"
           },
           "sourceValueKey": null
@@ -1133,8 +1134,8 @@
         "zh": "铂金核心"
       },
       "description": {
-        "en": "Start each combat with an [gold]Encoded[/gold] [gold]Strike[/gold] and [gold]Defend[/gold].\nAt the start of your turn, add a random card with [gold]Encode[/gold] to your [gold]Hand[/gold].",
-        "zh": "在每场战斗开始时，[gold]编码[/gold]一张[gold]打击[/gold]和一张[gold]防御[/gold]。\n在你的回合开始时，将一张随机[gold]编码[/gold]牌加入你的[gold]手牌[/gold]。"
+        "en": "Whenever you play a [gold]Strike[/gold] or [gold]Defend[/gold], [gold]Encode[/gold] it.\n[gold]Functions[/gold] made up of at least [blue]2[/blue] [gold]Basic[/gold] cards cost {energyPrefix:energyIcons(0)} until played.",
+        "zh": "每当你打出[gold]打击[/gold]或[gold]防御[/gold]时，将其编码。\n如果[gold]方法[/gold]包含至少[blue]2[/blue]张[gold]基础[/gold]牌，其直到打出前耗能为{energyPrefix:energyIcons(0)}。"
       },
       "rarity": "STARTER",
       "color": "AUTOMATON",
@@ -1158,8 +1159,8 @@
             "zh": "编码"
           },
           "description": {
-            "en": "Place this card into your [gold]Sequence[/gold].\nWhen it holds [blue]3[/blue] cards, their effects above this keyword are merged into a Function that costs [blue]1[/blue].",
-            "zh": "将此牌置入[gold]编码序列[/gold]。\n当[gold]编码序列[/gold]中拥有[blue]3[/blue]张牌时，这些牌的在[gold]编码[/gold]上方的效果将被合并为一个耗能为[blue]1[/blue]的[gold]方法[/gold]，并加入你的[gold]手牌[/gold]。"
+            "en": "Place this card into your [gold]Encode Orb[/gold]. At [blue]3[/blue] cards, merge their effects above this keyword into a [blue]1[/blue]-cost Function card.",
+            "zh": "将此牌置入[gold]编码序列[/gold]。\n当[gold]编码序列[/gold]中拥有[blue]3[/blue]张牌时，这些牌在[gold]编码[/gold]上方的效果将被合并为一个耗能为[blue]1[/blue]的[gold]方法[/gold]，并加入你的[gold]手牌[/gold]。"
           },
           "sourceValueKey": null
         }
@@ -1183,8 +1184,8 @@
         "zh": "护目镜"
       },
       "description": {
-        "en": "If you end your turn with no [gold]Encoded[/gold] cards, gain [blue]{Block:diff()}[/blue] [gold]Block[/gold].",
-        "zh": "在你的回合结束时，若[gold]编码[/gold]队列中没有牌，获得[blue]{Block:diff()}[/blue]点[gold]格挡[/gold]。"
+        "en": "At the end of your turn, gain [gold]Block[/gold] equal to the number of cards in your [gold]Stash Pile[/gold].",
+        "zh": "在你的回合结束时，[gold]暂存区[/gold]每有一张牌，就获得[blue]1[/blue]点[gold]格挡[/gold]。"
       },
       "rarity": "UNCOMMON",
       "color": "AUTOMATON",
@@ -1198,22 +1199,18 @@
       "img": "assets/relics/protectivegoggles.png",
       "imageResource": "",
       "deprecated": false,
-      "dynamicValues": {
-        "Block": 4
-      },
-      "upgradeDynamicValues": {
-        "Block": 4
-      },
+      "dynamicValues": {},
+      "upgradeDynamicValues": {},
       "attachedTips": [
         {
-          "id": "AUTOMATON-ENCODE",
+          "id": "AUTOMATON-STASH",
           "name": {
-            "en": "Encode",
-            "zh": "编码"
+            "en": "Stash",
+            "zh": "暂存"
           },
           "description": {
-            "en": "Place this card into your [gold]Sequence[/gold].\nWhen it holds [blue]3[/blue] cards, their effects above this keyword are merged into a Function that costs [blue]1[/blue].",
-            "zh": "将此牌置入[gold]编码序列[/gold]。\n当[gold]编码序列[/gold]中拥有[blue]3[/blue]张牌时，这些牌的在[gold]编码[/gold]上方的效果将被合并为一个耗能为[blue]1[/blue]的[gold]方法[/gold]，并加入你的[gold]手牌[/gold]。"
+            "en": "Place a card into your [gold]Stash Orb[/gold]. Holds up to [blue]5[/blue] cards.",
+            "zh": "将一张牌放入[gold]暂存区[/gold]（最多[blue]5[/blue]张）。\n在每个回合开始时，你会从[gold]暂存区[/gold]顶部抽一张牌。"
           },
           "sourceValueKey": null
         }
@@ -1341,7 +1338,7 @@
             "zh": "念咒"
           },
           "description": {
-            "en": "Create the next card from you Spellbook in your [gold]Hand[/gold].",
+            "en": "Add the next card from your Spellbook into your [gold]Hand[/gold].",
             "zh": "从法术书中将下一张法术牌加入你的[gold]手牌[/gold]。"
           },
           "sourceValueKey": null
@@ -1586,7 +1583,7 @@
             "zh": "念咒"
           },
           "description": {
-            "en": "Create the next card from you Spellbook in your [gold]Hand[/gold].",
+            "en": "Add the next card from your Spellbook into your [gold]Hand[/gold].",
             "zh": "从法术书中将下一张法术牌加入你的[gold]手牌[/gold]。"
           },
           "sourceValueKey": null
@@ -1602,8 +1599,8 @@
         "zh": "破碎的玩偶"
       },
       "description": {
-        "en": "At the start of your turn, [gold]Conjure[/gold].\nStart combat with [blue]{RitualPower:diff()}[/blue] [gold]Ritual[/gold].",
-        "zh": "在你的回合开始时，[gold]念咒[/gold]。\n在每场战斗开始时，获得[blue]{RitualPower:diff()}[/blue]层[gold]仪式[/gold]。"
+        "en": "At the start of your turn, [gold]Conjure[/gold].\nAt the start of each combat, gain [blue]{RitualPower:diff()}[/blue] [gold]Ritual[/gold].",
+        "zh": "At the start of your turn, [gold]Conjure[/gold].\nAt the start of each combat, gain [blue]{RitualPower:diff()}[/blue] [gold]Ritual[/gold]."
       },
       "rarity": "STARTER",
       "color": "AWAKENED",
@@ -1631,7 +1628,7 @@
             "zh": "念咒"
           },
           "description": {
-            "en": "Create the next card from you Spellbook in your [gold]Hand[/gold].",
+            "en": "Add the next card from your Spellbook into your [gold]Hand[/gold].",
             "zh": "从法术书中将下一张法术牌加入你的[gold]手牌[/gold]。"
           },
           "sourceValueKey": null
@@ -1787,7 +1784,12 @@
         "Cards": 4
       },
       "attachedTips": [],
-      "attachedCardTips": []
+      "attachedCardTips": [
+        {
+          "id": "AWAKENED-CEREMONY",
+          "upgraded": false
+        }
+      ]
     },
     {
       "id": "CHAMP-AMULET_OF_UNYIELDING",
@@ -1850,30 +1852,47 @@
     },
     {
       "id": "CHAMP-BERSERKERS_GUIDE",
-      "codeName": "",
+      "codeName": "BerserkersGuide",
       "name": {
         "en": "Berserker's Guide",
         "zh": "战狂指南"
       },
       "description": {
-        "en": "At the start of your turn, gain [blue]3[/blue] [gold]Vigor[/gold].",
-        "zh": "在你的回合开始时，获得[blue]3[/blue]点[gold]活力[/gold]。"
+        "en": "At the start of your turn, gain [blue]{VigorPower}[/blue] [gold]Vigor[/gold].",
+        "zh": "At the start of your turn, gain [blue]{VigorPower}[/blue] [gold]Vigor[/gold]."
       },
-      "rarity": "SPECIAL",
-      "color": "DOWNFALL",
+      "rarity": "COMMON",
+      "color": "CHAMP",
       "colorName": {
-        "en": "Downfall",
-        "zh": "崩坠"
+        "en": "The Champ",
+        "zh": "第一勇士"
       },
       "colorPillBg": null,
       "colorPillFg": null,
-      "energyIcon": null,
-      "img": null,
+      "energyIcon": "assets/energy-icons/champ.png",
+      "img": "assets/relics/berserkersguide.png",
       "imageResource": "",
       "deprecated": false,
-      "dynamicValues": {},
-      "upgradeDynamicValues": {},
-      "attachedTips": [],
+      "dynamicValues": {
+        "VigorPower": 3
+      },
+      "upgradeDynamicValues": {
+        "VigorPower": 3
+      },
+      "attachedTips": [
+        {
+          "id": "VIGOR_POWER",
+          "name": {
+            "en": "Vigor",
+            "zh": "活力"
+          },
+          "description": {
+            "en": "Your next Attack deals additional damage.",
+            "zh": "你的下一张攻击牌伤害增加。"
+          },
+          "sourceValueKey": "VigorPower"
+        }
+      ],
       "attachedCardTips": []
     },
     {
@@ -1942,7 +1961,7 @@
           },
           "description": {
             "en": "The bonus effect triggered by your current [gold]Stance[/gold] when you play a [gold]Skill[/gold].",
-            "zh": "The bonus effect triggered by your current [gold]Stance[/gold] when you play a [gold]Skill[/gold]."
+            "zh": "每当你打出一张技能牌时，触发当前[gold]姿态[/gold]的技术奖励。"
           },
           "sourceValueKey": null
         }
@@ -1957,8 +1976,8 @@
         "zh": "防守论纲"
       },
       "description": {
-        "en": "[gold]Defensive Stance[/gold]'s [gold]Finisher[/gold] Bonus grants [blue]3[/blue] more [gold]Block[/gold].",
-        "zh": "[gold]防守姿态[/gold]的[gold]终结技[/gold]额外给予[blue]3[/blue]点[gold]格挡[/gold]。"
+        "en": "[gold]Defensive Stance[/gold]'s [gold]Finisher[/gold] Bonus grants [blue]{Block}[/blue] additional [gold]Block[/gold].",
+        "zh": "[gold]Defensive Stance[/gold]'s [gold]Finisher[/gold] Bonus grants [blue]{Block}[/blue] additional [gold]Block[/gold]."
       },
       "rarity": "UNCOMMON",
       "color": "CHAMP",
@@ -1972,8 +1991,12 @@
       "img": "assets/relics/defensivethesis.png",
       "imageResource": "",
       "deprecated": false,
-      "dynamicValues": {},
-      "upgradeDynamicValues": {},
+      "dynamicValues": {
+        "Block": 3
+      },
+      "upgradeDynamicValues": {
+        "Block": 3
+      },
       "attachedTips": [
         {
           "id": "CHAMP-FINISHER",
@@ -1983,7 +2006,7 @@
           },
           "description": {
             "en": "Requires a [gold]Stance[/gold].\nAfter playing a Finisher, exit your [gold]Stance[/gold] and trigger its Finisher effect.",
-            "zh": "Requires a [gold]Stance[/gold].\nAfter playing a Finisher, exit your [gold]Stance[/gold] and trigger its Finisher effect."
+            "zh": "处于[gold]姿态[/gold]时才能打出。\n打出终结技后，退出当前[gold]姿态[/gold]并触发终结技效果。"
           },
           "sourceValueKey": null
         }
@@ -2131,8 +2154,8 @@
             "zh": "反击"
           },
           "description": {
-            "en": "The next time you take Attack damage, gain [gold]Riposte Strike[/gold] that deals damage equal to this amount.",
-            "zh": "下次你受到攻击伤害时，获得一张[gold]还击打击[/gold]，其伤害等同于你的反击层数。"
+            "en": "The next time you take Attack damage, gain [gold]Riposte[/gold] that deals damage equal to this amount.",
+            "zh": "下次你受到攻击伤害时，获得一张[gold]还击[/gold]，其伤害等同于你的反击层数。"
           },
           "sourceValueKey": "CounterPower"
         }
@@ -2173,7 +2196,7 @@
           },
           "description": {
             "en": "Requires a [gold]Stance[/gold].\nAfter playing a Finisher, exit your [gold]Stance[/gold] and trigger its Finisher effect.",
-            "zh": "Requires a [gold]Stance[/gold].\nAfter playing a Finisher, exit your [gold]Stance[/gold] and trigger its Finisher effect."
+            "zh": "处于[gold]姿态[/gold]时才能打出。\n打出终结技后，退出当前[gold]姿态[/gold]并触发终结技效果。"
           },
           "sourceValueKey": null
         }
@@ -2259,7 +2282,7 @@
           },
           "description": {
             "en": "The bonus effect triggered by your current [gold]Stance[/gold] when you play a [gold]Skill[/gold].",
-            "zh": "The bonus effect triggered by your current [gold]Stance[/gold] when you play a [gold]Skill[/gold]."
+            "zh": "每当你打出一张技能牌时，触发当前[gold]姿态[/gold]的技术奖励。"
           },
           "sourceValueKey": null
         },
@@ -2271,7 +2294,7 @@
           },
           "description": {
             "en": "Requires a [gold]Stance[/gold].\nAfter playing a Finisher, exit your [gold]Stance[/gold] and trigger its Finisher effect.",
-            "zh": "Requires a [gold]Stance[/gold].\nAfter playing a Finisher, exit your [gold]Stance[/gold] and trigger its Finisher effect."
+            "zh": "处于[gold]姿态[/gold]时才能打出。\n打出终结技后，退出当前[gold]姿态[/gold]并触发终结技效果。"
           },
           "sourceValueKey": null
         }
@@ -2280,30 +2303,73 @@
     },
     {
       "id": "COLLECTOR-BAG_OF_TRICKS",
-      "codeName": "",
+      "codeName": "BagOfTricks",
       "name": {
         "en": "Bag of Tricks",
         "zh": "诡计背包"
       },
       "description": {
-        "en": "At the start of each combat, draw [blue]2[/blue] Collected cards.",
-        "zh": "在每场战斗开始时，抽[blue]2[/blue]张藏品牌。"
+        "en": "The first [blue]{MaxUses}[/blue] times you [gold]Pyre[/gold] each combat, draw [blue]{Cards:diff()}[/blue] {Cards:plural:card|cards} next turn.",
+        "zh": "The first [blue]{MaxUses}[/blue] times you [gold]Pyre[/gold] each combat, draw [blue]{Cards:diff()}[/blue] {Cards:plural:card|cards} next turn."
       },
-      "rarity": "SPECIAL",
-      "color": "DOWNFALL",
+      "rarity": "COMMON",
+      "color": "COLLECTOR",
       "colorName": {
-        "en": "Downfall",
-        "zh": "崩坠"
+        "en": "The Collector",
+        "zh": "收藏家"
       },
       "colorPillBg": null,
       "colorPillFg": null,
-      "energyIcon": null,
-      "img": null,
+      "energyIcon": "assets/energy-icons/collector.png",
+      "img": "assets/relics/bagoftricks.png",
       "imageResource": "",
       "deprecated": false,
-      "dynamicValues": {},
-      "upgradeDynamicValues": {},
-      "attachedTips": [],
+      "dynamicValues": {
+        "Cards": 1,
+        "MaxUses": 3,
+        "UsesLeft": 3,
+        "DrawCardsNextTurnPower": 1,
+        "MaxUsesBase": 3,
+        "MaxUsesExtra": 1,
+        "UsesLeftBase": 3,
+        "UsesLeftExtra": 1
+      },
+      "upgradeDynamicValues": {
+        "Cards": 1,
+        "MaxUses": 3,
+        "UsesLeft": 3,
+        "DrawCardsNextTurnPower": 1,
+        "MaxUsesBase": 3,
+        "MaxUsesExtra": 1,
+        "UsesLeftBase": 3,
+        "UsesLeftExtra": 1
+      },
+      "attachedTips": [
+        {
+          "id": "COLLECTOR-PYRE",
+          "name": {
+            "en": "Pyre",
+            "zh": "焰葬"
+          },
+          "description": {
+            "en": "Requires [gold]Exhausting[/gold] a card in your [gold]Hand[/gold] to be played.",
+            "zh": "[gold]消耗[/gold]你[gold]手牌[/gold]中的一张牌后才能打出。"
+          },
+          "sourceValueKey": null
+        },
+        {
+          "id": "DRAW_CARDS_NEXT_TURN_POWER",
+          "name": {
+            "en": "Draw Cards Next Turn",
+            "zh": "下回合抽牌"
+          },
+          "description": {
+            "en": "At the start of your next turn, draw [blue]1[/blue] additional card.",
+            "zh": "在你的下回合开始时，额外抽[blue]1[/blue]张牌。"
+          },
+          "sourceValueKey": "DrawCardsNextTurnPower"
+        }
+      ],
       "attachedCardTips": []
     },
     {
@@ -2314,10 +2380,10 @@
         "zh": "魔能封印"
       },
       "description": {
-        "en": "Gain {Energy:energyIcons()} at the start of your turn. You don't draw from your Collected pile until your 4th turn.",
-        "zh": "在你的回合开始时，获得{Energy:energyIcons()}。直到第4回合才开始从藏品堆中抽牌。"
+        "en": "At the start of your turn, [gold]Kindle[/gold] [blue]{Kindle:diff()}[/blue].\nWhenever [gold]Torchhead[/gold] loses HP, you lose HP equal to a third of the amount lost.",
+        "zh": "在你的回合开始时，[gold]点灯[/gold][blue]{Kindle:diff()}[/blue]。\n每当[gold]火炬头[/gold]失去生命时，你失去等同于失去量1/3的生命值。"
       },
-      "rarity": "ANCIENT",
+      "rarity": "SHOP",
       "color": "COLLECTOR",
       "colorName": {
         "en": "The Collector",
@@ -2330,67 +2396,45 @@
       "imageResource": "",
       "deprecated": false,
       "dynamicValues": {
+        "Kindle": 3,
         "Energy": 1
       },
       "upgradeDynamicValues": {
+        "Kindle": 3,
         "Energy": 1
       },
-      "attachedTips": [],
-      "attachedCardTips": []
-    },
-    {
-      "id": "COLLECTOR-BOTTLED_BRAIN",
-      "codeName": "",
-      "name": {
-        "en": "Bottled Brain",
-        "zh": "瓶装大脑"
-      },
-      "description": {
-        "en": "Upon pickup, Upgrade a card in your Collection. Start combats with it on top of your Collected pile.",
-        "zh": "拾起时，选择一张收藏堆的牌升级，并在每场战斗开始时将其置于收藏堆顶部。"
-      },
-      "rarity": "SPECIAL",
-      "color": "DOWNFALL",
-      "colorName": {
-        "en": "Downfall",
-        "zh": "崩坠"
-      },
-      "colorPillBg": null,
-      "colorPillFg": null,
-      "energyIcon": null,
-      "img": null,
-      "imageResource": "",
-      "deprecated": false,
-      "dynamicValues": {},
-      "upgradeDynamicValues": {},
       "attachedTips": [],
       "attachedCardTips": []
     },
     {
       "id": "COLLECTOR-EMERALD_TORCH",
-      "codeName": "",
+      "codeName": "EmeraldTorch",
       "name": {
         "en": "Emerald Torch",
         "zh": "翠绿火炬"
       },
       "description": {
-        "en": "Start each combat with [blue]1[/blue] [gold]Reserve[/gold].",
-        "zh": "战斗开始时，获得[blue]1[/blue]点[gold]储能[/gold]。"
+        "en": "At the start of combat [gold]Kindle[/gold] [blue]{Kindle:diff()}[/blue].\nAfter each [gold]Elite[/gold] and [gold]Boss[/gold], a [gold]Collectible[/gold] card appears in your card reward. ",
+        "zh": "战斗开始时，[gold]点灯[/gold][blue]{Kindle:diff()}[/blue]。\n在每场[gold]精英[/gold]或[gold]Boss[/gold]战斗后，你的卡牌奖励会额外包含一张[gold]收藏品[/gold]卡牌。"
       },
-      "rarity": "SPECIAL",
-      "color": "DOWNFALL",
+      "rarity": "STARTER",
+      "color": "COLLECTOR",
       "colorName": {
-        "en": "Downfall",
-        "zh": "崩坠"
+        "en": "The Collector",
+        "zh": "收藏家"
       },
       "colorPillBg": null,
       "colorPillFg": null,
-      "energyIcon": null,
-      "img": null,
+      "energyIcon": "assets/energy-icons/collector.png",
+      "img": "assets/relics/emeraldtorch.png",
       "imageResource": "",
       "deprecated": false,
-      "dynamicValues": {},
-      "upgradeDynamicValues": {},
+      "dynamicValues": {
+        "Kindle": 3
+      },
+      "upgradeDynamicValues": {
+        "Kindle": 3
+      },
       "attachedTips": [],
       "attachedCardTips": []
     },
@@ -2402,8 +2446,8 @@
         "zh": "玉戒指"
       },
       "description": {
-        "en": "Enemies take [blue]6[/blue] more damage from [gold]Doom[/gold].",
-        "zh": "[gold]魂劫[/gold]额外造成[blue]6[/blue]点伤害。"
+        "en": "[gold]Miasma[/gold] increases by the number of debuffs the creature has after taking damage.",
+        "zh": "在敌人受到伤害后，其每有一种负面状态，[gold]魂劫[/gold]增加[blue]1[/blue]。"
       },
       "rarity": "SPECIAL",
       "color": "DOWNFALL",
@@ -2430,10 +2474,10 @@
         "zh": "角魔煤块"
       },
       "description": {
-        "en": "When you would draw from an empty Collected pile, add a [gold]Lucky Wick[/gold] to your [gold]Hand[/gold].",
-        "zh": "每当你尝试从空的收藏堆中抽牌，将一张[gold]幸运烛芯[/gold]添加到[gold]手牌[/gold]。"
+        "en": "Whenever you [gold]Pyre[/gold] a Status, add a [gold]Lucky Wick[/gold] into your [gold]Hand[/gold].\nWhenever you [gold]Pyre[/gold] a [red]Curse[/red], add a [gold]Lucky Wick+[/gold] into your [gold]Hand[/gold].",
+        "zh": "每当你[gold]焰葬[/gold]一张状态牌时，将一张[gold]幸运烛芯[/gold]加入你的[gold]手牌[/gold]。\n每当你[gold]焰葬[/gold]一张[red]诅咒[/red]牌时，将一张[gold]幸运烛芯+[/gold]加入你的[gold]手牌[/gold]。"
       },
-      "rarity": "SHOP",
+      "rarity": "RARE",
       "color": "COLLECTOR",
       "colorName": {
         "en": "The Collector",
@@ -2447,8 +2491,25 @@
       "deprecated": false,
       "dynamicValues": {},
       "upgradeDynamicValues": {},
-      "attachedTips": [],
+      "attachedTips": [
+        {
+          "id": "COLLECTOR-PYRE",
+          "name": {
+            "en": "Pyre",
+            "zh": "焰葬"
+          },
+          "description": {
+            "en": "Requires [gold]Exhausting[/gold] a card in your [gold]Hand[/gold] to be played.",
+            "zh": "[gold]消耗[/gold]你[gold]手牌[/gold]中的一张牌后才能打出。"
+          },
+          "sourceValueKey": null
+        }
+      ],
       "attachedCardTips": [
+        {
+          "id": "COLLECTOR-LUCKY_WICK",
+          "upgraded": true
+        },
         {
           "id": "COLLECTOR-LUCKY_WICK",
           "upgraded": false
@@ -2463,8 +2524,8 @@
         "zh": "多彩火炬"
       },
       "description": {
-        "en": "Replaces [aqua]Emerald Torch[/aqua]. At the start of each combat, add an [gold]Ember[/gold] into your [gold]Hand[/gold] and gain [blue]1[/blue] [gold]Reserve[/gold]. The first time you [gold]Exhaust[/gold] an [gold]Ember[/gold] each turn, gain [blue]1[/blue] [gold]Reserve[/gold].",
-        "zh": "替换[aqua]翠绿火炬[/aqua]。在每场战斗开始时，获得一张[gold]余烬[/gold]与[blue]1[/blue]点[gold]储能[/gold]。你每回合第一次消耗[gold]余烬[/gold]时，获得[blue]1[/blue]点[gold]储能[/gold]。"
+        "en": "At the start of combat [gold]Kindle[/gold] [blue]{Kindle:diff()}[/blue].\nAfter each [gold]Elite[/gold] and [gold]Boss[/gold], an [gold]Upgraded[/gold] [gold]Collectible[/gold] card appears in your card reward.",
+        "zh": "战斗开始时，[gold]点灯[/gold][blue]{Kindle:diff()}[/blue]。\n在每场[gold]精英[/gold]或[gold]Boss[/gold]战斗后，你的卡牌奖励会额外包含一张[gold]升级过的[/gold][gold]收藏品[/gold]卡牌。"
       },
       "rarity": "STARTER",
       "color": "COLLECTOR",
@@ -2478,15 +2539,14 @@
       "img": "assets/relics/prismatictorch.png",
       "imageResource": "",
       "deprecated": false,
-      "dynamicValues": {},
-      "upgradeDynamicValues": {},
+      "dynamicValues": {
+        "Kindle": 10
+      },
+      "upgradeDynamicValues": {
+        "Kindle": 10
+      },
       "attachedTips": [],
-      "attachedCardTips": [
-        {
-          "id": "COLLECTOR-EMBER",
-          "upgraded": false
-        }
-      ]
+      "attachedCardTips": []
     },
     {
       "id": "COLLECTOR-SOUL_LIT_LAMP",
@@ -2496,8 +2556,8 @@
         "zh": "燃魂灯"
       },
       "description": {
-        "en": "Upon pickup, gain [blue]3[/blue] [gold]Essence[/gold]. At the start of combat, add an [gold]Ember[/gold] into your [gold]Hand[/gold].",
-        "zh": "拾起时，获得[blue]3[/blue]点[gold]魂粹[/gold]。在每场战斗开始时，将一张[gold]余烬[/gold]加入[gold]手牌[/gold]。"
+        "en": "Whenever you [gold]Pyre[/gold] a card that costs {Energy:energyIcons()} or more, apply {SoulBurnPower:diff()} [gold]Soulburn[/gold] to ALL enemies.",
+        "zh": "每当你[gold]焰葬[/gold]一张耗能为{Energy:energyIcons()}或更高的卡牌时，对所有敌人施加{SoulBurnPower:diff()}层[gold]灼魂[/gold]。"
       },
       "rarity": "UNCOMMON",
       "color": "COLLECTOR",
@@ -2511,15 +2571,41 @@
       "img": "assets/relics/soullitlamp.png",
       "imageResource": "",
       "deprecated": false,
-      "dynamicValues": {},
-      "upgradeDynamicValues": {},
-      "attachedTips": [],
-      "attachedCardTips": [
+      "dynamicValues": {
+        "Energy": 2,
+        "SoulBurnPower": 3
+      },
+      "upgradeDynamicValues": {
+        "Energy": 2,
+        "SoulBurnPower": 3
+      },
+      "attachedTips": [
         {
-          "id": "COLLECTOR-EMBER",
-          "upgraded": false
+          "id": "COLLECTOR-PYRE",
+          "name": {
+            "en": "Pyre",
+            "zh": "焰葬"
+          },
+          "description": {
+            "en": "Requires [gold]Exhausting[/gold] a card in your [gold]Hand[/gold] to be played.",
+            "zh": "[gold]消耗[/gold]你[gold]手牌[/gold]中的一张牌后才能打出。"
+          },
+          "sourceValueKey": null
+        },
+        {
+          "id": "DOWNFALL-SOUL_BURN_POWER",
+          "name": {
+            "en": "Soulburn",
+            "zh": "灼魂"
+          },
+          "description": {
+            "en": "In [blue]3[/blue] turns, this enemy loses HP at the start of their turn, then [gold]Soulburn[/gold] is removed.",
+            "zh": "在你的[blue]3[/blue]个回合后，该敌人在它们的回合开始时失去生命值，然后移除所有[gold]灼魂[/gold]层数。"
+          },
+          "sourceValueKey": "SoulBurnPower"
         }
-      ]
+      ],
+      "attachedCardTips": []
     },
     {
       "id": "COLLECTOR-THE_CONTRACT",
@@ -2529,8 +2615,8 @@
         "zh": "交易契约"
       },
       "description": {
-        "en": "Upon pickup, gain [blue]10[/blue] [gold]Essence[/gold].",
-        "zh": "拾起时，获得[blue]10[/blue]点[gold]魂粹[/gold]。"
+        "en": "The first time you play a [gold]Colorless[/gold] card each combat, gain {energyPrefix:energyIcons(1)} equal to its cost.",
+        "zh": "每场战斗中，当你第一次打出[gold]无色[/gold]牌时，获得等同于其耗能的{energyPrefix:energyIcons(1)}。"
       },
       "rarity": "SPECIAL",
       "color": "DOWNFALL",
@@ -2557,8 +2643,8 @@
         "zh": "顶针帽"
       },
       "description": {
-        "en": "At the start of combat [gold]Kindle[/gold] [blue]3[/blue]. While [gold]Torchhead[/gold] is alive, cards grant [blue]1[/blue] additional [gold]Block[/gold].",
-        "zh": "在每场战斗开始时，[gold]点燃[/gold][blue]3[/blue]。当[gold]火炬头[/gold]存活时，从牌中获得额外[blue]1[/blue]点[gold]格挡[/gold]。"
+        "en": "While [gold]Torchhead[/gold] is alive, gain [blue]{Block:diff()}[/blue] additional [gold]Block[/gold] from cards.",
+        "zh": "当[gold]火炬头[/gold]存活时，你从卡牌获得的[gold]格挡[/gold]增加[blue]{Block:diff()}[/blue]点。"
       },
       "rarity": "RARE",
       "color": "COLLECTOR",
@@ -2572,22 +2658,13 @@
       "img": "assets/relics/thimblehelm.png",
       "imageResource": "",
       "deprecated": false,
-      "dynamicValues": {},
-      "upgradeDynamicValues": {},
-      "attachedTips": [
-        {
-          "id": "COLLECTOR-KINDLE",
-          "name": {
-            "en": "Kindle",
-            "zh": "点燃"
-          },
-          "description": {
-            "en": "Summon a [gold]Torchhead[/gold]. If one is already summoned, increase its Max HP for this combat.",
-            "zh": "召唤[gold]火炬头[/gold]。如果已被召唤，则改为在本场战斗中为其增加最大生命值。"
-          },
-          "sourceValueKey": null
-        }
-      ],
+      "dynamicValues": {
+        "Block": 2
+      },
+      "upgradeDynamicValues": {
+        "Block": 2
+      },
+      "attachedTips": [],
       "attachedCardTips": []
     },
     {
@@ -2633,7 +2710,7 @@
       "color": "GREMLIN",
       "colorName": {
         "en": "The Gremlins",
-        "zh": "地精小队"
+        "zh": "The Gremlins"
       },
       "colorPillBg": null,
       "colorPillFg": null,
@@ -2693,7 +2770,7 @@
       "color": "GREMLIN",
       "colorName": {
         "en": "The Gremlins",
-        "zh": "地精小队"
+        "zh": "The Gremlins"
       },
       "colorPillBg": null,
       "colorPillFg": null,
@@ -2725,7 +2802,7 @@
       "color": "GREMLIN",
       "colorName": {
         "en": "The Gremlins",
-        "zh": "地精小队"
+        "zh": "The Gremlins"
       },
       "colorPillBg": null,
       "colorPillFg": null,
@@ -2770,7 +2847,7 @@
       "color": "GREMLIN",
       "colorName": {
         "en": "The Gremlins",
-        "zh": "地精小队"
+        "zh": "The Gremlins"
       },
       "colorPillBg": null,
       "colorPillFg": null,
@@ -2833,7 +2910,7 @@
       "color": "GREMLIN",
       "colorName": {
         "en": "The Gremlins",
-        "zh": "地精小队"
+        "zh": "The Gremlins"
       },
       "colorPillBg": null,
       "colorPillFg": null,
@@ -2867,7 +2944,7 @@
       "color": "GREMLIN",
       "colorName": {
         "en": "The Gremlins",
-        "zh": "地精小队"
+        "zh": "The Gremlins"
       },
       "colorPillBg": null,
       "colorPillFg": null,
@@ -2957,7 +3034,7 @@
       "color": "GREMLIN",
       "colorName": {
         "en": "The Gremlins",
-        "zh": "地精小队"
+        "zh": "The Gremlins"
       },
       "colorPillBg": null,
       "colorPillFg": null,
@@ -2990,7 +3067,7 @@
       "color": "GREMLIN",
       "colorName": {
         "en": "The Gremlins",
-        "zh": "地精小队"
+        "zh": "The Gremlins"
       },
       "colorPillBg": null,
       "colorPillFg": null,
@@ -3031,7 +3108,7 @@
       "color": "GREMLIN",
       "colorName": {
         "en": "The Gremlins",
-        "zh": "地精小队"
+        "zh": "The Gremlins"
       },
       "colorPillBg": null,
       "colorPillFg": null,
@@ -3076,7 +3153,7 @@
       "color": "GREMLIN",
       "colorName": {
         "en": "The Gremlins",
-        "zh": "地精小队"
+        "zh": "The Gremlins"
       },
       "colorPillBg": null,
       "colorPillFg": null,
@@ -3200,8 +3277,8 @@
         "zh": "青铜齿轮"
       },
       "description": {
-        "en": "At the start of each combat, add [gold]Gear Up[/gold] into your [gold]Hand[/gold].\nGuardian starts the run with a random common [gold]Gem[/gold].",
-        "zh": "在每场战斗开始时，将一张[gold]预防[/gold]加入你的[gold]手牌[/gold]。\n守护者开局时拥有一颗随机普通[gold]宝石[/gold]。"
+        "en": "At the start of each combat, add [gold]Gear Up[/gold] into your [gold]Hand[/gold].\nUpon pickup, add a random [gold]Common Gem[/gold] into your [gold]Deck[/gold].",
+        "zh": "At the start of each combat, add [gold]Gear Up[/gold] into your [gold]Hand[/gold].\nUpon pickup, add a random [gold]Common Gem[/gold] into your [gold]Deck[/gold]."
       },
       "rarity": "STARTER",
       "color": "GUARDIAN",
@@ -3337,7 +3414,7 @@
     },
     {
       "id": "GUARDIAN-PICK_OF_RHAPSODY",
-      "codeName": "",
+      "codeName": "PickOfRhapsody",
       "name": {
         "en": "Pick of Rhapsody",
         "zh": "狂想镐"
@@ -3346,21 +3423,34 @@
         "en": "Whenever you defeat an Elite encounter, add a random [gold]Gem[/gold] to the rewards.",
         "zh": "每当你击败精英时，获得一颗随机[gold]宝石[/gold]作为奖励。"
       },
-      "rarity": "SPECIAL",
-      "color": "DOWNFALL",
+      "rarity": "UNCOMMON",
+      "color": "GUARDIAN",
       "colorName": {
-        "en": "Downfall",
-        "zh": "崩坠"
+        "en": "The Guardian",
+        "zh": "守护者"
       },
       "colorPillBg": null,
       "colorPillFg": null,
-      "energyIcon": null,
-      "img": null,
+      "energyIcon": "assets/energy-icons/guardian.png",
+      "img": "assets/relics/pickofrhapsody.png",
       "imageResource": "",
       "deprecated": false,
       "dynamicValues": {},
       "upgradeDynamicValues": {},
-      "attachedTips": [],
+      "attachedTips": [
+        {
+          "id": "GUARDIAN-GEM",
+          "name": {
+            "en": "Gem",
+            "zh": "宝石"
+          },
+          "description": {
+            "en": "Gems can be placed into [gold]Sockets[/gold] in cards at a Rest Site.",
+            "zh": "宝石能在休息处被镶嵌至有[gold]槽位[/gold]的卡牌上。"
+          },
+          "sourceValueKey": null
+        }
+      ],
       "attachedCardTips": []
     },
     {
@@ -3406,7 +3496,7 @@
     },
     {
       "id": "GUARDIAN-QUANTUM_CHAMBER",
-      "codeName": "",
+      "codeName": "QuantumChamber",
       "name": {
         "en": "Quantum Chamber",
         "zh": "量子舱"
@@ -3415,21 +3505,46 @@
         "en": "The first time you put a card into [gold]Stasis[/gold] each turn, [gold]Accelerate[/gold] it.",
         "zh": "每回合你第一次[gold]凝滞[/gold]牌时，将其[gold]加速[/gold]。"
       },
-      "rarity": "SPECIAL",
-      "color": "DOWNFALL",
+      "rarity": "RARE",
+      "color": "GUARDIAN",
       "colorName": {
-        "en": "Downfall",
-        "zh": "崩坠"
+        "en": "The Guardian",
+        "zh": "守护者"
       },
       "colorPillBg": null,
       "colorPillFg": null,
-      "energyIcon": null,
-      "img": null,
+      "energyIcon": "assets/energy-icons/guardian.png",
+      "img": "assets/relics/quantumchamber.png",
       "imageResource": "",
       "deprecated": false,
       "dynamicValues": {},
       "upgradeDynamicValues": {},
-      "attachedTips": [],
+      "attachedTips": [
+        {
+          "id": "GUARDIAN-ACCELERATE",
+          "name": {
+            "en": "Accelerate",
+            "zh": "加速"
+          },
+          "description": {
+            "en": "Reduce the turn counter of the right-most card in [gold]Stasis[/gold].",
+            "zh": "减少[gold]凝滞[/gold]栏位中最右端的牌的计数。"
+          },
+          "sourceValueKey": null
+        },
+        {
+          "id": "GUARDIAN-STASIS",
+          "name": {
+            "en": "Stasis",
+            "zh": "凝滞"
+          },
+          "description": {
+            "en": "A card in [gold]Stasis[/gold] stays for turns equal to its cost +[blue]1[/blue]. When it exits, it returns to your [gold]Hand[/gold] and is free until played.",
+            "zh": "将牌挂起并从其耗能+[blue]1[/blue]开始倒计时。\n在你的回合开始时，所有凝滞牌的计时减[blue]1[/blue]。\n计时归零时，将其返回手牌且下次打出前耗能变为[blue]0[/blue]。"
+          },
+          "sourceValueKey": null
+        }
+      ],
       "attachedCardTips": []
     },
     {
@@ -3849,8 +3964,8 @@
         "zh": "黑麦茎"
       },
       "description": {
-        "en": "At the start of turn [blue]{Turn}[/blue], gain [blue]{RuggedPower:diff()}[/blue] [gold]Rugged[/gold].",
-        "zh": "在第[blue]{Turn}[/blue]回合开始时，获得[blue]{RuggedPower:diff()}[/blue]层[gold]坚固[/gold]。"
+        "en": "At the start of your [blue]4th[/blue] turn, gain [blue]{RuggedPower:diff()}[/blue] [gold]Rugged[/gold].",
+        "zh": "在你的[blue]第四[/blue]回合开始时，获得[blue]{RuggedPower:diff()}[/blue]层[gold]坚固[/gold]。"
       },
       "rarity": "RARE",
       "color": "HERMIT",
@@ -4109,30 +4224,47 @@
     },
     {
       "id": "HEXAGHOST-MARK_OF_THE_ETHER",
-      "codeName": "",
+      "codeName": "MarkOfTheEther",
       "name": {
         "en": "Mark of the Ether",
         "zh": "以太印记"
       },
       "description": {
-        "en": "Whenever you [gold]Ignite[/gold] a Ghostflame, gain [blue]4[/blue] [gold]Block[/gold].",
-        "zh": "每当你[gold]点燃[/gold]一枚[gold]鬼火[/gold]时，获得[blue]4[/blue]点[gold]格挡[/gold]。"
+        "en": "Whenever you [gold]Ignite[/gold] a Ghostflame, gain [blue]{Block}[/blue] [gold]Block[/gold].",
+        "zh": "Whenever you [gold]Ignite[/gold] a Ghostflame, gain [blue]{Block}[/blue] [gold]Block[/gold]."
       },
-      "rarity": "SPECIAL",
-      "color": "DOWNFALL",
+      "rarity": "STARTER",
+      "color": "HEXAGHOST",
       "colorName": {
-        "en": "Downfall",
-        "zh": "崩坠"
+        "en": "The Hexaghost",
+        "zh": "六火亡魂"
       },
       "colorPillBg": null,
       "colorPillFg": null,
-      "energyIcon": null,
-      "img": null,
+      "energyIcon": "assets/energy-icons/hexaghost.png",
+      "img": "assets/relics/markoftheether.png",
       "imageResource": "",
       "deprecated": false,
-      "dynamicValues": {},
-      "upgradeDynamicValues": {},
-      "attachedTips": [],
+      "dynamicValues": {
+        "Block": 4
+      },
+      "upgradeDynamicValues": {
+        "Block": 4
+      },
+      "attachedTips": [
+        {
+          "id": "HEXAGHOST-IGNITE",
+          "name": {
+            "en": "Ignite",
+            "zh": "点燃"
+          },
+          "description": {
+            "en": "Triggers the Ignition effect described on a Ghostflame.",
+            "zh": "触发当前[gold]鬼火[/gold]的点燃效果"
+          },
+          "sourceValueKey": null
+        }
+      ],
       "attachedCardTips": []
     },
     {
@@ -4306,36 +4438,77 @@
             "zh": "移动至上枚[gold]鬼火[/gold]。移动至一枚[gold]鬼火[/gold]会导致其[gold]熄灭[/gold]。"
           },
           "sourceValueKey": null
+        },
+        {
+          "id": "HEXAGHOST-IGNITE",
+          "name": {
+            "en": "Ignite",
+            "zh": "点燃"
+          },
+          "description": {
+            "en": "Triggers the Ignition effect described on a Ghostflame.",
+            "zh": "触发当前[gold]鬼火[/gold]的点燃效果"
+          },
+          "sourceValueKey": null
         }
       ],
       "attachedCardTips": []
     },
     {
       "id": "HEXAGHOST-SOUL_STONE",
-      "codeName": "",
+      "codeName": "SoulStone",
       "name": {
         "en": "Thermal Stone",
         "zh": "热力石"
       },
       "description": {
-        "en": "Whenever you [gold]Exhaust[/gold] [blue]4[/blue] cards, [gold]Ignite[/gold] the current Ghostflame.",
-        "zh": "你每[gold]消耗[/gold][blue]4[/blue]张牌，[gold]点燃[/gold]当前[gold]鬼火[/gold]。"
+        "en": "Whenever you [gold]Exhaust[/gold] [blue]{Cards}[/blue] cards, [gold]Ignite[/gold] the current Ghostflame.",
+        "zh": "你每[gold]消耗[/gold][blue]{Cards}[/blue]张牌，[gold]点燃[/gold]当前[gold]鬼火[/gold]。"
       },
-      "rarity": "SPECIAL",
-      "color": "DOWNFALL",
+      "rarity": "RARE",
+      "color": "HEXAGHOST",
       "colorName": {
-        "en": "Downfall",
-        "zh": "崩坠"
+        "en": "The Hexaghost",
+        "zh": "六火亡魂"
       },
       "colorPillBg": null,
       "colorPillFg": null,
-      "energyIcon": null,
-      "img": null,
+      "energyIcon": "assets/energy-icons/hexaghost.png",
+      "img": "assets/relics/soulstone.png",
       "imageResource": "",
       "deprecated": false,
-      "dynamicValues": {},
-      "upgradeDynamicValues": {},
-      "attachedTips": [],
+      "dynamicValues": {
+        "Cards": 4
+      },
+      "upgradeDynamicValues": {
+        "Cards": 4
+      },
+      "attachedTips": [
+        {
+          "id": "Exhaust",
+          "name": {
+            "en": "Exhaust",
+            "zh": "消耗"
+          },
+          "description": {
+            "en": "Removed until the end of combat.",
+            "zh": "在战斗结束前移除。"
+          },
+          "sourceValueKey": null
+        },
+        {
+          "id": "HEXAGHOST-IGNITE",
+          "name": {
+            "en": "Ignite",
+            "zh": "点燃"
+          },
+          "description": {
+            "en": "Triggers the Ignition effect described on a Ghostflame.",
+            "zh": "触发当前[gold]鬼火[/gold]的点燃效果"
+          },
+          "sourceValueKey": null
+        }
+      ],
       "attachedCardTips": []
     },
     {
@@ -4346,8 +4519,8 @@
         "zh": "精神烙印"
       },
       "description": {
-        "en": "The first time you [gold]Ignite[/gold] a Ghostflame each turn, gain [blue]3[/blue] [gold]Block[/gold].",
-        "zh": "每回合你首次[gold]点燃[/gold]一枚[gold]鬼火[/gold]时，获得[blue]3[/blue]点[gold]格挡[/gold]。"
+        "en": "The first time you [gold]Ignite[/gold] a Ghostflame each turn, gain [blue]{Block}[/blue] [gold]Block[/gold].",
+        "zh": "The first time you [gold]Ignite[/gold] a Ghostflame each turn, gain [blue]{Block}[/blue] [gold]Block[/gold]."
       },
       "rarity": "STARTER",
       "color": "HEXAGHOST",
@@ -4361,8 +4534,12 @@
       "img": "assets/relics/spiritbrand.png",
       "imageResource": "",
       "deprecated": false,
-      "dynamicValues": {},
-      "upgradeDynamicValues": {},
+      "dynamicValues": {
+        "Block": 3
+      },
+      "upgradeDynamicValues": {
+        "Block": 3
+      },
       "attachedTips": [
         {
           "id": "HEXAGHOST-IGNITE",
@@ -5067,10 +5244,10 @@
         "zh": "注料骰子"
       },
       "description": {
-        "en": "Whenever a card is [gold]Muddled[/gold], gain [blue]{Block}[/blue] [gold]Block[/gold].",
-        "zh": "每当你[gold]混淆[/gold]一张牌时，获得[blue]{Block}[/blue]点[gold]格挡[/gold]。"
+        "en": "Whenever a card is [gold]Muddled[/gold], gain [gold]Block[/gold] equal to its new cost.",
+        "zh": "Whenever a card is [gold]Muddled[/gold], gain [gold]Block[/gold] equal to its new cost."
       },
-      "rarity": "COMMON",
+      "rarity": "UNCOMMON",
       "color": "SNECKO",
       "colorName": {
         "en": "The Snecko",
@@ -5082,12 +5259,8 @@
       "img": "assets/relics/loadeddie.png",
       "imageResource": "",
       "deprecated": false,
-      "dynamicValues": {
-        "Block": 1
-      },
-      "upgradeDynamicValues": {
-        "Block": 1
-      },
+      "dynamicValues": {},
+      "upgradeDynamicValues": {},
       "attachedTips": [
         {
           "id": "SNECKO-MUDDLE",
@@ -5168,8 +5341,8 @@
         "zh": "稀有补充箱"
       },
       "description": {
-        "en": "Upon pickup, obtain an [gold]Offclass[/gold] Rare card.",
-        "zh": "拾起时，选择一张稀有[gold]异色[/gold]牌加入你的[gold]牌组[/gold]。"
+        "en": "Upon pickup, obtain an [gold]Offclass Rare Card[/gold].",
+        "zh": "拾起时，获得一张[gold]异色稀有[/gold]卡牌奖励。"
       },
       "rarity": "SPECIAL",
       "color": "DOWNFALL",
@@ -5221,12 +5394,25 @@
         "VulnerablePower": 1,
         "Cards": 3
       },
-      "attachedTips": [],
+      "attachedTips": [
+        {
+          "id": "SNECKO-OVERFLOW",
+          "name": {
+            "en": "Overflow",
+            "zh": "溢出"
+          },
+          "description": {
+            "en": "Overflow effects activate if you have more than [blue]5[/blue] cards in [gold]Hand[/gold].",
+            "zh": "当[gold]手牌[/gold]数超过[blue]5[/blue]张时，将触发溢出效果。"
+          },
+          "sourceValueKey": null
+        }
+      ],
       "attachedCardTips": []
     },
     {
       "id": "SNECKO-SEAL_OF_APPROVAL",
-      "codeName": "",
+      "codeName": "SealOfApproval",
       "name": {
         "en": "Seal of Approval",
         "zh": "认可印章"
@@ -5235,21 +5421,34 @@
         "en": "Upon pickup, choose [blue]1[/blue] of [blue]5[/blue] Uncommon [gold]Offclass[/gold] Powers to add to your [gold]Deck[/gold].",
         "zh": "拾起时，从[blue]5[/blue]张罕见[gold]异色[/gold]能力牌中选择[blue]1[/blue]张加入你的[gold]牌组[/gold]。"
       },
-      "rarity": "SPECIAL",
-      "color": "DOWNFALL",
+      "rarity": "COMMON",
+      "color": "SNECKO",
       "colorName": {
-        "en": "Downfall",
-        "zh": "崩坠"
+        "en": "The Snecko",
+        "zh": "异蛇"
       },
       "colorPillBg": null,
       "colorPillFg": null,
-      "energyIcon": null,
-      "img": null,
+      "energyIcon": "assets/energy-icons/snecko.png",
+      "img": "assets/relics/sealofapproval.png",
       "imageResource": "",
       "deprecated": false,
       "dynamicValues": {},
       "upgradeDynamicValues": {},
-      "attachedTips": [],
+      "attachedTips": [
+        {
+          "id": "DOWNFALL-OFFCLASS",
+          "name": {
+            "en": "Offclass",
+            "zh": "异色"
+          },
+          "description": {
+            "en": "A card that doesn't belong to your character's card pool.",
+            "zh": "不属于你当前角色卡池的牌。"
+          },
+          "sourceValueKey": null
+        }
+      ],
       "attachedCardTips": []
     },
     {
@@ -5260,7 +5459,7 @@
         "zh": "袖中王牌"
       },
       "description": {
-        "en": "At the start of each combat, gain a [gold]Marked Card+[/gold].",
+        "en": "At the start of each combat, add a [gold]Marked Card+[/gold] into your [gold]Hand[/gold].",
         "zh": "在每场战斗开始时，将一张[gold]记号牌+[/gold]加入你的[gold]手牌[/gold]。"
       },
       "rarity": "UNCOMMON",
@@ -5441,8 +5640,8 @@
         "zh": "未知之蛋"
       },
       "description": {
-        "en": "Whenever you add an [gold]Offclass[/gold] card to your [gold]Deck[/gold], [gold]Upgrade[/gold] it.\nUpon pickup, [gold]Upgrade[/gold] [blue]{Cards}[/blue] random [gold]Offclass[/gold] cards.",
-        "zh": "每当你将一张[gold]异色[/gold]牌加入你的[gold]牌组[/gold]时，将其[gold]升级[/gold]。\n拾起时，随机[gold]升级[/gold][blue]{Cards}[/blue]张[gold]异色[/gold]牌。"
+        "en": "Whenever you add an [gold]Offclass[/gold] card to your [gold]Deck[/gold], [gold]Upgrade[/gold] it.",
+        "zh": "Whenever you add an [gold]Offclass[/gold] card to your [gold]Deck[/gold], [gold]Upgrade[/gold] it."
       },
       "rarity": "RARE",
       "color": "SNECKO",
@@ -5456,13 +5655,67 @@
       "img": "assets/relics/unidentifiedegg.png",
       "imageResource": "",
       "deprecated": false,
+      "dynamicValues": {},
+      "upgradeDynamicValues": {},
+      "attachedTips": [
+        {
+          "id": "DOWNFALL-OFFCLASS",
+          "name": {
+            "en": "Offclass",
+            "zh": "异色"
+          },
+          "description": {
+            "en": "A card that doesn't belong to your character's card pool.",
+            "zh": "不属于你当前角色卡池的牌。"
+          },
+          "sourceValueKey": null
+        }
+      ],
+      "attachedCardTips": []
+    },
+    {
+      "id": "SNECKO-VIPER_SKULL",
+      "codeName": "ViperSkull",
+      "name": {
+        "en": "ViperSkull",
+        "zh": "ViperSkull"
+      },
+      "description": {
+        "en": "At the start of each combat, apply [blue]{VenomPower}[/blue] [gold]Venom[/gold] to ALL enemies.",
+        "zh": "At the start of each combat, apply [blue]{VenomPower}[/blue] [gold]Venom[/gold] to ALL enemies."
+      },
+      "rarity": "RARE",
+      "color": "SNECKO",
+      "colorName": {
+        "en": "The Snecko",
+        "zh": "异蛇"
+      },
+      "colorPillBg": null,
+      "colorPillFg": null,
+      "energyIcon": "assets/energy-icons/snecko.png",
+      "img": null,
+      "imageResource": "",
+      "deprecated": false,
       "dynamicValues": {
-        "Cards": 2
+        "VenomPower": 3
       },
       "upgradeDynamicValues": {
-        "Cards": 2
+        "VenomPower": 3
       },
-      "attachedTips": [],
+      "attachedTips": [
+        {
+          "id": "SNECKO-VENOM_POWER",
+          "name": {
+            "en": "Venom",
+            "zh": "剧毒"
+          },
+          "description": {
+            "en": "When a debuff beside [gold]Venom[/gold] is applied, lose HP. ",
+            "zh": "每当其获得[gold]剧毒[/gold]以外的负面状态时，使其失去生命。"
+          },
+          "sourceValueKey": "VenomPower"
+        }
+      ],
       "attachedCardTips": []
     }
   ]
