@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-24T04:38:56.766047Z",
+  "generatedAt": "2026-11-24T05:21:42.226377Z",
   "modVersion": "0.1.26",
   "translationVersion": "bundled",
   "translationSource": "bundled",
@@ -822,7 +822,7 @@
       }
     ]
   },
-  "cardCount": 785,
+  "cardCount": 775,
   "cards": [
     {
       "id": "AUTOMATON-ALLOCATE",
@@ -5269,61 +5269,6 @@
       ]
     },
     {
-      "id": "AUTOMATON-FUNCTION_ATTACK_CARD",
-      "codeName": "",
-      "name": {
-        "en": "function()",
-        "zh": "方法()"
-      },
-      "description": {
-        "en": "{effects}",
-        "zh": "{effects}"
-      },
-      "upgradeDescription": {
-        "en": "",
-        "zh": ""
-      },
-      "extendedDescription": {
-        "en": [],
-        "zh": []
-      },
-      "type": "SKILL",
-      "rarity": "SPECIAL",
-      "color": "DOWNFALL",
-      "colorName": {
-        "en": "Downfall",
-        "zh": "崩坠"
-      },
-      "cost": null,
-      "upgradeCost": null,
-      "canUpgrade": false,
-      "target": null,
-      "isFinisher": false,
-      "img": null,
-      "stats": {
-        "damage": null,
-        "block": null,
-        "magic": null,
-        "secondMagic": null,
-        "thirdMagic": null,
-        "secondDamage": null,
-        "selfDamage": null
-      },
-      "upgradeStats": {
-        "damage": null,
-        "block": null
-      },
-      "dynamicValues": {},
-      "upgradeDynamicValues": {},
-      "energyIcon": null,
-      "deprecated": false,
-      "notInPool": false,
-      "attachedCardTips": [],
-      "descriptionKeywordPrefix": [],
-      "descriptionKeywordSuffix": [],
-      "dynamicDescriptionLines": []
-    },
-    {
       "id": "AUTOMATON-FUNCTION_CARD",
       "codeName": "FunctionCard",
       "name": {
@@ -5377,116 +5322,6 @@
       "visualColor": "AUTOMATON",
       "hasConjure": false,
       "isSpell": false,
-      "attachedCardTips": [],
-      "descriptionKeywordPrefix": [],
-      "descriptionKeywordSuffix": [],
-      "dynamicDescriptionLines": []
-    },
-    {
-      "id": "AUTOMATON-FUNCTION_POWER_CARD",
-      "codeName": "",
-      "name": {
-        "en": "function()",
-        "zh": "方法()"
-      },
-      "description": {
-        "en": "{effects}",
-        "zh": "{effects}"
-      },
-      "upgradeDescription": {
-        "en": "",
-        "zh": ""
-      },
-      "extendedDescription": {
-        "en": [],
-        "zh": []
-      },
-      "type": "SKILL",
-      "rarity": "SPECIAL",
-      "color": "DOWNFALL",
-      "colorName": {
-        "en": "Downfall",
-        "zh": "崩坠"
-      },
-      "cost": null,
-      "upgradeCost": null,
-      "canUpgrade": false,
-      "target": null,
-      "isFinisher": false,
-      "img": null,
-      "stats": {
-        "damage": null,
-        "block": null,
-        "magic": null,
-        "secondMagic": null,
-        "thirdMagic": null,
-        "secondDamage": null,
-        "selfDamage": null
-      },
-      "upgradeStats": {
-        "damage": null,
-        "block": null
-      },
-      "dynamicValues": {},
-      "upgradeDynamicValues": {},
-      "energyIcon": null,
-      "deprecated": false,
-      "notInPool": false,
-      "attachedCardTips": [],
-      "descriptionKeywordPrefix": [],
-      "descriptionKeywordSuffix": [],
-      "dynamicDescriptionLines": []
-    },
-    {
-      "id": "AUTOMATON-FUNCTION_SKILL_CARD",
-      "codeName": "",
-      "name": {
-        "en": "function()",
-        "zh": "方法()"
-      },
-      "description": {
-        "en": "{effects}",
-        "zh": "{effects}"
-      },
-      "upgradeDescription": {
-        "en": "",
-        "zh": ""
-      },
-      "extendedDescription": {
-        "en": [],
-        "zh": []
-      },
-      "type": "SKILL",
-      "rarity": "SPECIAL",
-      "color": "DOWNFALL",
-      "colorName": {
-        "en": "Downfall",
-        "zh": "崩坠"
-      },
-      "cost": null,
-      "upgradeCost": null,
-      "canUpgrade": false,
-      "target": null,
-      "isFinisher": false,
-      "img": null,
-      "stats": {
-        "damage": null,
-        "block": null,
-        "magic": null,
-        "secondMagic": null,
-        "thirdMagic": null,
-        "secondDamage": null,
-        "selfDamage": null
-      },
-      "upgradeStats": {
-        "damage": null,
-        "block": null
-      },
-      "dynamicValues": {},
-      "upgradeDynamicValues": {},
-      "energyIcon": null,
-      "deprecated": false,
-      "notInPool": false,
       "attachedCardTips": [],
       "descriptionKeywordPrefix": [],
       "descriptionKeywordSuffix": [],
@@ -10530,61 +10365,6 @@
           }
         }
       ],
-      "descriptionKeywordSuffix": [],
-      "dynamicDescriptionLines": []
-    },
-    {
-      "id": "AWAKENED-AWAKENED_CARD_MODEL",
-      "codeName": "",
-      "name": {
-        "en": "Awakened Card Model",
-        "zh": "觉醒者卡牌模型"
-      },
-      "description": {
-        "en": "",
-        "zh": ""
-      },
-      "upgradeDescription": {
-        "en": "",
-        "zh": ""
-      },
-      "extendedDescription": {
-        "en": [],
-        "zh": []
-      },
-      "type": "SKILL",
-      "rarity": "SPECIAL",
-      "color": "DOWNFALL",
-      "colorName": {
-        "en": "Downfall",
-        "zh": "崩坠"
-      },
-      "cost": null,
-      "upgradeCost": null,
-      "canUpgrade": false,
-      "target": null,
-      "isFinisher": false,
-      "img": null,
-      "stats": {
-        "damage": null,
-        "block": null,
-        "magic": null,
-        "secondMagic": null,
-        "thirdMagic": null,
-        "secondDamage": null,
-        "selfDamage": null
-      },
-      "upgradeStats": {
-        "damage": null,
-        "block": null
-      },
-      "dynamicValues": {},
-      "upgradeDynamicValues": {},
-      "energyIcon": null,
-      "deprecated": false,
-      "notInPool": false,
-      "attachedCardTips": [],
-      "descriptionKeywordPrefix": [],
       "descriptionKeywordSuffix": [],
       "dynamicDescriptionLines": []
     },
@@ -20506,61 +20286,6 @@
       "dynamicDescriptionLines": []
     },
     {
-      "id": "CHAMP-CHAMP_CARD_MODEL",
-      "codeName": "",
-      "name": {
-        "en": "Champ Card Model",
-        "zh": "第一勇士卡牌模型"
-      },
-      "description": {
-        "en": "",
-        "zh": ""
-      },
-      "upgradeDescription": {
-        "en": "",
-        "zh": ""
-      },
-      "extendedDescription": {
-        "en": [],
-        "zh": []
-      },
-      "type": "SKILL",
-      "rarity": "SPECIAL",
-      "color": "DOWNFALL",
-      "colorName": {
-        "en": "Downfall",
-        "zh": "崩坠"
-      },
-      "cost": null,
-      "upgradeCost": null,
-      "canUpgrade": false,
-      "target": null,
-      "isFinisher": false,
-      "img": null,
-      "stats": {
-        "damage": null,
-        "block": null,
-        "magic": null,
-        "secondMagic": null,
-        "thirdMagic": null,
-        "secondDamage": null,
-        "selfDamage": null
-      },
-      "upgradeStats": {
-        "damage": null,
-        "block": null
-      },
-      "dynamicValues": {},
-      "upgradeDynamicValues": {},
-      "energyIcon": null,
-      "deprecated": false,
-      "notInPool": false,
-      "attachedCardTips": [],
-      "descriptionKeywordPrefix": [],
-      "descriptionKeywordSuffix": [],
-      "dynamicDescriptionLines": []
-    },
-    {
       "id": "CHAMP-CHEAP_SHOT",
       "codeName": "CheapShot",
       "name": {
@@ -23958,61 +23683,6 @@
       "visualColor": "CHAMP",
       "hasConjure": false,
       "isSpell": false,
-      "attachedCardTips": [],
-      "descriptionKeywordPrefix": [],
-      "descriptionKeywordSuffix": [],
-      "dynamicDescriptionLines": []
-    },
-    {
-      "id": "CHAMP-INSPIRATION",
-      "codeName": "",
-      "name": {
-        "en": "Inspiration",
-        "zh": "灵感"
-      },
-      "description": {
-        "en": "Enter a [gold]Stance[/gold] you aren't in.",
-        "zh": "进入相反[gold]姿态[/gold]。"
-      },
-      "upgradeDescription": {
-        "en": "",
-        "zh": ""
-      },
-      "extendedDescription": {
-        "en": [],
-        "zh": []
-      },
-      "type": "SKILL",
-      "rarity": "SPECIAL",
-      "color": "DOWNFALL",
-      "colorName": {
-        "en": "Downfall",
-        "zh": "崩坠"
-      },
-      "cost": null,
-      "upgradeCost": null,
-      "canUpgrade": false,
-      "target": null,
-      "isFinisher": false,
-      "img": null,
-      "stats": {
-        "damage": null,
-        "block": null,
-        "magic": null,
-        "secondMagic": null,
-        "thirdMagic": null,
-        "secondDamage": null,
-        "selfDamage": null
-      },
-      "upgradeStats": {
-        "damage": null,
-        "block": null
-      },
-      "dynamicValues": {},
-      "upgradeDynamicValues": {},
-      "energyIcon": null,
-      "deprecated": false,
-      "notInPool": false,
       "attachedCardTips": [],
       "descriptionKeywordPrefix": [],
       "descriptionKeywordSuffix": [],
@@ -51737,61 +51407,6 @@
       "dynamicDescriptionLines": []
     },
     {
-      "id": "HEXAGHOST-PREMONITION_CHOICE",
-      "codeName": "",
-      "name": {
-        "en": "Premonition",
-        "zh": "预兆"
-      },
-      "description": {
-        "en": "{Type}",
-        "zh": "{Type}"
-      },
-      "upgradeDescription": {
-        "en": "",
-        "zh": ""
-      },
-      "extendedDescription": {
-        "en": [],
-        "zh": []
-      },
-      "type": "SKILL",
-      "rarity": "SPECIAL",
-      "color": "DOWNFALL",
-      "colorName": {
-        "en": "Downfall",
-        "zh": "崩坠"
-      },
-      "cost": null,
-      "upgradeCost": null,
-      "canUpgrade": false,
-      "target": null,
-      "isFinisher": false,
-      "img": null,
-      "stats": {
-        "damage": null,
-        "block": null,
-        "magic": null,
-        "secondMagic": null,
-        "thirdMagic": null,
-        "secondDamage": null,
-        "selfDamage": null
-      },
-      "upgradeStats": {
-        "damage": null,
-        "block": null
-      },
-      "dynamicValues": {},
-      "upgradeDynamicValues": {},
-      "energyIcon": null,
-      "deprecated": false,
-      "notInPool": false,
-      "attachedCardTips": [],
-      "descriptionKeywordPrefix": [],
-      "descriptionKeywordSuffix": [],
-      "dynamicDescriptionLines": []
-    },
-    {
       "id": "HEXAGHOST-RADIANT_FLAME",
       "codeName": "RadiantFlame",
       "name": {
@@ -52927,153 +52542,6 @@
           },
           "dynamicValues": {},
           "sourceValueKey": "SizzlePower",
-          "icon": null
-        }
-      ],
-      "visualColor": "HEXAGHOST",
-      "hasConjure": false,
-      "isSpell": false,
-      "attachedCardTips": [],
-      "descriptionKeywordPrefix": [],
-      "descriptionKeywordSuffix": [],
-      "dynamicDescriptionLines": []
-    },
-    {
-      "id": "HEXAGHOST-SNEAKY_TEAKWOOD_MATCH",
-      "codeName": "",
-      "name": {
-        "en": "Sneaky Teakwood Match",
-        "zh": "隐秘柚柴"
-      },
-      "description": {
-        "en": "",
-        "zh": ""
-      },
-      "upgradeDescription": {
-        "en": "",
-        "zh": ""
-      },
-      "extendedDescription": {
-        "en": [],
-        "zh": []
-      },
-      "type": "SKILL",
-      "rarity": "SPECIAL",
-      "color": "DOWNFALL",
-      "colorName": {
-        "en": "Downfall",
-        "zh": "崩坠"
-      },
-      "cost": null,
-      "upgradeCost": null,
-      "canUpgrade": false,
-      "target": null,
-      "isFinisher": false,
-      "img": null,
-      "stats": {
-        "damage": null,
-        "block": null,
-        "magic": null,
-        "secondMagic": null,
-        "thirdMagic": null,
-        "secondDamage": null,
-        "selfDamage": null
-      },
-      "upgradeStats": {
-        "damage": null,
-        "block": null
-      },
-      "dynamicValues": {},
-      "upgradeDynamicValues": {},
-      "energyIcon": null,
-      "deprecated": false,
-      "notInPool": false,
-      "attachedCardTips": [],
-      "descriptionKeywordPrefix": [],
-      "descriptionKeywordSuffix": [],
-      "dynamicDescriptionLines": []
-    },
-    {
-      "id": "HEXAGHOST-SOULFIRE",
-      "codeName": "Soulfire",
-      "name": {
-        "en": "Soulfire",
-        "zh": "燃魂"
-      },
-      "description": {
-        "en": "Whenever you apply [gold]Soulburn[/gold] with a card, gain {SoulfirePower:diff()} [gold]Block[/gold].",
-        "zh": "每当你给予[gold]灼魂[/gold]时，获得{SoulfirePower:diff()}点[gold]格挡[/gold]。"
-      },
-      "upgradeDescription": {
-        "en": "",
-        "zh": ""
-      },
-      "extendedDescription": {
-        "en": [],
-        "zh": []
-      },
-      "type": "POWER",
-      "rarity": "RARE",
-      "color": "HEXAGHOST",
-      "colorName": {
-        "en": "The Hexaghost",
-        "zh": "六火亡魂"
-      },
-      "cost": 2,
-      "upgradeCost": null,
-      "canUpgrade": true,
-      "target": "Self",
-      "isFinisher": false,
-      "img": "assets/cards/soulfire.png",
-      "stats": {
-        "damage": null,
-        "block": null,
-        "magic": null,
-        "secondMagic": null,
-        "thirdMagic": null,
-        "secondDamage": null,
-        "selfDamage": null
-      },
-      "upgradeStats": {
-        "damage": null,
-        "block": null
-      },
-      "dynamicValues": {
-        "SoulfirePower": 3
-      },
-      "upgradeDynamicValues": {
-        "SoulfirePower": 4
-      },
-      "energyIcon": "assets/energy-icons/hexaghost.png",
-      "deprecated": false,
-      "notInPool": false,
-      "attachedTips": [
-        {
-          "id": "DOWNFALL-SOUL_BURN_POWER",
-          "name": {
-            "en": "Soulburn",
-            "zh": "灼魂"
-          },
-          "description": {
-            "en": "In [blue]3[/blue] turns, this enemy loses HP at the start of their turn, then [gold]Soulburn[/gold] is removed.",
-            "zh": "在你的[blue]3[/blue]个回合后，该敌人在它们的回合开始时失去生命值，然后移除所有[gold]灼魂[/gold]层数。"
-          },
-          "dynamicValues": {},
-          "sourceValueKey": "SoulBurnPower",
-          "icon": null
-        },
-        {
-          "id": "HEXAGHOST-SOULFIRE_POWER",
-          "name": {
-            "en": "Soulfire",
-            "zh": "燃魂"
-          },
-          "description": {
-            "en": "Whenever you apply [gold]Soulburn[/gold] with a card, gain [gold]Block[/gold].",
-            "zh": "每当你给予[gold]灼魂[/gold]时，获得[gold]格挡[/gold]。"
-          },
-          "dynamicValues": {},
-          "sourceValueKey": "SoulfirePower",
           "icon": null
         }
       ],
@@ -64018,86 +63486,6 @@
       "notInPool": false,
       "attachedTips": [],
       "visualColor": "SNECKO",
-      "hasConjure": false,
-      "isSpell": false,
-      "attachedCardTips": [],
-      "descriptionKeywordPrefix": [],
-      "descriptionKeywordSuffix": [],
-      "dynamicDescriptionLines": []
-    },
-    {
-      "id": "SNECKO-HOLE_UP",
-      "codeName": "HoleUp",
-      "name": {
-        "en": "Hole Up",
-        "zh": "洞藏"
-      },
-      "description": {
-        "en": "Gain {Block:diff()} [gold]Block[/gold].\nGain {WeakPower:diff()} [gold]Weak[/gold].",
-        "zh": "获得{Block:diff()}点[gold]格挡[/gold]。\n获得{WeakPower:diff()}层[gold]虚弱[/gold]。"
-      },
-      "upgradeDescription": {
-        "en": "",
-        "zh": ""
-      },
-      "extendedDescription": {
-        "en": [],
-        "zh": []
-      },
-      "type": "SKILL",
-      "rarity": "COMMON",
-      "color": "HERMIT",
-      "colorName": {
-        "en": "The Hermit",
-        "zh": "亡命之徒"
-      },
-      "cost": 1,
-      "upgradeCost": null,
-      "canUpgrade": true,
-      "target": "Self",
-      "isFinisher": false,
-      "img": "assets/cards/holeup.png",
-      "stats": {
-        "damage": null,
-        "block": 12,
-        "magic": null,
-        "secondMagic": null,
-        "thirdMagic": null,
-        "secondDamage": null,
-        "selfDamage": null
-      },
-      "upgradeStats": {
-        "damage": null,
-        "block": 12
-      },
-      "dynamicValues": {
-        "Block": 12,
-        "WeakPower": 2
-      },
-      "upgradeDynamicValues": {
-        "Block": 16,
-        "WeakPower": 2
-      },
-      "energyIcon": "assets/energy-icons/hermit.png",
-      "deprecated": false,
-      "notInPool": false,
-      "attachedTips": [
-        {
-          "id": "WEAK_POWER",
-          "name": {
-            "en": "Weak",
-            "zh": "虚弱"
-          },
-          "description": {
-            "en": "Weakened creatures deal [blue]25%[/blue] less damage with Attacks.",
-            "zh": "虚弱的生物造成的攻击伤害减少[blue]25%[/blue]。"
-          },
-          "dynamicValues": {},
-          "sourceValueKey": "WeakPower",
-          "icon": "assets/hover-ui/weak-power.png"
-        }
-      ],
-      "visualColor": "HERMIT",
       "hasConjure": false,
       "isSpell": false,
       "attachedCardTips": [],
