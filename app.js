@@ -386,7 +386,7 @@ function fillSts2DynamicTokens(text, card, useUpgrade = state.showUpgrade) {
   };
 
   return (text || "")
-    .replace(/\{([A-Za-z_]\w*):(p?plural:[^{}]*?)\{\}\}/g, "{$1:$2{$1}}")
+    .replace(/\{([A-Za-z_]\w*):(p?plural:[^{}]*?)\{((?::(?:diff|inverseDiff|preview)\(\))?)\}/g, "{$1:$2{$1$3}")
     .replace(/\{([A-Za-z_]\w*):(?:diff|inverseDiff|preview)\(\)\}/g, fillValue)
     .replace(/\{([A-Za-z_]\w*)\}/g, fillValue);
 }
@@ -477,44 +477,14 @@ function renderBracketColorSyntax(text) {
   return out;
 }
 
-function stripSts2Blocks(text, blockName) {
-  const marker = `{${blockName}:`.toLowerCase();
-  let output = "";
-  let cursor = 0;
-
-  while (cursor < text.length) {
-    const start = text.toLowerCase().indexOf(marker, cursor);
-    if (start < 0) {
-      output += text.slice(cursor);
-      break;
-    }
-
-    output += text.slice(cursor, start);
-    let depth = 0;
-    let end = start;
-    for (; end < text.length; end += 1) {
-      if (text[end] === "{") depth += 1;
-      if (text[end] === "}") {
-        depth -= 1;
-        if (depth === 0) {
-          end += 1;
-          break;
-        }
-      }
-    }
-    cursor = depth === 0 ? end : start + marker.length;
-  }
-
-  return output;
-}
-
-function renderIfUpgradedShowBlocks(text, useUpgrade) {
-  const marker = "{IfUpgraded:show:";
+function renderSts2ConditionalBlocks(text, marker, selectTrue, highlight = false) {
+  const lowerText = text.toLowerCase();
+  const lowerMarker = marker.toLowerCase();
   let rendered = "";
   let cursor = 0;
 
   while (cursor < text.length) {
-    const start = text.indexOf(marker, cursor);
+    const start = lowerText.indexOf(lowerMarker, cursor);
     if (start < 0) {
       rendered += text.slice(cursor);
       break;
@@ -534,14 +504,15 @@ function renderIfUpgradedShowBlocks(text, useUpgrade) {
       if (char === "|" && depth === 1 && separator < 0) separator = end;
     }
 
-    if (depth !== 0 || separator < 0) {
+    if (depth !== 0) {
       rendered += text.slice(start);
       break;
     }
 
-    const upgraded = text.slice(start + marker.length, separator);
-    const base = text.slice(separator + 1, end);
-    rendered += useUpgrade ? `__UPGRADE_START__${upgraded}__UPGRADE_END__` : base;
+    const whenTrue = text.slice(start + marker.length, separator < 0 ? end : separator).replace(/^cond:/i, "");
+    const whenFalse = separator < 0 ? "" : text.slice(separator + 1, end);
+    const selected = selectTrue ? whenTrue : whenFalse;
+    rendered += highlight && selected ? `__UPGRADE_START__${selected}__UPGRADE_END__` : selected;
     cursor = end + 1;
   }
 
@@ -559,7 +530,10 @@ function renderSts2Markup(text, useUpgrade = state.showUpgrade, card = null) {
     aqua: "kw-mark-aqua",
     afterlife: "kw-mark-afterlife",
   };
-  let rendered = renderIfUpgradedShowBlocks(text, useUpgrade);
+  let rendered = renderSts2ConditionalBlocks(text, "{IfUpgraded:show:", useUpgrade, useUpgrade);
+  rendered = renderSts2ConditionalBlocks(rendered, "{InCombat:", false);
+  rendered = renderSts2ConditionalBlocks(rendered, "{IsTargeting:", false);
+  rendered = renderSts2ConditionalBlocks(rendered, "{IsOnCard:", Boolean(card));
   rendered = rendered.replace(/\{Multiplayer:([^{}|]*)\|([^{}]*)\}/gi, (_full, singlePlayer) => singlePlayer);
   rendered = rendered.replace(/\{\{QueryLink\|[^{}|]*\|[^{}|]*\|([^{}|]*)\}\}/gi, (_full, label) => label);
   rendered = rendered.replace(/\{([A-Za-z_]\w*):cond:\s*(>=|<=|>|<|&gt;=?|&lt;=?|==|!=)\s*(-?\d+(?:\.\d+)?)\?([^{}|]*)\|([^{}]*)\}/g,
@@ -599,9 +573,6 @@ function renderSts2Markup(text, useUpgrade = state.showUpgrade, card = null) {
   rendered = rendered.replace(/\{TargetType:choose\((\w+)\):([\s\S]*?)\|\}/g, (_full, target, content) => (
     card && card.target === target ? content : ""
   ));
-  rendered = stripSts2Blocks(rendered, "InCombat");
-  rendered = stripSts2Blocks(rendered, "IsTargeting");
-  rendered = stripSts2Blocks(rendered, "IsOnCard");
   rendered = rendered.replace(/\{([A-Za-z_]\w*):p?plural:([^{}|]*)\|([^{}]*)\}/g, (_full, name, singular, plural) => {
     const valueToken = new RegExp(`__(?:TV|TVG)__(-?\\d+)__`).exec(`${singular}${plural}`);
     const values = useUpgrade ? ((card && card.upgradeDynamicValues) || {}) : ((card && card.dynamicValues) || {});
@@ -2567,7 +2538,7 @@ async function init() {
     initialParams.set("lang", "zh");
     initialParams.delete("translator_mode");
   }
-  const response = await fetch(state.catfall ? "data/catfall-cards.json?v=20261123-2" : "data/cards.json?v=20261123");
+  const response = await fetch(state.catfall ? "data/catfall-cards.json?v=20261123-2" : "data/cards.json?v=20261123-3");
   if (!response.ok) {
     elements.summary.textContent = "Missing data/cards.json. Run the pipeline first.";
     return;
