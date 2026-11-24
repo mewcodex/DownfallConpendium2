@@ -175,13 +175,19 @@ function humanizeCode(value) {
     .join(" ");
 }
 
-function renderSts2Markup(text) {
+function renderSts2Markup(text, context = null) {
   if (!text) return "";
   const colorClasses = { gold: "kw-mark-yellow", blue: "kw-mark-blue", red: "kw-mark-red", purple: "kw-mark-purple", green: "kw-mark-green", aqua: "kw-mark-aqua" };
   let rendered = text.replace(/\[(gold|blue|red|purple|green|aqua)\]([\s\S]*?)\[\/\1\]/gi, (_full, color, content) => `<span class="${colorClasses[color.toLowerCase()]}">${content}</span>`);
   rendered = rendered.replace(/\{Multiplayer:([^{}|]*)\|([^{}]*)\}/gi, (_full, singlePlayer) => singlePlayer);
   rendered = rendered.replace(/\{\{QueryLink\|[^{}|]*\|[^{}|]*\|([^{}|]*)\}\}/gi, (_full, label) => label);
-  rendered = rendered.replace(/\{(?:energyPrefix|Energy):energyIcons\((\d*)\)\}/gi, (_full, amount) => "[E]".repeat(Math.max(1, Number(amount || 1))));
+  rendered = rendered.replace(/\{([A-Za-z_]\w*):energyIcons\((-?\d+)?\)\}/gi, (_full, name, amount) => {
+    const values = context?.dynamicValues || {};
+    const key = Object.keys(values).find((candidate) => candidate.toLowerCase().replace(/power$/, "") === name.toLowerCase().replace(/power$/, ""));
+    const value = amount === undefined ? values[key] : Number(amount);
+    const count = Number.isFinite(value) ? Math.trunc(value) : 1;
+    return count > 0 && count < 5 ? "[E]".repeat(count) : `${count}[E]`;
+  });
   rendered = rendered.replace(/\{InCombat:cond:\s*[\s\S]*?\|\}/gi, "");
   rendered = rendered.replace(/\{[A-Za-z_]\w*:cond:\s*([\s\S]*?)\|\}/g, (_full, content) => content.trim().replace(/^[（(]\s*/, "").replace(/\s*[）)]+$/, ""));
   rendered = rendered.replace(/\{(?:[A-Za-z_][\w]*)(?::(?:(?:diff|inverseDiff|preview)\(\)|p?plural:[^}]*|cond:[\s\S]*?))?\}/g, (token) => token.slice(1, -1).split(":", 1)[0].replace(/Power$/, "").replace(/([a-z])([A-Z])/g, "$1 $2"));
@@ -365,9 +371,8 @@ function renderLegacyBlueMarkers(text) {
 
 function renderEnergyToken(text, energyIcon) {
   if (!text) return "";
-  const iconHtml = energyIcon
-    ? `<span class="energy-token"><img src="${escapeHtml(energyIcon)}" alt="E" loading="lazy"></span>`
-    : '<span class="energy-token energy-token-fallback" aria-label="Energy">E</span>';
+  const icon = energyIcon || "assets/card-ui/energy-colorless-gen2.png";
+  const iconHtml = `<span class="energy-token"><img src="${escapeHtml(icon)}" alt="E" loading="lazy"></span>`;
   return text.replace(/\[E\]/g, iconHtml);
 }
 
@@ -698,7 +703,7 @@ function renderRelicDescription(relic) {
   if (!raw) return `<span class="muted">${escapeHtml(t("noDescription"))}</span>`;
 
   let text = escapeHtml(raw).replace(/NL/g, "<br>");
-  text = renderSts2Markup(text);
+  text = renderSts2Markup(text, relic);
   text = renderEnergyToken(text, relic && relic.energyIcon);
   text = highlightPrefixedKeywords(text);
   text = highlightBaseKeywords(text);
@@ -724,7 +729,7 @@ function renderCardPreviewDescription(card, lang) {
   state.lang = lang;
   const raw = normalizeDescText(fillCardTokens(base, card));
   let text = escapeHtml(raw).replace(/NL/g, "<br>");
-  text = renderSts2Markup(text);
+  text = renderSts2Markup(text, card);
   text = renderEnergyToken(text, card && card.energyIcon);
   text = highlightPrefixedKeywords(text);
   text = highlightBaseKeywords(text);
@@ -854,7 +859,7 @@ function showKeywordTooltip(entry, anchorRect, langOverride = null, energyIcon =
   const name = escapeHtml(normalizeDescText(entry.name || ""));
   const descRaw = normalizeDescText(entry.description || "");
   let desc = escapeHtml(descRaw).replace(/NL/g, "<br>");
-  desc = renderSts2Markup(desc);
+  desc = renderSts2Markup(desc, entry);
   desc = renderEnergyToken(desc, energyIcon);
   desc = highlightCardRefs(desc);
   desc = renderLegacyBlueMarkers(desc);
@@ -922,7 +927,7 @@ function renderRelicAttachmentDescription(description, relic, language) {
   state.lang = language;
   try {
     let text = escapeHtml(normalizeDescText(fillSts2DynamicTokens(description, relic))).replace(/NL/g, "<br>");
-    text = renderSts2Markup(text);
+    text = renderSts2Markup(text, relic);
     text = renderEnergyToken(text, relic && relic.energyIcon);
     text = renderLegacyBlueMarkers(text);
     text = renderBracketColorSyntax(text);
@@ -1435,8 +1440,8 @@ async function init() {
   applyI18nText();
 
   const [relicRes, cardRes] = await Promise.all([
-    fetch(`${state.catfall ? "data/catfall-relics.json" : "data/relics.json"}?v=20261124`),
-    fetch(`${state.catfall ? "data/catfall-cards.json" : "data/cards.json"}?v=20261124`),
+    fetch(`${state.catfall ? "data/catfall-relics.json" : "data/relics.json"}?v=20261124-2`),
+    fetch(`${state.catfall ? "data/catfall-cards.json" : "data/cards.json"}?v=20261124-2`),
   ]);
 
   if (!relicRes.ok) throw new Error(`Failed to load relic data: ${relicRes.status}`);

@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-24T05:21:42.226377Z",
+  "generatedAt": "2026-11-24T08:34:14.168246Z",
   "modVersion": "0.1.26",
   "translationVersion": "bundled",
   "translationSource": "bundled",
@@ -821,6 +821,16 @@
         "icon": null
       }
     ]
+  },
+  "costIcons": {
+    "AUTOMATON": "assets/energy-icons/automaton-cost.png",
+    "AWAKENED": "assets/energy-icons/awakened-cost.png",
+    "CHAMP": "assets/energy-icons/champ-cost.png",
+    "GUARDIAN": "assets/energy-icons/guardian-cost.png",
+    "HERMIT": "assets/energy-icons/hermit-cost.png",
+    "HEXAGHOST": "assets/energy-icons/hexaghost-cost.png",
+    "SLIMEBOUND": "assets/energy-icons/slimebound-cost.png",
+    "SNECKO": "assets/energy-icons/snecko-cost.png"
   },
   "cardCount": 775,
   "cards": [

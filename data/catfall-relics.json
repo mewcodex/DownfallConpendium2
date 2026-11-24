@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-24T04:11:37.210712Z",
+  "generatedAt": "2026-11-24T08:34:46.953266Z",
   "modVersion": "catfall2 1.0 + Downfall 0.1.15",
   "translationVersion": "bundled",
   "translationSource": "bundled",
@@ -792,7 +792,7 @@
         "en": "The Automaton",
         "zh": "铜制机械人偶"
       },
-      "energyIcon": "assets/catfall/energy-icons/automaton.webp",
+      "energyIcon": "assets/catfall/energy-icons/automaton-text.webp",
       "img": "assets/catfall/relics/automaton-bottled_code.webp",
       "imageResource": "",
       "deprecated": false,
@@ -847,7 +847,7 @@
         "en": "The Automaton",
         "zh": "铜制机械人偶"
       },
-      "energyIcon": "assets/catfall/energy-icons/automaton.webp",
+      "energyIcon": "assets/catfall/energy-icons/automaton-text.webp",
       "img": "assets/catfall/relics/automaton-bronze_core.webp",
       "imageResource": "",
       "deprecated": false,
@@ -916,7 +916,7 @@
         "en": "The Automaton",
         "zh": "铜制机械人偶"
       },
-      "energyIcon": "assets/catfall/energy-icons/automaton.webp",
+      "energyIcon": "assets/catfall/energy-icons/automaton-text.webp",
       "img": "assets/catfall/relics/automaton-cable_spool.webp",
       "imageResource": "",
       "deprecated": false,
@@ -959,7 +959,7 @@
         "en": "The Automaton",
         "zh": "铜制机械人偶"
       },
-      "energyIcon": "assets/catfall/energy-icons/automaton.webp",
+      "energyIcon": "assets/catfall/energy-icons/automaton-text.webp",
       "img": "assets/catfall/relics/automaton-donus_washers.webp",
       "imageResource": "",
       "deprecated": false,
@@ -985,7 +985,7 @@
         "en": "The Automaton",
         "zh": "铜制机械人偶"
       },
-      "energyIcon": "assets/catfall/energy-icons/automaton.webp",
+      "energyIcon": "assets/catfall/energy-icons/automaton-text.webp",
       "img": "assets/catfall/relics/automaton-electromagnetic_coil.webp",
       "imageResource": "",
       "deprecated": false,
@@ -1011,7 +1011,7 @@
         "en": "The Automaton",
         "zh": "铜制机械人偶"
       },
-      "energyIcon": "assets/catfall/energy-icons/automaton.webp",
+      "energyIcon": "assets/catfall/energy-icons/automaton-text.webp",
       "img": "assets/catfall/relics/automaton-frost_primer.webp",
       "imageResource": "",
       "deprecated": false,
@@ -1052,7 +1052,7 @@
         "en": "The Automaton",
         "zh": "铜制机械人偶"
       },
-      "energyIcon": "assets/catfall/energy-icons/automaton.webp",
+      "energyIcon": "assets/catfall/energy-icons/automaton-text.webp",
       "img": "assets/catfall/relics/automaton-makeshift_battery.webp",
       "imageResource": "",
       "deprecated": false,
@@ -1093,7 +1093,7 @@
         "en": "The Automaton",
         "zh": "铜制机械人偶"
       },
-      "energyIcon": "assets/catfall/energy-icons/automaton.webp",
+      "energyIcon": "assets/catfall/energy-icons/automaton-text.webp",
       "img": "assets/catfall/relics/automaton-mallet.webp",
       "imageResource": "",
       "deprecated": false,
@@ -1134,7 +1134,7 @@
         "en": "The Automaton",
         "zh": "铜制机械人偶"
       },
-      "energyIcon": "assets/catfall/energy-icons/automaton.webp",
+      "energyIcon": "assets/catfall/energy-icons/automaton-text.webp",
       "img": "assets/catfall/relics/automaton-platinum_core.webp",
       "imageResource": "",
       "deprecated": false,
@@ -1203,7 +1203,7 @@
         "en": "The Automaton",
         "zh": "铜制机械人偶"
       },
-      "energyIcon": "assets/catfall/energy-icons/automaton.webp",
+      "energyIcon": "assets/catfall/energy-icons/automaton-text.webp",
       "img": "assets/catfall/relics/automaton-protective_goggles.webp",
       "imageResource": "",
       "deprecated": false,
@@ -1246,7 +1246,7 @@
         "en": "The Automaton",
         "zh": "铜制机械人偶"
       },
-      "energyIcon": "assets/catfall/energy-icons/automaton.webp",
+      "energyIcon": "assets/catfall/energy-icons/automaton-text.webp",
       "img": "assets/catfall/relics/automaton-silver_bullet.webp",
       "imageResource": "",
       "deprecated": false,
@@ -1274,7 +1274,7 @@
         "en": "The Awakened",
         "zh": "觉醒者"
       },
-      "energyIcon": "assets/catfall/energy-icons/awakened.webp",
+      "energyIcon": "assets/catfall/energy-icons/awakened-text.webp",
       "img": "assets/catfall/relics/awakened-abyss_blade.webp",
       "imageResource": "",
       "deprecated": false,
@@ -1343,7 +1343,7 @@
         "en": "The Awakened",
         "zh": "觉醒者"
       },
-      "energyIcon": "assets/catfall/energy-icons/awakened.webp",
+      "energyIcon": "assets/catfall/energy-icons/awakened-text.webp",
       "img": "assets/catfall/relics/awakened-bird_faced_vase.webp",
       "imageResource": "",
       "deprecated": false,
@@ -1369,7 +1369,7 @@
         "en": "The Awakened",
         "zh": "觉醒者"
       },
-      "energyIcon": "assets/catfall/energy-icons/awakened.webp",
+      "energyIcon": "assets/catfall/energy-icons/awakened-text.webp",
       "img": "assets/catfall/relics/awakened-crescent_talisman.webp",
       "imageResource": "",
       "deprecated": false,
@@ -1424,7 +1424,7 @@
         "en": "The Awakened",
         "zh": "觉醒者"
       },
-      "energyIcon": "assets/catfall/energy-icons/awakened.webp",
+      "energyIcon": "assets/catfall/energy-icons/awakened-text.webp",
       "img": "assets/catfall/relics/awakened-dessicated_hand.webp",
       "imageResource": "",
       "deprecated": false,
@@ -1450,7 +1450,7 @@
         "en": "The Awakened",
         "zh": "觉醒者"
       },
-      "energyIcon": "assets/catfall/energy-icons/awakened.webp",
+      "energyIcon": "assets/catfall/energy-icons/awakened-text.webp",
       "img": "assets/catfall/relics/awakened-eye_of_the_occult.webp",
       "imageResource": "",
       "deprecated": false,
@@ -1476,7 +1476,7 @@
         "en": "The Awakened",
         "zh": "觉醒者"
       },
-      "energyIcon": "assets/catfall/energy-icons/awakened.webp",
+      "energyIcon": "assets/catfall/energy-icons/awakened-text.webp",
       "img": "assets/catfall/relics/awakened-final_rites.webp",
       "imageResource": "",
       "deprecated": false,
@@ -1519,7 +1519,7 @@
         "en": "The Awakened",
         "zh": "觉醒者"
       },
-      "energyIcon": "assets/catfall/energy-icons/awakened.webp",
+      "energyIcon": "assets/catfall/energy-icons/awakened-text.webp",
       "img": "assets/catfall/relics/awakened-manabomb.webp",
       "imageResource": "",
       "deprecated": false,
@@ -1574,7 +1574,7 @@
         "en": "The Awakened",
         "zh": "觉醒者"
       },
-      "energyIcon": "assets/catfall/energy-icons/awakened.webp",
+      "energyIcon": "assets/catfall/energy-icons/awakened-text.webp",
       "img": "assets/catfall/relics/awakened-paper_crow.webp",
       "imageResource": "",
       "deprecated": false,
@@ -1629,7 +1629,7 @@
         "en": "The Awakened",
         "zh": "觉醒者"
       },
-      "energyIcon": "assets/catfall/energy-icons/awakened.webp",
+      "energyIcon": "assets/catfall/energy-icons/awakened-text.webp",
       "img": "assets/catfall/relics/awakened-ripped_doll.webp",
       "imageResource": "",
       "deprecated": false,
@@ -1670,7 +1670,7 @@
         "en": "The Awakened",
         "zh": "觉醒者"
       },
-      "energyIcon": "assets/catfall/energy-icons/awakened.webp",
+      "energyIcon": "assets/catfall/energy-icons/awakened-text.webp",
       "img": "assets/catfall/relics/awakened-shredded_doll.webp",
       "imageResource": "",
       "deprecated": false,
@@ -1713,7 +1713,7 @@
         "en": "The Awakened",
         "zh": "觉醒者"
       },
-      "energyIcon": "assets/catfall/energy-icons/awakened.webp",
+      "energyIcon": "assets/catfall/energy-icons/awakened-text.webp",
       "img": "assets/catfall/relics/awakened-tome_of_portalmancy.webp",
       "imageResource": "",
       "deprecated": false,
@@ -1770,7 +1770,7 @@
         "en": "The Awakened",
         "zh": "觉醒者"
       },
-      "energyIcon": "assets/catfall/energy-icons/awakened.webp",
+      "energyIcon": "assets/catfall/energy-icons/awakened-text.webp",
       "img": "assets/catfall/relics/awakened-white_ribbon.webp",
       "imageResource": "",
       "deprecated": false,
@@ -1811,7 +1811,7 @@
         "en": "The Awakened",
         "zh": "觉醒者"
       },
-      "energyIcon": "assets/catfall/energy-icons/awakened.webp",
+      "energyIcon": "assets/catfall/energy-icons/awakened-text.webp",
       "img": "assets/catfall/relics/awakened-zener_deck.webp",
       "imageResource": "",
       "deprecated": false,
@@ -1852,7 +1852,7 @@
         "en": "The Awakened",
         "zh": "觉醒者"
       },
-      "energyIcon": "assets/catfall/energy-icons/awakened.webp",
+      "energyIcon": "assets/catfall/energy-icons/awakened-text.webp",
       "img": "assets/catfall/relics/awakened-zetsumei.webp",
       "imageResource": "",
       "deprecated": false,
@@ -1880,7 +1880,7 @@
         "en": "The Guardian",
         "zh": "守护者"
       },
-      "energyIcon": null,
+      "energyIcon": "assets/catfall/energy-icons/guardian-text.webp",
       "img": "assets/catfall/relics/catfall2-bottled_stasis.webp",
       "imageResource": "",
       "deprecated": false,
@@ -1923,7 +1923,7 @@
         "en": "The Guardian",
         "zh": "守护者"
       },
-      "energyIcon": null,
+      "energyIcon": "assets/catfall/energy-icons/guardian-text.webp",
       "img": "assets/catfall/relics/catfall2-defensive_mode_more_block.webp",
       "imageResource": "",
       "deprecated": false,
@@ -1966,7 +1966,7 @@
         "en": "The Guardian",
         "zh": "守护者"
       },
-      "energyIcon": null,
+      "energyIcon": "assets/catfall/energy-icons/guardian-text.webp",
       "img": "assets/catfall/relics/catfall2-gemstone_gun.webp",
       "imageResource": "",
       "deprecated": false,
@@ -2007,7 +2007,7 @@
         "en": "The Guardian",
         "zh": "守护者"
       },
-      "energyIcon": null,
+      "energyIcon": "assets/catfall/energy-icons/guardian-text.webp",
       "img": "assets/catfall/relics/catfall2-mode_shifter.webp",
       "imageResource": "",
       "deprecated": false,
@@ -2056,7 +2056,7 @@
         "en": "The Guardian",
         "zh": "守护者"
       },
-      "energyIcon": null,
+      "energyIcon": "assets/catfall/energy-icons/guardian-text.webp",
       "img": "assets/catfall/relics/catfall2-mode_shifter_plus.webp",
       "imageResource": "",
       "deprecated": false,
@@ -2099,7 +2099,7 @@
         "en": "The Guardian",
         "zh": "守护者"
       },
-      "energyIcon": null,
+      "energyIcon": "assets/catfall/energy-icons/guardian-text.webp",
       "img": "assets/catfall/relics/catfall2-pocket_sentry.webp",
       "imageResource": "",
       "deprecated": false,
@@ -2129,7 +2129,7 @@
         "en": "The Guardian",
         "zh": "守护者"
       },
-      "energyIcon": null,
+      "energyIcon": "assets/catfall/energy-icons/guardian-text.webp",
       "img": "assets/catfall/relics/catfall2-stasis_codex.webp",
       "imageResource": "",
       "deprecated": false,
@@ -2172,7 +2172,7 @@
         "en": "The Guardian",
         "zh": "守护者"
       },
-      "energyIcon": null,
+      "energyIcon": "assets/catfall/energy-icons/guardian-text.webp",
       "img": "assets/catfall/relics/catfall2-stasis_egg.webp",
       "imageResource": "",
       "deprecated": false,
@@ -2200,7 +2200,7 @@
         "en": "The Guardian",
         "zh": "守护者"
       },
-      "energyIcon": null,
+      "energyIcon": "assets/catfall/energy-icons/guardian-text.webp",
       "img": "assets/catfall/relics/catfall2-stasis_upgrade_relic.webp",
       "imageResource": "",
       "deprecated": false,
@@ -2241,7 +2241,7 @@
         "en": "The Champ",
         "zh": "第一勇士"
       },
-      "energyIcon": "assets/catfall/energy-icons/champ.webp",
+      "energyIcon": "assets/catfall/energy-icons/champ-text.webp",
       "img": "assets/catfall/relics/champ-amulet_of_unyielding.webp",
       "imageResource": "",
       "deprecated": false,
@@ -2270,7 +2270,7 @@
         "en": "The Champ",
         "zh": "第一勇士"
       },
-      "energyIcon": "assets/catfall/energy-icons/champ.webp",
+      "energyIcon": "assets/catfall/energy-icons/champ-text.webp",
       "img": "assets/catfall/relics/champ-berserkers_guide.webp",
       "imageResource": "",
       "deprecated": false,
@@ -2296,7 +2296,7 @@
         "en": "The Champ",
         "zh": "第一勇士"
       },
-      "energyIcon": "assets/catfall/energy-icons/champ.webp",
+      "energyIcon": "assets/catfall/energy-icons/champ-text.webp",
       "img": "assets/catfall/relics/champ-black_knights_helm.webp",
       "imageResource": "",
       "deprecated": false,
@@ -2322,7 +2322,7 @@
         "en": "The Champ",
         "zh": "第一勇士"
       },
-      "energyIcon": "assets/catfall/energy-icons/champ.webp",
+      "energyIcon": "assets/catfall/energy-icons/champ-text.webp",
       "img": "assets/catfall/relics/champ-champions_crown.webp",
       "imageResource": "",
       "deprecated": false,
@@ -2365,7 +2365,7 @@
         "en": "The Champ",
         "zh": "第一勇士"
       },
-      "energyIcon": "assets/catfall/energy-icons/champ.webp",
+      "energyIcon": "assets/catfall/energy-icons/champ-text.webp",
       "img": "assets/catfall/relics/champ-defensive_thesis.webp",
       "imageResource": "",
       "deprecated": false,
@@ -2420,7 +2420,7 @@
         "en": "The Champ",
         "zh": "第一勇士"
       },
-      "energyIcon": "assets/catfall/energy-icons/champ.webp",
+      "energyIcon": "assets/catfall/energy-icons/champ-text.webp",
       "img": "assets/catfall/relics/champ-dolphins_style_guide.webp",
       "imageResource": "",
       "deprecated": false,
@@ -2446,7 +2446,7 @@
         "en": "The Champ",
         "zh": "第一勇士"
       },
-      "energyIcon": "assets/catfall/energy-icons/champ.webp",
+      "energyIcon": "assets/catfall/energy-icons/champ-text.webp",
       "img": "assets/catfall/relics/champ-gladiators_manual.webp",
       "imageResource": "",
       "deprecated": false,
@@ -2515,7 +2515,7 @@
         "en": "The Champ",
         "zh": "第一勇士"
       },
-      "energyIcon": "assets/catfall/energy-icons/champ.webp",
+      "energyIcon": "assets/catfall/energy-icons/champ-text.webp",
       "img": "assets/catfall/relics/champ-inner_strength.webp",
       "imageResource": "",
       "deprecated": false,
@@ -2541,7 +2541,7 @@
         "en": "The Champ",
         "zh": "第一勇士"
       },
-      "energyIcon": "assets/catfall/energy-icons/champ.webp",
+      "energyIcon": "assets/catfall/energy-icons/champ-text.webp",
       "img": "assets/catfall/relics/champ-power_armor.webp",
       "imageResource": "",
       "deprecated": false,
@@ -2582,7 +2582,7 @@
         "en": "The Champ",
         "zh": "第一勇士"
       },
-      "energyIcon": "assets/catfall/energy-icons/champ.webp",
+      "energyIcon": "assets/catfall/energy-icons/champ-text.webp",
       "img": "assets/catfall/relics/champ-signature_finisher.webp",
       "imageResource": "",
       "deprecated": false,
@@ -2637,7 +2637,7 @@
         "en": "The Champ",
         "zh": "第一勇士"
       },
-      "energyIcon": "assets/catfall/energy-icons/champ.webp",
+      "energyIcon": "assets/catfall/energy-icons/champ-text.webp",
       "img": "assets/catfall/relics/champ-spectres_hand.webp",
       "imageResource": "",
       "deprecated": false,
@@ -2706,7 +2706,7 @@
         "en": "The Champ",
         "zh": "第一勇士"
       },
-      "energyIcon": "assets/catfall/energy-icons/champ.webp",
+      "energyIcon": "assets/catfall/energy-icons/champ-text.webp",
       "img": "assets/catfall/relics/champ-victorious_crown.webp",
       "imageResource": "",
       "deprecated": false,
@@ -2763,7 +2763,7 @@
         "en": "The Collector",
         "zh": "收藏家"
       },
-      "energyIcon": "assets/catfall/energy-icons/collector.webp",
+      "energyIcon": "assets/catfall/energy-icons/collector-text.webp",
       "img": "assets/catfall/relics/collector-bag_of_tricks.webp",
       "imageResource": "",
       "deprecated": false,
@@ -2789,7 +2789,7 @@
         "en": "The Collector",
         "zh": "收藏家"
       },
-      "energyIcon": "assets/catfall/energy-icons/collector.webp",
+      "energyIcon": "assets/catfall/energy-icons/collector-text.webp",
       "img": "assets/catfall/relics/collector-blocked_chakra.webp",
       "imageResource": "",
       "deprecated": false,
@@ -2832,7 +2832,7 @@
         "en": "The Collector",
         "zh": "收藏家"
       },
-      "energyIcon": "assets/catfall/energy-icons/collector.webp",
+      "energyIcon": "assets/catfall/energy-icons/collector-text.webp",
       "img": "assets/catfall/relics/collector-bottled_brain.webp",
       "imageResource": "",
       "deprecated": false,
@@ -2873,7 +2873,7 @@
         "en": "The Collector",
         "zh": "收藏家"
       },
-      "energyIcon": "assets/catfall/energy-icons/collector.webp",
+      "energyIcon": "assets/catfall/energy-icons/collector-text.webp",
       "img": "assets/catfall/relics/collector-emerald_torch.webp",
       "imageResource": "",
       "deprecated": false,
@@ -2914,7 +2914,7 @@
         "en": "The Collector",
         "zh": "收藏家"
       },
-      "energyIcon": "assets/catfall/energy-icons/collector.webp",
+      "energyIcon": "assets/catfall/energy-icons/collector-text.webp",
       "img": "assets/catfall/relics/collector-jade_ring.webp",
       "imageResource": "",
       "deprecated": false,
@@ -2955,7 +2955,7 @@
         "en": "The Collector",
         "zh": "收藏家"
       },
-      "energyIcon": "assets/catfall/energy-icons/collector.webp",
+      "energyIcon": "assets/catfall/energy-icons/collector-text.webp",
       "img": "assets/catfall/relics/collector-krampian_coal.webp",
       "imageResource": "",
       "deprecated": false,
@@ -2996,7 +2996,7 @@
         "en": "The Collector",
         "zh": "收藏家"
       },
-      "energyIcon": "assets/catfall/energy-icons/collector.webp",
+      "energyIcon": "assets/catfall/energy-icons/collector-text.webp",
       "img": "assets/catfall/relics/collector-prismatic_torch.webp",
       "imageResource": "",
       "deprecated": false,
@@ -3037,7 +3037,7 @@
         "en": "The Collector",
         "zh": "收藏家"
       },
-      "energyIcon": "assets/catfall/energy-icons/collector.webp",
+      "energyIcon": "assets/catfall/energy-icons/collector-text.webp",
       "img": "assets/catfall/relics/collector-soul_lit_lamp.webp",
       "imageResource": "",
       "deprecated": false,
@@ -3063,7 +3063,7 @@
         "en": "The Collector",
         "zh": "收藏家"
       },
-      "energyIcon": "assets/catfall/energy-icons/collector.webp",
+      "energyIcon": "assets/catfall/energy-icons/collector-text.webp",
       "img": "assets/catfall/relics/collector-the_contract.webp",
       "imageResource": "",
       "deprecated": false,
@@ -3089,7 +3089,7 @@
         "en": "The Collector",
         "zh": "收藏家"
       },
-      "energyIcon": "assets/catfall/energy-icons/collector.webp",
+      "energyIcon": "assets/catfall/energy-icons/collector-text.webp",
       "img": "assets/catfall/relics/collector-thimble_helm.webp",
       "imageResource": "",
       "deprecated": false,
@@ -3144,7 +3144,7 @@
         "en": "The Hermit",
         "zh": "亡命之徒"
       },
-      "energyIcon": "assets/catfall/energy-icons/hermit.webp",
+      "energyIcon": "assets/catfall/energy-icons/hermit-text.webp",
       "img": "assets/catfall/relics/hermit-black_powder.webp",
       "imageResource": "",
       "deprecated": false,
@@ -3187,7 +3187,7 @@
         "en": "The Hermit",
         "zh": "亡命之徒"
       },
-      "energyIcon": "assets/catfall/energy-icons/hermit.webp",
+      "energyIcon": "assets/catfall/energy-icons/hermit-text.webp",
       "img": "assets/catfall/relics/hermit-brass_tacks.webp",
       "imageResource": "",
       "deprecated": false,
@@ -3215,7 +3215,7 @@
         "en": "The Hermit",
         "zh": "亡命之徒"
       },
-      "energyIcon": "assets/catfall/energy-icons/hermit.webp",
+      "energyIcon": "assets/catfall/energy-icons/hermit-text.webp",
       "img": "assets/catfall/relics/hermit-broken_tooth.webp",
       "imageResource": "",
       "deprecated": false,
@@ -3259,7 +3259,7 @@
         "en": "The Hermit",
         "zh": "亡命之徒"
       },
-      "energyIcon": "assets/catfall/energy-icons/hermit.webp",
+      "energyIcon": "assets/catfall/energy-icons/hermit-text.webp",
       "img": "assets/catfall/relics/hermit-charred_glove.webp",
       "imageResource": "",
       "deprecated": false,
@@ -3287,7 +3287,7 @@
         "en": "The Hermit",
         "zh": "亡命之徒"
       },
-      "energyIcon": "assets/catfall/energy-icons/hermit.webp",
+      "energyIcon": "assets/catfall/energy-icons/hermit-text.webp",
       "img": "assets/catfall/relics/hermit-clasped_locket.webp",
       "imageResource": "",
       "deprecated": false,
@@ -3318,7 +3318,7 @@
         "en": "The Hermit",
         "zh": "亡命之徒"
       },
-      "energyIcon": "assets/catfall/energy-icons/hermit.webp",
+      "energyIcon": "assets/catfall/energy-icons/hermit-text.webp",
       "img": "assets/catfall/relics/hermit-dented_plate.webp",
       "imageResource": "",
       "deprecated": false,
@@ -3347,7 +3347,7 @@
         "en": "The Hermit",
         "zh": "亡命之徒"
       },
-      "energyIcon": "assets/catfall/energy-icons/hermit.webp",
+      "energyIcon": "assets/catfall/energy-icons/hermit-text.webp",
       "img": "assets/catfall/relics/hermit-horseshoe.webp",
       "imageResource": "",
       "deprecated": false,
@@ -3373,7 +3373,7 @@
         "en": "The Hermit",
         "zh": "亡命之徒"
       },
-      "energyIcon": "assets/catfall/energy-icons/hermit.webp",
+      "energyIcon": "assets/catfall/energy-icons/hermit-text.webp",
       "img": "assets/catfall/relics/hermit-old_locket.webp",
       "imageResource": "",
       "deprecated": false,
@@ -3405,7 +3405,7 @@
         "en": "The Hermit",
         "zh": "亡命之徒"
       },
-      "energyIcon": "assets/catfall/energy-icons/hermit.webp",
+      "energyIcon": "assets/catfall/energy-icons/hermit-text.webp",
       "img": "assets/catfall/relics/hermit-pet_ghost.webp",
       "imageResource": "",
       "deprecated": false,
@@ -3431,7 +3431,7 @@
         "en": "The Hermit",
         "zh": "亡命之徒"
       },
-      "energyIcon": "assets/catfall/energy-icons/hermit.webp",
+      "energyIcon": "assets/catfall/energy-icons/hermit-text.webp",
       "img": "assets/catfall/relics/hermit-red_scarf.webp",
       "imageResource": "",
       "deprecated": false,
@@ -3459,7 +3459,7 @@
         "en": "The Hermit",
         "zh": "亡命之徒"
       },
-      "energyIcon": "assets/catfall/energy-icons/hermit.webp",
+      "energyIcon": "assets/catfall/energy-icons/hermit-text.webp",
       "img": "assets/catfall/relics/hermit-rye_stalk.webp",
       "imageResource": "",
       "deprecated": false,
@@ -3505,7 +3505,7 @@
         "en": "The Hermit",
         "zh": "亡命之徒"
       },
-      "energyIcon": "assets/catfall/energy-icons/hermit.webp",
+      "energyIcon": "assets/catfall/energy-icons/hermit-text.webp",
       "img": "assets/catfall/relics/hermit-shotglass.webp",
       "imageResource": "",
       "deprecated": false,
@@ -3535,7 +3535,7 @@
         "en": "The Hermit",
         "zh": "亡命之徒"
       },
-      "energyIcon": "assets/catfall/energy-icons/hermit.webp",
+      "energyIcon": "assets/catfall/energy-icons/hermit-text.webp",
       "img": "assets/catfall/relics/hermit-spyglass.webp",
       "imageResource": "",
       "deprecated": false,
@@ -3606,7 +3606,7 @@
         "en": "The Hermit",
         "zh": "亡命之徒"
       },
-      "energyIcon": "assets/catfall/energy-icons/hermit.webp",
+      "energyIcon": "assets/catfall/energy-icons/hermit-text.webp",
       "img": "assets/catfall/relics/hermit-straight_razor.webp",
       "imageResource": "",
       "deprecated": false,
@@ -3634,7 +3634,7 @@
         "en": "The Hexaghost",
         "zh": "六火亡魂"
       },
-      "energyIcon": "assets/catfall/energy-icons/hexaghost.webp",
+      "energyIcon": "assets/catfall/energy-icons/hexaghost-text.webp",
       "img": "assets/catfall/relics/hexaghost-jar_of_tobsco.webp",
       "imageResource": "",
       "deprecated": false,
@@ -3675,7 +3675,7 @@
         "en": "The Hexaghost",
         "zh": "六火亡魂"
       },
-      "energyIcon": "assets/catfall/energy-icons/hexaghost.webp",
+      "energyIcon": "assets/catfall/energy-icons/hexaghost-text.webp",
       "img": "assets/catfall/relics/hexaghost-libra.webp",
       "imageResource": "",
       "deprecated": false,
@@ -3730,7 +3730,7 @@
         "en": "The Hexaghost",
         "zh": "六火亡魂"
       },
-      "energyIcon": "assets/catfall/energy-icons/hexaghost.webp",
+      "energyIcon": "assets/catfall/energy-icons/hexaghost-text.webp",
       "img": "assets/catfall/relics/hexaghost-mark_of_the_ether.webp",
       "imageResource": "",
       "deprecated": false,
@@ -3785,7 +3785,7 @@
         "en": "The Hexaghost",
         "zh": "六火亡魂"
       },
-      "energyIcon": "assets/catfall/energy-icons/hexaghost.webp",
+      "energyIcon": "assets/catfall/energy-icons/hexaghost-text.webp",
       "img": "assets/catfall/relics/hexaghost-olexas_shield.webp",
       "imageResource": "",
       "deprecated": false,
@@ -3811,7 +3811,7 @@
         "en": "The Hexaghost",
         "zh": "六火亡魂"
       },
-      "energyIcon": "assets/catfall/energy-icons/hexaghost.webp",
+      "energyIcon": "assets/catfall/energy-icons/hexaghost-text.webp",
       "img": "assets/catfall/relics/hexaghost-recycler.webp",
       "imageResource": "",
       "deprecated": false,
@@ -3837,7 +3837,7 @@
         "en": "The Hexaghost",
         "zh": "六火亡魂"
       },
-      "energyIcon": "assets/catfall/energy-icons/hexaghost.webp",
+      "energyIcon": "assets/catfall/energy-icons/hexaghost-text.webp",
       "img": "assets/catfall/relics/hexaghost-red_candle.webp",
       "imageResource": "",
       "deprecated": false,
@@ -3878,7 +3878,7 @@
         "en": "The Hexaghost",
         "zh": "六火亡魂"
       },
-      "energyIcon": "assets/catfall/energy-icons/hexaghost.webp",
+      "energyIcon": "assets/catfall/energy-icons/hexaghost-text.webp",
       "img": "assets/catfall/relics/hexaghost-sneaky_teakwood_match.webp",
       "imageResource": "",
       "deprecated": false,
@@ -3961,7 +3961,7 @@
         "en": "The Hexaghost",
         "zh": "六火亡魂"
       },
-      "energyIcon": "assets/catfall/energy-icons/hexaghost.webp",
+      "energyIcon": "assets/catfall/energy-icons/hexaghost-text.webp",
       "img": "assets/catfall/relics/hexaghost-soul_stone.webp",
       "imageResource": "",
       "deprecated": false,
@@ -4016,7 +4016,7 @@
         "en": "The Hexaghost",
         "zh": "六火亡魂"
       },
-      "energyIcon": "assets/catfall/energy-icons/hexaghost.webp",
+      "energyIcon": "assets/catfall/energy-icons/hexaghost-text.webp",
       "img": "assets/catfall/relics/hexaghost-spirit_brand.webp",
       "imageResource": "",
       "deprecated": false,
@@ -4071,7 +4071,7 @@
         "en": "The Hexaghost",
         "zh": "六火亡魂"
       },
-      "energyIcon": "assets/catfall/energy-icons/hexaghost.webp",
+      "energyIcon": "assets/catfall/energy-icons/hexaghost-text.webp",
       "img": "assets/catfall/relics/hexaghost-the_broken_seal.webp",
       "imageResource": "",
       "deprecated": false,
@@ -4282,7 +4282,7 @@
         "en": "The Slime Boss",
         "zh": "史莱姆老大"
       },
-      "energyIcon": "assets/catfall/energy-icons/slimebound.webp",
+      "energyIcon": "assets/catfall/energy-icons/slimebound-text.webp",
       "img": "assets/catfall/relics/slimeboss-black_heart_of_goo.webp",
       "imageResource": "",
       "deprecated": false,
@@ -4346,7 +4346,7 @@
         "en": "The Slime Boss",
         "zh": "史莱姆老大"
       },
-      "energyIcon": "assets/catfall/energy-icons/slimebound.webp",
+      "energyIcon": "assets/catfall/energy-icons/slimebound-text.webp",
       "img": "assets/catfall/relics/slimeboss-goop_dweller.webp",
       "imageResource": "",
       "deprecated": false,
@@ -4387,7 +4387,7 @@
         "en": "The Slime Boss",
         "zh": "史莱姆老大"
       },
-      "energyIcon": "assets/catfall/energy-icons/slimebound.webp",
+      "energyIcon": "assets/catfall/energy-icons/slimebound-text.webp",
       "img": "assets/catfall/relics/slimeboss-greed_ooze.webp",
       "imageResource": "",
       "deprecated": false,
@@ -4413,7 +4413,7 @@
         "en": "The Slime Boss",
         "zh": "史莱姆老大"
       },
-      "energyIcon": "assets/catfall/energy-icons/slimebound.webp",
+      "energyIcon": "assets/catfall/energy-icons/slimebound-text.webp",
       "img": "assets/catfall/relics/slimeboss-heart_of_goo.webp",
       "imageResource": "",
       "deprecated": false,
@@ -4477,7 +4477,7 @@
         "en": "The Slime Boss",
         "zh": "史莱姆老大"
       },
-      "energyIcon": "assets/catfall/energy-icons/slimebound.webp",
+      "energyIcon": "assets/catfall/energy-icons/slimebound-text.webp",
       "img": "assets/catfall/relics/slimeboss-jeremiahs_banner.webp",
       "imageResource": "",
       "deprecated": false,
@@ -4503,7 +4503,7 @@
         "en": "The Slime Boss",
         "zh": "史莱姆老大"
       },
-      "energyIcon": "assets/catfall/energy-icons/slimebound.webp",
+      "energyIcon": "assets/catfall/energy-icons/slimebound-text.webp",
       "img": "assets/catfall/relics/slimeboss-protective_gear.webp",
       "imageResource": "",
       "deprecated": false,
@@ -4533,7 +4533,7 @@
         "en": "The Slime Boss",
         "zh": "史莱姆老大"
       },
-      "energyIcon": "assets/catfall/energy-icons/slimebound.webp",
+      "energyIcon": "assets/catfall/energy-icons/slimebound-text.webp",
       "img": "assets/catfall/relics/slimeboss-scrap_ooze.webp",
       "imageResource": "",
       "deprecated": false,
@@ -4559,7 +4559,7 @@
         "en": "The Slime Boss",
         "zh": "史莱姆老大"
       },
-      "energyIcon": "assets/catfall/energy-icons/slimebound.webp",
+      "energyIcon": "assets/catfall/energy-icons/slimebound-text.webp",
       "img": "assets/catfall/relics/slimeboss-slimed_tail.webp",
       "imageResource": "",
       "deprecated": false,
@@ -4587,7 +4587,7 @@
         "en": "The Slime Boss",
         "zh": "史莱姆老大"
       },
-      "energyIcon": "assets/catfall/energy-icons/slimebound.webp",
+      "energyIcon": "assets/catfall/energy-icons/slimebound-text.webp",
       "img": "assets/catfall/relics/slimeboss-slimy_skull.webp",
       "imageResource": "",
       "deprecated": false,
@@ -4632,7 +4632,7 @@
         "en": "The Slime Boss",
         "zh": "史莱姆老大"
       },
-      "energyIcon": "assets/catfall/energy-icons/slimebound.webp",
+      "energyIcon": "assets/catfall/energy-icons/slimebound-text.webp",
       "img": "assets/catfall/relics/slimeboss-stone_of_nomakk.webp",
       "imageResource": "",
       "deprecated": false,
@@ -4675,7 +4675,7 @@
         "en": "The Slime Boss",
         "zh": "史莱姆老大"
       },
-      "energyIcon": "assets/catfall/energy-icons/slimebound.webp",
+      "energyIcon": "assets/catfall/energy-icons/slimebound-text.webp",
       "img": "assets/catfall/relics/slimeboss-tarr_blob.webp",
       "imageResource": "",
       "deprecated": false,
@@ -4706,7 +4706,7 @@
         "en": "The Snecko",
         "zh": "异蛇"
       },
-      "energyIcon": "assets/catfall/energy-icons/snecko.webp",
+      "energyIcon": "assets/catfall/energy-icons/snecko-text.webp",
       "img": "assets/catfall/relics/snecko-loaded_die.webp",
       "imageResource": "",
       "deprecated": false,
@@ -4749,7 +4749,7 @@
         "en": "The Snecko",
         "zh": "异蛇"
       },
-      "energyIcon": "assets/catfall/energy-icons/snecko.webp",
+      "energyIcon": "assets/catfall/energy-icons/snecko-text.webp",
       "img": "assets/catfall/relics/snecko-lucky_horseshoe.webp",
       "imageResource": "",
       "deprecated": false,
@@ -4775,7 +4775,7 @@
         "en": "The Snecko",
         "zh": "异蛇"
       },
-      "energyIcon": "assets/catfall/energy-icons/snecko.webp",
+      "energyIcon": "assets/catfall/energy-icons/snecko-text.webp",
       "img": "assets/catfall/relics/snecko-mystical_octahedron.webp",
       "imageResource": "",
       "deprecated": false,
@@ -4830,7 +4830,7 @@
         "en": "The Snecko",
         "zh": "异蛇"
       },
-      "energyIcon": "assets/catfall/energy-icons/snecko.webp",
+      "energyIcon": "assets/catfall/energy-icons/snecko-text.webp",
       "img": "assets/catfall/relics/snecko-prismatic_snecko.webp",
       "imageResource": "",
       "deprecated": false,
@@ -4871,7 +4871,7 @@
         "en": "The Snecko",
         "zh": "异蛇"
       },
-      "energyIcon": "assets/catfall/energy-icons/snecko.webp",
+      "energyIcon": "assets/catfall/energy-icons/snecko-text.webp",
       "img": "assets/catfall/relics/snecko-rare_booster_box.webp",
       "imageResource": "",
       "deprecated": false,
@@ -4912,7 +4912,7 @@
         "en": "The Snecko",
         "zh": "异蛇"
       },
-      "energyIcon": "assets/catfall/energy-icons/snecko.webp",
+      "energyIcon": "assets/catfall/energy-icons/snecko-text.webp",
       "img": "assets/catfall/relics/snecko-ring_of_the_snek.webp",
       "imageResource": "",
       "deprecated": false,
@@ -4957,7 +4957,7 @@
         "en": "The Snecko",
         "zh": "异蛇"
       },
-      "energyIcon": "assets/catfall/energy-icons/snecko.webp",
+      "energyIcon": "assets/catfall/energy-icons/snecko-text.webp",
       "img": "assets/catfall/relics/snecko-seal_of_approval.webp",
       "imageResource": "",
       "deprecated": false,
@@ -4998,7 +4998,7 @@
         "en": "The Snecko",
         "zh": "异蛇"
       },
-      "energyIcon": "assets/catfall/energy-icons/snecko.webp",
+      "energyIcon": "assets/catfall/energy-icons/snecko-text.webp",
       "img": "assets/catfall/relics/snecko-sleeved_ace.webp",
       "imageResource": "",
       "deprecated": false,
@@ -5024,7 +5024,7 @@
         "en": "The Snecko",
         "zh": "异蛇"
       },
-      "energyIcon": "assets/catfall/energy-icons/snecko.webp",
+      "energyIcon": "assets/catfall/energy-icons/snecko-text.webp",
       "img": "assets/catfall/relics/snecko-snake_charmers_flute.webp",
       "imageResource": "",
       "deprecated": false,
@@ -5065,7 +5065,7 @@
         "en": "The Snecko",
         "zh": "异蛇"
       },
-      "energyIcon": "assets/catfall/energy-icons/snecko.webp",
+      "energyIcon": "assets/catfall/energy-icons/snecko-text.webp",
       "img": "assets/catfall/relics/snecko-snecko_choice.webp",
       "imageResource": "",
       "deprecated": false,
@@ -5112,7 +5112,7 @@
         "en": "The Snecko",
         "zh": "异蛇"
       },
-      "energyIcon": "assets/catfall/energy-icons/snecko.webp",
+      "energyIcon": "assets/catfall/energy-icons/snecko-text.webp",
       "img": "assets/catfall/relics/snecko-snecko_soul.webp",
       "imageResource": "",
       "deprecated": false,
@@ -5138,7 +5138,7 @@
         "en": "The Snecko",
         "zh": "异蛇"
       },
-      "energyIcon": "assets/catfall/energy-icons/snecko.webp",
+      "energyIcon": "assets/catfall/energy-icons/snecko-text.webp",
       "img": "assets/catfall/relics/snecko-super_snecko_soul.webp",
       "imageResource": "",
       "deprecated": false,
@@ -5181,7 +5181,7 @@
         "en": "The Snecko",
         "zh": "异蛇"
       },
-      "energyIcon": "assets/catfall/energy-icons/snecko.webp",
+      "energyIcon": "assets/catfall/energy-icons/snecko-text.webp",
       "img": "assets/catfall/relics/snecko-unidentified_egg.webp",
       "imageResource": "",
       "deprecated": false,

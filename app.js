@@ -1,4 +1,5 @@
 const DEFAULT_PAGE_SIZE = 20;
+const NEUTRAL_ENERGY_ICON = "assets/card-ui/energy-colorless-gen2.png";
 
 const state = {
   data: null,
@@ -564,11 +565,12 @@ function renderSts2Markup(text, useUpgrade = state.showUpgrade, card = null) {
       return `<span class="${colorClasses[color.toLowerCase()]}">${content}</span>`;
     });
   } while (rendered !== previousColorMarkup);
-  rendered = rendered.replace(/\{([A-Za-z_]\w*):energyIcons\((\d*)\)\}/gi, (_full, name, amount) => {
+  rendered = rendered.replace(/\{([A-Za-z_]\w*):energyIcons\((-?\d+)?\)\}/gi, (_full, name, amount) => {
     const values = useUpgrade ? ((card && card.upgradeDynamicValues) || {}) : ((card && card.dynamicValues) || {});
     const key = Object.keys(values).find((candidate) => candidate.toLowerCase().replace(/power$/, "") === name.toLowerCase().replace(/power$/, ""));
-    const count = Number(amount || values[key] || 1);
-    return "[E]".repeat(Number.isFinite(count) && count > 0 ? count : 1);
+    const value = amount === undefined ? values[key] : Number(amount);
+    const count = Number.isFinite(value) ? Math.trunc(value) : 1;
+    return count > 0 && count < 5 ? "[E]".repeat(count) : `${count}[E]`;
   });
   rendered = rendered.replace(/\{TargetType:choose\((\w+)\):([\s\S]*?)\|\}/g, (_full, target, content) => (
     card && card.target === target ? content : ""
@@ -647,10 +649,8 @@ function stripRemoveSpaceMarkers(htmlText) {
 
 function renderEnergyToken(text, card) {
   if (!text) return "";
-  const icon = card && card.energyIcon;
-  const iconHtml = icon
-    ? `<span class="energy-token"><img src="${icon}" alt="E" loading="lazy"></span>`
-    : '<span class="energy-token energy-token-fallback" aria-label="Energy">E</span>';
+  const icon = card?.energyIcon || NEUTRAL_ENERGY_ICON;
+  const iconHtml = `<span class="energy-token"><img src="${escapeHtml(icon)}" alt="E" loading="lazy"></span>`;
   return text.replace(/\[E\]/g, iconHtml);
 }
 
@@ -1877,6 +1877,14 @@ function renderDescriptionForPreview(card, options = {}) {
   return text;
 }
 
+function resolveCardCostIcon(card) {
+  if (card.type === "CURSE" || card.color === "DOWNFALL" || card.color === "COLORLESS") {
+    return NEUTRAL_ENERGY_ICON;
+  }
+  const costIcons = state.data?.costIcons;
+  return costIcons?.[card.visualColor] || costIcons?.[card.color] || card.energyIcon || NEUTRAL_ENERGY_ICON;
+}
+
 function buildCardInnerHtml(card, descriptionHtml, options = {}) {
   const useUpgrade = options.forceUpgrade ?? state.showUpgrade;
   const baseName = card.name[state.lang] || card.id;
@@ -1885,31 +1893,14 @@ function buildCardInnerHtml(card, descriptionHtml, options = {}) {
   const cardId = escapeHtml(card.id || "");
   const cost = formatCost(getDisplayCost(card, useUpgrade), card);
   const costClass = isCostUpgraded(card, useUpgrade) ? "card-cost-value upgraded" : "card-cost-value";
-  const highResolutionEnergyIcons = {
-    AUTOMATON: "assets/energy-icons/automaton_card_bronze_orb.png",
-    AWAKENED: "assets/energy-icons/awakenedOne_card_awakened_orb.png",
-    CHAMP: "assets/energy-icons/champ_card_champ_orb.png",
-    COLLECTOR: "assets/energy-icons/collector_card_collector_orb.png",
-    GREMLIN: "assets/energy-icons/gremlin_card_gremlin_orb.png",
-    GUARDIAN: "assets/energy-icons/guardian_card_guardian_orb.png",
-    HERMIT: "assets/energy-icons/hermit-card-orb.png",
-    HEXAGHOST: "assets/energy-icons/theHexaghost_card_hexaghost_orb.png",
-    SLIMEBOUND: "assets/energy-icons/slimebound_card_slimebound_orb.png",
-    SNECKO: "assets/energy-icons/sneckomod_card_snecko_orb.png",
-  };
-  const energyIcon = card.type === "CURSE" || card.color === "DOWNFALL" || card.color === "COLORLESS"
-    ? "assets/card-ui/energy-colorless-gen2.png"
-    : highResolutionEnergyIcons[card.visualColor || card.color] || card.energyIcon;
-  const costIcon = energyIcon
-    ? `<img class="card-cost-icon" src="${energyIcon}" alt="cost orb" loading="lazy">`
-    : `<span class="card-cost-fallback-orb" aria-hidden="true"></span>`;
+  const costIcon = escapeHtml(resolveCardCostIcon(card));
   const cardHeadingHtml = `
     <div class="card-face-title">
       <h3${shouldShowPlus ? ' class="upgraded"' : ""}>${name}</h3>
       <div class="card-id">${cardId}</div>
     </div>
     <div class="card-face-cost${isUnplayableCard(card) || getDisplayCost(card, useUpgrade) === -2 ? " card-face-cost-hidden" : ""}" title="${i18n("costLabel")}">
-      ${costIcon}
+      <img class="card-cost-icon" src="${costIcon}" alt="" loading="lazy">
       <span class="${costClass}">${cost}</span>
     </div>`;
   const portraitSource = card.img || "assets/card-ui/todo.png";
@@ -2538,7 +2529,7 @@ async function init() {
     initialParams.set("lang", "zh");
     initialParams.delete("translator_mode");
   }
-  const response = await fetch(`${state.catfall ? "data/catfall-cards.json" : "data/cards.json"}?v=20261124`);
+  const response = await fetch(`${state.catfall ? "data/catfall-cards.json" : "data/cards.json"}?v=20261124-2`);
   if (!response.ok) {
     elements.summary.textContent = "Missing data/cards.json. Run the pipeline first.";
     return;
