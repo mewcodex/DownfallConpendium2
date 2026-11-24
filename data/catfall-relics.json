@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-21T02:21:26.555999Z",
+  "generatedAt": "2026-11-24T04:11:37.210712Z",
   "modVersion": "catfall2 1.0 + Downfall 0.1.15",
   "translationVersion": "bundled",
   "translationSource": "bundled",
@@ -773,7 +773,7 @@
     "en": [],
     "zh": []
   },
-  "relicCount": 109,
+  "relicCount": 110,
   "relics": [
     {
       "id": "AUTOMATON-BOTTLED_CODE",
@@ -2338,7 +2338,7 @@
           },
           "description": {
             "en": "The bonus effect triggered by your current [gold]Stance[/gold] when you play a [gold]Skill[/gold].",
-            "zh": "The bonus effect triggered by your current [gold]Stance[/gold] when you play a [gold]Skill[/gold]."
+            "zh": "每当你打出一张技能牌时，触发当前[gold]姿态[/gold]的技术奖励。"
           },
           "dynamicValues": {},
           "sourceValueKey": null,
@@ -2379,7 +2379,7 @@
           },
           "description": {
             "en": "Requires a [gold]Stance[/gold].\nAfter playing a Finisher, exit your [gold]Stance[/gold] and trigger its Finisher effect.",
-            "zh": "Requires a [gold]Stance[/gold].\nAfter playing a Finisher, exit your [gold]Stance[/gold] and trigger its Finisher effect."
+            "zh": "处于[gold]姿态[/gold]时才能打出。\n打出终结技后，退出当前[gold]姿态[/gold]并触发终结技效果。"
           },
           "dynamicValues": {},
           "sourceValueKey": null,
@@ -2393,7 +2393,7 @@
           },
           "description": {
             "en": "{Infinite:cond:Whenever|The next {Charges:plural:time|[blue]{}[/blue] times}} you play a Skill, gain [blue]{DefensiveSkill}[/blue] [gold]Counter[/gold].\nWhenever a [gold]Finisher[/gold] is triggered, gain [blue]{DefensiveFinisher}[/blue] [gold]Block[/gold].",
-            "zh": "{Infinite:cond:Whenever|The next {Charges:plural:time|[blue]{}[/blue] times}} you play a Skill, gain [blue]{DefensiveSkill}[/blue] [gold]Counter[/gold].\nWhenever a [gold]Finisher[/gold] is triggered, gain [blue]{DefensiveFinisher}[/blue] [gold]Block[/gold]."
+            "zh": "[gold]技术奖励[/gold]：\n{Infinite:cond:每当你打出一张技能牌时|你下[blue]{Charges}[/blue]次打出一张技能牌时}，获得[blue]{DefensiveSkill}[/blue]层[gold]拉伸[/gold]。\n[gold]终结技[/gold]：\n每当你触发[gold]终结技[/gold]时，获得[blue]{DefensiveFinisher}[/blue]点[gold]格挡[/gold]。"
           },
           "dynamicValues": {},
           "sourceValueKey": null,
@@ -2488,7 +2488,7 @@
           },
           "description": {
             "en": "Requires a [gold]Stance[/gold].\nAfter playing a Finisher, exit your [gold]Stance[/gold] and trigger its Finisher effect.",
-            "zh": "Requires a [gold]Stance[/gold].\nAfter playing a Finisher, exit your [gold]Stance[/gold] and trigger its Finisher effect."
+            "zh": "处于[gold]姿态[/gold]时才能打出。\n打出终结技后，退出当前[gold]姿态[/gold]并触发终结技效果。"
           },
           "dynamicValues": {},
           "sourceValueKey": null,
@@ -2596,7 +2596,7 @@
           },
           "description": {
             "en": "Requires a [gold]Stance[/gold].\nAfter playing a Finisher, exit your [gold]Stance[/gold] and trigger its Finisher effect.",
-            "zh": "Requires a [gold]Stance[/gold].\nAfter playing a Finisher, exit your [gold]Stance[/gold] and trigger its Finisher effect."
+            "zh": "处于[gold]姿态[/gold]时才能打出。\n打出终结技后，退出当前[gold]姿态[/gold]并触发终结技效果。"
           },
           "dynamicValues": {},
           "sourceValueKey": null,
@@ -2722,7 +2722,7 @@
           },
           "description": {
             "en": "The bonus effect triggered by your current [gold]Stance[/gold] when you play a [gold]Skill[/gold].",
-            "zh": "The bonus effect triggered by your current [gold]Stance[/gold] when you play a [gold]Skill[/gold]."
+            "zh": "每当你打出一张技能牌时，触发当前[gold]姿态[/gold]的技术奖励。"
           },
           "dynamicValues": {},
           "sourceValueKey": null,
@@ -2736,7 +2736,7 @@
           },
           "description": {
             "en": "Requires a [gold]Stance[/gold].\nAfter playing a Finisher, exit your [gold]Stance[/gold] and trigger its Finisher effect.",
-            "zh": "Requires a [gold]Stance[/gold].\nAfter playing a Finisher, exit your [gold]Stance[/gold] and trigger its Finisher effect."
+            "zh": "处于[gold]姿态[/gold]时才能打出。\n打出终结技后，退出当前[gold]姿态[/gold]并触发终结技效果。"
           },
           "dynamicValues": {},
           "sourceValueKey": null,
@@ -2783,7 +2783,7 @@
         "en": "Gain {Energy:energyIcons()} at the start of your turn. You don't draw from your Collected pile until your 4th turn.",
         "zh": "在你的回合开始时，获得{Energy:energyIcons()}。直到第4回合才开始从藏品堆中抽牌。"
       },
-      "rarity": "SPECIAL",
+      "rarity": "ANCIENT",
       "color": "COLLECTOR",
       "colorName": {
         "en": "The Collector",
@@ -2826,7 +2826,7 @@
         "en": "Upon pickup, Upgrade a card in your Collection. Start combats with it on top of your Collected pile.",
         "zh": "拾起时，选择一张收藏堆的牌升级，并在每场战斗开始时将其置于收藏堆顶部。"
       },
-      "rarity": "SPECIAL",
+      "rarity": "RARE",
       "color": "COLLECTOR",
       "colorName": {
         "en": "The Collector",
@@ -4293,9 +4293,24 @@
         "UsesLeftBase": 15,
         "UsesLeftExtra": 1,
         "MaxUsesBase": 15,
-        "MaxUsesExtra": 1
+        "MaxUsesExtra": 1,
+        "SlimeSplitPower": 1
       },
       "attachedTips": [
+        {
+          "id": "SLIMEBOSS-SLIME_SPLIT_POWER",
+          "name": {
+            "en": "Spilt",
+            "zh": "史莱姆分裂"
+          },
+          "description": {
+            "en": "Whenever you lose HP, add a random [gold]Slime[/gold] card to your hand.",
+            "zh": "每次失去生命值时，随机获得一张[gold]史莱姆[/gold]牌。"
+          },
+          "dynamicValues": {},
+          "sourceValueKey": "SlimeSplitPower",
+          "icon": null
+        },
         {
           "id": "SLIMEBOSS-CONSUME",
           "name": {
@@ -4409,9 +4424,24 @@
         "UsesLeftBase": 8,
         "UsesLeftExtra": 1,
         "MaxUsesBase": 8,
-        "MaxUsesExtra": 1
+        "MaxUsesExtra": 1,
+        "SlimeSplitPower": 1
       },
       "attachedTips": [
+        {
+          "id": "SLIMEBOSS-SLIME_SPLIT_POWER",
+          "name": {
+            "en": "Spilt",
+            "zh": "史莱姆分裂"
+          },
+          "description": {
+            "en": "Whenever you lose HP, add a random [gold]Slime[/gold] card to your hand.",
+            "zh": "每次失去生命值时，随机获得一张[gold]史莱姆[/gold]牌。"
+          },
+          "dynamicValues": {},
+          "sourceValueKey": "SlimeSplitPower",
+          "icon": null
+        },
         {
           "id": "SLIMEBOSS-CONSUME",
           "name": {
@@ -4774,6 +4804,47 @@
           "description": {
             "en": "Cards with Chant effects become more powerful for the rest of combat if the last played card in combat was a Power card.",
             "zh": "带有该关键词的牌被打出时，如果打出的上一张牌是能力牌，则会在本场战斗中激活吟唱效果。"
+          },
+          "dynamicValues": {},
+          "sourceValueKey": null,
+          "icon": null
+        }
+      ],
+      "attachedCardTips": [],
+      "catfall": true
+    },
+    {
+      "id": "SNECKO-PRISMATIC_SNECKO",
+      "codeName": "PrismaticSnecko",
+      "name": {
+        "en": "Prismatic Snecko",
+        "zh": "棱彩模式"
+      },
+      "description": {
+        "en": "You now gain cards from ALL characters in [gold]Gift[/gold] rewards.",
+        "zh": "你现在会在[gold]赠礼[/gold]中获得所有角色的卡牌。"
+      },
+      "rarity": "SHOP",
+      "color": "SNECKO",
+      "colorName": {
+        "en": "The Snecko",
+        "zh": "异蛇"
+      },
+      "energyIcon": "assets/catfall/energy-icons/snecko.webp",
+      "img": "assets/catfall/relics/snecko-prismatic_snecko.webp",
+      "imageResource": "",
+      "deprecated": false,
+      "dynamicValues": {},
+      "attachedTips": [
+        {
+          "id": "SNECKO-GIFT",
+          "name": {
+            "en": "Gift",
+            "zh": "赠礼"
+          },
+          "description": {
+            "en": "When you obtain this card, get a card reward with the specified card type.",
+            "zh": "当你获得这张牌时，获得一次指定类型的卡牌奖励。"
           },
           "dynamicValues": {},
           "sourceValueKey": null,
