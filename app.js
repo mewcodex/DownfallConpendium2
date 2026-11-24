@@ -386,6 +386,7 @@ function fillSts2DynamicTokens(text, card, useUpgrade = state.showUpgrade) {
   };
 
   return (text || "")
+    .replace(/\{([A-Za-z_]\w*):(p?plural:[^{}]*?)\{\}\}/g, "{$1:$2{$1}}")
     .replace(/\{([A-Za-z_]\w*):(?:diff|inverseDiff|preview)\(\)\}/g, fillValue)
     .replace(/\{([A-Za-z_]\w*)\}/g, fillValue);
 }
@@ -622,6 +623,7 @@ function renderSts2Markup(text, useUpgrade = state.showUpgrade, card = null) {
     return content.trim().replace(/^[（(]\s*/, "").replace(/\s*[）)]+$/, "");
   });
   rendered = rendered.replace(/\{(?:[A-Za-z_][\w]*)(?::(?:diff\(\)|plural:[^}]*|cond:[\s\S]*?))?\}/g, (token) => {
+    if (card?.catfall && /:diff\(\)\}$/.test(token)) return "?";
     if (/:cond:|:diff\(\)|:plural:/.test(token)) return "";
     const name = token.slice(1, -1).split(":", 1)[0].replace(/Power$/, "").replace(/([a-z])([A-Z])/g, "$1 $2");
     return name || token;
@@ -2565,7 +2567,7 @@ async function init() {
     initialParams.set("lang", "zh");
     initialParams.delete("translator_mode");
   }
-  const response = await fetch(`${state.catfall ? "data/catfall-cards.json" : "data/cards.json"}?v=20261123`);
+  const response = await fetch(state.catfall ? "data/catfall-cards.json?v=20261123-2" : "data/cards.json?v=20261123");
   if (!response.ok) {
     elements.summary.textContent = "Missing data/cards.json. Run the pipeline first.";
     return;

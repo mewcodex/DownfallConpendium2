@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-24T04:11:37.210712Z",
+  "generatedAt": "2026-11-24T04:24:42.791175Z",
   "modVersion": "catfall2 1.0 + Downfall 0.1.15",
   "translationVersion": "bundled",
   "translationSource": "bundled",
@@ -802,7 +802,7 @@
         "zh": "铜制机械人偶"
       },
       "cost": 1,
-      "upgradeCost": null,
+      "upgradeCost": 0,
       "canUpgrade": true,
       "target": "Self",
       "isFinisher": false,
@@ -878,7 +878,7 @@
       },
       "description": {
         "en": "Draw {Cards:plural:a card|{Cards:diff()} cards} and [gold]Encode[/gold] {Cards:plural:it|them}, if possible.",
-        "zh": ""
+        "zh": "抽{Cards:diff()}张牌。若可以，[gold]编码[/gold]抽到的牌。"
       },
       "upgradeDescription": {
         "en": "",
@@ -1042,7 +1042,16 @@
         }
       ],
       "descriptionKeywordSuffix": [],
-      "dynamicDescriptionLines": [],
+      "dynamicDescriptionLines": [
+        {
+          "en": "Deal {Damage:diff()} damage.",
+          "zh": "造成{Damage:diff()}点伤害。"
+        },
+        {
+          "en": "[gold]Encode[/gold].",
+          "zh": "[gold]编码[/gold]。"
+        }
+      ],
       "catfall": true
     },
     {
@@ -1359,7 +1368,16 @@
       "attachedCardTips": [],
       "descriptionKeywordPrefix": [],
       "descriptionKeywordSuffix": [],
-      "dynamicDescriptionLines": [],
+      "dynamicDescriptionLines": [
+        {
+          "en": "Gain {Block:diff()} [gold]Block[/gold].",
+          "zh": "获得{Block:diff()}点[gold]格挡[/gold]。"
+        },
+        {
+          "en": "[gold]Encode[/gold].",
+          "zh": "[gold]编码[/gold]。"
+        }
+      ],
       "catfall": true
     },
     {
@@ -1528,7 +1546,16 @@
       "attachedCardTips": [],
       "descriptionKeywordPrefix": [],
       "descriptionKeywordSuffix": [],
-      "dynamicDescriptionLines": [],
+      "dynamicDescriptionLines": [
+        {
+          "en": "Deal {Damage:diff()} damage.",
+          "zh": "造成{Damage:diff()}点伤害。"
+        },
+        {
+          "en": "[gold]Encode[/gold].",
+          "zh": "[gold]编码[/gold]。"
+        }
+      ],
       "catfall": true
     },
     {
@@ -1607,7 +1634,16 @@
       "attachedCardTips": [],
       "descriptionKeywordPrefix": [],
       "descriptionKeywordSuffix": [],
-      "dynamicDescriptionLines": [],
+      "dynamicDescriptionLines": [
+        {
+          "en": "Gain {Block:diff()} [gold]Block[/gold].",
+          "zh": "获得{Block:diff()}点[gold]格挡[/gold]。"
+        },
+        {
+          "en": "[gold]Encode[/gold].",
+          "zh": "[gold]编码[/gold]。"
+        }
+      ],
       "catfall": true
     },
     {
@@ -1892,7 +1928,7 @@
         "zh": "铜制机械人偶"
       },
       "cost": 1,
-      "upgradeCost": null,
+      "upgradeCost": 0,
       "canUpgrade": true,
       "target": "Self",
       "isFinisher": false,
@@ -1941,6 +1977,20 @@
           "dynamicValues": {},
           "sourceValueKey": null,
           "icon": null
+        },
+        {
+          "id": "DOWNFALL-STUNNED_POWER",
+          "name": {
+            "en": "Stunned",
+            "zh": "晕眩"
+          },
+          "description": {
+            "en": "You can't play cards, draw cards or gain Energy this turn.",
+            "zh": "本回合你无法打出牌、抽牌或获得能量。"
+          },
+          "dynamicValues": {},
+          "sourceValueKey": null,
+          "icon": null
         }
       ],
       "visualColor": "AUTOMATON",
@@ -1949,7 +1999,20 @@
       "attachedCardTips": [],
       "descriptionKeywordPrefix": [],
       "descriptionKeywordSuffix": [],
-      "dynamicDescriptionLines": [],
+      "dynamicDescriptionLines": [
+        {
+          "en": "Gain {Energy:energyIcons()}.",
+          "zh": "获得{Energy:energyIcons()}。"
+        },
+        {
+          "en": "Add {Dazed:plural:an|{}} [gold]Dazed[/gold] to your [gold]Draw Pile[/gold].",
+          "zh": "将{Dazed}张[gold]晕眩[/gold]加入你的[gold]抽牌堆[/gold]。"
+        },
+        {
+          "en": "[gold]Encode[/gold].",
+          "zh": "[gold]编码[/gold]。"
+        }
+      ],
       "catfall": true
     },
     {
@@ -2559,7 +2622,16 @@
       "attachedCardTips": [],
       "descriptionKeywordPrefix": [],
       "descriptionKeywordSuffix": [],
-      "dynamicDescriptionLines": [],
+      "dynamicDescriptionLines": [
+        {
+          "en": "Gain {Block:diff()} [gold]Block[/gold].",
+          "zh": "获得{Block:diff()}点[gold]格挡[/gold]。"
+        },
+        {
+          "en": "[gold]Encode[/gold].",
+          "zh": "[gold]编码[/gold]。"
+        }
+      ],
       "catfall": true
     },
     {
@@ -2890,7 +2962,16 @@
       "attachedCardTips": [],
       "descriptionKeywordPrefix": [],
       "descriptionKeywordSuffix": [],
-      "dynamicDescriptionLines": [],
+      "dynamicDescriptionLines": [
+        {
+          "en": "Deal {Damage:diff()} damage.",
+          "zh": "造成{Damage:diff()}点伤害。"
+        },
+        {
+          "en": "[gold]Encode[/gold].",
+          "zh": "[gold]编码[/gold]。"
+        }
+      ],
       "catfall": true
     },
     {
@@ -3082,7 +3163,20 @@
       "attachedCardTips": [],
       "descriptionKeywordPrefix": [],
       "descriptionKeywordSuffix": [],
-      "dynamicDescriptionLines": [],
+      "dynamicDescriptionLines": [
+        {
+          "en": "Gain {Block:diff()} [gold]Block[/gold].",
+          "zh": "获得{Block:diff()}点[gold]格挡[/gold]。"
+        },
+        {
+          "en": "Deal {Damage:diff()} damage.",
+          "zh": "造成{Damage:diff()}点伤害。"
+        },
+        {
+          "en": "[gold]Encode[/gold].",
+          "zh": "[gold]编码[/gold]。"
+        }
+      ],
       "catfall": true
     },
     {
@@ -3240,7 +3334,16 @@
       "attachedCardTips": [],
       "descriptionKeywordPrefix": [],
       "descriptionKeywordSuffix": [],
-      "dynamicDescriptionLines": [],
+      "dynamicDescriptionLines": [
+        {
+          "en": "Apply {WeakPower:diff()} [gold]Weak[/gold].",
+          "zh": "给予{WeakPower:diff()}层[gold]虚弱[/gold]。"
+        },
+        {
+          "en": "[gold]Encode[/gold].",
+          "zh": "[gold]编码[/gold]。"
+        }
+      ],
       "catfall": true
     },
     {
@@ -3270,7 +3373,7 @@
         "zh": "铜制机械人偶"
       },
       "cost": 1,
-      "upgradeCost": null,
+      "upgradeCost": 0,
       "canUpgrade": true,
       "target": "Self",
       "isFinisher": false,
@@ -3291,12 +3394,14 @@
       "dynamicValues": {
         "Dev": 0,
         "DevBase": 0,
-        "DevExtra": 1
+        "DevExtra": 1,
+        "CostUpgradeBy": -1
       },
       "upgradeDynamicValues": {
         "Dev": 0,
         "DevBase": 0,
-        "DevExtra": 1
+        "DevExtra": 1,
+        "CostUpgradeBy": -1
       },
       "energyIcon": "assets/catfall/energy-icons/automaton.webp",
       "deprecated": false,
@@ -3420,7 +3525,16 @@
         }
       ],
       "descriptionKeywordSuffix": [],
-      "dynamicDescriptionLines": [],
+      "dynamicDescriptionLines": [
+        {
+          "en": "Deal {Damage:diff()} damage.",
+          "zh": "造成{Damage:diff()}点伤害。"
+        },
+        {
+          "en": "[gold]Encode[/gold].",
+          "zh": "[gold]编码[/gold]。"
+        }
+      ],
       "catfall": true
     },
     {
@@ -3598,7 +3712,16 @@
       "attachedCardTips": [],
       "descriptionKeywordPrefix": [],
       "descriptionKeywordSuffix": [],
-      "dynamicDescriptionLines": [],
+      "dynamicDescriptionLines": [
+        {
+          "en": "Apply {SoulBurnPower:diff()} [gold]Soulburn[/gold] to ALL enemies.",
+          "zh": "给予所有敌人{SoulBurnPower:diff()}层[gold]灼魂[/gold]。"
+        },
+        {
+          "en": "[gold]Encode[/gold].",
+          "zh": "[gold]编码[/gold]。"
+        }
+      ],
       "catfall": true
     },
     {
@@ -4167,7 +4290,7 @@
         "zh": "铜制机械人偶"
       },
       "cost": 1,
-      "upgradeCost": null,
+      "upgradeCost": 0,
       "canUpgrade": true,
       "target": "AllAllies",
       "isFinisher": false,
@@ -4239,7 +4362,7 @@
         "en": "The Automaton",
         "zh": "铜制机械人偶"
       },
-      "cost": -1,
+      "cost": 0,
       "upgradeCost": null,
       "canUpgrade": true,
       "target": "Self",
@@ -4416,7 +4539,7 @@
         "en": "The Automaton",
         "zh": "铜制机械人偶"
       },
-      "cost": -1,
+      "cost": 0,
       "upgradeCost": null,
       "canUpgrade": true,
       "target": "Self",
@@ -4552,7 +4675,20 @@
       "attachedCardTips": [],
       "descriptionKeywordPrefix": [],
       "descriptionKeywordSuffix": [],
-      "dynamicDescriptionLines": [],
+      "dynamicDescriptionLines": [
+        {
+          "en": "Gain {Block:diff()} [gold]Block[/gold].",
+          "zh": "获得{Block:diff()}点[gold]格挡[/gold]。"
+        },
+        {
+          "en": "Deal {Damage:diff()} damage.",
+          "zh": "造成{Damage:diff()}点伤害。"
+        },
+        {
+          "en": "[gold]Encode[/gold].",
+          "zh": "[gold]编码[/gold]。"
+        }
+      ],
       "catfall": true
     },
     {
@@ -4645,7 +4781,16 @@
       "attachedCardTips": [],
       "descriptionKeywordPrefix": [],
       "descriptionKeywordSuffix": [],
-      "dynamicDescriptionLines": [],
+      "dynamicDescriptionLines": [
+        {
+          "en": "Gain {Block:diff()} [gold]Block[/gold].",
+          "zh": "获得{Block:diff()}点[gold]格挡[/gold]。"
+        },
+        {
+          "en": "[gold]Encode[/gold].",
+          "zh": "[gold]编码[/gold]。"
+        }
+      ],
       "catfall": true
     },
     {
@@ -4675,7 +4820,7 @@
         "zh": "铜制机械人偶"
       },
       "cost": 2,
-      "upgradeCost": null,
+      "upgradeCost": 1,
       "canUpgrade": true,
       "target": "Self",
       "isFinisher": false,
@@ -4754,7 +4899,12 @@
       "attachedCardTips": [],
       "descriptionKeywordPrefix": [],
       "descriptionKeywordSuffix": [],
-      "dynamicDescriptionLines": [],
+      "dynamicDescriptionLines": [
+        {
+          "en": "[gold]Encode[/gold].",
+          "zh": "[gold]编码[/gold]。"
+        }
+      ],
       "catfall": true
     },
     {
@@ -4766,7 +4916,7 @@
       },
       "description": {
         "en": "{effects}",
-        "zh": ""
+        "zh": "{effects}"
       },
       "upgradeDescription": {
         "en": "",
@@ -4826,7 +4976,7 @@
       },
       "description": {
         "en": "{effects}",
-        "zh": ""
+        "zh": "{effects}"
       },
       "upgradeDescription": {
         "en": "",
@@ -4886,7 +5036,7 @@
       },
       "description": {
         "en": "{effects}",
-        "zh": ""
+        "zh": "{effects}"
       },
       "upgradeDescription": {
         "en": "",
@@ -4946,7 +5096,7 @@
       },
       "description": {
         "en": "{effects}",
-        "zh": ""
+        "zh": "{effects}"
       },
       "upgradeDescription": {
         "en": "",
@@ -5256,7 +5406,7 @@
         "zh": "铜制机械人偶"
       },
       "cost": 2,
-      "upgradeCost": null,
+      "upgradeCost": 1,
       "canUpgrade": true,
       "target": "Self",
       "isFinisher": false,
@@ -5406,7 +5556,16 @@
       "attachedCardTips": [],
       "descriptionKeywordPrefix": [],
       "descriptionKeywordSuffix": [],
-      "dynamicDescriptionLines": [],
+      "dynamicDescriptionLines": [
+        {
+          "en": "Deal {Damage:diff()} damage.",
+          "zh": "造成{Damage:diff()}点伤害。"
+        },
+        {
+          "en": "[gold]Encode[/gold].",
+          "zh": "[gold]编码[/gold]。"
+        }
+      ],
       "catfall": true
     },
     {
@@ -5485,7 +5644,16 @@
       "attachedCardTips": [],
       "descriptionKeywordPrefix": [],
       "descriptionKeywordSuffix": [],
-      "dynamicDescriptionLines": [],
+      "dynamicDescriptionLines": [
+        {
+          "en": "Apply {VulnerablePower:diff()} [gold]Vulnerable[/gold].",
+          "zh": "给予{VulnerablePower:diff()}层[gold]易伤[/gold]。"
+        },
+        {
+          "en": "[gold]Encode[/gold].",
+          "zh": "[gold]编码[/gold]。"
+        }
+      ],
       "catfall": true
     },
     {
@@ -5675,7 +5843,7 @@
         "zh": "铜制机械人偶"
       },
       "cost": 3,
-      "upgradeCost": null,
+      "upgradeCost": 2,
       "canUpgrade": true,
       "target": "Self",
       "isFinisher": false,
@@ -5694,10 +5862,12 @@
         "block": null
       },
       "dynamicValues": {
-        "LibraryPower": 1
+        "LibraryPower": 1,
+        "CostUpgradeBy": -1
       },
       "upgradeDynamicValues": {
-        "LibraryPower": 1
+        "LibraryPower": 1,
+        "CostUpgradeBy": -1
       },
       "energyIcon": "assets/catfall/energy-icons/automaton.webp",
       "deprecated": false,
@@ -6002,7 +6172,16 @@
       "attachedCardTips": [],
       "descriptionKeywordPrefix": [],
       "descriptionKeywordSuffix": [],
-      "dynamicDescriptionLines": [],
+      "dynamicDescriptionLines": [
+        {
+          "en": "Deal {Damage:diff()} damage.",
+          "zh": "造成{Damage:diff()}点伤害。"
+        },
+        {
+          "en": "[gold]Encode[/gold].",
+          "zh": "[gold]编码[/gold]。"
+        }
+      ],
       "catfall": true
     },
     {
@@ -6172,7 +6351,20 @@
       "attachedCardTips": [],
       "descriptionKeywordPrefix": [],
       "descriptionKeywordSuffix": [],
-      "dynamicDescriptionLines": [],
+      "dynamicDescriptionLines": [
+        {
+          "en": "Gain {Block:diff()} [gold]Block[/gold].",
+          "zh": "获得{Block:diff()}点[gold]格挡[/gold]。"
+        },
+        {
+          "en": "Deal {Damage:diff()} damage.",
+          "zh": "造成{Damage:diff()}点伤害。"
+        },
+        {
+          "en": "[gold]Encode[/gold].",
+          "zh": "[gold]编码[/gold]。"
+        }
+      ],
       "catfall": true
     },
     {
@@ -6281,7 +6473,20 @@
       "attachedCardTips": [],
       "descriptionKeywordPrefix": [],
       "descriptionKeywordSuffix": [],
-      "dynamicDescriptionLines": [],
+      "dynamicDescriptionLines": [
+        {
+          "en": "Deal {Damage:diff()} damage.",
+          "zh": "造成{Damage:diff()}点伤害。"
+        },
+        {
+          "en": "Apply {PoisonPower:diff()} [gold]Poison[/gold].",
+          "zh": "给予{PoisonPower:diff()}层[gold]中毒[/gold]。"
+        },
+        {
+          "en": "[gold]Encode[/gold].",
+          "zh": "[gold]编码[/gold]。"
+        }
+      ],
       "catfall": true
     },
     {
@@ -6945,7 +7150,7 @@
         "zh": "铜制机械人偶"
       },
       "cost": 2,
-      "upgradeCost": null,
+      "upgradeCost": 1,
       "canUpgrade": true,
       "target": "Self",
       "isFinisher": false,
@@ -7398,7 +7603,16 @@
       "attachedCardTips": [],
       "descriptionKeywordPrefix": [],
       "descriptionKeywordSuffix": [],
-      "dynamicDescriptionLines": [],
+      "dynamicDescriptionLines": [
+        {
+          "en": "Deal {Damage:diff()} damage.",
+          "zh": "造成{Damage:diff()}点伤害。"
+        },
+        {
+          "en": "[gold]Encode[/gold].",
+          "zh": "[gold]编码[/gold]。"
+        }
+      ],
       "catfall": true
     },
     {
@@ -7717,7 +7931,16 @@
       "attachedCardTips": [],
       "descriptionKeywordPrefix": [],
       "descriptionKeywordSuffix": [],
-      "dynamicDescriptionLines": [],
+      "dynamicDescriptionLines": [
+        {
+          "en": "Gain {Block:diff()} [gold]Block[/gold].",
+          "zh": "获得{Block:diff()}点[gold]格挡[/gold]。"
+        },
+        {
+          "en": "[gold]Encode[/gold].",
+          "zh": "[gold]编码[/gold]。"
+        }
+      ],
       "catfall": true
     },
     {
@@ -7888,7 +8111,16 @@
       "attachedCardTips": [],
       "descriptionKeywordPrefix": [],
       "descriptionKeywordSuffix": [],
-      "dynamicDescriptionLines": [],
+      "dynamicDescriptionLines": [
+        {
+          "en": "Deal {Damage:diff()} damage.",
+          "zh": "造成{Damage:diff()}点伤害。"
+        },
+        {
+          "en": "[gold]Encode[/gold].",
+          "zh": "[gold]编码[/gold]。"
+        }
+      ],
       "catfall": true
     },
     {
@@ -8072,7 +8304,7 @@
         "zh": "铜制机械人偶"
       },
       "cost": 2,
-      "upgradeCost": null,
+      "upgradeCost": 1,
       "canUpgrade": true,
       "target": "Self",
       "isFinisher": false,
@@ -8090,8 +8322,12 @@
         "damage": null,
         "block": null
       },
-      "dynamicValues": {},
-      "upgradeDynamicValues": {},
+      "dynamicValues": {
+        "CostUpgradeBy": -1
+      },
+      "upgradeDynamicValues": {
+        "CostUpgradeBy": -1
+      },
       "energyIcon": "assets/catfall/energy-icons/automaton.webp",
       "deprecated": false,
       "notInPool": false,
@@ -8221,7 +8457,16 @@
       "attachedCardTips": [],
       "descriptionKeywordPrefix": [],
       "descriptionKeywordSuffix": [],
-      "dynamicDescriptionLines": [],
+      "dynamicDescriptionLines": [
+        {
+          "en": "Deal {Damage:diff()} damage.",
+          "zh": "造成{Damage:diff()}点伤害。"
+        },
+        {
+          "en": "[gold]Encode[/gold].",
+          "zh": "[gold]编码[/gold]。"
+        }
+      ],
       "catfall": true
     },
     {
@@ -8520,7 +8765,7 @@
         "zh": "无色"
       },
       "cost": 1,
-      "upgradeCost": null,
+      "upgradeCost": 0,
       "canUpgrade": true,
       "target": "Self",
       "isFinisher": false,
@@ -8569,7 +8814,12 @@
       "attachedCardTips": [],
       "descriptionKeywordPrefix": [],
       "descriptionKeywordSuffix": [],
-      "dynamicDescriptionLines": [],
+      "dynamicDescriptionLines": [
+        {
+          "en": "[gold]Encode[/gold].",
+          "zh": "[gold]编码[/gold]。"
+        }
+      ],
       "catfall": true
     },
     {
@@ -9311,7 +9561,7 @@
         "zh": "觉醒者"
       },
       "cost": 2,
-      "upgradeCost": null,
+      "upgradeCost": 1,
       "canUpgrade": true,
       "target": "Self",
       "isFinisher": false,
@@ -9479,7 +9729,7 @@
         "zh": "觉醒者"
       },
       "cost": 2,
-      "upgradeCost": null,
+      "upgradeCost": 1,
       "canUpgrade": true,
       "target": "Self",
       "isFinisher": false,
@@ -10163,7 +10413,7 @@
         "en": [],
         "zh": []
       },
-      "type": "SKILL",
+      "type": "POWER",
       "rarity": "TOKEN",
       "color": "COLORLESS",
       "colorName": {
@@ -10190,11 +10440,11 @@
         "block": null
       },
       "dynamicValues": {
-        "StrengthPower": 1,
+        "StrengthPower": 2,
         "WeakPower": 1
       },
       "upgradeDynamicValues": {
-        "StrengthPower": 2,
+        "StrengthPower": 3,
         "WeakPower": 2
       },
       "energyIcon": "assets/catfall/energy-icons/awakened.webp",
@@ -10375,8 +10625,8 @@
         "zh": "咔咔"
       },
       "description": {
-        "en": "Deal {Damage:diff()} damage.",
-        "zh": "造成{Damage:diff()}点伤害。"
+        "en": "Deal {Damage:diff()} damage.\n[gold]Chant[/gold]:\nIncrease the damage of ALL [gold]Caw[/gold] cards by {Caw:diff()} this combat.",
+        "zh": "造成{Damage:diff()}点伤害。\n[gold]吟唱[/gold]：\n在本场战斗中所有[gold]咔咔[/gold]牌的伤害增加{Caw:diff()}。"
       },
       "upgradeDescription": {
         "en": "",
@@ -10427,7 +10677,22 @@
       "energyIcon": "assets/catfall/energy-icons/awakened.webp",
       "deprecated": false,
       "notInPool": false,
-      "attachedTips": [],
+      "attachedTips": [
+        {
+          "id": "AWAKENED-CHANT",
+          "name": {
+            "en": "Chant",
+            "zh": "吟唱"
+          },
+          "description": {
+            "en": "Cards with Chant effects become more powerful for the rest of combat if the last played card in combat was a Power card.",
+            "zh": "带有该关键词的牌被打出时，如果打出的上一张牌是能力牌，则会在本场战斗中激活吟唱效果。"
+          },
+          "dynamicValues": {},
+          "sourceValueKey": null,
+          "icon": null
+        }
+      ],
       "visualColor": "AWAKENED",
       "hasConjure": false,
       "isSpell": false,
@@ -10616,7 +10881,7 @@
         "selfDamage": null
       },
       "upgradeStats": {
-        "damage": 11,
+        "damage": 9,
         "block": null
       },
       "dynamicValues": {
@@ -10625,8 +10890,8 @@
         "Energy": 1
       },
       "upgradeDynamicValues": {
-        "Damage": 11,
-        "ClarionCallPower": 1,
+        "Damage": 9,
+        "ClarionCallPower": 2,
         "Energy": 1
       },
       "energyIcon": "assets/catfall/energy-icons/awakened.webp",
@@ -10870,7 +11135,7 @@
       "img": "assets/catfall/cards/awakened-cryostasis.webp",
       "stats": {
         "damage": null,
-        "block": 10,
+        "block": 8,
         "magic": null,
         "secondMagic": null,
         "thirdMagic": null,
@@ -10879,13 +11144,15 @@
       },
       "upgradeStats": {
         "damage": null,
-        "block": 13
+        "block": 10
       },
       "dynamicValues": {
-        "Block": 10
+        "Block": 8,
+        "WeakPower": 1
       },
       "upgradeDynamicValues": {
-        "Block": 13
+        "Block": 10,
+        "WeakPower": 2
       },
       "energyIcon": "assets/catfall/energy-icons/awakened.webp",
       "deprecated": false,
@@ -11044,11 +11311,11 @@
       },
       "dynamicValues": {
         "VulnerablePower": 1,
-        "ManaburnPower": 4
+        "ManaburnPower": 8
       },
       "upgradeDynamicValues": {
         "VulnerablePower": 2,
-        "ManaburnPower": 6
+        "ManaburnPower": 10
       },
       "energyIcon": "assets/catfall/energy-icons/awakened.webp",
       "deprecated": false,
@@ -11285,7 +11552,7 @@
         "zh": "觉醒者"
       },
       "cost": 2,
-      "upgradeCost": null,
+      "upgradeCost": 1,
       "canUpgrade": true,
       "target": "Self",
       "isFinisher": false,
@@ -11868,7 +12135,7 @@
         "zh": "觉醒者"
       },
       "cost": 2,
-      "upgradeCost": null,
+      "upgradeCost": 1,
       "canUpgrade": true,
       "target": "Self",
       "isFinisher": false,
@@ -12365,8 +12632,8 @@
         "zh": "羽耀"
       },
       "description": {
-        "en": "Deal {Damage:diff()} damage.",
-        "zh": "造成{Damage:diff()}点伤害。"
+        "en": "Deal {Damage:diff()} damage.\n[gold]Chant[/gold]:\nNext turn, draw 1 additional card.",
+        "zh": "造成{Damage:diff()}点伤害。\n[gold]吟唱[/gold]：\n下回合抽一张牌。"
       },
       "upgradeDescription": {
         "en": "",
@@ -12413,7 +12680,22 @@
       "energyIcon": "assets/catfall/energy-icons/awakened.webp",
       "deprecated": false,
       "notInPool": false,
-      "attachedTips": [],
+      "attachedTips": [
+        {
+          "id": "AWAKENED-CHANT",
+          "name": {
+            "en": "Chant",
+            "zh": "吟唱"
+          },
+          "description": {
+            "en": "Cards with Chant effects become more powerful for the rest of combat if the last played card in combat was a Power card.",
+            "zh": "带有该关键词的牌被打出时，如果打出的上一张牌是能力牌，则会在本场战斗中激活吟唱效果。"
+          },
+          "dynamicValues": {},
+          "sourceValueKey": null,
+          "icon": null
+        }
+      ],
       "visualColor": "AWAKENED",
       "hasConjure": false,
       "isSpell": false,
@@ -12576,7 +12858,7 @@
         "zh": "觉醒者"
       },
       "cost": 1,
-      "upgradeCost": null,
+      "upgradeCost": 0,
       "canUpgrade": true,
       "target": "Self",
       "isFinisher": false,
@@ -12671,7 +12953,7 @@
         "zh": "觉醒者"
       },
       "cost": 1,
-      "upgradeCost": null,
+      "upgradeCost": 0,
       "canUpgrade": true,
       "target": "Self",
       "isFinisher": false,
@@ -12810,8 +13092,8 @@
         "zh": "聚集"
       },
       "description": {
-        "en": "Gain {Block:diff()} [gold]Block[/gold].",
-        "zh": "获得{Block:diff()}点[gold]格挡[/gold]。"
+        "en": "Gain {Block:diff()} [gold]Block[/gold].\n[gold]Chant[/gold]:\nPut a card from your [gold]Discard Pile[/gold] in your [gold]Hand[/gold].",
+        "zh": "获得{Block:diff()}点[gold]格挡[/gold]。\n[gold]吟唱[/gold]：\n将[gold]弃牌堆[/gold]中的一张牌放入你的[gold]手牌[/gold]。"
       },
       "upgradeDescription": {
         "en": "",
@@ -12856,7 +13138,22 @@
       "energyIcon": "assets/catfall/energy-icons/awakened.webp",
       "deprecated": false,
       "notInPool": false,
-      "attachedTips": [],
+      "attachedTips": [
+        {
+          "id": "AWAKENED-CHANT",
+          "name": {
+            "en": "Chant",
+            "zh": "吟唱"
+          },
+          "description": {
+            "en": "Cards with Chant effects become more powerful for the rest of combat if the last played card in combat was a Power card.",
+            "zh": "带有该关键词的牌被打出时，如果打出的上一张牌是能力牌，则会在本场战斗中激活吟唱效果。"
+          },
+          "dynamicValues": {},
+          "sourceValueKey": null,
+          "icon": null
+        }
+      ],
       "visualColor": "AWAKENED",
       "hasConjure": false,
       "isSpell": false,
@@ -12938,8 +13235,8 @@
         "zh": "伟大诅咒"
       },
       "description": {
-        "en": "",
-        "zh": ""
+        "en": "[gold]Chant[/gold]:\nTarget enemy gains {GreatHexPower:diff()} [gold]Manaburn[/gold] at the end of each of its turns.",
+        "zh": "[gold]吟唱[/gold]：\n目标敌人在其每个回合结束时获得{GreatHexPower:diff()}层[gold]魔力灼烧[/gold]。"
       },
       "upgradeDescription": {
         "en": "",
@@ -13011,6 +13308,34 @@
           },
           "dynamicValues": {},
           "sourceValueKey": "GreatHexPower",
+          "icon": null
+        },
+        {
+          "id": "COLLECTOR-SCORCHED_POWER",
+          "name": {
+            "en": "Scorched",
+            "zh": "灼烧"
+          },
+          "description": {
+            "en": "At the end of its turn, gains [gold]Doom[/gold].",
+            "zh": "在其回合结束时，获得[gold]魂劫[/gold]。"
+          },
+          "dynamicValues": {},
+          "sourceValueKey": null,
+          "icon": null
+        },
+        {
+          "id": "AWAKENED-CHANT",
+          "name": {
+            "en": "Chant",
+            "zh": "吟唱"
+          },
+          "description": {
+            "en": "Cards with Chant effects become more powerful for the rest of combat if the last played card in combat was a Power card.",
+            "zh": "带有该关键词的牌被打出时，如果打出的上一张牌是能力牌，则会在本场战斗中激活吟唱效果。"
+          },
+          "dynamicValues": {},
+          "sourceValueKey": null,
           "icon": null
         }
       ],
@@ -13675,14 +14000,14 @@
         "en": "The Awakened",
         "zh": "觉醒者"
       },
-      "cost": 2,
+      "cost": 1,
       "upgradeCost": null,
       "canUpgrade": true,
       "target": "AllEnemies",
       "isFinisher": false,
       "img": "assets/catfall/cards/awakened-manastorm.webp",
       "stats": {
-        "damage": 14,
+        "damage": 9,
         "block": null,
         "magic": null,
         "secondMagic": null,
@@ -13691,14 +14016,14 @@
         "selfDamage": null
       },
       "upgradeStats": {
-        "damage": 18,
+        "damage": 13,
         "block": null
       },
       "dynamicValues": {
-        "Damage": 14
+        "Damage": 9
       },
       "upgradeDynamicValues": {
-        "Damage": 18
+        "Damage": 13
       },
       "energyIcon": "assets/catfall/energy-icons/awakened.webp",
       "deprecated": false,
@@ -14120,7 +14445,7 @@
         "zh": "觉醒者"
       },
       "cost": 2,
-      "upgradeCost": null,
+      "upgradeCost": 1,
       "canUpgrade": true,
       "target": "Self",
       "isFinisher": false,
@@ -14338,8 +14663,8 @@
         "zh": "寂灭"
       },
       "description": {
-        "en": "Apply {ManaburnPower:diff()} [gold]Manaburn[/gold].",
-        "zh": "给予{ManaburnPower:diff()}层[gold]魔力灼烧[/gold]。"
+        "en": "Apply {ManaburnPower:diff()} [gold]Manaburn[/gold].\n[gold]Chant[/gold]:\nALL enemies lose HP equal to their [gold]Manaburn[/gold].",
+        "zh": "给予{ManaburnPower:diff()}层[gold]魔力灼烧[/gold]。\n[gold]吟唱[/gold]：\n所有敌人失去等同于其[gold]魔力灼烧[/gold]层数的生命。"
       },
       "upgradeDescription": {
         "en": "",
@@ -14408,6 +14733,20 @@
           "description": {
             "en": "At the end of its turn, gains [gold]Doom[/gold].",
             "zh": "在其回合结束时，获得[gold]魂劫[/gold]。"
+          },
+          "dynamicValues": {},
+          "sourceValueKey": null,
+          "icon": null
+        },
+        {
+          "id": "AWAKENED-CHANT",
+          "name": {
+            "en": "Chant",
+            "zh": "吟唱"
+          },
+          "description": {
+            "en": "Cards with Chant effects become more powerful for the rest of combat if the last played card in combat was a Power card.",
+            "zh": "带有该关键词的牌被打出时，如果打出的上一张牌是能力牌，则会在本场战斗中激活吟唱效果。"
           },
           "dynamicValues": {},
           "sourceValueKey": null,
@@ -14809,7 +15148,7 @@
         "zh": "觉醒者"
       },
       "cost": 0,
-      "upgradeCost": null,
+      "upgradeCost": 0,
       "canUpgrade": true,
       "target": "Self",
       "isFinisher": false,
@@ -14989,8 +15328,8 @@
         "zh": "渡鸦打击"
       },
       "description": {
-        "en": "Deal {Damage:diff()} damage.",
-        "zh": "造成{Damage:diff()}点伤害。"
+        "en": "Deal {Damage:diff()} damage.\n[gold]Chant[/gold]:\nPlay the top card of your [gold]Draw Pile[/gold].",
+        "zh": "造成{Damage:diff()}点伤害。\n[gold]吟唱[/gold]：\n打出你[gold]抽牌堆[/gold]顶部的牌。"
       },
       "upgradeDescription": {
         "en": "",
@@ -15035,7 +15374,22 @@
       "energyIcon": "assets/catfall/energy-icons/awakened.webp",
       "deprecated": false,
       "notInPool": false,
-      "attachedTips": [],
+      "attachedTips": [
+        {
+          "id": "AWAKENED-CHANT",
+          "name": {
+            "en": "Chant",
+            "zh": "吟唱"
+          },
+          "description": {
+            "en": "Cards with Chant effects become more powerful for the rest of combat if the last played card in combat was a Power card.",
+            "zh": "带有该关键词的牌被打出时，如果打出的上一张牌是能力牌，则会在本场战斗中激活吟唱效果。"
+          },
+          "dynamicValues": {},
+          "sourceValueKey": null,
+          "icon": null
+        }
+      ],
       "visualColor": "AWAKENED",
       "hasConjure": false,
       "isSpell": false,
@@ -15242,7 +15596,7 @@
         "AwakeningPower": 8
       },
       "upgradeDynamicValues": {
-        "AwakeningPower": 11
+        "AwakeningPower": 12
       },
       "energyIcon": "assets/catfall/energy-icons/awakened.webp",
       "deprecated": false,
@@ -15294,8 +15648,8 @@
         "zh": "咏唱"
       },
       "description": {
-        "en": "Deal {Damage:diff()} damage.",
-        "zh": "造成{Damage:diff()}点伤害。"
+        "en": "Deal {Damage:diff()} damage.\n[gold]Chant[/gold]:\nDeal {Damage:diff()} damage again.",
+        "zh": "造成{Damage:diff()}点伤害。\n[gold]吟唱[/gold]：\n攻击两次。"
       },
       "upgradeDescription": {
         "en": "",
@@ -15340,7 +15694,22 @@
       "energyIcon": "assets/catfall/energy-icons/awakened.webp",
       "deprecated": false,
       "notInPool": false,
-      "attachedTips": [],
+      "attachedTips": [
+        {
+          "id": "AWAKENED-CHANT",
+          "name": {
+            "en": "Chant",
+            "zh": "吟唱"
+          },
+          "description": {
+            "en": "Cards with Chant effects become more powerful for the rest of combat if the last played card in combat was a Power card.",
+            "zh": "带有该关键词的牌被打出时，如果打出的上一张牌是能力牌，则会在本场战斗中激活吟唱效果。"
+          },
+          "dynamicValues": {},
+          "sourceValueKey": null,
+          "icon": null
+        }
+      ],
       "visualColor": "AWAKENED",
       "hasConjure": false,
       "isSpell": false,
@@ -15635,7 +16004,7 @@
       },
       "description": {
         "en": "Lose {HpLoss:diff()} HP.\nDraw {Cards:diff()} cards.\nGain {StrengthPower:diff()} [gold]Strength[/gold].",
-        "zh": ""
+        "zh": "失去{HpLoss:diff()}点生命。\n抽{Cards:diff()}张牌。\n获得{StrengthPower:diff()}点[gold]力量[/gold]。"
       },
       "upgradeDescription": {
         "en": "",
@@ -15792,8 +16161,8 @@
         "zh": "抽离"
       },
       "description": {
-        "en": "Deal {Damage:diff()} damage.",
-        "zh": "造成{Damage:diff()}点伤害。"
+        "en": "Deal {Damage:diff()} damage.\n[gold]Chant[/gold]:\nSteal {SiphonPower:diff()} [gold]Strength[/gold] this turn.",
+        "zh": "造成{Damage:diff()}点伤害。\n[gold]吟唱[/gold]：\n本回合窃取{SiphonPower:diff()}点[gold]力量[/gold]。"
       },
       "upgradeDescription": {
         "en": "",
@@ -15840,7 +16209,22 @@
       "energyIcon": "assets/catfall/energy-icons/awakened.webp",
       "deprecated": false,
       "notInPool": false,
-      "attachedTips": [],
+      "attachedTips": [
+        {
+          "id": "AWAKENED-CHANT",
+          "name": {
+            "en": "Chant",
+            "zh": "吟唱"
+          },
+          "description": {
+            "en": "Cards with Chant effects become more powerful for the rest of combat if the last played card in combat was a Power card.",
+            "zh": "带有该关键词的牌被打出时，如果打出的上一张牌是能力牌，则会在本场战斗中激活吟唱效果。"
+          },
+          "dynamicValues": {},
+          "sourceValueKey": null,
+          "icon": null
+        }
+      ],
       "visualColor": "AWAKENED",
       "hasConjure": false,
       "isSpell": false,
@@ -16154,7 +16538,7 @@
         "zh": "觉醒者"
       },
       "cost": 1,
-      "upgradeCost": null,
+      "upgradeCost": 0,
       "canUpgrade": true,
       "target": "Self",
       "isFinisher": false,
@@ -16738,8 +17122,8 @@
         "zh": "起飞"
       },
       "description": {
-        "en": "Gain {Block:diff()} [gold]Block[/gold].",
-        "zh": "获得{Block:diff()}点[gold]格挡[/gold]。"
+        "en": "Gain {Block:diff()} [gold]Block[/gold].\n[gold]Chant[/gold]:\n[gold]Block[/gold] is not removed at the start of your next turn.",
+        "zh": "获得{Block:diff()}点[gold]格挡[/gold]。\n[gold]吟唱[/gold]：\n你的下一回合开始时[gold]格挡[/gold]不会消失。"
       },
       "upgradeDescription": {
         "en": "",
@@ -16786,7 +17170,22 @@
       "energyIcon": "assets/catfall/energy-icons/awakened.webp",
       "deprecated": false,
       "notInPool": false,
-      "attachedTips": [],
+      "attachedTips": [
+        {
+          "id": "AWAKENED-CHANT",
+          "name": {
+            "en": "Chant",
+            "zh": "吟唱"
+          },
+          "description": {
+            "en": "Cards with Chant effects become more powerful for the rest of combat if the last played card in combat was a Power card.",
+            "zh": "带有该关键词的牌被打出时，如果打出的上一张牌是能力牌，则会在本场战斗中激活吟唱效果。"
+          },
+          "dynamicValues": {},
+          "sourceValueKey": null,
+          "icon": null
+        }
+      ],
       "visualColor": "AWAKENED",
       "hasConjure": false,
       "isSpell": false,
@@ -17202,14 +17601,14 @@
         "en": "Colorless",
         "zh": "无色"
       },
-      "cost": 1,
+      "cost": 0,
       "upgradeCost": null,
       "canUpgrade": true,
       "target": "AnyEnemy",
       "isFinisher": false,
       "img": "assets/catfall/cards/awakened-thunderbolt.webp",
       "stats": {
-        "damage": 12,
+        "damage": 9,
         "block": null,
         "magic": null,
         "secondMagic": null,
@@ -17218,14 +17617,14 @@
         "selfDamage": null
       },
       "upgradeStats": {
-        "damage": 18,
+        "damage": 14,
         "block": null
       },
       "dynamicValues": {
-        "Damage": 12
+        "Damage": 9
       },
       "upgradeDynamicValues": {
-        "Damage": 18
+        "Damage": 14
       },
       "energyIcon": "assets/catfall/energy-icons/awakened.webp",
       "deprecated": false,
@@ -17332,8 +17731,8 @@
         "zh": "圣馔"
       },
       "description": {
-        "en": "",
-        "zh": ""
+        "en": "[gold]Chant[/gold]:\nGain {Energy:energyIcons()}.",
+        "zh": "[gold]吟唱[/gold]：\n获得{Energy:energyIcons()}。"
       },
       "upgradeDescription": {
         "en": "",
@@ -17378,7 +17777,22 @@
       "energyIcon": "assets/catfall/energy-icons/awakened.webp",
       "deprecated": false,
       "notInPool": false,
-      "attachedTips": [],
+      "attachedTips": [
+        {
+          "id": "AWAKENED-CHANT",
+          "name": {
+            "en": "Chant",
+            "zh": "吟唱"
+          },
+          "description": {
+            "en": "Cards with Chant effects become more powerful for the rest of combat if the last played card in combat was a Power card.",
+            "zh": "带有该关键词的牌被打出时，如果打出的上一张牌是能力牌，则会在本场战斗中激活吟唱效果。"
+          },
+          "dynamicValues": {},
+          "sourceValueKey": null,
+          "icon": null
+        }
+      ],
       "visualColor": "AWAKENED",
       "hasConjure": false,
       "isSpell": false,
@@ -17424,7 +17838,7 @@
         "zh": "觉醒者"
       },
       "cost": 2,
-      "upgradeCost": null,
+      "upgradeCost": 1,
       "canUpgrade": true,
       "target": "Self",
       "isFinisher": false,
@@ -19710,8 +20124,8 @@
         "zh": "宝石枪"
       },
       "description": {
-        "en": "",
-        "zh": ""
+        "en": "Trigger all socketed Gems, starting with Sapphires.",
+        "zh": "先触发镶嵌的蓝宝石，再触发其余镶嵌宝石的效果。"
       },
       "upgradeDescription": {
         "en": "",
@@ -19770,6 +20184,20 @@
           "dynamicValues": {},
           "sourceValueKey": "Socket",
           "icon": null
+        },
+        {
+          "id": "CATFALL2-GEM",
+          "name": {
+            "en": "宝石",
+            "zh": "宝石"
+          },
+          "description": {
+            "en": "[gold]宝石[/gold]能在[gold]休息处[/gold]被[gold]镶嵌[/gold]至有[gold]孔位[/gold]的牌上，且无法被[gold]升级[/gold]。",
+            "zh": "[gold]宝石[/gold]能在[gold]休息处[/gold]被[gold]镶嵌[/gold]至有[gold]孔位[/gold]的牌上，且无法被[gold]升级[/gold]。"
+          },
+          "dynamicValues": {},
+          "sourceValueKey": null,
+          "icon": null
         }
       ],
       "visualColor": "GUARDIAN",
@@ -19827,7 +20255,7 @@
       },
       "cost": 0,
       "upgradeCost": null,
-      "canUpgrade": true,
+      "canUpgrade": false,
       "target": "Self",
       "isFinisher": false,
       "img": "assets/catfall/cards/catfall2-gem_black.webp",
@@ -19887,7 +20315,7 @@
       },
       "cost": 0,
       "upgradeCost": null,
-      "canUpgrade": true,
+      "canUpgrade": false,
       "target": "Self",
       "isFinisher": false,
       "img": "assets/catfall/cards/catfall2-gem_blue.webp",
@@ -19966,7 +20394,7 @@
       },
       "cost": 0,
       "upgradeCost": null,
-      "canUpgrade": true,
+      "canUpgrade": false,
       "target": "AllEnemies",
       "isFinisher": false,
       "img": "assets/catfall/cards/catfall2-gem_crimson.webp",
@@ -20030,7 +20458,7 @@
       },
       "cost": 0,
       "upgradeCost": null,
-      "canUpgrade": true,
+      "canUpgrade": false,
       "target": "None",
       "isFinisher": false,
       "img": "assets/catfall/cards/catfall2-gem_cyan.webp",
@@ -20277,7 +20705,7 @@
       },
       "cost": 0,
       "upgradeCost": null,
-      "canUpgrade": true,
+      "canUpgrade": false,
       "target": "None",
       "isFinisher": false,
       "img": "assets/catfall/cards/catfall2-gem_fragmented.webp",
@@ -20337,7 +20765,7 @@
       },
       "cost": 0,
       "upgradeCost": null,
-      "canUpgrade": true,
+      "canUpgrade": false,
       "target": "Self",
       "isFinisher": false,
       "img": "assets/catfall/cards/catfall2-gem_green.webp",
@@ -20401,7 +20829,7 @@
       },
       "cost": 0,
       "upgradeCost": null,
-      "canUpgrade": true,
+      "canUpgrade": false,
       "target": "Self",
       "isFinisher": false,
       "img": "assets/catfall/cards/catfall2-gem_lightblue.webp",
@@ -20465,7 +20893,7 @@
       },
       "cost": 0,
       "upgradeCost": null,
-      "canUpgrade": true,
+      "canUpgrade": false,
       "target": "Self",
       "isFinisher": false,
       "img": "assets/catfall/cards/catfall2-gem_orange.webp",
@@ -20529,7 +20957,7 @@
       },
       "cost": 0,
       "upgradeCost": null,
-      "canUpgrade": true,
+      "canUpgrade": false,
       "target": "AllEnemies",
       "isFinisher": false,
       "img": "assets/catfall/cards/catfall2-gem_purple.webp",
@@ -20593,7 +21021,7 @@
       },
       "cost": 0,
       "upgradeCost": null,
-      "canUpgrade": true,
+      "canUpgrade": false,
       "target": "Self",
       "isFinisher": false,
       "img": "assets/catfall/cards/catfall2-gem_red.webp",
@@ -20657,7 +21085,7 @@
       },
       "cost": 0,
       "upgradeCost": null,
-      "canUpgrade": true,
+      "canUpgrade": false,
       "target": "None",
       "isFinisher": false,
       "img": "assets/catfall/cards/catfall2-gem_white.webp",
@@ -20701,8 +21129,8 @@
         "zh": "琥珀"
       },
       "description": {
-        "en": "",
-        "zh": ""
+        "en": "[gold]Accelerate[/gold] once.",
+        "zh": "[gold]加速[/gold]1次。"
       },
       "upgradeDescription": {
         "en": "",
@@ -20721,7 +21149,7 @@
       },
       "cost": 0,
       "upgradeCost": null,
-      "canUpgrade": true,
+      "canUpgrade": false,
       "target": "None",
       "isFinisher": false,
       "img": "assets/catfall/cards/catfall2-gem_yellow.webp",
@@ -20753,6 +21181,20 @@
           "description": {
             "en": "将牌挂起并从其耗能+[blue]1[/blue]开始倒计时，每回合减[blue]1[/blue]。\n归零时，其返回手牌且单次免费打出。",
             "zh": "将牌挂起并从其耗能+[blue]1[/blue]开始倒计时，每回合减[blue]1[/blue]。\n归零时，其返回手牌且单次免费打出。"
+          },
+          "dynamicValues": {},
+          "sourceValueKey": null,
+          "icon": null
+        },
+        {
+          "id": "CATFALL2-ACCELERATE",
+          "name": {
+            "en": "加速",
+            "zh": "加速"
+          },
+          "description": {
+            "en": "最右端被[gold]凝滞[/gold]的牌的倒计时减[blue]1[/blue]。",
+            "zh": "最右端被[gold]凝滞[/gold]的牌的倒计时减[blue]1[/blue]。"
           },
           "dynamicValues": {},
           "sourceValueKey": null,
@@ -24973,7 +25415,7 @@
       "upgradeCost": null,
       "canUpgrade": true,
       "target": "Self",
-      "isFinisher": false,
+      "isFinisher": true,
       "img": "assets/catfall/cards/champ-all_out.webp",
       "stats": {
         "damage": null,
@@ -25029,7 +25471,11 @@
         }
       ],
       "dynamicDescriptionLines": [],
-      "catfall": true
+      "catfall": true,
+      "finisherLabel": {
+        "en": "Finisher",
+        "zh": "终结技"
+      }
     },
     {
       "id": "CHAMP-ARENA_MASTERY",
@@ -25587,7 +26033,7 @@
       "upgradeCost": null,
       "canUpgrade": true,
       "target": "Self",
-      "isFinisher": false,
+      "isFinisher": true,
       "img": "assets/catfall/cards/champ-bring_it_on.webp",
       "stats": {
         "damage": null,
@@ -25650,7 +26096,11 @@
       "descriptionKeywordPrefix": [],
       "descriptionKeywordSuffix": [],
       "dynamicDescriptionLines": [],
-      "catfall": true
+      "catfall": true,
+      "finisherLabel": {
+        "en": "Finisher",
+        "zh": "终结技"
+      }
     },
     {
       "id": "CHAMP-CHAIN_LASH",
@@ -25900,7 +26350,7 @@
         "zh": "第一勇士"
       },
       "cost": 2,
-      "upgradeCost": null,
+      "upgradeCost": 1,
       "canUpgrade": true,
       "target": "AnyEnemy",
       "isFinisher": false,
@@ -26125,7 +26575,7 @@
       "upgradeCost": null,
       "canUpgrade": true,
       "target": "AnyEnemy",
-      "isFinisher": false,
+      "isFinisher": true,
       "img": "assets/catfall/cards/champ-crooked_strike.webp",
       "stats": {
         "damage": 6,
@@ -26186,7 +26636,11 @@
       "descriptionKeywordPrefix": [],
       "descriptionKeywordSuffix": [],
       "dynamicDescriptionLines": [],
-      "catfall": true
+      "catfall": true,
+      "finisherLabel": {
+        "en": "Finisher",
+        "zh": "终结技"
+      }
     },
     {
       "id": "CHAMP-CROWD_FAVORITE",
@@ -26741,7 +27195,7 @@
         "zh": "第一勇士"
       },
       "cost": 1,
-      "upgradeCost": null,
+      "upgradeCost": 0,
       "canUpgrade": true,
       "target": "Self",
       "isFinisher": false,
@@ -27040,7 +27494,7 @@
       "upgradeCost": null,
       "canUpgrade": true,
       "target": "Self",
-      "isFinisher": false,
+      "isFinisher": true,
       "img": "assets/catfall/cards/champ-emergency_pivot.webp",
       "stats": {
         "damage": null,
@@ -27096,7 +27550,11 @@
       ],
       "descriptionKeywordSuffix": [],
       "dynamicDescriptionLines": [],
-      "catfall": true
+      "catfall": true,
+      "finisherLabel": {
+        "en": "Finisher",
+        "zh": "终结技"
+      }
     },
     {
       "id": "CHAMP-ENCHANT_CROWN",
@@ -27769,7 +28227,7 @@
       "upgradeCost": null,
       "canUpgrade": true,
       "target": "AnyEnemy",
-      "isFinisher": false,
+      "isFinisher": true,
       "img": "assets/catfall/cards/champ-execute.webp",
       "stats": {
         "damage": 6,
@@ -27816,7 +28274,11 @@
       "descriptionKeywordPrefix": [],
       "descriptionKeywordSuffix": [],
       "dynamicDescriptionLines": [],
-      "catfall": true
+      "catfall": true,
+      "finisherLabel": {
+        "en": "Finisher",
+        "zh": "终结技"
+      }
     },
     {
       "id": "CHAMP-EXECUTION",
@@ -27848,7 +28310,7 @@
       "upgradeCost": null,
       "canUpgrade": true,
       "target": "AnyEnemy",
-      "isFinisher": false,
+      "isFinisher": true,
       "img": "assets/catfall/cards/champ-execution.webp",
       "stats": {
         "damage": 6,
@@ -27897,7 +28359,11 @@
       "descriptionKeywordPrefix": [],
       "descriptionKeywordSuffix": [],
       "dynamicDescriptionLines": [],
-      "catfall": true
+      "catfall": true,
+      "finisherLabel": {
+        "en": "Finisher",
+        "zh": "终结技"
+      }
     },
     {
       "id": "CHAMP-FACE_SLAP",
@@ -28636,7 +29102,7 @@
       "upgradeCost": null,
       "canUpgrade": true,
       "target": "Self",
-      "isFinisher": false,
+      "isFinisher": true,
       "img": "assets/catfall/cards/champ-group_effort.webp",
       "stats": {
         "damage": null,
@@ -28683,7 +29149,11 @@
       "descriptionKeywordPrefix": [],
       "descriptionKeywordSuffix": [],
       "dynamicDescriptionLines": [],
-      "catfall": true
+      "catfall": true,
+      "finisherLabel": {
+        "en": "Finisher",
+        "zh": "终结技"
+      }
     },
     {
       "id": "CHAMP-GUTS_AND_GLORY",
@@ -29211,7 +29681,7 @@
       "upgradeCost": null,
       "canUpgrade": true,
       "target": "Self",
-      "isFinisher": false,
+      "isFinisher": true,
       "img": "assets/catfall/cards/champ-ignore_pain.webp",
       "stats": {
         "damage": null,
@@ -29290,7 +29760,11 @@
         }
       ],
       "dynamicDescriptionLines": [],
-      "catfall": true
+      "catfall": true,
+      "finisherLabel": {
+        "en": "Finisher",
+        "zh": "终结技"
+      }
     },
     {
       "id": "CHAMP-IMPROVISING",
@@ -29724,7 +30198,7 @@
         "en": "The Champ",
         "zh": "第一勇士"
       },
-      "cost": -1,
+      "cost": 0,
       "upgradeCost": null,
       "canUpgrade": true,
       "target": "Self",
@@ -29804,7 +30278,7 @@
         "zh": "第一勇士"
       },
       "cost": 1,
-      "upgradeCost": null,
+      "upgradeCost": 0,
       "canUpgrade": true,
       "target": "Self",
       "isFinisher": false,
@@ -30044,7 +30518,7 @@
       "upgradeCost": null,
       "canUpgrade": true,
       "target": "Self",
-      "isFinisher": false,
+      "isFinisher": true,
       "img": "assets/catfall/cards/champ-moment_of_truth.webp",
       "stats": {
         "damage": null,
@@ -30100,7 +30574,11 @@
       ],
       "descriptionKeywordSuffix": [],
       "dynamicDescriptionLines": [],
-      "catfall": true
+      "catfall": true,
+      "finisherLabel": {
+        "en": "Finisher",
+        "zh": "终结技"
+      }
     },
     {
       "id": "CHAMP-MURDER_STRIKE",
@@ -30409,7 +30887,7 @@
       "upgradeCost": null,
       "canUpgrade": true,
       "target": "AnyEnemy",
-      "isFinisher": false,
+      "isFinisher": true,
       "img": "assets/catfall/cards/champ-piledriver.webp",
       "stats": {
         "damage": 8,
@@ -30460,7 +30938,11 @@
       "descriptionKeywordPrefix": [],
       "descriptionKeywordSuffix": [],
       "dynamicDescriptionLines": [],
-      "catfall": true
+      "catfall": true,
+      "finisherLabel": {
+        "en": "Finisher",
+        "zh": "终结技"
+      }
     },
     {
       "id": "CHAMP-PRECISE_THRUST",
@@ -30612,7 +31094,7 @@
         "zh": "第一勇士"
       },
       "cost": 1,
-      "upgradeCost": null,
+      "upgradeCost": 0,
       "canUpgrade": true,
       "target": "AllEnemies",
       "isFinisher": false,
@@ -31310,7 +31792,7 @@
       "upgradeCost": null,
       "canUpgrade": true,
       "target": "Self",
-      "isFinisher": false,
+      "isFinisher": true,
       "img": "assets/catfall/cards/champ-rope_a_dope.webp",
       "stats": {
         "damage": null,
@@ -31361,7 +31843,11 @@
       "descriptionKeywordPrefix": [],
       "descriptionKeywordSuffix": [],
       "dynamicDescriptionLines": [],
-      "catfall": true
+      "catfall": true,
+      "finisherLabel": {
+        "en": "Finisher",
+        "zh": "终结技"
+      }
     },
     {
       "id": "CHAMP-SET_A_TRAP",
@@ -31596,7 +32082,7 @@
         "zh": "第一勇士"
       },
       "cost": 2,
-      "upgradeCost": null,
+      "upgradeCost": 1,
       "canUpgrade": true,
       "target": "AnyEnemy",
       "isFinisher": false,
@@ -31699,7 +32185,7 @@
       "cost": 1,
       "upgradeCost": null,
       "canUpgrade": true,
-      "target": "AnyAlly",
+      "target": "AllAllies",
       "isFinisher": false,
       "img": "assets/catfall/cards/champ-show_off.webp",
       "stats": {
@@ -32182,7 +32668,7 @@
       "upgradeCost": null,
       "canUpgrade": true,
       "target": "AnyEnemy",
-      "isFinisher": false,
+      "isFinisher": true,
       "img": "assets/catfall/cards/champ-steel_edge.webp",
       "stats": {
         "damage": 6,
@@ -32229,7 +32715,11 @@
       "descriptionKeywordPrefix": [],
       "descriptionKeywordSuffix": [],
       "dynamicDescriptionLines": [],
-      "catfall": true
+      "catfall": true,
+      "finisherLabel": {
+        "en": "Finisher",
+        "zh": "终结技"
+      }
     },
     {
       "id": "CHAMP-STRIKE_CHAMP",
@@ -32346,6 +32836,34 @@
       "deprecated": false,
       "notInPool": false,
       "attachedTips": [
+        {
+          "id": "CHAMP-STRIKE_OF_GENIUS_POWER",
+          "name": {
+            "en": "Strike of Genius",
+            "zh": "打击天才"
+          },
+          "description": {
+            "en": "At the start of your turn, add a random \"Strike\" [gold]Echo[/gold] into your [gold]Hand[/gold].\nIt's free to play for that turn.",
+            "zh": "在你的回合开始时，获得一张随机“打击”牌的[gold]回响[/gold]。\n其在一回合内可以免费打出。"
+          },
+          "dynamicValues": {},
+          "sourceValueKey": null,
+          "icon": null
+        },
+        {
+          "id": "CHAMP-STRIKE_OF_GENIUS_PLUS_POWER",
+          "name": {
+            "en": "Strike of Genius+",
+            "zh": "灵感打击+"
+          },
+          "description": {
+            "en": "At the start of your turn, add a random [gold]upgraded[/gold] \"Strike\" [gold]Echo[/gold] into your [gold]Hand[/gold].\nIt's free to play for that turn.",
+            "zh": "在你的回合开始时，将一张随机[gold]升级过的[/gold]“打击”牌的[gold]回响[/gold]加入你的[gold]手牌[/gold]。\n其在一回合内可以免费打出。"
+          },
+          "dynamicValues": {},
+          "sourceValueKey": null,
+          "icon": null
+        },
         {
           "id": "DOWNFALL-ECHO",
           "name": {
@@ -32877,7 +33395,7 @@
         "zh": "第一勇士"
       },
       "cost": 1,
-      "upgradeCost": null,
+      "upgradeCost": 0,
       "canUpgrade": true,
       "target": "Self",
       "isFinisher": false,
@@ -33603,7 +34121,7 @@
         "zh": "无色"
       },
       "cost": 1,
-      "upgradeCost": null,
+      "upgradeCost": 0,
       "canUpgrade": true,
       "target": "AnyEnemy",
       "isFinisher": false,
@@ -33796,7 +34314,7 @@
       "upgradeDynamicValues": {
         "Upgrade": 2,
         "BindingCallPower": 3,
-        "Summon": 8
+        "Summon": 6
       },
       "energyIcon": "assets/catfall/energy-icons/collector.webp",
       "deprecated": false,
@@ -34279,7 +34797,7 @@
         "selfDamage": null
       },
       "upgradeStats": {
-        "damage": 7,
+        "damage": 6,
         "block": null
       },
       "dynamicValues": {
@@ -34288,7 +34806,7 @@
       },
       "upgradeDynamicValues": {
         "Upgrade": 1,
-        "Damage": 7
+        "Damage": 6
       },
       "energyIcon": "assets/catfall/energy-icons/collector.webp",
       "deprecated": false,
@@ -35070,8 +35588,8 @@
         "zh": "收藏家"
       },
       "cost": 1,
-      "upgradeCost": null,
-      "canUpgrade": false,
+      "upgradeCost": 0,
+      "canUpgrade": true,
       "target": "Self",
       "isFinisher": false,
       "img": "assets/catfall/cards/collector-dark_apotheosis.webp",
@@ -35181,7 +35699,36 @@
       "energyIcon": "assets/catfall/energy-icons/collector.webp",
       "deprecated": false,
       "notInPool": false,
-      "attachedTips": [],
+      "attachedTips": [
+        {
+          "id": "COLLECTOR-DARK_LORD_FORM_POWER",
+          "name": {
+            "en": "Dark Lord Form",
+            "zh": "暗主形态"
+          },
+          "description": {
+            "en": "At the start of your turn, play [gold]You Are Mine [/gold]on a random enemy.",
+            "zh": "在你的回合开始时，对随机敌人使用[gold]你是我的了[/gold]。"
+          },
+          "dynamicValues": {},
+          "sourceValueKey": null,
+          "icon": null
+        },
+        {
+          "id": "COLLECTOR-DARK_LORD_FORM_PLUS_POWER",
+          "name": {
+            "en": "Dark Lord Form",
+            "zh": "暗主形态"
+          },
+          "description": {
+            "en": "At the start of your turn, play [gold]You Are Mine+[/gold] on a random enemy.",
+            "zh": "在你的回合开始时，对随机敌人使用[gold]你是我的了+[/gold]。"
+          },
+          "dynamicValues": {},
+          "sourceValueKey": null,
+          "icon": null
+        }
+      ],
       "visualColor": "COLLECTOR",
       "hasConjure": false,
       "isSpell": false,
@@ -35639,7 +36186,7 @@
         "en": "The Collector",
         "zh": "收藏家"
       },
-      "cost": -1,
+      "cost": 1,
       "upgradeCost": null,
       "canUpgrade": true,
       "target": "Self",
@@ -36523,7 +37070,7 @@
         "zh": "收藏家"
       },
       "cost": 2,
-      "upgradeCost": null,
+      "upgradeCost": 1,
       "canUpgrade": true,
       "target": "AnyEnemy",
       "isFinisher": false,
@@ -38221,7 +38768,7 @@
         "zh": "收藏家"
       },
       "cost": 2,
-      "upgradeCost": null,
+      "upgradeCost": 1,
       "canUpgrade": true,
       "target": "Self",
       "isFinisher": false,
@@ -38328,7 +38875,7 @@
       "upgradeDynamicValues": {
         "Upgrade": 2,
         "ProtectingCallPower": 3,
-        "Summon": 8
+        "Summon": 6
       },
       "energyIcon": "assets/catfall/energy-icons/collector.webp",
       "deprecated": false,
@@ -38413,7 +38960,7 @@
         "zh": "收藏家"
       },
       "cost": 2,
-      "upgradeCost": null,
+      "upgradeCost": 1,
       "canUpgrade": true,
       "target": "Self",
       "isFinisher": false,
@@ -38432,10 +38979,12 @@
         "block": null
       },
       "dynamicValues": {
-        "PyromancyPower": 1
+        "PyromancyPower": 1,
+        "CostUpgradeBy": -1
       },
       "upgradeDynamicValues": {
-        "PyromancyPower": 1
+        "PyromancyPower": 1,
+        "CostUpgradeBy": -1
       },
       "energyIcon": "assets/catfall/energy-icons/collector.webp",
       "deprecated": false,
@@ -38554,8 +39103,8 @@
       },
       "upgradeDynamicValues": {
         "Upgrade": 1,
-        "RagingCallPower": 8,
-        "Summon": 7
+        "RagingCallPower": 5,
+        "Summon": 6
       },
       "energyIcon": "assets/catfall/energy-icons/collector.webp",
       "deprecated": false,
@@ -38662,7 +39211,7 @@
         "Cards": 2
       },
       "upgradeDynamicValues": {
-        "Cards": 3
+        "Cards": 4
       },
       "energyIcon": "assets/catfall/energy-icons/collector.webp",
       "deprecated": false,
@@ -38694,6 +39243,14 @@
           "label": {
             "en": "Pyre.",
             "zh": "焰葬。"
+          }
+        },
+        {
+          "mode": "always",
+          "style": null,
+          "label": {
+            "en": "Retain.",
+            "zh": "保留。"
           }
         }
       ],
@@ -39207,7 +39764,7 @@
         "zh": "收藏家"
       },
       "cost": 2,
-      "upgradeCost": null,
+      "upgradeCost": 1,
       "canUpgrade": true,
       "target": "Self",
       "isFinisher": false,
@@ -39935,7 +40492,7 @@
     },
     {
       "id": "COLLECTOR-SUPER_FUEL_THE_FIRE",
-      "codeName": "FuelTheFire",
+      "codeName": "SuperFuelTheFire",
       "name": {
         "en": "Super Fuel the Fire",
         "zh": "供火"
@@ -39953,13 +40510,13 @@
         "zh": []
       },
       "type": "SKILL",
-      "rarity": "BASIC",
+      "rarity": "ANCIENT",
       "color": "COLLECTOR",
       "colorName": {
         "en": "The Collector",
         "zh": "收藏家"
       },
-      "cost": 1,
+      "cost": 0,
       "upgradeCost": null,
       "canUpgrade": true,
       "target": "Self",
@@ -39979,10 +40536,12 @@
         "block": null
       },
       "dynamicValues": {
-        "ReserveNextTurnPower": 2
+        "ReserveNextTurnPower": 2,
+        "DrawCardsNextTurnPower": 1
       },
       "upgradeDynamicValues": {
-        "ReserveNextTurnPower": 2
+        "ReserveNextTurnPower": 2,
+        "DrawCardsNextTurnPower": 2
       },
       "energyIcon": "assets/catfall/energy-icons/collector.webp",
       "deprecated": false,
@@ -40195,7 +40754,7 @@
       },
       "upgradeDynamicValues": {
         "Upgrade": 4,
-        "Summon": 14
+        "Summon": 10
       },
       "energyIcon": "assets/catfall/energy-icons/collector.webp",
       "deprecated": false,
@@ -40608,7 +41167,7 @@
       "upgradeDynamicValues": {
         "Damage": 15,
         "Upgrade": 3,
-        "Summon": 15
+        "Summon": 12
       },
       "energyIcon": "assets/catfall/energy-icons/collector.webp",
       "deprecated": false,
@@ -40838,7 +41397,7 @@
       },
       "cost": 0,
       "upgradeCost": null,
-      "canUpgrade": false,
+      "canUpgrade": true,
       "target": "Self",
       "isFinisher": false,
       "img": "assets/catfall/cards/hermit-abyssal_beacon.webp",
@@ -40918,7 +41477,7 @@
         "zh": "亡命之徒"
       },
       "cost": 3,
-      "upgradeCost": null,
+      "upgradeCost": 2,
       "canUpgrade": true,
       "target": "Self",
       "isFinisher": false,
@@ -41059,7 +41618,7 @@
         "zh": "亡命之徒"
       },
       "cost": 2,
-      "upgradeCost": null,
+      "upgradeCost": 1,
       "canUpgrade": true,
       "target": "AnyEnemy",
       "isFinisher": false,
@@ -41901,7 +42460,7 @@
         "zh": "亡命之徒"
       },
       "cost": 2,
-      "upgradeCost": null,
+      "upgradeCost": 1,
       "canUpgrade": true,
       "target": "Self",
       "isFinisher": false,
@@ -41985,7 +42544,7 @@
         "zh": "亡命之徒"
       },
       "cost": 1,
-      "upgradeCost": null,
+      "upgradeCost": 0,
       "canUpgrade": true,
       "target": "AnyEnemy",
       "isFinisher": false,
@@ -42149,7 +42708,7 @@
         "zh": "亡命之徒"
       },
       "cost": 1,
-      "upgradeCost": null,
+      "upgradeCost": 0,
       "canUpgrade": true,
       "target": "Self",
       "isFinisher": false,
@@ -42214,7 +42773,7 @@
         "en": "The Hermit",
         "zh": "亡命之徒"
       },
-      "cost": -1,
+      "cost": 1,
       "upgradeCost": null,
       "canUpgrade": true,
       "target": "AnyEnemy",
@@ -42967,7 +43526,7 @@
         "zh": "亡命之徒"
       },
       "cost": 1,
-      "upgradeCost": null,
+      "upgradeCost": 0,
       "canUpgrade": true,
       "target": "Self",
       "isFinisher": false,
@@ -42985,8 +43544,12 @@
         "damage": null,
         "block": null
       },
-      "dynamicValues": {},
-      "upgradeDynamicValues": {},
+      "dynamicValues": {
+        "CostUpgradeBy": -1
+      },
+      "upgradeDynamicValues": {
+        "CostUpgradeBy": -1
+      },
       "energyIcon": "assets/catfall/energy-icons/hermit.webp",
       "deprecated": false,
       "notInPool": false,
@@ -43333,7 +43896,7 @@
         "zh": "亡命之徒"
       },
       "cost": 9,
-      "upgradeCost": null,
+      "upgradeCost": 7,
       "canUpgrade": true,
       "target": "AnyEnemy",
       "isFinisher": false,
@@ -44611,7 +45174,7 @@
         "zh": "亡命之徒"
       },
       "cost": 1,
-      "upgradeCost": null,
+      "upgradeCost": 0,
       "canUpgrade": true,
       "target": "Self",
       "isFinisher": false,
@@ -45150,7 +45713,7 @@
         "zh": "亡命之徒"
       },
       "cost": 0,
-      "upgradeCost": null,
+      "upgradeCost": 0,
       "canUpgrade": true,
       "target": "Self",
       "isFinisher": false,
@@ -45353,7 +45916,7 @@
         "zh": "亡命之徒"
       },
       "cost": 2,
-      "upgradeCost": null,
+      "upgradeCost": 1,
       "canUpgrade": true,
       "target": "Self",
       "isFinisher": false,
@@ -47354,7 +47917,7 @@
         "SmokingBarrelPower": 3
       },
       "upgradeDynamicValues": {
-        "SmokingBarrelPower": 4
+        "SmokingBarrelPower": 5
       },
       "energyIcon": "assets/catfall/energy-icons/hermit.webp",
       "deprecated": false,
@@ -47591,7 +48154,7 @@
       ],
       "descriptionKeywordSuffix": [
         {
-          "mode": "always",
+          "mode": "remove",
           "style": null,
           "label": {
             "en": "Exhaust.",
@@ -47889,7 +48452,7 @@
         "zh": "亡命之徒"
       },
       "cost": 1,
-      "upgradeCost": null,
+      "upgradeCost": 0,
       "canUpgrade": true,
       "target": "Self",
       "isFinisher": false,
@@ -47908,10 +48471,12 @@
         "block": null
       },
       "dynamicValues": {
-        "TakeAimPower": 1
+        "TakeAimPower": 1,
+        "CostUpgradeBy": -1
       },
       "upgradeDynamicValues": {
-        "TakeAimPower": 1
+        "TakeAimPower": 1,
+        "CostUpgradeBy": -1
       },
       "energyIcon": "assets/catfall/energy-icons/hermit.webp",
       "deprecated": false,
@@ -48601,7 +49166,16 @@
       "hasConjure": false,
       "isSpell": false,
       "attachedCardTips": [],
-      "descriptionKeywordPrefix": [],
+      "descriptionKeywordPrefix": [
+        {
+          "mode": "always",
+          "style": null,
+          "label": {
+            "en": "Advance.",
+            "zh": "步进。"
+          }
+        }
+      ],
       "descriptionKeywordSuffix": [
         {
           "mode": "always",
@@ -48790,7 +49364,7 @@
       "isFinisher": false,
       "img": "assets/catfall/cards/hexaghost-backtrack_smack.webp",
       "stats": {
-        "damage": 6,
+        "damage": 7,
         "block": null,
         "magic": null,
         "secondMagic": null,
@@ -48799,14 +49373,14 @@
         "selfDamage": null
       },
       "upgradeStats": {
-        "damage": 8,
+        "damage": 9,
         "block": null
       },
       "dynamicValues": {
-        "Damage": 6
+        "Damage": 7
       },
       "upgradeDynamicValues": {
-        "Damage": 8
+        "Damage": 9
       },
       "energyIcon": "assets/catfall/energy-icons/hexaghost.webp",
       "deprecated": false,
@@ -49003,14 +49577,14 @@
         "zh": []
       },
       "type": "SKILL",
-      "rarity": "RARE",
+      "rarity": "UNCOMMON",
       "color": "HEXAGHOST",
       "colorName": {
         "en": "The Hexaghost",
         "zh": "六火亡魂"
       },
       "cost": 1,
-      "upgradeCost": null,
+      "upgradeCost": 0,
       "canUpgrade": true,
       "target": "Self",
       "isFinisher": false,
@@ -49030,11 +49604,13 @@
       },
       "dynamicValues": {
         "Energy": 1,
-        "Cards": 1
+        "Cards": 1,
+        "CostUpgradeBy": -1
       },
       "upgradeDynamicValues": {
         "Energy": 1,
-        "Cards": 1
+        "Cards": 1,
+        "CostUpgradeBy": -1
       },
       "energyIcon": "assets/catfall/energy-icons/hexaghost.webp",
       "deprecated": false,
@@ -49377,7 +49953,7 @@
         "zh": []
       },
       "type": "SKILL",
-      "rarity": "UNCOMMON",
+      "rarity": "COMMON",
       "color": "HEXAGHOST",
       "colorName": {
         "en": "The Hexaghost",
@@ -49509,10 +50085,10 @@
         "block": null
       },
       "dynamicValues": {
-        "SoulBurnPower": 7
+        "SoulBurnPower": 6
       },
       "upgradeDynamicValues": {
-        "SoulBurnPower": 9
+        "SoulBurnPower": 8
       },
       "energyIcon": "assets/catfall/energy-icons/hexaghost.webp",
       "deprecated": false,
@@ -49660,8 +50236,8 @@
         "en": "The Hexaghost",
         "zh": "六火亡魂"
       },
-      "cost": 1,
-      "upgradeCost": null,
+      "cost": 2,
+      "upgradeCost": 1,
       "canUpgrade": true,
       "target": "Self",
       "isFinisher": false,
@@ -49680,10 +50256,12 @@
         "block": null
       },
       "dynamicValues": {
-        "DevilsDancePower": 1
+        "DevilsDancePower": 1,
+        "CostUpgradeBy": -1
       },
       "upgradeDynamicValues": {
-        "DevilsDancePower": 2
+        "DevilsDancePower": 1,
+        "CostUpgradeBy": -1
       },
       "energyIcon": "assets/catfall/energy-icons/hexaghost.webp",
       "deprecated": false,
@@ -49775,7 +50353,7 @@
       "img": "assets/catfall/cards/hexaghost-devour_flame.webp",
       "stats": {
         "damage": null,
-        "block": 10,
+        "block": 6,
         "magic": null,
         "secondMagic": null,
         "thirdMagic": null,
@@ -49784,13 +50362,13 @@
       },
       "upgradeStats": {
         "damage": null,
-        "block": 13
+        "block": 9
       },
       "dynamicValues": {
-        "Block": 10
+        "Block": 6
       },
       "upgradeDynamicValues": {
-        "Block": 13
+        "Block": 9
       },
       "energyIcon": "assets/catfall/energy-icons/hexaghost.webp",
       "deprecated": false,
@@ -49829,7 +50407,16 @@
       "hasConjure": false,
       "isSpell": false,
       "attachedCardTips": [],
-      "descriptionKeywordPrefix": [],
+      "descriptionKeywordPrefix": [
+        {
+          "mode": "always",
+          "style": null,
+          "label": {
+            "en": "Retract.",
+            "zh": "回退。"
+          }
+        }
+      ],
       "descriptionKeywordSuffix": [],
       "dynamicDescriptionLines": [],
       "catfall": true
@@ -50022,7 +50609,7 @@
         "zh": "六火亡魂"
       },
       "cost": 1,
-      "upgradeCost": null,
+      "upgradeCost": 0,
       "canUpgrade": true,
       "target": "Self",
       "isFinisher": false,
@@ -50041,10 +50628,12 @@
         "block": null
       },
       "dynamicValues": {
-        "DoomsdayPower": 1
+        "DoomsdayPower": 1,
+        "CostUpgradeBy": -1
       },
       "upgradeDynamicValues": {
-        "DoomsdayPower": 1
+        "DoomsdayPower": 1,
+        "CostUpgradeBy": -1
       },
       "energyIcon": "assets/catfall/energy-icons/hexaghost.webp",
       "deprecated": false,
@@ -50129,7 +50718,7 @@
         "zh": "六火亡魂"
       },
       "cost": 1,
-      "upgradeCost": null,
+      "upgradeCost": 0,
       "canUpgrade": true,
       "target": "Self",
       "isFinisher": false,
@@ -50534,7 +51123,16 @@
       "hasConjure": false,
       "isSpell": false,
       "attachedCardTips": [],
-      "descriptionKeywordPrefix": [],
+      "descriptionKeywordPrefix": [
+        {
+          "mode": "always",
+          "style": null,
+          "label": {
+            "en": "Advance.",
+            "zh": "步进。"
+          }
+        }
+      ],
       "descriptionKeywordSuffix": [
         {
           "mode": "always",
@@ -50567,17 +51165,17 @@
         "en": [],
         "zh": []
       },
-      "type": "SKILL",
-      "rarity": "SPECIAL",
+      "type": "POWER",
+      "rarity": "UNCOMMON",
       "color": "HEXAGHOST",
       "colorName": {
         "en": "The Hexaghost",
         "zh": "六火亡魂"
       },
-      "cost": null,
-      "upgradeCost": null,
-      "canUpgrade": false,
-      "target": null,
+      "cost": 2,
+      "upgradeCost": 1,
+      "canUpgrade": true,
+      "target": "Self",
       "isFinisher": false,
       "img": "assets/catfall/cards/hexaghost-fifth_seal.webp",
       "stats": {
@@ -50593,17 +51191,71 @@
         "damage": null,
         "block": null
       },
-      "dynamicValues": {},
-      "upgradeDynamicValues": {},
+      "dynamicValues": {
+        "Cards": 1,
+        "FifthSealPower": 1,
+        "CostUpgradeBy": -1
+      },
+      "upgradeDynamicValues": {
+        "Cards": 1,
+        "FifthSealPower": 1,
+        "CostUpgradeBy": -1
+      },
       "energyIcon": "assets/catfall/energy-icons/hexaghost.webp",
       "deprecated": false,
       "notInPool": false,
-      "attachedTips": [],
+      "attachedTips": [
+        {
+          "id": "HEXAGHOST-FIFTH_SEAL_POWER",
+          "name": {
+            "en": "FIFTH Seal",
+            "zh": "第五封印"
+          },
+          "description": {
+            "en": "You have played [gold]Fifth Seal[/gold] this combat.",
+            "zh": "本场战斗已打出[gold]第五封印[/gold]。"
+          },
+          "dynamicValues": {},
+          "sourceValueKey": "FifthSealPower",
+          "icon": null
+        },
+        {
+          "id": "HEXAGHOST-SEAL",
+          "name": {
+            "en": "封印",
+            "zh": "封印"
+          },
+          "description": {
+            "en": "若在一场战斗中打出所有6种[gold]封印[/gold]，获得[gold]挣破的封印[/gold]并将6种[gold]封印[/gold]移出牌组。",
+            "zh": "若在一场战斗中打出所有6种[gold]封印[/gold]，获得[gold]挣破的封印[/gold]并将6种[gold]封印[/gold]移出牌组。"
+          },
+          "dynamicValues": {},
+          "sourceValueKey": null,
+          "icon": null
+        }
+      ],
       "visualColor": "HEXAGHOST",
       "hasConjure": false,
       "isSpell": false,
       "attachedCardTips": [],
-      "descriptionKeywordPrefix": [],
+      "descriptionKeywordPrefix": [
+        {
+          "mode": "always",
+          "style": null,
+          "label": {
+            "en": "封印.",
+            "zh": "封印。"
+          }
+        },
+        {
+          "mode": "always",
+          "style": null,
+          "label": {
+            "en": "Ethereal.",
+            "zh": "虚无。"
+          }
+        }
+      ],
       "descriptionKeywordSuffix": [],
       "dynamicDescriptionLines": [],
       "catfall": true
@@ -50708,17 +51360,17 @@
         "en": [],
         "zh": []
       },
-      "type": "SKILL",
-      "rarity": "SPECIAL",
+      "type": "POWER",
+      "rarity": "UNCOMMON",
       "color": "HEXAGHOST",
       "colorName": {
         "en": "The Hexaghost",
         "zh": "六火亡魂"
       },
-      "cost": null,
-      "upgradeCost": null,
-      "canUpgrade": false,
-      "target": null,
+      "cost": 2,
+      "upgradeCost": 1,
+      "canUpgrade": true,
+      "target": "Self",
       "isFinisher": false,
       "img": "assets/catfall/cards/hexaghost-first_seal.webp",
       "stats": {
@@ -50734,17 +51386,71 @@
         "damage": null,
         "block": null
       },
-      "dynamicValues": {},
-      "upgradeDynamicValues": {},
+      "dynamicValues": {
+        "Heal": 8,
+        "FirstSealPower": 1,
+        "CostUpgradeBy": -1
+      },
+      "upgradeDynamicValues": {
+        "Heal": 8,
+        "FirstSealPower": 1,
+        "CostUpgradeBy": -1
+      },
       "energyIcon": "assets/catfall/energy-icons/hexaghost.webp",
       "deprecated": false,
       "notInPool": false,
-      "attachedTips": [],
+      "attachedTips": [
+        {
+          "id": "HEXAGHOST-FIRST_SEAL_POWER",
+          "name": {
+            "en": "First Seal",
+            "zh": "第一封印"
+          },
+          "description": {
+            "en": "You have played [gold]First Seal[/gold] this combat.",
+            "zh": "本场战斗已打出[gold]第一封印[/gold]。"
+          },
+          "dynamicValues": {},
+          "sourceValueKey": "FirstSealPower",
+          "icon": null
+        },
+        {
+          "id": "HEXAGHOST-SEAL",
+          "name": {
+            "en": "封印",
+            "zh": "封印"
+          },
+          "description": {
+            "en": "若在一场战斗中打出所有6种[gold]封印[/gold]，获得[gold]挣破的封印[/gold]并将6种[gold]封印[/gold]移出牌组。",
+            "zh": "若在一场战斗中打出所有6种[gold]封印[/gold]，获得[gold]挣破的封印[/gold]并将6种[gold]封印[/gold]移出牌组。"
+          },
+          "dynamicValues": {},
+          "sourceValueKey": null,
+          "icon": null
+        }
+      ],
       "visualColor": "HEXAGHOST",
       "hasConjure": false,
       "isSpell": false,
       "attachedCardTips": [],
-      "descriptionKeywordPrefix": [],
+      "descriptionKeywordPrefix": [
+        {
+          "mode": "always",
+          "style": null,
+          "label": {
+            "en": "封印.",
+            "zh": "封印。"
+          }
+        },
+        {
+          "mode": "always",
+          "style": null,
+          "label": {
+            "en": "Ethereal.",
+            "zh": "虚无。"
+          }
+        }
+      ],
       "descriptionKeywordSuffix": [],
       "dynamicDescriptionLines": [],
       "catfall": true
@@ -50892,7 +51598,7 @@
       "isFinisher": false,
       "img": "assets/catfall/cards/hexaghost-flare_flick.webp",
       "stats": {
-        "damage": 10,
+        "damage": 14,
         "block": null,
         "magic": null,
         "secondMagic": null,
@@ -50901,14 +51607,14 @@
         "selfDamage": null
       },
       "upgradeStats": {
-        "damage": 14,
+        "damage": 18,
         "block": null
       },
       "dynamicValues": {
-        "Damage": 10
+        "Damage": 14
       },
       "upgradeDynamicValues": {
-        "Damage": 14
+        "Damage": 18
       },
       "energyIcon": "assets/catfall/energy-icons/hexaghost.webp",
       "deprecated": false,
@@ -50975,7 +51681,16 @@
       "hasConjure": false,
       "isSpell": false,
       "attachedCardTips": [],
-      "descriptionKeywordPrefix": [],
+      "descriptionKeywordPrefix": [
+        {
+          "mode": "always",
+          "style": null,
+          "label": {
+            "en": "Advance.",
+            "zh": "步进。"
+          }
+        }
+      ],
       "descriptionKeywordSuffix": [
         {
           "mode": "remove",
@@ -51018,7 +51733,7 @@
       "cost": -1,
       "upgradeCost": null,
       "canUpgrade": false,
-      "target": null,
+      "target": "Self",
       "isFinisher": false,
       "img": "",
       "stats": {
@@ -51173,7 +51888,7 @@
         "zh": "六火亡魂"
       },
       "cost": 1,
-      "upgradeCost": null,
+      "upgradeCost": 0,
       "canUpgrade": true,
       "target": "Self",
       "isFinisher": false,
@@ -51191,8 +51906,12 @@
         "damage": null,
         "block": null
       },
-      "dynamicValues": {},
-      "upgradeDynamicValues": {},
+      "dynamicValues": {
+        "CostUpgradeBy": -1
+      },
+      "upgradeDynamicValues": {
+        "CostUpgradeBy": -1
+      },
       "energyIcon": "assets/catfall/energy-icons/hexaghost.webp",
       "deprecated": false,
       "notInPool": false,
@@ -51337,7 +52056,16 @@
       "hasConjure": false,
       "isSpell": false,
       "attachedCardTips": [],
-      "descriptionKeywordPrefix": [],
+      "descriptionKeywordPrefix": [
+        {
+          "mode": "always",
+          "style": null,
+          "label": {
+            "en": "Advance.",
+            "zh": "步进。"
+          }
+        }
+      ],
       "descriptionKeywordSuffix": [
         {
           "mode": "remove",
@@ -51483,16 +52211,16 @@
         "zh": []
       },
       "type": "SKILL",
-      "rarity": "TOKEN",
-      "color": "COLORLESS",
+      "rarity": "BASIC",
+      "color": "HEXAGHOST",
       "colorName": {
-        "en": "Colorless",
-        "zh": "无色"
+        "en": "The Hexaghost",
+        "zh": "六火亡魂"
       },
-      "cost": -1,
+      "cost": 0,
       "upgradeCost": null,
       "canUpgrade": false,
-      "target": null,
+      "target": "Self",
       "isFinisher": false,
       "img": "",
       "stats": {
@@ -51558,16 +52286,16 @@
         "zh": []
       },
       "type": "SKILL",
-      "rarity": "TOKEN",
-      "color": "COLORLESS",
+      "rarity": "BASIC",
+      "color": "HEXAGHOST",
       "colorName": {
-        "en": "Colorless",
-        "zh": "无色"
+        "en": "The Hexaghost",
+        "zh": "六火亡魂"
       },
-      "cost": -1,
+      "cost": 0,
       "upgradeCost": null,
       "canUpgrade": false,
-      "target": null,
+      "target": "Self",
       "isFinisher": false,
       "img": "",
       "stats": {
@@ -51646,7 +52374,7 @@
       "isFinisher": false,
       "img": "assets/catfall/cards/hexaghost-forked_flame.webp",
       "stats": {
-        "damage": 4,
+        "damage": 5,
         "block": null,
         "magic": null,
         "secondMagic": null,
@@ -51655,14 +52383,14 @@
         "selfDamage": null
       },
       "upgradeStats": {
-        "damage": 8,
+        "damage": 10,
         "block": null
       },
       "dynamicValues": {
-        "Damage": 4
+        "Damage": 5
       },
       "upgradeDynamicValues": {
-        "Damage": 8
+        "Damage": 10
       },
       "energyIcon": "assets/catfall/energy-icons/hexaghost.webp",
       "deprecated": false,
@@ -51725,17 +52453,17 @@
         "en": [],
         "zh": []
       },
-      "type": "SKILL",
-      "rarity": "SPECIAL",
+      "type": "POWER",
+      "rarity": "UNCOMMON",
       "color": "HEXAGHOST",
       "colorName": {
         "en": "The Hexaghost",
         "zh": "六火亡魂"
       },
-      "cost": null,
-      "upgradeCost": null,
-      "canUpgrade": false,
-      "target": null,
+      "cost": 2,
+      "upgradeCost": 1,
+      "canUpgrade": true,
+      "target": "Self",
       "isFinisher": false,
       "img": "assets/catfall/cards/hexaghost-fourth_seal.webp",
       "stats": {
@@ -51751,17 +52479,69 @@
         "damage": null,
         "block": null
       },
-      "dynamicValues": {},
-      "upgradeDynamicValues": {},
+      "dynamicValues": {
+        "FourthSealPower": 1,
+        "CostUpgradeBy": -1
+      },
+      "upgradeDynamicValues": {
+        "FourthSealPower": 1,
+        "CostUpgradeBy": -1
+      },
       "energyIcon": "assets/catfall/energy-icons/hexaghost.webp",
       "deprecated": false,
       "notInPool": false,
-      "attachedTips": [],
+      "attachedTips": [
+        {
+          "id": "HEXAGHOST-FOURTH_SEAL_POWER",
+          "name": {
+            "en": "Fourth Seal",
+            "zh": "第四封印"
+          },
+          "description": {
+            "en": "You have played [gold]Fourth Seal[/gold] this combat.",
+            "zh": "本场战斗已打出[gold]第四封印[/gold]。"
+          },
+          "dynamicValues": {},
+          "sourceValueKey": "FourthSealPower",
+          "icon": null
+        },
+        {
+          "id": "HEXAGHOST-SEAL",
+          "name": {
+            "en": "封印",
+            "zh": "封印"
+          },
+          "description": {
+            "en": "若在一场战斗中打出所有6种[gold]封印[/gold]，获得[gold]挣破的封印[/gold]并将6种[gold]封印[/gold]移出牌组。",
+            "zh": "若在一场战斗中打出所有6种[gold]封印[/gold]，获得[gold]挣破的封印[/gold]并将6种[gold]封印[/gold]移出牌组。"
+          },
+          "dynamicValues": {},
+          "sourceValueKey": null,
+          "icon": null
+        }
+      ],
       "visualColor": "HEXAGHOST",
       "hasConjure": false,
       "isSpell": false,
       "attachedCardTips": [],
-      "descriptionKeywordPrefix": [],
+      "descriptionKeywordPrefix": [
+        {
+          "mode": "always",
+          "style": null,
+          "label": {
+            "en": "封印.",
+            "zh": "封印。"
+          }
+        },
+        {
+          "mode": "always",
+          "style": null,
+          "label": {
+            "en": "Ethereal.",
+            "zh": "虚无。"
+          }
+        }
+      ],
       "descriptionKeywordSuffix": [],
       "dynamicDescriptionLines": [],
       "catfall": true
@@ -52083,8 +52863,8 @@
         "en": "The Hexaghost",
         "zh": "六火亡魂"
       },
-      "cost": 3,
-      "upgradeCost": null,
+      "cost": 1,
+      "upgradeCost": 0,
       "canUpgrade": true,
       "target": "Self",
       "isFinisher": false,
@@ -52103,10 +52883,12 @@
         "block": null
       },
       "dynamicValues": {
-        "GiftsFromBeyondPower": 1
+        "GiftsFromBeyondPower": 1,
+        "CostUpgradeBy": -1
       },
       "upgradeDynamicValues": {
-        "GiftsFromBeyondPower": 1
+        "GiftsFromBeyondPower": 1,
+        "CostUpgradeBy": -1
       },
       "energyIcon": "assets/catfall/energy-icons/hexaghost.webp",
       "deprecated": false,
@@ -52281,7 +53063,7 @@
       "isFinisher": false,
       "img": "assets/catfall/cards/hexaghost-haunting_echo.webp",
       "stats": {
-        "damage": 7,
+        "damage": 8,
         "block": null,
         "magic": null,
         "secondMagic": null,
@@ -52290,14 +53072,14 @@
         "selfDamage": null
       },
       "upgradeStats": {
-        "damage": 10,
+        "damage": 11,
         "block": null
       },
       "dynamicValues": {
-        "Damage": 7
+        "Damage": 8
       },
       "upgradeDynamicValues": {
-        "Damage": 10
+        "Damage": 11
       },
       "energyIcon": "assets/catfall/energy-icons/hexaghost.webp",
       "deprecated": false,
@@ -52532,7 +53314,7 @@
         "zh": "六火亡魂"
       },
       "cost": 2,
-      "upgradeCost": null,
+      "upgradeCost": 1,
       "canUpgrade": true,
       "target": "AnyEnemy",
       "isFinisher": false,
@@ -52623,8 +53405,8 @@
         "en": "The Hexaghost",
         "zh": "六火亡魂"
       },
-      "cost": 2,
-      "upgradeCost": null,
+      "cost": 1,
+      "upgradeCost": 0,
       "canUpgrade": true,
       "target": "Self",
       "isFinisher": false,
@@ -52644,11 +53426,13 @@
       },
       "dynamicValues": {
         "MoreEnergyPower": 1,
-        "HereAndNowPower": 1
+        "HereAndNowPower": 1,
+        "CostUpgradeBy": -1
       },
       "upgradeDynamicValues": {
         "MoreEnergyPower": 1,
-        "HereAndNowPower": 1
+        "HereAndNowPower": 1,
+        "CostUpgradeBy": -1
       },
       "energyIcon": "assets/catfall/energy-icons/hexaghost.webp",
       "deprecated": false,
@@ -53030,7 +53814,7 @@
         "IntangiblePower": 1
       },
       "upgradeDynamicValues": {
-        "HpLoss": 3,
+        "HpLoss": 2,
         "IntangiblePower": 1
       },
       "energyIcon": "assets/catfall/energy-icons/hexaghost.webp",
@@ -53291,6 +54075,14 @@
             "en": "Retain.",
             "zh": "保留。"
           }
+        },
+        {
+          "mode": "remove",
+          "style": null,
+          "label": {
+            "en": "Ethereal.",
+            "zh": "虚无。"
+          }
         }
       ],
       "descriptionKeywordSuffix": [],
@@ -53436,10 +54228,10 @@
         "block": null
       },
       "dynamicValues": {
-        "SoulBurnPower": 15
+        "SoulBurnPower": 13
       },
       "upgradeDynamicValues": {
-        "SoulBurnPower": 19
+        "SoulBurnPower": 18
       },
       "energyIcon": "assets/catfall/energy-icons/hexaghost.webp",
       "deprecated": false,
@@ -53633,10 +54425,10 @@
         "block": null
       },
       "dynamicValues": {
-        "SoulBurnPower": 4
+        "SoulBurnPower": 6
       },
       "upgradeDynamicValues": {
-        "SoulBurnPower": 6
+        "SoulBurnPower": 8
       },
       "energyIcon": "assets/catfall/energy-icons/hexaghost.webp",
       "deprecated": false,
@@ -53945,14 +54737,14 @@
         "en": [],
         "zh": []
       },
-      "type": "POWER",
-      "rarity": "RARE",
+      "type": "SKILL",
+      "rarity": "UNCOMMON",
       "color": "HEXAGHOST",
       "colorName": {
         "en": "The Hexaghost",
         "zh": "六火亡魂"
       },
-      "cost": 1,
+      "cost": 0,
       "upgradeCost": null,
       "canUpgrade": true,
       "target": "Self",
@@ -53972,10 +54764,12 @@
         "block": null
       },
       "dynamicValues": {
-        "NightmareVisionPower": 4
+        "NightmareVisionPower": 4,
+        "Cards": 1
       },
       "upgradeDynamicValues": {
-        "NightmareVisionPower": 6
+        "NightmareVisionPower": 6,
+        "Cards": 2
       },
       "energyIcon": "assets/catfall/energy-icons/hexaghost.webp",
       "deprecated": false,
@@ -53994,14 +54788,46 @@
           "dynamicValues": {},
           "sourceValueKey": "NightmareVisionPower",
           "icon": null
+        },
+        {
+          "id": "HEXAGHOST-RETRACT",
+          "name": {
+            "en": "Retract",
+            "zh": "回退"
+          },
+          "description": {
+            "en": "Move to the previous Ghostflame. Moving onto a Ghostflame [gold]Extinguishes[/gold] it.",
+            "zh": "移动至上枚鬼火。移动至一枚鬼火会导致其[gold]熄灭[/gold]。"
+          },
+          "dynamicValues": {},
+          "sourceValueKey": null,
+          "icon": null
         }
       ],
       "visualColor": "HEXAGHOST",
       "hasConjure": false,
       "isSpell": false,
       "attachedCardTips": [],
-      "descriptionKeywordPrefix": [],
-      "descriptionKeywordSuffix": [],
+      "descriptionKeywordPrefix": [
+        {
+          "mode": "always",
+          "style": null,
+          "label": {
+            "en": "Retract.",
+            "zh": "回退。"
+          }
+        }
+      ],
+      "descriptionKeywordSuffix": [
+        {
+          "mode": "always",
+          "style": null,
+          "label": {
+            "en": "Exhaust.",
+            "zh": "消耗。"
+          }
+        }
+      ],
       "dynamicDescriptionLines": [],
       "catfall": true
     },
@@ -54578,7 +55404,7 @@
         "zh": "六火亡魂"
       },
       "cost": 1,
-      "upgradeCost": null,
+      "upgradeCost": 0,
       "canUpgrade": true,
       "target": "Self",
       "isFinisher": false,
@@ -54635,7 +55461,7 @@
       },
       "description": {
         "en": "{Type}",
-        "zh": ""
+        "zh": "{Type}"
       },
       "upgradeDescription": {
         "en": "",
@@ -54646,16 +55472,16 @@
         "zh": []
       },
       "type": "SKILL",
-      "rarity": "SPECIAL",
-      "color": "HEXAGHOST",
+      "rarity": "TOKEN",
+      "color": "COLORLESS",
       "colorName": {
-        "en": "The Hexaghost",
-        "zh": "六火亡魂"
+        "en": "Colorless",
+        "zh": "无色"
       },
-      "cost": null,
+      "cost": -1,
       "upgradeCost": null,
       "canUpgrade": false,
-      "target": null,
+      "target": "Self",
       "isFinisher": false,
       "img": "",
       "stats": {
@@ -54712,7 +55538,7 @@
         "en": "The Hexaghost",
         "zh": "六火亡魂"
       },
-      "cost": 2,
+      "cost": 1,
       "upgradeCost": null,
       "canUpgrade": true,
       "target": "Self",
@@ -55268,17 +56094,17 @@
         "en": [],
         "zh": []
       },
-      "type": "SKILL",
-      "rarity": "SPECIAL",
+      "type": "POWER",
+      "rarity": "UNCOMMON",
       "color": "HEXAGHOST",
       "colorName": {
         "en": "The Hexaghost",
         "zh": "六火亡魂"
       },
-      "cost": null,
-      "upgradeCost": null,
-      "canUpgrade": false,
-      "target": null,
+      "cost": 2,
+      "upgradeCost": 1,
+      "canUpgrade": true,
+      "target": "Self",
       "isFinisher": false,
       "img": "assets/catfall/cards/hexaghost-second_seal.webp",
       "stats": {
@@ -55294,17 +56120,71 @@
         "damage": null,
         "block": null
       },
-      "dynamicValues": {},
-      "upgradeDynamicValues": {},
+      "dynamicValues": {
+        "SecondSealPower": 1,
+        "Gold": 25,
+        "CostUpgradeBy": -1
+      },
+      "upgradeDynamicValues": {
+        "SecondSealPower": 1,
+        "Gold": 25,
+        "CostUpgradeBy": -1
+      },
       "energyIcon": "assets/catfall/energy-icons/hexaghost.webp",
       "deprecated": false,
       "notInPool": false,
-      "attachedTips": [],
+      "attachedTips": [
+        {
+          "id": "HEXAGHOST-SECOND_SEAL_POWER",
+          "name": {
+            "en": "Second Seal",
+            "zh": "第二封印"
+          },
+          "description": {
+            "en": "You have played [gold]Second Seal[/gold] this combat.",
+            "zh": "本场战斗已打出[gold]第二封印[/gold]。"
+          },
+          "dynamicValues": {},
+          "sourceValueKey": "SecondSealPower",
+          "icon": null
+        },
+        {
+          "id": "HEXAGHOST-SEAL",
+          "name": {
+            "en": "封印",
+            "zh": "封印"
+          },
+          "description": {
+            "en": "若在一场战斗中打出所有6种[gold]封印[/gold]，获得[gold]挣破的封印[/gold]并将6种[gold]封印[/gold]移出牌组。",
+            "zh": "若在一场战斗中打出所有6种[gold]封印[/gold]，获得[gold]挣破的封印[/gold]并将6种[gold]封印[/gold]移出牌组。"
+          },
+          "dynamicValues": {},
+          "sourceValueKey": null,
+          "icon": null
+        }
+      ],
       "visualColor": "HEXAGHOST",
       "hasConjure": false,
       "isSpell": false,
       "attachedCardTips": [],
-      "descriptionKeywordPrefix": [],
+      "descriptionKeywordPrefix": [
+        {
+          "mode": "always",
+          "style": null,
+          "label": {
+            "en": "封印.",
+            "zh": "封印。"
+          }
+        },
+        {
+          "mode": "always",
+          "style": null,
+          "label": {
+            "en": "Ethereal.",
+            "zh": "虚无。"
+          }
+        }
+      ],
       "descriptionKeywordSuffix": [],
       "dynamicDescriptionLines": [],
       "catfall": true
@@ -55336,7 +56216,7 @@
         "zh": "六火亡魂"
       },
       "cost": 1,
-      "upgradeCost": null,
+      "upgradeCost": 0,
       "canUpgrade": true,
       "target": "Self",
       "isFinisher": false,
@@ -55631,17 +56511,17 @@
         "en": [],
         "zh": []
       },
-      "type": "SKILL",
-      "rarity": "SPECIAL",
+      "type": "POWER",
+      "rarity": "UNCOMMON",
       "color": "HEXAGHOST",
       "colorName": {
         "en": "The Hexaghost",
         "zh": "六火亡魂"
       },
-      "cost": null,
-      "upgradeCost": null,
-      "canUpgrade": false,
-      "target": null,
+      "cost": 2,
+      "upgradeCost": 1,
+      "canUpgrade": true,
+      "target": "Self",
       "isFinisher": false,
       "img": "assets/catfall/cards/hexaghost-sixth_seal.webp",
       "stats": {
@@ -55657,17 +56537,71 @@
         "damage": null,
         "block": null
       },
-      "dynamicValues": {},
-      "upgradeDynamicValues": {},
+      "dynamicValues": {
+        "SixthSealPower": 1,
+        "MaxHp": 2,
+        "CostUpgradeBy": -1
+      },
+      "upgradeDynamicValues": {
+        "SixthSealPower": 1,
+        "MaxHp": 2,
+        "CostUpgradeBy": -1
+      },
       "energyIcon": "assets/catfall/energy-icons/hexaghost.webp",
       "deprecated": false,
       "notInPool": false,
-      "attachedTips": [],
+      "attachedTips": [
+        {
+          "id": "HEXAGHOST-SIXTH_SEAL_POWER",
+          "name": {
+            "en": "Sixth Seal",
+            "zh": "第六封印"
+          },
+          "description": {
+            "en": "You have played [gold]Sixth Seal[/gold] this combat.",
+            "zh": "本场战斗已打出[gold]第六封印[/gold]。"
+          },
+          "dynamicValues": {},
+          "sourceValueKey": "SixthSealPower",
+          "icon": null
+        },
+        {
+          "id": "HEXAGHOST-SEAL",
+          "name": {
+            "en": "封印",
+            "zh": "封印"
+          },
+          "description": {
+            "en": "若在一场战斗中打出所有6种[gold]封印[/gold]，获得[gold]挣破的封印[/gold]并将6种[gold]封印[/gold]移出牌组。",
+            "zh": "若在一场战斗中打出所有6种[gold]封印[/gold]，获得[gold]挣破的封印[/gold]并将6种[gold]封印[/gold]移出牌组。"
+          },
+          "dynamicValues": {},
+          "sourceValueKey": null,
+          "icon": null
+        }
+      ],
       "visualColor": "HEXAGHOST",
       "hasConjure": false,
       "isSpell": false,
       "attachedCardTips": [],
-      "descriptionKeywordPrefix": [],
+      "descriptionKeywordPrefix": [
+        {
+          "mode": "always",
+          "style": null,
+          "label": {
+            "en": "封印.",
+            "zh": "封印。"
+          }
+        },
+        {
+          "mode": "always",
+          "style": null,
+          "label": {
+            "en": "Ethereal.",
+            "zh": "虚无。"
+          }
+        }
+      ],
       "descriptionKeywordSuffix": [],
       "dynamicDescriptionLines": [],
       "catfall": true
@@ -56002,7 +56936,7 @@
         "zh": []
       },
       "type": "ATTACK",
-      "rarity": "RARE",
+      "rarity": "UNCOMMON",
       "color": "HEXAGHOST",
       "colorName": {
         "en": "The Hexaghost",
@@ -56196,7 +57130,7 @@
       },
       "cost": 0,
       "upgradeCost": null,
-      "canUpgrade": false,
+      "canUpgrade": true,
       "target": "AnyEnemy",
       "isFinisher": false,
       "img": "assets/catfall/cards/hexaghost-strike_from_beyond.webp",
@@ -56563,17 +57497,17 @@
         "en": [],
         "zh": []
       },
-      "type": "SKILL",
-      "rarity": "SPECIAL",
+      "type": "POWER",
+      "rarity": "UNCOMMON",
       "color": "HEXAGHOST",
       "colorName": {
         "en": "The Hexaghost",
         "zh": "六火亡魂"
       },
-      "cost": null,
-      "upgradeCost": null,
-      "canUpgrade": false,
-      "target": null,
+      "cost": 2,
+      "upgradeCost": 1,
+      "canUpgrade": true,
+      "target": "Self",
       "isFinisher": false,
       "img": "assets/catfall/cards/hexaghost-third_seal.webp",
       "stats": {
@@ -56589,17 +57523,69 @@
         "damage": null,
         "block": null
       },
-      "dynamicValues": {},
-      "upgradeDynamicValues": {},
+      "dynamicValues": {
+        "ThirdSealPower": 1,
+        "CostUpgradeBy": -1
+      },
+      "upgradeDynamicValues": {
+        "ThirdSealPower": 1,
+        "CostUpgradeBy": -1
+      },
       "energyIcon": "assets/catfall/energy-icons/hexaghost.webp",
       "deprecated": false,
       "notInPool": false,
-      "attachedTips": [],
+      "attachedTips": [
+        {
+          "id": "HEXAGHOST-THIRD_SEAL_POWER",
+          "name": {
+            "en": "Third Seal",
+            "zh": "第三封印"
+          },
+          "description": {
+            "en": "You have played [gold]Third Seal[/gold] this combat.",
+            "zh": "本场战斗已打出[gold]第三封印[/gold]。"
+          },
+          "dynamicValues": {},
+          "sourceValueKey": "ThirdSealPower",
+          "icon": null
+        },
+        {
+          "id": "HEXAGHOST-SEAL",
+          "name": {
+            "en": "封印",
+            "zh": "封印"
+          },
+          "description": {
+            "en": "若在一场战斗中打出所有6种[gold]封印[/gold]，获得[gold]挣破的封印[/gold]并将6种[gold]封印[/gold]移出牌组。",
+            "zh": "若在一场战斗中打出所有6种[gold]封印[/gold]，获得[gold]挣破的封印[/gold]并将6种[gold]封印[/gold]移出牌组。"
+          },
+          "dynamicValues": {},
+          "sourceValueKey": null,
+          "icon": null
+        }
+      ],
       "visualColor": "HEXAGHOST",
       "hasConjure": false,
       "isSpell": false,
       "attachedCardTips": [],
-      "descriptionKeywordPrefix": [],
+      "descriptionKeywordPrefix": [
+        {
+          "mode": "always",
+          "style": null,
+          "label": {
+            "en": "封印.",
+            "zh": "封印。"
+          }
+        },
+        {
+          "mode": "always",
+          "style": null,
+          "label": {
+            "en": "Ethereal.",
+            "zh": "虚无。"
+          }
+        }
+      ],
       "descriptionKeywordSuffix": [],
       "dynamicDescriptionLines": [],
       "catfall": true
@@ -56715,7 +57701,7 @@
       "isFinisher": false,
       "img": "assets/catfall/cards/hexaghost-time_warp.webp",
       "stats": {
-        "damage": 4,
+        "damage": 5,
         "block": null,
         "magic": null,
         "secondMagic": null,
@@ -56724,14 +57710,14 @@
         "selfDamage": null
       },
       "upgradeStats": {
-        "damage": 6,
+        "damage": 7,
         "block": null
       },
       "dynamicValues": {
-        "Damage": 4
+        "Damage": 5
       },
       "upgradeDynamicValues": {
-        "Damage": 6
+        "Damage": 7
       },
       "energyIcon": "assets/catfall/energy-icons/hexaghost.webp",
       "deprecated": false,
@@ -56886,17 +57872,17 @@
         "en": [],
         "zh": []
       },
-      "type": "SKILL",
-      "rarity": "SPECIAL",
+      "type": "POWER",
+      "rarity": "ANCIENT",
       "color": "HEXAGHOST",
       "colorName": {
         "en": "The Hexaghost",
         "zh": "六火亡魂"
       },
-      "cost": null,
-      "upgradeCost": null,
-      "canUpgrade": false,
-      "target": null,
+      "cost": 1,
+      "upgradeCost": 0,
+      "canUpgrade": true,
+      "target": "Self",
       "isFinisher": false,
       "img": "assets/catfall/cards/hexaghost-unfettered.webp",
       "stats": {
@@ -56912,8 +57898,12 @@
         "damage": null,
         "block": null
       },
-      "dynamicValues": {},
-      "upgradeDynamicValues": {},
+      "dynamicValues": {
+        "CostUpgradeBy": -1
+      },
+      "upgradeDynamicValues": {
+        "CostUpgradeBy": -1
+      },
       "energyIcon": "assets/catfall/energy-icons/hexaghost.webp",
       "deprecated": false,
       "notInPool": false,
@@ -56937,7 +57927,16 @@
       "hasConjure": false,
       "isSpell": false,
       "attachedCardTips": [],
-      "descriptionKeywordPrefix": [],
+      "descriptionKeywordPrefix": [
+        {
+          "mode": "always",
+          "style": null,
+          "label": {
+            "en": "Ethereal.",
+            "zh": "虚无。"
+          }
+        }
+      ],
       "descriptionKeywordSuffix": [],
       "dynamicDescriptionLines": [],
       "catfall": true
@@ -57039,7 +58038,7 @@
         "zh": "六火亡魂"
       },
       "cost": 4,
-      "upgradeCost": null,
+      "upgradeCost": 3,
       "canUpgrade": true,
       "target": "Self",
       "isFinisher": false,
@@ -57057,8 +58056,12 @@
         "damage": null,
         "block": null
       },
-      "dynamicValues": {},
-      "upgradeDynamicValues": {},
+      "dynamicValues": {
+        "CostUpgradeBy": -1
+      },
+      "upgradeDynamicValues": {
+        "CostUpgradeBy": -1
+      },
       "energyIcon": "assets/catfall/energy-icons/hexaghost.webp",
       "deprecated": false,
       "notInPool": false,
@@ -57156,10 +58159,10 @@
         "block": null
       },
       "dynamicValues": {
-        "VolcanoVisagePower": 4
+        "VolcanoVisagePower": 5
       },
       "upgradeDynamicValues": {
-        "VolcanoVisagePower": 6
+        "VolcanoVisagePower": 7
       },
       "energyIcon": "assets/catfall/energy-icons/hexaghost.webp",
       "deprecated": false,
@@ -57676,7 +58679,7 @@
         "zh": "史莱姆老大"
       },
       "cost": 2,
-      "upgradeCost": null,
+      "upgradeCost": 1,
       "canUpgrade": true,
       "target": "Self",
       "isFinisher": false,
@@ -57753,7 +58756,7 @@
         "zh": "史莱姆老大"
       },
       "cost": 1,
-      "upgradeCost": null,
+      "upgradeCost": 0,
       "canUpgrade": true,
       "target": "AnyEnemy",
       "isFinisher": false,
@@ -58069,7 +59072,7 @@
         "zh": "史莱姆老大"
       },
       "cost": 3,
-      "upgradeCost": null,
+      "upgradeCost": 2,
       "canUpgrade": true,
       "target": "AnyEnemy",
       "isFinisher": false,
@@ -58276,7 +59279,7 @@
         "selfDamage": null
       },
       "upgradeStats": {
-        "damage": 12,
+        "damage": 9,
         "block": null
       },
       "dynamicValues": {
@@ -58284,7 +59287,7 @@
         "Heal": 4
       },
       "upgradeDynamicValues": {
-        "Damage": 12,
+        "Damage": 9,
         "Heal": 6
       },
       "energyIcon": "assets/catfall/energy-icons/slimebound.webp",
@@ -58969,7 +59972,7 @@
         "zh": "史莱姆老大"
       },
       "cost": 2,
-      "upgradeCost": null,
+      "upgradeCost": 1,
       "canUpgrade": true,
       "target": "Self",
       "isFinisher": false,
@@ -59222,7 +60225,7 @@
       "isFinisher": false,
       "img": "assets/catfall/cards/slimeboss-hungry_tackle.webp",
       "stats": {
-        "damage": 18,
+        "damage": 14,
         "block": null,
         "magic": null,
         "secondMagic": null,
@@ -59231,16 +60234,16 @@
         "selfDamage": null
       },
       "upgradeStats": {
-        "damage": 22,
+        "damage": 18,
         "block": null
       },
       "dynamicValues": {
-        "Damage": 18,
+        "Damage": 14,
         "SelfDamage": 3,
         "Slurp": 1
       },
       "upgradeDynamicValues": {
-        "Damage": 22,
+        "Damage": 18,
         "SelfDamage": 3,
         "Slurp": 1
       },
@@ -60127,7 +61130,7 @@
       "upgradeDynamicValues": {
         "Damage": 12,
         "Upgrade": 1,
-        "MaxHp": 3
+        "MaxHp": 2
       },
       "energyIcon": "assets/catfall/energy-icons/slimebound.webp",
       "deprecated": false,
@@ -61251,7 +62254,7 @@
         "zh": "史莱姆老大"
       },
       "cost": 1,
-      "upgradeCost": null,
+      "upgradeCost": 0,
       "canUpgrade": true,
       "target": "Self",
       "isFinisher": false,
@@ -61925,7 +62928,7 @@
         "zh": "史莱姆老大"
       },
       "cost": 1,
-      "upgradeCost": null,
+      "upgradeCost": 0,
       "canUpgrade": true,
       "target": "Self",
       "isFinisher": false,
@@ -62421,7 +63424,7 @@
         "zh": "史莱姆老大"
       },
       "cost": 2,
-      "upgradeCost": null,
+      "upgradeCost": 1,
       "canUpgrade": true,
       "target": "Self",
       "isFinisher": false,
@@ -62505,7 +63508,7 @@
         "zh": "史莱姆老大"
       },
       "cost": 3,
-      "upgradeCost": null,
+      "upgradeCost": 2,
       "canUpgrade": true,
       "target": "Self",
       "isFinisher": false,
@@ -62660,7 +63663,7 @@
         "zh": "史莱姆老大"
       },
       "cost": 2,
-      "upgradeCost": null,
+      "upgradeCost": 1,
       "canUpgrade": true,
       "target": "AnyEnemy",
       "isFinisher": false,
@@ -62904,7 +63907,7 @@
       "isFinisher": false,
       "img": "assets/catfall/cards/slimeboss-spear_tackle.webp",
       "stats": {
-        "damage": 11,
+        "damage": 9,
         "block": null,
         "magic": null,
         "secondMagic": null,
@@ -62913,16 +63916,16 @@
         "selfDamage": null
       },
       "upgradeStats": {
-        "damage": 13,
+        "damage": 11,
         "block": null
       },
       "dynamicValues": {
-        "Damage": 11,
+        "Damage": 9,
         "SelfDamage": 3,
         "Cards": 2
       },
       "upgradeDynamicValues": {
-        "Damage": 13,
+        "Damage": 11,
         "SelfDamage": 3,
         "Cards": 3
       },
@@ -62966,7 +63969,7 @@
         "zh": "史莱姆老大"
       },
       "cost": 1,
-      "upgradeCost": null,
+      "upgradeCost": 0,
       "canUpgrade": true,
       "target": "Self",
       "isFinisher": false,
@@ -63642,7 +64645,7 @@
     },
     {
       "id": "SLIMEBOSS-SUPER_TACKLE",
-      "codeName": "Tackle",
+      "codeName": "SuperTackle",
       "name": {
         "en": "Super Tackle",
         "zh": "冲撞"
@@ -63660,7 +64663,7 @@
         "zh": []
       },
       "type": "ATTACK",
-      "rarity": "BASIC",
+      "rarity": "ANCIENT",
       "color": "SLIMEBOUND",
       "colorName": {
         "en": "The Slime Boss",
@@ -63673,7 +64676,7 @@
       "isFinisher": false,
       "img": "assets/catfall/cards/slimeboss-super_tackle.webp",
       "stats": {
-        "damage": 13,
+        "damage": 30,
         "block": null,
         "magic": null,
         "secondMagic": null,
@@ -63682,15 +64685,15 @@
         "selfDamage": null
       },
       "upgradeStats": {
-        "damage": 17,
+        "damage": 35,
         "block": null
       },
       "dynamicValues": {
-        "Damage": 13,
+        "Damage": 30,
         "SelfDamage": 3
       },
       "upgradeDynamicValues": {
-        "Damage": 17,
+        "Damage": 35,
         "SelfDamage": 3
       },
       "energyIcon": "assets/catfall/energy-icons/slimebound.webp",
@@ -64770,7 +65773,7 @@
         "zh": []
       },
       "type": "POWER",
-      "rarity": "RARE",
+      "rarity": "UNCOMMON",
       "color": "SNECKO",
       "colorName": {
         "en": "The Snecko",
@@ -66251,7 +67254,7 @@
         "zh": "异蛇"
       },
       "cost": 3,
-      "upgradeCost": null,
+      "upgradeCost": 2,
       "canUpgrade": true,
       "target": "Self",
       "isFinisher": false,
@@ -66444,7 +67447,7 @@
         "zh": []
       },
       "type": "SKILL",
-      "rarity": "RARE",
+      "rarity": "UNCOMMON",
       "color": "SNECKO",
       "colorName": {
         "en": "The Snecko",
@@ -68173,8 +69176,8 @@
         "en": "The Snecko",
         "zh": "异蛇"
       },
-      "cost": 1,
-      "upgradeCost": null,
+      "cost": 2,
+      "upgradeCost": 1,
       "canUpgrade": true,
       "target": "Self",
       "isFinisher": false,
@@ -68193,10 +69196,12 @@
         "block": null
       },
       "dynamicValues": {
-        "OverwhelmingPower": 1
+        "OverwhelmingPower": 2,
+        "CostUpgradeBy": -1
       },
       "upgradeDynamicValues": {
-        "OverwhelmingPower": 1
+        "OverwhelmingPower": 2,
+        "CostUpgradeBy": -1
       },
       "energyIcon": "assets/catfall/energy-icons/snecko.webp",
       "deprecated": false,
@@ -68775,7 +69780,7 @@
         "zh": "异蛇"
       },
       "cost": 1,
-      "upgradeCost": null,
+      "upgradeCost": 0,
       "canUpgrade": true,
       "target": "Self",
       "isFinisher": false,
@@ -68794,10 +69799,12 @@
         "block": null
       },
       "dynamicValues": {
-        "Cards": 6
+        "Cards": 6,
+        "CostUpgradeBy": -1
       },
       "upgradeDynamicValues": {
-        "Cards": 6
+        "Cards": 6,
+        "CostUpgradeBy": -1
       },
       "energyIcon": "assets/catfall/energy-icons/snecko.webp",
       "deprecated": false,
@@ -69111,7 +70118,7 @@
         "zh": "异蛇"
       },
       "cost": 2,
-      "upgradeCost": null,
+      "upgradeCost": 1,
       "canUpgrade": true,
       "target": "Self",
       "isFinisher": false,
@@ -69405,7 +70412,7 @@
         "zh": "异蛇"
       },
       "cost": 1,
-      "upgradeCost": null,
+      "upgradeCost": 0,
       "canUpgrade": true,
       "target": "Self",
       "isFinisher": false,
@@ -69424,10 +70431,12 @@
         "block": null
       },
       "dynamicValues": {
-        "Cards": 3
+        "Cards": 3,
+        "CostUpgradeBy": -1
       },
       "upgradeDynamicValues": {
-        "Cards": 3
+        "Cards": 3,
+        "CostUpgradeBy": -1
       },
       "energyIcon": "assets/catfall/energy-icons/snecko.webp",
       "deprecated": false,
@@ -69943,7 +70952,7 @@
       "isFinisher": false,
       "img": "assets/catfall/cards/snecko-snake_rake.webp",
       "stats": {
-        "damage": 7,
+        "damage": 9,
         "block": null,
         "magic": null,
         "secondMagic": null,
@@ -69952,15 +70961,15 @@
         "selfDamage": null
       },
       "upgradeStats": {
-        "damage": 9,
+        "damage": 10,
         "block": null
       },
       "dynamicValues": {
-        "Damage": 7,
+        "Damage": 9,
         "Cards": 1
       },
       "upgradeDynamicValues": {
-        "Damage": 9,
+        "Damage": 10,
         "Cards": 2
       },
       "energyIcon": "assets/catfall/energy-icons/snecko.webp",
@@ -70180,7 +71189,7 @@
         "zh": "异蛇"
       },
       "cost": 1,
-      "upgradeCost": null,
+      "upgradeCost": 0,
       "canUpgrade": true,
       "target": "Self",
       "isFinisher": false,
@@ -70199,10 +71208,12 @@
         "block": null
       },
       "dynamicValues": {
-        "Cards": 2
+        "Cards": 2,
+        "CostUpgradeBy": -1
       },
       "upgradeDynamicValues": {
-        "Cards": 2
+        "Cards": 2,
+        "CostUpgradeBy": -1
       },
       "energyIcon": "assets/catfall/energy-icons/snecko.webp",
       "deprecated": false,
@@ -70268,7 +71279,7 @@
         "zh": "异蛇"
       },
       "cost": 1,
-      "upgradeCost": null,
+      "upgradeCost": 0,
       "canUpgrade": true,
       "target": "Self",
       "isFinisher": false,
@@ -70286,8 +71297,12 @@
         "damage": null,
         "block": null
       },
-      "dynamicValues": {},
-      "upgradeDynamicValues": {},
+      "dynamicValues": {
+        "CostUpgradeBy": -1
+      },
+      "upgradeDynamicValues": {
+        "CostUpgradeBy": -1
+      },
       "energyIcon": "assets/catfall/energy-icons/snecko.webp",
       "deprecated": false,
       "notInPool": false,
@@ -71031,7 +72046,7 @@
         "zh": "异蛇"
       },
       "cost": 0,
-      "upgradeCost": null,
+      "upgradeCost": 0,
       "canUpgrade": true,
       "target": "Self",
       "isFinisher": false,
@@ -71569,7 +72584,7 @@
         "zh": "异蛇"
       },
       "cost": 0,
-      "upgradeCost": null,
+      "upgradeCost": 0,
       "canUpgrade": true,
       "target": "Self",
       "isFinisher": false,
