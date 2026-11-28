@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-28T04:21:04.649850Z",
+  "generatedAt": "2026-11-28T04:37:46.424795Z",
   "modVersion": "catfall2 1.0 + Downfall 0.1.15",
   "translationVersion": "bundled",
   "translationSource": "bundled",
@@ -13550,7 +13550,7 @@
       "attachedCardTips": [],
       "descriptionKeywordPrefix": [
         {
-          "mode": "add",
+          "mode": "always",
           "style": null,
           "label": {
             "en": "Retain.",
@@ -14645,16 +14645,7 @@
       "hasConjure": false,
       "isSpell": false,
       "attachedCardTips": [],
-      "descriptionKeywordPrefix": [
-        {
-          "mode": "remove",
-          "style": null,
-          "label": {
-            "en": "Ethereal.",
-            "zh": "虚无。"
-          }
-        }
-      ],
+      "descriptionKeywordPrefix": [],
       "descriptionKeywordSuffix": [],
       "dynamicDescriptionLines": [],
       "catfall": true
@@ -17254,7 +17245,7 @@
       "descriptionKeywordPrefix": [],
       "descriptionKeywordSuffix": [
         {
-          "mode": "always",
+          "mode": "remove",
           "style": null,
           "label": {
             "en": "Exhaust.",
@@ -17420,6 +17411,20 @@
       "notInPool": false,
       "attachedTips": [
         {
+          "id": "CATFALL2-VOLATILE",
+          "name": {
+            "en": "消散",
+            "zh": "消散"
+          },
+          "description": {
+            "en": "本牌结束[gold]凝滞[/gold]时，被[gold]消耗[/gold]而非返回手牌。",
+            "zh": "本牌结束[gold]凝滞[/gold]时，被[gold]消耗[/gold]而非返回手牌。"
+          },
+          "dynamicValues": {},
+          "sourceValueKey": null,
+          "icon": null
+        },
+        {
           "id": "CATFALL2-STASIS",
           "name": {
             "en": "凝滞",
@@ -17452,7 +17457,16 @@
       "hasConjure": false,
       "isSpell": false,
       "attachedCardTips": [],
-      "descriptionKeywordPrefix": [],
+      "descriptionKeywordPrefix": [
+        {
+          "mode": "always",
+          "style": null,
+          "label": {
+            "en": "消散.",
+            "zh": "消散。"
+          }
+        }
+      ],
       "descriptionKeywordSuffix": [],
       "dynamicDescriptionLines": [],
       "catfall": true
@@ -18272,7 +18286,7 @@
       "descriptionKeywordPrefix": [],
       "descriptionKeywordSuffix": [
         {
-          "mode": "always",
+          "mode": "remove",
           "style": null,
           "label": {
             "en": "Exhaust.",
@@ -18527,7 +18541,16 @@
       "hasConjure": false,
       "isSpell": false,
       "attachedCardTips": [],
-      "descriptionKeywordPrefix": [],
+      "descriptionKeywordPrefix": [
+        {
+          "mode": "add",
+          "style": null,
+          "label": {
+            "en": "Retain.",
+            "zh": "保留。"
+          }
+        }
+      ],
       "descriptionKeywordSuffix": [],
       "dynamicDescriptionLines": [],
       "catfall": true
@@ -18767,7 +18790,16 @@
       "hasConjure": false,
       "isSpell": false,
       "attachedCardTips": [],
-      "descriptionKeywordPrefix": [],
+      "descriptionKeywordPrefix": [
+        {
+          "mode": "add",
+          "style": null,
+          "label": {
+            "en": "Innate.",
+            "zh": "固有。"
+          }
+        }
+      ],
       "descriptionKeywordSuffix": [],
       "dynamicDescriptionLines": [],
       "catfall": true
@@ -19115,12 +19147,36 @@
       "energyIcon": "assets/catfall/energy-icons/guardian-text.webp",
       "deprecated": false,
       "notInPool": false,
-      "attachedTips": [],
+      "attachedTips": [
+        {
+          "id": "CATFALL2-GEM",
+          "name": {
+            "en": "宝石",
+            "zh": "宝石"
+          },
+          "description": {
+            "en": "[gold]宝石[/gold]能在[gold]休息处[/gold]被[gold]镶嵌[/gold]至有[gold]孔位[/gold]的牌上，且无法被[gold]升级[/gold]。",
+            "zh": "[gold]宝石[/gold]能在[gold]休息处[/gold]被[gold]镶嵌[/gold]至有[gold]孔位[/gold]的牌上，且无法被[gold]升级[/gold]。"
+          },
+          "dynamicValues": {},
+          "sourceValueKey": null,
+          "icon": null
+        }
+      ],
       "visualColor": "GUARDIAN",
       "hasConjure": false,
       "isSpell": false,
       "attachedCardTips": [],
-      "descriptionKeywordPrefix": [],
+      "descriptionKeywordPrefix": [
+        {
+          "mode": "always",
+          "style": null,
+          "label": {
+            "en": "宝石.",
+            "zh": "宝石。"
+          }
+        }
+      ],
       "descriptionKeywordSuffix": [],
       "dynamicDescriptionLines": [],
       "catfall": true
@@ -19181,6 +19237,20 @@
       "notInPool": false,
       "attachedTips": [
         {
+          "id": "CATFALL2-GEM",
+          "name": {
+            "en": "宝石",
+            "zh": "宝石"
+          },
+          "description": {
+            "en": "[gold]宝石[/gold]能在[gold]休息处[/gold]被[gold]镶嵌[/gold]至有[gold]孔位[/gold]的牌上，且无法被[gold]升级[/gold]。",
+            "zh": "[gold]宝石[/gold]能在[gold]休息处[/gold]被[gold]镶嵌[/gold]至有[gold]孔位[/gold]的牌上，且无法被[gold]升级[/gold]。"
+          },
+          "dynamicValues": {},
+          "sourceValueKey": null,
+          "icon": null
+        },
+        {
           "id": "BRACE",
           "name": {
             "en": "提防",
@@ -19199,7 +19269,16 @@
       "hasConjure": false,
       "isSpell": false,
       "attachedCardTips": [],
-      "descriptionKeywordPrefix": [],
+      "descriptionKeywordPrefix": [
+        {
+          "mode": "always",
+          "style": null,
+          "label": {
+            "en": "宝石.",
+            "zh": "宝石。"
+          }
+        }
+      ],
       "descriptionKeywordSuffix": [],
       "dynamicDescriptionLines": [],
       "catfall": true
@@ -19258,12 +19337,36 @@
       "energyIcon": "assets/catfall/energy-icons/guardian-text.webp",
       "deprecated": false,
       "notInPool": false,
-      "attachedTips": [],
+      "attachedTips": [
+        {
+          "id": "CATFALL2-GEM",
+          "name": {
+            "en": "宝石",
+            "zh": "宝石"
+          },
+          "description": {
+            "en": "[gold]宝石[/gold]能在[gold]休息处[/gold]被[gold]镶嵌[/gold]至有[gold]孔位[/gold]的牌上，且无法被[gold]升级[/gold]。",
+            "zh": "[gold]宝石[/gold]能在[gold]休息处[/gold]被[gold]镶嵌[/gold]至有[gold]孔位[/gold]的牌上，且无法被[gold]升级[/gold]。"
+          },
+          "dynamicValues": {},
+          "sourceValueKey": null,
+          "icon": null
+        }
+      ],
       "visualColor": "GUARDIAN",
       "hasConjure": false,
       "isSpell": false,
       "attachedCardTips": [],
-      "descriptionKeywordPrefix": [],
+      "descriptionKeywordPrefix": [
+        {
+          "mode": "always",
+          "style": null,
+          "label": {
+            "en": "宝石.",
+            "zh": "宝石。"
+          }
+        }
+      ],
       "descriptionKeywordSuffix": [],
       "dynamicDescriptionLines": [],
       "catfall": true
@@ -19318,7 +19421,22 @@
       "energyIcon": "assets/catfall/energy-icons/guardian-text.webp",
       "deprecated": false,
       "notInPool": false,
-      "attachedTips": [],
+      "attachedTips": [
+        {
+          "id": "CATFALL2-GEM",
+          "name": {
+            "en": "宝石",
+            "zh": "宝石"
+          },
+          "description": {
+            "en": "[gold]宝石[/gold]能在[gold]休息处[/gold]被[gold]镶嵌[/gold]至有[gold]孔位[/gold]的牌上，且无法被[gold]升级[/gold]。",
+            "zh": "[gold]宝石[/gold]能在[gold]休息处[/gold]被[gold]镶嵌[/gold]至有[gold]孔位[/gold]的牌上，且无法被[gold]升级[/gold]。"
+          },
+          "dynamicValues": {},
+          "sourceValueKey": null,
+          "icon": null
+        }
+      ],
       "visualColor": "GUARDIAN",
       "hasConjure": false,
       "isSpell": false,
@@ -19329,7 +19447,16 @@
           "upgradeWithParent": false
         }
       ],
-      "descriptionKeywordPrefix": [],
+      "descriptionKeywordPrefix": [
+        {
+          "mode": "always",
+          "style": null,
+          "label": {
+            "en": "宝石.",
+            "zh": "宝石。"
+          }
+        }
+      ],
       "descriptionKeywordSuffix": [],
       "dynamicDescriptionLines": [],
       "catfall": true
@@ -19565,12 +19692,36 @@
       "energyIcon": "assets/catfall/energy-icons/guardian-text.webp",
       "deprecated": false,
       "notInPool": false,
-      "attachedTips": [],
+      "attachedTips": [
+        {
+          "id": "CATFALL2-GEM",
+          "name": {
+            "en": "宝石",
+            "zh": "宝石"
+          },
+          "description": {
+            "en": "[gold]宝石[/gold]能在[gold]休息处[/gold]被[gold]镶嵌[/gold]至有[gold]孔位[/gold]的牌上，且无法被[gold]升级[/gold]。",
+            "zh": "[gold]宝石[/gold]能在[gold]休息处[/gold]被[gold]镶嵌[/gold]至有[gold]孔位[/gold]的牌上，且无法被[gold]升级[/gold]。"
+          },
+          "dynamicValues": {},
+          "sourceValueKey": null,
+          "icon": null
+        }
+      ],
       "visualColor": "GUARDIAN",
       "hasConjure": false,
       "isSpell": false,
       "attachedCardTips": [],
-      "descriptionKeywordPrefix": [],
+      "descriptionKeywordPrefix": [
+        {
+          "mode": "always",
+          "style": null,
+          "label": {
+            "en": "宝石.",
+            "zh": "宝石。"
+          }
+        }
+      ],
       "descriptionKeywordSuffix": [],
       "dynamicDescriptionLines": [],
       "catfall": true
@@ -19629,12 +19780,36 @@
       "energyIcon": "assets/catfall/energy-icons/guardian-text.webp",
       "deprecated": false,
       "notInPool": false,
-      "attachedTips": [],
+      "attachedTips": [
+        {
+          "id": "CATFALL2-GEM",
+          "name": {
+            "en": "宝石",
+            "zh": "宝石"
+          },
+          "description": {
+            "en": "[gold]宝石[/gold]能在[gold]休息处[/gold]被[gold]镶嵌[/gold]至有[gold]孔位[/gold]的牌上，且无法被[gold]升级[/gold]。",
+            "zh": "[gold]宝石[/gold]能在[gold]休息处[/gold]被[gold]镶嵌[/gold]至有[gold]孔位[/gold]的牌上，且无法被[gold]升级[/gold]。"
+          },
+          "dynamicValues": {},
+          "sourceValueKey": null,
+          "icon": null
+        }
+      ],
       "visualColor": "GUARDIAN",
       "hasConjure": false,
       "isSpell": false,
       "attachedCardTips": [],
-      "descriptionKeywordPrefix": [],
+      "descriptionKeywordPrefix": [
+        {
+          "mode": "always",
+          "style": null,
+          "label": {
+            "en": "宝石.",
+            "zh": "宝石。"
+          }
+        }
+      ],
       "descriptionKeywordSuffix": [],
       "dynamicDescriptionLines": [],
       "catfall": true
@@ -19693,12 +19868,36 @@
       "energyIcon": "assets/catfall/energy-icons/guardian-text.webp",
       "deprecated": false,
       "notInPool": false,
-      "attachedTips": [],
+      "attachedTips": [
+        {
+          "id": "CATFALL2-GEM",
+          "name": {
+            "en": "宝石",
+            "zh": "宝石"
+          },
+          "description": {
+            "en": "[gold]宝石[/gold]能在[gold]休息处[/gold]被[gold]镶嵌[/gold]至有[gold]孔位[/gold]的牌上，且无法被[gold]升级[/gold]。",
+            "zh": "[gold]宝石[/gold]能在[gold]休息处[/gold]被[gold]镶嵌[/gold]至有[gold]孔位[/gold]的牌上，且无法被[gold]升级[/gold]。"
+          },
+          "dynamicValues": {},
+          "sourceValueKey": null,
+          "icon": null
+        }
+      ],
       "visualColor": "GUARDIAN",
       "hasConjure": false,
       "isSpell": false,
       "attachedCardTips": [],
-      "descriptionKeywordPrefix": [],
+      "descriptionKeywordPrefix": [
+        {
+          "mode": "always",
+          "style": null,
+          "label": {
+            "en": "宝石.",
+            "zh": "宝石。"
+          }
+        }
+      ],
       "descriptionKeywordSuffix": [],
       "dynamicDescriptionLines": [],
       "catfall": true
@@ -19757,12 +19956,36 @@
       "energyIcon": "assets/catfall/energy-icons/guardian-text.webp",
       "deprecated": false,
       "notInPool": false,
-      "attachedTips": [],
+      "attachedTips": [
+        {
+          "id": "CATFALL2-GEM",
+          "name": {
+            "en": "宝石",
+            "zh": "宝石"
+          },
+          "description": {
+            "en": "[gold]宝石[/gold]能在[gold]休息处[/gold]被[gold]镶嵌[/gold]至有[gold]孔位[/gold]的牌上，且无法被[gold]升级[/gold]。",
+            "zh": "[gold]宝石[/gold]能在[gold]休息处[/gold]被[gold]镶嵌[/gold]至有[gold]孔位[/gold]的牌上，且无法被[gold]升级[/gold]。"
+          },
+          "dynamicValues": {},
+          "sourceValueKey": null,
+          "icon": null
+        }
+      ],
       "visualColor": "GUARDIAN",
       "hasConjure": false,
       "isSpell": false,
       "attachedCardTips": [],
-      "descriptionKeywordPrefix": [],
+      "descriptionKeywordPrefix": [
+        {
+          "mode": "always",
+          "style": null,
+          "label": {
+            "en": "宝石.",
+            "zh": "宝石。"
+          }
+        }
+      ],
       "descriptionKeywordSuffix": [],
       "dynamicDescriptionLines": [],
       "catfall": true
@@ -19821,12 +20044,36 @@
       "energyIcon": "assets/catfall/energy-icons/guardian-text.webp",
       "deprecated": false,
       "notInPool": false,
-      "attachedTips": [],
+      "attachedTips": [
+        {
+          "id": "CATFALL2-GEM",
+          "name": {
+            "en": "宝石",
+            "zh": "宝石"
+          },
+          "description": {
+            "en": "[gold]宝石[/gold]能在[gold]休息处[/gold]被[gold]镶嵌[/gold]至有[gold]孔位[/gold]的牌上，且无法被[gold]升级[/gold]。",
+            "zh": "[gold]宝石[/gold]能在[gold]休息处[/gold]被[gold]镶嵌[/gold]至有[gold]孔位[/gold]的牌上，且无法被[gold]升级[/gold]。"
+          },
+          "dynamicValues": {},
+          "sourceValueKey": null,
+          "icon": null
+        }
+      ],
       "visualColor": "GUARDIAN",
       "hasConjure": false,
       "isSpell": false,
       "attachedCardTips": [],
-      "descriptionKeywordPrefix": [],
+      "descriptionKeywordPrefix": [
+        {
+          "mode": "always",
+          "style": null,
+          "label": {
+            "en": "宝石.",
+            "zh": "宝石。"
+          }
+        }
+      ],
       "descriptionKeywordSuffix": [],
       "dynamicDescriptionLines": [],
       "catfall": true
@@ -19885,12 +20132,36 @@
       "energyIcon": "assets/catfall/energy-icons/guardian-text.webp",
       "deprecated": false,
       "notInPool": false,
-      "attachedTips": [],
+      "attachedTips": [
+        {
+          "id": "CATFALL2-GEM",
+          "name": {
+            "en": "宝石",
+            "zh": "宝石"
+          },
+          "description": {
+            "en": "[gold]宝石[/gold]能在[gold]休息处[/gold]被[gold]镶嵌[/gold]至有[gold]孔位[/gold]的牌上，且无法被[gold]升级[/gold]。",
+            "zh": "[gold]宝石[/gold]能在[gold]休息处[/gold]被[gold]镶嵌[/gold]至有[gold]孔位[/gold]的牌上，且无法被[gold]升级[/gold]。"
+          },
+          "dynamicValues": {},
+          "sourceValueKey": null,
+          "icon": null
+        }
+      ],
       "visualColor": "GUARDIAN",
       "hasConjure": false,
       "isSpell": false,
       "attachedCardTips": [],
-      "descriptionKeywordPrefix": [],
+      "descriptionKeywordPrefix": [
+        {
+          "mode": "always",
+          "style": null,
+          "label": {
+            "en": "宝石.",
+            "zh": "宝石。"
+          }
+        }
+      ],
       "descriptionKeywordSuffix": [],
       "dynamicDescriptionLines": [],
       "catfall": true
@@ -19949,12 +20220,36 @@
       "energyIcon": "assets/catfall/energy-icons/guardian-text.webp",
       "deprecated": false,
       "notInPool": false,
-      "attachedTips": [],
+      "attachedTips": [
+        {
+          "id": "CATFALL2-GEM",
+          "name": {
+            "en": "宝石",
+            "zh": "宝石"
+          },
+          "description": {
+            "en": "[gold]宝石[/gold]能在[gold]休息处[/gold]被[gold]镶嵌[/gold]至有[gold]孔位[/gold]的牌上，且无法被[gold]升级[/gold]。",
+            "zh": "[gold]宝石[/gold]能在[gold]休息处[/gold]被[gold]镶嵌[/gold]至有[gold]孔位[/gold]的牌上，且无法被[gold]升级[/gold]。"
+          },
+          "dynamicValues": {},
+          "sourceValueKey": null,
+          "icon": null
+        }
+      ],
       "visualColor": "GUARDIAN",
       "hasConjure": false,
       "isSpell": false,
       "attachedCardTips": [],
-      "descriptionKeywordPrefix": [],
+      "descriptionKeywordPrefix": [
+        {
+          "mode": "always",
+          "style": null,
+          "label": {
+            "en": "宝石.",
+            "zh": "宝石。"
+          }
+        }
+      ],
       "descriptionKeywordSuffix": [],
       "dynamicDescriptionLines": [],
       "catfall": true
@@ -20011,14 +20306,14 @@
       "notInPool": false,
       "attachedTips": [
         {
-          "id": "CATFALL2-STASIS",
+          "id": "CATFALL2-GEM",
           "name": {
-            "en": "凝滞",
-            "zh": "凝滞"
+            "en": "宝石",
+            "zh": "宝石"
           },
           "description": {
-            "en": "将牌挂起并从其耗能+[blue]1[/blue]开始倒计时，每回合减[blue]1[/blue]。\n归零时，其返回手牌且单次免费打出。",
-            "zh": "将牌挂起并从其耗能+[blue]1[/blue]开始倒计时，每回合减[blue]1[/blue]。\n归零时，其返回手牌且单次免费打出。"
+            "en": "[gold]宝石[/gold]能在[gold]休息处[/gold]被[gold]镶嵌[/gold]至有[gold]孔位[/gold]的牌上，且无法被[gold]升级[/gold]。",
+            "zh": "[gold]宝石[/gold]能在[gold]休息处[/gold]被[gold]镶嵌[/gold]至有[gold]孔位[/gold]的牌上，且无法被[gold]升级[/gold]。"
           },
           "dynamicValues": {},
           "sourceValueKey": null,
@@ -20037,14 +20332,46 @@
           "dynamicValues": {},
           "sourceValueKey": null,
           "icon": null
+        },
+        {
+          "id": "CATFALL2-STASIS",
+          "name": {
+            "en": "凝滞",
+            "zh": "凝滞"
+          },
+          "description": {
+            "en": "将牌挂起并从其耗能+[blue]1[/blue]开始倒计时，每回合减[blue]1[/blue]。\n归零时，其返回手牌且单次免费打出。",
+            "zh": "将牌挂起并从其耗能+[blue]1[/blue]开始倒计时，每回合减[blue]1[/blue]。\n归零时，其返回手牌且单次免费打出。"
+          },
+          "dynamicValues": {},
+          "sourceValueKey": null,
+          "icon": null
         }
       ],
       "visualColor": "GUARDIAN",
       "hasConjure": false,
       "isSpell": false,
       "attachedCardTips": [],
-      "descriptionKeywordPrefix": [],
-      "descriptionKeywordSuffix": [],
+      "descriptionKeywordPrefix": [
+        {
+          "mode": "always",
+          "style": null,
+          "label": {
+            "en": "宝石.",
+            "zh": "宝石。"
+          }
+        }
+      ],
+      "descriptionKeywordSuffix": [
+        {
+          "mode": "always",
+          "style": null,
+          "label": {
+            "en": "加速.",
+            "zh": "加速。"
+          }
+        }
+      ],
       "dynamicDescriptionLines": [],
       "catfall": true
     },
@@ -20398,6 +20725,20 @@
       "notInPool": false,
       "attachedTips": [
         {
+          "id": "CATFALL2-VOLATILE",
+          "name": {
+            "en": "消散",
+            "zh": "消散"
+          },
+          "description": {
+            "en": "本牌结束[gold]凝滞[/gold]时，被[gold]消耗[/gold]而非返回手牌。",
+            "zh": "本牌结束[gold]凝滞[/gold]时，被[gold]消耗[/gold]而非返回手牌。"
+          },
+          "dynamicValues": {},
+          "sourceValueKey": null,
+          "icon": null
+        },
+        {
           "id": "CATFALL2-TICK",
           "name": {
             "en": "滴答",
@@ -20416,7 +20757,16 @@
       "hasConjure": false,
       "isSpell": false,
       "attachedCardTips": [],
-      "descriptionKeywordPrefix": [],
+      "descriptionKeywordPrefix": [
+        {
+          "mode": "remove",
+          "style": null,
+          "label": {
+            "en": "消散.",
+            "zh": "消散。"
+          }
+        }
+      ],
       "descriptionKeywordSuffix": [],
       "dynamicDescriptionLines": [],
       "catfall": true
@@ -21039,6 +21389,20 @@
       "notInPool": false,
       "attachedTips": [
         {
+          "id": "CATFALL2-ACCELERATE",
+          "name": {
+            "en": "加速",
+            "zh": "加速"
+          },
+          "description": {
+            "en": "最右端被[gold]凝滞[/gold]的牌的倒计时减[blue]1[/blue]。",
+            "zh": "最右端被[gold]凝滞[/gold]的牌的倒计时减[blue]1[/blue]。"
+          },
+          "dynamicValues": {},
+          "sourceValueKey": null,
+          "icon": null
+        },
+        {
           "id": "CATFALL2-STASIS",
           "name": {
             "en": "凝滞",
@@ -21058,7 +21422,24 @@
       "isSpell": false,
       "attachedCardTips": [],
       "descriptionKeywordPrefix": [],
-      "descriptionKeywordSuffix": [],
+      "descriptionKeywordSuffix": [
+        {
+          "mode": "always",
+          "style": null,
+          "label": {
+            "en": "Exhaust.",
+            "zh": "消耗。"
+          }
+        },
+        {
+          "mode": "always",
+          "style": null,
+          "label": {
+            "en": "加速.",
+            "zh": "加速。"
+          }
+        }
+      ],
       "dynamicDescriptionLines": [],
       "catfall": true
     },
@@ -22295,8 +22676,26 @@
           "upgradeWithParent": false
         }
       ],
-      "descriptionKeywordPrefix": [],
-      "descriptionKeywordSuffix": [],
+      "descriptionKeywordPrefix": [
+        {
+          "mode": "always",
+          "style": null,
+          "label": {
+            "en": "Ethereal.",
+            "zh": "虚无。"
+          }
+        }
+      ],
+      "descriptionKeywordSuffix": [
+        {
+          "mode": "always",
+          "style": null,
+          "label": {
+            "en": "Exhaust.",
+            "zh": "消耗。"
+          }
+        }
+      ],
       "dynamicDescriptionLines": [],
       "catfall": true
     },
@@ -22548,6 +22947,20 @@
       "notInPool": false,
       "attachedTips": [
         {
+          "id": "CATFALL2-VOLATILE",
+          "name": {
+            "en": "消散",
+            "zh": "消散"
+          },
+          "description": {
+            "en": "本牌结束[gold]凝滞[/gold]时，被[gold]消耗[/gold]而非返回手牌。",
+            "zh": "本牌结束[gold]凝滞[/gold]时，被[gold]消耗[/gold]而非返回手牌。"
+          },
+          "dynamicValues": {},
+          "sourceValueKey": null,
+          "icon": null
+        },
+        {
           "id": "CATFALL2-STASIS",
           "name": {
             "en": "凝滞",
@@ -22594,7 +23007,16 @@
       "hasConjure": false,
       "isSpell": false,
       "attachedCardTips": [],
-      "descriptionKeywordPrefix": [],
+      "descriptionKeywordPrefix": [
+        {
+          "mode": "always",
+          "style": null,
+          "label": {
+            "en": "消散.",
+            "zh": "消散。"
+          }
+        }
+      ],
       "descriptionKeywordSuffix": [],
       "dynamicDescriptionLines": [],
       "catfall": true
@@ -23471,6 +23893,20 @@
       "notInPool": false,
       "attachedTips": [
         {
+          "id": "CATFALL2-ACCELERATE",
+          "name": {
+            "en": "加速",
+            "zh": "加速"
+          },
+          "description": {
+            "en": "最右端被[gold]凝滞[/gold]的牌的倒计时减[blue]1[/blue]。",
+            "zh": "最右端被[gold]凝滞[/gold]的牌的倒计时减[blue]1[/blue]。"
+          },
+          "dynamicValues": {},
+          "sourceValueKey": null,
+          "icon": null
+        },
+        {
           "id": "CATFALL2-STASIS",
           "name": {
             "en": "凝滞",
@@ -23490,7 +23926,16 @@
       "isSpell": false,
       "attachedCardTips": [],
       "descriptionKeywordPrefix": [],
-      "descriptionKeywordSuffix": [],
+      "descriptionKeywordSuffix": [
+        {
+          "mode": "always",
+          "style": null,
+          "label": {
+            "en": "加速.",
+            "zh": "加速。"
+          }
+        }
+      ],
       "dynamicDescriptionLines": [],
       "catfall": true
     },
@@ -23550,20 +23995,6 @@
       "notInPool": false,
       "attachedTips": [
         {
-          "id": "CATFALL2-STASIS",
-          "name": {
-            "en": "凝滞",
-            "zh": "凝滞"
-          },
-          "description": {
-            "en": "将牌挂起并从其耗能+[blue]1[/blue]开始倒计时，每回合减[blue]1[/blue]。\n归零时，其返回手牌且单次免费打出。",
-            "zh": "将牌挂起并从其耗能+[blue]1[/blue]开始倒计时，每回合减[blue]1[/blue]。\n归零时，其返回手牌且单次免费打出。"
-          },
-          "dynamicValues": {},
-          "sourceValueKey": null,
-          "icon": null
-        },
-        {
           "id": "CATFALL2-ACCELERATE",
           "name": {
             "en": "加速",
@@ -23576,6 +24007,20 @@
           "dynamicValues": {},
           "sourceValueKey": null,
           "icon": null
+        },
+        {
+          "id": "CATFALL2-STASIS",
+          "name": {
+            "en": "凝滞",
+            "zh": "凝滞"
+          },
+          "description": {
+            "en": "将牌挂起并从其耗能+[blue]1[/blue]开始倒计时，每回合减[blue]1[/blue]。\n归零时，其返回手牌且单次免费打出。",
+            "zh": "将牌挂起并从其耗能+[blue]1[/blue]开始倒计时，每回合减[blue]1[/blue]。\n归零时，其返回手牌且单次免费打出。"
+          },
+          "dynamicValues": {},
+          "sourceValueKey": null,
+          "icon": null
         }
       ],
       "visualColor": "GUARDIAN",
@@ -23583,7 +24028,16 @@
       "isSpell": false,
       "attachedCardTips": [],
       "descriptionKeywordPrefix": [],
-      "descriptionKeywordSuffix": [],
+      "descriptionKeywordSuffix": [
+        {
+          "mode": "always",
+          "style": null,
+          "label": {
+            "en": "加速.",
+            "zh": "加速。"
+          }
+        }
+      ],
       "dynamicDescriptionLines": [],
       "catfall": true
     },
@@ -23815,7 +24269,16 @@
       "hasConjure": false,
       "isSpell": false,
       "attachedCardTips": [],
-      "descriptionKeywordPrefix": [],
+      "descriptionKeywordPrefix": [
+        {
+          "mode": "add",
+          "style": null,
+          "label": {
+            "en": "Innate.",
+            "zh": "固有。"
+          }
+        }
+      ],
       "descriptionKeywordSuffix": [],
       "dynamicDescriptionLines": [],
       "catfall": true
@@ -25623,16 +26086,7 @@
       "hasConjure": false,
       "isSpell": false,
       "attachedCardTips": [],
-      "descriptionKeywordPrefix": [
-        {
-          "mode": "remove",
-          "style": null,
-          "label": {
-            "en": "Ethereal.",
-            "zh": "虚无。"
-          }
-        }
-      ],
+      "descriptionKeywordPrefix": [],
       "descriptionKeywordSuffix": [],
       "dynamicDescriptionLines": [],
       "catfall": true
@@ -26149,16 +26603,7 @@
       "hasConjure": false,
       "isSpell": false,
       "attachedCardTips": [],
-      "descriptionKeywordPrefix": [
-        {
-          "mode": "remove",
-          "style": null,
-          "label": {
-            "en": "Ethereal.",
-            "zh": "虚无。"
-          }
-        }
-      ],
+      "descriptionKeywordPrefix": [],
       "descriptionKeywordSuffix": [
         {
           "mode": "always",
@@ -27493,16 +27938,7 @@
       "hasConjure": false,
       "isSpell": false,
       "attachedCardTips": [],
-      "descriptionKeywordPrefix": [
-        {
-          "mode": "remove",
-          "style": null,
-          "label": {
-            "en": "Ethereal.",
-            "zh": "虚无。"
-          }
-        }
-      ],
+      "descriptionKeywordPrefix": [],
       "descriptionKeywordSuffix": [],
       "dynamicDescriptionLines": [],
       "catfall": true
@@ -28142,16 +28578,7 @@
       "hasConjure": false,
       "isSpell": false,
       "attachedCardTips": [],
-      "descriptionKeywordPrefix": [
-        {
-          "mode": "remove",
-          "style": null,
-          "label": {
-            "en": "Ethereal.",
-            "zh": "虚无。"
-          }
-        }
-      ],
+      "descriptionKeywordPrefix": [],
       "descriptionKeywordSuffix": [
         {
           "mode": "always",
@@ -28338,16 +28765,7 @@
       "hasConjure": false,
       "isSpell": false,
       "attachedCardTips": [],
-      "descriptionKeywordPrefix": [
-        {
-          "mode": "remove",
-          "style": null,
-          "label": {
-            "en": "Ethereal.",
-            "zh": "虚无。"
-          }
-        }
-      ],
+      "descriptionKeywordPrefix": [],
       "descriptionKeywordSuffix": [],
       "dynamicDescriptionLines": [],
       "catfall": true
@@ -31388,26 +31806,8 @@
       "hasConjure": false,
       "isSpell": false,
       "attachedCardTips": [],
-      "descriptionKeywordPrefix": [
-        {
-          "mode": "always",
-          "style": null,
-          "label": {
-            "en": "Retain.",
-            "zh": "保留。"
-          }
-        }
-      ],
-      "descriptionKeywordSuffix": [
-        {
-          "mode": "always",
-          "style": null,
-          "label": {
-            "en": "Exhaust.",
-            "zh": "消耗。"
-          }
-        }
-      ],
+      "descriptionKeywordPrefix": [],
+      "descriptionKeywordSuffix": [],
       "dynamicDescriptionLines": [],
       "catfall": true
     },
@@ -44915,16 +45315,7 @@
       "hasConjure": false,
       "isSpell": false,
       "attachedCardTips": [],
-      "descriptionKeywordPrefix": [
-        {
-          "mode": "add",
-          "style": null,
-          "label": {
-            "en": "Concentrate.",
-            "zh": "专注。"
-          }
-        }
-      ],
+      "descriptionKeywordPrefix": [],
       "descriptionKeywordSuffix": [
         {
           "mode": "remove",
@@ -45240,7 +45631,7 @@
       "attachedCardTips": [],
       "descriptionKeywordPrefix": [
         {
-          "mode": "add",
+          "mode": "always",
           "style": null,
           "label": {
             "en": "Concentrate.",
@@ -45730,16 +46121,7 @@
       "hasConjure": false,
       "isSpell": false,
       "attachedCardTips": [],
-      "descriptionKeywordPrefix": [
-        {
-          "mode": "always",
-          "style": null,
-          "label": {
-            "en": "Advance.",
-            "zh": "步进。"
-          }
-        }
-      ],
+      "descriptionKeywordPrefix": [],
       "descriptionKeywordSuffix": [
         {
           "mode": "always",
@@ -45873,24 +46255,7 @@
       "hasConjure": false,
       "isSpell": false,
       "attachedCardTips": [],
-      "descriptionKeywordPrefix": [
-        {
-          "mode": "always",
-          "style": null,
-          "label": {
-            "en": "Ethereal.",
-            "zh": "虚无。"
-          }
-        },
-        {
-          "mode": "always",
-          "style": "afterlife",
-          "label": {
-            "en": "Afterlife.",
-            "zh": "阴世。"
-          }
-        }
-      ],
+      "descriptionKeywordPrefix": [],
       "descriptionKeywordSuffix": [],
       "dynamicDescriptionLines": [],
       "catfall": true
@@ -46303,13 +46668,44 @@
           "dynamicValues": {},
           "sourceValueKey": "MetallicizePower",
           "icon": null
+        },
+        {
+          "id": "HEXAGHOST-AFTERLIFE",
+          "name": {
+            "en": "Afterlife",
+            "zh": "阴世"
+          },
+          "description": {
+            "en": "The green effect will also trigger when this card is [gold]Exhausted[/gold].",
+            "zh": "本牌被打出或被[gold]消耗[/gold]均会触发绿色效果。"
+          },
+          "dynamicValues": {},
+          "sourceValueKey": null,
+          "icon": null
         }
       ],
       "visualColor": "HEXAGHOST",
       "hasConjure": false,
       "isSpell": false,
       "attachedCardTips": [],
-      "descriptionKeywordPrefix": [],
+      "descriptionKeywordPrefix": [
+        {
+          "mode": "always",
+          "style": null,
+          "label": {
+            "en": "Ethereal.",
+            "zh": "虚无。"
+          }
+        },
+        {
+          "mode": "always",
+          "style": "afterlife",
+          "label": {
+            "en": "Afterlife.",
+            "zh": "阴世。"
+          }
+        }
+      ],
       "descriptionKeywordSuffix": [],
       "dynamicDescriptionLines": [],
       "catfall": true
@@ -47159,17 +47555,25 @@
       "hasConjure": false,
       "isSpell": false,
       "attachedCardTips": [],
-      "descriptionKeywordPrefix": [],
-      "descriptionKeywordSuffix": [
+      "descriptionKeywordPrefix": [
         {
           "mode": "always",
           "style": null,
           "label": {
-            "en": "Exhaust.",
-            "zh": "消耗。"
+            "en": "Ethereal.",
+            "zh": "虚无。"
+          }
+        },
+        {
+          "mode": "always",
+          "style": "afterlife",
+          "label": {
+            "en": "Afterlife.",
+            "zh": "阴世。"
           }
         }
       ],
+      "descriptionKeywordSuffix": [],
       "dynamicDescriptionLines": [],
       "catfall": true
     },
@@ -47517,16 +47921,7 @@
       "hasConjure": false,
       "isSpell": false,
       "attachedCardTips": [],
-      "descriptionKeywordPrefix": [
-        {
-          "mode": "always",
-          "style": null,
-          "label": {
-            "en": "Advance.",
-            "zh": "步进。"
-          }
-        }
-      ],
+      "descriptionKeywordPrefix": [],
       "descriptionKeywordSuffix": [
         {
           "mode": "always",
@@ -48075,16 +48470,7 @@
       "hasConjure": false,
       "isSpell": false,
       "attachedCardTips": [],
-      "descriptionKeywordPrefix": [
-        {
-          "mode": "always",
-          "style": null,
-          "label": {
-            "en": "Advance.",
-            "zh": "步进。"
-          }
-        }
-      ],
+      "descriptionKeywordPrefix": [],
       "descriptionKeywordSuffix": [
         {
           "mode": "remove",
@@ -48353,16 +48739,7 @@
       "hasConjure": false,
       "isSpell": false,
       "attachedCardTips": [],
-      "descriptionKeywordPrefix": [
-        {
-          "mode": "always",
-          "style": null,
-          "label": {
-            "en": "Advance.",
-            "zh": "步进。"
-          }
-        }
-      ],
+      "descriptionKeywordPrefix": [],
       "descriptionKeywordSuffix": [
         {
           "mode": "remove",
@@ -49568,16 +49945,7 @@
       "isSpell": false,
       "attachedCardTips": [],
       "descriptionKeywordPrefix": [],
-      "descriptionKeywordSuffix": [
-        {
-          "mode": "always",
-          "style": null,
-          "label": {
-            "en": "Exhaust.",
-            "zh": "消耗。"
-          }
-        }
-      ],
+      "descriptionKeywordSuffix": [],
       "dynamicDescriptionLines": [],
       "catfall": true
     },
@@ -50074,16 +50442,7 @@
       "hasConjure": false,
       "isSpell": false,
       "attachedCardTips": [],
-      "descriptionKeywordPrefix": [
-        {
-          "mode": "always",
-          "style": null,
-          "label": {
-            "en": "Innate.",
-            "zh": "固有。"
-          }
-        }
-      ],
+      "descriptionKeywordPrefix": [],
       "descriptionKeywordSuffix": [],
       "dynamicDescriptionLines": [],
       "catfall": true
@@ -50177,14 +50536,6 @@
       "isSpell": false,
       "attachedCardTips": [],
       "descriptionKeywordPrefix": [
-        {
-          "mode": "add",
-          "style": null,
-          "label": {
-            "en": "Retain.",
-            "zh": "保留。"
-          }
-        },
         {
           "mode": "remove",
           "style": null,
@@ -54090,16 +54441,7 @@
       "isSpell": false,
       "attachedCardTips": [],
       "descriptionKeywordPrefix": [],
-      "descriptionKeywordSuffix": [
-        {
-          "mode": "always",
-          "style": null,
-          "label": {
-            "en": "Exhaust.",
-            "zh": "消耗。"
-          }
-        }
-      ],
+      "descriptionKeywordSuffix": [],
       "dynamicDescriptionLines": [],
       "catfall": true
     },
@@ -56674,16 +57016,7 @@
       "hasConjure": false,
       "isSpell": false,
       "attachedCardTips": [],
-      "descriptionKeywordPrefix": [
-        {
-          "mode": "always",
-          "style": null,
-          "label": {
-            "en": "Buried.",
-            "zh": "深埋。"
-          }
-        }
-      ],
+      "descriptionKeywordPrefix": [],
       "descriptionKeywordSuffix": [
         {
           "mode": "always",
@@ -56691,6 +57024,14 @@
           "label": {
             "en": "Exhaust.",
             "zh": "消耗。"
+          }
+        },
+        {
+          "mode": "always",
+          "style": null,
+          "label": {
+            "en": "Buried.",
+            "zh": "深埋。"
           }
         }
       ],
@@ -63133,14 +63474,6 @@
           }
         },
         {
-          "mode": "always",
-          "style": null,
-          "label": {
-            "en": "Eternal.",
-            "zh": "永恒。"
-          }
-        },
-        {
           "mode": "add",
           "style": null,
           "label": {
@@ -63149,7 +63482,16 @@
           }
         }
       ],
-      "descriptionKeywordSuffix": [],
+      "descriptionKeywordSuffix": [
+        {
+          "mode": "always",
+          "style": null,
+          "label": {
+            "en": "Eternal.",
+            "zh": "永恒。"
+          }
+        }
+      ],
       "dynamicDescriptionLines": [],
       "catfall": true
     },
@@ -63890,7 +64232,7 @@
       "attachedCardTips": [],
       "descriptionKeywordPrefix": [
         {
-          "mode": "add",
+          "mode": "always",
           "style": null,
           "label": {
             "en": "Retain.",
@@ -64521,16 +64863,7 @@
       "hasConjure": false,
       "isSpell": false,
       "attachedCardTips": [],
-      "descriptionKeywordPrefix": [
-        {
-          "mode": "remove",
-          "style": null,
-          "label": {
-            "en": "Ethereal.",
-            "zh": "虚无。"
-          }
-        }
-      ],
+      "descriptionKeywordPrefix": [],
       "descriptionKeywordSuffix": [],
       "dynamicDescriptionLines": [],
       "catfall": true
