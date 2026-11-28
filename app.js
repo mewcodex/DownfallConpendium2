@@ -2529,7 +2529,7 @@ async function init() {
     initialParams.set("lang", "zh");
     initialParams.delete("translator_mode");
   }
-  const response = await fetch(`${state.catfall ? "data/catfall-cards.json" : "data/cards.json"}?v=20261124-2`);
+  const response = await fetch(state.catfall ? "data/catfall-cards.json?v=20261127" : "data/cards.json?v=20261124-2");
   if (!response.ok) {
     elements.summary.textContent = "Missing data/cards.json. Run the pipeline first.";
     return;

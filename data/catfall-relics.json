@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-24T08:34:46.953266Z",
+  "generatedAt": "2026-11-28T04:21:04.649850Z",
   "modVersion": "catfall2 1.0 + Downfall 0.1.15",
   "translationVersion": "bundled",
   "translationSource": "bundled",
@@ -2061,7 +2061,7 @@
       "imageResource": "",
       "deprecated": false,
       "dynamicValues": {
-        "Brace": 39
+        "Brace": 35
       },
       "attachedTips": [
         {
@@ -4287,12 +4287,12 @@
       "imageResource": "",
       "deprecated": false,
       "dynamicValues": {
-        "Heal": 3,
-        "UsesLeft": 15,
-        "MaxUses": 15,
-        "UsesLeftBase": 15,
+        "Heal": 4,
+        "UsesLeft": 20,
+        "MaxUses": 20,
+        "UsesLeftBase": 20,
         "UsesLeftExtra": 1,
-        "MaxUsesBase": 15,
+        "MaxUsesBase": 20,
         "MaxUsesExtra": 1,
         "SlimeSplitPower": 1
       },
